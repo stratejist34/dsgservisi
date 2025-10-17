@@ -150,16 +150,6 @@
   }
 }
 
-@media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
-  }
-  .shimmer {
-    animation: none !important;
-  }
-}
-
 .shimmer {
   background: linear-gradient(
     to right,
@@ -170,6 +160,26 @@
   );
   background-size: 1000px 100%;
   animation: shimmer 2s infinite linear;
+}
+
+/* Loading animation */
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(26, 156, 176, 0.3);
+  border-radius: 50%;
+  border-top-color: #1a9cb0;
+  animation: spin 1s ease-in-out infinite;
 }
 
 /* Hover scale effect */
@@ -192,5 +202,12 @@
 
 .magnetic-btn:active {
   transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
 }
 

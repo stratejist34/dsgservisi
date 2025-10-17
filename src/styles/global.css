@@ -123,14 +123,6 @@
   }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  @layer utilities {
-    .text-gradient {
-      @apply bg-gradient-to-r from-primary via-cyan to-primary-600 bg-clip-text text-transparent bg-300% animate-gradient;
-    }
-  }
-}
-
 /* Custom scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
