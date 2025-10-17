@@ -53,19 +53,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   {/* Preload Critical Resources */}
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  
-  {/* Google Analytics */}
-  {import.meta.env.PUBLIC_GA_ID && (
-    <>
-      <script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_ID}`}></script>
-      <script is:inline define:vars={{ gaId: import.meta.env.PUBLIC_GA_ID }}>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', gaId);
-      </script>
-    </>
-  )}
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Barlow:wght@400&display=swap" as="style" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&subset=latin,latin-ext&display=swap" media="print" onload="this.media='all'"/>
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&subset=latin,latin-ext&display=swap" />
+  </noscript>
   
   {/* Google Search Console Verification */}
   {import.meta.env.PUBLIC_GSC_VERIFICATION && (
@@ -86,6 +78,19 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   {/* Floating Buttons */}
   <PhoneButton client:load />
   <WhatsAppButton client:load />
+
+  {/* Google Analytics - Deferred */}
+  {import.meta.env.PUBLIC_GA_ID && (
+    <>
+      <script defer src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_ID}`}></script>
+      <script is:inline define:vars={{ gaId: import.meta.env.PUBLIC_GA_ID }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', gaId);
+      </script>
+    </>
+  )}
 </body>
 </html>
 

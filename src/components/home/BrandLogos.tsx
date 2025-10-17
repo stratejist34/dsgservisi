@@ -34,12 +34,18 @@ export default function BrandLogos() {
           {/* Logo Container ÜSTTE - Normal 2px, Hover 1px border */}
           <div className="absolute inset-[2px] group-hover:inset-[3px] flex items-center justify-center rounded-full bg-navy cursor-pointer transition-all duration-300 z-10">
             {/* Logo Image - Hover'da scale */}
-            <img
-              src={brand.logo}
-              alt={`${brand.name} Servisi`}
-              className="w-10 h-10 md:w-12 md:h-12 object-contain filter brightness-0 invert opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
-              loading="lazy"
-            />
+            <picture>
+              <source srcset={brand.logo.replace(/\.png$/i, '.avif')} type="image/avif" />
+              <source srcset={brand.logo.replace(/\.png$/i, '.webp')} type="image/webp" />
+              <img
+                src={brand.logo}
+                alt={`${brand.name} Servisi`}
+                className="w-10 h-10 md:w-12 md:h-12 object-contain filter brightness-0 invert opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
+                loading="lazy"
+                width="48"
+                height="48"
+              />
+            </picture>
           </div>
         </a>
       ))}

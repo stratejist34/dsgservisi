@@ -11,7 +11,8 @@
     "check": "astro check",
     "wp:cache": "node scripts/build-wp-cache.mjs",
     "wp:images": "node scripts/build-wp-images.mjs",
-    "img:convert": "node scripts/convert-images.mjs"
+    "img:convert": "node scripts/convert-images.mjs",
+    "img:optimize-logos": "node scripts/optimize-logos.mjs"
   },
   "dependencies": {
     "@astrojs/check": "^0.9.4",
