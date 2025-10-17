@@ -1,4 +1,39 @@
 const API_URL = import.meta.env.PUBLIC_WORDPRESS_API_URL || 'https://dsgservisi.com/wp-json/wp/v2';
+const USE_WP_CACHE = (import.meta.env.PUBLIC_USE_WP_CACHE || '').toString() === 'true';
+
+// Node-side helpers for reading cache at build time
+let fsMod: typeof import('node:fs/promises') | null = null;
+let pathMod: typeof import('node:path') | null = null;
+const isServer = typeof window === 'undefined';
+
+async function ensureNodeModules() {
+  if (!isServer) return;
+  if (!fsMod) {
+    fsMod = (await import('node:fs/promises')).default;
+  }
+  if (!pathMod) {
+    pathMod = await import('node:path');
+  }
+}
+
+async function readCacheJson<T>(fileName: string, fallback: T): Promise<T> {
+  try {
+    if (isServer) {
+      await ensureNodeModules();
+      if (fsMod && pathMod) {
+        const filePath = pathMod.join(process.cwd(), 'public', 'wp-cache', fileName);
+        const data = await fsMod.readFile(filePath, 'utf-8');
+        return JSON.parse(data) as T;
+      }
+    }
+    // Client-side fallback (should rarely be used)
+    const res = await fetch(`/wp-cache/${fileName}`);
+    if (res.ok) return (await res.json()) as T;
+    return fallback;
+  } catch {
+    return fallback;
+  }
+}
 
 export interface WPPost {
   id: number;
@@ -74,6 +109,10 @@ export async function fetchPosts(page = 1, perPage = 12): Promise<WPPost[]> {
     
     return await response.json();
   } catch (error) {
+    if (USE_WP_CACHE) {
+      const cached = await readCacheJson<WPPost[]>('posts.json', []);
+      if (cached.length) return cached;
+    }
     console.error('Error fetching posts:', error);
     return [];
   }
@@ -86,6 +125,11 @@ export async function fetchPostBySlug(slug: string): Promise<WPPost | null> {
     const posts = await response.json();
     return posts[0] || null;
   } catch (error) {
+    if (USE_WP_CACHE) {
+      const cached = await readCacheJson<WPPost[]>('posts.json', []);
+      const found = cached.find((p) => p.slug === slug) || null;
+      if (found) return found;
+    }
     console.error('Error fetching post:', error);
     return null;
   }
@@ -111,6 +155,13 @@ export async function getAllPostSlugs(): Promise<string[]> {
     const posts = await response.json();
     return posts.map((post: { slug: string }) => post.slug);
   } catch (error) {
+    if (USE_WP_CACHE) {
+      const cached = await readCacheJson<Array<{ slug: string } | WPPost>>('posts.json', []);
+      if (cached.length) {
+        // Handle both minimal {slug} or full WPPost
+        return cached.map((p: any) => p.slug).filter(Boolean);
+      }
+    }
     console.error('Error fetching post slugs:', error);
     return [];
   }
