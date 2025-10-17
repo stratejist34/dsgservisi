@@ -17,15 +17,19 @@ const navLinks = [
     <div class="flex items-center justify-between h-20">
       {/* Logo */}
       <a href="/" class="flex items-center gap-3 group">
-        <img 
-          src="/images/logo.png" 
-          alt="DSG Servisi - Yıldızlar Grup" 
-          class="h-8 md:h-10 w-auto transition-transform duration-300 group-hover:scale-110"
-          loading="eager"
-          fetchpriority="high"
-          width="48"
-          height="48"
-        />
+        <picture>
+          <source srcset="/images/logo.avif" type="image/avif">
+          <source srcset="/images/logo.webp" type="image/webp">
+          <img 
+            src="/images/logo.png" 
+            alt="DSG Servisi - Yıldızlar Grup" 
+            class="h-8 md:h-10 w-auto transition-transform duration-300 group-hover:scale-110"
+            loading="eager"
+            fetchpriority="high"
+            width="48"
+            height="48"
+          />
+        </picture>
       </a>
 
       {/* Desktop Navigation */}
