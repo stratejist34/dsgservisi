@@ -2,11 +2,15 @@
 import { getAllPostSlugs } from '@utils/wordpress';
 
 export async function getStaticPaths() {
-  const slugs = await getAllPostSlugs();
-  
-  return slugs.map((slug) => ({
-    params: { slug },
-  }));
+  try {
+    const slugs = await getAllPostSlugs();
+    return slugs.map((slug) => ({
+      params: { slug },
+    }));
+  } catch (error) {
+    console.log('WordPress API not available, skipping blog posts');
+    return [];
+  }
 }
 
 const { slug } = Astro.params;
