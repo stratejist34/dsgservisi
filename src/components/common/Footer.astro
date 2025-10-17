@@ -7,14 +7,18 @@ import { SITE_CONFIG } from '@utils/constants';
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
       {/* Company Info */}
       <div>
-        <img 
-          src="/images/logo.png" 
-          alt="DSG Servisi Logo" 
-          class="h-10 md:h-12 w-auto mb-6"
-          loading="lazy"
-          width="48"
-          height="48"
-        />
+        <picture>
+          <source srcset="/images/logo.avif" type="image/avif">
+          <source srcset="/images/logo.webp" type="image/webp">
+          <img 
+            src="/images/logo.png" 
+            alt="DSG Servisi Logo" 
+            class="h-10 md:h-12 w-auto mb-6"
+            loading="lazy"
+            width="48"
+            height="48"
+          />
+        </picture>
         <p class="text-white/80 leading-relaxed mb-6">
           {SITE_CONFIG.stats.experience}+ yıldır güvenilir ve kaliteli DSG servis hizmeti.
         </p>

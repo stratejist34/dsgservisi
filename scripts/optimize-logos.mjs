@@ -9,13 +9,15 @@ import path from 'node:path';
 import sharp from 'sharp';
 
 const LOGOS_DIR = path.join(process.cwd(), 'public', 'images', 'logos');
-const TARGET_SIZE = 120; // Max width/height for logos
+const MAIN_LOGO_PATH = path.join(process.cwd(), 'public', 'images', 'logo.png');
+const TARGET_SIZE_BRAND_LOGOS = 120; // Max width/height for brand logos
+const TARGET_SIZE_MAIN_LOGO = 48; // Max width/height for main logo
 
 async function fileExists(p) {
   try { await fs.access(p); return true; } catch { return false; }
 }
 
-async function optimizeOneLogo(inputPath) {
+async function optimizeOneImage(inputPath, targetSize) {
   const ext = path.extname(inputPath).toLowerCase();
   const base = inputPath.slice(0, -ext.length);
 
@@ -23,23 +25,31 @@ async function optimizeOneLogo(inputPath) {
   const outAvif = `${base}.avif`;
 
   try {
-    const image = sharp(inputPath);
+    let image = sharp(inputPath);
     const metadata = await image.metadata();
 
-    let pipeline = image;
-    if (metadata.width && metadata.width > TARGET_SIZE) {
-      pipeline = pipeline.resize(TARGET_SIZE, TARGET_SIZE, { fit: 'contain' });
+    if (metadata.width && metadata.width > targetSize) {
+      image = image.resize(targetSize, targetSize, { fit: 'contain' });
+    }
+
+    // Optimize original format and overwrite
+    if (ext === '.png') {
+      const optimizedBuffer = await image.png({ quality: 80 }).toBuffer();
+      await fs.writeFile(inputPath, optimizedBuffer);
+    } else if (ext === '.jpg' || ext === '.jpeg') {
+      const optimizedBuffer = await image.jpeg({ quality: 80 }).toBuffer();
+      await fs.writeFile(inputPath, optimizedBuffer);
     }
 
     // WebP
     if (!(await fileExists(outWebp))) {
-      await pipeline
+      await image
         .webp({ quality: 80 })
         .toFile(outWebp);
     }
     // AVIF
     if (!(await fileExists(outAvif))) {
-      await pipeline
+      await image
         .avif({ quality: 60 })
         .toFile(outAvif);
     }
@@ -50,23 +60,31 @@ async function optimizeOneLogo(inputPath) {
 }
 
 async function main() {
-  if (!(await fileExists(LOGOS_DIR))) {
-    console.warn('Logos directory not found:', LOGOS_DIR);
-    return;
+  let totalOk = 0; let totalFail = 0;
+
+  // Optimize main logo
+  if (await fileExists(MAIN_LOGO_PATH)) {
+    console.log(`Optimizing main logo: ${MAIN_LOGO_PATH}`);
+    const res = await optimizeOneImage(MAIN_LOGO_PATH, TARGET_SIZE_MAIN_LOGO);
+    if (res.ok) totalOk++; else { totalFail++; console.warn('Optimize fail (main logo):', res.inputPath, res.error); }
   }
 
-  const entries = await fs.readdir(LOGOS_DIR, { withFileTypes: true });
-  const files = entries
-    .filter((d) => d.isFile())
-    .map((d) => path.join(LOGOS_DIR, d.name))
-    .filter((f) => /\.(png|jpg|jpeg)$/i.test(f)); // Sadece orjinal PNG/JPG/JPEG'leri hedefle
+  // Optimize brand logos
+  if (await fileExists(LOGOS_DIR)) {
+    console.log(`Optimizing brand logos in: ${LOGOS_DIR}`);
+    const entries = await fs.readdir(LOGOS_DIR, { withFileTypes: true });
+    const files = entries
+      .filter((d) => d.isFile())
+      .map((d) => path.join(LOGOS_DIR, d.name))
+      .filter((f) => /\.(png|jpg|jpeg)$/i.test(f)); // Sadece orjinal PNG/JPG/JPEG'leri hedefle
 
-  let success = 0; let fail = 0;
-  for (const f of files) {
-    const res = await optimizeOneLogo(f);
-    if (res.ok) success++; else { fail++; console.warn('Optimize fail:', res.inputPath, res.error); }
+    for (const f of files) {
+      const res = await optimizeOneImage(f, TARGET_SIZE_BRAND_LOGOS);
+      if (res.ok) totalOk++; else { totalFail++; console.warn('Optimize fail:', res.inputPath, res.error); }
+    }
   }
-  console.log(`✅ Logo optimization done. OK: ${success}, Fail: ${fail}`);
+
+  console.log(`✅ Logo optimization done. OK: ${totalOk}, Fail: ${totalFail}`);
 }
 
 main().catch((e) => {
