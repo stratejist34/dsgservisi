@@ -49,9 +49,10 @@ export default function Reviews() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
-  const maxIndex = REVIEWS.length - 3; // 4 review - 3 görünen = 1 max
+  // Tek kart gösteriyoruz
+  const maxIndex = REVIEWS.length - 1;
 
-  // Auto-scroll effect
+  // Auto-scroll effect - her 5 saniyede bir değişir
   useEffect(() => {
     if (!isAutoPlaying) return;
 
@@ -66,19 +67,13 @@ export default function Reviews() {
   }, [isAutoPlaying, currentIndex, maxIndex]);
 
   const goToNext = () => {
-    setCurrentIndex((prev) => {
-      if (prev >= maxIndex) return 0;
-      return prev + 1;
-    });
+    setCurrentIndex((prev) => (prev >= maxIndex ? 0 : prev + 1));
     setIsAutoPlaying(false);
     setTimeout(() => setIsAutoPlaying(true), 10000);
   };
 
   const goToPrev = () => {
-    setCurrentIndex((prev) => {
-      if (prev <= 0) return maxIndex;
-      return prev - 1;
-    });
+    setCurrentIndex((prev) => (prev <= 0 ? maxIndex : prev - 1));
     setIsAutoPlaying(false);
     setTimeout(() => setIsAutoPlaying(true), 10000);
   };
@@ -96,12 +91,12 @@ export default function Reviews() {
           </p>
         </div>
 
-        {/* Grid Layout: Google Card (1 col) + Reviews (3 cols) */}
-        <div className="grid lg:grid-cols-4 gap-8 max-w-7xl mx-auto">
+        {/* Vertical Layout: Google Card Top + Review Carousel Bottom */}
+        <div className="max-w-3xl mx-auto space-y-8">
           
-        {/* GOOGLE CARD - SABİT */}
-        <div className="lg:col-span-1">
-          <div className="sticky top-24 bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-2xl p-6 border-2 border-cyan/30 shadow-2xl">
+        {/* GOOGLE CARD - ÜST */}
+        <div className="w-full">
+          <div className="bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-2xl p-6 md:p-8 border-2 border-cyan/30 shadow-2xl">
             <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
               {/* Google Logo */}
               <div className="flex justify-center mb-4">
@@ -171,21 +166,22 @@ export default function Reviews() {
             </div>
           </div>
 
-          {/* REVIEWS CAROUSEL - 3 COL */}
-          <div className="lg:col-span-3 relative overflow-hidden">
+          {/* REVIEW CAROUSEL - TEK KART ALT */}
+          <div className="w-full relative">
             {/* Carousel Container */}
-            <div 
-              className="flex transition-transform duration-700 ease-in-out"
-              style={{ 
-                transform: `translateX(-${currentIndex * (100 / 3)}%)`,
-              }}
-            >
-                     {REVIEWS.map((review) => (
-                       <div
-                         key={review.id}
-                         className="w-1/3 flex-shrink-0 px-2"
-                       >
-                           <div className="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-2xl shadow-xl p-6 md:p-8 h-full border-2 border-cyan/30">
+            <div className="relative overflow-hidden">
+              <div 
+                className="flex transition-transform duration-700 ease-in-out"
+                style={{ 
+                  transform: `translateX(-${currentIndex * 100}%)`,
+                }}
+              >
+                {REVIEWS.map((review) => (
+                  <div
+                    key={review.id}
+                    className="w-full flex-shrink-0"
+                  >
+                    <div className="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-2xl shadow-xl p-6 md:p-8 border-2 border-cyan/30">
                              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
                       {/* Header */}
                       <div className="flex items-start gap-4 mb-4">
@@ -235,11 +231,33 @@ export default function Reviews() {
                     </div>
                   </div>
                 ))}
+              </div>
+
+              {/* Navigation Arrows */}
+              <button
+                onClick={goToPrev}
+                className="absolute left-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all hover:scale-110 z-10"
+                aria-label="Önceki yorum"
+              >
+                <svg className="w-5 h-5 text-navy" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M15 19l-7-7 7-7" />
+                </svg>
+              </button>
+              
+              <button
+                onClick={goToNext}
+                className="absolute right-2 top-1/2 -translate-y-1/2 bg-white/90 hover:bg-white p-3 rounded-full shadow-lg transition-all hover:scale-110 z-10"
+                aria-label="Sonraki yorum"
+              >
+                <svg className="w-5 h-5 text-navy" fill="none" stroke="currentColor" strokeWidth="2.5" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M9 5l7 7-7 7" />
+                </svg>
+              </button>
             </div>
 
             {/* Navigation Dots */}
             <div className="flex justify-center gap-2 mt-6">
-              {[...Array(maxIndex + 1)].map((_, index) => (
+              {REVIEWS.map((_, index) => (
                 <button
                   key={index}
                   onClick={() => {
@@ -252,7 +270,7 @@ export default function Reviews() {
                       ? 'bg-primary w-8'
                       : 'bg-gray-300 w-2 hover:bg-gray-400'
                   }`}
-                  aria-label={`Sayfa ${index + 1}`}
+                  aria-label={`Yorum ${index + 1}`}
                 />
               ))}
             </div>
