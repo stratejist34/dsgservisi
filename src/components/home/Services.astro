@@ -40,12 +40,19 @@ import { SERVICES } from '@utils/constants';
             
             {/* Image with Overlay */}
             <div class="relative h-56 overflow-hidden rounded-t-2xl">
-              <img
-                src={service.image}
-                alt={service.title}
-                class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
-                loading="lazy"
-              />
+              <picture>
+                <source srcset={service.image.replace(/\.(jpg|jpeg|png)$/i, '.avif').replace(/\.webp$/i, '.avif')} type="image/avif" />
+                <source srcset={service.image.replace(/\.(jpg|jpeg|png)$/i, '.webp').replace(/\.avif$/i, '.webp')} type="image/webp" />
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                  loading="lazy"
+                  width="640"
+                  height="224"
+                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                />
+              </picture>
               {/* Dark Gradient Overlay - Azaltıldı */}
               <div class="absolute inset-0 bg-gradient-to-t from-navy/70 via-navy/30 to-transparent"></div>
               
