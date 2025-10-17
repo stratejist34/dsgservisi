@@ -25,31 +25,32 @@ async function optimizeOneImage(inputPath, targetSize) {
   const outAvif = `${base}.avif`;
 
   try {
-    let image = sharp(inputPath);
-    const metadata = await image.metadata();
+    const originalImage = sharp(inputPath);
+    const metadata = await originalImage.metadata();
 
+    let resizedImage = originalImage;
     if (metadata.width && metadata.width > targetSize) {
-      image = image.resize(targetSize, targetSize, { fit: 'contain' });
+      resizedImage = originalImage.resize(targetSize, targetSize, { fit: 'contain' });
     }
 
     // Optimize original format and overwrite
     if (ext === '.png') {
-      const optimizedBuffer = await image.png({ quality: 80 }).toBuffer();
+      const optimizedBuffer = await resizedImage.clone().png({ quality: 80 }).toBuffer();
       await fs.writeFile(inputPath, optimizedBuffer);
     } else if (ext === '.jpg' || ext === '.jpeg') {
-      const optimizedBuffer = await image.jpeg({ quality: 80 }).toBuffer();
+      const optimizedBuffer = await resizedImage.clone().jpeg({ quality: 80 }).toBuffer();
       await fs.writeFile(inputPath, optimizedBuffer);
     }
 
     // WebP
     if (!(await fileExists(outWebp))) {
-      await image
+      await resizedImage.clone()
         .webp({ quality: 80 })
         .toFile(outWebp);
     }
     // AVIF
     if (!(await fileExists(outAvif))) {
-      await image
+      await resizedImage.clone()
         .avif({ quality: 60 })
         .toFile(outAvif);
     }
