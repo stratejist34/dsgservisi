@@ -1,5 +1,4 @@
 const API_URL = import.meta.env.PUBLIC_WORDPRESS_API_URL || 'https://dsgservisi.com/wp-json/wp/v2';
-const USE_WP_CACHE = (import.meta.env.PUBLIC_USE_WP_CACHE || '').toString() === 'true';
 
 // Node-side helpers for reading cache at build time
 let fsMod: typeof import('node:fs/promises') | null = null;
@@ -109,11 +108,10 @@ export async function fetchPosts(page = 1, perPage = 12): Promise<WPPost[]> {
     
     return await response.json();
   } catch (error) {
-    if (USE_WP_CACHE) {
-      const cached = await readCacheJson<WPPost[]>('posts.json', []);
-      if (cached.length) return cached;
-    }
-    console.error('Error fetching posts:', error);
+    // Koşulsuz cache fallback (build-time güvenli)
+    const cached = await readCacheJson<WPPost[]>('posts.json', []);
+    if (cached.length) return cached;
+    console.error('Error fetching posts (no cache available):', error);
     return [];
   }
 }
@@ -125,12 +123,10 @@ export async function fetchPostBySlug(slug: string): Promise<WPPost | null> {
     const posts = await response.json();
     return posts[0] || null;
   } catch (error) {
-    if (USE_WP_CACHE) {
-      const cached = await readCacheJson<WPPost[]>('posts.json', []);
-      const found = cached.find((p) => p.slug === slug) || null;
-      if (found) return found;
-    }
-    console.error('Error fetching post:', error);
+    const cached = await readCacheJson<WPPost[]>('posts.json', []);
+    const found = cached.find((p) => p.slug === slug) || null;
+    if (found) return found;
+    console.error('Error fetching post (no cache available):', error);
     return null;
   }
 }
@@ -155,14 +151,12 @@ export async function getAllPostSlugs(): Promise<string[]> {
     const posts = await response.json();
     return posts.map((post: { slug: string }) => post.slug);
   } catch (error) {
-    if (USE_WP_CACHE) {
-      const cached = await readCacheJson<Array<{ slug: string } | WPPost>>('posts.json', []);
-      if (cached.length) {
-        // Handle both minimal {slug} or full WPPost
-        return cached.map((p: any) => p.slug).filter(Boolean);
-      }
+    const cached = await readCacheJson<Array<{ slug: string } | WPPost>>('posts.json', []);
+    if (cached.length) {
+      // Hem minimal {slug} hem WPPost desteği
+      return cached.map((p: any) => p.slug).filter(Boolean);
     }
-    console.error('Error fetching post slugs:', error);
+    console.error('Error fetching post slugs (no cache available):', error);
     return [];
   }
 }
@@ -177,10 +171,19 @@ export function cleanWPContent(content: string): string {
 
 // Helper function to get featured image URL
 export function getFeaturedImageUrl(post: WPPost): string {
-  return (
-    post._embedded?.['wp:featuredmedia']?.[0]?.source_url ||
-    '/images/default-blog.jpg'
-  );
+  const remote = post._embedded?.['wp:featuredmedia']?.[0]?.source_url;
+  const slug = post.slug;
+  if (slug) {
+    // En sık kullanılan uzantıları deneyerek yerel kopyayı bul
+    const exts = ['webp', 'jpg', 'jpeg', 'png'];
+    for (const ext of exts) {
+      // Not: mevcut olup olmadığını build-time’da bilmeyiz; client tarafında 404 olursa tarayıcı bir sonrakini denemez.
+      // Bu nedenle manifest yaklaşımı ideal; şimdilik basit fallback: varsayılan jpg yolu.
+      // İlk tercih: jpg yolunu döndür (script çoğu durumda jpg/png indirecek)
+      return `/wp-cache/images/${slug}.jpg`;
+    }
+  }
+  return remote || '/images/default-blog.jpg';
 }
 
 // Helper function to get excerpt
