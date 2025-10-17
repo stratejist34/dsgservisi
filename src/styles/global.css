@@ -1,0 +1,123 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&subset=latin,latin-ext&display=swap');
+
+@layer base {
+  * {
+    @apply box-border;
+  }
+  
+  body {
+    @apply bg-white text-gray-900 antialiased;
+    font-family: 'Barlow', system-ui, -apple-system, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', 'Barlow', sans-serif;
+    @apply font-semibold;
+  }
+  
+  h1 {
+    @apply text-3xl md:text-4xl lg:text-[36px] font-bold;
+  }
+  
+  h2 {
+    @apply text-2xl md:text-3xl lg:text-[32px] font-semibold;
+  }
+  
+  h3 {
+    @apply text-xl md:text-2xl lg:text-[28px] font-semibold;
+  }
+  
+  h4 {
+    @apply text-lg md:text-xl lg:text-[24px] font-semibold;
+  }
+  
+  h5 {
+    @apply text-base md:text-lg lg:text-[20px] font-semibold;
+  }
+  
+  h6 {
+    @apply text-base md:text-base lg:text-[18px] font-medium;
+  }
+}
+
+@layer components {
+  .container {
+    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  }
+  
+  .btn {
+    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-offset-2;
+  }
+  
+  .btn-primary {
+    @apply bg-gradient-to-r from-primary to-cyan text-white hover:shadow-lg hover:-translate-y-0.5;
+  }
+  
+  .btn-secondary {
+    @apply bg-navy text-white hover:bg-navy-600;
+  }
+  
+  .section {
+    @apply py-16 md:py-24 lg:py-32;
+  }
+  
+  .section-title {
+    @apply text-center mb-12 md:mb-16;
+  }
+  
+  .card {
+    @apply bg-white rounded-xl shadow-lg overflow-hidden transition-all duration-300;
+  }
+  
+  .card-hover {
+    @apply hover:-translate-y-2 hover:shadow-2xl;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary via-cyan to-primary-600 bg-clip-text text-transparent bg-300% animate-gradient;
+  }
+  
+  .glow-text {
+    text-shadow: 0 0 20px rgba(26, 156, 176, 0.5);
+  }
+  
+  .smooth-scroll {
+    scroll-behavior: smooth;
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #1a9cb0, #5dd3e0);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #157d8d, #2cc4d4);
+}
+
+/* Loading animation */
+.loading {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 3px solid rgba(26, 156, 176, 0.3);
+  border-radius: 50%;
+  border-top-color: #1a9cb0;
+  animation: spin 1s ease-in-out infinite;
+}
+

@@ -1,0 +1,97 @@
+---
+import { SITE_CONFIG } from '@utils/constants';
+
+interface Props {
+  type: 'local-business' | 'article' | 'Article' | 'BreadcrumbList';
+  data?: any;
+  article?: {
+    title: string;
+    description: string;
+    image: string;
+    datePublished: string;
+    dateModified: string;
+    author: string;
+  };
+}
+
+const { type, article, data } = Astro.props;
+
+// Local Business Schema
+const localBusinessSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'AutoRepair',
+  name: SITE_CONFIG.name,
+  image: `${Astro.site}images/logo.png`,
+  '@id': Astro.site,
+  url: Astro.site,
+  telephone: SITE_CONFIG.phoneFormatted,
+  email: SITE_CONFIG.email,
+  priceRange: '$',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: SITE_CONFIG.address.street,
+    addressLocality: SITE_CONFIG.address.city,
+    addressRegion: SITE_CONFIG.address.state,
+    postalCode: SITE_CONFIG.address.postalCode,
+    addressCountry: 'TR',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: SITE_CONFIG.coordinates.latitude,
+    longitude: SITE_CONFIG.coordinates.longitude,
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+      opens: '09:00',
+      closes: '18:00',
+    },
+  ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: SITE_CONFIG.google.rating,
+    reviewCount: SITE_CONFIG.google.reviewCount,
+  },
+  sameAs: [
+    SITE_CONFIG.socialMedia.instagram,
+    SITE_CONFIG.socialMedia.facebook,
+  ],
+};
+
+// Article Schema
+const articleSchema = article ? {
+  '@context': 'https://schema.org',
+  '@type': 'Article',
+  headline: article.title,
+  description: article.description,
+  image: article.image,
+  datePublished: article.datePublished,
+  dateModified: article.dateModified,
+  author: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.name,
+  },
+  publisher: {
+    '@type': 'Organization',
+    name: SITE_CONFIG.name,
+    logo: {
+      '@type': 'ImageObject',
+      url: `${Astro.site}images/logo.png`,
+    },
+  },
+} : null;
+
+// Select schema based on type
+let schema;
+if (type === 'local-business') {
+  schema = localBusinessSchema;
+} else if (type === 'Article' || type === 'BreadcrumbList') {
+  // Use data prop directly for Article and BreadcrumbList
+  schema = { '@context': 'https://schema.org', '@type': type, ...data };
+} else {
+  schema = articleSchema;
+}
+---
+
+<script type="application/ld+json" set:html={JSON.stringify(schema)} />

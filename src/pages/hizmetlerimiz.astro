@@ -1,0 +1,644 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { SERVICES, SITE_CONFIG } from '@utils/constants';
+import AnimatedServiceList from '@components/home/AnimatedServiceList';
+
+const seo = {
+  title: 'Hizmetlerimiz',
+  description: 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bakım ve daha fazlası. Tüm hizmetlerimizi keşfedin.',
+  url: '/hizmetlerimiz',
+};
+---
+
+<BaseLayout seo={seo}>
+  <!-- Hero Section -->
+  <section class="relative min-h-[28vh] flex items-center justify-center overflow-hidden">
+    {/* Background Image */}
+    <div class="absolute inset-0">
+      <img 
+        src="/images/workshop.jpg" 
+        alt="DSG Servisi Atölyesi" 
+        class="w-full h-full object-cover"
+      />
+      <div class="absolute inset-0 bg-gradient-to-br from-navy/95 via-navy/90 to-navy/95"></div>
+    </div>
+
+    {/* Pattern Overlay */}
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+    </div>
+
+    <div class="container relative z-10 py-8">
+      <div class="max-w-4xl mx-auto text-center">
+        {/* Badge */}
+        <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-6 py-2 rounded-full mb-3 animate-[fade-in-up_0.6s_ease-out]">
+          <svg class="w-5 h-5 text-cyan" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
+          </svg>
+          <span class="font-semibold">Profesyonel Servis Hizmetleri</span>
+        </div>
+
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white mb-3 animate-[fade-in-up_0.8s_ease-out]">
+          Hizmetlerimiz
+        </h1>
+        
+        <p class="text-base md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto animate-[fade-in-up_1s_ease-out]">
+          Araç bakımından <span class="text-cyan font-semibold">DSG şanzıman tamirine</span>, periyodik bakımdan elektrik sistemine kadar
+          geniş hizmet yelpazemiz ile yanınızdayız
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- DSG Özel Servis Hizmetlerimiz - 70/30 Layout -->
+  <section class="section bg-white relative overflow-hidden">
+    <div class="container">
+      <div class="grid lg:grid-cols-10 gap-12 items-center">
+        {/* Left Side - 70% - Large Title */}
+        <div class="lg:col-span-7">
+          <h2 class="text-6xl md:text-7xl lg:text-8xl font-display font-black text-navy leading-none mb-8">
+            DSG Özel Servis
+            <span class="block text-primary mt-2">Hizmetlerimiz</span>
+          </h2>
+          <p class="text-xl text-gray-600 leading-relaxed mb-8">
+            Volkswagen Grubu araçlarında uzman kadromuzla en kaliteli hizmeti sunuyoruz
+          </p>
+          
+          {/* Marka Logoları */}
+          <div class="flex flex-wrap items-center gap-6">
+            {['Audi', 'Volkswagen', 'Seat', 'Skoda', 'Porsche'].map((brand) => {
+              const brandData = SITE_CONFIG.brands.find(b => b.name === brand);
+              return brandData && (
+                <div key={brand} class="transition-all duration-300 hover:scale-110">
+                  <img
+                    src={brandData.logo}
+                    alt={`${brand} Servisi`}
+                    class="h-8 md:h-10 w-auto object-contain"
+                    loading="lazy"
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Right Side - 30% - Animated List */}
+        <div class="lg:col-span-3">
+          <AnimatedServiceList client:load />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Premium Grid - 4x2 -->
+  <section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
+    {/* Animated Background Pattern */}
+    <div class="absolute inset-0 opacity-20">
+      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); animation: slide-bg 30s linear infinite;"></div>
+    </div>
+
+    {/* Animated Gradient Orbs */}
+    <div class="absolute top-20 left-10 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float"></div>
+    <div class="absolute bottom-20 right-10 w-80 h-80 bg-cyan/30 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
+
+    {/* Lamp Light Effect */}
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-radial from-primary/20 via-cyan/10 to-transparent blur-3xl opacity-60 animate-lamp-flicker pointer-events-none"></div>
+
+    <div class="container relative z-10">
+      {/* Premium Cards Grid - 4 columns x 2 rows */}
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 max-w-7xl mx-auto">
+        {SERVICES.map((service, index) => (
+          <a
+            href="/iletisim"
+            class="group relative"
+            style={`animation: fade-in-up 0.6s ease-out ${index * 0.08}s both;`}
+          >
+            {/* Premium Card - Basit Border */}
+            <div class="relative h-full bg-white rounded-2xl overflow-hidden border-2 border-gray-200 shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-primary/80">
+              
+              {/* Image with Overlay */}
+              <div class="relative h-56 overflow-hidden rounded-t-2xl">
+                <img
+                  src={service.image}
+                  alt={service.title}
+                  class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                  loading="lazy"
+                />
+                {/* Dark Gradient Overlay - Azaltıldı */}
+                <div class="absolute inset-0 bg-gradient-to-t from-navy/70 via-navy/30 to-transparent"></div>
+                
+                {/* Icon Badge */}
+                <div class="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-primary to-cyan rounded-xl flex items-center justify-center shadow-xl transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12">
+                  <span class="text-2xl">{service.icon}</span>
+                </div>
+              </div>
+              
+              {/* Content */}
+              <div class="p-6 bg-white relative z-10">
+                <h3 class="text-xl md:text-2xl font-display font-bold text-navy mb-3 group-hover:text-primary transition-colors duration-300">
+                  {service.title}
+                </h3>
+                <p class="text-gray-600 text-sm leading-relaxed line-clamp-2 group-hover:text-gray-800 transition-colors">
+                  {service.description}
+                </p>
+                
+                {/* Hover Arrow */}
+                <div class="flex items-center gap-2 mt-4 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+                  <span class="text-primary font-semibold text-sm">Detaylı Bilgi</span>
+                  <svg class="w-5 h-5 text-primary transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+                  </svg>
+                </div>
+              </div>
+
+              {/* Shine Effect */}
+              <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
+                <div class="absolute inset-0 bg-gradient-to-r from-transparent via-primary/10 to-transparent transform -skew-x-12 group-hover:translate-x-full transition-transform duration-1000"></div>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Supported Brands Showcase -->
+  <section class="section bg-gradient-to-br from-navy via-navy-600 to-navy relative overflow-hidden">
+    {/* Pattern */}
+    <div class="absolute inset-0 opacity-5">
+      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+    </div>
+
+    <div class="container relative z-10">
+      <div class="text-center mb-12">
+        <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-4">
+          Çalıştığımız Premium Markalar
+        </h2>
+        <p class="text-xl text-cyan-light max-w-3xl mx-auto mb-12">
+          VW, Audi, BMW, Mercedes, Porsche, Land Rover, Seat ve Skoda araçlarında uzman servis hizmeti
+        </p>
+      </div>
+
+      {/* Brand Logos - Hero Style */}
+      <div class="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mb-16 max-w-5xl mx-auto">
+        {SITE_CONFIG.brands.filter(brand => brand.name !== 'DSG').map((brand) => (
+          <a
+            key={brand.name}
+            href={brand.url}
+            class="group relative w-16 h-16 md:w-20 md:h-20 block mx-auto"
+            aria-label={`${brand.name} Servisi`}
+          >
+            {/* Dönen Border Dairesi - 2px kalınlık */}
+            <div 
+              class="absolute inset-0 rounded-full z-0 group-hover:opacity-0 transition-opacity duration-300"
+              style={{
+                background: `conic-gradient(from 0deg, #00d4ff, #1a9cb0, #5dd3e0, #00d4ff)`,
+                animation: 'rotate-continuous 3s linear infinite',
+              }}
+            />
+
+            {/* Hover - Border Kalınlaşır (3px) */}
+            <div 
+              class="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"
+              style={{
+                background: `conic-gradient(from 0deg, #00d4ff, #1a9cb0, #5dd3e0, #00d4ff)`,
+                animation: 'rotate-continuous 2s linear infinite',
+              }}
+            />
+
+            {/* Logo Container ÜSTTE - Normal 2px, Hover 3px border */}
+            <div class="absolute inset-[2px] group-hover:inset-[3px] flex items-center justify-center rounded-full bg-navy cursor-pointer transition-all duration-300 z-10">
+              {/* Logo Image - Hover'da scale */}
+              <img
+                src={brand.logo}
+                alt={`${brand.name} Servisi`}
+                class="w-10 h-10 md:w-12 md:h-12 object-contain filter brightness-0 invert opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
+                loading="lazy"
+              />
+            </div>
+          </a>
+        ))}
+      </div>
+
+      {/* Animated Brand Stats - DSG Uzmanı Stili */}
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl">
+          <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">8</div>
+          <div class="text-white/90 font-semibold text-sm md:text-base">Premium Marka</div>
+        </div>
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl">
+          <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">44+</div>
+          <div class="text-white/90 font-semibold text-sm md:text-base">Farklı Model</div>
+        </div>
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl">
+          <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">6.5K+</div>
+          <div class="text-white/90 font-semibold text-sm md:text-base">Mutlu Müşteri</div>
+        </div>
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl">
+          <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">15+</div>
+          <div class="text-white/90 font-semibold text-sm md:text-base">Yıl Deneyim</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Process Timeline -->
+  <section class="section bg-white relative overflow-hidden">
+    <div class="container">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-display font-bold text-navy mb-4">
+          Nasıl Çalışıyoruz?
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Aracınızın bakım ve tamir sürecini 4 basit adımda tamamlıyoruz
+        </p>
+      </div>
+
+      <div class="relative max-w-5xl mx-auto">
+        {/* Timeline Line */}
+        <div class="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-primary via-cyan to-primary transform -translate-y-1/2"></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
+          {/* Step 1 */}
+          <div class="group text-center">
+            <div class="relative inline-block mb-6">
+              <div class="w-20 h-20 bg-white border-4 border-primary rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                <span class="text-3xl font-display font-black text-primary">1</span>
+              </div>
+              <div class="absolute -top-2 -right-2 w-6 h-6 bg-cyan rounded-full animate-ping"></div>
+            </div>
+            <h3 class="text-xl font-display font-bold text-navy mb-2">
+              Randevu Alın
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Telefon veya online form ile hızlıca randevu oluşturun
+            </p>
+          </div>
+
+          {/* Step 2 */}
+          <div class="group text-center">
+            <div class="relative inline-block mb-6">
+              <div class="w-20 h-20 bg-white border-4 border-cyan rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                <span class="text-3xl font-display font-black text-cyan">2</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-display font-bold text-navy mb-2">
+              Teşhis & Fiyat
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Detaylı arıza tespiti ve şeffaf fiyat teklifi
+            </p>
+          </div>
+
+          {/* Step 3 */}
+          <div class="group text-center">
+            <div class="relative inline-block mb-6">
+              <div class="w-20 h-20 bg-white border-4 border-primary rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                <span class="text-3xl font-display font-black text-primary">3</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-display font-bold text-navy mb-2">
+              Onarım
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Uzman kadromuz aracınızı titizlikle tamir eder
+            </p>
+          </div>
+
+          {/* Step 4 */}
+          <div class="group text-center">
+            <div class="relative inline-block mb-6">
+              <div class="w-20 h-20 bg-white border-4 border-cyan rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                <span class="text-3xl font-display font-black text-cyan">4</span>
+              </div>
+              <div class="absolute -top-2 -right-2 w-6 h-6 bg-primary rounded-full animate-pulse"></div>
+            </div>
+            <h3 class="text-xl font-display font-bold text-navy mb-2">
+              Teslimat
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Aracınızı güvenle teslim alın, yola devam edin
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Why Choose Us - Interactive Features -->
+  <section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
+    {/* Animated Background Pattern */}
+    <div class="absolute inset-0 opacity-20">
+      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); animation: slide-bg 30s linear infinite;"></div>
+    </div>
+
+    {/* Animated Gradient Orbs */}
+    <div class="absolute top-20 left-10 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float"></div>
+    <div class="absolute bottom-20 right-10 w-80 h-80 bg-cyan/30 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
+    <div class="absolute top-40 right-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-float" style="animation-delay: 4s;"></div>
+
+    {/* Glowing Stars */}
+    <div class="absolute inset-0 overflow-hidden opacity-30">
+      {Array.from({ length: 30 }).map((_, i) => (
+        <div
+          key={i}
+          class="star"
+          style={`
+            left: ${Math.random() * 100}%;
+            top: ${Math.random() * 100}%;
+            animation-delay: ${Math.random() * 3}s;
+            animation-duration: ${2 + Math.random() * 3}s;
+          `}
+        />
+      ))}
+    </div>
+
+    <div class="container relative z-10">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-4">
+          Neden Yıldızlar Grup?
+        </h2>
+        <p class="text-lg text-white/90 max-w-3xl mx-auto">
+          Otomotiv sektöründe <span class="text-cyan font-bold">15 yıllık tecrübemiz</span> ve 
+          <span class="text-cyan font-bold"> 6500+ mutlu müşterimiz</span> ile güvenin adresi
+        </p>
+      </div>
+
+      {/* Feature Cards */}
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* Feature 1 - Expertise */}
+        <div class="group relative">
+          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
+            
+            <div class="mb-6 relative z-10">
+              <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-primary to-cyan flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 shadow-xl">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z" />
+                </svg>
+              </div>
+            </div>
+            <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-cyan transition-colors relative z-10">
+              Uzman Kadro
+            </h3>
+            <p class="text-white/80 leading-relaxed mb-4 relative z-10">
+              Sertifikalı teknisyenlerimiz ve modern ekipmanlarımızla en zorlu arızaları bile çözüyoruz.
+            </p>
+            <ul class="space-y-2 relative z-10">
+              <li class="flex items-center gap-2 text-sm text-white/80">
+                <svg class="w-4 h-4 text-cyan" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span>Fabrika seviyesi teşhis</span>
+              </li>
+              <li class="flex items-center gap-2 text-sm text-white/80">
+                <svg class="w-4 h-4 text-cyan" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span>Orijinal parça kullanımı</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Feature 2 - Warranty */}
+        <div class="group relative">
+          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
+            
+            <div class="mb-6 relative z-10">
+              <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-cyan to-primary flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 shadow-xl">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                </svg>
+              </div>
+            </div>
+            <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-cyan transition-colors relative z-10">
+              Garanti & Güvence
+            </h3>
+            <p class="text-white/80 leading-relaxed mb-4 relative z-10">
+              Tüm işçilik ve parçalarımızda garanti. Aracınız güvende, kalbiniz rahat.
+            </p>
+            <ul class="space-y-2 relative z-10">
+              <li class="flex items-center gap-2 text-sm text-white/80">
+                <svg class="w-4 h-4 text-cyan" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span>12 ay işçilik garantisi</span>
+              </li>
+              <li class="flex items-center gap-2 text-sm text-white/80">
+                <svg class="w-4 h-4 text-cyan" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span>2 yıl parça garantisi</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        {/* Feature 3 - Fast Service */}
+        <div class="group relative">
+          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
+            <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
+            
+            <div class="mb-6 relative z-10">
+              <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-primary to-cyan flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 shadow-xl">
+                <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+                </svg>
+              </div>
+            </div>
+            <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-cyan transition-colors relative z-10">
+              Hızlı Teslimat
+            </h3>
+            <p class="text-white/80 leading-relaxed mb-4 relative z-10">
+              Zamanınız değerli. Kaliteden ödün vermeden hızlı ve profesyonel çözümler sunuyoruz.
+            </p>
+            <ul class="space-y-2 relative z-10">
+              <li class="flex items-center gap-2 text-sm text-white/80">
+                <svg class="w-4 h-4 text-cyan" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span>Aynı gün teslimat fırsatı</span>
+              </li>
+              <li class="flex items-center gap-2 text-sm text-white/80">
+                <svg class="w-4 h-4 text-cyan" fill="currentColor" viewBox="0 0 20 20">
+                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
+                </svg>
+                <span>SMS ile bilgilendirme</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ Section -->
+  <section class="section bg-gradient-to-b from-white to-gray-50">
+    <div class="container">
+      <div class="text-center mb-16">
+        <h2 class="text-3xl md:text-5xl font-display font-bold text-navy mb-4">
+          Sıkça Sorulan Sorular
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Müşterilerimizin en çok merak ettiği konular hakkında bilgiler
+        </p>
+      </div>
+
+      <div class="max-w-3xl mx-auto space-y-4">
+        {/* FAQ 1 */}
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
+            <span>DSG şanzıman tamiri ne kadar sürer?</span>
+            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Arızanın türüne göre değişmekle birlikte, ortalama 2-3 gün içinde tamir işlemi tamamlanır. 
+            Bazı durumlarda aynı gün teslimat bile mümkündür. Detaylı bilgi için bizimle iletişime geçin.
+          </div>
+        </details>
+
+        {/* FAQ 2 */}
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
+            <span>Garanti süresi ne kadar?</span>
+            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Tüm işçiliklerimizde 12 ay, kullandığımız orijinal parçalarda ise 2 yıl garanti sunuyoruz. 
+            Garantilerimiz yazılı olarak belgeli şekilde verilir.
+          </div>
+        </details>
+
+        {/* FAQ 3 */}
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
+            <span>Orijinal parça mı kullanılıyor?</span>
+            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Evet, tüm parçalarımız orijinal ve sertifikalıdır. Kalite bizim için öncelik olduğundan, 
+            yedek parça konusunda hiçbir taviz vermiyoruz.
+          </div>
+        </details>
+
+        {/* FAQ 4 */}
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
+            <span>Randevu almak zorunlu mu?</span>
+            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Randevu almanız önerilir ancak zorunlu değildir. Randevusuz müşterilerimize de hizmet veriyoruz, 
+            ancak randevulu müşterilerimiz önceliklidir. Beklemeden hızlı servis için randevu almanızı tavsiye ederiz.
+          </div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Section -->
+  <section class="relative py-20 overflow-hidden">
+    {/* Background Gradient */}
+    <div class="absolute inset-0 bg-gradient-to-br from-primary via-cyan to-primary-600"></div>
+    
+    {/* Pattern Overlay */}
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+    </div>
+
+    <div class="container relative z-10">
+      <div class="max-w-4xl mx-auto text-center">
+        {/* Icon */}
+        <div class="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full mb-6">
+          <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+          </svg>
+        </div>
+
+        <h2 class="text-4xl md:text-5xl font-display font-bold text-white mb-6">
+          Aracınız İçin Profesyonel Hizmet
+        </h2>
+        
+        <p class="text-xl md:text-2xl text-white/90 mb-10 leading-relaxed max-w-2xl mx-auto">
+          <span class="font-semibold">15 yıllık tecrübemiz</span> ve uzman kadromuzla aracınıza en iyi hizmeti sunuyoruz.
+          Hemen iletişime geçin, randevunuzu alın.
+        </p>
+
+        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+          <a
+            href="/iletisim"
+            class="group inline-flex items-center justify-center px-10 py-5 bg-white text-primary rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-xl"
+          >
+            <span>İletişime Geçin</span>
+            <svg class="w-6 h-6 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+            </svg>
+          </a>
+          <a
+            href="/"
+            class="inline-flex items-center justify-center px-10 py-5 bg-navy text-white rounded-xl font-bold text-lg hover:bg-navy-600 transition-all duration-300 hover:scale-105 border-2 border-white/30"
+          >
+            Ana Sayfaya Dön
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  @keyframes slide-bg {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 100%;
+    }
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.5);
+    }
+  }
+
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #5dd3e0;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 2px rgba(93, 211, 224, 0.8),
+                0 0 12px 4px rgba(26, 156, 176, 0.4);
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+
+  .star:nth-child(3n) {
+    width: 3px;
+    height: 3px;
+    background: #1a9cb0;
+    box-shadow: 0 0 8px 3px rgba(26, 156, 176, 0.8),
+                0 0 16px 6px rgba(93, 211, 224, 0.4);
+  }
+
+  .star:nth-child(5n) {
+    width: 1px;
+    height: 1px;
+  }
+</style>
+

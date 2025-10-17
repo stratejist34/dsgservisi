@@ -1,0 +1,12 @@
+Hizmet görsellerini buraya ekleyin:
+- bakim.jpg
+- sanziman.jpg
+- fren.jpg
+- suspansiyon.jpg
+- aku.jpg
+- sogutma.jpg
+- elektrik.jpg
+- motor.jpg
+
+JPG format, 800x600px, optimize edilmiş (max 200KB)
+

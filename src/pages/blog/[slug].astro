@@ -1,0 +1,16 @@
+---
+import { getAllPostSlugs } from '@utils/wordpress';
+
+export async function getStaticPaths() {
+  const slugs = await getAllPostSlugs();
+  
+  return slugs.map((slug) => ({
+    params: { slug },
+  }));
+}
+
+const { slug } = Astro.params;
+
+// 301 Redirect from /blog/slug to /slug for SEO
+return Astro.redirect(`/${slug}`, 301);
+---

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://dsgservisi.com/sitemap-index.xml
+
