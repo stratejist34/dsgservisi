@@ -51,6 +51,9 @@ export default defineConfig({
     ssr: {
       noExternal: ['react-icons'],
     },
+    env: {
+      PUBLIC_WORDPRESS_API_URL: process.env.PUBLIC_WORDPRESS_API_URL || 'https://api.dsgservisi.com/wp-json/wp/v2'
+    }
   },
 });
 
