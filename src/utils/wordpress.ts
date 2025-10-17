@@ -3,6 +3,9 @@ const API_URL = isDev
   ? 'https://dsgservisi.com/wp-json/wp/v2'
   : 'https://api.dsgservisi.com/wp-json/wp/v2';
 
+// Debug log for Vercel build environment
+console.log("Vercel Build - API_URL:", API_URL);
+
 export interface WPPost {
   id: number;
   date: string;
