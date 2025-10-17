@@ -2,9 +2,6 @@
   "build": {
     "env": {
       "PUBLIC_WORDPRESS_API_URL": "https://api.dsgservisi.com/wp-json/wp/v2"
-    },
-    "dns": {
-      "include": ["api.dsgservisi.com"]
     }
   }
 }
