@@ -59,10 +59,10 @@ const cleanContent = cleanWPContent(post.content.rendered);
       </div>
 
       <!-- Content with TOC -->
-      <div class="flex flex-col lg:flex-row gap-8">
-        <!-- Main Content - 62% -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 relative">
+        <!-- Main Content - 62% (8 cols) -->
         <div
-          class="lg:w-[62%] prose prose-lg max-w-none
+          class="lg:col-span-8 prose prose-lg max-w-none
             prose-headings:font-display prose-headings:font-bold prose-headings:text-navy
             prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:scroll-mt-24
             prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
@@ -76,10 +76,10 @@ const cleanContent = cleanWPContent(post.content.rendered);
           id="article-content"
         />
 
-        <!-- Table of Contents - 38% -->
-        <aside class="lg:w-[38%]">
-          <div class="sticky top-24 max-h-[calc(100vh-7rem)] overflow-y-auto">
-            <div class="bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl p-6 border-2 border-primary/20">
+        <!-- Table of Contents - 38% (4 cols) - Sticky -->
+        <aside class="lg:col-span-4" style="position: relative;">
+          <div style="position: sticky; top: 6rem; max-height: calc(100vh - 8rem); overflow-y: auto;" class="hidden lg:block">
+            <div class="bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl p-6 border-2 border-primary/20 shadow-lg">
               <div class="flex items-center gap-2 mb-4">
                 <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7" />
