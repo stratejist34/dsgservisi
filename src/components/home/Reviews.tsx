@@ -105,6 +105,8 @@ export default function Reviews() {
                   alt="Google"
                   className="h-8"
                   loading="lazy"
+                  width="92"
+                  height="30"
                 />
               </div>
 
