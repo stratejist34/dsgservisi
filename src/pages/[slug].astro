@@ -3,11 +3,15 @@ import BlogLayout from '@layouts/BlogLayout.astro';
 import { fetchPostBySlug, getAllPostSlugs, cleanWPContent, getFeaturedImageUrl } from '@utils/wordpress';
 
 export async function getStaticPaths() {
-  const slugs = await getAllPostSlugs();
-  
-  return slugs.map((slug) => ({
-    params: { slug },
-  }));
+  try {
+    const slugs = await getAllPostSlugs();
+    return slugs.map((slug) => ({
+      params: { slug },
+    }));
+  } catch (error) {
+    console.log('WordPress API not available, skipping posts');
+    return [];
+  }
 }
 
 const { slug } = Astro.params;
