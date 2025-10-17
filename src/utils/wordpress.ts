@@ -1,4 +1,4 @@
-const API_URL = import.meta.env.PUBLIC_WORDPRESS_API_URL || 'https://api.dsgservisi.com/wp-json/wp/v2';
+const API_URL = import.meta.env.PUBLIC_WORDPRESS_API_URL || 'https://dsgservisi.com/wp-json/wp/v2';
 
 export interface WPPost {
   id: number;
