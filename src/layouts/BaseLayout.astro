@@ -54,6 +54,24 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   
+  {/* Google Analytics */}
+  {import.meta.env.PUBLIC_GA_ID && (
+    <>
+      <script async src={`https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_ID}`}></script>
+      <script is:inline define:vars={{ gaId: import.meta.env.PUBLIC_GA_ID }}>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', gaId);
+      </script>
+    </>
+  )}
+  
+  {/* Google Search Console Verification */}
+  {import.meta.env.PUBLIC_GSC_VERIFICATION && (
+    <meta name="google-site-verification" content={import.meta.env.PUBLIC_GSC_VERIFICATION} />
+  )}
+  
   <slot name="head" />
 </head>
 <body class="smooth-scroll">
