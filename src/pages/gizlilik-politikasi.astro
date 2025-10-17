@@ -1,0 +1,221 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { SITE_CONFIG } from '@utils/constants';
+
+const seo = {
+  title: 'Gizlilik Politikası',
+  description: 'DSG Servisi gizlilik politikası ve kişisel verilerin korunması hakkında bilgiler.',
+  url: '/gizlilik-politikasi',
+};
+---
+
+<BaseLayout seo={seo}>
+  <!-- Hero Section -->
+  <section class="relative min-h-[30vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-navy-700 to-navy">
+    <div class="container relative z-10 py-12">
+      <div class="max-w-4xl mx-auto text-center">
+        <h1 class="text-4xl md:text-5xl font-display font-bold text-white mb-4">
+          Gizlilik <span class="text-cyan">Politikası</span>
+        </h1>
+        <p class="text-base md:text-lg text-gray-300">
+          Son güncelleme: {new Date().toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' })}
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Content Section -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="max-w-4xl mx-auto prose prose-lg">
+        <div class="bg-cyan/5 border-l-4 border-cyan p-6 rounded-r-xl mb-8">
+          <p class="text-gray-700 leading-relaxed mb-0">
+            {SITE_CONFIG.name}, müşterilerimizin gizliliğine saygı duyar ve kişisel verilerinizin korunmasını önemser. 
+            Bu gizlilik politikası, web sitemizi ziyaret ettiğinizde veya hizmetlerimizi kullandığınızda kişisel verilerinizin 
+            nasıl toplandığını, kullanıldığını ve korunduğunu açıklar.
+          </p>
+        </div>
+
+        <div class="space-y-8">
+          <!-- Bölüm 1 -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
+              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">1</span>
+              Toplanan Bilgiler
+            </h2>
+            <div class="pl-13 space-y-4 text-gray-700">
+              <p>Web sitemizi ziyaret ettiğinizde veya hizmetlerimizle iletişime geçtiğinizde aşağıdaki bilgileri toplayabiliriz:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Kişisel Bilgiler:</strong> Ad, soyad, telefon numarası, e-posta adresi</li>
+                <li><strong>Araç Bilgileri:</strong> Marka, model, yıl, plaka bilgileri</li>
+                <li><strong>Teknik Bilgiler:</strong> IP adresi, tarayıcı türü, cihaz bilgileri, çerezler</li>
+                <li><strong>İletişim Kayıtları:</strong> Telefon görüşmeleri, e-postalar, WhatsApp mesajları</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bölüm 2 -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
+              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">2</span>
+              Bilgilerin Kullanımı
+            </h2>
+            <div class="pl-13 space-y-4 text-gray-700">
+              <p>Topladığımız bilgileri aşağıdaki amaçlarla kullanırız:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>Randevu oluşturmak ve yönetmek</li>
+                <li>Servis hizmetlerini sağlamak ve iyileştirmek</li>
+                <li>Müşteri destek taleplerini yanıtlamak</li>
+                <li>Fiyat teklifleri sunmak</li>
+                <li>Servis hatırlatmaları ve bildirimler göndermek</li>
+                <li>Web sitesi performansını analiz etmek ve iyileştirmek</li>
+                <li>Yasal yükümlülüklerimizi yerine getirmek</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bölüm 3 -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
+              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">3</span>
+              Bilgilerin Paylaşımı
+            </h2>
+            <div class="pl-13 space-y-4 text-gray-700">
+              <p>Kişisel bilgilerinizi aşağıdaki durumlar dışında üçüncü şahıslarla paylaşmayız:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Yasal Zorunluluklar:</strong> Mahkeme kararı veya yasal süreçler</li>
+                <li><strong>Hizmet Sağlayıcılar:</strong> Web barındırma, e-posta servisleri gibi teknik destek sağlayıcılar</li>
+                <li><strong>İş Ortakları:</strong> Yedek parça tedarikçileri (sadece gerekli bilgiler)</li>
+                <li><strong>Sizin Onayınız:</strong> Açık rızanızı aldığımız durumlar</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bölüm 4 -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
+              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">4</span>
+              Çerezler (Cookies)
+            </h2>
+            <div class="pl-13 space-y-4 text-gray-700">
+              <p>Web sitemiz, kullanıcı deneyimini iyileştirmek için çerezler kullanmaktadır:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Zorunlu Çerezler:</strong> Web sitesinin çalışması için gerekli</li>
+                <li><strong>Analitik Çerezler:</strong> Web sitesi kullanımını analiz etmek için (Google Analytics)</li>
+                <li><strong>Performans Çerezler:</strong> Sayfa yüklenme süresini ölçmek için</li>
+              </ul>
+              <p class="mt-4">Tarayıcı ayarlarınızdan çerezleri devre dışı bırakabilirsiniz, ancak bu durumda bazı özellikler çalışmayabilir.</p>
+            </div>
+          </div>
+
+          <!-- Bölüm 5 -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
+              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">5</span>
+              Veri Güvenliği
+            </h2>
+            <div class="pl-13 space-y-4 text-gray-700">
+              <p>Kişisel verilerinizin güvenliğini sağlamak için aşağıdaki önlemleri alıyoruz:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>SSL sertifikası ile şifreli bağlantı</li>
+                <li>Güvenli sunucu altyapısı</li>
+                <li>Düzenli güvenlik güncellemeleri</li>
+                <li>Yetkisiz erişime karşı koruma</li>
+                <li>Personel eğitimi ve gizlilik sözleşmeleri</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bölüm 6 -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
+              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">6</span>
+              Haklarınız
+            </h2>
+            <div class="pl-13 space-y-4 text-gray-700">
+              <p>KVKK (Kişisel Verilerin Korunması Kanunu) kapsamında aşağıdaki haklara sahipsiniz:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li>Kişisel verilerinizin işlenip işlenmediğini öğrenme</li>
+                <li>İşlenmişse bilgi talep etme</li>
+                <li>İşlenme amacını öğrenme</li>
+                <li>Yurt içinde veya yurt dışında aktarıldığı üçüncü kişileri bilme</li>
+                <li>Eksik veya yanlış işlenmiş verilerin düzeltilmesini isteme</li>
+                <li>Verilerin silinmesini veya yok edilmesini isteme</li>
+                <li>Düzeltme, silme ve yok etme işlemlerinin üçüncü kişilere bildirilmesini isteme</li>
+                <li>Verilerin kanuna aykırı işlenmesi sebebiyle zarara uğramanız halinde zararın giderilmesini talep etme</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Bölüm 7 -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
+              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">7</span>
+              Üçüncü Taraf Hizmetler
+            </h2>
+            <div class="pl-13 space-y-4 text-gray-700">
+              <p>Web sitemiz aşağıdaki üçüncü taraf hizmetleri kullanmaktadır:</p>
+              <ul class="list-disc pl-6 space-y-2">
+                <li><strong>Google Maps:</strong> Konum hizmetleri için</li>
+                <li><strong>Google Analytics:</strong> Web sitesi analizi için</li>
+                <li><strong>WhatsApp Business:</strong> Müşteri iletişimi için</li>
+                <li><strong>Vercel:</strong> Web sitesi barındırma için</li>
+              </ul>
+              <p class="mt-4">Bu hizmetlerin kendi gizlilik politikaları bulunmaktadır.</p>
+            </div>
+          </div>
+
+          <!-- Bölüm 8 -->
+          <div>
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
+              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">8</span>
+              Politika Değişiklikleri
+            </h2>
+            <div class="pl-13 space-y-4 text-gray-700">
+              <p>
+                Bu gizlilik politikasını zaman zaman güncelleyebiliriz. Önemli değişiklikler olduğunda 
+                web sitemizde duyuru yapacağız. Politikayı düzenli olarak kontrol etmenizi öneririz.
+              </p>
+            </div>
+          </div>
+
+          <!-- İletişim -->
+          <div class="bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl p-8 border-2 border-primary/20">
+            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4">
+              İletişim
+            </h2>
+            <p class="text-gray-700 mb-6">
+              Gizlilik politikamız veya kişisel verilerinizle ilgili sorularınız için bizimle iletişime geçebilirsiniz:
+            </p>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center">
+                  <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-600">Telefon</p>
+                  <a href={`tel:${SITE_CONFIG.phoneFormatted}`} class="font-semibold text-primary hover:text-cyan">{SITE_CONFIG.phone}</a>
+                </div>
+              </div>
+              <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-cyan to-primary rounded-lg flex items-center justify-center">
+                  <svg class="w-5 h-5 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                  </svg>
+                </div>
+                <div>
+                  <p class="text-sm text-gray-600">E-posta</p>
+                  <a href={`mailto:${SITE_CONFIG.email}`} class="font-semibold text-cyan hover:text-primary break-all">{SITE_CONFIG.email}</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
