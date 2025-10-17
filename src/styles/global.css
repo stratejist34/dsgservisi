@@ -9,9 +9,32 @@
     @apply box-border;
   }
   
+  html {
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+  }
+  
   body {
     @apply bg-white text-gray-900 antialiased;
     font-family: 'Barlow', system-ui, -apple-system, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+  }
+  
+  /* Mobil için smooth animations */
+  @media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+  
+  /* Touch cihazlar için optimize hover */
+  @media (hover: none) and (pointer: coarse) {
+    .group:hover,
+    .group-hover {
+      transition-duration: 0.2s;
+    }
   }
   
   h1, h2, h3, h4, h5, h6 {
