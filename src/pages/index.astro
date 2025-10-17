@@ -1,0 +1,28 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Hero from '@components/home/Hero.astro';
+import Services from '@components/home/Services.astro';
+import Stats from '@components/home/Stats';
+import WhyUs from '@components/home/WhyUs.astro';
+import Reviews from '@components/home/Reviews';
+import InstagramFeed from '@components/home/InstagramFeed.astro';
+import Schema from '@components/seo/Schema.astro';
+import { SITE_CONFIG } from '@utils/constants';
+
+const title = `${SITE_CONFIG.name} | VW, Audi, Skoda, Seat DSG Servisi İstanbul`;
+const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlarında uzman DSG şanzıman ve mekatronik tamiri. İstanbul Büyükçekmece'de güvenilir servis.`;
+---
+
+<BaseLayout title={title} description={description}>
+  <Fragment slot="head">
+    <Schema type="local-business" />
+  </Fragment>
+
+  <Hero />
+  <Services />
+  <Stats client:visible />
+  <Reviews client:visible />
+  <WhyUs />
+  <InstagramFeed />
+</BaseLayout>
+

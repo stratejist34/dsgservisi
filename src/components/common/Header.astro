@@ -1,0 +1,108 @@
+---
+import { SITE_CONFIG } from '@utils/constants';
+
+const currentPath = Astro.url.pathname;
+
+const navLinks = [
+  { href: '/', label: 'ANASAYFA' },
+  { href: '/hizmetlerimiz', label: 'HİZMETLERİMİZ' },
+  { href: '/hakkimizda', label: 'HAKKIMIZDA' },
+  { href: '/blog', label: 'BLOG' },
+  { href: '/iletisim', label: 'İLETİŞİM' },
+];
+---
+
+<header class="fixed top-0 left-0 right-0 z-40 bg-navy shadow-lg transition-all duration-300" id="header">
+  <div class="container">
+    <div class="flex items-center justify-between h-20">
+      {/* Logo */}
+      <a href="/" class="flex items-center gap-3 group">
+        <img 
+          src="/images/logo.png" 
+          alt="DSG Servisi - Yıldızlar Grup" 
+          class="h-16 w-auto transition-transform duration-300 group-hover:scale-110"
+        />
+      </a>
+
+      {/* Desktop Navigation */}
+      <nav class="hidden lg:flex items-center gap-8">
+        {navLinks.map((link) => (
+          <a
+            href={link.href}
+            class={`text-white font-semibold hover:text-cyan-light transition-colors duration-300 relative group ${
+              currentPath === link.href ? 'text-cyan-light' : ''
+            }`}
+          >
+            {link.label}
+            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-cyan-light transition-all duration-300 group-hover:w-full"></span>
+          </a>
+        ))}
+      </nav>
+
+      {/* CTA Button - DSG Uzmanı Stili */}
+      <a 
+        href="/iletisim" 
+        class="hidden md:inline-flex px-6 py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 hover:border-cyan hover:shadow-2xl transition-all duration-300"
+      >
+        FİYAT İSTE
+      </a>
+
+      {/* Mobile Menu Button */}
+      <button 
+        id="mobile-menu-btn"
+        class="lg:hidden text-white p-2"
+        aria-label="Menüyü Aç"
+      >
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+      </button>
+    </div>
+  </div>
+
+  {/* Mobile Menu */}
+  <div id="mobile-menu" class="hidden lg:hidden bg-navy-600 border-t border-white/10">
+    <nav class="container py-4 flex flex-col gap-4">
+      {navLinks.map((link) => (
+        <a
+          href={link.href}
+          class={`text-white font-semibold py-2 hover:text-cyan-light transition-colors ${
+            currentPath === link.href ? 'text-cyan-light' : ''
+          }`}
+        >
+          {link.label}
+        </a>
+      ))}
+      <a href="/iletisim" class="btn btn-primary mt-2">
+        FİYAT İSTE
+      </a>
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Mobile menu toggle
+  const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+  const mobileMenu = document.getElementById('mobile-menu');
+
+  mobileMenuBtn?.addEventListener('click', () => {
+    mobileMenu?.classList.toggle('hidden');
+  });
+
+  // Sticky header on scroll
+  let lastScroll = 0;
+  const header = document.getElementById('header');
+
+  window.addEventListener('scroll', () => {
+    const currentScroll = window.pageYOffset;
+    
+    if (currentScroll > 100) {
+      header?.classList.add('shadow-2xl');
+    } else {
+      header?.classList.remove('shadow-2xl');
+    }
+    
+    lastScroll = currentScroll;
+  });
+</script>
+

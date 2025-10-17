@@ -1,0 +1,132 @@
+---
+import type { WPPost } from '@utils/wordpress';
+import { getFeaturedImageUrl, getExcerpt } from '@utils/wordpress';
+
+interface Props {
+  post: WPPost;
+  index?: number;
+  size?: 'featured-large' | 'featured-small' | 'square-left' | 'rect-right' | 'rect-wide' | 'square-stack' | 'rect-regular';
+}
+
+const { post, index = 0, size = 'rect-regular' } = Astro.props;
+const featuredImage = getFeaturedImageUrl(post);
+const excerpt = getExcerpt(post);
+
+// Get first category if available
+const categoryName = post._embedded?.['wp:term']?.[0]?.[0]?.name || 'Genel';
+
+// Define heights and padding based on CSS grid sizes - ALL OVERLAY STYLE
+const sizeConfig = {
+  'featured-large': {
+    height: 'h-full', // 3 rows x 200px = 600px
+    padding: 'p-6 md:p-8',
+    titleSize: 'text-2xl md:text-[32px]',
+    showExcerpt: true,
+  },
+  'featured-small': {
+    height: 'h-full', // 1 row x 200px = 200px
+    padding: 'p-4 md:p-5',
+    titleSize: 'text-sm md:text-base',
+    showExcerpt: false,
+  },
+  'square-left': {
+    height: 'h-full', // 2 rows x 200px = 400px
+    padding: 'p-5 md:p-6',
+    titleSize: 'text-lg md:text-[22px]',
+    showExcerpt: false,
+  },
+  'rect-right': {
+    height: 'h-full', // 2 rows x 200px = 400px
+    padding: 'p-5 md:p-6',
+    titleSize: 'text-xl md:text-[26px]',
+    showExcerpt: false,
+  },
+  'rect-wide': {
+    height: 'h-full', // 2 rows x 200px = 400px
+    padding: 'p-5 md:p-6',
+    titleSize: 'text-xl md:text-[26px]',
+    showExcerpt: false,
+  },
+  'square-stack': {
+    height: 'h-full', // 1 row x 200px = 200px
+    padding: 'p-4 md:p-5',
+    titleSize: 'text-sm md:text-base',
+    showExcerpt: false,
+  },
+  'rect-regular': {
+    height: 'h-full', // 2 rows x 200px = 400px
+    padding: 'p-5 md:p-6',
+    titleSize: 'text-base md:text-xl',
+    showExcerpt: false,
+  },
+};
+
+const config = sizeConfig[size] || sizeConfig['rect-regular'];
+---
+
+<article
+  class="group relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 w-full h-full min-h-[200px]"
+  style={`animation: fade-in-up 0.6s ease-out ${index * 0.1}s both;`}
+>
+  <!-- Background Image (Full Card Height) -->
+  {featuredImage ? (
+    <img
+      src={featuredImage}
+      alt={post.title.rendered}
+      class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+      loading="lazy"
+    />
+  ) : (
+    <div class="absolute inset-0 w-full h-full bg-gray-800 flex items-center justify-center text-white">
+      <span>No Image</span>
+    </div>
+  )}
+  
+  {/* Strong Gradient Overlay */}
+  <div class="absolute inset-0 bg-gradient-to-t from-navy/95 via-navy/75 to-navy/40 group-hover:from-navy/98 group-hover:via-navy/85 transition-all duration-500 z-10"></div>
+  
+  {/* Content Overlay - Everything on top of image */}
+  <div class={`relative z-20 w-full h-full flex flex-col justify-end ${config.padding}`}>
+      {/* Category Badge */}
+      <div class="inline-flex items-center gap-1.5 bg-gradient-to-r from-primary to-cyan text-white px-3 py-1.5 rounded-full text-xs font-semibold shadow-xl mb-3 w-fit group-hover:scale-105 transition-transform">
+        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
+        </svg>
+        {categoryName}
+      </div>
+      
+      {/* Title */}
+      <h3 class={`font-display font-bold text-white mb-3 group-hover:text-cyan transition-colors line-clamp-2 leading-tight ${config.titleSize}`}>
+        <a href={`/${post.slug}`} class="hover:text-cyan transition-colors">
+          {post.title.rendered}
+        </a>
+      </h3>
+
+      {/* Excerpt - only for large */}
+      {config.showExcerpt && (
+        <p class="text-white/90 mb-4 line-clamp-2 leading-relaxed text-sm">
+          {excerpt}
+        </p>
+      )}
+
+      {/* Read More Button */}
+      <a
+        href={`/${post.slug}`}
+        class="inline-flex items-center gap-2 text-cyan hover:text-white font-semibold transition-all group/btn text-sm w-fit"
+      >
+        <span>Devamını Oku</span>
+        <svg class="w-4 h-4 transform transition-transform group-hover/btn:translate-x-2" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+        </svg>
+      </a>
+  </div>
+
+  {/* Hover Border Effect */}
+  <div class="absolute inset-0 border-2 border-transparent group-hover:border-primary rounded-2xl transition-colors duration-500 pointer-events-none"></div>
+  
+  {/* Shine Effect */}
+  <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none overflow-hidden rounded-2xl">
+    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform -skew-x-12 translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000"></div>
+  </div>
+</article>
+

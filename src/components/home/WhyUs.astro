@@ -1,0 +1,155 @@
+---
+import { WHY_US } from '@utils/constants';
+import ShineBorder from '@components/ui/ShineBorder';
+---
+
+<section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
+  {/* Animated Background Pattern */}
+  <div class="absolute inset-0 opacity-20">
+    <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); animation: slide-bg 30s linear infinite;"></div>
+  </div>
+
+  {/* Animated Gradient Orbs */}
+  <div class="absolute top-20 left-10 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float"></div>
+  <div class="absolute bottom-20 right-10 w-80 h-80 bg-cyan/30 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
+  <div class="absolute top-40 right-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-float" style="animation-delay: 4s;"></div>
+
+  {/* Glowing Stars */}
+  <div class="absolute inset-0 overflow-hidden opacity-30">
+    {/* Stars */}
+    {Array.from({ length: 30 }).map((_, i) => (
+      <div
+        key={i}
+        class="star"
+        style={`
+          left: ${Math.random() * 100}%;
+          top: ${Math.random() * 100}%;
+          animation-delay: ${Math.random() * 3}s;
+          animation-duration: ${2 + Math.random() * 3}s;
+        `}
+      />
+    ))}
+  </div>
+
+  <div class="container relative z-10">
+    <div class="section-title">
+      <h2 class="font-display font-bold text-white mb-4">
+        Neden Bizi Seçmelisiniz?
+      </h2>
+      <p class="text-xl text-white/90 max-w-3xl mx-auto">
+        15 yıllık tecrübemiz ve uzman kadromuzla aracınız güvende
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      {WHY_US.map((item, index) => (
+        <div
+          class="group relative"
+          style={`animation: fade-in-up 0.6s ease-out ${index * 0.1}s both;`}
+        >
+          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
+            <ShineBorder 
+              client:load 
+              shineColor={['#1a9cb0', '#5dd3e0', '#1a9cb0']} 
+              duration={10}
+              borderWidth={2}
+            />
+            <div class="mb-6 relative z-10">
+              <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-primary to-cyan flex items-center justify-center text-4xl transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 shadow-xl">
+                {item.icon}
+              </div>
+            </div>
+            <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-cyan transition-colors relative z-10">
+              {item.title}
+            </h3>
+            <p class="text-white/80 leading-relaxed relative z-10">
+              {item.description}
+            </p>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- CTA Section - White Background -->
+<section class="section bg-white">
+  <div class="container">
+    <div class="max-w-4xl mx-auto text-center">
+      <h3 class="text-3xl md:text-4xl font-display font-bold text-navy mb-4">
+        Aracınız İçin En İyi Hizmeti Alın
+      </h3>
+      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
+        Uzman ekibimizle tanışın ve aracınızın ihtiyaç duyduğu profesyonel bakımı alın
+      </p>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <a
+          href="/iletisim"
+          class="btn btn-primary btn-lg group"
+        >
+          <svg class="w-5 h-5 mr-2 group-hover:animate-ring" fill="currentColor" viewBox="0 0 20 20">
+            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
+            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+          </svg>
+          Randevu Alın
+        </a>
+        <a
+          href="/hakkimizda"
+          class="btn bg-navy text-white hover:bg-navy-600 btn-lg"
+        >
+          Hakkımızda
+          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  @keyframes slide-bg {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 100%;
+    }
+  }
+
+  @keyframes glow-pulse {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      transform: scale(1.5);
+    }
+  }
+
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #5dd3e0;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 2px rgba(93, 211, 224, 0.8),
+                0 0 12px 4px rgba(26, 156, 176, 0.4);
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+
+  .star:nth-child(3n) {
+    width: 3px;
+    height: 3px;
+    background: #1a9cb0;
+    box-shadow: 0 0 8px 3px rgba(26, 156, 176, 0.8),
+                0 0 16px 6px rgba(93, 211, 224, 0.4);
+  }
+
+  .star:nth-child(5n) {
+    width: 1px;
+    height: 1px;
+  }
+</style>
+

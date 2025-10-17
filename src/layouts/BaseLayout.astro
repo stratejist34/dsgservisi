@@ -1,0 +1,73 @@
+---
+import Header from '@components/common/Header.astro';
+import Footer from '@components/common/Footer.astro';
+import PhoneButton from '@components/common/PhoneButton';
+import WhatsAppButton from '@components/common/WhatsAppButton';
+import '@styles/global.css';
+import '@styles/animations.css';
+
+interface Props {
+  title: string;
+  description: string;
+  image?: string;
+  noindex?: boolean;
+}
+
+const { 
+  title, 
+  description, 
+  image = '/images/og-image.jpg',
+  noindex = false 
+} = Astro.props;
+
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="canonical" href={canonicalURL} />
+  
+  {/* SEO Meta Tags */}
+  <title>{title}</title>
+  <meta name="description" content={description} />
+  {noindex && <meta name="robots" content="noindex, nofollow" />}
+  
+  {/* Open Graph */}
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content={canonicalURL} />
+  <meta property="og:title" content={title} />
+  <meta property="og:description" content={description} />
+  <meta property="og:image" content={new URL(image, Astro.site)} />
+  
+  {/* Twitter Card */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content={canonicalURL} />
+  <meta name="twitter:title" content={title} />
+  <meta name="twitter:description" content={description} />
+  <meta name="twitter:image" content={new URL(image, Astro.site)} />
+  
+  {/* Preload Critical Resources */}
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
+  <slot name="head" />
+</head>
+<body class="smooth-scroll">
+  <Header />
+  
+  <main class="pt-20">
+    <slot />
+  </main>
+  
+  <Footer />
+  
+  {/* Floating Buttons */}
+  <PhoneButton client:load />
+  <WhatsAppButton client:load />
+</body>
+</html>
+
