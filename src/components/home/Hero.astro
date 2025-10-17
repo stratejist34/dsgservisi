@@ -133,40 +133,45 @@ import BrandLogos from './BrandLogos';
 </section>
 
 <style is:inline>
-  @media (prefers-reduced-motion: no-preference) {
-    @keyframes glow-pulse {
-      0%, 100% {
-        opacity: 0.3;
-        transform: scale(1);
-      }
-      50% {
-        opacity: 1;
-        transform: scale(1.5);
-      }
+  @keyframes glow-pulse {
+    0%, 100% {
+      opacity: 0.3;
+      transform: scale(1);
     }
-    
+    50% {
+      opacity: 1;
+      transform: scale(1.5);
+    }
+  }
+
+  .star {
+    position: absolute;
+    width: 2px;
+    height: 2px;
+    background: #5dd3e0;
+    border-radius: 50%;
+    box-shadow: 0 0 6px 2px rgba(93, 211, 224, 0.8),
+                0 0 12px 4px rgba(26, 156, 176, 0.4);
+    animation: glow-pulse 3s ease-in-out infinite;
+  }
+
+  .star:nth-child(3n) {
+    width: 3px;
+    height: 3px;
+    background: #1a9cb0;
+    box-shadow: 0 0 8px 3px rgba(26, 156, 176, 0.8),
+                0 0 16px 6px rgba(93, 211, 224, 0.4);
+  }
+
+  .star:nth-child(5n) {
+    width: 1px;
+    height: 1px;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
     .star {
-      position: absolute;
-      width: 2px;
-      height: 2px;
-      background: #5dd3e0;
-      border-radius: 50%;
-      box-shadow: 0 0 6px 2px rgba(93, 211, 224, 0.8),
-                  0 0 12px 4px rgba(26, 156, 176, 0.4);
-      animation: glow-pulse 3s ease-in-out infinite;
-    }
-    
-    .star:nth-child(3n) {
-      width: 3px;
-      height: 3px;
-      background: #1a9cb0;
-      box-shadow: 0 0 8px 3px rgba(26, 156, 176, 0.8),
-                  0 0 16px 6px rgba(93, 211, 224, 0.4);
-    }
-    
-    .star:nth-child(5n) {
-      width: 1px;
-      height: 1px;
+      animation: none !important;
+      box-shadow: none !important;
     }
   }
 </style>
