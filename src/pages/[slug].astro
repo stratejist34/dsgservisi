@@ -1,18 +1,8 @@
 ---
-import BlogLayout from '@layouts/BlogLayout.astro';
-import { fetchPostBySlug, getAllPostSlugs, cleanWPContent, getFeaturedImageUrl } from '@utils/wordpress';
+export const prerender = false; // SSR mode for real-time blog posts
 
-export async function getStaticPaths() {
-  try {
-    const slugs = await getAllPostSlugs();
-    return slugs.map((slug) => ({
-      params: { slug },
-    }));
-  } catch (error) {
-    console.log('WordPress API not available, skipping posts');
-    return [];
-  }
-}
+import BlogLayout from '@layouts/BlogLayout.astro';
+import { fetchPostBySlug, cleanWPContent, getFeaturedImageUrl } from '@utils/wordpress';
 
 const { slug } = Astro.params;
 const post = await fetchPostBySlug(slug as string);
