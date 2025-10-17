@@ -1,7 +1,13 @@
 {
+  "rewrites": [
+    {
+      "source": "/wp-json/:path*",
+      "destination": "https://api.dsgservisi.com/wp-json/:path*"
+    }
+  ],
   "build": {
     "env": {
-      "PUBLIC_WORDPRESS_API_URL": "https://api.dsgservisi.com/wp-json/wp/v2"
+      "PUBLIC_WORDPRESS_API_URL": "https://dsgservisi.com/wp-json/wp/v2"
     }
   }
 }
