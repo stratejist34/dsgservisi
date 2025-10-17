@@ -1,4 +1,9 @@
 {
+  "functions": {
+    "*.func/**": {
+      "runtime": "nodejs20.x"
+    }
+  },
   "build": {
     "env": {
       "PUBLIC_WORDPRESS_API_URL": "https://api.dsgservisi.com/wp-json/wp/v2"
