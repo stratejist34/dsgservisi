@@ -3,17 +3,15 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import BlogCard from '@components/blog/BlogCard.astro';
 import { fetchPosts } from '@utils/wordpress';
 
-const seo = {
-  title: 'Blog',
-  description: 'DSG şanzıman, mekatronik sistemleri ve araç bakımı hakkında bilgilendirici yazılar, ipuçları ve güncellemeler.',
-  url: '/blog',
-};
+const title = 'Blog | DSG Servisi - DSG Şanzıman ve Mekatronik Bilgi Merkezi';
+const description = 'DSG şanzıman, mekatronik sistemleri ve araç bakımı hakkında bilgilendirici yazılar, ipuçları ve güncellemeler. Uzman görüşleri ve pratik çözümler.';
+const image = '/images/workshop.jpg';
 
 // Fetch blog posts
 const posts = await fetchPosts(1, 12);
 ---
 
-<BaseLayout seo={seo}>
+<BaseLayout title={title} description={description} image={image}>
   <!-- Hero Section - Modern Premium -->
   <section class="relative min-h-[28vh] flex items-center justify-center overflow-hidden">
     {/* Background Image */}

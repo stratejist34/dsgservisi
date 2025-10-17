@@ -3,14 +3,11 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import { SITE_CONFIG } from '@utils/constants';
 import Stats from '@components/home/Stats';
 
-const seo = {
-  title: 'Hakkımızda',
-  description: '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ekibimizle hizmet veriyoruz. İstanbul Büyükçekmece\'de güvenilir oto servis.',
-  url: '/hakkimizda',
-};
+const title = 'Hakkımızda | DSG Servisi - 15 Yıllık Deneyim';
+const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ekibimizle hizmet veriyoruz. İstanbul Büyükçekmece\'de güvenilir oto servis, 6500+ mutlu müşteri.';
 ---
 
-<BaseLayout seo={seo}>
+<BaseLayout title={title} description={description}>
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-navy to-navy-700 text-white py-20">
     <div class="container">

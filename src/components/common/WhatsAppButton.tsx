@@ -1,12 +1,22 @@
+import * as React from 'react';
+
 export default function WhatsAppButton({ 
   phone = '905332623451',
   message = 'Merhaba, DSG servisi hakkında bilgi almak istiyorum.',
   className = '' 
 }: { phone?: string; message?: string; className?: string }) {
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
+
+
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 
   return (
     <a
+      key={mounted ? 'mounted' : 'loading'}
       href={whatsappUrl}
       target="_blank"
       rel="noopener noreferrer"
@@ -24,7 +34,8 @@ export default function WhatsAppButton({
         ${className}
       `}
       style={{
-        animation: 'float-smooth 6s ease-in-out infinite',
+        animation: mounted ? 'float-smooth 6s ease-in-out infinite' : 'none',
+        animationDelay: '0.1s',
       }}
       aria-label="WhatsApp ile İletişim"
     >

@@ -3,14 +3,11 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import { SERVICES, SITE_CONFIG } from '@utils/constants';
 import AnimatedServiceList from '@components/home/AnimatedServiceList';
 
-const seo = {
-  title: 'Hizmetlerimiz',
-  description: 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bakım ve daha fazlası. Tüm hizmetlerimizi keşfedin.',
-  url: '/hizmetlerimiz',
-};
+const title = 'Hizmetlerimiz | DSG Servisi - DSG Şanzıman ve Mekatronik Tamiri';
+const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bakım ve daha fazlası. VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlar için uzman servis.';
 ---
 
-<BaseLayout seo={seo}>
+<BaseLayout title={title} description={description}>
   <!-- Hero Section -->
   <section class="relative min-h-[28vh] flex items-center justify-center overflow-hidden">
     {/* Background Image */}
