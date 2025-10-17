@@ -1,10 +1,4 @@
-const isDev = import.meta.env.DEV;
-const API_URL = isDev
-  ? 'https://dsgservisi.com/wp-json/dsg/v1'
-  : 'https://api.dsgservisi.com/wp-json/dsg/v1';
-
-// Debug log for Vercel build environment
-console.log("Vercel Build - API_URL:", API_URL);
+const API_URL = import.meta.env.PUBLIC_WORDPRESS_API_URL || 'https://api.dsgservisi.com/wp-json/wp/v2';
 
 export interface WPPost {
   id: number;
@@ -75,7 +69,7 @@ async function fetchWithRetry(url: string, retries = 3, delay = 1000): Promise<R
 export async function fetchPosts(page = 1, perPage = 12): Promise<WPPost[]> {
   try {
     const response = await fetchWithRetry(
-      `${API_URL}/posts?page=${page}&per_page=${perPage}`
+      `${API_URL}/posts?_embed&page=${page}&per_page=${perPage}&orderby=date&order=desc`
     );
     
     return await response.json();
@@ -87,9 +81,10 @@ export async function fetchPosts(page = 1, perPage = 12): Promise<WPPost[]> {
 
 export async function fetchPostBySlug(slug: string): Promise<WPPost | null> {
   try {
-    const response = await fetchWithRetry(`${API_URL}/posts/${slug}`);
+    const response = await fetchWithRetry(`${API_URL}/posts?slug=${slug}&_embed`);
     
-    return await response.json();
+    const posts = await response.json();
+    return posts[0] || null;
   } catch (error) {
     console.error('Error fetching post:', error);
     return null;
@@ -110,11 +105,11 @@ export async function fetchMedia(mediaId: number): Promise<WPMedia | null> {
 export async function getAllPostSlugs(): Promise<string[]> {
   try {
     const response = await fetchWithRetry(
-      `${API_URL}/posts/slugs`
+      `${API_URL}/posts?per_page=100&_fields=slug`
     );
     
-    const data = await response.json();
-    return data.slugs || [];
+    const posts = await response.json();
+    return posts.map((post: { slug: string }) => post.slug);
   } catch (error) {
     console.error('Error fetching post slugs:', error);
     return [];
