@@ -20,9 +20,16 @@ async function readCacheJson<T>(fileName: string, fallback: T): Promise<T> {
     if (isServer) {
       await ensureNodeModules();
       if (fsMod && pathMod) {
-        const filePath = pathMod.join(process.cwd(), 'public', 'wp-cache', fileName);
-        const data = await fsMod.readFile(filePath, 'utf-8');
-        return JSON.parse(data) as T;
+        // posts.local.json varsa onu tercih et (content img rewrite)
+        const preferred = fileName === 'posts.json' ? 'posts.local.json' : fileName;
+        const tryFiles = fileName === 'posts.json' ? [preferred, 'posts.json'] : [fileName];
+        for (const f of tryFiles) {
+          try {
+            const filePath = pathMod.join(process.cwd(), 'public', 'wp-cache', f);
+            const data = await fsMod.readFile(filePath, 'utf-8');
+            return JSON.parse(data) as T;
+          } catch {}
+        }
       }
     }
     // Client-side fallback (should rarely be used)
