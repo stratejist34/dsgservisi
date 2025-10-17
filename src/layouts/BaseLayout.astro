@@ -59,6 +59,58 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&subset=latin,latin-ext&display=swap" />
   </noscript>
   
+  {/* Critical CSS */}
+  <style is:inline>
+    body {
+      font-family: 'Barlow', system-ui, -apple-system, sans-serif;
+      background-color: #ffffff;
+      color: #1a202c; /* gray-900 */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      text-rendering: optimizeLegibility;
+      overflow-x: hidden;
+      width: 100%;
+      min-width: 320px;
+    }
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 1rem; /* px-4 */
+      padding-right: 1rem; /* px-4 */
+      max-width: 1280px; /* max-w-7xl */
+      width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      font-family: 'Montserrat', 'Barlow', sans-serif;
+      font-weight: 600; /* font-semibold */
+    }
+    h1 {
+      font-size: 1.875rem; /* text-3xl */
+      line-height: 2.25rem; /* leading-9 */
+      font-weight: 700; /* font-bold */
+    }
+    @media (min-width: 768px) {
+      .container {
+        padding-left: 1.5rem; /* sm:px-6 */
+        padding-right: 1.5rem; /* sm:px-6 */
+      }
+      h1 {
+        font-size: 2.25rem; /* md:text-4xl */
+        line-height: 2.5rem; /* md:leading-10 */
+      }
+    }
+    @media (min-width: 1024px) {
+      .container {
+        padding-left: 2rem; /* lg:px-8 */
+        padding-right: 2rem; /* lg:px-8 */
+      }
+      h1 {
+        font-size: 2.25rem; /* lg:text-4xl */
+        line-height: 2.5rem; /* lg:leading-10 */
+      }
+    }
+  </style>
+  
   {/* Google Search Console Verification */}
   {import.meta.env.PUBLIC_GSC_VERIFICATION && (
     <meta name="google-site-verification" content={import.meta.env.PUBLIC_GSC_VERIFICATION} />
