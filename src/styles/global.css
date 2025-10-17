@@ -12,6 +12,7 @@
   html {
     scroll-behavior: smooth;
     -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
   }
   
   body {
@@ -20,6 +21,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    width: 100%;
+    min-width: 320px;
   }
   
   /* Mobil için smooth animations */
@@ -70,6 +74,7 @@
 @layer components {
   .container {
     @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+    width: 100%;
   }
   
   .btn {
