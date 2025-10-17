@@ -1,8 +1,18 @@
 ---
-export const prerender = false; // SSR mode for real-time blog posts
-
 import BlogLayout from '@layouts/BlogLayout.astro';
-import { fetchPostBySlug, cleanWPContent, getFeaturedImageUrl } from '@utils/wordpress';
+import { fetchPostBySlug, getAllPostSlugs, cleanWPContent, getFeaturedImageUrl } from '@utils/wordpress';
+
+export async function getStaticPaths() {
+  try {
+    const slugs = await getAllPostSlugs();
+    return slugs.map((slug) => ({
+      params: { slug },
+    }));
+  } catch (error) {
+    console.log('WordPress API not available, skipping posts');
+    return [];
+  }
+}
 
 const { slug } = Astro.params;
 const post = await fetchPostBySlug(slug as string);
