@@ -2,14 +2,11 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { SITE_CONFIG } from '@utils/constants';
 
-const seo = {
-  title: 'İletişim',
-  description: 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de DSG şanzıman ve mekatronik servisi.',
-  url: '/iletisim',
-};
+const title = 'İletişim | DSG Servisi - Randevu ve İletişim Bilgileri';
+const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de DSG şanzıman ve mekatronik servisi. Telefon: 0533 262 34 51';
 ---
 
-<BaseLayout seo={seo}>
+<BaseLayout title={title} description={description}>
   <!-- Hero Section - Modern Premium -->
   <section class="relative min-h-[35vh] flex items-center justify-center overflow-hidden">
     {/* Background Image */}

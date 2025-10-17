@@ -2,14 +2,11 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { SITE_CONFIG } from '@utils/constants';
 
-const seo = {
-  title: 'Gizlilik Politikası',
-  description: 'DSG Servisi gizlilik politikası ve kişisel verilerin korunması hakkında bilgiler.',
-  url: '/gizlilik-politikasi',
-};
+const title = 'Gizlilik Politikası | DSG Servisi';
+const description = 'DSG Servisi gizlilik politikası ve kişisel verilerin korunması hakkında bilgiler. KVKK uyumlu veri işleme politikamız.';
 ---
 
-<BaseLayout seo={seo}>
+<BaseLayout title={title} description={description} noindex={true}>
   <!-- Hero Section -->
   <section class="relative min-h-[30vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-navy-700 to-navy">
     <div class="container relative z-10 py-12">

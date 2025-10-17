@@ -1,29 +1,29 @@
-/* Premium Phone Button Animations */
+/* Premium Phone Button Animations - SMOOTH */
 @keyframes bounce-spring {
   0%, 100% {
     transform: translateY(0) scale(1);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
   50% {
-    transform: translateY(-25%) scale(1.05);
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    transform: translateY(-15%) scale(1.02);
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
 
 @keyframes ring-rotate {
   0% {
-    transform: rotate(-15deg);
+    transform: rotate(-8deg);
   }
-  10% {
-    transform: rotate(15deg);
-  }
-  20% {
-    transform: rotate(-15deg);
+  15% {
+    transform: rotate(8deg);
   }
   30% {
-    transform: rotate(15deg);
+    transform: rotate(-8deg);
   }
-  40%, 100% {
+  45% {
+    transform: rotate(8deg);
+  }
+  60%, 100% {
     transform: rotate(0deg);
   }
 }
@@ -87,10 +87,10 @@
     transform: translateY(0px) translateX(0px);
   }
   33% {
-    transform: translateY(-10px) translateX(5px);
+    transform: translateY(-8px) translateX(3px);
   }
   66% {
-    transform: translateY(-5px) translateX(-5px);
+    transform: translateY(-4px) translateX(-3px);
   }
 }
 
@@ -182,32 +182,51 @@
   animation: spin 1s ease-in-out infinite;
 }
 
-/* Hover scale effect */
+/* Hover scale effect - SMOOTH */
 .hover-scale {
-  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hover-scale:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
-/* Magnetic button effect */
+/* Magnetic button effect - SMOOTH */
 .magnetic-btn {
-  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
 }
 
 .magnetic-btn:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
 }
 
 .magnetic-btn:active {
-  transform: translateY(0);
+  transform: translateY(-1px);
 }
 
+/* Performance optimizations */
 @media (prefers-reduced-motion: reduce) {
-  * {
-    animation: none !important;
-    transition: none !important;
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
   }
+}
+
+/* GPU acceleration for animations */
+.animate-float,
+.animate-bounce,
+.animate-gradient {
+  will-change: transform;
+  transform: translateZ(0);
+  backface-visibility: hidden;
+}
+
+.animate-pulse {
+  will-change: opacity;
+  transform: translateZ(0);
 }
 

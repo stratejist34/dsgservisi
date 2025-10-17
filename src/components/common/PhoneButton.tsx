@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 interface PhoneButtonProps {
   phone?: string;
@@ -10,6 +10,12 @@ export default function PhoneButton({
   className = '' 
 }: PhoneButtonProps) {
   const [ripples, setRipples] = useState<Array<{ x: number; y: number; id: number }>>([]);
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    // Force reflow to trigger animations
+    setMounted(true);
+  }, []);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -27,8 +33,10 @@ export default function PhoneButton({
   const phoneNumber = phone.replace(/\s/g, '');
   const phoneHref = `tel:+90${phoneNumber}`;
 
+
   return (
     <a
+      key={mounted ? 'mounted' : 'loading'}
       href={phoneHref}
       onClick={handleClick}
       className={`
@@ -48,7 +56,8 @@ export default function PhoneButton({
       `}
       style={{
         backgroundSize: '300% 300%',
-        animation: 'gradient-shift 3s ease infinite, bounce-spring 3s ease-in-out infinite',
+        animation: mounted ? 'gradient-shift 3s ease infinite, bounce-spring 3s ease-in-out infinite' : 'none',
+        animationDelay: '0.1s',
         boxShadow: '0 10px 40px rgba(26, 156, 176, 0.4), 0 0 60px rgba(26, 156, 176, 0.3)',
       }}
       aria-label="Bizi Arayın"
@@ -57,7 +66,8 @@ export default function PhoneButton({
       <div 
         className="absolute inset-0 rounded-full opacity-75"
         style={{
-          animation: 'glow-pulse 2s ease-in-out infinite',
+          animation: mounted ? 'glow-pulse 2s ease-in-out infinite' : 'none',
+          animationDelay: '0.1s',
         }}
       />
       
@@ -65,7 +75,8 @@ export default function PhoneButton({
       <div 
         className="absolute inset-0 flex items-center justify-center"
         style={{
-          animation: 'ring-rotate 2s ease-in-out infinite',
+          animation: mounted ? 'ring-rotate 2s ease-in-out infinite' : 'none',
+          animationDelay: '0.1s',
         }}
       >
         <svg

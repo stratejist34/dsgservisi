@@ -33,6 +33,16 @@ export default defineConfig({
     service: {
       entrypoint: 'astro/assets/services/sharp',
     },
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: '**.dsgservisi.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.google.com',
+      },
+    ],
   },
   build: {
     inlineStylesheets: 'auto',

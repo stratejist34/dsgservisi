@@ -10,22 +10,15 @@ interface Props {
 
 const { post } = Astro.props;
 
-const seo = {
-  title: post.yoast_head_json?.title || post.title.rendered,
-  description: post.yoast_head_json?.description || post.excerpt.rendered.replace(/<[^>]*>/g, '').substring(0, 160),
-  image: post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/images/default-blog.jpg',
-  url: `/${post.slug}`,
-  type: 'article' as const,
-  article: {
-    publishedTime: post.date,
-    modifiedTime: post.date,
-  },
-};
+// BaseLayout için doğru props formatı
+const title = post.yoast_head_json?.title || post.title.rendered;
+const description = post.yoast_head_json?.description || post.excerpt.rendered.replace(/<[^>]*>/g, '').substring(0, 160);
+const image = post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/images/default-blog.jpg';
 
 const articleSchema = {
   title: post.title.rendered,
-  description: seo.description,
-  image: seo.image,
+  description: description,
+  image: image,
   datePublished: post.date,
   dateModified: post.date,
   url: `${import.meta.env.PUBLIC_SITE_URL}/${post.slug}`,
@@ -37,8 +30,8 @@ const localServiceSchema = {
   '@type': 'LocalBusiness',
   '@id': import.meta.env.PUBLIC_SITE_URL,
   name: SITE_CONFIG.name,
-  image: seo.image,
-  description: seo.description,
+  image: image,
+  description: description,
   url: `${import.meta.env.PUBLIC_SITE_URL}/${post.slug}`,
   telephone: SITE_CONFIG.phoneFormatted,
   email: SITE_CONFIG.email,
@@ -155,7 +148,7 @@ const localServiceSchema = {
 };
 ---
 
-<BaseLayout seo={seo}>
+<BaseLayout title={title} description={description} image={image}>
   <!-- Article Schema -->
   <Schema type="Article" data={articleSchema} />
   

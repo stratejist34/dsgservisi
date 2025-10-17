@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animation Test</title>
+  <style>
+    @keyframes bounce-spring {
+      0%, 100% {
+        transform: translateY(0) scale(1);
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      50% {
+        transform: translateY(-15%) scale(1.02);
+        animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+      }
+    }
+
+    @keyframes gradient-shift {
+      0%, 100% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+    }
+
+    @keyframes glow-pulse {
+      0%, 100% {
+        box-shadow: 0 0 20px rgba(26, 156, 176, 0.4), 0 0 40px rgba(26, 156, 176, 0.2);
+      }
+      50% {
+        box-shadow: 0 0 40px rgba(26, 156, 176, 0.8), 0 0 80px rgba(26, 156, 176, 0.4);
+      }
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: #1a2332;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .test-button {
+      position: relative;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #1a9cb0, #5dd3e0, #1a9cb0);
+      background-size: 300% 300%;
+      animation: gradient-shift 8s ease infinite, bounce-spring 6s ease-in-out infinite;
+      box-shadow: 0 10px 40px rgba(26, 156, 176, 0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    .glow-layer {
+      position: absolute;
+      inset: 0;
+      border-radius: 50%;
+      opacity: 0.75;
+      animation: glow-pulse 4s ease-in-out infinite;
+    }
+
+    .icon {
+      position: relative;
+      z-index: 10;
+      width: 40px;
+      height: 40px;
+      fill: white;
+    }
+
+    .status {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      font-family: monospace;
+    }
+  </style>
+</head>
+<body>
+  <div class="status">
+    <h2>Animation Test</h2>
+    <p>✅ Bu sayfa açıldıysa animasyonlar ÇALIŞIYOR DEMEKTİR</p>
+    <p>👁️ Ortadaki mavi butonu izle:</p>
+    <ul>
+      <li><strong>Bounce:</strong> Yukarı-aşağı hareket ediyor mu?</li>
+      <li><strong>Gradient:</strong> Renk değişimi var mı?</li>
+      <li><strong>Glow:</strong> Parıldama var mı?</li>
+    </ul>
+    <p id="result" style="font-size: 20px; font-weight: bold; color: green;">BEKLE...</p>
+  </div>
+
+  <div class="test-button">
+    <div class="glow-layer"></div>
+    <svg class="icon" viewBox="0 0 24 24">
+      <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+    </svg>
+  </div>
+
+  <script>
+    setTimeout(() => {
+      const button = document.querySelector('.test-button');
+      const computedStyle = window.getComputedStyle(button);
+      const animation = computedStyle.animation || computedStyle.webkitAnimation;
+      
+      const result = document.getElementById('result');
+      if (animation && animation !== 'none') {
+        result.textContent = '✅ ANİMASYONLAR ÇALIŞIYOR!';
+        result.style.color = 'green';
+      } else {
+        result.textContent = '❌ ANİMASYONLAR ÇALIŞMIYOR!';
+        result.style.color = 'red';
+      }
+      
+      console.log('Animation CSS:', animation);
+    }, 1000);
+  </script>
+</body>
+</html>
+

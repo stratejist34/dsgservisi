@@ -35,8 +35,8 @@ export default function BrandLogos() {
           <div className="absolute inset-[2px] group-hover:inset-[3px] flex items-center justify-center rounded-full bg-navy cursor-pointer transition-all duration-300 z-10">
             {/* Logo Image - Hover'da scale */}
             <picture>
-              <source srcset={brand.logo.replace(/\.png$/i, '.avif')} type="image/avif" />
-              <source srcset={brand.logo.replace(/\.png$/i, '.webp')} type="image/webp" />
+              <source srcSet={brand.logo.replace(/\.png$/i, '.avif')} type="image/avif" />
+              <source srcSet={brand.logo.replace(/\.png$/i, '.webp')} type="image/webp" />
               <img
                 src={brand.logo}
                 alt={`${brand.name} Servisi`}
