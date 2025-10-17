@@ -28,8 +28,8 @@ const cleanContent = cleanWPContent(post.content.rendered);
 
 <BlogLayout post={post}>
   <!-- Article Header -->
-  <article class="py-12 bg-white">
-    <div class="container max-w-7xl">
+  <article class="py-12 bg-white" style="overflow: visible;">
+    <div class="container max-w-7xl" style="overflow: visible;">
       <!-- Breadcrumb -->
       <nav class="flex items-center text-sm text-gray-600 mb-8">
         <a href="/" class="hover:text-primary transition-colors">Ana Sayfa</a>
@@ -59,7 +59,7 @@ const cleanContent = cleanWPContent(post.content.rendered);
       </div>
 
       <!-- Content with TOC -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 relative">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 relative" style="overflow: visible;">
         <!-- Main Content - 62% (8 cols) -->
         <div
           class="lg:col-span-8 prose prose-lg max-w-none
@@ -77,8 +77,8 @@ const cleanContent = cleanWPContent(post.content.rendered);
         />
 
         <!-- Table of Contents - 38% (4 cols) - Sticky -->
-        <aside class="lg:col-span-4" style="position: relative;">
-          <div style="position: sticky; top: 6rem; max-height: calc(100vh - 8rem); overflow-y: auto;" class="hidden lg:block">
+        <aside class="lg:col-span-4" style="position: relative; overflow: visible;">
+          <div style="position: -webkit-sticky; position: sticky; top: 6rem; max-height: calc(100vh - 8rem); overflow-y: auto; z-index: 10;" class="hidden lg:block">
             <div class="bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl p-6 border-2 border-primary/20 shadow-lg">
               <div class="flex items-center gap-2 mb-4">
                 <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
