@@ -1,0 +1,124 @@
+---
+import { ViewTransitions } from 'astro:transitions';
+import Header from '@components/common/Header.astro';
+import Footer from '@components/common/Footer.astro';
+import '@styles/global.css';
+import '@styles/reveal.css';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const { title, description } = Astro.props as Props;
+---
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{title}</title>
+    {description && <meta name="description" content={description} />}
+
+    <!-- Vercel preview domain'lerini engelle -->
+    {Astro.url.hostname.includes('vercel.app') && (
+      <meta name="robots" content="noindex, nofollow" />
+    )}
+
+    <!-- Canonical URL - Duplicate content önleme -->
+    <link rel="canonical" href={`https://dsgservisi.com${Astro.url.pathname}`} />
+
+    <ViewTransitions />
+
+    <slot name="head" />
+
+    <style is:global>
+      /* Smooth scroll */
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+
+      /* Luxe Dissolve - Premium yumuşak geçiş */
+      ::view-transition-old(root) {
+        animation: luxe-dissolve-out 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+      }
+
+      ::view-transition-new(root) {
+        animation: luxe-dissolve-in 0.4s cubic-bezier(0.33, 1, 0.68, 1);
+      }
+
+      @keyframes luxe-dissolve-out {
+        to {
+          opacity: 0;
+          transform: scale(0.98);
+        }
+      }
+
+      @keyframes luxe-dissolve-in {
+        from {
+          opacity: 0;
+          transform: scale(1.02);
+        }
+      }
+
+      /* Reduced motion desteği */
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        ::view-transition-old(root),
+        ::view-transition-new(root) {
+          animation: none;
+        }
+      }
+
+      /* Mobile optimization */
+      @media (max-width: 768px) {
+        ::view-transition-old(root),
+        ::view-transition-new(root) {
+          animation-duration: 0.3s;
+        }
+
+        @keyframes luxe-dissolve-out {
+          to {
+            opacity: 0;
+            transform: scale(0.99);
+          }
+        }
+
+        @keyframes luxe-dissolve-in {
+          from {
+            opacity: 0;
+            transform: scale(1.01);
+          }
+        }
+      }
+    </style>
+  </head>
+  <body class="smooth-scroll">
+    <Header transition:persist />
+
+    <main class="pt-20">
+      <slot />
+    </main>
+
+    <Footer transition:persist />
+
+    <script is:inline>
+      // Reveal on scroll
+      (function() {
+        const io = new IntersectionObserver((entries) => {
+          entries.forEach((e) => {
+            if (e.isIntersecting) {
+              e.target.classList.add('reveal--in');
+              io.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.15 });
+
+        document.querySelectorAll('[data-reveal]').forEach((el) => io.observe(el));
+      })();
+    </script>
+  </body>
+</html>
