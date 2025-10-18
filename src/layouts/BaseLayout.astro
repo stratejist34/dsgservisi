@@ -27,6 +27,22 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+  <!-- Mobil algılama ile View Transitions -->
+  <script is:inline>
+    // Mobil cihaz algılama
+    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
+    
+    // Mobilde View Transitions devre dışı
+    if (!isMobile) {
+      // Sadece desktop'ta View Transitions yükle
+      document.documentElement.style.setProperty('view-transition-name', 'root');
+    } else {
+      // Mobilde normal sayfa yüklemesi
+      document.documentElement.style.setProperty('view-transition-name', 'none');
+    }
+  </script>
+  
+  <!-- Conditional View Transitions -->
   <ViewTransitions />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -196,7 +212,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     @media (max-width: 768px) {
       ::view-transition-old(root),
       ::view-transition-new(root) {
-        animation-duration: 0.2s;
+        animation: none !important;
+        opacity: 1 !important;
+        transform: none !important;
+      }
+      
+      /* Mobilde View Transitions tamamen devre dışı */
+      html {
+        view-transition-name: none !important;
       }
     }
   </style>
