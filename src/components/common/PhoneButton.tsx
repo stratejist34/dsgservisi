@@ -13,7 +13,6 @@ export default function PhoneButton({
   const [mounted, setMounted] = useState(false);
 
   useEffect(() => {
-    // Force reflow to trigger animations
     setMounted(true);
   }, []);
 
@@ -56,8 +55,8 @@ export default function PhoneButton({
       `}
       style={{
         backgroundSize: '300% 300%',
-        animation: mounted ? 'gradient-shift 3s ease infinite, bounce-spring 3s ease-in-out infinite' : 'none',
-        animationDelay: '0.1s',
+        animation: mounted ? 'gradient-shift 6s ease infinite, bounce-spring 2.4s cubic-bezier(0.22, 1, 0.36, 1) 2' : 'none',
+        animationDelay: '0.1s, 0.3s',
         boxShadow: '0 10px 40px rgba(26, 156, 176, 0.4), 0 0 60px rgba(26, 156, 176, 0.3)',
       }}
       aria-label="Bizi Arayın"
@@ -66,8 +65,8 @@ export default function PhoneButton({
       <div 
         className="absolute inset-0 rounded-full opacity-75"
         style={{
-          animation: mounted ? 'glow-pulse 2s ease-in-out infinite' : 'none',
-          animationDelay: '0.1s',
+          animation: mounted ? 'glow-pulse 3.4s ease-in-out 2' : 'none',
+          animationDelay: '0.35s',
         }}
       />
       
@@ -75,8 +74,8 @@ export default function PhoneButton({
       <div 
         className="absolute inset-0 flex items-center justify-center"
         style={{
-          animation: mounted ? 'ring-rotate 2s ease-in-out infinite' : 'none',
-          animationDelay: '0.1s',
+          animation: mounted ? 'ring-rotate 2.6s ease-in-out 2' : 'none',
+          animationDelay: '0.35s',
         }}
       >
         <svg
@@ -118,7 +117,8 @@ export default function PhoneButton({
       <span 
         className="absolute inset-0 rounded-full border-4 border-white opacity-0 group-hover:opacity-30 transition-opacity duration-300"
         style={{
-          animation: 'pulse 1.5s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+          animation: mounted ? 'pulse 2.2s cubic-bezier(0.4, 0, 0.6, 1) 2' : 'none',
+          animationDelay: '0.35s',
         }}
       />
     </a>

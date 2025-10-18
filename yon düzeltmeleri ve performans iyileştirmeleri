@@ -1,0 +1,215 @@
+[33mcommit 3f7b8726a8fd194a1dde1f5100778b4bab7cb7c6[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 20:06:36 2025 +0300
+
+    WIP: Animation issues - keyframes not triggering despite multiple attempts
+
+[33mcommit 8d2ada0978468f3d972eca6822629d353d50bff2[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 18:35:28 2025 +0300
+
+    fix: animasyon Ã§akÄ±ÅŸmalarÄ± ve CSS sorunlarÄ± dÃ¼zeltildi
+
+[33mcommit 7cd4b83a6dd04c7f80217a1051ab1a54ef78af02[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 18:20:57 2025 +0300
+
+    fix: bozuk gÃ¶rseller, animasyonlar ve meta etiketler dÃ¼zeltildi
+
+[33mcommit 8991c10a25ffb74b162948bfde02906c39565958[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 14:32:40 2025 +0300
+
+    perf: logo optimizasyonu ve LCP preload eklendi, animasyon dÃ¼zeltmeleri yapÄ±ldÄ±
+
+[33mcommit 8712e03d2541e848091cd19e6772cb7b474624ab[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 14:25:26 2025 +0300
+
+    perf: animasyonlar, fontlar ve kritik CSS optimize edildi; cache baÅŸlÄ±klarÄ± doÄŸrulandÄ±
+
+[33mcommit 7a8a7377430e82ed77bde60e635b43bf40c5bbb2[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 14:23:51 2025 +0300
+
+    perf: logolar optimize edildi, img width/height eklendi, Google Fonts ve GTM optimize edildi
+
+[33mcommit 7df3728ff7242399b43a8fde2b809ea5907b493d[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 14:20:00 2025 +0300
+
+    chore: geÃ§ici .tmp dosyalarÄ± kaldÄ±rÄ±ldÄ±
+
+[33mcommit f8e02dc277f43702b7b26e104882ab6c4fef41c3[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 14:19:46 2025 +0300
+
+    perf(images): hizmet gÃ¶rselleri iÃ§in yeniden boyutlandÄ±rma WebP/AVIF dÃ¶nÃ¼ÅŸtÃ¼rmeye entegre edildi
+
+[33mcommit c4a99656c51d91dbc9e32fb5ad444f877c007842[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 14:17:30 2025 +0300
+
+    perf(images): hero ve hizmet gÃ¶rselleri iÃ§in picture/srcset eklendi, LCP optimize edildi
+
+[33mcommit 9f894c74ea7b1b83b2cd3e8a327ce8ec8d314811[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 14:15:04 2025 +0300
+
+    perf(images): hero ve hizmet gÃ¶rselleri iÃ§in WebP/AVIF Ã¼retildi
+
+[33mcommit 94043ddf8df2a6107ce71a1c6a88cab8c8bc7912[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 14:02:20 2025 +0300
+
+    chore(ci): 5 dkâ€™da bir cache; repository_dispatch desteÄŸi; gÃ¶rsel indirme ve iÃ§erik iÃ§i gÃ¶rsel rewrite
+
+[33mcommit 1fdb3c4d540ce550b8b6c5290f9c52d999c0d63e[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 13:54:21 2025 +0300
+
+    feat(blog): yerel blog gÃ¶rselleri (build-time indirildi) ve kullanÄ±m fallback'i
+
+[33mcommit 05d15233991d90beccd5bbb59ebad487d96214fe[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 13:47:37 2025 +0300
+
+    chore(cache): add posts.json for build fallback
+
+[33mcommit 8f6a16308e86e3951e3af0da9d034fd9b7e188e0[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 13:33:31 2025 +0300
+
+    feat(blog): Cloudflareâ€™siz build-time cache fallback eklendi; WP cache script ve hourly workflow eklendi; Vercel env ile cache modu aktif
+
+[33mcommit 660eebed52ae671650bef1b0c8322b62926f6cb6[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 12:40:03 2025 +0300
+
+    FINAL SOLUTION: Use Vercel proxy to bypass Mod_Security - WordPress API via dsgservisi.com/wp-json
+
+[33mcommit a68e50349e04ab7b9f9b98b71023e066cc1d9d23[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 12:33:57 2025 +0300
+
+    Add GitHub Actions for hourly blog updates
+
+[33mcommit 6a1b9effffcfbd88f28ba31f597340e5fe19f568[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 12:32:16 2025 +0300
+
+    Fix: Restore original WordPress API endpoints - working perfectly
+
+[33mcommit 848a5ab95f3db8d8bdfb05fa6b2a1ac16fae300b[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:52:38 2025 +0300
+
+    Switch to custom DSG API endpoints (/dsg/v1) to bypass WordPress security restrictions
+
+[33mcommit 2cdc8fbf47195e0766f515c4f99f7b00b3f70622[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:46:38 2025 +0300
+
+    Revert: Restore blog link to /blog, update gitignore
+
+[33mcommit 8a23685e7e4905a1c5452f3a07a5febfacf7a728[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:40:03 2025 +0300
+
+    FINAL FIX: Redirect blog link to WordPress subdomain (api.dsgservisi.com/blog) to bypass Vercel build issues
+
+[33mcommit d5a6d0577539876568172fbf6e003b0215f809b1[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:39:30 2025 +0300
+
+    Revert to static build - SSR runtime issues, will use WordPress directly on subdomain
+
+[33mcommit e768cd46c741b387bbdf746128b66462ce9072db[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:38:41 2025 +0300
+
+    Configure Vercel adapter with web analytics
+
+[33mcommit 9ea6c4b1be7250f4eaefdc84f1f26d4de03d9cde[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:37:16 2025 +0300
+
+    Revert: Remove invalid runtime configuration from vercel.json
+
+[33mcommit 468494e69a9d69ebb587f0be1c5801a9180411cb[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:35:31 2025 +0300
+
+    Fix: Set Node.js runtime to 20.x for Vercel serverless functions
+
+[33mcommit 5ce664cbe44dc2069d9733b9f158e4e1d8580735[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:33:05 2025 +0300
+
+    Add Vercel adapter for SSR support - fix blog rendering issue
+
+[33mcommit 2cb4111467976645c3d46adc14337cd0578e9571[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:29:20 2025 +0300
+
+    Switch blog to SSR mode for real-time WordPress API data fetching
+
+[33mcommit 3fcff7815db4cc5f71196cdf2f7c2c5833b5464d[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:02:46 2025 +0300
+
+    Revert: Remove invalid 'dns' property from vercel.json build configuration
+
+[33mcommit 1e4d8adf0ab1a3d7dd480a852bb55fd57a6f6df0[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 11:00:12 2025 +0300
+
+    Debug: Add console.log for API_URL in wordpress.ts to diagnose build issues
+
+[33mcommit 48f10ef969c9532ac56f36d8d94616e56a8ca651[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 10:59:14 2025 +0300
+
+    Fix: Add DNS configuration to vercel.json for reliable WordPress API resolution during build
+
+[33mcommit 6fec57126826557d9999449453b726e98f653181[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 10:55:51 2025 +0300
+
+    Feature: Add retry mechanism to WordPress API calls for improved build reliability
+
+[33mcommit 4ac89ef210b371463f75e575cd4b1f0cf5659c5b[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 10:52:29 2025 +0300
+
+    Fix: Ensure PUBLIC_WORDPRESS_API_URL is available during build by setting it in astro.config.mjs
+
+[33mcommit 14d764930abb59d28e32926b78e2a490b45f06e9[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 10:45:59 2025 +0300
+
+    Add vercel.json to ensure PUBLIC_WORDPRESS_API_URL is set during build
+
+[33mcommit 0d5a13d6c9ac650f071bcce0df4591e090b54216[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 08:18:50 2025 +0300
+
+    Add Google Analytics and Search Console integration with detailed setup guide
+
+[33mcommit 5852b8189be71055571e7a7c0fe501e647d55a5f[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 08:10:26 2025 +0300
+
+    Fix: Add overflow visible and webkit prefix for sticky TOC
+
+[33mcommit 8f6434496f022e3c69055ca20c4ab5696fdedb42[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 08:09:04 2025 +0300
+
+    Update blog CTA title to 'Profesyonel Volkswagen Ã–zel Servisi'
+
+[33mcommit 6821d064c2dbb9f0c41074b1002a656669994ff5[m
+Author: DSG Servisi <dsgservisi@example.com>
+Date:   Fri Oct 17 08:03:34 2025 +0300
+
+    Fix: Force sticky positioning with inline styles f

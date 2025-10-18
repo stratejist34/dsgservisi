@@ -3,20 +3,17 @@ import { SERVICES } from '@utils/constants';
 ---
 
 <section class="section relative bg-gradient-to-b from-navy via-navy-700 to-navy overflow-hidden">
-  {/* Lamp Light Effect */}
-  <div class="absolute inset-x-0 top-0 h-full">
-    <div class="lamp-light"></div>
-  </div>
+  {/* Simplified background (no animated lamp) */}
 
   {/* Animated Grid Pattern */}
   <div class="absolute inset-0 opacity-10">
-    <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); animation: slide-bg 30s linear infinite;"></div>
+    <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%231a9cb0' fill-opacity='0.4'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
   </div>
 
   <div class="container relative z-10">
     {/* Section Title */}
-    <div class="text-center mb-16">
-      <div class="inline-block mb-4 px-6 py-2 bg-primary/20 backdrop-blur-sm rounded-full border border-primary/30">
+    <div class="text-center mb-16" data-reveal>
+      <div class="inline-block mb-4 px-6 py-2 bg-primary/10 rounded-full border border-primary/30">
         <span class="text-cyan font-semibold text-sm uppercase tracking-wider">Profesyonel Servis</span>
       </div>
       <h2 class="text-4xl md:text-5xl lg:text-6xl font-display font-black text-white mb-6 leading-tight">
@@ -33,31 +30,28 @@ import { SERVICES } from '@utils/constants';
         <a
           href="/iletisim"
           class="group relative"
-          style={`animation: fade-in-up 0.6s ease-out ${index * 0.08}s both;`}
+          data-reveal
         >
           {/* Glassmorphism Card */}
-          <div class="relative h-full bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-lg rounded-2xl overflow-hidden border-2 border-white/30 shadow-2xl transition-all duration-500 hover:scale-105 hover:border-primary/80 hover:shadow-2xl">
+          <div class="relative h-full bg-gradient-to-br from-white/10 to-white/5 rounded-2xl overflow-hidden border border-white/20 transition-transform duration-300 hover:-translate-y-1 premium-shine">
             
             {/* Image with Overlay */}
-            <div class="relative h-56 overflow-hidden rounded-t-2xl">
-              <picture>
-                <source srcset={service.image.replace(/\.(jpg|jpeg|png)$/i, '.avif').replace(/\.webp$/i, '.avif')} type="image/avif" />
-                <source srcset={service.image.replace(/\.(jpg|jpeg|png)$/i, '.webp').replace(/\.avif$/i, '.webp')} type="image/webp" />
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
-                  loading="lazy"
-                  width="640"
-                  height="224"
-                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                />
-              </picture>
+              <div class="relative h-56 overflow-hidden rounded-t-2xl">
+              <img
+                src={service.image}
+                alt={service.title}
+                class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                loading="lazy"
+                width="640"
+                height="224"
+                sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                decoding="async"
+              />
               {/* Dark Gradient Overlay - Azaltıldı */}
               <div class="absolute inset-0 bg-gradient-to-t from-navy/70 via-navy/30 to-transparent"></div>
               
               {/* Icon Badge */}
-              <div class="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-primary to-cyan rounded-xl flex items-center justify-center shadow-xl transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12">
+              <div class="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-primary to-cyan rounded-xl flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110">
                 <span class="text-2xl">{service.icon}</span>
               </div>
             </div>
@@ -67,12 +61,12 @@ import { SERVICES } from '@utils/constants';
               <h3 class="text-xl md:text-2xl font-display font-bold text-white mb-3 group-hover:text-cyan transition-colors duration-300">
                 {service.title}
               </h3>
-              <p class="text-white/70 text-sm leading-relaxed line-clamp-2 group-hover:text-white/90 transition-colors">
+              <p class="text-white/80 text-sm leading-relaxed line-clamp-2 transition-colors">
                 {service.description}
               </p>
               
               {/* Hover Arrow */}
-              <div class="flex items-center gap-2 mt-4 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-all duration-300">
+              <div class="flex items-center gap-2 mt-4 opacity-0 group-hover:opacity-100 transform translate-y-2 group-hover:translate-y-0 transition-opacity duration-300">
                 <span class="text-cyan font-semibold text-sm">Detaylı Bilgi</span>
                 <svg class="w-5 h-5 text-cyan transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -80,10 +74,6 @@ import { SERVICES } from '@utils/constants';
               </div>
             </div>
 
-            {/* Shine Effect */}
-            <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none">
-              <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform -skew-x-12 group-hover:translate-x-full transition-transform duration-1000"></div>
-            </div>
           </div>
         </a>
       ))}
@@ -93,10 +83,9 @@ import { SERVICES } from '@utils/constants';
     <div class="text-center">
       <a 
         href="/hizmetlerimiz" 
-        class="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-primary via-cyan to-primary rounded-2xl font-display font-bold text-lg text-white shadow-2xl hover:shadow-cyan/50 transition-all duration-500 hover:scale-105 relative overflow-hidden"
+        class="group inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-primary via-cyan to-primary rounded-2xl font-display font-bold text-lg text-white premium-shine relative overflow-hidden border-2 border-white/20 transition-transform duration-500 hover:scale-105"
         style="background-size: 200% 100%;"
       >
-        <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000"></span>
         <span class="relative z-10">Tüm Hizmetleri Keşfedin</span>
         <svg class="w-6 h-6 relative z-10 transform group-hover:translate-x-2 transition-transform" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
@@ -107,55 +96,6 @@ import { SERVICES } from '@utils/constants';
 </section>
 
 <style>
-  @keyframes lamp-flicker {
-    0%, 100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0.8;
-    }
-  }
-
-  @keyframes slide-bg {
-    from {
-      background-position: 0 0;
-    }
-    to {
-      background-position: 100% 100%;
-    }
-  }
-
-  .lamp-light {
-    position: absolute;
-    top: -50%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 800px;
-    height: 800px;
-    background: radial-gradient(
-      ellipse at center,
-      rgba(93, 211, 224, 0.3) 0%,
-      rgba(26, 156, 176, 0.2) 25%,
-      rgba(26, 35, 50, 0.1) 50%,
-      transparent 70%
-    );
-    animation: lamp-flicker 4s ease-in-out infinite;
-    pointer-events: none;
-  }
-
-  .lamp-light::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 400px;
-    height: 400px;
-    background: radial-gradient(
-      circle,
-      rgba(93, 211, 224, 0.5) 0%,
-      transparent 70%
-    );
-  }
+  /* Removed lamp and slide animations for performance */
 </style>
 

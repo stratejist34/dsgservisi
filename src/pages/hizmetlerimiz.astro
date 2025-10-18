@@ -22,7 +22,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
       <div class="absolute inset-0 bg-gradient-to-br from-navy/95 via-navy/90 to-navy/95"></div>
     </div>
 
-    {/* Pattern Overlay */}
+    {/* Pattern Overlay (static) */}
     <div class="absolute inset-0 opacity-10">
       <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
     </div>
@@ -30,7 +30,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     <div class="container relative z-10 py-8">
       <div class="max-w-4xl mx-auto text-center">
         {/* Badge */}
-        <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-6 py-2 rounded-full mb-3 animate-[fade-in-up_0.6s_ease-out]">
+        <div class="inline-flex items-center gap-2 bg-white/10 text-white px-6 py-2 rounded-full mb-3" data-reveal>
           <svg class="w-5 h-5 text-cyan" fill="currentColor" viewBox="0 0 20 20">
             <path d="M10.394 2.08a1 1 0 00-.788 0l-7 3a1 1 0 000 1.84L5.25 8.051a.999.999 0 01.356-.257l4-1.714a1 1 0 11.788 1.838L7.667 9.088l1.94.831a1 1 0 00.787 0l7-3a1 1 0 000-1.838l-7-3zM3.31 9.397L5 10.12v4.102a8.969 8.969 0 00-1.05-.174 1 1 0 01-.89-.89 11.115 11.115 0 01.25-3.762zM9.3 16.573A9.026 9.026 0 007 14.935v-3.957l1.818.78a3 3 0 002.364 0l5.508-2.361a11.026 11.026 0 01.25 3.762 1 1 0 01-.89.89 8.968 8.968 0 00-5.35 2.524 1 1 0 01-1.4 0zM6 18a1 1 0 001-1v-2.065a8.935 8.935 0 00-2-.712V17a1 1 0 001 1z"/>
           </svg>
@@ -91,17 +91,12 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
 
   <!-- Services Premium Grid - 4x2 -->
   <section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
-    {/* Animated Background Pattern */}
-    <div class="absolute inset-0 opacity-20">
-      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); animation: slide-bg 30s linear infinite;"></div>
+    {/* Background Pattern (static) */}
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
     </div>
 
-    {/* Animated Gradient Orbs */}
-    <div class="absolute top-20 left-10 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float"></div>
-    <div class="absolute bottom-20 right-10 w-80 h-80 bg-cyan/30 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
-
-    {/* Lamp Light Effect */}
-    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[400px] bg-gradient-radial from-primary/20 via-cyan/10 to-transparent blur-3xl opacity-60 animate-lamp-flicker pointer-events-none"></div>
+    {/* Heavy orbs and lamp effect removed */}
 
     <div class="container relative z-10">
       {/* Premium Cards Grid - 4 columns x 2 rows */}
@@ -110,10 +105,11 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
           <a
             href="/iletisim"
             class="group relative"
-            style={`animation: fade-in-up 0.6s ease-out ${index * 0.08}s both;`}
+            data-reveal
+            style={`transition-delay: ${index * 40}ms;`}
           >
             {/* Premium Card - Basit Border */}
-            <div class="relative h-full bg-white rounded-2xl overflow-hidden border-2 border-gray-200 shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-primary/80">
+            <div class="relative h-full bg-white rounded-2xl overflow-hidden border-2 border-gray-200 shadow-xl transition-all duration-500 hover:scale-105 hover:shadow-2xl hover:border-primary/80 premium-shine">
               
               {/* Image with Overlay */}
               <div class="relative h-56 overflow-hidden rounded-t-2xl">
@@ -127,7 +123,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
                 <div class="absolute inset-0 bg-gradient-to-t from-navy/70 via-navy/30 to-transparent"></div>
                 
                 {/* Icon Badge */}
-                <div class="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-primary to-cyan rounded-xl flex items-center justify-center shadow-xl transform transition-all duration-500 group-hover:scale-125 group-hover:rotate-12">
+              <div class="absolute top-4 right-4 w-12 h-12 bg-gradient-to-br from-primary to-cyan rounded-xl flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110">
                   <span class="text-2xl">{service.icon}</span>
                 </div>
               </div>
@@ -221,19 +217,19 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
 
       {/* Animated Brand Stats - DSG Uzmanı Stili */}
       <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine">
           <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">8</div>
           <div class="text-white/90 font-semibold text-sm md:text-base">Premium Marka</div>
         </div>
-        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine">
           <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">44+</div>
           <div class="text-white/90 font-semibold text-sm md:text-base">Farklı Model</div>
         </div>
-        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine">
           <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">6.5K+</div>
           <div class="text-white/90 font-semibold text-sm md:text-base">Mutlu Müşteri</div>
         </div>
-        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine">
           <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">15+</div>
           <div class="text-white/90 font-semibold text-sm md:text-base">Yıl Deneyim</div>
         </div>
@@ -367,7 +363,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Feature 1 - Expertise */}
         <div class="group relative">
-          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
+          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden premium-shine">
             <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
             
             <div class="mb-6 relative z-10">
@@ -402,7 +398,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
 
         {/* Feature 2 - Warranty */}
         <div class="group relative">
-          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
+          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden premium-shine">
             <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
             
             <div class="mb-6 relative z-10">
@@ -437,7 +433,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
 
         {/* Feature 3 - Fast Service */}
         <div class="group relative">
-          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden">
+          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden premium-shine">
             <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
             
             <div class="mb-6 relative z-10">

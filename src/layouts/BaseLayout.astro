@@ -4,6 +4,7 @@ import Footer from '@components/common/Footer.astro';
 import PhoneButton from '@components/common/PhoneButton';
 import WhatsAppButton from '@components/common/WhatsAppButton';
 import '@styles/global.css';
+import '@styles/reveal.css';
 
 interface Props {
   title: string;
@@ -102,20 +103,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   </script>
 
   {/* Preload Critical Resources */}
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-  <link rel="preload" href="/images/hero-bg.avif" as="image" type="image/avif" fetchpriority="high" />
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Barlow:wght@400&display=swap" as="style" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&subset=latin,latin-ext&display=swap" media="print" onload="this.media='all'" />
-  <noscript>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Barlow:wght@300;400;500;600;700;800;900&subset=latin,latin-ext&display=swap" />
-  </noscript>
+      <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+      <link rel="preload" href="/images/hero-bg.jpg" as="image" type="image/jpeg" fetchpriority="high" />
   
   {/* Critical CSS */}
   <style is:inline>
     body {
-      font-family: 'Barlow', system-ui, -apple-system, sans-serif;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background-color: #ffffff;
       color: #1a202c; /* gray-900 */
       -webkit-font-smoothing: antialiased;
@@ -134,7 +128,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
-      font-family: 'Montserrat', 'Barlow', sans-serif;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       font-weight: 600; /* font-semibold */
     }
     h1 {
@@ -169,7 +163,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <meta name="google-site-verification" content={import.meta.env.PUBLIC_GSC_VERIFICATION} />
   )}
   
-  <slot name="head" />
+      
+      <slot name="head" />
 </head>
 <body class="smooth-scroll">
   <Header />
@@ -178,12 +173,28 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     <slot />
   </main>
   
-  <Footer />
+      <Footer />
   
       {/* Floating Buttons */}
       <PhoneButton client:load />
       <WhatsAppButton client:load />
 
+      {/* Auto Reveal (once) - inline to ensure it runs in build/preview */}
+      <script is:inline>
+        (function(){
+          try{
+            var opts = { root: null, rootMargin: '0px 0px -10% 0px', threshold: 0.15 };
+            var onReveal = function(el){ el.classList.add('reveal--in'); };
+            var io = new IntersectionObserver(function(entries, obs){
+              for (var i=0;i<entries.length;i++){
+                var e = entries[i];
+                if (e.isIntersecting){ onReveal(e.target); obs.unobserve(e.target); }
+              }
+            }, opts);
+            document.querySelectorAll('[data-reveal]').forEach(function(el){ io.observe(el); });
+          }catch(e){ /* no-op */ }
+        })();
+      </script>
 
   {/* Google Analytics - Lazy loaded after interaction */}
   {import.meta.env.PUBLIC_GA_ID && (

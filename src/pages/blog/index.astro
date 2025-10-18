@@ -26,42 +26,27 @@ const posts = await fetchPosts(1, 12);
       <div class="absolute inset-0 bg-gradient-to-br from-navy/95 via-navy/90 to-navy/95"></div>
     </div>
 
-    {/* Animated Pattern */}
+    {/* Pattern (static) */}
     <div class="absolute inset-0 opacity-10">
       <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
     </div>
-
-    {/* Glowing Stars - Reduced */}
-    <div class="absolute inset-0 overflow-hidden opacity-20">
-      {Array.from({ length: 20 }).map((_, i) => (
-        <div
-          key={i}
-          class="absolute w-1 h-1 bg-cyan rounded-full animate-glow-pulse"
-          style={{
-            left: `${Math.random() * 100}%`,
-            top: `${Math.random() * 100}%`,
-            animationDelay: `${Math.random() * 3}s`,
-            animationDuration: `${2 + Math.random() * 2}s`,
-          }}
-        />
-      ))}
-    </div>
-
+    {/* Stars removed for performance */}
+ 
     <div class="container relative z-10 py-8">
       <div class="max-w-4xl mx-auto text-center">
         {/* Badge */}
-        <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-6 py-2 rounded-full mb-3 animate-[fade-in-up_0.6s_ease-out]">
+        <div class="inline-flex items-center gap-2 bg-white/10 text-white px-6 py-2 rounded-full mb-3" data-reveal>
           <svg class="w-5 h-5 text-cyan" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
           </svg>
           <span class="font-semibold">Bilgi & İpuçları</span>
         </div>
-
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white mb-3 animate-[fade-in-up_0.8s_ease-out]">
+ 
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white mb-3" data-reveal>
           DSG <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan to-primary">Bilgi Merkezi</span>
         </h1>
         
-        <p class="text-base md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto animate-[fade-in-up_1s_ease-out]">
+        <p class="text-base md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto" data-reveal>
           DSG şanzıman, mekatronik sistemleri ve araç bakımı hakkında uzman görüşleri, 
           pratik ipuçları ve güncel haberler
         </p>
@@ -187,14 +172,12 @@ const posts = await fetchPosts(1, 12);
 
   <!-- CTA Section - Modern -->
   <section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
-    {/* Animated Background */}
-    <div class="absolute inset-0 opacity-20">
-      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); animation: slide-bg 30s linear infinite;"></div>
+    {/* Background (static) */}
+    <div class="absolute inset-0 opacity-10">
+      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4H6zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
     </div>
 
-    {/* Gradient Orbs */}
-    <div class="absolute top-20 left-10 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float"></div>
-    <div class="absolute bottom-20 right-10 w-80 h-80 bg-cyan/30 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
+    {/* Heavy orbs removed */}
 
     <div class="container relative z-10">
       <div class="max-w-3xl mx-auto text-center">
@@ -230,7 +213,7 @@ const posts = await fetchPosts(1, 12);
           </a>
           <a
             href="/hizmetlerimiz"
-            class="group inline-flex items-center justify-center gap-2 bg-white/10 backdrop-blur-sm text-white border-2 border-white/30 hover:bg-white hover:text-navy px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:-translate-y-1"
+            class="group inline-flex items-center justify-center gap-2 bg-white/10 text-white border-2 border-white/30 hover:bg-white hover:text-navy px-8 py-4 rounded-xl font-semibold text-lg transition-all duration-300 hover:-translate-y-1"
           >
             Hizmetlerimiz
             <svg class="w-5 h-5 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
