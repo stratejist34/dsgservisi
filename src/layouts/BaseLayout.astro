@@ -1,4 +1,5 @@
 ---
+import { ViewTransitions } from 'astro:transitions';
 import Header from '@components/common/Header.astro';
 import Footer from '@components/common/Footer.astro';
 import PhoneButton from '@components/common/PhoneButton';
@@ -26,6 +27,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <!DOCTYPE html>
 <html lang="tr">
 <head>
+  <ViewTransitions />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/webp" href="/images/icon.webp" />
@@ -110,6 +112,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   
   {/* Critical CSS */}
   <style is:inline>
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
+    }
     body {
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background-color: #ffffff;
@@ -158,6 +164,41 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         line-height: 2.5rem; /* lg:leading-10 */
       }
     }
+
+    /* Premium ama hafif geçiş */
+    @keyframes page-enter {
+      from {
+        opacity: 0;
+        transform: translateY(16px);
+      }
+    }
+
+    ::view-transition-old(root) {
+      animation: 0.25s ease-out both fade-out;
+    }
+
+    ::view-transition-new(root) {
+      animation: 0.28s cubic-bezier(0.4, 0, 0.2, 1) both page-enter;
+    }
+
+    @keyframes fade-out {
+      to { opacity: 0; }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      ::view-transition-old(root),
+      ::view-transition-new(root) {
+        animation: none;
+      }
+    }
+
+    @media (max-width: 768px) {
+      ::view-transition-old(root),
+      ::view-transition-new(root) {
+        animation-duration: 0.2s;
+      }
+    }
   </style>
   
   {/* Google Search Console Verification */}
@@ -169,13 +210,13 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <slot name="head" />
 </head>
 <body class="smooth-scroll">
-  <Header />
+  <Header transition:persist />
   
   <main class="pt-20">
     <slot />
   </main>
   
-      <Footer />
+      <Footer transition:persist />
   
       {/* Floating Buttons */}
       <PhoneButton client:load />
