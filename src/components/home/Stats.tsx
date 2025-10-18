@@ -68,14 +68,12 @@ function Counter({
 
 export default function Stats() {
   return (
-    <div className="relative py-20 md:py-32 overflow-hidden">
+    <div className="relative py-20 md:py-32 overflow-hidden" style={{ willChange: 'transform' }}>
       {/* Background with Gradient - Koyu Turkuaz Ton */}
       <div 
         className="absolute inset-0"
         style={{
           background: 'linear-gradient(135deg, #0a3d4d 0%, #0a4d68 50%, #0a3d4d 100%)',
-          backgroundSize: '300% 300%',
-          animation: 'gradient-shift 15s ease infinite',
         }}
       />
       
@@ -99,7 +97,7 @@ export default function Stats() {
         </div>
 
         {/* Stats Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12" style={{ willChange: 'transform' }}>
           {/* Stat 1 */}
           <div className="text-center transform hover:scale-105 transition-transform duration-300">
             <Counter end={SITE_CONFIG.stats.experience} suffix="+" />

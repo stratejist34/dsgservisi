@@ -1,0 +1,22 @@
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity .28s ease-out, transform .28s ease-out;
+  will-change: opacity, transform;
+}
+
+.reveal--in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@media (prefers-reduced-motion: reduce){
+  [data-reveal]{
+    transition: none;
+    transform: none;
+    opacity: 1;
+  }
+}
+
+
+

@@ -14,7 +14,7 @@
   
   body {
     @apply bg-white text-gray-900 antialiased;
-    font-family: 'Barlow', system-ui, -apple-system, sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
@@ -45,7 +45,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Montserrat', 'Barlow', sans-serif;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     @apply font-semibold;
   }
   
@@ -133,6 +133,99 @@
   
   .smooth-scroll {
     scroll-behavior: smooth;
+  }
+  /* Özel Premium Shine Effect - Yavaş, yumuşak ve dağınık */
+  .premium-shine {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  /* Ana parlama efekti - Daha geniş ve yavaş */
+  .premium-shine::before {
+    content: "";
+    position: absolute;
+    top: -80%;
+    left: -150%;
+    width: 100%;
+    height: 260%;
+    background: linear-gradient(
+      120deg,
+      transparent 0%,
+      transparent 20%,
+      rgba(255, 255, 255, 0.01) 30%,
+      rgba(255, 255, 255, 0.03) 38%,
+      rgba(93, 211, 224, 0.08) 45%,
+      rgba(255, 255, 255, 0.12) 50%,
+      rgba(93, 211, 224, 0.08) 55%,
+      rgba(255, 255, 255, 0.03) 62%,
+      rgba(255, 255, 255, 0.01) 70%,
+      transparent 80%,
+      transparent 100%
+    );
+    transform: rotate(-20deg) translateX(-120%) translateZ(0);
+    transition: transform 2800ms cubic-bezier(0.16, 0.84, 0.44, 1);
+    will-change: transform;
+    pointer-events: none;
+    filter: blur(12px);
+    backface-visibility: hidden;
+  }
+  
+  .premium-shine:hover::before, 
+  .group:hover .premium-shine::before {
+    transform: rotate(-20deg) translateX(350%) translateZ(0);
+  }
+  
+  /* İkinci katman - yumuşak ve geniş */
+  .premium-shine::after {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -120%;
+    width: 80%;
+    height: 200%;
+    background: radial-gradient(
+      ellipse at center,
+      rgba(255, 255, 255, 0.06) 0%,
+      rgba(93, 211, 224, 0.04) 30%,
+      transparent 70%
+    );
+    transform: translateX(-150%) scale(0.8) translateZ(0);
+    transition: transform 2400ms cubic-bezier(0.16, 0.84, 0.44, 1) 200ms;
+    will-change: transform;
+    pointer-events: none;
+    filter: blur(20px);
+    backface-visibility: hidden;
+  }
+  
+  .premium-shine:hover::after,
+  .group:hover .premium-shine::after {
+    transform: translateX(400%) scale(1.2) translateZ(0);
+  }
+  
+  /* Animate on reveal (mobil için) - Daha yavaş */
+  .reveal--in .premium-shine::before {
+    animation: shine-reveal 3200ms cubic-bezier(0.16, 0.84, 0.44, 1) 400ms forwards;
+  }
+  
+  @keyframes shine-reveal {
+    0% {
+      transform: rotate(-20deg) translateX(-120%) translateZ(0);
+    }
+    100% {
+      transform: rotate(-20deg) translateX(350%) translateZ(0);
+    }
+  }
+  
+  /* Reduced motion desteği - Erişilebilirlik */
+  @media (prefers-reduced-motion: reduce) {
+    .premium-shine::before,
+    .premium-shine::after {
+      animation: none !important;
+      transition: none !important;
+    }
+    .reveal--in .premium-shine::before {
+      animation: none !important;
+    }
   }
 }
 
@@ -228,15 +321,6 @@
   }
   to {
     transform: rotate(360deg);
-  }
-}
-
-@keyframes shine-sweep {
-  0% {
-    background-position: -200% 0;
-  }
-  100% {
-    background-position: 200% 0;
   }
 }
 
@@ -363,13 +447,13 @@
 }
 
 /* Performance optimizations */
+/* Reduced motion: disable animations and transitions */
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
   *::after {
-    animation-duration: 0.01ms !important;
-    animation-iteration-count: 1 !important;
-    transition-duration: 0.01ms !important;
+    animation: none !important;
+    transition: none !important;
     scroll-behavior: auto !important;
   }
 }

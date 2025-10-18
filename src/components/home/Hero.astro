@@ -6,60 +6,47 @@ import BrandLogos from './BrandLogos';
 <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
   {/* Background Image - Workshop */}
   <div class="absolute inset-0">
-    <picture>
-      <source srcset="/images/hero-bg.avif" type="image/avif" />
-      <source srcset="/images/hero-bg.webp" type="image/webp" />
-      <img 
-        src="/images/hero-bg.jpg" 
-        alt="DSG Servisi Atölyesi" 
-        class="w-full h-full object-cover"
-        fetchpriority="high"
-        loading="eager"
-        sizes="100vw"
-        width="1920"
-        height="1080"
-      />
-    </picture>
+    <img 
+      src="/images/hero-bg.jpg" 
+      alt="DSG Servisi Atölyesi" 
+      class="w-full h-full object-cover"
+      fetchpriority="high"
+      loading="eager"
+      sizes="100vw"
+      width="1920"
+      height="1080"
+      decoding="async"
+    />
     {/* Gradient Overlay Mask */}
     <div class="absolute inset-0 bg-gradient-to-br from-navy/95 via-navy/90 to-navy/95"></div>
   </div>
 
-  {/* Animated Pattern Overlay */}
-  <div class="absolute inset-0 opacity-10">
+  {/* Subtle Pattern Overlay (reduced opacity) */}
+  <div class="absolute inset-0 opacity-8">
     <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
   </div>
 
-  {/* Glowing Stars */}
-  <div class="absolute inset-0 overflow-hidden opacity-30">
-    {Array.from({ length: 30 }).map((_, i) => (
-      <div
-        key={i}
-        class="star"
-        style={`
-          left: ${Math.random() * 100}%;
-          top: ${Math.random() * 100}%;
-          animation-delay: ${Math.random() * 3}s;
-          animation-duration: ${2 + Math.random() * 3}s;
-        `}
-      />
-    ))}
-  </div>
+  {/* Lightweight radial breathing background (opacity-only) */}
+  <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse at 30% 30%, rgba(93,211,224,0.10), transparent 60%), radial-gradient(ellipse at 70% 70%, rgba(26,156,176,0.08), transparent 60%);"></div>
 
   <div class="container mx-auto px-4 py-12 relative z-10">
     <div class="max-w-5xl mx-auto text-center">
       {/* Main Heading */}
-      <h1 class="font-display font-bold mb-6 animate-[fade-in-up_0.8s_ease-out] tracking-tight">
+      <h1 class="font-display font-bold mb-6 tracking-tight" data-reveal>
         <span class="block text-white/90 text-3xl md:text-4xl lg:text-5xl mb-3 font-medium uppercase tracking-wider">
           VOLKSWAGEN GRUBU
         </span>
         <span class="flex flex-wrap items-center justify-center gap-x-4 text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-tight">
-          <span class="text-gradient">DSG ŞANZIMAN</span>
+          <span class="relative inline-block group overflow-hidden">
+            <span class="text-gradient relative z-10">DSG ŞANZIMAN</span>
+            <span class="shine-bar pointer-events-none absolute inset-y-0 left-[-25%] w-[40%] bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 transition-opacity duration-500" style="transform: translateX(-120%); will-change: transform, opacity;"></span>
+          </span>
           <span class="text-white">SERVİSİ</span>
         </span>
       </h1>
 
       {/* Description */}
-      <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed animate-[fade-in-up_1s_ease-out]">
+      <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed" data-reveal>
         <span class="text-cyan font-semibold">{SITE_CONFIG.stats.experience} yıldır</span> 
         {' '}VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlarında 
         <span class="text-white font-semibold"> DSG şanzıman ve mekatronik tamiri</span>.
@@ -67,13 +54,12 @@ import BrandLogos from './BrandLogos';
       </p>
 
       {/* CTA Buttons */}
-      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16 animate-[fade-in-up_1.2s_ease-out]">
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16" data-reveal>
         <a
           href={`tel:${SITE_CONFIG.phoneFormatted}`}
-          class="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white bg-gradient-to-r from-primary via-cyan to-primary-600 rounded-xl overflow-hidden shadow-2xl hover:shadow-cyan/50 transition-all duration-300 hover:scale-105"
+          class="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white bg-gradient-to-r from-primary via-cyan to-primary-600 rounded-xl overflow-hidden shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5"
           style="background-size: 200% 100%;"
         >
-          <span class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-700"></span>
           <svg
             class="w-6 h-6 mr-3 relative z-10"
             fill="none"
@@ -87,7 +73,7 @@ import BrandLogos from './BrandLogos';
         </a>
         <a
           href="/hizmetlerimiz"
-          class="group inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-navy bg-white rounded-xl border-2 border-white/30 hover:border-cyan shadow-xl hover:shadow-2xl transition-all duration-300 hover:scale-105"
+          class="group inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-navy bg-white rounded-xl border-2 border-white/30 hover:border-cyan shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5"
         >
           <span class="font-display tracking-wide">HİZMETLERİMİZ</span>
           <svg class="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
@@ -96,11 +82,10 @@ import BrandLogos from './BrandLogos';
         </a>
       </div>
 
-      {/* DSG Badge - Özel Vurgu */}
-      <div class="mb-8 animate-[fade-in-up_1.4s_ease-out]">
-        <div class="inline-flex items-center gap-4 bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md px-10 py-5 rounded-2xl border-2 border-cyan/30 shadow-2xl">
+  {/* DSG Badge - Özel Vurgu */}
+      <div class="mb-8" data-reveal>
+    <div class="inline-flex items-center gap-4 bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 px-10 py-5 rounded-2xl border-2 border-cyan/30 premium-shine transition-transform duration-300 hover:scale-[1.01]">
           <div class="relative">
-            <div class="absolute inset-0 bg-gradient-to-br from-primary to-cyan rounded-lg blur-md opacity-75"></div>
             <div class="relative w-14 h-14 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center shadow-xl">
               <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -115,7 +100,7 @@ import BrandLogos from './BrandLogos';
       </div>
 
       {/* Brand Logos */}
-      <div class="animate-[fade-in-up_1.6s_ease-out]">
+      <div data-reveal>
         <p class="text-gray-400 text-sm uppercase tracking-wider mb-6 font-semibold">
           Çalıştığımız Markalar
         </p>
@@ -124,8 +109,8 @@ import BrandLogos from './BrandLogos';
     </div>
   </div>
 
-  {/* Scroll indicator */}
-  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+  {/* Scroll indicator (reduced motion safe) */}
+  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
     <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
     </svg>
@@ -133,46 +118,18 @@ import BrandLogos from './BrandLogos';
 </section>
 
 <style is:inline>
-  @keyframes glow-pulse {
-    0%, 100% {
-      opacity: 0.3;
-      transform: scale(1);
-    }
-    50% {
-      opacity: 1;
-      transform: scale(1.5);
-    }
+  /* Stars and heavy glow removed per performance rules */
+  .group:hover > .shine-bar { 
+    transform: translateX(180%);
+    opacity: 1;
+    transition: transform 1200ms cubic-bezier(0.22, 1, 0.36, 1), opacity 400ms ease-out;
   }
-
-  .star {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    background: #5dd3e0;
-    border-radius: 50%;
-    box-shadow: 0 0 6px 2px rgba(93, 211, 224, 0.8),
-                0 0 12px 4px rgba(26, 156, 176, 0.4);
-    animation: glow-pulse 3s ease-in-out infinite;
-  }
-
-  .star:nth-child(3n) {
-    width: 3px;
-    height: 3px;
-    background: #1a9cb0;
-    box-shadow: 0 0 8px 3px rgba(26, 156, 176, 0.8),
-                0 0 16px 6px rgba(93, 211, 224, 0.4);
-  }
-
-  .star:nth-child(5n) {
-    width: 1px;
-    height: 1px;
-  }
-
-  @media (prefers-reduced-motion: reduce) {
-    .star {
-      animation: none !important;
-      box-shadow: none !important;
-    }
+  /* Run once when title reveals (works on mobile too) */
+  .reveal--in .shine-bar {
+    transform: translateX(180%);
+    opacity: 1;
+    transition: transform 1200ms cubic-bezier(0.22, 1, 0.36, 1), opacity 400ms ease-out;
+    transition-delay: 120ms;
   }
 </style>
 
