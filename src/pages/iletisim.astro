@@ -113,25 +113,25 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
             </a>
 
             <!-- Address -->
-            <div class="bg-gradient-to-br from-navy/5 to-primary/5 rounded-2xl p-6 border-2 border-navy/10">
+            <a 
+              href={`https://www.google.com/maps/dir/?api=1&destination=${SITE_CONFIG.coordinates.latitude},${SITE_CONFIG.coordinates.longitude}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="group block bg-gradient-to-br from-navy/10 to-primary/10 hover:from-navy/20 hover:to-primary/20 rounded-2xl p-6 border-2 border-navy/20 hover:border-navy/40 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+            >
               <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-navy to-primary rounded-xl flex items-center justify-center flex-shrink-0 shadow-lg">
+                <div class="w-14 h-14 bg-gradient-to-br from-navy to-primary rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
                   <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
                   </svg>
                 </div>
                 <div class="flex-1">
-                  <h3 class="font-bold text-lg text-navy mb-2">Adres</h3>
+                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-primary transition-colors">Adres</h3>
                   <p class="text-base text-gray-700 leading-relaxed mb-3">
                     {SITE_CONFIG.address.street}<br />
                     {SITE_CONFIG.address.city} / {SITE_CONFIG.address.state}
                   </p>
-                  <a
-                    href={`https://www.google.com/maps/dir/?api=1&destination=${SITE_CONFIG.coordinates.latitude},${SITE_CONFIG.coordinates.longitude}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    class="inline-flex items-center gap-2 text-primary hover:text-cyan font-semibold transition-colors group"
-                  >
+                  <div class="inline-flex items-center gap-2 text-primary group-hover:text-navy font-semibold transition-colors">
                     <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
                     </svg>
@@ -139,27 +139,31 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
                     <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
                     </svg>
-                  </a>
+                  </div>
                 </div>
               </div>
-            </div>
+            </a>
 
             <!-- Working Hours -->
-            <div class="bg-gradient-to-br from-navy via-navy-700 to-navy rounded-2xl p-6 text-white shadow-2xl">
-              <h3 class="font-bold text-xl mb-4 flex items-center">
-                <svg class="w-6 h-6 mr-2 text-cyan" fill="currentColor" viewBox="0 0 20 20">
-                  <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
-                </svg>
-                Çalışma Saatleri
-              </h3>
-              <div class="space-y-2 bg-white/10 rounded-xl p-4 backdrop-blur-sm">
-                <div class="flex items-center justify-between">
-                  <span class="text-gray-300">Hafta İçi:</span>
-                  <span class="font-semibold text-cyan">{SITE_CONFIG.workingHours.weekdays}</span>
+            <div class="group bg-gradient-to-br from-navy/10 to-cyan/10 hover:from-navy/20 hover:to-cyan/20 rounded-2xl p-6 border-2 border-navy/20 hover:border-cyan/40 transition-all duration-300 hover:shadow-xl hover:-translate-y-1">
+              <div class="flex items-start gap-4">
+                <div class="w-14 h-14 bg-gradient-to-br from-navy to-cyan rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
+                  <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
+                  </svg>
                 </div>
-                <div class="flex items-center justify-between">
-                  <span class="text-gray-300">Hafta Sonu:</span>
-                  <span class="font-semibold text-red-400">{SITE_CONFIG.workingHours.weekend}</span>
+                <div class="flex-1">
+                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-cyan transition-colors">Çalışma Saatleri</h3>
+                  <div class="space-y-2">
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-600">Hafta İçi:</span>
+                      <span class="font-semibold text-navy">{SITE_CONFIG.workingHours.weekdays}</span>
+                    </div>
+                    <div class="flex items-center justify-between">
+                      <span class="text-gray-600">Hafta Sonu:</span>
+                      <span class="font-semibold text-red-500">{SITE_CONFIG.workingHours.weekend}</span>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
