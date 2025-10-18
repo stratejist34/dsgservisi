@@ -1,5 +1,10 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://dsgservisi.com/sitemap-index.xml
+# İnternal cache ve data klasörleri
+Disallow: /wp-cache/
 
+# API endpoint'leri varsa (gelecekte)
+Disallow: /api/
+
+Sitemap: https://dsgservisi.com/sitemap-index.xml
