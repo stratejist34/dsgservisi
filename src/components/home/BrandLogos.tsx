@@ -3,6 +3,7 @@ import { SITE_CONFIG } from '@utils/constants';
 export default function BrandLogos() {
   // DSG'yi çıkar, sadece 8 marka (4x2 grid için)
   const brands = SITE_CONFIG.brands.filter(brand => brand.name !== 'DSG');
+  const largerBrands = new Set(['Mercedes', 'Porsche', 'Seat', 'Skoda']);
 
   return (
     <div className="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mt-12 md:mt-16 max-w-5xl mx-auto">
@@ -30,17 +31,26 @@ export default function BrandLogos() {
           />
 
           {/* Logo Container ÜSTTE - Normal 2px, Hover 1px border */}
-          <div className="absolute inset-[2px] group-hover:inset-[3px] flex items-center justify-center rounded-full bg-navy cursor-pointer transition-all duration-300 z-10">
-            {/* Logo Image - Orijinal formatı (PNG/JPG) kullan */}
-            <img
-              src={`${brand.logo}?v=3`}
-              alt={`${brand.name} Servisi`}
-              className="w-10 h-10 md:w-12 md:h-12 object-contain opacity-90 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
-              loading="lazy"
-              width="48"
-              height="48"
-              decoding="async"
-            />
+          <div className="absolute inset-[2px] group-hover:inset-[3px] flex items-center justify-center rounded-full bg-transparent cursor-pointer transition-all duration-300 z-10 p-[2px] overflow-hidden">
+            {/* Inner badge: soft cyan underlight, button-like */}
+            <div
+              className="w-full h-full rounded-full shadow-xl flex items-center justify-center"
+              style={{
+                background: 'linear-gradient(135deg,rgb(6, 133, 172) 0%, #0a4d68 100%)'
+              }}
+            >
+              {/* Logo Image */}
+              <img
+                src={`${brand.logo}?v=8`}
+                alt={`${brand.name} Servisi`}
+                className={`object-contain opacity-95 group-hover:opacity-100 group-hover:scale-110 transition-transform duration-300 ${largerBrands.has(brand.name) ? 'w-[50px] h-[50px] md:w-[60px] md:h-[60px]' : 'w-[44px] h-[44px] md:w-[52px] md:h-[52px]'}`}
+                style={{ filter: 'drop-shadow(0 0 1.5px rgba(20, 20, 20, 0.22))' }}
+                loading="lazy"
+                width={largerBrands.has(brand.name) ? 60 : 52}
+                height={largerBrands.has(brand.name) ? 60 : 52}
+                decoding="async"
+              />
+            </div>
           </div>
         </a>
       ))}

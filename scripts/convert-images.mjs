@@ -12,7 +12,8 @@ import path from 'node:path';
 import sharp from 'sharp';
 
 const ROOT = process.cwd();
-const HERO = path.join(ROOT, 'public', 'images', 'hero-bg.jpg');
+const HERO_JPG = path.join(ROOT, 'public', 'images', 'hero-bg.jpg');
+const HERO_AVIF = path.join(ROOT, 'public', 'images', 'hero-bg.avif');
 const SERVICES_DIR = path.join(ROOT, 'public', 'images', 'services');
 
 async function fileExists(p) {
@@ -52,7 +53,7 @@ async function convertDir(dir) {
   const files = entries
     .filter((d) => d.isFile())
     .map((d) => path.join(dir, d.name))
-    .filter((f) => /\.(jpg|jpeg|png|webp)$/i.test(f));
+    .filter((f) => /\.(jpg|jpeg|png|webp|avif)$/i.test(f));
 
   let success = 0; let fail = 0;
   for (const f of files) {
@@ -64,17 +65,57 @@ async function convertDir(dir) {
 
 async function main() {
   let totalOk = 0; let totalFail = 0;
-  // Hero
-  if (await fileExists(HERO)) {
-    const r = await convertOne(HERO);
-    if (r.ok) totalOk++; else { totalFail++; console.warn('Convert fail (hero):', r.error); }
+  // Hero responsive AVIF set
+  const heroInput = (await fileExists(HERO_JPG)) ? HERO_JPG : (await fileExists(HERO_AVIF)) ? HERO_AVIF : null;
+  if (heroInput) {
+    const heroBase = path.join(ROOT, 'public', 'images', 'hero-bg');
+    const heroSizes = [480, 768, 1280, 1920];
+    for (const w of heroSizes) {
+      const out = `${heroBase}-${w}.avif`;
+      if (!(await fileExists(out))) {
+        try {
+          await sharp(heroInput).resize(w, null, { withoutEnlargement: true }).avif({ quality: 55 }).toFile(out);
+          totalOk++;
+        } catch (e) {
+          totalFail++; console.warn('Hero resize fail:', w, e.message);
+        }
+      }
+    }
+    // also ensure base hero-bg.avif exists
+    if (!(await fileExists(`${heroBase}.avif`))) {
+      try {
+        await sharp(heroInput).avif({ quality: 55 }).toFile(`${heroBase}.avif`);
+        totalOk++;
+      } catch (e) {
+        totalFail++; console.warn('Hero base avif fail:', e.message);
+      }
+    }
   } else {
-    console.warn('Hero image not found:', HERO);
+    console.warn('Hero image not found:', HERO_JPG, 'or', HERO_AVIF);
   }
   // Services
   if (await fileExists(SERVICES_DIR)) {
-    const r = await convertDir(SERVICES_DIR);
-    totalOk += r.success; totalFail += r.fail;
+    // generate 320/480/640 avif for each service asset
+    const entries = await fs.readdir(SERVICES_DIR, { withFileTypes: true });
+    const files = entries
+      .filter((d) => d.isFile())
+      .map((d) => path.join(SERVICES_DIR, d.name))
+      .filter((f) => /\.(jpg|jpeg|png|webp|avif)$/i.test(f));
+    const sizes = [320, 480, 640];
+    for (const input of files) {
+      const ext = path.extname(input);
+      const base = input.slice(0, -ext.length);
+      for (const w of sizes) {
+        const out = `${base}-${w}.avif`;
+        if (await fileExists(out)) continue;
+        try {
+          await sharp(input).resize(w, null, { withoutEnlargement: true }).avif({ quality: 55 }).toFile(out);
+          totalOk++;
+        } catch (e) {
+          totalFail++; console.warn('Service resize fail:', input, w, e.message);
+        }
+      }
+    }
   }
 
   console.log(`✅ Image convert done. OK: ${totalOk}, Fail: ${totalFail}`);
