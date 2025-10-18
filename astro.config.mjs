@@ -9,10 +9,6 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   site: 'https://dsgservisi.com',
-  prefetch: {
-    defaultStrategy: 'hover',
-    prefetchAll: true
-  },
   integrations: [
     react(),
     tailwind({
