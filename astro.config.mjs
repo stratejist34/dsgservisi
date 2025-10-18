@@ -4,6 +4,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import compression from 'vite-plugin-compression';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -53,6 +54,22 @@ export default defineConfig({
     },
   },
   vite: {
+    plugins: [
+      // Gzip compression
+      compression({
+        algorithm: 'gzip',
+        ext: '.gz',
+        threshold: 1024, // 1KB üzeri dosyalar
+        deleteOriginFile: false
+      }),
+      // Brotli compression (daha iyi sıkıştırma)
+      compression({
+        algorithm: 'brotliCompress',
+        ext: '.br',
+        threshold: 1024,
+        deleteOriginFile: false
+      })
+    ],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src'),

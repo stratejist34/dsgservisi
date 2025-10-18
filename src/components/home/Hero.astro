@@ -6,18 +6,31 @@ import BrandLogos from './BrandLogos';
 <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
   {/* Background Image - Workshop */}
   <div class="absolute inset-0">
-    <img 
-      src="/images/hero-bg.avif" 
-      alt="DSG Servisi Atölyesi" 
-      class="w-full h-full object-cover"
-      fetchpriority="high"
-      loading="eager"
-      sizes="100vw"
-      srcset="/images/hero-bg-480.avif 480w, /images/hero-bg-768.avif 768w, /images/hero-bg-1280.avif 1280w, /images/hero-bg-1920.avif 1920w"
-      width="1920"
-      height="1080"
-      decoding="async"
-    />
+    <picture>
+      {/* AVIF - En iyi sıkıştırma */}
+      <source 
+        type="image/avif"
+        sizes="100vw"
+        srcset="/images/hero-bg-480.avif 480w, /images/hero-bg-768.avif 768w, /images/hero-bg-1280.avif 1280w, /images/hero-bg-1920.avif 1920w"
+      />
+      {/* WebP - Fallback */}
+      <source 
+        type="image/webp"
+        sizes="100vw"
+        srcset="/images/hero-bg-480.webp 480w, /images/hero-bg-768.webp 768w, /images/hero-bg-1280.webp 1280w, /images/hero-bg-1920.webp 1920w"
+      />
+      {/* JPG - Son fallback */}
+      <img 
+        src="/images/hero-bg.jpg" 
+        alt="DSG Servisi Atölyesi" 
+        class="w-full h-full object-cover"
+        fetchpriority="high"
+        loading="eager"
+        width="1920"
+        height="1080"
+        decoding="async"
+      />
+    </picture>
     {/* Gradient Overlay Mask */}
     <div class="absolute inset-0 bg-gradient-to-br from-navy/95 via-navy/90 to-navy/95"></div>
   </div>
