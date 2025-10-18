@@ -2,7 +2,7 @@ name: Build WP Cache
 
 on:
   schedule:
-    - cron: '*/5 * * * *' # every 5 minutes
+    - cron: '0 3 * * *' # Her gün saat 03:00'te (UTC) - Türkiye saati 06:00
   workflow_dispatch:
   repository_dispatch:
     types: [wp_published]

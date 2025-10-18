@@ -8,7 +8,12 @@ const API_URL = process.env.PUBLIC_WORDPRESS_API_URL || 'https://dsgservisi.com/
 
 async function fetchAllPosts() {
   const firstUrl = `${API_URL}/posts?_embed&per_page=100&page=1&orderby=date&order=desc`;
-  const firstRes = await fetch(firstUrl, { headers: { 'Accept': 'application/json' } });
+  const firstRes = await fetch(firstUrl, { 
+    headers: { 
+      'Accept': 'application/json',
+      'User-Agent': 'DSGServisi-Cache-Bot/1.0'
+    } 
+  });
   if (!firstRes.ok) {
     throw new Error(`Failed to fetch posts: ${firstRes.status} ${firstRes.statusText}`);
   }
@@ -18,7 +23,12 @@ async function fetchAllPosts() {
   const pageFetches = [];
   for (let page = 2; page <= Math.min(totalPages, 10); page++) {
     const url = `${API_URL}/posts?_embed&per_page=100&page=${page}&orderby=date&order=desc`;
-    pageFetches.push(fetch(url).then(r => r.ok ? r.json() : []));
+    pageFetches.push(fetch(url, { 
+      headers: { 
+        'Accept': 'application/json',
+        'User-Agent': 'DSGServisi-Cache-Bot/1.0'
+      } 
+    }).then(r => r.ok ? r.json() : []));
   }
   const pages = await Promise.all(pageFetches);
   const all = posts.concat(...pages);
