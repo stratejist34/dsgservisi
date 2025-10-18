@@ -46,7 +46,7 @@ function ServiceItem({ name }: ServiceItemProps) {
 export default function AnimatedServiceList() {
   return (
     <div className="relative h-[500px] w-full overflow-hidden">
-      <AnimatedList delay={1500} className="w-full">
+      <AnimatedList delay={975} className="w-full">
         {services.map((service, idx) => (
           <ServiceItem key={idx} name={service} />
         ))}
