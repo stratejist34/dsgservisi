@@ -11,17 +11,11 @@ import BrandLogos from './BrandLogos';
       <source 
         type="image/avif"
         sizes="100vw"
-        srcset="/images/hero-bg-480.avif?v=2 480w, /images/hero-bg-768.avif?v=2 768w, /images/hero-bg-1280.avif?v=2 1280w, /images/hero-bg-1920.avif?v=2 1920w"
+        srcset="/images/hero-bg-480.avif?v=3 480w, /images/hero-bg-768.avif?v=3 768w, /images/hero-bg-1280.avif?v=3 1280w, /images/hero-bg-1920.avif?v=3 1920w"
       />
-      {/* WebP - Fallback */}
-      <source 
-        type="image/webp"
-        sizes="100vw"
-        srcset="/images/hero-bg-480.webp?v=2 480w, /images/hero-bg-768.webp?v=2 768w, /images/hero-bg-1280.webp?v=2 1280w, /images/hero-bg-1920.webp?v=2 1920w"
-      />
-      {/* JPG - Son fallback */}
+      {/* WebP - Fallback (JPG silindi) */}
       <img 
-        src="/images/hero-bg.jpg?v=2" 
+        src="/images/hero-bg.webp?v=3" 
         alt="DSG Servisi Atölyesi" 
         class="w-full h-full object-cover"
         fetchpriority="high"
@@ -29,6 +23,8 @@ import BrandLogos from './BrandLogos';
         width="1920"
         height="1080"
         decoding="async"
+        srcset="/images/hero-bg-480.webp?v=3 480w, /images/hero-bg-768.webp?v=3 768w, /images/hero-bg-1280.webp?v=3 1280w, /images/hero-bg-1920.webp?v=3 1920w"
+        sizes="100vw"
       />
     </picture>
     {/* Gradient Overlay Mask */}
