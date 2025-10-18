@@ -30,27 +30,18 @@ export default function BrandLogos() {
             }}
           />
 
-          {/* Logo Container ÜSTTE - Normal 2px, Hover 1px border */}
-          <div className="absolute inset-[2px] group-hover:inset-[3px] flex items-center justify-center rounded-full bg-transparent cursor-pointer transition-all duration-300 z-10 p-[2px] overflow-hidden">
-            {/* Inner badge: soft cyan underlight, button-like */}
-            <div
-              className="w-full h-full rounded-full shadow-xl flex items-center justify-center"
-              style={{
-                background: 'linear-gradient(135deg,rgb(6, 133, 172) 0%, #0a4d68 100%)'
-              }}
-            >
-              {/* Logo Image */}
-              <img
-                src={`${brand.logo}?v=8`}
-                alt={`${brand.name} Servisi`}
-                className={`object-contain opacity-95 group-hover:opacity-100 group-hover:scale-110 transition-transform duration-300 ${largerBrands.has(brand.name) ? 'w-[50px] h-[50px] md:w-[60px] md:h-[60px]' : 'w-[44px] h-[44px] md:w-[52px] md:h-[52px]'}`}
-                style={{ filter: 'drop-shadow(0 0 1.5px rgba(20, 20, 20, 0.22))' }}
-                loading="lazy"
-                width={largerBrands.has(brand.name) ? 60 : 52}
-                height={largerBrands.has(brand.name) ? 60 : 52}
-                decoding="async"
-              />
-            </div>
+          {/* Logo Container ÜSTTE - Normal 2px, Hover 3px border */}
+          <div className="absolute inset-[2px] group-hover:inset-[3px] flex items-center justify-center rounded-full bg-navy cursor-pointer transition-all duration-300 z-10">
+            {/* Logo Image - Hover'da scale */}
+            <img
+              src={`${brand.logo}?v=8`}
+              alt={`${brand.name} Servisi`}
+              className={`object-contain filter brightness-0 invert opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300 ${largerBrands.has(brand.name) ? 'w-[50px] h-[50px] md:w-[60px] md:h-[60px]' : 'w-[44px] h-[44px] md:w-[52px] md:h-[52px]'}`}
+              loading="lazy"
+              width={largerBrands.has(brand.name) ? 60 : 52}
+              height={largerBrands.has(brand.name) ? 60 : 52}
+              decoding="async"
+            />
           </div>
         </a>
       ))}
