@@ -34,7 +34,6 @@ const navLinks = [
         {navLinks.map((link) => (
           <a
             href={link.href}
-            data-astro-prefetch
             class={`text-white font-semibold hover:text-cyan-light transition-colors duration-300 relative group ${
               currentPath === link.href ? 'text-cyan-light' : ''
             }`}
@@ -48,7 +47,6 @@ const navLinks = [
       {/* CTA Button - DSG Uzmanı Stili */}
       <a 
         href="/iletisim" 
-        data-astro-prefetch
         class="hidden md:inline-flex px-6 py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 border border-white/20 hover:border-cyan transition-colors duration-300"
       >
         FİYAT İSTE
@@ -73,7 +71,6 @@ const navLinks = [
       {navLinks.map((link) => (
         <a
           href={link.href}
-          data-astro-prefetch
           class={`text-white font-semibold py-2 hover:text-cyan-light transition-colors ${
             currentPath === link.href ? 'text-cyan-light' : ''
           }`}
@@ -81,7 +78,7 @@ const navLinks = [
           {link.label}
         </a>
       ))}
-      <a href="/iletisim" data-astro-prefetch class="btn btn-primary mt-2">
+      <a href="/iletisim" class="btn btn-primary mt-2">
         FİYAT İSTE
       </a>
     </nav>

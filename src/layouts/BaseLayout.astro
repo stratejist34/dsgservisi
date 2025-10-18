@@ -1,5 +1,4 @@
 ---
-import { ViewTransitions } from 'astro:transitions';
 import Header from '@components/common/Header.astro';
 import Footer from '@components/common/Footer.astro';
 import PhoneButton from '@components/common/PhoneButton';
@@ -27,23 +26,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <!DOCTYPE html>
 <html lang="tr">
 <head>
-  <!-- Mobil algılama ile View Transitions -->
-  <script is:inline>
-    // Mobil cihaz algılama
-    const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) || window.innerWidth <= 768;
-    
-    // Mobilde View Transitions devre dışı
-    if (!isMobile) {
-      // Sadece desktop'ta View Transitions yükle
-      document.documentElement.style.setProperty('view-transition-name', 'root');
-    } else {
-      // Mobilde normal sayfa yüklemesi
-      document.documentElement.style.setProperty('view-transition-name', 'none');
-    }
-  </script>
-  
-  <!-- Conditional View Transitions -->
-  <ViewTransitions />
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/webp" href="/images/icon.webp" />
@@ -128,10 +110,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   
   {/* Critical CSS */}
   <style is:inline>
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 80px;
-    }
     body {
       font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background-color: #ffffff;
@@ -180,47 +158,48 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         line-height: 2.5rem; /* lg:leading-10 */
       }
     }
+  </style>
 
-    /* Premium ama hafif geçiş */
-    @keyframes page-enter {
-      from {
-        opacity: 0;
-        transform: translateY(16px);
-      }
+  {/* Optimize edilmiş Scroll ve Reveal Sistemi */}
+  <style is:global>
+    /* 1. Smooth scroll */
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
     }
 
-    ::view-transition-old(root) {
-      animation: 0.25s ease-out both fade-out;
+    /* 2. Reveal */
+    [data-reveal] {
+      opacity: 0;
+      transform: translateY(20px);
+      transition: opacity 0.4s ease, transform 0.4s ease;
+      will-change: opacity, transform;
+    }
+    .reveal--in {
+      opacity: 1;
+      transform: translateY(0);
+      will-change: auto; /* animasyon bitince kaldır */
     }
 
-    ::view-transition-new(root) {
-      animation: 0.28s cubic-bezier(0.4, 0, 0.2, 1) both page-enter;
+    /* 3. Header */
+    header {
+      position: sticky;
+      top: 0;
+      transition: background 0.3s ease;
     }
 
-    @keyframes fade-out {
-      to { opacity: 0; }
+    /* 4. Progress bar */
+    .scroll-progress {
+      position: fixed;
+      top: 0;
+      height: 3px;
+      background: linear-gradient(90deg, cyan, blue);
+      transition: width 0.1s ease;
     }
 
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
-      ::view-transition-old(root),
-      ::view-transition-new(root) {
-        animation: none;
-      }
-    }
-
-    @media (max-width: 768px) {
-      ::view-transition-old(root),
-      ::view-transition-new(root) {
-        animation: none !important;
-        opacity: 1 !important;
-        transform: none !important;
-      }
-      
-      /* Mobilde View Transitions tamamen devre dışı */
-      html {
-        view-transition-name: none !important;
-      }
+      [data-reveal] { opacity: 1; transform: none; transition: none; }
     }
   </style>
   
@@ -233,33 +212,55 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <slot name="head" />
 </head>
 <body class="smooth-scroll">
-  <Header transition:persist />
+  <Header />
   
   <main class="pt-20">
     <slot />
   </main>
   
-      <Footer transition:persist />
+      <Footer />
   
       {/* Floating Buttons */}
       <PhoneButton client:load />
       <WhatsAppButton client:load />
 
-      {/* Auto Reveal (once) - inline to ensure it runs in build/preview */}
+      {/* Optimize edilmiş Scroll ve Reveal Script */}
       <script is:inline>
-        (function(){
-          try{
-            var opts = { root: null, rootMargin: '0px 0px -10% 0px', threshold: 0.15 };
-            var onReveal = function(el){ el.classList.add('reveal--in'); };
-            var io = new IntersectionObserver(function(entries, obs){
-              for (var i=0;i<entries.length;i++){
-                var e = entries[i];
-                if (e.isIntersecting){ onReveal(e.target); obs.unobserve(e.target); }
+        // Optimize edilmiş tek script
+        let ticking = false;
+        const header = document.querySelector('header');
+        const progress = document.getElementById('progress');
+
+        // Reveal
+        const io = new IntersectionObserver((entries) => {
+          entries.forEach(e => {
+            if (e.isIntersecting) {
+              e.target.classList.add('reveal--in');
+              io.unobserve(e.target);
+            }
+          });
+        }, { threshold: 0.15 });
+        
+        document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+
+        // Scroll handler (throttled)
+        window.addEventListener('scroll', () => {
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              // Header
+              header?.classList.toggle('scrolled', window.scrollY > 20);
+              
+              // Progress
+              if (progress) {
+                const percent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
+                progress.style.width = `${percent}%`;
               }
-            }, opts);
-            document.querySelectorAll('[data-reveal]').forEach(function(el){ io.observe(el); });
-          }catch(e){ /* no-op */ }
-        })();
+              
+              ticking = false;
+            });
+            ticking = true;
+          }
+        }, { passive: true });
       </script>
 
   {/* Google Analytics - Lazy loaded after interaction */}
