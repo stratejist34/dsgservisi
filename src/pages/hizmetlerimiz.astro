@@ -113,7 +113,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
       {/* Premium Cards Grid - Ana sayfa stili */}
       <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 max-w-7xl mx-auto mb-16">
         {SERVICES.map((service, index) => (
-          <a
+          
             href="/iletisim"
             class="group relative"
             data-reveal
@@ -187,7 +187,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
       {/* Brand Logos - Hero Style */}
       <div class="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mb-16 max-w-5xl mx-auto">
         {SITE_CONFIG.brands.filter(brand => brand.name !== 'DSG').map((brand) => (
-          <a
+          
             key={brand.name}
             href={brand.url}
             class="group relative w-16 h-16 md:w-20 md:h-20 block mx-auto"
@@ -330,45 +330,19 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     </div>
   </section>
 
-  <!-- Why Choose Us - Interactive Features -->
-  <section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
-    {/* Animated Background Pattern */}
-    <div class="absolute inset-0 opacity-20">
-      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E'); animation: slide-bg 30s linear infinite;"></div>
+ <!-- Why Choose Us - Interactive Features -->
+<section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
+  
+  <div class="container relative z-10">
+    <div class="text-center mb-16">
+      <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-4">
+        Neden Yıldızlar Grup?
+      </h2>
+      <p class="text-lg text-white/90 max-w-3xl mx-auto">
+        Otomotiv sektöründe <span class="text-cyan font-bold">15 yıllık tecrübemiz</span> ve 
+        <span class="text-cyan font-bold"> 6500+ mutlu müşterimiz</span> ile güvenin adresi
+      </p>
     </div>
-
-    {/* Animated Gradient Orbs */}
-    <div class="absolute top-20 left-10 w-96 h-96 bg-primary/30 rounded-full blur-3xl animate-float"></div>
-    <div class="absolute bottom-20 right-10 w-80 h-80 bg-cyan/30 rounded-full blur-3xl animate-float" style="animation-delay: 2s;"></div>
-    <div class="absolute top-40 right-1/4 w-64 h-64 bg-primary/20 rounded-full blur-3xl animate-float" style="animation-delay: 4s;"></div>
-
-    {/* Glowing Stars */}
-    <div class="absolute inset-0 overflow-hidden opacity-30">
-      {Array.from({ length: 30 }).map((_, i) => (
-        <div
-          key={i}
-          class="star"
-          style={`
-            left: ${Math.random() * 100}%;
-            top: ${Math.random() * 100}%;
-            animation-delay: ${Math.random() * 3}s;
-            animation-duration: ${2 + Math.random() * 3}s;
-          `}
-        />
-      ))}
-    </div>
-
-    <div class="container relative z-10">
-      <div class="text-center mb-16">
-        <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-4">
-          Neden Yıldızlar Grup?
-        </h2>
-        <p class="text-lg text-white/90 max-w-3xl mx-auto">
-          Otomotiv sektöründe <span class="text-cyan font-bold">15 yıllık tecrübemiz</span> ve 
-          <span class="text-cyan font-bold"> 6500+ mutlu müşterimiz</span> ile güvenin adresi
-        </p>
-      </div>
-
       {/* Feature Cards */}
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Feature 1 - Expertise */}
@@ -412,7 +386,8 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
             <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
             
             <div class="mb-6 relative z-10">
-              <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-cyan to-primary flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6 shadow-xl">
+              <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-cyan to-primary flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 group
+              -hover:rotate-6 shadow-xl">
                 <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
                   <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
                 </svg>
@@ -580,7 +555,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
         </p>
 
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a
+          
             href="/iletisim"
             class="group inline-flex items-center justify-center px-10 py-5 bg-white text-primary rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-xl"
           >
@@ -589,7 +564,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
               <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3" />
             </svg>
           </a>
-          <a
+          
             href="/"
             class="inline-flex items-center justify-center px-10 py-5 bg-navy text-white rounded-xl font-bold text-lg hover:bg-navy-600 transition-all duration-300 hover:scale-105 border-2 border-white/30"
           >
@@ -600,30 +575,3 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     </div>
   </section>
 </BaseLayout>
-
-<style>
-  .star {
-    position: absolute;
-    width: 2px;
-    height: 2px;
-    background: #5dd3e0;
-    border-radius: 50%;
-    box-shadow: 0 0 6px 2px rgba(93, 211, 224, 0.8),
-                0 0 12px 4px rgba(26, 156, 176, 0.4);
-    animation: glow-pulse 3s ease-in-out infinite;
-  }
-
-  .star:nth-child(3n) {
-    width: 3px;
-    height: 3px;
-    background: #1a9cb0;
-    box-shadow: 0 0 8px 3px rgba(26, 156, 176, 0.8),
-                0 0 16px 6px rgba(93, 211, 224, 0.4);
-  }
-
-  .star:nth-child(5n) {
-    width: 1px;
-    height: 1px;
-  }
-</style>
-
