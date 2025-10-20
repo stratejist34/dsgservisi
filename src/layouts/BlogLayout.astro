@@ -10,6 +10,9 @@ interface Props {
 
 const { post } = Astro.props;
 
+// Site URL (Astro.site kullan, fallback ekle)
+const SITE_URL = Astro.site?.href.replace(/\/$/, '') || 'https://dsgservisi.com';
+
 // BaseLayout için doğru props formatı
 const title = post.yoast_head_json?.title || post.title.rendered;
 const description = post.yoast_head_json?.description || post.excerpt.rendered.replace(/<[^>]*>/g, '').substring(0, 160);
@@ -25,39 +28,39 @@ const articleSchema = {
   author: post._embedded?.author?.[0]?.name || SITE_CONFIG.name,
 };
 
-// Breadcrumb Schema - DÜZELT: items → itemListElement
+// Breadcrumb Schema
 const breadcrumbData = {
   itemListElement: [
     {
       '@type': 'ListItem',
       position: 1,
       name: 'Ana Sayfa',
-      item: import.meta.env.PUBLIC_SITE_URL,
+      item: SITE_URL,
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: 'Blog',
-      item: `${import.meta.env.PUBLIC_SITE_URL}/blog`,
+      item: `${SITE_URL}/blog`,
     },
     {
       '@type': 'ListItem',
       position: 3,
       name: post.title.rendered,
-      item: `${import.meta.env.PUBLIC_SITE_URL}/${post.slug}`,
+      item: `${SITE_URL}/${post.slug}`,
     },
   ],
 };
 
-// GENIŞLETILMIŞ Local Business Schema with Reviews (Manuel - Çünkü review'lar eklemek istiyorsun)
+// LocalBusiness Schema with Reviews
 const localServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
-  '@id': import.meta.env.PUBLIC_SITE_URL,
+  '@id': SITE_URL,
   name: SITE_CONFIG.name,
   image: image,
   description: description,
-  url: `${import.meta.env.PUBLIC_SITE_URL}/${post.slug}`,
+  url: `${SITE_URL}/${post.slug}`,
   telephone: SITE_CONFIG.phoneFormatted,
   email: SITE_CONFIG.email,
   priceRange: '$$',
@@ -178,10 +181,10 @@ const localServiceSchema = {
     {/* Article Schema */}
     <Schema type="article" article={articleSchema} />
     
-    {/* LocalBusiness Schema with Reviews - Manuel (Schema.astro review'ları desteklemiyor) */}
+    {/* LocalBusiness Schema with Reviews */}
     <script type="application/ld+json" set:html={JSON.stringify(localServiceSchema)} />
     
-    {/* Breadcrumb Schema - DÜZELT */}
+    {/* Breadcrumb Schema */}
     <Schema type="BreadcrumbList" data={breadcrumbData} />
     
     {/* Open Graph */}
