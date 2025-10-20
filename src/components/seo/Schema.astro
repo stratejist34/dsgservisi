@@ -21,12 +21,12 @@ const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': 'AutoRepair',
   name: SITE_CONFIG.name,
-  image: `${Astro.site}images/logo.png`,
+  image: `${Astro.site}images/DSG Servis logosu.webp`,  // ← Düzelttim (boşluklar, .webp)
   '@id': Astro.site,
   url: Astro.site,
   telephone: SITE_CONFIG.phoneFormatted,
   email: SITE_CONFIG.email,
-  priceRange: '$',
+  priceRange: '$$',  // ← Düzelttim (backtick kaldırıldı)
   address: {
     '@type': 'PostalAddress',
     streetAddress: SITE_CONFIG.address.street,
@@ -55,8 +55,7 @@ const localBusinessSchema = {
   },
   sameAs: [
     SITE_CONFIG.socialMedia.instagram,
-    SITE_CONFIG.socialMedia.facebook,
-  ],
+  ].filter(Boolean),  // ← Facebook kaldırıldı + filter eklendi
 };
 
 // Article Schema
@@ -77,7 +76,7 @@ const articleSchema = article ? {
     name: SITE_CONFIG.name,
     logo: {
       '@type': 'ImageObject',
-      url: `${Astro.site}images/logo.png`,
+      url: `${Astro.site}images/DSG Servis logosu.webp`,  // ← Düzelttim
     },
   },
 } : null;
