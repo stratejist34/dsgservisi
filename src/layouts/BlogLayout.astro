@@ -176,7 +176,7 @@ const localServiceSchema = {
 <BaseLayout title={title} description={description} image={image}>
   <Fragment slot="head">
     {/* Article Schema */}
-    <Schema type="Article" data={articleSchema} />
+    <Schema type="article" article={articleSchema} />
     
     {/* LocalBusiness Schema with Reviews - Manuel (Schema.astro review'ları desteklemiyor) */}
     <script type="application/ld+json" set:html={JSON.stringify(localServiceSchema)} />
