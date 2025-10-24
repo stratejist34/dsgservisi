@@ -53,7 +53,7 @@ export default function PhoneButton({
   };
 
   const phoneNumber = phone.replace(/\s/g, '');
-  const phoneHref = `tel:+90${phoneNumber}`;
+  const phoneHref = `tel:${phoneNumber}`;
 
   // Buton henüz gösterilmeyecekse null döndür
   if (!showButton) {
