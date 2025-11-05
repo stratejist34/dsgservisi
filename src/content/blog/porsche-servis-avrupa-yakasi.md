@@ -1,0 +1,242 @@
+---
+title: "Porsche Servis Avrupa Yakası"
+description: "Porsche servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Porsche PDK şanzıman, motor, turbo, hava süspansiyon tamiri. Merkezi konum, ücretsiz araç çekme."
+category: "Porsche"
+tags: ["porsche", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "pdk", "cayenne", "macan"]
+slug: "porsche-servis-avrupa-yakasi"
+publishDate: 2025-11-05
+updatedDate: 2025-11-05
+featuredImage: "/images/blog/porsche-servis-avrupa-yakasi.jpg"
+imageAlt: "Porsche servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+author: "DSG Servisi"
+draft: false
+
+# Hizmet Şeması
+serviceName: "Porsche Servis Avrupa Yakası"
+serviceType: "Bölgesel Servis Hizmeti"
+serviceDescription: "İstanbul Avrupa Yakası bölgelerine Porsche PDK şanzıman, motor, turbo, hava süspansiyon ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
+areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
+offerUrl: "/porsche-servis-avrupa-yakasi"
+---
+
+Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Porsche servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Porsche araçlarında PDK şanzıman, motor, turbo, elektronik, PASM hava süspansiyon, fren sistemi ve klima arızalarında uzmanlaşmıştır.
+
+Avrupa Yakası'nda yaşayan Porsche sahipleri için merkezi konumumuz, hızlı ulaşım imkanı ve ücretsiz araç çekme hizmetiyle ekonomik ve garantili çözümler sunuyoruz. 911, Cayenne, Macan, Panamera, Taycan, Boxster ve Cayman modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %50-70 daha ekonomik tamir garantisi veriyoruz.
+
+:::tip
+
+Avrupa Yakası'nda yaşayan Porsche sahipleri için merkezi konumumuz sayesinde aynı gün teşhis ve basit arızalarda teslimat mümkündür. Düzenli periyodik bakım (15.000 km) motor, turbo ve PDK ömrünü uzatır. PDK yağ değişimi 60.000 km'de mutlaka yapılmalıdır.
+
+:::
+
+:::cta
+
+**Avrupa Yakası'ndan ücretsiz ön kontrol için:**
+
+- [📞 0533 262 34 51](tel:+905332623451)
+- [WhatsApp Randevu](https://wa.me/905332623451)
+- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::
+
+## Avrupa Yakası'na Hizmet Verdiğimiz Bölgeler
+
+Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine hızlı ve güvenilir Porsche servis hizmeti sunar:
+
+- **Beylikdüzü:** 10 dakika mesafe, kolay ulaşım
+- **Büyükçekmece:** Merkezi lokasyon, aynı ilçe içinde
+- **Esenyurt:** 15 dakika mesafe, TEM bağlantısı
+- **Avcılar:** 12 dakika mesafe, sahil yolu üzerinden
+- **Bahçeşehir:** 15-20 dakika mesafe, TEM erişimi
+- **Küçükçekmece:** 18 dakika mesafe, merkezi erişim
+- **Başakşehir:** 20-25 dakika mesafe, TEM bağlantısı
+- **Bakırköy, Şişli, Beşiktaş:** 25-35 dakika mesafe, ücretsiz araç çekme mevcut
+
+## Avrupa Yakası'ndan Gelen Müşteriler için Avantajlar
+
+### Merkezi Konum ve Hızlı Ulaşım
+
+Atölyemiz Beykent Sanayi Sitesi'nde, Avrupa Yakası'nın tüm bölgelerinden kolay erişilebilir konumdadır. TEM ve E-5 karayollarına yakınlığı sayesinde Beylikdüzü, Büyükçekmece, Esenyurt ve Bahçeşehir'den 10-20 dakikada ulaşılabilir.
+
+### Ücretsiz Araç Çekme Hizmeti
+
+Avrupa Yakası'nın tüm bölgelerinden (Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir) arızalı Porsche araçlarınız için ücretsiz çekme hizmeti sunuyoruz. Arıza durumunda veya büyük bakım işlemlerinde araç çekme hizmetimizden yararlanabilirsiniz.
+
+### Aynı Gün Teşhis ve Teslimat
+
+Merkezi konumumuz sayesinde Avrupa Yakası'ndan gelen müşteriler için aynı gün teşhis ve basit arızalarda teslimat mümkündür. Yağ değişimi, filtre değişimi, fren balata gibi bakım işlemleri genellikle aynı gün tamamlanır.
+
+### Şeffaf Fiyatlandırma
+
+Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+
+## Porsche Servis Hizmetlerimiz (Avrupa Yakası)
+
+- **Şanzıman:** PDK yağ değişimi, valf body tamiri, kavrama değişimi, tork konvertör revizyonu
+- **Motor:** Yağ karteri vidası, turbo, segman, supap, silindir kapağı tamiri
+- **Turbo:** Turbo geometri, soğutma sistemi, intercooler tamiri
+- **Hava Süspansiyon:** PASM kompresör, körük, valf, sensör tamiri
+- **Yakıt Sistemi:** Enjektör, DFI (benzin enjeksiyonu), katalizör arızası
+- **Elektronik:** PCM, sensör, ABS/PSM, hava süspansiyon arızaları
+- **Fren Sistemi:** PCCB (seramik fren), PSCB, kaliper, fren hidroliği bakımı
+- **Periyodik Bakım:** Motor yağı, filtre, fren, klima bakımı
+
+## Porsche Model Bazlı Kronik Arızalar
+
+### Porsche 911 – En Yaygın Arızalar
+
+| Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
+| --- | ---: | ---: | --- |
+| PDK valf body arızası | %24 | 18.000–35.000₺ | 80.000–150.000 km |
+| Yağ karteri vidası kaçağı | %38 | 5.500–12.000₺ | 60.000–120.000 km |
+| Turbo soğutma sistemi | %27 | 14.000–28.000₺ | 100.000–180.000 km |
+| Motor yağ tüketimi | %29 | 12.000–24.000₺ | 100.000–180.000 km |
+| PASM hava süspansiyon | %32 | 16.000–32.000₺ | 80.000–150.000 km |
+
+### Porsche Cayenne – En Yaygın Arızalar
+
+| Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
+| --- | ---: | ---: | --- |
+| PDK şanzıman adaptasyon | %26 | 8.000–16.000₺ | 80.000–150.000 km |
+| Hava süspansiyon kompresör | %32 | 14.000–26.000₺ | 100.000–180.000 km |
+| Turbo geometri/yağlama | %28 | 13.000–25.000₺ | 100.000–180.000 km |
+| Ön salıncak/rotil aşınması | %24 | 7.500–14.000₺ | 80.000–140.000 km |
+| PCM elektronik arızası | %21 | 9.000–18.000₺ | 80.000–150.000 km |
+
+### Porsche Macan – En Yaygın Arızalar
+
+| Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
+| --- | ---: | ---: | --- |
+| PDK mekatronik arızası | %28 | 16.000–30.000₺ | 80.000–150.000 km |
+| Timing zincir gerginliği | %25 | 10.000–20.000₺ | 100.000–180.000 km |
+| Turbo yağ besleme | %23 | 11.000–22.000₺ | 100.000–180.000 km |
+| Hava süspansiyon körük | %27 | 12.000–24.000₺ | 80.000–150.000 km |
+
+### Porsche Panamera – En Yaygın Arızalar
+
+| Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
+| --- | ---: | ---: | --- |
+| PDK tork konvertör | %22 | 20.000–38.000₺ | 120.000–200.000 km |
+| Hava süspansiyon kompresör | %31 | 15.000–28.000₺ | 100.000–180.000 km |
+| Turbo intercooler | %26 | 13.000–27.000₺ | 100.000–180.000 km |
+| Elektronik kontrol ünitesi | %24 | 10.000–22.000₺ | 80.000–150.000 km |
+
+## Porsche Periyodik Bakım Fiyatları 2025
+
+| Bakım Türü | Maliyet | Periyot | Süre |
+| --- | ---: | --- | --- |
+| Küçük bakım (yağ + filtre) | 5.500–11.000₺ | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 9.500–16.000₺ | 30.000 km | Aynı gün |
+| PDK yağ değişimi | 7.500–14.000₺ | 60.000 km | Aynı gün |
+| PASM hava süspansiyon kontrolü | 3.500–6.500₺ | 30.000 km | Aynı gün |
+| Fren balata (ön/arka) | 10.000–20.000₺ | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 4.500–8.000₺ | Yıllık | Aynı gün |
+
+## Avrupa Yakası'ndan Ulaşım
+
+### Özel Araç ile Ulaşım
+
+- **Beylikdüzü'den:** TEM bağlantısı, 10 dakika
+- **Büyükçekmece'den:** Merkezi konum, 5 dakika
+- **Esenyurt'tan:** TEM erişimi, 15 dakika
+- **Avcılar'dan:** Sahil yolu, 12 dakika
+- **Bahçeşehir'den:** TEM erişimi, 15-20 dakika
+- **Küçükçekmece'den:** Merkezi yol, 18 dakika
+- **Başakşehir'den:** TEM erişimi, 20-25 dakika
+
+### Toplu Taşıma ile Ulaşım
+
+- **Metrobüs:** Beylikdüzü istasyonundan taksi/minibüs ile 10 dakika
+- **Otobüs:** Büyükçekmece merkezden servisimiz yakın
+- **Metro:** Yenikapı-Başakşehir hattından TEM bağlantısı
+
+Avrupa Yakası'nın tüm bölgelerinden (Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir) arızalı Porsche araçlarınız için ücretsiz çekme hizmeti sunuyoruz. Randevu alarak araç çekme hizmetinden yararlanabilirsiniz.
+
+## Müşteri Yorumları
+
+<div class="review-card">
+  <div class="review-avatar">CY</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>Can Yılmaz</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">bir hafta önce</span>
+    </div>
+    <p class="review-text">Orjinal yedek parça kullanıyorlar. Atece aracımı bakıma götürdüm memnun kaldım. Tavsiye ederim.</p>
+  </div>
+</div>
+
+<div class="review-card">
+  <div class="review-avatar">RÜ</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>reşit üstünsoy</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">2 yıl önce</span>
+    </div>
+    <p class="review-text">Kesinlikle doğru yer, işinin ehli, iş ahlakları yüksek ve yaptıkları işin arkasındalar, acabaları düşündürmüyorlar. Benim için en önemlisi bu, sanki yıllardır aynı servise gidiyormuşsunuz izlenimi bırakıyorlar, yarı yolda kalmazsınız, teşekkürler.🙏</p>
+  </div>
+</div>
+
+<div class="review-card">
+  <div class="review-avatar">AG</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>avni gündüz</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">4 yıl önce</span>
+    </div>
+    <p class="review-text">Ömer usta çok iyi. İşinin ehli fiyat olarak ta pahalı değiller. Yardımcı oluyorlar. Sonradan şöyleydi böyledi demeden temiz ve net çalışıyorlar.</p>
+  </div>
+</div>
+
+## Google Harita ve Yorumlar
+
+<div class="map-embed">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.3402005679377!2d28.631132100000002!3d41.0178125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb185ddf5cbb%3A0x6a61d71a45b9906a!2sY%C4%B1ld%C4%B1zlar%20Grup%20Volkswagen%2C%20Audi%2C%20Porsche%2C%20Bmw%20%C3%96zel%20Servis!5e0!3m2!1str!2str!4v1759931064197!5m2!1str!2str" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<p>Gerçek yorumlar: <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
+
+## İletişim – Yıldızlar Grup Porsche Servisi Avrupa Yakası
+
+<p><strong>Adres:</strong> Beykent Sanayi Sitesi Meriç Sk. No.: 179–180 Büyükçekmece / İstanbul</p>
+<p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
+<p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
+<p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00–18:00, Cumartesi 09:00–14:00</p>
+<p><strong>Hizmet Bölgeleri:</strong> Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece, Başakşehir ve tüm Avrupa Yakası</p>
+
+## Sık Sorulan Sorular
+
+### Avrupa Yakası'ndan servisinize nasıl ulaşabilirim?
+
+Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar ve Bahçeşehir'den özel araçla 10-20 dakikada ulaşabilirsiniz. TEM ve E-5 karayollarına yakın konumumuz sayesinde kolay erişim sağlanır.
+
+### Beylikdüzü'den servisinize ulaşım süresi ne kadar?
+
+Beylikdüzü'den TEM bağlantısıyla yaklaşık 10 dakikada atölyemize ulaşabilirsiniz.
+
+### Büyükçekmece'den ücretsiz araç çekme hizmeti var mı?
+
+Evet, Büyükçekmece dahil Avrupa Yakası'nın tüm bölgelerinden arızalı Porsche araçlarınız için ücretsiz araç çekme hizmeti sunuyoruz.
+
+### Avrupa Yakası'ndan gelen müşteriler için aynı gün teslimat mümkün mü?
+
+Evet, merkezi konumumuz sayesinde Avrupa Yakası'ndan gelen müşteriler için aynı gün teşhis ve basit arızalarda teslimat mümkündür.
+
+### Porsche PDK şanzıman arızası için Avrupa Yakası'ndan ne kadar sürer?
+
+PDK şanzıman arızasına bağlı olarak 1-4 gün arasında teslimat yapılabilir. Valf body tamiri 2-4 gün, yağ değişimi aynı gün tamamlanır. Ön görüşme sonrası net süre belirtilir.
+
+### Porsche PASM hava süspansiyon tamiri ne kadar sürer?
+
+PASM hava süspansiyon arızasına bağlı olarak 1-2 gün içinde tamamlanır. Kompresör veya körük değişimi genellikle aynı gün teslim edilir.
+
+### Avrupa Yakası'ndan servisinize ulaşım için toplu taşıma seçeneği var mı?
+
+Evet, metrobüs ile Beylikdüzü istasyonundan veya otobüs ile Büyükçekmece merkezden ulaşabilirsiniz. Metro ile Yenikapı-Başakşehir hattından TEM bağlantısı mevcuttur.
+
+### Avrupa Yakası bölgelerinden servisinize ödeme seçenekleri nelerdir?
+
+Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
+
+

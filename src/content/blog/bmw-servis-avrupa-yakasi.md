@@ -4,8 +4,8 @@ description: "BMW servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt
 category: "BMW"
 tags: ["bmw", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "zf"]
 slug: "bmw-servis-avrupa-yakasi"
-publishDate: 2025-01-18
-updatedDate: 2025-01-18
+publishDate: 2025-11-05
+updatedDate: 2025-11-05
 featuredImage: "/images/blog/bmw-servis-avrupa-yakasi.jpg"
 imageAlt: "BMW servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 author: "DSG Servisi"
@@ -224,12 +224,50 @@ Metrobüs ile Beylikdüzü istasyonundan taksi/minibüs ile 10 dakikada ulaşıl
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
 
+## Müşteri Yorumları
+
+<div class="review-card">
+  <div class="review-avatar">YK</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>Yusuf Alptekin Kılıç</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">4 yıl önce</span>
+    </div>
+    <p class="review-text">Ömer ustanın ilgisi, Ahmet ustanın tecrübesi ile uzun zamandır çözülemeyen motor arızam çözüldü. Araç m3 2015</p>
+  </div>
+</div>
+
+<div class="review-card">
+  <div class="review-avatar">FK</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>Furkan Kaplan</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">bir yıl önce</span>
+    </div>
+    <p class="review-text">Ömer usta ve Genç ekibine çok Tesekkür ediyorum. 1 saat icinde sorunu cözdüler. Yetkili servise gidecegime buraya giderim daha iyi. Muhasebedeki abladan tutun çiraklara kadar herkes çok güzel ilgilendi. Özellikle Gurbetci Kardeslerimize sesleniyorum yola cikmadan önce buraya ugrayip bakiminizi yapabilirsiniz. Beni yari yolda birakmadiniz, Allahta sizi yari yolda birakmasin.</p>
+  </div>
+</div>
+
+<div class="review-card">
+  <div class="review-avatar">AK</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>Ali Köse</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">bir yıl önce</span>
+    </div>
+    <p class="review-text">Hiçbir tereddüt etmeden aracınızı ne sorunu olursa bırakacağınız, her zaman destek alabileceğiniz lüzumsuz şekilde iş yapmayan ne gerekiyorsa yapan bir ekip. Ağır bakımları triger değişimi ve herhangi bir arıza olduğunda kendilerine gidiyorum. Gönül rahatlığıyla aracımı teslim alıyorum.</p>
+  </div>
+</div>
+
 ## Google Harita ve Yorumlar
 
-:::map{src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.3402005679377!2d28.631132100000002!3d41.0178125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb185ddf5cbb%3A0x6a61d71a45b9906a!2sY%C4%B1ld%C4%B1zlar%20Grup%20Volkswagen%2C%20Audi%2C%20Porsche%2C%20Bmw%20%C3%96zel%20Servis!5e0!3m2!1str!2str!4v1759931064197!5m2!1str!2str" height="360"}
-:::
-
-Gerçek yorumlar: [Google Haritalar](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
+<div class="map-embed">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.3402005679377!2d28.631132100000002!3d41.0178125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb185ddf5cbb%3A0x6a61d71a45b9906a!2sY%C4%B1ld%C4%B1zlar%20Grup%20Volkswagen%2C%20Audi%2C%20Porsche%2C%20Bmw%20%C3%96zel%20Servis!5e0!3m2!1str!2str!4v1759931064197!5m2!1str!2str" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<p>Gerçek yorumlar: <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 
 ## İletişim – Yıldızlar Grup BMW Servisi Avrupa Yakası
 

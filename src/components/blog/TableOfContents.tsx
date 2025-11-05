@@ -119,6 +119,9 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
 
   // Masaüstünde sticky sorunlarına karşı sabit (fixed) fallback + alt sınır pinleme
   useEffect(() => {
+    // Başlıklar yüklenene kadar bekle
+    if (headings.length === 0) return;
+
     const aside = document.querySelector('aside.toc-sticky') as HTMLElement | null;
     if (!aside) return;
 
@@ -143,6 +146,9 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
         aside.style.removeProperty('width');
         aside.style.removeProperty('top');
         aside.style.removeProperty('position');
+        aside.style.removeProperty('transform');
+        aside.style.removeProperty('opacity');
+        aside.style.removeProperty('visibility');
         return;
       }
 
@@ -156,6 +162,10 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
         aside.style.top = `${TOP_OFFSET_PX}px`;
         aside.style.left = `${aside.getBoundingClientRect().left}px`;
         aside.style.width = `${aside.offsetWidth}px`;
+        aside.style.zIndex = '30';
+        aside.style.opacity = '1';
+        aside.style.visibility = 'visible';
+        aside.style.display = 'block';
         return;
       }
 
@@ -175,6 +185,7 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
         aside.style.transform = 'none';
         aside.style.opacity = '1';
         aside.style.visibility = 'visible';
+        aside.style.display = 'block';
       } else {
         // Normal: fixed
         aside.classList.add('toc-force-fixed');
@@ -183,11 +194,16 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
         aside.style.left = `${Math.round(containerRect.left + initialLeft)}px`;
         aside.style.width = `${initialWidth}px`;
         aside.style.zIndex = '30';
+        aside.style.opacity = '1';
+        aside.style.visibility = 'visible';
+        aside.style.display = 'block';
       }
     };
 
-    // İlk yüklemede hizala
-    requestAnimationFrame(applyLayout);
+    // İlk yüklemede hizala - biraz gecikme ile
+    setTimeout(() => {
+      requestAnimationFrame(applyLayout);
+    }, 100);
 
     // Scroll/Resize/Orientation
     const onResize = () => { recalcInitial(); requestAnimationFrame(applyLayout); };
@@ -201,7 +217,7 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
       window.removeEventListener('orientationchange', onResize);
       window.removeEventListener('scroll', onScroll as any);
     };
-  }, []);
+  }, [headings.length]);
 
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
@@ -257,88 +273,90 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
       )}
 
       {/* Desktop & Mobile TOC (iç içerik sarmalayıcı) */}
-      <div
-        className={`
-          ${isMobileOpen ? 'lg:hidden' : 'hidden lg:block'}
-          w-80 lg:w-full
-          bg-white 
-          border border-gray-100 
-          rounded-xl 
-          p-6 
-          shadow-xl lg:shadow-md
-        `}
-        ref={(el) => (asideEl.current = el)}
-        style={
-          isMobileOpen
-            ? {
-                position: 'fixed',
-                top: '50%',
-                left: '50%',
-                transform: 'translate(-50%, -50%)',
-                maxHeight: '85vh',
-                overflowY: 'auto',
-                zIndex: 80,
-              }
-            : {
-                maxHeight: 'calc(100vh - 8rem)',
-                overflowY: 'auto',
-              }
-        }
-        role="navigation"
-        aria-label="İçindekiler"
-      >
-        <div className="flex items-center justify-between mb-4">
-          <h3 className="text-lg font-bold text-gray-800 flex items-center gap-2 font-heading">
-            <svg
-              className="w-5 h-5 text-primary"
-              fill="none"
-              stroke="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M4 6h16M4 10h16M4 14h16M4 18h16"
-              />
-            </svg>
-            İçindekiler
-          </h3>
-          {isMobileOpen && (
-            <button
-              onClick={() => setIsMobileOpen(false)}
-              className="text-gray-500 hover:text-gray-700 transition-colors"
-              aria-label="Kapat"
-            >
-              <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-              </svg>
-            </button>
-          )}
-        </div>
-        <nav className="space-y-2">
-          {headings.map((heading) => (
-            <a
-              key={heading.id}
-              href={`#${heading.id}`}
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToHeading(heading.id);
-              }}
-              className={`
-                text-primary hover:text-primary transition-colors text-sm font-medium block cursor-pointer py-1 px-2 rounded border-l-2 border-transparent hover:bg-primary/5 hover:border-primary
-                ${
-                  activeId === heading.id
-                    ? 'bg-primary/10 border-primary text-primary font-semibold toc-active'
-                    : ''
+      {headings.length > 0 && (
+        <div
+          className={`
+            ${isMobileOpen ? 'lg:hidden' : 'hidden lg:block'}
+            w-80 lg:w-full
+            bg-white 
+            border border-gray-100 
+            rounded-xl 
+            p-6 
+            shadow-xl lg:shadow-md
+          `}
+          ref={(el) => (asideEl.current = el)}
+          style={
+            isMobileOpen
+              ? {
+                  position: 'fixed',
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  maxHeight: '85vh',
+                  overflowY: 'auto',
+                  zIndex: 80,
                 }
-              `}
-            >
-              {heading.text}
-            </a>
-          ))}
-        </nav>
-      </div>
+              : {
+                  maxHeight: 'calc(100vh - 8rem)',
+                  overflowY: 'auto',
+                }
+          }
+          role="navigation"
+          aria-label="İçindekiler"
+        >
+          <div className="flex items-center justify-between mb-4">
+            <h3 className="text-lg font-bold text-gray-800 flex items-center gap-2 font-heading">
+              <svg
+                className="w-5 h-5 text-primary"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 10h16M4 14h16M4 18h16"
+                />
+              </svg>
+              İçindekiler
+            </h3>
+            {isMobileOpen && (
+              <button
+                onClick={() => setIsMobileOpen(false)}
+                className="text-gray-500 hover:text-gray-700 transition-colors"
+                aria-label="Kapat"
+              >
+                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            )}
+          </div>
+          <nav className="space-y-2">
+            {headings.map((heading) => (
+              <a
+                key={heading.id}
+                href={`#${heading.id}`}
+                onClick={(e) => {
+                  e.preventDefault();
+                  scrollToHeading(heading.id);
+                }}
+                className={`
+                  text-primary hover:text-primary transition-colors text-sm font-medium block cursor-pointer py-1 px-2 rounded border-l-2 border-transparent hover:bg-primary/5 hover:border-primary
+                  ${
+                    activeId === heading.id
+                      ? 'bg-primary/10 border-primary text-primary font-semibold toc-active'
+                      : ''
+                  }
+                `}
+              >
+                {heading.text}
+              </a>
+            ))}
+          </nav>
+        </div>
+      )}
     </>
   );
 }

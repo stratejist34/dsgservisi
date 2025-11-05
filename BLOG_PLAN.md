@@ -38,16 +38,17 @@
 
 - [x] Audi Servis Avrupa Yakası (İLK YAZI - TAMAMLANDI)
 - [x] Bmw Servis Avrupa Yakası (TAMAMLANDI)
-- [ ] Land Rover Servis Avrupa Yakası
-- [ ] Mercedes Servis Avrupa Yakası
-- [ ] Porsche Servis Avrupa Yakası
-- [ ] Seat Servis Avrupa Yakası
-- [ ] Skoda Servis Avrupa Yakası
-- [ ] Volkswagen Servis Avrupa Yakası
-- [ ] Beylikdüzü Audi Servis
-- [ ] Beylikdüzü Bmw Servis
-- [ ] Beylikdüzü Land Rover Servis
-- [ ] Beylikdüzü Mercedes Servis
+- [x] Land Rover Servis Avrupa Yakası (TAMAMLANDI)
+- [x] Range Rover Servis Avrupa Yakası (TAMAMLANDI)
+- [x] Mercedes Servis Avrupa Yakası (TAMAMLANDI)
+- [x] Porsche Servis Avrupa Yakası (TAMAMLANDI)
+- [x] Seat Servis Avrupa Yakası (TAMAMLANDI)
+- [x] Skoda Servis Avrupa Yakası (TAMAMLANDI)
+- [x] Volkswagen Servis Avrupa Yakası (TAMAMLANDI)
+- [x] Beylikdüzü Audi Servis (TAMAMLANDI)
+- [x] Beylikdüzü Bmw Servis (TAMAMLANDI)
+- [x] Beylikdüzü Land Rover Servis (TAMAMLANDI)
+- [x] Beylikdüzü Mercedes Servis (TAMAMLANDI)
 - [ ] Beylikdüzü Porsche Servis
 - [ ] Beylikdüzü Seat Servis
 - [ ] Beylikdüzü Skoda Servis

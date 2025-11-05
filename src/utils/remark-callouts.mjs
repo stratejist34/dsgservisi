@@ -25,20 +25,27 @@ export default function remarkCallouts() {
         // Google Maps embed: :::map{src="<embed-url>" height="360"}
         if (name === 'map' || name === 'gmap') {
           node.data ||= {};
-          node.data.hName = 'iframe';
+          node.data.hName = 'div';
           node.data.hProperties ||= {};
-          const attrs = (node.attributes || {});
-          const src = attrs.src || attrs.url || '';
-          const height = attrs.height || '360';
-          Object.assign(node.data.hProperties, {
-            className: 'map-embed',
-            src,
-            loading: 'lazy',
-            referrerpolicy: 'no-referrer-when-downgrade',
-            allowfullscreen: true,
-            height,
-            width: '100%'
-          });
+          node.data.hProperties.className = 'map-embed';
+          
+          // Create iframe element as child
+          const iframeNode = {
+            type: 'element',
+            tagName: 'iframe',
+            properties: {
+              src: (node.attributes || {}).src || (node.attributes || {}).url || '',
+              width: '100%',
+              height: (node.attributes || {}).height || '360',
+              style: 'border:0;',
+              loading: 'lazy',
+              referrerpolicy: 'no-referrer-when-downgrade',
+              allowfullscreen: true,
+            },
+            children: []
+          };
+          
+          node.children = [iframeNode];
         }
       }
     });

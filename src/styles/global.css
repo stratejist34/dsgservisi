@@ -400,6 +400,8 @@
       align-self: flex-start !important;
       z-index: 30 !important;
       display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
       width: 100% !important;
       max-width: 320px !important;
       max-height: calc(100vh - 5rem) !important;
@@ -414,6 +416,13 @@
       scrollbar-color: rgba(26, 156, 176, 0.3) transparent;
       /* Extra guarantee */
       flex-shrink: 0 !important;
+    }
+    
+    /* TOC içindeki div'in görünürlüğünü garanti et */
+    aside.toc-sticky > div {
+      display: block !important;
+      visibility: visible !important;
+      opacity: 1 !important;
     }
   }
 

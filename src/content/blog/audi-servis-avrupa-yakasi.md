@@ -4,8 +4,8 @@ description: "Audi servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyur
 category: "Audi"
 tags: ["audi", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar"]
 slug: "audi-servis-avrupa-yakasi"
-publishDate: 2025-01-18
-updatedDate: 2025-01-18
+publishDate: 2025-11-05
+updatedDate: 2025-11-05
 featuredImage: "/images/blog/audi-servis-avrupa-yakasi.jpg"
 imageAlt: "Audi servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 author: "DSG Servisi"
@@ -147,7 +147,6 @@ Audi'de kullanılan DSG (DQ200, DQ250) ve S‑Tronic (DL501) şanzımanlar VW Gr
 - **Otobüs:** Büyükçekmece merkezden servisimiz yakın
 - **Metro:** Yenikapı-Başakşehir hattından TEM bağlantısı
 
-### Ücretsiz Araç Çekme Hizmeti
 Avrupa Yakası'nın tüm bölgelerinden (Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir) arızalı araçlarınız için ücretsiz çekme hizmeti sunuyoruz. Randevu alarak araç çekme hizmetinden yararlanabilirsiniz.
 
 ## Audi Periyodik Bakım Fiyatları 2025
@@ -205,6 +204,44 @@ Metrobüs ile Beylikdüzü istasyonundan taksi/minibüs ile 10 dakikada ulaşıl
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
 
+## Müşteri Yorumları
+
+<div class="review-card">
+  <div class="review-avatar">CY</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>Can Yılmaz</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">bir hafta önce</span>
+    </div>
+    <p class="review-text">Orjinal yedek parça kullanıyorlar. Atece aracımı bakıma götürdüm memnun kaldım. Tavsiye ederim.</p>
+  </div>
+</div>
+
+<div class="review-card">
+  <div class="review-avatar">AE</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>Aykut Erdönmez</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">2 yıl önce</span>
+    </div>
+    <p class="review-text">Benim ustalarda en sevdigim sey arabanin gereksiz parcalarinin degismemesidir. Tonlarca bos yere para ödememektir. Arkadaslar cok ilgililer. Gereksiz parca degisimi yapmiyorlar. Nokta atisi arabanizi bastan asagiya kontrol edip sadece gercekten arizali veya zamani gelmis parcalari degistiriyorlar. Servise tonlarca para ödemek yerine buraya gönül rahatligiyla gelebilirsiniz ve güvenebilirsiniz iciniz rahat olsun. Kesinlikle siddetle oneriyorum. Gecen yil audi a3 aracimiz getirdim bugunde seat altea aracimi getirdim cok memnun kaldim. Hersey icin tesekkurler</p>
+  </div>
+</div>
+
+<div class="review-card">
+  <div class="review-avatar">FP</div>
+  <div class="review-content">
+    <div class="review-meta">
+      <strong>furkan pamukçu</strong>
+      <span class="review-stars">★★★★★</span>
+      <span class="review-date">5 yıl önce</span>
+    </div>
+    <p class="review-text">Audi a1 2012 tdi dsg yürüyen ve direksiyon sorunlarımızı çözdüler. Başarılı ve ilgili bir işletme.</p>
+  </div>
+</div>
+
 ## Google Harita ve Yorumlar
 
 <div class="map-embed">
@@ -219,4 +256,3 @@ Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büy�
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00–18:00, Cumartesi 09:00–14:00</p>
 <p><strong>Hizmet Bölgeleri:</strong> Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece, Başakşehir ve tüm Avrupa Yakası</p>
-
