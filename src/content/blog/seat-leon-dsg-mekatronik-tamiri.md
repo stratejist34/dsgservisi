@@ -160,18 +160,16 @@ DQ200 (7 ileri) kuru tip DSG şanzımanlarda kavramalar kuru çalışır ve yağ
 
 Yıldızlar Grup DSG Servisi, Büyükçekmece Beykent Sanayi Sitesi'nde hizmet vermektedir. Beylikdüzü, Esenyurt, Avcılar, Küçükçekmece bölgelerinden kolayca ulaşabilirsiniz.
 
----
+## Google Harita ve Yorumlar
 
-## Konum ve İletişim
+<div class="map-embed">
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.3402005679377!2d28.631132100000002!3d41.0178125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb185ddf5cbb%3A0x6a61d71a45b9906a!2sY%C4%B1ld%C4%B1zlar%20Grup%20Volkswagen%2C%20Audi%2C%20Porsche%2C%20Bmw%20%C3%96zel%20Servis!5e0!3m2!1str!2str!4v1759931064197!5m2!1str!2str" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<p>Gerçek yorumlar: <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 
-Yıldızlar Grup Seat Leon DSG Mekatronik Servisi, Büyükçekmece Beykent Sanayi Sitesi'nde hizmet vermektedir. Beylikdüzü, Esenyurt, Avcılar, Küçükçekmece bölgelerinden kolayca ulaşabilirsiniz. Aracınızın DSG mekatronik sorunları için güvenilir ve uzman çözümler sunuyoruz.
+## İletişim – Yıldızlar Grup Seat Leon DSG Servisi
 
-📍 **Adres:** Beykent Sanayi Sitesi Meriç Sk. No.: 179-180 Büyükçekmece / İSTANBUL
-
-📞 **Telefon:** [0533 262 34 51](tel:05332623451)
-
-💬 **WhatsApp:** [Hemen Mesaj Gönder](https://api.whatsapp.com/send?phone=905332623451)
-
-🌐 **Website:** [dsgservisi.com](https://dsgservisi.com)
-
-🕐 **Çalışma Saatleri:** <span class="nowrap">Hafta içi 09:00–18:00, Cumartesi 09:00–14:00</span>
+<p><strong>Adres:</strong> Beykent Sanayi Sitesi Meriç Sk. No.: 179-180 Büyükçekmece / İSTANBUL</p>
+<p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
+<p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
+<p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00–18:00, Cumartesi 09:00–14:00</p>

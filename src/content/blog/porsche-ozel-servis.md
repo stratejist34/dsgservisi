@@ -1,5 +1,5 @@
 ---
-title: "Porsche Özel Servis İstanbul – PDK Şanzıman, Motor, Bakım | Yıldızlar Grup"
+title: "Porsche Özel Servis"
 description: "Porsche özel servis: PDK şanzıman, motor, turbo, elektronik arıza tamiri. 911, Cayenne, Macan, Panamera bakım. Büyükçekmece İstanbul."
 publishDate: "2025-10-18"
 featuredImage: "/images/blog/porsche-ozel-servis.jpg"

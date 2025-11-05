@@ -180,7 +180,7 @@ Spesifikasyon uygunsa kaliteli markalar (Shell, Castrol, Mobil) kullanılabilir.
 
 ## İletişim – Yıldızlar Grup DSG Servisi
 
-**Adres:** Beykent Sanayi Sitesi Meriç Sk. No.: 179-180 Büyükçekmece / İSTANBUL  
-**Telefon:** [0533 262 34 51](tel:05332623451) – **WhatsApp:** [Hemen Yaz](https://api.whatsapp.com/send?phone=905332623451)  
-**Konum:** [Google Haritalar](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)  
-**Çalışma Saatleri:** Pazartesi–Cumartesi <span class="nowrap">08:30–18:30</span>, Pazar kapalı
+<p><strong>Adres:</strong> Beykent Sanayi Sitesi Meriç Sk. No.: 179-180 Büyükçekmece / İSTANBUL</p>
+<p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
+<p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
+<p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
