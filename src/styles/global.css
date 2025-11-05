@@ -10,6 +10,7 @@
   html {
     -webkit-overflow-scrolling: touch;
     overflow-x: hidden;
+    overflow-y: auto;
   }
   
   body {
@@ -19,6 +20,7 @@
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
+    overflow-y: auto;
     width: 100%;
     min-width: 320px;
   }
@@ -50,15 +52,15 @@
   }
   
   h1 {
-    @apply text-3xl md:text-4xl lg:text-[36px] font-bold;
+    @apply text-[21px] md:text-[25px] lg:text-[26px] font-bold;
   }
   
   h2 {
-    @apply text-2xl md:text-3xl lg:text-[32px] font-semibold;
+    @apply text-[19px] md:text-[24px] lg:text-[25.6px] font-semibold;
   }
   
   h3 {
-    @apply text-xl md:text-2xl lg:text-[28px] font-semibold;
+    @apply text-[12px] md:text-[14px] lg:text-[17px] font-semibold;
   }
   
   h4 {
@@ -120,11 +122,322 @@
   .card-hover:hover {
     transform: translateY(-8px);
   }
+
+  /* Blog Content Styles */
+  /* CTA Box Styles */
+  .cta-box {
+    @apply bg-blue-50 border border-blue-200 p-5 rounded-lg my-5 text-center;
+  }
+  
+  .cta-box strong {
+    @apply block mb-3 text-lg text-gray-800 font-semibold;
+  }
+  
+  .cta-actions {
+    @apply flex gap-3 justify-center flex-wrap;
+  }
+  
+  .cta-actions a {
+    @apply inline-flex items-center gap-2 px-5 py-3 rounded-lg no-underline font-semibold transition-all duration-300;
+  }
+  
+  .cta-call {
+    @apply bg-green-600 text-white;
+  }
+  
+  .cta-call:hover {
+    @apply bg-green-700 transform -translate-y-0.5 shadow-lg;
+    box-shadow: 0 4px 12px rgba(34, 197, 94, 0.4);
+  }
+  
+  .cta-whatsapp {
+    @apply bg-[#25d366] text-white;
+  }
+  
+  .cta-whatsapp:hover {
+    @apply bg-[#1ebd58] transform -translate-y-0.5 shadow-lg;
+    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
+  }
+  
+  .cta-map {
+    @apply bg-blue-600 text-white;
+  }
+  
+  .cta-map:hover {
+    @apply bg-blue-700 transform -translate-y-0.5 shadow-lg;
+    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
+  }
+  
+  /* Map Embed */
+  .map-embed {
+    @apply my-5 border border-gray-200 rounded-lg overflow-hidden;
+    width: 100% !important;
+    height: 360px !important;
+    border: 0 !important;
+  }
+  
+  /* Note/Info Box */
+  .note {
+    @apply bg-yellow-50 border border-yellow-200 p-4 rounded-lg my-4;
+  }
+  
+  /* Uzman Tavsiyesi - açık turkuaz cam efektine yakın görünüm */
+  .uzman-tavsiyesi {
+    @apply p-4 my-5 rounded-xl;
+    background: rgba(93, 211, 224, 0.10); /* açık turkuaz */
+    border: 1px solid rgba(93, 211, 224, 0.35);
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+  }
+
+  /* Cam efektli CTA kutusu */
+  .glass-cta {
+    @apply p-5 my-5 rounded-2xl;
+    background: linear-gradient(180deg, rgba(93,211,224,0.12), rgba(93,211,224,0.06));
+    border: 1px solid rgba(93, 211, 224, 0.30);
+    box-shadow: 0 8px 30px rgba(26, 156, 176, 0.12);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+
+  .glass-cta strong {
+    display: block;
+    margin-bottom: 8px;
+    color: rgb(15 23 42); /* navy */
+  }
+
+  .glass-cta ul {
+    list-style: none;
+    padding: 0;
+    margin: 12px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .glass-cta li { margin: 0; }
+
+  /* CTA link button styles (pure markdown links) */
+  .glass-cta a {
+    @apply inline-flex items-center justify-center font-semibold no-underline rounded-xl;
+    padding: 0.75rem 1rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    transition: all 200ms ease;
+  }
+  .glass-cta a[href^="tel:"] {
+    @apply text-white;
+    background-image: linear-gradient(90deg, var(--tw-gradient-from,#1a9cb0), var(--tw-gradient-to,#5dd3e0));
+    background-color: #1a9cb0;
+  }
+  .glass-cta a[href*="wa.me"] {
+    color: #fff;
+    background-color: #25d366;
+  }
+  .glass-cta a[href*="maps"] {
+    @apply text-navy;
+    background: #ffffff;
+    border: 2px solid rgba(93,211,224,0.4);
+  }
+  .glass-cta a:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(26,156,176,0.18); }
+  
+  /* Review Cards */
+  .review-card {
+    @apply flex items-start bg-white border border-gray-200 rounded-lg p-4 my-4 shadow-sm;
+  }
+  
+  .review-avatar {
+    @apply bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3 flex-shrink-0;
+  }
+  
+  .review-content {
+    @apply flex-1;
+  }
+  
+  .review-meta {
+    @apply flex items-center mb-1;
+  }
+  
+  .review-meta strong {
+    @apply mr-2;
+  }
+  
+  .review-stars {
+    @apply text-yellow-400 mr-2;
+  }
+  
+  .review-date {
+    @apply text-gray-500 text-xs;
+  }
+  
+  .review-text {
+    @apply m-0 text-gray-700 leading-relaxed;
+  }
+  
+  /* Check List */
+  .check-list {
+    @apply list-none p-5 my-5 bg-green-50 border border-green-200 rounded-lg;
+  }
+  
+  .check-list li {
+    @apply py-2 pl-8 relative leading-relaxed;
+  }
+  
+  .check-list li::before {
+    content: "✅";
+    @apply absolute left-0 text-xl;
+  }
+  
+  /* Table Styles for Markdown */
+  .prose table {
+    @apply w-full border-collapse my-5 border border-gray-300;
+  }
+  
+  .prose thead tr {
+    @apply bg-gray-50;
+  }
+  
+  .prose th {
+    @apply border border-gray-300 px-3 py-3 text-left font-semibold bg-gray-50;
+  }
+  
+  .prose td {
+    @apply border border-gray-300 px-3 py-3 text-left align-top;
+  }
+  
+  .prose tbody tr:nth-child(even) {
+    @apply bg-gray-50;
+  }
+  
+  .prose tbody tr:hover {
+    @apply bg-blue-50;
+  }
+  
+  /* Responsive Tables */
+  @media (max-width: 768px) {
+    .prose table {
+      @apply block overflow-x-auto whitespace-nowrap;
+    }
+    
+    .review-card {
+      @apply flex-col text-center;
+    }
+    
+    .review-avatar {
+      @apply mx-auto mb-3;
+    }
+    
+    .cta-actions {
+      @apply flex-col;
+    }
+    
+    .cta-actions a {
+      @apply w-full justify-center;
+    }
+  }
+
+  /* Blog article header - KESINLIKLE sticky OLMAYACAK */
+  article header.blog-article-header,
+  article > header.blog-article-header,
+  .blog-article-header {
+    position: static !important;
+    top: auto !important;
+  }
+  
+  /* Sadece navigation header sticky olacak */
+  body > header:not(.blog-article-header),
+  body > main > header:not(.blog-article-header) {
+    /* Bu zaten Header component'inde fixed */
+  }
+  
+  /* Table of Contents Container - simplify (grid düzenine karışma) */
+  .toc-container {
+    position: relative !important;
+    overflow: visible !important;
+  }
+  
+  /* TOC Sticky - ABSOLUTE GUARANTEE */
+  @media (min-width: 1024px) {
+    aside.toc-sticky {
+      position: -webkit-sticky !important;
+      position: sticky !important;
+      top: 5rem !important;
+      align-self: flex-start !important;
+      z-index: 30 !important;
+      display: block !important;
+      width: 100% !important;
+      max-width: 320px !important;
+      max-height: calc(100vh - 5rem) !important;
+      overflow-y: auto !important;
+      /* Remove any transform that could break sticky */
+      transform: none !important;
+      will-change: auto !important;
+      contain: none !important;
+      /* Smooth scrolling for TOC content */
+      -webkit-overflow-scrolling: touch;
+      scrollbar-width: thin;
+      scrollbar-color: rgba(26, 156, 176, 0.3) transparent;
+      /* Extra guarantee */
+      flex-shrink: 0 !important;
+    }
+  }
+
+  /* Force fixed positioning when requested (overrides sticky) */
+  @media (min-width: 1024px) {
+    aside.toc-sticky.toc-force-fixed {
+      position: fixed !important;
+    }
+  }
+  
+  /* Force all parent containers to support sticky */
+  @media (min-width: 1024px) {
+    aside.toc-sticky,
+    aside.toc-sticky * {
+      backface-visibility: visible !important;
+      perspective: none !important;
+    }
+  }
+  
+  /* Custom scrollbar for TOC */
+  aside.toc-sticky::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  aside.toc-sticky::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  
+  aside.toc-sticky::-webkit-scrollbar-thumb {
+    background: rgba(26, 156, 176, 0.3);
+    border-radius: 3px;
+  }
+  
+  aside.toc-sticky::-webkit-scrollbar-thumb:hover {
+    background: rgba(26, 156, 176, 0.5);
+  }
+  
+  /* Desktop layout for blog content with TOC */
+  @media (min-width: 1024px) {
+    /* Ensure parent containers don't interfere */
+    .toc-container,
+    .toc-container > div,
+    .toc-container > aside {
+      position: relative !important;
+      overflow: visible !important;
+      transform: none !important;
+      contain: none !important;
+      backface-visibility: visible !important;
+      perspective: none !important;
+    }
+  }
 }
 
 @layer utilities {
   .text-gradient {
     @apply bg-gradient-to-r from-primary via-cyan to-primary-600 bg-clip-text text-transparent bg-300% animate-gradient;
+  }
+  .nowrap {
+    white-space: nowrap;
   }
   
   .glow-text {

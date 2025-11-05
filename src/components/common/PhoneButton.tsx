@@ -13,30 +13,54 @@ export default function PhoneButton({
   const [mounted, setMounted] = useState(false);
   const [showButton, setShowButton] = useState(false);
   const [showText, setShowText] = useState(false);
+  const [phraseIndex, setPhraseIndex] = useState(0);
 
   useEffect(() => {
     setMounted(true);
     
-    // 3 saniye sonra butonu göster
+    // Biraz daha erken göster (dönüşüm için)
     const buttonTimer = setTimeout(() => {
       setShowButton(true);
       
-      // Buton göründükten 2 saniye sonra yazıyı göster
+      // İlk kısa gösterim
       const textTimer = setTimeout(() => {
         setShowText(true);
-        
-        // Yazı göründükten 3 saniye sonra gizle
         const hideTextTimer = setTimeout(() => {
           setShowText(false);
-        }, 3000);
-        
+        }, 2200);
         return () => clearTimeout(hideTextTimer);
-      }, 2000);
+      }, 1200);
       
       return () => clearTimeout(textTimer);
-    }, 3000);
+    }, 1500);
     
-    return () => clearTimeout(buttonTimer);
+    // Düşük frekanslı döngü: her 18 sn'de 2.2 sn göster
+    const cycle = setInterval(() => {
+      setPhraseIndex((i) => (i + 1) % 4);
+      setShowText(true);
+      setTimeout(() => setShowText(false), 2200);
+    }, 18000);
+
+    // Visibility ölçümleme (aramaya başladı mı?)
+    const onVisibility = () => {
+      const anyWin: any = window as any;
+      if (document.hidden && anyWin.__callIntentAt) {
+        const delta = Date.now() - anyWin.__callIntentAt;
+        if (delta < 5000) {
+          // 5 sn içinde sekme gizlendiyse arama başlatılmış olabilir
+          if ((window as any).gtag) {
+            (window as any).gtag('event', 'turkuaz_tel_butonu_olasi_arama', { delta_ms: delta });
+          }
+        }
+      }
+    };
+    document.addEventListener('visibilitychange', onVisibility, { passive: true } as any);
+
+    return () => {
+      clearTimeout(buttonTimer);
+      clearInterval(cycle);
+      document.removeEventListener('visibilitychange', onVisibility as any);
+    };
   }, []);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
@@ -60,32 +84,45 @@ export default function PhoneButton({
     return null;
   }
 
+  const phrases = ['Hemen Ara', 'Ustaya Sor', 'Destek Hattı', 'Hemen Fiyat Al'];
+
   return (
     <a
+      id="floating-call"
       href={phoneHref}
       onClick={handleClick}
       className={`
-        group fixed bottom-6 left-6 z-50
+        group fixed bottom-6 right-6 z-50
         flex items-center justify-center gap-3
         ${showText ? 'w-auto px-6' : 'w-16'} h-16 md:${showText ? 'w-auto md:px-8' : 'w-20'} md:h-20
         rounded-full
-        bg-gradient-to-br from-lime-400 via-green-500 to-emerald-500
+        bg-gradient-to-br from-[#00e5ff] via-[#33ecff] to-[#00bcd4]
         text-white
-        shadow-2xl
+        shadow-2xl ring-1 ring-white/20
         overflow-hidden
         cursor-pointer
         transform transition-all duration-500 ease-in-out
-        hover:scale-110
-        active:scale-55
+        hover:scale-105
+        active:scale-95
         ${className}
       `}
       style={{
         backgroundSize: '300% 300%',
-        animation: mounted ? 'gradient-shift 6s ease infinite, bounce-spring 2.4s cubic-bezier(0.22, 1, 0.36, 1) 2' : 'none',
-        animationDelay: '0.1s, 0.3s',
-        boxShadow: '0 10px 40px rgba(16, 185, 129, 0.5), 0 0 80px rgba(16, 185, 129, 0.4), 0 0 120px rgba(16, 185, 129, 0.2)',
+        animation: mounted ? 'gradient-shift 6s ease infinite, bounce-spring 2.2s cubic-bezier(0.22, 1, 0.36, 1) 1' : 'none',
+        animationDelay: '0.1s, 0.25s',
+        boxShadow: '0 10px 40px rgba(93, 211, 224, 0.45), 0 0 80px rgba(26, 156, 176, 0.35), 0 0 120px rgba(26, 156, 176, 0.18)',
       }}
-      aria-label="Bizi Arayın"
+      aria-label={`Bizi arayın: ${phone}`}
+      onMouseDown={() => {
+        // gtag click event (varsa)
+        // @ts-ignore
+        if (window.gtag) {
+          // @ts-ignore
+          window.gtag('event', 'turkuaz_tel_butonu', { location: 'floating_button' });
+        }
+        // visibility ölçümleme için işaretle
+        (window as any).__callIntentAt = Date.now();
+      }}
     >
       {/* Glow Layer */}
       <div 
@@ -131,7 +168,7 @@ export default function PhoneButton({
           ${showText ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4 w-0'}
         `}
       >
-        {showText && 'Telefon Desteği'}
+        {showText && phrases[phraseIndex]}
       </span>
 
       {/* Ripple Effects */}

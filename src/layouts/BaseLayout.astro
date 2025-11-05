@@ -37,6 +37,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <title>{title}</title>
   <meta name="description" content={description} />
   {noindex && <meta name="robots" content="noindex, nofollow" />}
+  <meta name="robots" content="max-image-preview:large" />
   
   {/* Open Graph */}
   <meta property="og:type" content="website" />
@@ -116,11 +117,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       scroll-padding-top: 80px;
     }
 
-    /* 2. Reveal */
+    /* 2. Reveal (klasik fade-up) */
     [data-reveal] {
       opacity: 0;
       transform: translateY(20px);
-      transition: opacity 0.4s ease, transform 0.4s ease;
+      transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
       will-change: opacity, transform;
     }
     .reveal--in {
@@ -129,11 +130,53 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       will-change: auto; /* animasyon bitince kaldır */
     }
 
-    /* 3. Header */
-    header {
-      position: sticky;
-      top: 0;
-      transition: background 0.3s ease;
+    /* 2b. Animate (fade-up) */
+    [data-animate] {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      will-change: opacity, transform;
+    }
+    [data-animate].animate-in {
+      opacity: 1;
+      transform: translateY(0);
+      will-change: auto;
+    }
+
+    /* CTA butonları için özel easing */
+    [data-animate].cta-ease-fast { transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
+    [data-animate].cta-ease-soft { transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+
+    /* DSG Rozeti - yukarıdan yumuşak iniş ve hafif parlama */
+    @keyframes badge-drop {
+      0% { opacity: 0; transform: translateY(-16px) scale(0.98); }
+      70% { opacity: 1; transform: translateY(0) scale(1); }
+      100% { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    [data-badge].animate-in { animation: badge-drop 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; }
+    [data-badge].animate-in .premium-shine::before { transition-duration: 1400ms; }
+
+    /* Marka logoları - masaüstünde karşılıklı akış */
+    @keyframes slide-ltr { from { opacity: 0; transform: translateX(-26px); } to { opacity: 1; transform: translateX(0); } }
+    @keyframes slide-rtl { from { opacity: 0; transform: translateX(26px); } to { opacity: 1; transform: translateX(0); } }
+    /* Varsayılan reveal'ı geçersiz kıl (logolar için X ekseni) */
+    [data-reveal][data-dir] { opacity: 0; transform: translateX(18px); transition: none; }
+    [data-reveal][data-dir="ltr"].animate-in { animation: slide-ltr 1.3s cubic-bezier(0.16, 1, 0.3, 1) both; }
+    [data-reveal][data-dir="rtl"].animate-in { animation: slide-rtl 1.3s cubic-bezier(0.16, 1, 0.3, 1) both; }
+    @media (max-width: 1023px) {
+      [data-reveal][data-dir] { opacity: 1; transform: none; animation: none !important; }
+    }
+
+    /* 3. Header - SADECE navigation header (site header), article header'ları DEĞİL */
+    body > header:not(.blog-article-header),
+    body > main > header:not(.blog-article-header) {
+      /* Header component zaten fixed, burada sadece geçiş efekti */
+    }
+    
+    /* Article header'ları KESINLIKLE sticky olmasın */
+    article header.blog-article-header {
+      position: static !important;
+      top: auto !important;
     }
 
     /* 4. Progress bar */
@@ -147,7 +190,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
     @media (prefers-reduced-motion: reduce) {
       html { scroll-behavior: auto; }
-      [data-reveal] { opacity: 1; transform: none; transition: none; }
+      [data-reveal], [data-animate] { opacity: 1; transform: none; transition: none; }
     }
   </style>
   
@@ -162,7 +205,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <body class="smooth-scroll">
   <Header />
   
-  <main class="pt-20">
+  <main class="pt-20" style="position: relative; overflow: visible; contain: none;">
     <slot />
   </main>
   
@@ -170,7 +213,37 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   
       {/* Floating Buttons */}
       <PhoneButton client:load />
-      <WhatsAppButton client:load />
+      <WhatsAppButton 
+        client:load 
+        message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
+      />
+
+      <script is:inline>
+        // Çalışma saatlerine göre tek butonu göster (Pzt-Cmt 09:00-18:00)
+        (function () {
+          function isWorkingHours(now) {
+            const day = now.getDay(); // 0=Sun,1=Mon,...6=Sat
+            if (day === 0) return false; // Pazar kapalı
+            const hour = now.getHours();
+            const minute = now.getMinutes();
+            const time = hour + minute / 60;
+            return time >= 9 && time < 18;
+          }
+
+          function toggleFloating() {
+            const callBtn = document.getElementById('floating-call');
+            const waBtn = document.getElementById('floating-whatsapp');
+            if (!callBtn || !waBtn) return;
+            const showCall = isWorkingHours(new Date());
+            callBtn.style.display = showCall ? '' : 'none';
+            waBtn.style.display = showCall ? 'none' : '';
+          }
+
+          // İlk yüklemede ve saat başı kontrol et
+          toggleFloating();
+          setInterval(toggleFloating, 60 * 60 * 1000);
+        })();
+      </script>
 
       {/* Optimize edilmiş Scroll ve Reveal Script */}
       <script is:inline>
@@ -181,15 +254,107 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
         // Reveal
         const io = new IntersectionObserver((entries) => {
-          entries.forEach(e => {
-            if (e.isIntersecting) {
-              e.target.classList.add('reveal--in');
-              io.unobserve(e.target);
-            }
+          entries.forEach((entry, index) => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
+            const delay = index * step;
+            requestAnimationFrame(() => {
+              setTimeout(() => {
+                if (el.hasAttribute('data-animate')) {
+                  el.classList.add('animate-in');
+                } else if (el.hasAttribute('data-reveal')) {
+                  // Logolar (data-dir) için animate-in, diğer reveal'lar için reveal--in
+                  if (el.dataset && el.dataset.dir) {
+                    el.classList.add('animate-in');
+                  } else {
+                    el.classList.add('reveal--in');
+                  }
+                }
+                io.unobserve(el);
+              }, delay);
+            });
           });
-        }, { threshold: 0.15 });
-        
-        document.querySelectorAll('[data-reveal]').forEach(el => io.observe(el));
+        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+
+        // Tüm section'ları varsayılan olarak reveal kapsamına al (opt-out: data-reveal="false" veya data-animate="false")
+        // Sadece açıkça işaretli öğeleri işleyelim (görünmeme sorunlarını önler)
+        const allAnimateTargets = new Set();
+        // Grid çocuklarını dahil et (yalnızca işaretli olanları)
+        document.querySelectorAll('.grid').forEach((grid) => {
+          const children = grid.querySelectorAll(':scope > [data-animate], :scope > [data-reveal]');
+          children.forEach((node) => allAnimateTargets.add(node));
+        });
+
+        // Genel sıralama: data-stagger-children olan container'ların doğrudan çocuklarını işaretli olanlarla sınırla
+        document.querySelectorAll('[data-stagger-children]').forEach((container) => {
+          const kids = container.querySelectorAll(':scope > [data-animate], :scope > [data-reveal]');
+          kids.forEach((kid) => allAnimateTargets.add(kid));
+        });
+
+        // Diğer bağımsız [data-animate] ve [data-reveal] öğeleri ekle
+        document.querySelectorAll('[data-animate], [data-reveal]').forEach((node) => {
+          const el = node;
+          if (el.dataset) {
+            if (!el.dataset.staggerIndex) el.dataset.staggerIndex = '0';
+            if (!el.dataset.sectionOffset) el.dataset.sectionOffset = '0';
+          }
+          allAnimateTargets.add(el);
+        });
+
+        // İlk yüklemede viewport'ta olanları anında aç, diğerlerini gözlemle
+        function isInViewport(element) {
+          const rect = element.getBoundingClientRect();
+          const vh = window.innerHeight || document.documentElement.clientHeight;
+          const vw = window.innerWidth || document.documentElement.clientWidth;
+          return (
+            rect.top < vh &&
+            rect.bottom > 0 &&
+            rect.left < vw &&
+            rect.right > 0
+          );
+        }
+
+        Array.from(allAnimateTargets).forEach((el) => {
+          const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
+          // Hero ve üst içeriklerin kaybolmaması için: viewport içindekileri (logo hariç) anında göster
+          if (!isLogo && isInViewport(el)) {
+            if (el.hasAttribute('data-animate')) {
+              el.classList.add('animate-in');
+            }
+            if (el.hasAttribute('data-reveal')) {
+              el.classList.add('reveal--in');
+            }
+            return;
+          }
+          // Logolar viewport'taysa, dataset tabanlı gecikmeyle tetikle (IO beklemeden)
+          if (isLogo && isInViewport(el)) {
+            const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
+            const idx = Number(el.dataset && el.dataset.staggerIndex ? el.dataset.staggerIndex : 0);
+            const delay = idx * step;
+            requestAnimationFrame(() => {
+              setTimeout(() => {
+                el.classList.add('animate-in');
+              }, delay);
+            });
+            return;
+          }
+          io.observe(el);
+        });
+
+        // Dinamik eklenen öğeler (basit): sadece işaretli hedefleri gözlemle
+        const mo = new MutationObserver((mutations) => {
+          mutations.forEach((m) => {
+            m.addedNodes.forEach((node) => {
+              if (!(node instanceof Element)) return;
+              const targets = node.matches && node.matches('[data-animate], [data-reveal]')
+                ? [node]
+                : Array.from(node.querySelectorAll('[data-animate], [data-reveal]'));
+              targets.forEach((el) => io.observe(el));
+            });
+          });
+        });
+        mo.observe(document.body, { childList: true, subtree: true });
 
         // Scroll handler (throttled)
         window.addEventListener('scroll', () => {

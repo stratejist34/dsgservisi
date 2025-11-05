@@ -9,6 +9,20 @@ export default function WhatsAppButton({
 
   React.useEffect(() => {
     setMounted(true);
+    // visibility change ile WA açılışını tahmin et
+    const onVisibility = () => {
+      const anyWin: any = window as any;
+      if (document.hidden && anyWin.__waIntentAt) {
+        const delta = Date.now() - anyWin.__waIntentAt;
+        if (delta < 5000) {
+          if ((window as any).gtag) {
+            (window as any).gtag('event', 'whatsapp_butonu_olasi_acilis', { delta_ms: delta });
+          }
+        }
+      }
+    };
+    document.addEventListener('visibilitychange', onVisibility, { passive: true } as any);
+    return () => document.removeEventListener('visibilitychange', onVisibility as any);
   }, []);
 
 
@@ -16,6 +30,7 @@ export default function WhatsAppButton({
 
   return (
     <a
+      id="floating-whatsapp"
       key={mounted ? 'mounted' : 'loading'}
       href={whatsappUrl}
       target="_blank"
@@ -27,17 +42,26 @@ export default function WhatsAppButton({
         rounded-full
         bg-[#25D366]
         text-white
-        shadow-2xl
+        shadow-2xl ring-1 ring-white/20
         transform transition-all duration-300
-        hover:scale-110 hover:shadow-[#25D366]/50
+        hover:scale-105 hover:shadow-[#25D366]/50
         active:scale-95
         ${className}
       `}
       style={{
-        animation: mounted ? 'float-smooth 6s ease-in-out infinite' : 'none',
-        animationDelay: '0.1s',
+        animation: mounted ? 'glow-pulse 3s ease-in-out 2' : 'none',
+        animationDelay: '0.25s',
       }}
       aria-label="WhatsApp ile İletişim"
+      onMouseDown={() => {
+        // gtag click event (varsa)
+        // @ts-ignore
+        if (window.gtag) {
+          // @ts-ignore
+          window.gtag('event', 'whatsapp_butonu', { location: 'floating_button' });
+        }
+        (window as any).__waIntentAt = Date.now();
+      }}
     >
       <svg
         className="w-8 h-8 md:w-10 md:h-10"

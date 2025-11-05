@@ -14,9 +14,9 @@ const instagramPosts = [
 ---
 
 <section class="relative overflow-hidden bg-gradient-to-b from-gray-50 to-white py-12" id="instagram-feed">
-  <div class="max-w-full mx-auto px-0">
+  <div class="max-w-full mx-auto px-0" data-animate>
     {/* Instagram Header */}
-    <div class="text-center mb-6">
+    <div class="text-center mb-6" data-animate>
       <a
         href="https://www.instagram.com/asyildizlar/"
         target="_blank"
@@ -37,7 +37,7 @@ const instagramPosts = [
     </div>
 
     {/* Instagram Feed - Client-side Carousel */}
-    <div class="instagram-carousel-container">
+    <div class="instagram-carousel-container" data-animate>
       <div class="instagram-carousel-wrapper">
         {instagramPosts.map((post) => (
           <div class="instagram-slide">

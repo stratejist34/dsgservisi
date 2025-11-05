@@ -2,6 +2,7 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import { SERVICES, SITE_CONFIG } from '@utils/constants';
 import AnimatedServiceList from '@components/home/AnimatedServiceList';
+import Stats from '@components/home/Stats';
 
 const title = 'Hizmetlerimiz | DSG Servisi - DSG Şanzıman ve Mekatronik Tamiri';
 const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bakım ve daha fazlası. VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlar için uzman servis.';
@@ -28,7 +29,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     </div>
 
     <div class="container relative z-10 py-8">
-      <div class="max-w-4xl mx-auto text-center">
+      <div class="max-w-4xl mx-auto text-center" data-animate>
         {/* Badge */}
         <div class="inline-flex items-center gap-2 bg-white/10 text-white px-6 py-2 rounded-full mb-3" data-reveal>
           <svg class="w-5 h-5 text-cyan" fill="currentColor" viewBox="0 0 20 20">
@@ -37,11 +38,11 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
           <span class="font-semibold">Profesyonel Servis Hizmetleri</span>
         </div>
 
-        <h1 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white mb-3 animate-[fade-in-up_0.8s_ease-out]">
+        <h1 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white mb-3">
           Hizmetlerimiz
         </h1>
         
-        <p class="text-base md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto animate-[fade-in-up_1s_ease-out]">
+        <p class="text-base md:text-lg text-gray-300 leading-relaxed max-w-3xl mx-auto" data-animate>
           Araç bakımından <span class="text-cyan font-semibold">DSG şanzıman tamirine</span>, periyodik bakımdan elektrik sistemine kadar
           geniş hizmet yelpazemiz ile yanınızdayız
         </p>
@@ -68,7 +69,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
             {['Audi', 'Volkswagen', 'Seat', 'Skoda', 'Porsche'].map((brand) => {
               const brandData = SITE_CONFIG.brands.find(b => b.name === brand);
               return brandData && (
-                <div key={brand} class="transition-all duration-300 hover:scale-110">
+                <div class="transition-all duration-300 hover:scale-110">
                   <img
                     src={brandData.logo}
                     alt={`${brand} Servisi`}
@@ -168,6 +169,9 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     </div>
   </section>
 
+  <!-- Stats Section - Açık Renkli -->
+  <Stats client:load />
+
   <!-- Supported Brands Showcase -->
   <section class="section bg-gradient-to-br from-navy via-navy-600 to-navy relative overflow-hidden">
     {/* Pattern */}
@@ -176,7 +180,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     </div>
 
     <div class="container relative z-10">
-      <div class="text-center mb-12">
+      <div class="text-center mb-12" data-reveal>
         <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-4">
           Çalıştığımız Premium Markalar
         </h2>
@@ -186,14 +190,14 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
       </div>
 
       {/* Brand Logos - Hero Style */}
-      <div class="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mb-16 max-w-5xl mx-auto">
+      <div class="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mb-16 max-w-5xl mx-auto" data-stagger-children data-stagger-step="90">
         {SITE_CONFIG.brands.filter(brand => brand.name !== 'DSG').map((brand) => (
           
           <a
-            key={brand.name}
             href={brand.url}
             class="group relative w-16 h-16 md:w-20 md:h-20 block mx-auto"
             aria-label={`${brand.name} Servisi`}
+            data-animate
           >
             {/* Dönen Border Dairesi - 2px kalınlık */}
             <div 
@@ -228,20 +232,20 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
       </div>
 
       {/* Animated Brand Stats - DSG Uzmanı Stili */}
-      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
-        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto" data-stagger-children data-stagger-step="90">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine" data-animate>
           <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">8</div>
           <div class="text-white/90 font-semibold text-sm md:text-base">Premium Marka</div>
         </div>
-        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine" data-animate>
           <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">44+</div>
           <div class="text-white/90 font-semibold text-sm md:text-base">Farklı Model</div>
         </div>
-        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine" data-animate>
           <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">6.5K+</div>
           <div class="text-white/90 font-semibold text-sm md:text-base">Mutlu Müşteri</div>
         </div>
-        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine">
+        <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md rounded-xl p-6 text-center border-2 border-cyan/30 hover:border-cyan transition-all duration-300 hover:scale-105 shadow-xl premium-shine" data-animate>
           <div class="text-4xl md:text-5xl font-display font-black text-white mb-2">15+</div>
           <div class="text-white/90 font-semibold text-sm md:text-base">Yıl Deneyim</div>
         </div>
@@ -252,7 +256,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
   <!-- Process Timeline -->
   <section class="section bg-white relative overflow-hidden">
     <div class="container">
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" data-reveal>
         <h2 class="text-3xl md:text-5xl font-display font-bold text-navy mb-4">
           Nasıl Çalışıyoruz?
         </h2>
@@ -261,13 +265,13 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
         </p>
       </div>
 
-      <div class="relative max-w-5xl mx-auto">
+      <div class="relative max-w-5xl mx-auto" data-stagger-children data-stagger-step="90">
         {/* Timeline Line */}
         <div class="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-primary via-cyan to-primary transform -translate-y-1/2"></div>
 
         <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
           {/* Step 1 */}
-          <div class="group text-center">
+          <div class="group text-center" data-animate>
             <div class="relative inline-block mb-6">
               <div class="w-20 h-20 bg-white border-4 border-primary rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
                 <span class="text-3xl font-display font-black text-primary">1</span>
@@ -283,7 +287,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
           </div>
 
           {/* Step 2 */}
-          <div class="group text-center">
+          <div class="group text-center" data-animate>
             <div class="relative inline-block mb-6">
               <div class="w-20 h-20 bg-white border-4 border-cyan rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
                 <span class="text-3xl font-display font-black text-cyan">2</span>
@@ -298,7 +302,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
           </div>
 
           {/* Step 3 */}
-          <div class="group text-center">
+          <div class="group text-center" data-animate>
             <div class="relative inline-block mb-6">
               <div class="w-20 h-20 bg-white border-4 border-primary rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
                 <span class="text-3xl font-display font-black text-primary">3</span>
@@ -313,7 +317,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
           </div>
 
           {/* Step 4 */}
-          <div class="group text-center">
+          <div class="group text-center" data-animate>
             <div class="relative inline-block mb-6">
               <div class="w-20 h-20 bg-white border-4 border-cyan rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
                 <span class="text-3xl font-display font-black text-cyan">4</span>
@@ -332,11 +336,11 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     </div>
   </section>
 
- <!-- Why Choose Us - Interactive Features -->
+  <!-- Why Choose Us - Interactive Features -->
 <section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
   
   <div class="container relative z-10">
-    <div class="text-center mb-16">
+    <div class="text-center mb-16" data-reveal>
       <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-4">
         Neden Yıldızlar Grup?
       </h2>
@@ -346,9 +350,9 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
       </p>
     </div>
       {/* Feature Cards */}
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" data-stagger-children data-stagger-step="90">
         {/* Feature 1 - Expertise */}
-        <div class="group relative">
+        <div class="group relative" data-animate>
           <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden premium-shine">
             <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
             
@@ -383,7 +387,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
         </div>
 
         {/* Feature 2 - Warranty */}
-        <div class="group relative">
+        <div class="group relative" data-animate>
           <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden premium-shine">
             <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
             
@@ -418,7 +422,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
         </div>
 
         {/* Feature 3 - Fast Service */}
-        <div class="group relative">
+        <div class="group relative" data-animate>
           <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 backdrop-blur-md border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 overflow-hidden premium-shine">
             <div class="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
             
@@ -458,7 +462,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
   <!-- FAQ Section -->
   <section class="section bg-gradient-to-b from-white to-gray-50">
     <div class="container">
-      <div class="text-center mb-16">
+      <div class="text-center mb-16" data-reveal>
         <h2 class="text-3xl md:text-5xl font-display font-bold text-navy mb-4">
           Sıkça Sorulan Sorular
         </h2>
@@ -467,9 +471,9 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
         </p>
       </div>
 
-      <div class="max-w-3xl mx-auto space-y-4">
+      <div class="max-w-3xl mx-auto space-y-4" data-stagger-children data-stagger-step="90">
         {/* FAQ 1 */}
-        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
           <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
             <span>DSG şanzıman tamiri ne kadar sürer?</span>
             <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -483,7 +487,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
         </details>
 
         {/* FAQ 2 */}
-        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
           <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
             <span>Garanti süresi ne kadar?</span>
             <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -497,7 +501,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
         </details>
 
         {/* FAQ 3 */}
-        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
           <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
             <span>Orijinal parça mı kullanılıyor?</span>
             <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -511,7 +515,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
         </details>
 
         {/* FAQ 4 */}
-        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden">
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
           <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
             <span>Randevu almak zorunlu mu?</span>
             <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -538,9 +542,9 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     </div>
 
     <div class="container relative z-10">
-      <div class="max-w-4xl mx-auto text-center">
+      <div class="max-w-4xl mx-auto text-center" data-reveal>
         {/* Icon */}
-        <div class="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full mb-6">
+        <div class="inline-flex items-center justify-center w-20 h-20 bg-white/20 backdrop-blur-sm rounded-full mb-6" data-animate>
           <svg class="w-10 h-10 text-white" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
@@ -555,11 +559,12 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
           Hemen iletişime geçin, randevunuzu alın.
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center" data-stagger-children data-stagger-step="90">
           
           <a
             href="/iletisim"
             class="group inline-flex items-center justify-center px-10 py-5 bg-white text-primary rounded-xl font-bold text-lg hover:bg-gray-100 transition-all duration-300 hover:scale-105 shadow-xl"
+            data-animate
           >
             <span>İletişime Geçin</span>
             <svg class="w-6 h-6 ml-2 transition-transform group-hover:translate-x-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
@@ -570,6 +575,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
           <a
             href="/"
             class="inline-flex items-center justify-center px-10 py-5 bg-navy text-white rounded-xl font-bold text-lg hover:bg-navy-600 transition-all duration-300 hover:scale-105 border-2 border-white/30"
+            data-animate
           >
             Ana Sayfaya Dön
           </a>

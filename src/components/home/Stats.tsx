@@ -69,25 +69,20 @@ function Counter({
 export default function Stats() {
   return (
     <div className="relative py-20 md:py-32 overflow-hidden" style={{ willChange: 'transform' }}>
-      {/* Background with Gradient - Koyu Turkuaz Ton */}
-      <div 
-        className="absolute inset-0"
-        style={{
-          background: 'linear-gradient(135deg, #0a3d4d 0%, #0a4d68 50%, #0a3d4d 100%)',
-        }}
-      />
+      {/* Background with Gradient - Primary Açık Ton */}
+      <div className="absolute inset-0 bg-gradient-to-br from-primary-500 via-primary-400 to-primary-500" />
       
-      {/* Overlay Pattern */}
+      {/* Overlay Pattern - Dots */}
       <div 
         className="absolute inset-0 opacity-10"
         style={{
-          backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
+          backgroundImage: `url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Ccircle cx='20' cy='20' r='1.5'/%3E%3C/g%3E%3C/svg%3E")`,
         }}
       />
 
       <div className="container relative z-10">
         {/* Section Title */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-16" data-animate>
           <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
             RAKAMLARLA YILDIZLAR GRUP SERVİS
           </h2>
@@ -99,7 +94,7 @@ export default function Stats() {
         {/* Stats Grid */}
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12" style={{ willChange: 'transform' }}>
           {/* Stat 1 */}
-          <div className="text-center transform hover:scale-105 transition-transform duration-300">
+          <div className="text-center transform hover:scale-105 transition-transform duration-300" data-animate data-stagger-step="120">
             <Counter end={SITE_CONFIG.stats.experience} suffix="+" />
             <div className="mt-4 text-lg md:text-xl font-semibold text-white/90">
               Yıl Tecrübe
@@ -107,7 +102,7 @@ export default function Stats() {
           </div>
 
           {/* Stat 2 */}
-          <div className="text-center transform hover:scale-105 transition-transform duration-300">
+          <div className="text-center transform hover:scale-105 transition-transform duration-300" data-animate data-stagger-step="120">
             <Counter end={SITE_CONFIG.stats.customers} suffix="+" />
             <div className="mt-4 text-lg md:text-xl font-semibold text-white/90">
               Mutlu Müşteri
@@ -115,7 +110,7 @@ export default function Stats() {
           </div>
 
           {/* Stat 3 */}
-          <div className="text-center transform hover:scale-105 transition-transform duration-300">
+          <div className="text-center transform hover:scale-105 transition-transform duration-300" data-animate data-stagger-step="120">
             <Counter end={SITE_CONFIG.stats.brands} />
             <div className="mt-4 text-lg md:text-xl font-semibold text-white/90">
               Markanın
@@ -123,7 +118,7 @@ export default function Stats() {
           </div>
 
           {/* Stat 4 */}
-          <div className="text-center transform hover:scale-105 transition-transform duration-300">
+          <div className="text-center transform hover:scale-105 transition-transform duration-300" data-animate data-stagger-step="120">
             <Counter end={SITE_CONFIG.stats.models} />
             <div className="mt-4 text-lg md:text-xl font-semibold text-white/90">
               Farklı Model için Servis

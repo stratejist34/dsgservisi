@@ -1,0 +1,116 @@
+---
+import BlogCard from '@components/blog/BlogCard.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  posts: Array<CollectionEntry<'blog'>>;
+}
+
+const { posts } = Astro.props;
+---
+
+<div class="max-w-[1400px] mx-auto">
+  {/* CSS Grid: 12 kolonluk sistem, her satır 200px base */}
+  <div class="grid grid-cols-1 md:grid-cols-12 gap-6 md:gap-8 auto-rows-[200px]">
+    {(() => {
+      const elements: any[] = [];
+      let i = 0;
+      let patternIndex = 0; // Pattern pozisyonunu takip etmek için
+
+      while (i < posts.length) {
+        const patternPosition = patternIndex % 12; // 12'lik döngü daha tutarlı
+
+        // Pattern 1: Featured Large (8 col x 3 row) + 3x Featured Small (4 col x 1 row)
+        if (patternPosition === 0 && posts[i]) {
+          elements.push(
+            <div class="md:col-span-8 md:row-span-3">
+              <BlogCard post={posts[i]} index={i} size="featured-large" />
+            </div>
+          );
+          i++;
+
+          // 3 küçük kart sağda
+          for (let j = 0; j < 3 && posts[i]; j++) {
+            elements.push(
+              <div class="md:col-span-4 md:row-span-1">
+                <BlogCard post={posts[i]} index={i} size="featured-small" />
+              </div>
+            );
+            i++;
+          }
+          patternIndex += 4; // 4 yazı gösterildi
+        }
+        // Pattern 2: Square Left (4 col x 2 row) + Rect Right (8 col x 2 row)
+        else if (patternPosition === 4 && posts[i]) {
+          elements.push(
+            <div class="md:col-span-4 md:row-span-2">
+              <BlogCard post={posts[i]} index={i} size="square-left" />
+            </div>
+          );
+          i++;
+
+          if (posts[i]) {
+            elements.push(
+              <div class="md:col-span-8 md:row-span-2">
+                <BlogCard post={posts[i]} index={i} size="rect-right" />
+              </div>
+            );
+            i++;
+          }
+          patternIndex += 2; // 2 yazı gösterildi
+        }
+        // Pattern 3: Rect Wide (8 col x 2 row) + 2x Square Stack (4 col x 1 row)
+        else if (patternPosition === 6 && posts[i]) {
+          elements.push(
+            <div class="md:col-span-8 md:row-span-2">
+              <BlogCard post={posts[i]} index={i} size="rect-wide" />
+            </div>
+          );
+          i++;
+
+          // 2 kare kart sağda
+          for (let j = 0; j < 2 && posts[i]; j++) {
+            elements.push(
+              <div class="md:col-span-4 md:row-span-1">
+                <BlogCard post={posts[i]} index={i} size="square-stack" />
+              </div>
+            );
+            i++;
+          }
+          patternIndex += 3; // 3 yazı gösterildi
+        }
+        // Pattern 4: 3x Regular Rect (4 col x 2 row each)
+        else if (patternPosition === 9 && posts[i]) {
+          for (let j = 0; j < 3 && posts[i]; j++) {
+            elements.push(
+              <div class="md:col-span-4 md:row-span-2">
+                <BlogCard post={posts[i]} index={i} size="rect-regular" />
+              </div>
+            );
+            i++;
+          }
+          patternIndex += 3; // 3 yazı gösterildi
+        }
+        else {
+          // Diğer pozisyonlar için tek kart göster
+          if (posts[i]) {
+            elements.push(
+              <div class="md:col-span-4 md:row-span-2">
+                <BlogCard post={posts[i]} index={i} size="rect-regular" />
+              </div>
+            );
+            i++;
+            patternIndex++; // 1 yazı gösterildi
+          } else {
+            break; // Daha fazla yazı yoksa döngüyü kır
+          }
+        }
+      }
+
+      return elements;
+    })()}
+  </div>
+  
+</div>
+
+

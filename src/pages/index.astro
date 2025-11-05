@@ -19,6 +19,57 @@ const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, S
   </Fragment>
 
   <Hero />
+  
+  <!-- Story Section -->
+  <section class="section bg-white">
+    <div class="container">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center" data-stagger-children data-stagger-step="90">
+        <div data-animate>
+          <h2 class="font-display font-bold text-navy mb-6">
+            Hikayemiz
+          </h2>
+          <div class="space-y-4 text-gray-600 leading-relaxed text-lg">
+            <p>
+              <span class="font-bold text-primary">Yıldızlar Grup DSG Servisi</span> olarak 
+              {SITE_CONFIG.stats.experience} yıldır sektörde faaliyet göstermekteyiz. Kurulduğumuz günden 
+              bu yana müşteri memnuniyetini ön planda tutarak, kaliteli hizmet anlayışımızı 
+              hiç değiştirmedik.
+            </p>
+            <p>
+              Özellikle <strong>DSG şanzıman ve mekatronik sistemleri</strong> konusunda uzmanlaşmış 
+              kadromuzla, VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover gibi 
+              prestijli markaların tüm modellerine hizmet vermekteyiz.
+            </p>
+            <p>
+              Son teknoloji <strong>bilgisayarlı arıza tanı sistemlerimiz</strong>, orijinal ve 
+              kaliteli yedek parça tedarikçilerimiz ve deneyimli ustalarımız sayesinde aracınıza 
+              en iyi hizmeti sunmayı garanti ediyoruz.
+            </p>
+            <p>
+              Bugün {SITE_CONFIG.stats.customers.toLocaleString()}+ mutlu müşterimiz ve 
+              {SITE_CONFIG.google.rating} yıldızlı Google puanımızla gurur duyuyoruz.
+            </p>
+          </div>
+        </div>
+
+        <div class="relative" data-animate>
+          <img
+            src="/images/workshop.jpg"
+            alt="Yıldızlar Grup DSG Servisi Atölyesi"
+            class="rounded-2xl shadow-2xl"
+            loading="lazy"
+            width="1920"
+            height="1080"
+          />
+          <div class="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-xl shadow-xl">
+            <div class="text-4xl font-bold">{SITE_CONFIG.stats.experience}+</div>
+            <div class="text-sm">Yıl Tecrübe</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <Services />
   <Stats client:visible />
   <Reviews client:visible />

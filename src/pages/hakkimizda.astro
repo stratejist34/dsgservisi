@@ -11,11 +11,11 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
   <!-- Hero Section -->
   <section class="bg-gradient-to-br from-navy to-navy-700 text-white py-20">
     <div class="container">
-      <div class="max-w-3xl mx-auto text-center">
-        <h1 class="font-display font-bold mb-6">
+      <div class="max-w-3xl mx-auto text-center" data-animate>
+        <h1 class="font-display font-bold mb-6" data-animate>
           Hakkımızda
         </h1>
-        <p class="text-xl text-gray-300 leading-relaxed">
+        <p class="text-xl text-gray-300 leading-relaxed" data-animate>
           15 yıldır sektörde, binlerce mutlu müşteriyle büyüyen bir aile şirketiyiz
         </p>
       </div>
@@ -25,8 +25,8 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
   <!-- Story Section -->
   <section class="section bg-white">
     <div class="container">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-        <div>
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center" data-stagger-children data-stagger-step="90">
+        <div data-animate>
           <h2 class="font-display font-bold text-navy mb-6">
             Hikayemiz
           </h2>
@@ -54,7 +54,7 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
           </div>
         </div>
 
-        <div class="relative">
+        <div class="relative" data-animate>
           <img
             src="/images/workshop.jpg"
             alt="Yıldızlar Grup DSG Servisi Atölyesi"
@@ -78,7 +78,7 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
   <!-- Values Section -->
   <section class="section bg-gray-50">
     <div class="container">
-      <div class="section-title">
+      <div class="section-title" data-animate>
         <h2 class="font-display font-bold text-navy mb-4">
           Değerlerimiz
         </h2>
@@ -87,8 +87,8 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
         </p>
       </div>
 
-      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8" data-stagger-children data-stagger-step="90">
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow" data-animate>
           <div class="w-16 h-16 bg-gradient-to-br from-primary to-cyan rounded-full flex items-center justify-center text-white text-2xl mb-6">
             ✓
           </div>
@@ -101,7 +101,7 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
           </p>
         </div>
 
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow" data-animate>
           <div class="w-16 h-16 bg-gradient-to-br from-primary to-cyan rounded-full flex items-center justify-center text-white text-2xl mb-6">
             💬
           </div>
@@ -114,7 +114,7 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
           </p>
         </div>
 
-        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow">
+        <div class="bg-white rounded-2xl p-8 shadow-lg hover:shadow-xl transition-shadow" data-animate>
           <div class="w-16 h-16 bg-gradient-to-br from-primary to-cyan rounded-full flex items-center justify-center text-white text-2xl mb-6">
             ⚡
           </div>
@@ -133,7 +133,7 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
   <!-- Team Section -->
   <section class="section bg-white">
     <div class="container">
-      <div class="section-title">
+      <div class="section-title" data-animate>
         <h2 class="font-display font-bold text-navy mb-4">
           Uzman Ekibimiz
         </h2>
@@ -142,7 +142,7 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
         </p>
       </div>
 
-      <div class="max-w-3xl mx-auto bg-gradient-to-br from-navy to-navy-700 rounded-2xl p-8 md:p-12 text-white text-center">
+      <div class="max-w-3xl mx-auto bg-gradient-to-br from-navy to-navy-700 rounded-2xl p-8 md:p-12 text-white text-center" data-animate>
         <svg class="w-20 h-20 mx-auto mb-6 text-cyan" fill="currentColor" viewBox="0 0 20 20">
           <path d="M9 6a3 3 0 11-6 0 3 3 0 016 0zM17 6a3 3 0 11-6 0 3 3 0 016 0zM12.93 17c.046-.327.07-.66.07-1a6.97 6.97 0 00-1.5-4.33A5 5 0 0119 16v1h-6.07zM6 11a5 5 0 015 5v1H1v-1a5 5 0 015-5z"></path>
         </svg>
@@ -172,7 +172,7 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
   <!-- CTA Section -->
   <section class="section bg-gradient-to-br from-primary to-cyan text-white">
     <div class="container">
-      <div class="max-w-3xl mx-auto text-center">
+      <div class="max-w-3xl mx-auto text-center" data-animate>
         <h2 class="font-display font-bold mb-6">
           Bize Katılın!
         </h2>
@@ -180,16 +180,18 @@ const description = '15 yıldır DSG şanzıman ve mekatronik konusunda uzman ek
           Binlerce mutlu müşterimize siz de katılın. Aracınız için en iyi hizmeti almak için 
           hemen iletişime geçin.
         </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center">
+        <div class="flex flex-col sm:flex-row gap-4 justify-center" data-stagger-children data-stagger-step="90">
           <a
             href="/iletisim"
             class="btn bg-white text-primary hover:bg-gray-100 btn-lg"
+            data-animate
           >
             Randevu Alın
           </a>
           <a
             href="/hizmetlerimiz"
             class="btn bg-navy text-white hover:bg-navy-600 btn-lg"
+            data-animate
           >
             Hizmetlerimiz
           </a>

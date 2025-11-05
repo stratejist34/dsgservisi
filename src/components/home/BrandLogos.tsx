@@ -6,13 +6,22 @@ export default function BrandLogos() {
   const largerBrands = new Set(['Mercedes', 'Porsche', 'Seat', 'Skoda']);
 
   return (
-    <div className="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mt-12 md:mt-16 max-w-5xl mx-auto">
-      {brands.map((brand) => (
+    <div className="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mt-4 md:mt-6 max-w-5xl mx-auto">
+      {brands.map((brand, i) => {
+        // Masaüstünde tek satır (8 kolon): merkez EN HIZLI, kenarlar EN YAVAŞ
+        const dir = i < 4 ? 'ltr' : 'rtl';
+        const distFromEdge = Math.min(i, 7 - i); // 0..3
+        const staggerIndex = 3 - distFromEdge; // merkez (3,4) -> 0 (hızlı), kenar -> 3 (yavaş)
+        return (
         <a
           key={brand.name}
           href={brand.url}
-          className="group relative w-16 h-16 md:w-20 md:h-20 block"
+          className="group relative w-16 h-16 md:w-20 md:h-20 block logo-anim"
           aria-label={`${brand.name} Servisi`}
+          data-reveal
+          data-dir={dir}
+          data-stagger-index={String(staggerIndex)}
+          data-stagger-step="240"
         >
           {/* Dönen Border Dairesi - 2px kalınlık */}
           <div 
@@ -44,7 +53,8 @@ export default function BrandLogos() {
             />
           </div>
         </a>
-      ))}
+        );
+      })}
     </div>
   );
 }

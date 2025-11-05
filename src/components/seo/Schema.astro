@@ -2,7 +2,7 @@
 import { SITE_CONFIG } from '@utils/constants';
 
 interface Props {
-  type: 'local-business' | 'article' | 'Article' | 'BreadcrumbList';
+  type: 'local-business' | 'article' | 'Article' | 'BreadcrumbList' | 'FAQPage' | 'Service';
   data?: any;
   article?: {
     title: string;
@@ -85,8 +85,8 @@ const articleSchema = article ? {
 let schema;
 if (type === 'local-business') {
   schema = localBusinessSchema;
-} else if (type === 'Article' || type === 'BreadcrumbList') {
-  // Use data prop directly for Article and BreadcrumbList
+} else if (type === 'Article' || type === 'BreadcrumbList' || type === 'FAQPage' || type === 'Service') {
+  // Use data prop directly for structured types we pass through
   schema = { '@context': 'https://schema.org', '@type': type, ...data };
 } else {
   schema = articleSchema;

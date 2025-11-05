@@ -1,0 +1,54 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import PostGridPattern from '@components/blog/PostGridPattern.astro';
+import { getCollection } from 'astro:content';
+import { sortPostsByDate } from '@utils/content';
+
+export async function getStaticPaths() {
+  const entries = await getCollection('blog', ({ data }) => !data.draft);
+  const posts = sortPostsByDate(entries);
+  const PAGE_SIZE = 16;
+  const totalPages = Math.ceil(posts.length / PAGE_SIZE) || 1;
+  return Array.from({ length: totalPages }, (_, i) => ({
+    params: { page: String(i + 1) },
+    props: { totalPages, PAGE_SIZE }
+  }));
+}
+
+const { page } = Astro.params;
+const { totalPages, PAGE_SIZE } = Astro.props as { totalPages: number; PAGE_SIZE: number };
+const currentPage = Math.max(1, Math.min(Number(page) || 1, totalPages));
+
+const entries = await getCollection('blog', ({ data }) => !data.draft);
+const posts = sortPostsByDate(entries);
+const start = (currentPage - 1) * PAGE_SIZE;
+const end = start + PAGE_SIZE;
+const visiblePosts = posts.slice(start, end);
+
+const title = 'Blog | DSG Servisi - Tüm Yazılar';
+const description = 'DSG şanzıman, mekatronik ve araç bakımı hakkında yazılar.';
+const image = '/images/workshop.jpg';
+---
+
+<BaseLayout title={title} description={description} image={image}>
+  <section class="section bg-gradient-to-b from-gray-50 to-white">
+    <div class="container">
+      <div class="max-w-[1400px] mx-auto">
+        <PostGridPattern posts={visiblePosts} />
+        {totalPages > 1 && (
+          <nav class="mt-12 flex justify-center gap-2" aria-label="Sayfalama">
+            {Array.from({ length: totalPages }, (_, i) => i + 1).map((p) => (
+              p === currentPage ? (
+                <span class="px-4 py-2 rounded-lg bg-primary text-white" aria-current="page">{p}</span>
+              ) : (
+                <a href={p === 1 ? '/blog' : `/blog/${p}`} class="px-4 py-2 rounded-lg bg-gray-100 hover:bg-gray-200 text-navy">{p}</a>
+              )
+            ))}
+          </nav>
+        )}
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+

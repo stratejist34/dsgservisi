@@ -44,10 +44,11 @@ const navLinks = [
         ))}
       </nav>
 
-      {/* CTA Button - DSG Uzmanı Stili */}
+      {/* CTA Button - Electric Blue */}
       <a 
         href="/iletisim" 
-        class="hidden md:inline-flex px-6 py-3 rounded-lg font-semibold text-white bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 border border-white/20 hover:border-cyan transition-colors duration-300"
+        class="hidden md:inline-flex px-6 py-3 rounded-lg font-semibold text-white bg-[#00e5ff] hover:bg-[#33ecff] shadow-md hover:shadow-lg transition-colors duration-200"
+        onmousedown="if(window.gtag){window.gtag('event','header_fiyat_iste_butonu',{location:'header_nav'});}"
       >
         FİYAT İSTE
       </a>
@@ -78,7 +79,7 @@ const navLinks = [
           {link.label}
         </a>
       ))}
-      <a href="/iletisim" class="btn btn-primary mt-2">
+      <a href="/iletisim" class="inline-flex justify-center items-center px-6 py-3 rounded-lg font-semibold text-white bg-[#00e5ff] hover:bg-[#33ecff] shadow-md hover:shadow-lg transition-colors duration-200 mt-2">
         FİYAT İSTE
       </a>
     </nav>

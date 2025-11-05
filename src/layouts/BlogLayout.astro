@@ -2,31 +2,92 @@
 import BaseLayout from './BaseLayout.astro';
 import Schema from '@components/seo/Schema.astro';
 import { SITE_CONFIG } from '@utils/constants';
-import type { WPPost } from '@utils/wordpress';
+import type { CollectionEntry } from 'astro:content';
+import { getBlogFeaturedImage } from '@utils/content';
 
 interface Props {
-  post: WPPost;
+  post: CollectionEntry<'blog'>;
+  extractedService?: any;
+  extractedFaqs?: Array<{ question: string; answer: string }>;
 }
 
-const { post } = Astro.props;
+const { post, extractedService, extractedFaqs } = Astro.props;
+const es = extractedService || {};
+const data = post.data;
+const d = data as any; // geniş tip: opsiyonel alanlar için güvenli erişim
 
 // Site URL (Astro.site kullan, fallback ekle)
 const SITE_URL = Astro.site?.href.replace(/\/$/, '') || 'https://dsgservisi.com';
 
 // BaseLayout için doğru props formatı
-const title = post.yoast_head_json?.title || post.title.rendered;
-const description = post.yoast_head_json?.description || post.excerpt.rendered.replace(/<[^>]*>/g, '').substring(0, 160);
-const image = post._embedded?.['wp:featuredmedia']?.[0]?.source_url || '/images/default-blog.jpg';
+const title = data.seoTitle || data.title;
+const description = data.seoDescription || data.description || '';
+const image = data.ogImage || getBlogFeaturedImage(post);
+
+// Tarihleri formatla
+const publishDate = data.publishDate instanceof Date 
+  ? data.publishDate 
+  : new Date(data.publishDate);
+const updatedDate = data.updatedDate 
+  ? (data.updatedDate instanceof Date ? data.updatedDate : new Date(data.updatedDate))
+  : publishDate;
 
 // Article Schema
 const articleSchema = {
-  title: post.title.rendered,
+  title: data.title,
   description: description,
   image: image,
-  datePublished: post.date,
-  dateModified: post.date,
-  author: post._embedded?.author?.[0]?.name || SITE_CONFIG.name,
+  datePublished: publishDate.toISOString(),
+  dateModified: updatedDate.toISOString(),
+  author: data.author || SITE_CONFIG.name,
 };
+
+// Service Schema (conditional - frontmatter ile tetiklenir)
+const hasService = !!(d.service || d.serviceName || d.serviceType);
+const serviceSchemaData = hasService || es ? {
+  name: d.service?.name || d.serviceName || data.title,
+  serviceType: d.service?.type || d.serviceType || data.category || 'Service',
+  description: d.service?.description || d.serviceDescription || description,
+  provider: { '@id': SITE_URL },
+  areaServed: Array.isArray(d.service?.areaServed || d.areaServed)
+    ? (d.service?.areaServed || d.areaServed).map((city: string) => ({ '@type': 'City', name: city }))
+    : (d.service?.areaServed || d.areaServed)
+      ? { '@type': 'City', name: String(d.service?.areaServed || d.areaServed) }
+      : undefined,
+  offers: (() => {
+    const currency = d.service?.priceCurrency || d.priceCurrency || es.priceCurrency;
+    const offerUrl = d.service?.offerUrl || d.offerUrl || `${SITE_URL}/${post.slug}`;
+    const hasRange = (d.service?.lowPrice ?? d.lowPrice ?? es.lowPrice) != null || (d.service?.highPrice ?? d.highPrice ?? es.highPrice) != null;
+    const low = (d.service?.lowPrice ?? d.lowPrice ?? es.lowPrice);
+    const high = (d.service?.highPrice ?? d.highPrice ?? es.highPrice);
+    const singlePrice = (d.service?.price ?? d.price ?? es.price);
+    if (hasRange && currency) {
+      return {
+        '@type': 'AggregateOffer',
+        lowPrice: String(low ?? ''),
+        highPrice: String(high ?? ''),
+        priceCurrency: currency,
+        url: offerUrl,
+      };
+    }
+    if (singlePrice != null && currency) {
+      return {
+        '@type': 'Offer',
+        price: String(singlePrice),
+        priceCurrency: currency,
+        url: offerUrl,
+      };
+    }
+    return undefined;
+  })(),
+  aggregateRating: (d.service?.rating || d.serviceRating) && (d.service?.reviewCount || d.serviceReviewCount) ? {
+    '@type': 'AggregateRating',
+    ratingValue: String(d.service?.rating || d.serviceRating),
+    reviewCount: String(d.service?.reviewCount || d.serviceReviewCount),
+    bestRating: '5',
+    worstRating: '1',
+  } : undefined,
+} : null;
 
 // Breadcrumb Schema
 const breadcrumbData = {
@@ -46,7 +107,7 @@ const breadcrumbData = {
     {
       '@type': 'ListItem',
       position: 3,
-      name: post.title.rendered,
+      name: data.title,
       item: `${SITE_URL}/${post.slug}`,
     },
   ],
@@ -182,15 +243,53 @@ const localServiceSchema = {
     <Schema type="article" article={articleSchema} />
     
     {/* LocalBusiness Schema with Reviews */}
-    <script type="application/ld+json" set:html={JSON.stringify(localServiceSchema)} />
+    <script is:inline type="application/ld+json" set:html={JSON.stringify(localServiceSchema)} />
     
     {/* Breadcrumb Schema */}
     <Schema type="BreadcrumbList" data={breadcrumbData} />
+
+    {/* Service Schema (opsiyonel) */}
+    {serviceSchemaData && (
+      <Schema type="Service" data={serviceSchemaData} />
+    )}
+
+    {/* FAQ Schema (opsiyonel, frontmatter'da faqs varsa ya da içerikten çıkarıldıysa) */}
+    {(() => {
+      const faqs = Array.isArray((data as any).faqs) && (data as any).faqs.length > 0
+        ? (data as any).faqs
+        : (Array.isArray(extractedFaqs) && extractedFaqs.length > 0 ? extractedFaqs : null);
+      if (!faqs) return null;
+      return (
+      <Schema
+        type="FAQPage"
+        data={{
+          mainEntity: faqs.map((f: any) => ({
+            '@type': 'Question',
+            name: f.question || f.q,
+            acceptedAnswer: {
+              '@type': 'Answer',
+              text: f.answer || f.a,
+            },
+          })),
+        }}
+      />
+      );
+    })()}
     
     {/* Open Graph */}
     <meta property="og:type" content="article" />
     <meta property="og:image" content={image} />
+    
+    {/* TOC Sticky Fix CSS */}
+    <style is:inline>
+      /* Ensure blog layout doesn't interfere with sticky */
+      article, article > div {
+        overflow: visible !important;
+      }
+    </style>
   </Fragment>
   
-  <slot />
+  <div style="position: relative; overflow: visible;">
+    <slot />
+  </div>
 </BaseLayout>

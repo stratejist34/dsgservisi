@@ -4,9 +4,9 @@ import { SITE_CONFIG } from '@utils/constants';
 
 <footer class="bg-navy text-white">
   <div class="container py-16">
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12" data-stagger-children data-stagger-step="120">
       {/* Company Info */}
-      <div>
+      <div data-animate data-stagger-children data-stagger-step="100">
         <img 
           src="/images/DSG Servis logosu.webp" 
           alt="DSG Servisi Logo" 
@@ -46,9 +46,9 @@ import { SITE_CONFIG } from '@utils/constants';
       </div>
 
       {/* Quick Links */}
-      <div>
+      <div data-animate data-stagger-children data-stagger-step="100">
         <h3 class="text-xl font-bold mb-6">Hızlı Bağlantılar</h3>
-        <ul class="space-y-3">
+        <ul class="space-y-3" data-stagger-children data-stagger-step="90">
           <li>
             <a href="/" class="text-white/80 hover:text-cyan-light transition-colors duration-300">
               Anasayfa
@@ -78,9 +78,9 @@ import { SITE_CONFIG } from '@utils/constants';
       </div>
 
       {/* Services */}
-      <div>
+      <div data-animate data-stagger-children data-stagger-step="100">
         <h3 class="text-xl font-bold mb-6">Servislerimiz</h3>
-        <ul class="space-y-3">
+        <ul class="space-y-3" data-stagger-children data-stagger-step="90">
           <li class="text-white/80">DSG Mekatronik Tamiri</li>
           <li class="text-white/80">DSG Şanzıman Tamiri</li>
           <li class="text-white/80">Motor Tamiri</li>
@@ -90,9 +90,9 @@ import { SITE_CONFIG } from '@utils/constants';
       </div>
 
       {/* Contact Info */}
-      <div>
+      <div data-animate data-stagger-children data-stagger-step="100">
         <h3 class="text-xl font-bold mb-6">İletişim Bilgileri</h3>
-        <ul class="space-y-4">
+        <ul class="space-y-4" data-stagger-children data-stagger-step="90">
           <li class="flex items-start gap-3">
             <svg class="w-5 h-5 text-cyan-light flex-shrink-0 mt-1" fill="currentColor" viewBox="0 0 20 20">
               <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd" />

@@ -28,7 +28,7 @@ import BrandLogos from './BrandLogos';
       />
     </picture>
     {/* Gradient Overlay Mask */}
-    <div class="absolute inset-0 bg-gradient-to-br from-navy/95 via-navy/90 to-navy/95"></div>
+    <div class="absolute inset-0 bg-gradient-to-bl from-navy/85 via-navy/80 to-navy/85"></div>
   </div>
 
   {/* Subtle Pattern Overlay (reduced opacity) */}
@@ -64,11 +64,12 @@ import BrandLogos from './BrandLogos';
       </p>
 
       {/* CTA Buttons */}
-      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16" data-reveal>
+      <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
         <a
+          data-animate
           href={`tel:${SITE_CONFIG.phoneFormatted}`}
-          class="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white bg-gradient-to-r from-primary via-cyan to-primary-600 rounded-xl overflow-hidden shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5"
-          style="background-size: 200% 100%;"
+          class="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white bg-gradient-to-r from-[#00e5ff] via-[#33ecff] to-[#00bcd4] rounded-xl overflow-hidden shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5 cta-ease-fast"
+          style="background-size: 200% 100%; box-shadow: 0 10px 40px rgba(93, 211, 224, 0.45), 0 0 80px rgba(26, 156, 176, 0.35), 0 0 120px rgba(26, 156, 176, 0.18);"
         >
           <svg
             class="w-6 h-6 mr-3 relative z-10"
@@ -82,8 +83,9 @@ import BrandLogos from './BrandLogos';
           <span class="relative z-10 font-display tracking-wide">HEMEN ARA</span>
         </a>
         <a
+          data-animate
           href="/hizmetlerimiz"
-          class="group inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-navy bg-white rounded-xl border-2 border-white/30 hover:border-cyan shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5"
+          class="group inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-navy bg-white rounded-xl border-2 border-white/30 hover:border-cyan shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5 cta-ease-soft"
         >
           <span class="font-display tracking-wide">HİZMETLERİMİZ</span>
           <svg class="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
@@ -93,7 +95,7 @@ import BrandLogos from './BrandLogos';
       </div>
 
   {/* DSG Badge - Özel Vurgu */}
-      <div class="mb-8" data-reveal>
+      <div class="mb-8" data-animate data-badge>
     <div class="inline-flex items-center gap-4 bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 px-10 py-5 rounded-2xl border-2 border-cyan/30 premium-shine transition-transform duration-300 hover:scale-[1.01]">
           <div class="relative">
             <div class="relative w-14 h-14 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center shadow-xl">

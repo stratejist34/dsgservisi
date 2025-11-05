@@ -1,19 +1,21 @@
 ---
-import type { WPPost } from '@utils/wordpress';
-import { getFeaturedImageUrl, getExcerpt } from '@utils/wordpress';
+import type { CollectionEntry } from 'astro:content';
+import { getBlogFeaturedImage, getBlogExcerpt, getBlogCategory, getCategoryLogo, getCategoryLink } from '@utils/content';
 
 interface Props {
-  post: WPPost;
+  post: CollectionEntry<'blog'>;
   index?: number;
   size?: 'featured-large' | 'featured-small' | 'square-left' | 'rect-right' | 'rect-wide' | 'square-stack' | 'rect-regular';
 }
 
 const { post, index = 0, size = 'rect-regular' } = Astro.props;
-const featuredImage = getFeaturedImageUrl(post);
-const excerpt = getExcerpt(post);
-
-// Get first category if available
-const categoryName = post._embedded?.['wp:term']?.[0]?.[0]?.name || 'Genel';
+const featuredImage = getBlogFeaturedImage(post);
+const excerpt = getBlogExcerpt(post);
+const categoryName = getBlogCategory(post);
+const categoryLogo = getCategoryLogo(categoryName);
+const categoryLink = getCategoryLink(categoryName);
+const postTitle = post.data.title;
+const postSlug = post.slug;
 
 // Define heights and padding based on CSS grid sizes - ALL OVERLAY STYLE
 const sizeConfig = {
@@ -65,15 +67,15 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
 ---
 
 <article
-  class="group relative rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-500 hover:-translate-y-2 w-full h-full min-h-[200px]"
-  style={`animation: fade-in-up 0.6s ease-out ${index * 0.1}s both;`}
+  class="netflix-card premium-card group relative rounded-[1.6rem] overflow-hidden shadow-lg w-full h-full min-h-[200px] transition-transform duration-500 ease-out will-change-transform group-hover:-translate-y-1 group-hover:shadow-xl"
+  style={`animation: fade-in-up 0.8s ease-out ${index * 0.1}s both;`}
 >
   <!-- Background Image (Full Card Height) -->
   {featuredImage ? (
     <img
       src={featuredImage}
-      alt={post.title.rendered}
-      class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+      alt={post.data.imageAlt || postTitle}
+      class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-115 group-hover:brightness-110"
       loading="lazy"
     />
   ) : (
@@ -82,23 +84,31 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
     </div>
   )}
   
-  {/* Strong Gradient Overlay */}
-  <div class="absolute inset-0 bg-gradient-to-t from-navy/95 via-navy/75 to-navy/40 group-hover:from-navy/98 group-hover:via-navy/85 transition-all duration-500 z-10"></div>
+  {/* Refined Turkuaz Overlay - Daha hafif, koyu odak sağ üst */}
+  <div class="card-overlay absolute inset-0 transition-all duration-500 z-10"></div>
+  
+  {/* Category Badge - Sağ Üst Köşe - Büyük Logo */}
+  {categoryName && categoryLogo && (
+    <a 
+      href={categoryLink}
+      class="absolute top-4 right-4 z-30 opacity-[.62] hover:opacity-100 transition-opacity duration-300 group/badge"
+      title={categoryName}
+    >
+      <img 
+        src={categoryLogo} 
+        alt={categoryName}
+        class="w-20 h-20 object-contain filter brightness-0 invert transition-[filter] duration-300 ease-out group-hover:brightness-100 group-hover:invert-0 hover:brightness-100 hover:invert-0"
+        loading="lazy"
+      />
+    </a>
+  )}
   
   {/* Content Overlay - Everything on top of image */}
   <div class={`relative z-20 w-full h-full flex flex-col justify-end ${config.padding}`}>
-      {/* Category Badge */}
-      <div class="inline-flex items-center gap-1.5 bg-gradient-to-r from-primary to-cyan text-white px-3 py-1.5 rounded-full text-xs font-semibold shadow-xl mb-3 w-fit group-hover:scale-105 transition-transform">
-        <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z" />
-        </svg>
-        {categoryName}
-      </div>
-      
       {/* Title */}
       <h3 class={`font-display font-bold text-white mb-3 group-hover:text-cyan transition-colors line-clamp-2 leading-tight ${config.titleSize}`}>
-        <a href={`/${post.slug}`} class="hover:text-cyan transition-colors">
-          {post.title.rendered}
+        <a href={`/${postSlug}`} class="hover:text-cyan transition-colors">
+          {postTitle}
         </a>
       </h3>
 
@@ -111,7 +121,7 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
 
       {/* Read More Button */}
       <a
-        href={`/${post.slug}`}
+        href={`/${postSlug}`}
         class="inline-flex items-center gap-2 text-cyan hover:text-white font-semibold transition-all group/btn text-sm w-fit"
       >
         <span>Devamını Oku</span>
@@ -121,12 +131,156 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
       </a>
   </div>
 
-  {/* Hover Border Effect */}
-  <div class="absolute inset-0 border-2 border-transparent group-hover:border-primary rounded-2xl transition-colors duration-500 pointer-events-none"></div>
   
-  {/* Shine Effect */}
-  <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none overflow-hidden rounded-2xl">
-    <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent transform -skew-x-12 translate-x-[-200%] group-hover:translate-x-[200%] transition-transform duration-1000"></div>
-  </div>
 </article>
 
+<style>
+  .netflix-card {
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+    transition: transform 300ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 300ms ease;
+  }
+
+  .netflix-card.is-tilting {
+    transition: transform 60ms linear;
+  }
+
+  .netflix-card:hover {
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.35), 0 6px 16px rgba(0, 0, 0, 0.25);
+    z-index: 5;
+  }
+
+  .premium-card::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 1.3rem; /* ~30% larger than 2xl(1rem) */
+    padding: 1px; /* border width */
+    pointer-events: none;
+    background: linear-gradient(120deg,
+      rgba(245, 212, 128, 0.55) 0%,
+      rgba(240, 179, 90, 0.35) 20%,
+      rgba(255, 255, 255, 0.45) 50%,
+      rgba(240, 179, 90, 0.35) 80%,
+      rgba(245, 212, 128, 0.55) 100%
+    );
+    -webkit-mask: 
+      linear-gradient(#000 0 0) content-box, 
+      linear-gradient(#000 0 0);
+    -webkit-mask-composite: xor;
+            mask-composite: exclude;
+    opacity: 0;
+    filter: drop-shadow(0 8px 24px rgba(246, 206, 120, 0.12));
+    transition: opacity 400ms ease, filter 600ms ease;
+  }
+
+  .premium-card:hover::before {
+    opacity: 1;
+    filter: drop-shadow(0 10px 28px rgba(246, 206, 120, 0.18));
+  }
+
+  /* subtle shine sweep */
+  .premium-card::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    border-radius: 1.3rem;
+    background: linear-gradient(100deg,
+      rgba(255, 255, 255, 0) 20%,
+      rgba(255, 255, 255, 0.35) 50%,
+      rgba(255, 255, 255, 0) 80%
+    );
+    transform: translateX(-140%);
+    opacity: 0;
+    transition: transform 800ms ease, opacity 400ms ease;
+  }
+
+  .premium-card:hover::after {
+    transform: translateX(140%);
+    opacity: 0.12;
+  }
+  
+  /* Lighter turquoise overlay with dark focus shifted toward top-right */
+  .card-overlay {
+    border-radius: inherit;
+    background-image:
+      radial-gradient(60% 60% at 72% 22%,
+        rgba(16, 94, 106, 0.28) 0%,
+        rgba(21, 125, 141, 0.16) 45%,
+        rgba(26, 156, 176, 0.08) 65%,
+        rgba(26, 156, 176, 0.00) 80%
+      ),
+      linear-gradient(135deg,
+        rgba(21, 125, 141, 0.12) 0%,
+        rgba(26, 156, 176, 0.06) 50%,
+        rgba(26, 156, 176, 0.00) 90%
+      );
+  }
+
+  .group:hover .card-overlay {
+    background-image:
+      radial-gradient(60% 60% at 72% 22%,
+        rgba(16, 94, 106, 0.22) 0%,
+        rgba(21, 125, 141, 0.14) 45%,
+        rgba(26, 156, 176, 0.06) 65%,
+        rgba(26, 156, 176, 0.00) 80%
+      ),
+      linear-gradient(135deg,
+        rgba(21, 125, 141, 0.10) 0%,
+        rgba(26, 156, 176, 0.05) 50%,
+        rgba(26, 156, 176, 0.00) 90%
+      );
+  }
+</style>
+
+<script>
+  // @ts-nocheck
+  const prefersReducedMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  function setupNetflixCardTilt(card) {
+    let rect = null;
+    let rafId = 0;
+
+    function onEnter() {
+      rect = card.getBoundingClientRect();
+      card.style.willChange = 'transform';
+    }
+
+    function onMove(e) {
+      if (prefersReducedMotion) return;
+      if (!rect) rect = card.getBoundingClientRect();
+      const px = (e.clientX - rect.left) / rect.width; // 0..1
+      const py = (e.clientY - rect.top) / rect.height; // 0..1
+      const rotateY = (px - 0.5) * 16; // left/right
+      const rotateX = (0.5 - py) * 12; // up/down
+      const translateY = -10; // lift
+      const scale = 1.04;
+
+      card.classList.add('is-tilting');
+      cancelAnimationFrame(rafId);
+      rafId = requestAnimationFrame(() => {
+        card.style.transform = `perspective(1000px) translateY(${translateY}px) scale(${scale}) rotateX(${rotateX}deg) rotateY(${rotateY}deg)`;
+      });
+    }
+
+    function onLeave() {
+      card.classList.remove('is-tilting');
+      card.style.transition = 'transform 500ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 400ms ease';
+      card.style.transform = '';
+      rect = null;
+      setTimeout(() => {
+        card.style.transition = '';
+        card.style.willChange = '';
+      }, 520);
+    }
+
+    card.addEventListener('mouseenter', onEnter);
+    card.addEventListener('mousemove', onMove);
+    card.addEventListener('mouseleave', onLeave);
+  }
+
+  // Init on load
+  const cards = document.querySelectorAll('.netflix-card');
+  cards.forEach(setupNetflixCardTilt);
+</script>

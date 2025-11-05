@@ -43,7 +43,7 @@ export const SITE_CONFIG = {
   ],
   google: {
     rating: 4.3,
-    reviewCount: 76,
+    reviewCount: 77,
     placeId: 'ChIJy1zf2BiLyhQRapm5RRrXYWo',
     mapUrl: 'https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA',
     embedUrl: 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.3402005679377!2d28.631132100000002!3d41.0178125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb185ddf5cbb%3A0x6a61d71a45b9906a!2sY%C4%B1ld%C4%B1zlar%20Grup%20Volkswagen%2C%20Audi%2C%20Porsche%2C%20Bmw%20%C3%96zel%20Servis!5e0!3m2!1str!2str!4v1760658181515!5m2!1str!2str',

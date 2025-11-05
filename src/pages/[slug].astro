@@ -1,37 +1,90 @@
 ---
+import { getCollection } from 'astro:content';
 import BlogLayout from '@layouts/BlogLayout.astro';
-import { fetchPostBySlug, getAllPostSlugs, cleanWPContent, getFeaturedImageUrl } from '@utils/wordpress';
+import BlogCard from '@components/blog/BlogCard.astro';
+import TableOfContents from '@components/blog/TableOfContents.tsx';
+import { findRelatedPosts, calculateReadingTime, extractPriceRangeFromHtml, extractFaqsFromHtml, getCategorySlugs } from '@utils/content';
+import { getBlogFeaturedImage } from '@utils/content';
 
 export async function getStaticPaths() {
-  try {
-    const slugs = await getAllPostSlugs();
-    return slugs.map((slug) => ({
-      params: { slug },
+  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  
+  // Kategori slug'larını utility'den al
+  const categorySlugs = new Set(getCategorySlugs());
+  
+  // Sadece kategori slug'ı OLMAYAN blog postları için route oluştur
+  return posts
+    .filter((post) => !categorySlugs.has(post.slug))
+    .map((post) => ({
+      params: { slug: post.slug },
+      props: { post },
     }));
-  } catch (error) {
-    console.log('WordPress API not available, skipping posts');
-    return [];
-  }
 }
 
 const { slug } = Astro.params;
-const post = await fetchPostBySlug(slug as string);
 
-// Redirect to 404 if post not found
-if (!post) {
-  return Astro.redirect('/404');
+// Kategori slug kontrolü - eğer kategori slug'ı ise [category].astro bunu handle edecek
+// Bu dosyada kategori slug'ları için route oluşturmadığımız için bu kontrol gereksiz ama güvenlik için
+if (slug && getCategorySlugs().includes(slug.toLowerCase())) {
+  // Bu bir kategori slug'ı - bu route'a gelmemeli ama gelirse category sayfasına yönlendir
+  return Astro.redirect(`/${slug.toLowerCase()}`, 301);
 }
 
-const featuredImage = getFeaturedImageUrl(post);
-const cleanContent = cleanWPContent(post.content.rendered);
+// Post kontrolü - eğer post yoksa blog'a yönlendir
+if (!Astro.props.post) {
+  return Astro.redirect('/blog', 404);
+}
+
+const { post } = Astro.props;
+const { Content } = await post.render();
+const data = post.data;
+
+// Tüm yazıları al (ilgili yazılar için)
+const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const relatedPosts = findRelatedPosts(post, allPosts, 3);
+
+// Okuma süresini hesapla
+const readingTime = data.readingTime || calculateReadingTime(Content.toString());
+
+// Tarih formatı
+const publishDate = data.publishDate instanceof Date 
+  ? data.publishDate 
+  : new Date(data.publishDate);
+const formattedDate = publishDate.toLocaleDateString('tr-TR', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+// İçerikten otomatik fiyat bilgisi ve FAQ çıkar (şemalar için)
+const html = Content.toString();
+const extractedService = extractPriceRangeFromHtml(html);
+const extractedFaqs = extractFaqsFromHtml(html);
 ---
 
-<BlogLayout post={post}>
-  <!-- Article Header -->
+<BlogLayout post={post} extractedService={extractedService} extractedFaqs={extractedFaqs}>
+  <Fragment slot="head">
+    {/* TOC Sticky ve aktif link stilleri */}
+    <style is:inline>
+      
+      /* TOC aktif link stilleri */
+      aside nav a.toc-active {
+        background-color: rgb(26 156 176 / 0.1) !important;
+        border-left-color: rgb(26 156 176) !important;
+        color: rgb(26 156 176) !important;
+        font-weight: 600 !important;
+      }
+      
+      /* TOC hover stili */
+      aside nav a:hover:not(.toc-active) {
+        background-color: rgb(26 156 176 / 0.05) !important;
+        border-left-color: rgb(26 156 176) !important;
+      }
+    </style>
+  </Fragment>
   <article class="py-12 bg-white" style="overflow: visible;">
     <div class="container max-w-7xl" style="overflow: visible;">
       <!-- Breadcrumb -->
-      <nav class="flex items-center text-sm text-gray-600 mb-8">
+      <nav class="flex items-center text-sm text-gray-600 mb-8 flex-wrap">
         <a href="/" class="hover:text-primary transition-colors">Ana Sayfa</a>
         <svg class="w-4 h-4 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -40,117 +93,114 @@ const cleanContent = cleanWPContent(post.content.rendered);
         <svg class="w-4 h-4 mx-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
         </svg>
-        <span class="text-gray-400 truncate">{post.title.rendered}</span>
+        <span class="text-gray-400 truncate">{data.title}</span>
       </nav>
 
-      <!-- Title -->
-      <h1 class="font-display font-bold text-navy mb-8">
-        {post.title.rendered}
-      </h1>
-
-      <!-- Featured Image -->
-      <div class="mb-12 rounded-2xl overflow-hidden shadow-2xl">
-        <img
-          src={featuredImage}
-          alt={post.title.rendered}
-          class="w-full h-auto"
-          loading="eager"
-          width="1200"
-          height="675"
-        />
-      </div>
+      <!-- Header -->
+      <header class="mb-8 blog-article-header" style="position: static !important; top: auto !important;">
+        <!-- Title -->
+        <h1 class="font-display font-bold text-navy mb-4 text-3xl md:text-4xl lg:text-5xl">
+          {data.title}
+        </h1>
+      </header>
 
       <!-- Content with TOC -->
-      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 relative" style="overflow: visible;">
-        <!-- Main Content - 62% (8 cols) -->
-        <div
-          class="lg:col-span-8 prose prose-lg max-w-none
-            prose-headings:font-display prose-headings:font-bold prose-headings:text-navy
-            prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h2:scroll-mt-24
-            prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4
-            prose-p:text-gray-700 prose-p:leading-relaxed prose-p:mb-6
-            prose-a:text-primary prose-a:no-underline hover:prose-a:text-cyan hover:prose-a:underline
-            prose-strong:text-navy prose-strong:font-semibold
-            prose-ul:my-6 prose-li:my-2
-            prose-img:rounded-xl prose-img:shadow-lg
-            prose-blockquote:border-l-4 prose-blockquote:border-primary prose-blockquote:pl-6 prose-blockquote:italic prose-blockquote:text-gray-600"
-          set:html={cleanContent}
-          id="article-content"
-        />
-
-        <!-- Table of Contents - 38% (4 cols) - Sticky -->
-        <aside class="lg:col-span-4" style="position: relative; overflow: visible;">
-          <div style="position: -webkit-sticky; position: sticky; top: 6rem; max-height: calc(100vh - 8rem); overflow-y: auto; z-index: 10;" class="hidden lg:block">
-            <div class="bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl p-6 border-2 border-primary/20 shadow-lg">
-              <div class="flex items-center gap-2 mb-4">
-                <svg class="w-5 h-5 text-primary" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h7" />
-                </svg>
-                <h3 class="font-display font-bold text-navy text-lg">İçindekiler</h3>
-              </div>
-              <nav id="toc" class="space-y-2">
-                <!-- TOC will be populated by JavaScript -->
-              </nav>
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-start relative">
+        <!-- Sol: İçerik -->
+        <div class="lg:col-span-2">
+          {data.featuredImage && (
+            <div class="mb-8 rounded-2xl overflow-hidden shadow-2xl">
+              <img
+                src={getBlogFeaturedImage(post)}
+                alt={data.imageAlt || data.title}
+                class="w-full h-auto object-cover"
+                loading="eager"
+                width="1200"
+                height="675"
+              />
             </div>
+          )}
+          <div class="prose prose-lg w-full max-w-none prose-headings:text-navy prose-headings:font-display prose-a:text-primary prose-a:no-underline hover:prose-a:underline prose-strong:text-navy prose-img:rounded-xl prose-img:shadow-lg prose-headings:scroll-mt-24" id="article-content">
+            <Content />
           </div>
+
+          <!-- Tags - Yazının Sonu -->
+          {data.tags && data.tags.length > 0 && (
+            <div class="mt-12 pt-8 border-t border-gray-200">
+              <div class="flex flex-wrap gap-2">
+                {data.tags.map((tag) => (
+                  <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-xs font-medium">
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          )}
+        </div>
+
+        <!-- Sağ: İçindekiler (Table of Contents) -->
+        <aside class="lg:col-span-1 toc-sticky lg:pl-2 xl:pl-4" style="position: -webkit-sticky; position: sticky; top: 5rem; align-self: start;">
+          <TableOfContents client:load contentId="article-content" />
         </aside>
       </div>
 
-      <script>
-        // Generate Table of Contents from H2 tags
-        document.addEventListener('DOMContentLoaded', () => {
-          const content = document.getElementById('article-content');
-          const toc = document.getElementById('toc');
-          
-          if (content && toc) {
-            const headings = content.querySelectorAll('h2');
-            
-            if (headings.length > 0) {
-              headings.forEach((heading, index) => {
-                // Add ID to heading for anchor links
-                const id = `heading-${index}`;
-                heading.id = id;
-                
-                // Create TOC item
-                const tocItem = document.createElement('a');
-                tocItem.href = `#${id}`;
-                tocItem.className = 'block py-2 px-4 text-gray-700 hover:text-primary hover:bg-white/50 rounded-lg transition-all duration-200 font-medium text-sm';
-                tocItem.textContent = heading.textContent || '';
-                
-                // Smooth scroll
-                tocItem.addEventListener('click', (e) => {
-                  e.preventDefault();
-                  heading.scrollIntoView({ behavior: 'smooth', block: 'start' });
-                  history.pushState(null, '', `#${id}`);
-                });
-                
-                toc.appendChild(tocItem);
-              });
-            } else {
-              // If no H2 headings, hide TOC
-              toc.closest('aside')?.classList.add('hidden');
-            }
-          }
-        });
-      </script>
+      <!-- Author Box -->
+      <div class="mt-12 p-6 bg-gradient-to-br from-gray-50 to-white rounded-2xl border border-gray-200">
+        <div class="flex items-start gap-4">
+          {data.authorImage ? (
+            <img
+              src={data.authorImage}
+              alt={data.author || 'Yazar'}
+              class="w-16 h-16 rounded-full object-cover"
+            />
+          ) : (
+            <div class="w-16 h-16 bg-gradient-to-br from-primary to-cyan rounded-full flex items-center justify-center text-white font-bold text-xl">
+              {(data.author || 'DSG')[0]}
+            </div>
+          )}
+          <div>
+            <h3 class="font-display font-bold text-navy mb-1">{data.author || 'DSG Servisi'}</h3>
+            <p class="text-gray-600 text-sm">
+              DSG şanzıman ve mekatronik sistemleri konusunda uzman ekibimizden bilgilendirici içerikler.
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   </article>
+
+  <!-- Related Posts -->
+  {relatedPosts.length > 0 && (
+    <section class="section bg-gradient-to-b from-gray-50 to-white">
+      <div class="container max-w-7xl">
+        <h2 class="font-display font-bold text-navy mb-8 text-2xl md:text-3xl">
+          İlgili Yazılar
+        </h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {relatedPosts.map((relatedPost, index) => (
+            <BlogCard post={relatedPost} index={index} size="rect-regular" />
+          ))}
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- CTA Section -->
   <section class="section bg-gradient-to-br from-navy to-navy-700 text-white">
     <div class="container max-w-7xl">
       <div class="text-center">
-        <h2 class="font-display font-bold mb-6">
-          Profesyonel Volkswagen Özel Servisi
+        <h2 class="font-display font-bold mb-6 text-2xl md:text-3xl">
+          Profesyonel DSG Servisi Hizmeti
         </h2>
-        <p class="text-xl text-gray-300 mb-8">
-          DSG şanzıman ve mekatronik konusunda uzman ekibimizle tanışın
+        <p class="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
+          DSG şanzıman ve mekatronik konusunda uzman ekibimizle tanışın. 
+          15 yıllık deneyim ve 6500+ mutlu müşteri ile güvenilir çözümler.
         </p>
         <div class="flex flex-col sm:flex-row gap-4 justify-center">
-          <a href="/iletisim" class="btn btn-primary btn-lg">
+          <a href="/iletisim" class="btn bg-gradient-to-r from-primary to-cyan text-white hover:shadow-lg hover:shadow-primary/50 transition-all">
             Randevu Alın
           </a>
-          <a href="/hizmetlerimiz" class="btn bg-white text-navy hover:bg-gray-100 btn-lg">
+          <a href="/hizmetlerimiz" class="btn bg-white text-navy hover:bg-gray-100">
             Hizmetlerimiz
           </a>
         </div>

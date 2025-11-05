@@ -5,6 +5,10 @@ import sitemap from '@astrojs/sitemap';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import compression from 'vite-plugin-compression';
+import remarkBreaks from 'remark-breaks';
+import remarkDirective from 'remark-directive';
+import rehypeSlug from 'rehype-slug';
+import remarkCallouts from './src/utils/remark-callouts.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -27,8 +31,8 @@ export default defineConfig({
       theme: 'github-dark',
       wrap: true,
     },
-    remarkPlugins: [],
-    rehypePlugins: [],
+    remarkPlugins: [remarkBreaks, remarkDirective, remarkCallouts],
+    rehypePlugins: [rehypeSlug],
   },
   image: {
     service: {

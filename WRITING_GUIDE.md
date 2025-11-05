@@ -1,0 +1,197 @@
+## DSG Servisi Blog Yazı Kılavuzu (Saf Markdown)
+
+Bu kılavuz, yeni yazıları yalnızca saf Markdown ile yazıp otomatik stil ve şemalardan yararlanmanız için hazırlandı. Aşağıdaki kurallara uyduğunuzda özel CSS ve JSON‑LD şemalar otomatik devreye girer.
+
+### 1) Frontmatter (zorunlu)
+```yaml
+---
+title: "Yazı Başlığı"
+description: "140–160 karakter açıklama"
+category: "Kategori"
+tags: ["etiket1", "etiket2"]
+slug: "slug"
+publishDate: 2025-11-04
+updatedDate: 2025-11-04
+featuredImage: "/images/blog/slug/kapak.jpg"
+imageAlt: "Görsel alt metin"
+author: "DSG Servisi"
+draft: false
+
+# Opsiyonel: Service şeması (yoksa boş bırakın; otomatik fiyat çıkarımı çalışır)
+# serviceName: "Hizmet Adı"
+# serviceType: "Hizmet Türü"
+# serviceDescription: "Kısa tanım"
+# areaServed: ["İstanbul", "Beylikdüzü"]
+# price: 3500                # Tek fiyat → Offer
+# lowPrice: 2500             # Aralık → AggregateOffer
+# highPrice: 6500
+# priceCurrency: "TRY"
+# offerUrl: "/slug"
+---
+```
+
+### 2) Başlık Yapısı (TOC uyumlu)
+- H2 (##) ana bölümler için
+- H3 (###) alt başlıklar için
+- H1 kullanmayın (sayfa başlığı şablondan gelir)
+
+### 3) Vurgu Kutuları (saf Markdown direktifleri)
+- Uzman tavsiyesi (açık turkuaz cam efektli):
+```md
+:::tip Uzman Tavsiyesi
+Kısa ve öz öneri…
+:::
+```
+- Vurgulu not kutusu:
+```md
+:::note
+- Madde 1
+- Madde 2
+:::
+```
+- Cam efektli CTA (butonlar otomatik):
+```md
+:::cta
+**Ücretsiz ön kontrol**
+- [📞 0533 262 34 51](tel:+905332623451)
+- [WhatsApp Randevu](https://wa.me/905332623451)
+- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+:::
+```
+Not: Direktifler için inline HTML yazmayın; stil otomatik gelir.
+
+#### Google Haritalar Embed
+- Harita iframe'i için direktif kullanın (inline HTML değil):
+```md
+:::map{src="https://www.google.com/maps/embed?pb=..." height="360"}
+:::
+```
+Bu, responsive bir `iframe.map-embed` üretir.
+
+### 4) Fiyatlar (otomatik çıkarım için)
+- Tablo veya metinde ₺/TL/TRY ve “Fiyat/Ücret/Toplam/Price” kelimeleri geçsin.
+- Örnek tablo:
+```md
+| İşlem | Maliyet |
+| --- | ---: |
+| Mekatronik revizyonu | 8.500–17.000₺ |
+```
+
+### 5) SSS / FAQ (otomatik şema)
+- Başlık: tam olarak `## Sık Sorulan Sorular`
+- Her soru ayrı H3 satırında, cevap altında paragraf:
+```md
+## Sık Sorulan Sorular
+### Soru 1?
+Cevap 1…
+### Soru 2?
+Cevap 2…
+```
+
+### 5.1) HTML Alternatifleri (isterseniz direkt HTML kullanın)
+- Aşağıdaki sınıflar global CSS’de hazırdır; HTML yazınca aynı stil uygulanır.
+
+CTA kutusu (HTML):
+```html
+<div class="cta-box">
+  <strong>Ücretsiz ön kontrol</strong>
+  <div class="cta-actions">
+    <a class="cta-call" href="tel:+905332623451">📞 0533 262 34 51</a>
+    <a class="cta-whatsapp" href="https://wa.me/905332623451">WhatsApp Randevu</a>
+    <a class="cta-map" href="https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA">Konum Tarifi</a>
+  </div>
+  </div>
+```
+
+Uzman Tavsiyesi (HTML):
+```html
+<div class="uzman-tavsiyesi">💡 Uzman Tavsiyesi: Kısa öneri…</div>
+```
+
+Harita (HTML):
+```html
+<div class="map-embed">
+  <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="360" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+```
+
+Yeşil tik listesi (HTML):
+```html
+<ul class="check-list">
+  <li>Madde 1</li>
+  <li>Madde 2</li>
+</ul>
+```
+
+Yorum kartı (HTML):
+```html
+<div class="review-card">
+  <div class="review-avatar">H</div>
+  <div class="review-content">
+    <div class="review-meta"><strong>Hakan</strong><span class="review-stars">★★★★★</span><span class="review-date">1 hafta önce</span></div>
+    <p class="review-text">Metin…</p>
+  </div>
+</div>
+```
+
+### 6) Görseller
+- `featuredImage` için yerel yol ve anlamlı `imageAlt` yazın.
+- İçerik görselleri gerekiyorsa relatif yolları tercih edin.
+
+### 7) Stil / Ton
+- Türkçe, net ve faydacı anlatım.
+- Gereksiz uzun cümlelerden kaçının; madde işaretleri ve tabloları tercih edin.
+- Teknik terimler sade ve açıklayıcı olsun.
+
+### 8) Otomatik Şemalar (arkaplanda)
+- Article, Breadcrumb, LocalBusiness tüm yazılarda otomatik eklenir.
+- Service şeması: Frontmatter doluysa ondan, değilse fiyat tablosundan otomatik (Offer/AggregateOffer).
+- FAQ şeması: `## Sık Sorulan Sorular` + H3 soru/paragraf cevap yapısından otomatik.
+
+### 9) Kaçınılacaklar
+- Inline HTML (gerekmedikçe). Direktifler ve Markdown yeterlidir.
+- H1 kullanımı (şablon sağlar).
+
+### 10) Başlangıç Şablonu
+```markdown
+---
+title: "Yazı Başlığı"
+description: "140–160 karakter açıklama"
+category: "Kategori"
+tags: ["etiket1","etiket2"]
+slug: "slug"
+publishDate: 2025-11-04
+updatedDate: 2025-11-04
+featuredImage: "/images/blog/slug/kapak.jpg"
+imageAlt: "Görsel alt metin"
+author: "DSG Servisi"
+draft: false
+# (Opsiyonel) Service alanları…
+---
+
+:::cta
+**Ücretsiz ön kontrol**
+- [📞 0533 262 34 51](tel:+905332623451)
+- [WhatsApp Randevu](https://wa.me/905332623451)
+- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+:::
+
+:::tip Uzman Tavsiyesi
+Kısa öneri…
+:::
+
+## Bölüm Başlığı
+Metin…
+
+## Fiyatlar
+| İşlem | Maliyet |
+| --- | ---: |
+| Örnek | 8.500–17.000₺ |
+
+## Sık Sorulan Sorular
+### Soru 1?
+Cevap 1…
+
+### Soru 2?
+Cevap 2…
+```
