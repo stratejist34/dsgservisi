@@ -178,68 +178,103 @@
   
   /* Note/Info Box */
   .note {
-    @apply bg-yellow-50 border border-yellow-200 p-4 rounded-lg my-4;
+    background: #fffbea;
+    border: 1px solid #ffe58f;
+    padding: 12px;
+    border-radius: 6px;
+    margin: 16px 0;
   }
   
-  /* Uzman Tavsiyesi - açık turkuaz cam efektine yakın görünüm */
+  /* Uzman Tavsiyesi - Mercedes/Porsche görünümü */
   .uzman-tavsiyesi {
-    @apply p-4 my-5 rounded-xl;
-    background: rgba(93, 211, 224, 0.10); /* açık turkuaz */
-    border: 1px solid rgba(93, 211, 224, 0.35);
-    backdrop-filter: blur(6px);
-    -webkit-backdrop-filter: blur(6px);
+    background: linear-gradient(135deg, #e0f4ff 0%, #f0f9ff 100%);
+    border-left: 4px solid #00d4ff;
+    padding: 15px;
+    margin: 20px 0;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: #0a4d68;
+    font-weight: 500;
   }
 
-  /* Cam efektli CTA kutusu */
+  /* Cam efektli CTA kutusu - Mercedes/Porsche görünümü */
   .glass-cta {
-    @apply p-5 my-5 rounded-2xl;
-    background: linear-gradient(180deg, rgba(93,211,224,0.12), rgba(93,211,224,0.06));
-    border: 1px solid rgba(93, 211, 224, 0.30);
-    box-shadow: 0 8px 30px rgba(26, 156, 176, 0.12);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
+    background: linear-gradient(135deg, #f0f9ff 0%, #e0f4ff 100%);
+    border: 2px solid #00d4ff;
+    padding: 20px;
+    border-radius: 8px;
+    margin: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0,212,255,0.15);
   }
 
   .glass-cta strong {
     display: block;
-    margin-bottom: 8px;
-    color: rgb(15 23 42); /* navy */
+    margin-bottom: 12px;
+    font-size: 1.1rem;
+    color: #0a4d68;
+    font-weight: 700;
   }
 
   .glass-cta ul {
     list-style: none;
     padding: 0;
-    margin: 12px 0 0 0;
+    margin: 0;
     display: flex;
+    gap: 12px;
+    justify-content: center;
     flex-wrap: wrap;
-    gap: 0.5rem;
   }
 
   .glass-cta li { margin: 0; }
 
   /* CTA link button styles (pure markdown links) */
   .glass-cta a {
-    @apply inline-flex items-center justify-center font-semibold no-underline rounded-xl;
-    padding: 0.75rem 1rem;
-    margin-right: 0.5rem;
-    margin-bottom: 0.5rem;
-    transition: all 200ms ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3s;
   }
+  
   .glass-cta a[href^="tel:"] {
-    @apply text-white;
-    background-image: linear-gradient(90deg, var(--tw-gradient-from,#1a9cb0), var(--tw-gradient-to,#5dd3e0));
-    background-color: #1a9cb0;
-  }
-  .glass-cta a[href*="wa.me"] {
+    background: linear-gradient(135deg, #0a4d68 0%, #0c5f7d 100%);
     color: #fff;
-    background-color: #25d366;
+    border: 2px solid #0a4d68;
   }
-  .glass-cta a[href*="maps"] {
-    @apply text-navy;
-    background: #ffffff;
-    border: 2px solid rgba(93,211,224,0.4);
+  
+  .glass-cta a[href^="tel:"]:hover {
+    background: linear-gradient(135deg, #0c5f7d 0%, #00d4ff 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,212,255,0.4);
   }
-  .glass-cta a:hover { transform: translateY(-2px); box-shadow: 0 6px 18px rgba(26,156,176,0.18); }
+  
+  .glass-cta a[href*="wa.me"] {
+    background: linear-gradient(135deg, #25d366 0%, #1ebd58 100%);
+    color: #fff;
+    border: 2px solid #25d366;
+  }
+  
+  .glass-cta a[href*="wa.me"]:hover {
+    background: linear-gradient(135deg, #1ebd58 0%, #25d366 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(37,211,102,0.4);
+  }
+  
+  .glass-cta a[href*="maps"], .glass-cta a[href*="goo.gl"] {
+    background: linear-gradient(135deg, #00d4ff 0%, #0c5f7d 100%);
+    color: #fff;
+    border: 2px solid #00d4ff;
+  }
+  
+  .glass-cta a[href*="maps"]:hover, .glass-cta a[href*="goo.gl"]:hover {
+    background: linear-gradient(135deg, #0c5f7d 0%, #0a4d68 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,212,255,0.5);
+  }
   
   /* Review Cards */
   .review-card {

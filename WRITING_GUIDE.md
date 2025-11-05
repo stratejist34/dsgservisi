@@ -35,21 +35,26 @@ draft: false
 - H3 (###) alt başlıklar için
 - H1 kullanmayın (sayfa başlığı şablondan gelir)
 
-### 3) Vurgu Kutuları (saf Markdown direktifleri)
-- Uzman tavsiyesi (açık turkuaz cam efektli):
+### 3) Vurgu Kutuları (Markdown Direktifleri)
+
+**ÖNEMLİ:** Tüm yazılarda Markdown direktiflerini kullanın. CSS stilleri otomatik olarak uygulanır. HTML kullanmayın.
+
+#### Uzman Tavsiyesi (Markdown):
 ```md
-:::tip Uzman Tavsiyesi
-Kısa ve öz öneri…
+:::tip
+Uzman tavsiyesi metni buraya…
 :::
 ```
-- Vurgulu not kutusu:
+
+#### Vurgulu Not Kutusu (Markdown):
 ```md
 :::note
 - Madde 1
 - Madde 2
 :::
 ```
-- Cam efektli CTA (butonlar otomatik):
+
+#### CTA Kutusu (Markdown):
 ```md
 :::cta
 **Ücretsiz ön kontrol**
@@ -58,15 +63,12 @@ Kısa ve öz öneri…
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 :::
 ```
-Not: Direktifler için inline HTML yazmayın; stil otomatik gelir.
 
-#### Google Haritalar Embed
-- Harita iframe'i için direktif kullanın (inline HTML değil):
+#### Google Haritalar Embed (Markdown):
 ```md
 :::map{src="https://www.google.com/maps/embed?pb=..." height="360"}
 :::
 ```
-Bu, responsive bir `iframe.map-embed` üretir.
 
 ### 4) Fiyatlar (otomatik çıkarım için)
 - Tablo veya metinde ₺/TL/TRY ve “Fiyat/Ücret/Toplam/Price” kelimeleri geçsin.
@@ -88,51 +90,6 @@ Cevap 1…
 Cevap 2…
 ```
 
-### 5.1) HTML Alternatifleri (isterseniz direkt HTML kullanın)
-- Aşağıdaki sınıflar global CSS’de hazırdır; HTML yazınca aynı stil uygulanır.
-
-CTA kutusu (HTML):
-```html
-<div class="cta-box">
-  <strong>Ücretsiz ön kontrol</strong>
-  <div class="cta-actions">
-    <a class="cta-call" href="tel:+905332623451">📞 0533 262 34 51</a>
-    <a class="cta-whatsapp" href="https://wa.me/905332623451">WhatsApp Randevu</a>
-    <a class="cta-map" href="https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA">Konum Tarifi</a>
-  </div>
-  </div>
-```
-
-Uzman Tavsiyesi (HTML):
-```html
-<div class="uzman-tavsiyesi">💡 Uzman Tavsiyesi: Kısa öneri…</div>
-```
-
-Harita (HTML):
-```html
-<div class="map-embed">
-  <iframe src="https://www.google.com/maps/embed?pb=..." width="100%" height="360" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
-```
-
-Yeşil tik listesi (HTML):
-```html
-<ul class="check-list">
-  <li>Madde 1</li>
-  <li>Madde 2</li>
-</ul>
-```
-
-Yorum kartı (HTML):
-```html
-<div class="review-card">
-  <div class="review-avatar">H</div>
-  <div class="review-content">
-    <div class="review-meta"><strong>Hakan</strong><span class="review-stars">★★★★★</span><span class="review-date">1 hafta önce</span></div>
-    <p class="review-text">Metin…</p>
-  </div>
-</div>
-```
 
 ### 6) Görseller
 - `featuredImage` için yerel yol ve anlamlı `imageAlt` yazın.
@@ -149,8 +106,8 @@ Yorum kartı (HTML):
 - FAQ şeması: `## Sık Sorulan Sorular` + H3 soru/paragraf cevap yapısından otomatik.
 
 ### 9) Kaçınılacaklar
-- Inline HTML (gerekmedikçe). Direktifler ve Markdown yeterlidir.
-- H1 kullanımı (şablon sağlar).
+- HTML kullanımı (Markdown direktifleri kullanın)
+- H1 kullanımı (şablon sağlar)
 
 ### 10) Başlangıç Şablonu
 ```markdown
@@ -169,6 +126,10 @@ draft: false
 # (Opsiyonel) Service alanları…
 ---
 
+:::tip
+Uzman tavsiyesi metni buraya…
+:::
+
 :::cta
 **Ücretsiz ön kontrol**
 - [📞 0533 262 34 51](tel:+905332623451)
@@ -176,12 +137,13 @@ draft: false
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 :::
 
-:::tip Uzman Tavsiyesi
-Kısa öneri…
-:::
-
 ## Bölüm Başlığı
 Metin…
+
+:::note
+- Madde 1
+- Madde 2
+:::
 
 ## Fiyatlar
 | İşlem | Maliyet |
