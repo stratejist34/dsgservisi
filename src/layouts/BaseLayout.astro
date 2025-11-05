@@ -230,18 +230,47 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
             return time >= 9 && time < 18;
           }
 
-          function toggleFloating() {
+          function applyToggle() {
             const callBtn = document.getElementById('floating-call');
             const waBtn = document.getElementById('floating-whatsapp');
-            if (!callBtn || !waBtn) return;
+            if (!callBtn || !waBtn) return false;
             const showCall = isWorkingHours(new Date());
             callBtn.style.display = showCall ? '' : 'none';
             waBtn.style.display = showCall ? 'none' : '';
+            return true;
           }
 
-          // İlk yüklemede ve saat başı kontrol et
-          toggleFloating();
-          setInterval(toggleFloating, 60 * 60 * 1000);
+          function setupToggleWithRetry() {
+            let tries = 0;
+            const maxTries = 50; // ~5s
+            const tick = () => {
+              if (applyToggle()) {
+                // Her dakika yeniden değerlendir
+                setInterval(applyToggle, 60 * 1000);
+                return;
+              }
+              if (tries++ < maxTries) {
+                setTimeout(tick, 100);
+              } else {
+                // Son çare: DOM değişimini dinle ve bulunca uygula
+                const mo = new MutationObserver(() => {
+                  if (applyToggle()) {
+                    mo.disconnect();
+                    setInterval(applyToggle, 60 * 1000);
+                  }
+                });
+                mo.observe(document.body, { childList: true, subtree: true });
+              }
+            };
+            tick();
+          }
+
+          if (document.readyState === 'complete' || document.readyState === 'interactive') {
+            setupToggleWithRetry();
+          } else {
+            window.addEventListener('DOMContentLoaded', setupToggleWithRetry, { once: true });
+            window.addEventListener('load', setupToggleWithRetry, { once: true });
+          }
         })();
       </script>
 
