@@ -107,26 +107,36 @@ const navLinks = [
     mobileMenu?.classList.toggle('hidden');
   });
 
-  // Sticky header on scroll - Subtle enhancement
+  // Sticky header on scroll - Optimize edilmiş (forced reflow önleme)
+  let ticking = false;
   let lastScroll = 0;
   const header = document.getElementById('header');
 
   window.addEventListener('scroll', () => {
-    const currentScroll = window.pageYOffset;
-    
-    if (currentScroll > 100) {
-      header?.classList.add('shadow-2xl');
-      header?.style.setProperty('background', 'linear-gradient(to right, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.99), rgba(15, 23, 42, 0.98))');
-      header?.style.setProperty('backdrop-filter', 'blur(24px) saturate(180%)');
-      header?.style.setProperty('boxShadow', '0 8px 30px rgba(0, 0, 0, 0.5)');
-    } else {
-      header?.classList.remove('shadow-2xl');
-      header?.style.setProperty('background', 'linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.97), rgba(15, 23, 42, 0.95))');
-      header?.style.setProperty('backdrop-filter', 'blur(20px) saturate(180%)');
-      header?.style.setProperty('boxShadow', '0 4px 20px rgba(0, 0, 0, 0.4)');
+    if (!ticking) {
+      requestAnimationFrame(() => {
+        // Önce okuma
+        const currentScroll = window.pageYOffset;
+        const isScrolled = currentScroll > 100;
+        
+        // Sonra yazmalar (batch)
+        if (isScrolled && lastScroll <= 100) {
+          header?.classList.add('shadow-2xl');
+          header?.style.setProperty('background', 'linear-gradient(to right, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.99), rgba(15, 23, 42, 0.98))');
+          header?.style.setProperty('backdrop-filter', 'blur(24px) saturate(180%)');
+          header?.style.setProperty('boxShadow', '0 8px 30px rgba(0, 0, 0, 0.5)');
+        } else if (!isScrolled && lastScroll > 100) {
+          header?.classList.remove('shadow-2xl');
+          header?.style.setProperty('background', 'linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.97), rgba(15, 23, 42, 0.95))');
+          header?.style.setProperty('backdrop-filter', 'blur(20px) saturate(180%)');
+          header?.style.setProperty('boxShadow', '0 4px 20px rgba(0, 0, 0, 0.4)');
+        }
+        
+        lastScroll = currentScroll;
+        ticking = false;
+      });
+      ticking = true;
     }
-    
-    lastScroll = currentScroll;
-  });
+  }, { passive: true });
 </script>
 

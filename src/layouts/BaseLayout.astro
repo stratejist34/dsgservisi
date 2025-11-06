@@ -338,43 +338,46 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         });
 
         // İlk yüklemede viewport'ta olanları anında aç, diğerlerini gözlemle
-        function isInViewport(element) {
-          const rect = element.getBoundingClientRect();
+        // Batch olarak tüm okumaları yap, sonra yazmaları yap (forced reflow önleme)
+        requestAnimationFrame(() => {
           const vh = window.innerHeight || document.documentElement.clientHeight;
           const vw = window.innerWidth || document.documentElement.clientWidth;
-          return (
-            rect.top < vh &&
-            rect.bottom > 0 &&
-            rect.left < vw &&
-            rect.right > 0
-          );
-        }
-
-        Array.from(allAnimateTargets).forEach((el) => {
-          const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
-          // Hero ve üst içeriklerin kaybolmaması için: viewport içindekileri (logo hariç) anında göster
-          if (!isLogo && isInViewport(el)) {
-            if (el.hasAttribute('data-animate')) {
-              el.classList.add('animate-in');
+          
+          // Önce tüm rect'leri oku (batch read)
+          const rects = Array.from(allAnimateTargets).map(el => ({
+            el,
+            rect: el.getBoundingClientRect()
+          }));
+          
+          // Sonra tüm yazmaları yap (batch write)
+          rects.forEach(({ el, rect }) => {
+            const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
+            const inViewport = rect.top < vh && rect.bottom > 0 && rect.left < vw && rect.right > 0;
+            
+            if (!inViewport) {
+              io.observe(el);
+              return;
             }
-            if (el.hasAttribute('data-reveal')) {
-              el.classList.add('reveal--in');
+            
+            // Hero ve üst içeriklerin kaybolmaması için: viewport içindekileri (logo hariç) anında göster
+            if (!isLogo) {
+              if (el.hasAttribute('data-animate')) {
+                el.classList.add('animate-in');
+              }
+              if (el.hasAttribute('data-reveal')) {
+                el.classList.add('reveal--in');
+              }
+              return;
             }
-            return;
-          }
-          // Logolar viewport'taysa, dataset tabanlı gecikmeyle tetikle (IO beklemeden)
-          if (isLogo && isInViewport(el)) {
+            
+            // Logolar viewport'taysa, dataset tabanlı gecikmeyle tetikle
             const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
             const idx = Number(el.dataset && el.dataset.staggerIndex ? el.dataset.staggerIndex : 0);
             const delay = idx * step;
-            requestAnimationFrame(() => {
-              setTimeout(() => {
-                el.classList.add('animate-in');
-              }, delay);
-            });
-            return;
-          }
-          io.observe(el);
+            setTimeout(() => {
+              el.classList.add('animate-in');
+            }, delay);
+          });
         });
 
         // Dinamik eklenen öğeler (basit): sadece işaretli hedefleri gözlemle
@@ -391,17 +394,31 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         });
         mo.observe(document.body, { childList: true, subtree: true });
 
-        // Scroll handler (throttled)
+        // Scroll handler (throttled) - Optimize edilmiş (forced reflow önleme)
+        let scrollHeight = 0;
+        let windowHeight = 0;
+        
+        // İlk yüklemede değerleri cache'le
+        function cacheDimensions() {
+          scrollHeight = document.documentElement.scrollHeight;
+          windowHeight = window.innerHeight;
+        }
+        cacheDimensions();
+        window.addEventListener('resize', cacheDimensions, { passive: true });
+        
         window.addEventListener('scroll', () => {
           if (!ticking) {
             requestAnimationFrame(() => {
-              // Header
-              header?.classList.toggle('scrolled', window.scrollY > 20);
+              // Önce tüm okumaları yap
+              const scrollY = window.scrollY;
               
-              // Progress
+              // Sonra tüm yazmaları yap
+              header?.classList.toggle('scrolled', scrollY > 20);
+              
               if (progress) {
-                const percent = (window.scrollY / (document.documentElement.scrollHeight - window.innerHeight)) * 100;
-                progress.style.width = `${percent}%`;
+                const maxScroll = scrollHeight - windowHeight;
+                const percent = maxScroll > 0 ? (scrollY / maxScroll) * 100 : 0;
+                progress.style.width = `${Math.min(100, Math.max(0, percent))}%`;
               }
               
               ticking = false;
