@@ -53,14 +53,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
-  {/* Resource Hints - DNS Prefetch ve Preconnect */}
+  {/* Resource Hints - DNS Prefetch ve Preconnect - En üstte */}
   <link rel="dns-prefetch" href="https://dsgservisi.com" />
-  <link rel="preconnect" href="https://dsgservisi.com" crossorigin />
+  <link rel="preconnect" href="https://dsgservisi.com" crossorigin="anonymous" />
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-  
-  {/* Google Fonts - Optimize edilmiş async yükleme */}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" rel="stylesheet"></noscript>
   
