@@ -126,16 +126,28 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
               
               {/* Image with Overlay - 16:9 format */}
               <div class="relative aspect-video overflow-hidden rounded-t-2xl">
-                <img
-                  src={service.image}
-                  alt={service.title}
-                  class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
-                  loading="lazy"
-                  width="640"
-                  height="360"
-                  sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                  decoding="async"
-                />
+                <picture>
+                  <source 
+                    type="image/avif"
+                    srcset={`${service.image.replace('.avif', '-480.avif')} 480w, ${service.image.replace('.avif', '-768.avif')} 768w, ${service.image} 640w`}
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                  />
+                  <source 
+                    type="image/webp"
+                    srcset={`${service.image.replace('.avif', '-480.webp')} 480w, ${service.image.replace('.avif', '-768.webp')} 768w, ${service.image.replace('.avif', '.webp')} 640w`}
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                  />
+                  <img
+                    src={service.image}
+                    alt={service.title}
+                    class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110"
+                    loading="lazy"
+                    width="640"
+                    height="360"
+                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                    decoding="async"
+                  />
+                </picture>
                 {/* Dark Gradient Overlay - Başlıklar için daha koyu */}
                 <div class="absolute inset-0 bg-gradient-to-t from-navy/95 via-navy/50 to-transparent"></div>
                 
