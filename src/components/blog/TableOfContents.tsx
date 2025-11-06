@@ -14,6 +14,7 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
   const [headings, setHeadings] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState<string>('');
   const [isMobileOpen, setIsMobileOpen] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
   const asideEl = useRef<HTMLElement | null>(null);
 
   useEffect(() => {
@@ -65,6 +66,7 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
       });
 
       setHeadings(tocItems);
+      setIsInitialized(true);
 
       // İlk başlığı varsayılan olarak aktif yap
       if (tocItems.length > 0) {
@@ -249,32 +251,37 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
 
   return (
     <>
-      {/* Mobile Toggle Button */}
-      <button
-        onClick={() => setIsMobileOpen(!isMobileOpen)}
-        className="lg:hidden fixed bottom-20 right-4 z-[60] bg-gradient-to-r from-primary to-cyan text-white p-3.5 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
-        aria-label="İçindekiler"
-        style={{
-          boxShadow: '0 4px 20px rgba(26, 156, 176, 0.4)'
-        }}
-      >
-        <svg
-          className="w-5 h-5"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
+      {/* Mobile Toggle Button - sadece başlıklar varsa göster */}
+      {headings.length > 0 && (
+        <button
+          onClick={() => setIsMobileOpen(!isMobileOpen)}
+          className="lg:hidden fixed bottom-20 right-4 z-[60] bg-gradient-to-r from-primary to-cyan text-white p-3.5 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
+          aria-label="İçindekiler"
+          style={{
+            boxShadow: '0 4px 20px rgba(26, 156, 176, 0.4)',
+            display: 'block',
+            visibility: 'visible',
+            opacity: 1,
+          }}
         >
-          <path
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            strokeWidth={2}
-            d="M4 6h16M4 10h16M4 14h16M4 18h16"
-          />
-        </svg>
-      </button>
+          <svg
+            className="w-5 h-5"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 6h16M4 10h16M4 14h16M4 18h16"
+            />
+          </svg>
+        </button>
+      )}
 
       {/* Mobile TOC Overlay */}
-      {isMobileOpen && (
+      {isMobileOpen && headings.length > 0 && (
         <div
           className="lg:hidden fixed inset-0 bg-black/60 z-[70] backdrop-blur-sm"
           onClick={() => setIsMobileOpen(false)}
@@ -293,9 +300,13 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
             p-6 
             shadow-xl lg:shadow-md
           `}
-          ref={(el) => (asideEl.current = el)}
-          style={
-            isMobileOpen
+          ref={(el) => {
+            if (el) {
+              asideEl.current = el as any;
+            }
+          }}
+          style={{
+            ...(isMobileOpen
               ? {
                   position: 'fixed',
                   top: '50%',
@@ -304,12 +315,18 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
                   maxHeight: '85vh',
                   overflowY: 'auto',
                   zIndex: 80,
+                  display: 'block',
+                  visibility: 'visible',
+                  opacity: 1,
                 }
               : {
                   maxHeight: 'calc(100vh - 8rem)',
                   overflowY: 'auto',
-                }
-          }
+                  display: 'block',
+                  visibility: 'visible',
+                  opacity: 1,
+                }),
+          }}
           role="navigation"
           aria-label="İçindekiler"
         >

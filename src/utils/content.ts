@@ -7,6 +7,19 @@ import type { CollectionEntry } from 'astro:content';
 export type BlogPost = CollectionEntry<'blog'>;
 
 /**
+ * Blog yazısının yayınlanmış olup olmadığını kontrol eder
+ * (draft değil ve publishDate geçmiş/şu anki tarih)
+ */
+export function isPublishedPost(data: BlogPost['data']): boolean {
+  if (data.draft) return false;
+  const publishDate = data.publishDate instanceof Date 
+    ? data.publishDate 
+    : new Date(data.publishDate);
+  const now = new Date();
+  return publishDate <= now;
+}
+
+/**
  * Blog yazısının öne çıkan görsel URL'ini alır
  */
 export function getBlogFeaturedImage(post: BlogPost): string {

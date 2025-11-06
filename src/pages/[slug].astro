@@ -3,11 +3,11 @@ import { getCollection } from 'astro:content';
 import BlogLayout from '@layouts/BlogLayout.astro';
 import BlogCard from '@components/blog/BlogCard.astro';
 import TableOfContents from '@components/blog/TableOfContents.tsx';
-import { findRelatedPosts, calculateReadingTime, extractPriceRangeFromHtml, extractFaqsFromHtml, getCategorySlugs } from '@utils/content';
+import { findRelatedPosts, calculateReadingTime, extractPriceRangeFromHtml, extractFaqsFromHtml, getCategorySlugs, isPublishedPost } from '@utils/content';
 import { getBlogFeaturedImage } from '@utils/content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => !data.draft);
+  const posts = await getCollection('blog', ({ data }) => isPublishedPost(data));
   
   // Kategori slug'larını utility'den al
   const categorySlugs = new Set(getCategorySlugs());
@@ -40,7 +40,7 @@ const { Content } = await post.render();
 const data = post.data;
 
 // Tüm yazıları al (ilgili yazılar için)
-const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+const allPosts = await getCollection('blog', ({ data }) => isPublishedPost(data));
 const relatedPosts = findRelatedPosts(post, allPosts, 3);
 
 // Okuma süresini hesapla
@@ -139,8 +139,8 @@ const extractedFaqs = extractFaqsFromHtml(html);
         </div>
 
         <!-- Sağ: İçindekiler (Table of Contents) -->
-        <aside class="lg:col-span-1 toc-sticky lg:pl-2 xl:pl-4" style="position: -webkit-sticky; position: sticky; top: 5rem; align-self: start;">
-          <TableOfContents client:idle contentId="article-content" />
+        <aside class="lg:col-span-1 toc-sticky lg:pl-2 xl:pl-4" style="position: -webkit-sticky; position: sticky; top: 5rem; align-self: start; display: block; visibility: visible; opacity: 1;">
+          <TableOfContents client:load contentId="article-content" />
         </aside>
       </div>
 

@@ -3,14 +3,15 @@ import BaseLayout from '@layouts/BaseLayout.astro';
 import BlogCard from '@components/blog/BlogCard.astro';
 import PostGridPattern from '@components/blog/PostGridPattern.astro';
 import { getCollection } from 'astro:content';
-import { sortPostsByDate, getCategoriesWithCounts, getCategoryLogo, getCategoryLink } from '@utils/content';
+import { sortPostsByDate, getCategoriesWithCounts, getCategoryLogo, getCategoryLink, isPublishedPost } from '@utils/content';
 
 const title = 'Blog | DSG Servisi - DSG Şanzıman ve Mekatronik Bilgi Merkezi';
 const description = 'DSG şanzıman, mekatronik sistemleri ve araç bakımı hakkında bilgilendirici yazılar, ipuçları ve güncellemeler. Uzman görüşleri ve pratik çözümler.';
 const image = '/images/workshop.jpg';
 
 // Content Collections'dan yazıları al ve tarihe göre sırala
-const entries = await getCollection('blog', ({ data }) => !data.draft);
+// Gelecek tarihli yazıları filtrele (scheduled posts)
+const entries = await getCollection('blog', ({ data }) => isPublishedPost(data));
 const posts = sortPostsByDate(entries);
 const PAGE_SIZE = 16;
 const currentPage = 1;

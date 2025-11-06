@@ -2,10 +2,10 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import PostGridPattern from '@components/blog/PostGridPattern.astro';
 import { getCollection } from 'astro:content';
-import { sortPostsByDate, filterPostsByCategory, getCategoryFromSlug, getCategorySEO, getCategoryLogo, getCategorySlug } from '@utils/content';
+import { sortPostsByDate, filterPostsByCategory, getCategoryFromSlug, getCategorySEO, getCategoryLogo, getCategorySlug, isPublishedPost } from '@utils/content';
 
 export async function getStaticPaths() {
-  const entries = await getCollection('blog', ({ data }) => !data.draft);
+  const entries = await getCollection('blog', ({ data }) => isPublishedPost(data));
   const blogSlugs = new Set<string>(entries.map(post => post.slug as string));
   
   const categories = new Set<string>();
@@ -41,7 +41,7 @@ if (!actualCategory) {
   return Astro.redirect('/blog');
 }
 
-const entries = await getCollection('blog', ({ data }) => !data.draft);
+const entries = await getCollection('blog', ({ data }) => isPublishedPost(data));
 const allPosts = sortPostsByDate(entries);
 const categoryPosts = filterPostsByCategory(allPosts, actualCategory);
 

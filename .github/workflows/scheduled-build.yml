@@ -1,17 +1,26 @@
-name: Scheduled Blog Update
+name: Scheduled Blog Build
 
 on:
   schedule:
-    # Her saat başı çalışır (UTC saat dilimi)
-    - cron: '0 * * * *'
+    # Her gün saat 02:00'te (UTC) - Türkiye saati 05:00
+    # Bu saatte yeni yazılar yayınlanır
+    - cron: '0 2 * * *'
   workflow_dispatch: # Manuel tetikleme için
 
+permissions:
+  contents: read
+
 jobs:
-  trigger-vercel-deploy:
+  trigger-deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Trigger Vercel Deploy
+        env:
+          VERCEL_DEPLOY_HOOK_URL: ${{ secrets.VERCEL_DEPLOY_HOOK_URL }}
         run: |
-          echo "Triggering Vercel deployment to fetch latest blog posts..."
-          curl -X POST "https://api.vercel.com/v1/integrations/deploy/${{ secrets.VERCEL_DEPLOY_HOOK }}"
-
+          if [ -z "$VERCEL_DEPLOY_HOOK_URL" ]; then
+            echo "Vercel deploy hook URL not set. Skipping deploy."
+            exit 0
+          fi
+          echo "Triggering Vercel deploy for scheduled blog posts..."
+          curl -X POST "$VERCEL_DEPLOY_HOOK_URL" || echo "Deploy hook failed"

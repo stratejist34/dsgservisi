@@ -297,6 +297,23 @@
 - [x] Bmw Periyodik Bakım Fiyatları 2025 (TAMAMLANDI)
 - [x] Land Rover Periyodik Bakım Fiyatları 2025 (TAMAMLANDI)
 - [x] Mercedes Periyodik Bakım Fiyatları 2025 (TAMAMLANDI)
+- [x] Porsche Periyodik Bakım Fiyatları 2025 (TAMAMLANDI)
+- [x] Seat Periyodik Bakım Fiyatları 2025 (TAMAMLANDI)
+- [x] Skoda Periyodik Bakım Fiyatları 2025 (TAMAMLANDI)
+- [x] Volkswagen Periyodik Bakım Fiyatları 2025 (TAMAMLANDI)
+
+### Tamamlanan DSG Yazıları (Öncelik 1)
+- [x] DSG Mekatronik Tamiri (TAMAMLANDI)
+- [x] DSG Şanzıman Değişimi (TAMAMLANDI)
+- [x] DSG Kavrama Değişimi (TAMAMLANDI)
+- [x] DSG Şanzıman Tamiri (TAMAMLANDI)
+- [x] DSG Şanzıman Yağı Değişimi (TAMAMLANDI)
+- [x] DSG Volant Değişimi (TAMAMLANDI)
+- [x] Araçlarda Selenoid Valf Arıza Belirtileri (TAMAMLANDI)
+- [x] Seat Leon DSG Mekatronik Tamiri (TAMAMLANDI)
+- [x] Skoda Octavia DSG Mekatronik Tamiri (TAMAMLANDI)
+- [x] Volkswagen Golf GTI DSG Arızası (TAMAMLANDI)
+
 - [ ] Büyükçekmece Audi Servis
 - [ ] Büyükçekmece Bmw Servis
 - [ ] Büyükçekmece Land Rover Servis
