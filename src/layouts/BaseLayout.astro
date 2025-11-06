@@ -218,89 +218,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <Footer />
   
       {/* Floating Buttons */}
-      <PhoneButton client:visible />
-      <WhatsAppButton 
-        client:visible 
+      <PhoneButton client:load />
+      <WhatsAppButton
+        client:load
         message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
       />
-
-      <script is:inline>
-        // Çalışma saatlerine göre tek butonu göster (Pzt-Cmt 09:00-18:00)
-        (function () {
-          function isWorkingHours(now) {
-            const day = now.getDay(); // 0=Sun,1=Mon,...6=Sat
-            if (day === 0) return false; // Pazar kapalı
-            const hour = now.getHours();
-            const minute = now.getMinutes();
-            const time = hour + minute / 60;
-            return time >= 9 && time < 18;
-          }
-
-          function applyToggle() {
-            const callBtn = document.getElementById('floating-call');
-            const waBtn = document.getElementById('floating-whatsapp');
-            if (!callBtn || !waBtn) return false;
-            
-            const showCall = isWorkingHours(new Date());
-            callBtn.style.display = showCall ? '' : 'none';
-            waBtn.style.display = showCall ? 'none' : '';
-            
-            console.log('[Button Toggle]', {
-              time: new Date().toLocaleString('tr-TR'),
-              isWorkingHours: showCall,
-              callVisible: showCall,
-              waVisible: !showCall
-            });
-            
-            return true;
-          }
-
-          function setupToggleWithRetry() {
-            let tries = 0;
-            const maxTries = 100; // ~10s (butonlar lazy load olabilir)
-            const tick = () => {
-              if (applyToggle()) {
-                // Her dakika yeniden değerlendir
-                setInterval(applyToggle, 60 * 1000);
-                return;
-              }
-              if (tries++ < maxTries) {
-                setTimeout(tick, 100);
-              } else {
-                // Son çare: DOM değişimini dinle ve bulunca uygula
-                const mo = new MutationObserver(() => {
-                  if (applyToggle()) {
-                    mo.disconnect();
-                    setInterval(applyToggle, 60 * 1000);
-                  }
-                });
-                mo.observe(document.body, { childList: true, subtree: true });
-              }
-            };
-            tick();
-          }
-
-          // Sayfa yüklendiğinde veya butonlar eklendiğinde çalıştır
-          if (document.readyState === 'complete' || document.readyState === 'interactive') {
-            setupToggleWithRetry();
-          } else {
-            window.addEventListener('DOMContentLoaded', setupToggleWithRetry, { once: true });
-            window.addEventListener('load', setupToggleWithRetry, { once: true });
-          }
-          
-          // Butonlar lazy load edilebilir, MutationObserver ile takip et
-          const observer = new MutationObserver(() => {
-            const callBtn = document.getElementById('floating-call');
-            const waBtn = document.getElementById('floating-whatsapp');
-            if (callBtn && waBtn) {
-              applyToggle();
-              setInterval(applyToggle, 60 * 1000);
-              observer.disconnect();
-            }
-          });
-          observer.observe(document.body, { childList: true, subtree: true });
-        })();
-      </script>
 
       {/* Optimize edilmiş Scroll ve Reveal Script */}
       <script is:inline>

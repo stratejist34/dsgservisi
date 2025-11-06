@@ -5,6 +5,18 @@ interface PhoneButtonProps {
   className?: string;
 }
 
+// SSR-safe çalışma saatleri kontrolü
+function checkWorkingHours(): boolean {
+  if (typeof window === 'undefined') return false; // SSR'da false döndür
+  const now = new Date();
+  const day = now.getDay(); // 0=Sun,1=Mon,...6=Sat
+  if (day === 0) return false; // Pazar kapalı
+  const hour = now.getHours();
+  const minute = now.getMinutes();
+  const time = hour + minute / 60;
+  return time >= 9 && time < 18;
+}
+
 export default function PhoneButton({
   phone = '0533 262 34 51',
   className = ''
@@ -14,9 +26,71 @@ export default function PhoneButton({
   const [showButton, setShowButton] = useState(false);
   const [showText, setShowText] = useState(false);
   const [phraseIndex, setPhraseIndex] = useState(0);
+  // SSR-safe initial state - client-side'da hemen kontrol et
+  const [isWorkingHours, setIsWorkingHours] = useState(false);
 
+  // Mount olduğunda hemen kontrol et
   useEffect(() => {
     setMounted(true);
+    setIsWorkingHours(checkWorkingHours());
+  }, []);
+
+  // Çalışma saatleri kontrolü - Optimize edilmiş (sadece kritik saatlerde: 09:00 ve 18:00)
+  useEffect(() => {
+    if (!mounted) return;
+    
+    function updateWorkingHours() {
+      setIsWorkingHours(checkWorkingHours());
+    }
+    
+    // Sadece kritik saatlerde kontrol et (09:00 ve 18:00)
+    function scheduleNextCheck() {
+      const now = new Date();
+      const currentHour = now.getHours();
+      
+      let targetHour: number;
+      
+      // Şu anki saat 09:00-18:00 arasındaysa, 18:00'ı bekle
+      // Değilse, 09:00'ı bekle
+      if (currentHour >= 9 && currentHour < 18) {
+        targetHour = 18;
+      } else if (currentHour < 9) {
+        targetHour = 9;
+      } else {
+        // 18:00 sonrası, yarın 09:00'ı bekle
+        targetHour = 9;
+      }
+      
+      const targetTime = new Date();
+      targetTime.setHours(targetHour, 0, 0, 0);
+      
+      // Eğer hedef saat geçmişse, yarınki saatini hesapla
+      if (targetTime.getTime() <= now.getTime()) {
+        targetTime.setDate(targetTime.getDate() + 1);
+        targetTime.setHours(9, 0, 0, 0);
+      }
+      
+      const msUntilTarget = targetTime.getTime() - now.getTime();
+      
+      return setTimeout(() => {
+        updateWorkingHours();
+        scheduleNextCheck(); // Bir sonraki kontrolü planla
+      }, msUntilTarget);
+    }
+    
+    const timeout = scheduleNextCheck();
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [mounted]);
+
+  useEffect(() => {
+    // Mount olmamışsa veya çalışma saatleri dışındaysa butonu gösterme
+    if (!mounted || !isWorkingHours) {
+      setShowButton(false);
+      return;
+    }
     
     // Biraz daha erken göster (dönüşüm için)
     const buttonTimer = setTimeout(() => {
@@ -49,7 +123,10 @@ export default function PhoneButton({
         if (delta < 5000) {
           // 5 sn içinde sekme gizlendiyse arama başlatılmış olabilir
           if ((window as any).gtag) {
-            (window as any).gtag('event', 'turkuaz_tel_butonu_olasi_arama', { delta_ms: delta });
+            (window as any).gtag('event', 'turkuaz_tel_butonu_olasi_arama', { 
+              delta_ms: delta,
+              location: 'floating_button'
+            });
           }
         }
       }
@@ -61,7 +138,7 @@ export default function PhoneButton({
       clearInterval(cycle);
       document.removeEventListener('visibilitychange', onVisibility as any);
     };
-  }, []);
+  }, [isWorkingHours, mounted]);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const rect = e.currentTarget.getBoundingClientRect();
@@ -79,8 +156,8 @@ export default function PhoneButton({
   const phoneNumber = phone.replace(/\s/g, '');
   const phoneHref = `tel:${phoneNumber}`;
 
-  // Buton henüz gösterilmeyecekse null döndür
-  if (!showButton) {
+  // Çalışma saatleri dışındaysa veya buton henüz gösterilmeyecekse null döndür
+  if (!isWorkingHours || !showButton) {
     return null;
   }
 
@@ -92,7 +169,7 @@ export default function PhoneButton({
       href={phoneHref}
       onClick={handleClick}
       className={`
-        group fixed bottom-6 right-6 z-50
+        group fixed bottom-6 right-6 z-[55]
         flex items-center justify-center gap-3
         ${showText ? 'w-auto px-6' : 'w-16'} h-16 md:${showText ? 'w-auto md:px-8' : 'w-20'} md:h-20
         rounded-full

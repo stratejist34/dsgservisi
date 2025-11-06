@@ -1,14 +1,88 @@
 import * as React from 'react';
 
+// SSR-safe çalışma saatleri kontrolü
+function checkWorkingHours(): boolean {
+  if (typeof window === 'undefined') return false; // SSR'da false döndür
+  const now = new Date();
+  const day = now.getDay(); // 0=Sun,1=Mon,...6=Sat
+  if (day === 0) return false; // Pazar kapalı
+  const hour = now.getHours();
+  const minute = now.getMinutes();
+  const time = hour + minute / 60;
+  return time >= 9 && time < 18;
+}
+
 export default function WhatsAppButton({ 
   phone = '905332623451',
   message = 'Merhaba, DSG servisi hakkında bilgi almak istiyorum.',
   className = '' 
 }: { phone?: string; message?: string; className?: string }) {
   const [mounted, setMounted] = React.useState(false);
+  // SSR-safe initial state - WhatsApp çalışma saatleri DIŞINDA gösterilir
+  const [showWhatsApp, setShowWhatsApp] = React.useState(false);
 
+  // Mount olduğunda hemen kontrol et
   React.useEffect(() => {
     setMounted(true);
+    setShowWhatsApp(!checkWorkingHours()); // Çalışma saatleri dışındaysa WhatsApp göster
+  }, []);
+
+  // Çalışma saatleri kontrolü - Optimize edilmiş (sadece kritik saatlerde: 09:00 ve 18:00)
+  React.useEffect(() => {
+    if (!mounted) return;
+    
+    function updateShowWhatsApp() {
+      setShowWhatsApp(!checkWorkingHours()); // Çalışma saatleri dışındaysa WhatsApp göster
+    }
+    
+    // Sadece kritik saatlerde kontrol et (09:00 ve 18:00)
+    function scheduleNextCheck() {
+      const now = new Date();
+      const currentHour = now.getHours();
+      
+      let targetHour: number;
+      
+      // Şu anki saat 09:00-18:00 arasındaysa, 18:00'ı bekle
+      // Değilse, 09:00'ı bekle
+      if (currentHour >= 9 && currentHour < 18) {
+        targetHour = 18;
+      } else if (currentHour < 9) {
+        targetHour = 9;
+      } else {
+        // 18:00 sonrası, yarın 09:00'ı bekle
+        targetHour = 9;
+      }
+      
+      const targetTime = new Date();
+      targetTime.setHours(targetHour, 0, 0, 0);
+      
+      // Eğer hedef saat geçmişse, yarınki saatini hesapla
+      if (targetTime.getTime() <= now.getTime()) {
+        targetTime.setDate(targetTime.getDate() + 1);
+        targetTime.setHours(9, 0, 0, 0);
+      }
+      
+      const msUntilTarget = targetTime.getTime() - now.getTime();
+      
+      return setTimeout(() => {
+        updateShowWhatsApp();
+        scheduleNextCheck(); // Bir sonraki kontrolü planla
+      }, msUntilTarget);
+    }
+    
+    const timeout = scheduleNextCheck();
+
+    return () => {
+      clearTimeout(timeout);
+    };
+  }, [mounted]);
+
+  React.useEffect(() => {
+    // Çalışma saatleri içindeyse WhatsApp butonunu gösterme
+    if (!showWhatsApp) {
+      return;
+    }
+
     // visibility change ile WA açılışını tahmin et
     const onVisibility = () => {
       const anyWin: any = window as any;
@@ -16,17 +90,24 @@ export default function WhatsAppButton({
         const delta = Date.now() - anyWin.__waIntentAt;
         if (delta < 5000) {
           if ((window as any).gtag) {
-            (window as any).gtag('event', 'whatsapp_butonu_olasi_acilis', { delta_ms: delta });
+            (window as any).gtag('event', 'whatsapp_butonu_olasi_acilis', { 
+              delta_ms: delta,
+              location: 'floating_button'
+            });
           }
         }
       }
     };
     document.addEventListener('visibilitychange', onVisibility, { passive: true } as any);
     return () => document.removeEventListener('visibilitychange', onVisibility as any);
-  }, []);
-
+  }, [showWhatsApp]);
 
   const whatsappUrl = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+
+  // Çalışma saatleri içindeyse veya henüz mount edilmemişse null döndür
+  if (!showWhatsApp || !mounted) {
+    return null;
+  }
 
   return (
     <a
@@ -36,7 +117,7 @@ export default function WhatsAppButton({
       target="_blank"
       rel="noopener noreferrer"
       className={`
-        fixed bottom-6 right-6 z-50
+        fixed bottom-6 right-6 z-[60]
         flex items-center justify-center
         w-14 h-14 md:w-16 md:h-16
         rounded-full
@@ -73,4 +154,3 @@ export default function WhatsAppButton({
     </a>
   );
 }
-
