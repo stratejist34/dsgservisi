@@ -240,15 +240,24 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
             const callBtn = document.getElementById('floating-call');
             const waBtn = document.getElementById('floating-whatsapp');
             if (!callBtn || !waBtn) return false;
+            
             const showCall = isWorkingHours(new Date());
             callBtn.style.display = showCall ? '' : 'none';
             waBtn.style.display = showCall ? 'none' : '';
+            
+            console.log('[Button Toggle]', {
+              time: new Date().toLocaleString('tr-TR'),
+              isWorkingHours: showCall,
+              callVisible: showCall,
+              waVisible: !showCall
+            });
+            
             return true;
           }
 
           function setupToggleWithRetry() {
             let tries = 0;
-            const maxTries = 50; // ~5s
+            const maxTries = 100; // ~10s (butonlar lazy load olabilir)
             const tick = () => {
               if (applyToggle()) {
                 // Her dakika yeniden değerlendir
@@ -271,12 +280,25 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
             tick();
           }
 
+          // Sayfa yüklendiğinde veya butonlar eklendiğinde çalıştır
           if (document.readyState === 'complete' || document.readyState === 'interactive') {
             setupToggleWithRetry();
           } else {
             window.addEventListener('DOMContentLoaded', setupToggleWithRetry, { once: true });
             window.addEventListener('load', setupToggleWithRetry, { once: true });
           }
+          
+          // Butonlar lazy load edilebilir, MutationObserver ile takip et
+          const observer = new MutationObserver(() => {
+            const callBtn = document.getElementById('floating-call');
+            const waBtn = document.getElementById('floating-whatsapp');
+            if (callBtn && waBtn) {
+              applyToggle();
+              setInterval(applyToggle, 60 * 1000);
+              observer.disconnect();
+            }
+          });
+          observer.observe(document.body, { childList: true, subtree: true });
         })();
       </script>
 
