@@ -4,8 +4,8 @@ description: "DSG ve otomatik şanzımanlarda solenoid valf arızası belirtiler
 category: "DSG"
 tags: ["selenoid", "valf", "arıza", "dsg", "otomatik şanzıman", "mekatronik"]
 slug: "araclarda-selenoid-valf-ariza-belirtileri"
-publishDate: "2025-11-05T23:52:00"
-updatedDate: "2025-11-05T23:52:00"
+publishDate: "2025-11-07T00:02:00"
+updatedDate: "2025-11-07T00:02:00"
 featuredImage: "/images/blog/selenoid-valf-arizasi.jpg"
 imageAlt: "DSG mekatronik solenoid valf arızası teşhisi"
 ogImage: "/images/blog/selenoid-valf-arizasi.jpg"

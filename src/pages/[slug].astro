@@ -7,7 +7,13 @@ import { findRelatedPosts, calculateReadingTime, extractPriceRangeFromHtml, extr
 import { getBlogFeaturedImage } from '@utils/content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => isPublishedPost(data));
+  // Preview modu için: TÜM yazıları al (draft hariç, publishDate kontrolü YOK)
+  // Normal mod için: Sadece yayınlanmış yazıları al
+  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+  const publishedPosts = allPosts.filter(post => isPublishedPost(post.data));
+  
+  // Hem yayınlanmış hem de planlanmış yazılar için route oluştur
+  const posts = allPosts;
   
   // Kategori slug'larını utility'den al
   const categorySlugs = new Set(getCategorySlugs());
@@ -17,11 +23,12 @@ export async function getStaticPaths() {
     .filter((post) => !categorySlugs.has(post.slug))
     .map((post) => ({
       params: { slug: post.slug },
-      props: { post },
+      props: { post, isPublished: isPublishedPost(post.data) },
     }));
 }
 
 const { slug } = Astro.params;
+const { post, isPublished } = Astro.props;
 
 // Kategori slug kontrolü - eğer kategori slug'ı ise [category].astro bunu handle edecek
 // Bu dosyada kategori slug'ları için route oluşturmadığımız için bu kontrol gereksiz ama güvenlik için
@@ -31,17 +38,18 @@ if (slug && getCategorySlugs().includes(slug.toLowerCase())) {
 }
 
 // Post kontrolü - eğer post yoksa blog'a yönlendir
-if (!Astro.props.post) {
+if (!post) {
   return Astro.redirect('/blog', 404);
 }
 
-const { post } = Astro.props;
+// Eğer yazı henüz yayınlanmamışsa (gelecek tarihli), preview uyarısı göster
+const showPreviewWarning = !isPublished;
 const { Content } = await post.render();
 const data = post.data;
 
-// Tüm yazıları al (ilgili yazılar için)
-const allPosts = await getCollection('blog', ({ data }) => isPublishedPost(data));
-const relatedPosts = findRelatedPosts(post, allPosts, 3);
+// Tüm yazıları al (ilgili yazılar için - preview modunda tüm yazılar)
+const allPostsForRelated = await getCollection('blog', ({ data }) => !data.draft);
+const relatedPosts = findRelatedPosts(post, allPostsForRelated, 3);
 
 // Okuma süresini hesapla
 const readingTime = data.readingTime || calculateReadingTime(Content.toString());
@@ -95,6 +103,25 @@ const extractedFaqs = extractFaqsFromHtml(html);
         </svg>
         <span class="text-gray-400 truncate">{data.title}</span>
       </nav>
+
+      <!-- Preview Uyarısı (Gelecek Tarihli Yazılar İçin) -->
+      {showPreviewWarning && (
+        <div class="mb-8 p-4 bg-yellow-100 border-l-4 border-yellow-500 rounded-lg">
+          <div class="flex items-center gap-2">
+            <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+            </svg>
+            <div>
+              <h2 class="text-lg font-bold text-yellow-800">Önizleme Modu</h2>
+              <p class="text-sm text-yellow-700">
+                Bu yazı henüz yayınlanmamıştır. Yayınlanma tarihi: {formattedDate}
+                <br />
+                <a href="/blog/preview" class="underline font-semibold">Tüm planlanmış yazıları görmek için tıklayın</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      )}
 
       <!-- Header -->
       <header class="mb-8 blog-article-header" style="position: static !important; top: auto !important;">

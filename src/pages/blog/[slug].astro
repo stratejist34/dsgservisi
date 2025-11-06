@@ -7,20 +7,26 @@ import { findRelatedPosts, calculateReadingTime, extractPriceRangeFromHtml, extr
 import { getBlogFeaturedImage } from '@utils/content';
 
 export async function getStaticPaths() {
-  const posts = await getCollection('blog', ({ data }) => isPublishedPost(data));
-  return posts.map((post) => ({
+  // Preview modu için: TÜM yazıları al (draft hariç, publishDate kontrolü YOK)
+  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+  
+  // Hem yayınlanmış hem de planlanmış yazılar için route oluştur
+  return allPosts.map((post) => ({
     params: { slug: post.slug },
-    props: { post },
+    props: { post, isPublished: isPublishedPost(post.data) },
   }));
 }
 
-const { post } = Astro.props;
+const { post, isPublished } = Astro.props;
 const { Content } = await post.render();
 const data = post.data;
 
-// Tüm yazıları al (ilgili yazılar için)
-const allPosts = await getCollection('blog', ({ data }) => isPublishedPost(data));
-const relatedPosts = findRelatedPosts(post, allPosts, 3);
+// Preview uyarısı (gelecek tarihli yazılar için)
+const showPreviewWarning = !isPublished;
+
+// Tüm yazıları al (ilgili yazılar için - preview modunda tüm yazılar)
+const allPostsForRelated = await getCollection('blog', ({ data }) => !data.draft);
+const relatedPosts = findRelatedPosts(post, allPostsForRelated, 3);
 
 // Okuma süresini hesapla
 const readingTime = data.readingTime || calculateReadingTime(Content.toString());
@@ -73,6 +79,25 @@ const extractedFaqs = extractFaqsFromHtml(html);
             <span class="mx-2">/</span>
             <span class="text-gray-900 font-medium">{data.title}</span>
           </nav>
+
+          <!-- Preview Uyarısı (Gelecek Tarihli Yazılar İçin) -->
+          {showPreviewWarning && (
+            <div class="mb-6 p-4 bg-yellow-100 border-l-4 border-yellow-500 rounded-lg">
+              <div class="flex items-center gap-2">
+                <svg class="w-6 h-6 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
+                </svg>
+                <div>
+                  <h2 class="text-lg font-bold text-yellow-800">Önizleme Modu</h2>
+                  <p class="text-sm text-yellow-700">
+                    Bu yazı henüz yayınlanmamıştır. Yayınlanma tarihi: {formattedDate}
+                    <br />
+                    <a href="/blog/preview" class="underline font-semibold">Tüm planlanmış yazıları görmek için tıklayın</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          )}
 
           <!-- Header -->
           <header class="mb-6">

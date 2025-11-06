@@ -4,8 +4,8 @@ description: "Skoda periyodik bakım fiyatları 2025: Octavia, Superb, Kodiaq, K
 category: "Skoda"
 tags: ["skoda", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "dsg", "dq200", "dq250", "dq381"]
 slug: "skoda-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-07T10:00:00"
-updatedDate: "2025-11-07T10:00:00"
+publishDate: "2025-11-07T00:00:00"
+updatedDate: "2025-11-07T00:00:00"
 featuredImage: "/images/blog/skoda-periyodik-bakim-fiyatlari.jpg"
 imageAlt: "Skoda periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/skoda-periyodik-bakim-fiyatlari.jpg"
