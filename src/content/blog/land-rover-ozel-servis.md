@@ -4,8 +4,8 @@ description: "Land Rover özel servis: ZF şanzıman, motor, turbo, hava süspan
 category: "Land Rover"
 tags: ["land rover", "range rover", "discovery", "evoque", "defender", "öz el servis", "zf şanzıman", "hava süspansiyon"]
 slug: "land-rover-ozel-servis"
-publishDate: 2025-11-04
-updatedDate: 2025-11-04
+publishDate: "2025-11-04T09:30:00"
+updatedDate: "2025-11-04T09:30:00"
 featuredImage: "/images/blog/land-rover-ozel-servis.jpg"
 ogImage: "/images/blog/land-rover-ozel-servis.jpg"
 imageAlt: "Land Rover Defender hareket halinde; Land Rover özel servis görseli"

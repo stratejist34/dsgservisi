@@ -1,6 +1,7 @@
 ---
 import { SITE_CONFIG } from '@utils/constants';
 import BrandLogos from './BrandLogos';
+import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } from 'lucide-astro';
 ---
 
 <section class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
@@ -68,9 +69,13 @@ import BrandLogos from './BrandLogos';
         <a
           data-animate
           href={`tel:${SITE_CONFIG.phoneFormatted}`}
-          class="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white bg-gradient-to-r from-[#00e5ff] via-[#33ecff] to-[#00bcd4] rounded-xl overflow-hidden shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5 cta-ease-fast"
-          style="background-size: 200% 100%; box-shadow: 0 10px 40px rgba(93, 211, 224, 0.45), 0 0 80px rgba(26, 156, 176, 0.35), 0 0 120px rgba(26, 156, 176, 0.18);"
+          class="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-0.5 cta-ease-fast"
+          style="background: linear-gradient(135deg, rgba(26,156,176,1) 0%, rgba(93,211,224,1) 50%, rgba(26,156,176,1) 100%); box-shadow: 0 4px 15px rgba(26,156,176,0.3);"
+          onmouseenter="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(26,156,176,0.4)';"
+          onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(26,156,176,0.3)';"
         >
+          {/* Subtle shimmer effect */}
+          <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
           <svg
             class="w-6 h-6 mr-3 relative z-10"
             fill="none"
@@ -122,10 +127,88 @@ import BrandLogos from './BrandLogos';
   </div>
 
   {/* Scroll indicator (reduced motion safe) */}
-  <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2">
+  <div class="absolute bottom-20 left-1/2 transform -translate-x-1/2 z-20">
     <svg class="w-6 h-6 text-white/50" fill="none" stroke="currentColor" viewBox="0 0 24 24">
       <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
     </svg>
+  </div>
+
+  {/* Kayan Yazı Bandı */}
+  <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-primary/90 via-primary to-primary/90 border-t border-cyan/30 overflow-hidden">
+    <div class="marquee-container">
+      <div class="marquee-content">
+        <span class="marquee-item">
+          <Award class="marquee-icon" size={16} stroke-width={2.5} />
+          15 Yıllık Tecrübe
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Settings class="marquee-icon" size={16} stroke-width={2.5} />
+          VW Grubu DSG ÖZEL Servis
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Wrench class="marquee-icon" size={16} stroke-width={2.5} />
+          DSG Şanzıman Tamiri
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <ShieldCheck class="marquee-icon" size={16} stroke-width={2.5} />
+          Garantili Onarım
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Car class="marquee-icon" size={16} stroke-width={2.5} />
+          VW • Audi • Seat • Skoda
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Phone class="marquee-icon" size={16} stroke-width={2.5} />
+          7/24 Destek
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Gauge class="marquee-icon" size={16} stroke-width={2.5} />
+          DSG Volant Değişimi
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Cog class="marquee-icon" size={16} stroke-width={2.5} />
+          DSG Mekatronik Tamiri
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Zap class="marquee-icon" size={16} stroke-width={2.5} />
+          Dsg Şanzıman Yağ Değişimi
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <ShieldCheck class="marquee-icon" size={16} stroke-width={2.5} />
+          Audi S-Tronic Tamiri
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Car class="marquee-icon" size={16} stroke-width={2.5} />
+          ZF Şanzıman Tamiri
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Gauge class="marquee-icon" size={16} stroke-width={2.5} />
+          7 İleri Şanzıman Revizyon
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Settings class="marquee-icon" size={16} stroke-width={2.5} />
+          Orjinal veya Yan Sanayi Alternatif Yedek Parça
+        </span>
+        <span class="marquee-separator">•</span>
+        <span class="marquee-item">
+          <Zap class="marquee-icon" size={16} stroke-width={2.5} />
+          İstanbul Avrupa Yakası
+        </span>
+        <span class="marquee-separator">•</span>
+      </div>
+    </div>
   </div>
 </section>
 
@@ -142,6 +225,64 @@ import BrandLogos from './BrandLogos';
     opacity: 1;
     transition: transform 1200ms cubic-bezier(0.22, 1, 0.36, 1), opacity 400ms ease-out;
     transition-delay: 120ms;
+  }
+
+  /* Kayan Yazı Bandı - Infinite Scroll */
+  .marquee-container {
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+    height: 50px;
+    display: flex;
+    align-items: center;
+  }
+
+  .marquee-content {
+    display: inline-flex;
+    align-items: center;
+    animation: marquee 30s linear infinite;
+    will-change: transform;
+  }
+
+  .marquee-item {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 20px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    white-space: nowrap;
+  }
+
+  .marquee-icon {
+    flex-shrink: 0;
+    color: rgba(93, 211, 224, 1);
+    filter: drop-shadow(0 0 4px rgba(93, 211, 224, 0.4));
+  }
+
+  .marquee-separator {
+    display: inline-block;
+    color: rgba(93, 211, 224, 0.6);
+    padding: 0 10px;
+    font-size: 12px;
+  }
+
+  @keyframes marquee {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  /* Reduced motion support */
+  @media (prefers-reduced-motion: reduce) {
+    .marquee-content {
+      animation: none;
+    }
   }
 </style>
 

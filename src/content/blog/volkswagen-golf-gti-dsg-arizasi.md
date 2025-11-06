@@ -1,7 +1,8 @@
 ---
 title: "Volkswagen Golf GTI DSG Arızası"
 description: "Volkswagen Golf GTI DSG arızaları, belirtileri ve çözüm yöntemleri hakkında detaylı bilgiler."
-publishDate: "2025-10-26"
+publishDate: "2025-10-26T10:00:00"
+updatedDate: "2025-10-26T10:00:00"
 featuredImage: "/images/blog/volkswagen-golf-gti-dsg-arizasi.jpg"
 imageAlt: "Volkswagen Golf GTI DSG Arızası"
 category: "DSG"

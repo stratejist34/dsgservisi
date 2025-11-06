@@ -1,7 +1,8 @@
 ---
 title: "DSG Şanzıman Yağı Değişimi"
 description: "7 ileri ve 6 ileri DSG şanzıman yağı değişimi fiyatı, interval ve spesifikasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
-publishDate: "2025-11-04"
+publishDate: "2025-11-04T11:30:00"
+updatedDate: "2025-11-04T11:30:00"
 category: "DSG"
 slug: "dsg-sanziman-yagi-degisimi"
 tags: ["dsg", "yağ değişimi", "bakım", "filtre"]

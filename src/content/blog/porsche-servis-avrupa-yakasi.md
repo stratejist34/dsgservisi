@@ -4,10 +4,11 @@ description: "Porsche servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esen
 category: "Porsche"
 tags: ["porsche", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "pdk", "cayenne", "macan"]
 slug: "porsche-servis-avrupa-yakasi"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T11:00:00"
+updatedDate: "2025-11-05T11:00:00"
 featuredImage: "/images/blog/porsche-servis-avrupa-yakasi.jpg"
 imageAlt: "Porsche servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+ogImage: "/images/blog/porsche-servis-avrupa-yakasi.jpg"
 author: "DSG Servisi"
 draft: false
 

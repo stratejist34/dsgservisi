@@ -19,15 +19,32 @@ const visiblePosts = posts.slice(0, PAGE_SIZE);
 
 // Kategorileri al ve logo/link bilgileriyle eşleştir
 const categoriesWithCounts = getCategoriesWithCounts(posts);
+// Öncelikli kategori sırası: Markalar önce, sonra DSG
+const priorityOrder = ['Audi', 'BMW', 'Mercedes', 'Land Rover', 'Porsche', 'Seat', 'Skoda', 'Volkswagen', 'DSG'];
 const categoryLogos = categoriesWithCounts
   .filter(cat => getCategoryLogo(cat.name)) // Logo olan kategorileri filtrele
+  .sort((a, b) => {
+    // Öncelikli sıraya göre sırala
+    const indexA = priorityOrder.indexOf(a.name);
+    const indexB = priorityOrder.indexOf(b.name);
+    
+    // Eğer her ikisi de öncelikli listede değilse, sayıya göre sırala
+    if (indexA === -1 && indexB === -1) {
+      return b.count - a.count;
+    }
+    // Eğer sadece biri listede değilse, listede olan önce gelsin
+    if (indexA === -1) return 1;
+    if (indexB === -1) return -1;
+    // İkisi de listede ise, öncelik sırasına göre
+    return indexA - indexB;
+  })
   .map(cat => ({
     name: cat.name,
     logo: getCategoryLogo(cat.name)!,
     link: getCategoryLink(cat.name),
     count: cat.count
   }))
-  .slice(0, 8); // Max 8 kategori göster
+  .slice(0, 9); // Max 9 kategori göster (8 marka + DSG)
 ---
 
 <BaseLayout title={title} description={description} image={image}>
@@ -42,7 +59,7 @@ const categoryLogos = categoriesWithCounts
         width="1920"
         height="1080"
       />
-      <div class="absolute inset-0 bg-gradient-to-br from-navy/95 via-navy/90 to-navy/95"></div>
+      <div class="absolute inset-0 bg-gradient-to-br from-navy/65 via-navy/60 to-navy/65"></div>
     </div>
 
     {/* Pattern (static) */}
@@ -77,15 +94,15 @@ const categoryLogos = categoriesWithCounts
   {categoryLogos.length > 0 && (
     <section class="section bg-white py-4 md:py-6">
       <div class="container">
-        <div class="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mt-4 md:mt-6 max-w-5xl mx-auto">
+        <div class="flex flex-nowrap justify-center gap-3 md:gap-4 lg:gap-6 mt-4 md:mt-6 max-w-6xl mx-auto overflow-x-auto px-4">
           {categoryLogos.map((category, i) => {
-            const dir = i < 4 ? 'ltr' : 'rtl';
-            const distFromEdge = Math.min(i, 7 - i);
-            const staggerIndex = 3 - distFromEdge;
+            const dir = i < 5 ? 'ltr' : 'rtl';
+            const distFromEdge = Math.min(i, 8 - i);
+            const staggerIndex = Math.min(4, 4 - distFromEdge);
             return (
               <a
                 href={category.link}
-                class="group relative w-16 h-16 md:w-20 md:h-20 block logo-anim"
+                class="group relative w-14 h-14 md:w-16 md:h-16 lg:w-20 lg:h-20 flex-shrink-0 block logo-anim"
                 aria-label={`${category.name} Kategorisi`}
                 data-reveal
                 data-dir={dir}
@@ -114,7 +131,7 @@ const categoryLogos = categoriesWithCounts
                   <img
                     src={category.logo}
                     alt={`${category.name} Kategorisi`}
-                    class="w-[44px] h-[44px] md:w-[52px] md:h-[52px] object-contain filter brightness-0 invert opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
+                    class="w-[36px] h-[36px] md:w-[46px] md:h-[46px] lg:w-[52px] lg:h-[52px] object-contain filter brightness-0 invert opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
                     loading="lazy"
                     width="52"
                     height="52"

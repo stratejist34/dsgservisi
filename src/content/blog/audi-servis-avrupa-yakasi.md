@@ -4,10 +4,11 @@ description: "Audi servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyur
 category: "Audi"
 tags: ["audi", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar"]
 slug: "audi-servis-avrupa-yakasi"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T09:00:00"
+updatedDate: "2025-11-05T09:00:00"
 featuredImage: "/images/blog/audi-servis-avrupa-yakasi.jpg"
 imageAlt: "Audi servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+ogImage: "/images/blog/audi-servis-avrupa-yakasi.jpg"
 author: "DSG Servisi"
 draft: false
 

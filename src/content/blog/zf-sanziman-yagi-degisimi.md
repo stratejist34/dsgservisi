@@ -1,7 +1,8 @@
 ---
 title: "ZF Şanzıman Yağı Değişimi"
 description: "ZF otomatik şanzıman yağı değişimi fiyatı, bakım aralığı ve spesifikasyon bilgileri. Büyükçekmece Yıldızlar Grup DSG Servisi."
-publishDate: "2025-10-14"
+publishDate: "2025-10-14T10:00:00"
+updatedDate: "2025-10-14T10:00:00"
 featuredImage: "/images/blog/zf-sanziman-yagi-degisimi.jpg"
 imageAlt: "ZF Şanzıman Yağı Değişimi"
 category: "Bmw"

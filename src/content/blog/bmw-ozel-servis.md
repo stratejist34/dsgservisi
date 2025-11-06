@@ -4,10 +4,11 @@ description: "BMW ZF şanzıman, motor, turbo, elektronik ve süspansiyon arıza
 category: "BMW"
 tags: ["bmw", "özel servis", "zf", "bakım", "onarım"]
 slug: "bmw-ozel-servis"
-publishDate: 2025-11-04
-updatedDate: 2025-11-04
+publishDate: "2025-11-04T10:30:00"
+updatedDate: "2025-11-04T10:30:00"
 featuredImage: "/images/blog/bmw-ozel-servis.jpg"
 imageAlt: "BMW özel servis atölye görüntüsü"
+ogImage: "/images/blog/bmw-ozel-servis.jpg"
 author: "DSG Servisi"
 draft: false
 

@@ -1,7 +1,8 @@
 ---
 title: "DSG Mekatronik Tamiri"
 description: "DSG mekatronik arızası ve fiyatları 2026: mekatronik tamiri, solenoid/valf onarımı, adaptasyon ve kalibrasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
-publishDate: "2025-11-03"
+publishDate: "2025-11-03T10:00:00"
+updatedDate: "2025-11-03T10:00:00"
 category: "DSG"
 slug: "dsg-mekatronik-tamiri"
 tags: ["dsg", "mekatronik", "tamir", "arıza", "şanzıman"]

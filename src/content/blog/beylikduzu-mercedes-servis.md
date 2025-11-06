@@ -4,10 +4,11 @@ description: "Beylikdüzü Mercedes servis: C, E, A, CLA, GLC, GLE modellerinde 
 category: "Mercedes"
 tags: ["mercedes", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "7g-tronic", "9g-tronic", "airmatic"]
 slug: "beylikduzu-mercedes-servis"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T15:00:00"
+updatedDate: "2025-11-05T15:00:00"
 featuredImage: "/images/blog/beylikduzu-mercedes-servis.jpg"
 imageAlt: "Beylikdüzü Mercedes servis - Yıldızlar Grup DSG Servisi"
+ogImage: "/images/blog/beylikduzu-mercedes-servis.jpg"
 author: "DSG Servisi"
 draft: false
 

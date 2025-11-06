@@ -4,10 +4,11 @@ description: "DSG kavrama değişimi belirtileri, süreç, 2026 fiyatları (kuru
 category: "DSG"
 tags: ["dsg", "kavrama", "kavrama değişimi", "volant", "adaptasyon"]
 slug: "dsg-kavrama-degisimi"
-publishDate: 2025-11-04
-updatedDate: 2025-11-04
+publishDate: "2025-11-04T10:00:00"
+updatedDate: "2025-11-04T10:00:00"
 featuredImage: "/images/blog/dsg-kavrama-degisimi.jpg"
 imageAlt: "DSG kavrama değişimi atölye uygulaması"
+ogImage: "/images/blog/dsg-kavrama-degisimi.jpg"
 author: "DSG Servisi"
 draft: false
 

@@ -4,10 +4,11 @@ description: "Beylikdüzü BMW servis: 3 Serisi, 5 Serisi, X3, X5, X6 modellerin
 category: "BMW"
 tags: ["bmw", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "zf", "sport", "xdrive"]
 slug: "beylikduzu-bmw-servis"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T14:00:00"
+updatedDate: "2025-11-05T14:00:00"
 featuredImage: "/images/blog/beylikduzu-bmw-servis.jpg"
 imageAlt: "Beylikdüzü BMW servis - Yıldızlar Grup DSG Servisi"
+ogImage: "/images/blog/beylikduzu-bmw-servis.jpg"
 author: "DSG Servisi"
 draft: false
 

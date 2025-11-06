@@ -37,8 +37,8 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Barlow', 'system-ui', '-apple-system', 'sans-serif'],
-        display: ['Montserrat', 'Barlow', 'sans-serif'],
+        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+        display: ['Rajdhani', 'Montserrat', 'Barlow', 'sans-serif'],
         tech: ['Montserrat', 'monospace'],
       },
       animation: {

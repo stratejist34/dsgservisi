@@ -4,10 +4,11 @@ description: "Audi DSG/S‑Tronic, motor, elektronik ve quattro arızalarında u
 category: "Audi"
 tags: ["audi", "özel servis", "dsg", "s-tronic", "bakım", "onarım"]
 slug: "audi-ozel-servis"
-publishDate: 2025-11-04
-updatedDate: 2025-11-04
+publishDate: "2025-11-04T09:00:00"
+updatedDate: "2025-11-04T09:00:00"
 featuredImage: "/images/blog/audi-ozel-servis.jpg"
 imageAlt: "Audi özel servis atölye görüntüsü"
+ogImage: "/images/blog/audi-ozel-servis.jpg"
 author: "DSG Servisi"
 draft: false
 

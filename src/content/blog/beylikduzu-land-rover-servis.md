@@ -4,10 +4,11 @@ description: "Beylikdüzü Land Rover servis: Range Rover, Discovery, Evoque mod
 category: "Land Rover"
 tags: ["land rover", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "zf", "hava süspansiyon", "range rover"]
 slug: "beylikduzu-land-rover-servis"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T14:30:00"
+updatedDate: "2025-11-05T14:30:00"
 featuredImage: "/images/blog/beylikduzu-land-rover-servis.jpg"
 imageAlt: "Beylikdüzü Land Rover servis - Yıldızlar Grup DSG Servisi"
+ogImage: "/images/blog/beylikduzu-land-rover-servis.jpg"
 author: "DSG Servisi"
 draft: false
 

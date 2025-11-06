@@ -4,10 +4,11 @@ description: "BMW servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt
 category: "BMW"
 tags: ["bmw", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "zf"]
 slug: "bmw-servis-avrupa-yakasi"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T09:30:00"
+updatedDate: "2025-11-05T09:30:00"
 featuredImage: "/images/blog/bmw-servis-avrupa-yakasi.jpg"
 imageAlt: "BMW servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+ogImage: "/images/blog/bmw-servis-avrupa-yakasi.jpg"
 author: "DSG Servisi"
 draft: false
 

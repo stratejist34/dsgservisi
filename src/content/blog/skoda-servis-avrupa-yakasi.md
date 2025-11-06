@@ -4,10 +4,11 @@ description: "Skoda servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyu
 category: "Skoda"
 tags: ["skoda", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "dsg", "octavia", "superb"]
 slug: "skoda-servis-avrupa-yakasi"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T12:00:00"
+updatedDate: "2025-11-05T12:00:00"
 featuredImage: "/images/blog/skoda-servis-avrupa-yakasi.jpg"
 imageAlt: "Skoda servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+ogImage: "/images/blog/skoda-servis-avrupa-yakasi.jpg"
 author: "DSG Servisi"
 draft: false
 

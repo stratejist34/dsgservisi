@@ -4,10 +4,11 @@ description: "Mercedes servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Ese
 category: "Mercedes"
 tags: ["mercedes", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "7g-tronic", "9g-tronic", "airmatic"]
 slug: "mercedes-servis-avrupa-yakasi"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T10:30:00"
+updatedDate: "2025-11-05T10:30:00"
 featuredImage: "/images/blog/mercedes-servis-avrupa-yakasi.jpg"
 imageAlt: "Mercedes servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+ogImage: "/images/blog/mercedes-servis-avrupa-yakasi.jpg"
 author: "DSG Servisi"
 draft: false
 

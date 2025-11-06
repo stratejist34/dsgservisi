@@ -1,7 +1,8 @@
 ---
 title: "DSG Şanzıman Tamiri"
 description: "Yıldızlar Grup DSG Servisi'nde DSG şanzıman tamiri, mekatronik tamiri, DSG volant değişimi, şanzıman yenileme ve revizyon. Volkswagen, Audi, SEAT, Skoda, Porsche, BMW, Mercedes, Land Rover."
-publishDate: "2025-10-25"
+publishDate: "2025-10-25T10:00:00"
+updatedDate: "2025-10-25T10:00:00"
 category: "DSG"
 slug: "dsg-sanziman-tamiri"
 tags: ["dsg", "şanzıman", "tamir", "revizyon", "mekatronik"]

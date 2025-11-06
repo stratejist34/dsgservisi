@@ -1,7 +1,8 @@
 ---
 title: "Seat Özel Servis"
 description: "Seat özel servis: DSG şanzıman, motor, turbo, elektronik arıza tamiri. Leon, Ibiza, Arona, Ateca, Tarraco bakım. Büyükçekmece İstanbul."
-publishDate: "2025-10-22"
+publishDate: "2025-10-22T10:00:00"
+updatedDate: "2025-10-22T10:00:00"
 featuredImage: "/images/blog/seat-ozel-servis.jpg"
 imageAlt: "Seat Özel Servis"
 category: "Seat"

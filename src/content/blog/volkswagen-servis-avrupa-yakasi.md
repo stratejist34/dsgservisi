@@ -4,10 +4,11 @@ description: "Volkswagen servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, E
 category: "Volkswagen"
 tags: ["volkswagen", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "dsg", "zf", "golf", "polo", "passat", "tiguan"]
 slug: "volkswagen-servis-avrupa-yakasi"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T12:30:00"
+updatedDate: "2025-11-05T12:30:00"
 featuredImage: "/images/blog/volkswagen-servis-avrupa-yakasi.jpg"
 imageAlt: "Volkswagen servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+ogImage: "/images/blog/volkswagen-servis-avrupa-yakasi.jpg"
 author: "DSG Servisi"
 draft: false
 

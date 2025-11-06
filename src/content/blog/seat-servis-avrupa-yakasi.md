@@ -4,10 +4,11 @@ description: "Seat servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyur
 category: "Seat"
 tags: ["seat", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "dsg", "leon", "ibiza"]
 slug: "seat-servis-avrupa-yakasi"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T11:30:00"
+updatedDate: "2025-11-05T11:30:00"
 featuredImage: "/images/blog/seat-servis-avrupa-yakasi.jpg"
 imageAlt: "Seat servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+ogImage: "/images/blog/seat-servis-avrupa-yakasi.jpg"
 author: "DSG Servisi"
 draft: false
 

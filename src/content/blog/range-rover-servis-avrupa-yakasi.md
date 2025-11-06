@@ -4,10 +4,11 @@ description: "Range Rover servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, 
 category: "Land Rover"
 tags: ["range rover", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "zf", "hava süspansiyon", "land rover"]
 slug: "range-rover-servis-avrupa-yakasi"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T13:00:00"
+updatedDate: "2025-11-05T13:00:00"
 featuredImage: "/images/blog/range-rover-servis-avrupa-yakasi.jpg"
 imageAlt: "Range Rover servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
+ogImage: "/images/blog/range-rover-servis-avrupa-yakasi.jpg"
 author: "DSG Servisi"
 draft: false
 

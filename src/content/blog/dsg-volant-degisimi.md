@@ -4,8 +4,8 @@ description: "DSG volant ve debriyaj seti fiyatı 2025. Çift kütleli volant ar
 category: "DSG"
 tags: ["volant", "kavrama", "dsg", "şanzıman"]
 slug: "dsg-volant-degisimi"
-publishDate: "2025-11-04"
-updatedDate: "2025-11-04"
+publishDate: "2025-11-04T11:00:00"
+updatedDate: "2025-11-04T11:00:00"
 featuredImage: "/wp-cache/images/dsg-volant-degisimi.jpg"
 ogImage: "/wp-cache/images/dsg-volant-degisimi.jpg"
 imageAlt: "DSG çift kütleli volant ve kavrama değişimi"

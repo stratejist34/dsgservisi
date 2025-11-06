@@ -4,8 +4,8 @@ description: "Mercedes özel servis: 7G-Tronic şanzıman, motor, turbo, elektro
 category: "Mercedes"
 tags: ["Mercedes", "Özel Servis", "7G-Tronic", "Motor", "Bakım", "İstanbul"]
 slug: "mercedes-ozel-servis"
-publishDate: "2025-11-04"
-updatedDate: "2025-11-04"
+publishDate: "2025-11-04T12:00:00"
+updatedDate: "2025-11-04T12:00:00"
 featuredImage: "/images/blog/mercedes-ozel-servis.jpg"
 ogImage: "/images/blog/mercedes-ozel-servis.jpg"
 imageAlt: "Mercedes özel servis atölye görüntüsü"

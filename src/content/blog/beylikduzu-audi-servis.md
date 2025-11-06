@@ -4,10 +4,11 @@ description: "Beylikdüzü Audi servis: A3, A4, A5, A6, Q3, Q5, Q7, Q8 modelleri
 category: "Audi"
 tags: ["audi", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "dsg", "s-tronic", "quattro"]
 slug: "beylikduzu-audi-servis"
-publishDate: 2025-11-05
-updatedDate: 2025-11-05
+publishDate: "2025-11-05T13:30:00"
+updatedDate: "2025-11-05T13:30:00"
 featuredImage: "/images/blog/beylikduzu-audi-servis.jpg"
 imageAlt: "Beylikdüzü Audi servis - Yıldızlar Grup DSG Servisi"
+ogImage: "/images/blog/beylikduzu-audi-servis.jpg"
 author: "DSG Servisi"
 draft: false
 

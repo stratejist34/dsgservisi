@@ -1,7 +1,8 @@
 ---
 title: "DSG Şanzıman Değişimi"
 description: "DSG şanzıman değişimi 2026: revizyon mu değişim mi? Tam değişim süreçleri, maliyet kalemleri ve garanti. Büyükçekmece Yıldızlar Grup DSG Servisi."
-publishDate: "2025-10-25"
+publishDate: "2025-10-25T10:30:00"
+updatedDate: "2025-10-25T10:30:00"
 category: "DSG"
 slug: "dsg-sanziman-degisimi"
 tags: ["dsg", "şanzıman", "değişim", "tamir"]
