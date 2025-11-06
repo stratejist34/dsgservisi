@@ -53,10 +53,11 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
-  {/* Google Fonts */}
+  {/* Google Fonts - Optimize edilmiş async yükleme */}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Rajdhani:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" rel="stylesheet"></noscript>
   
   {/* Preload Critical Resources */}
       <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
@@ -217,9 +218,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       <Footer />
   
       {/* Floating Buttons */}
-      <PhoneButton client:load />
+      <PhoneButton client:visible />
       <WhatsAppButton 
-        client:load 
+        client:visible 
         message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
       />
 

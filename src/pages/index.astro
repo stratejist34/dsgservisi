@@ -54,14 +54,28 @@ const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, S
         </div>
 
         <div class="relative" data-animate>
-          <img
-            src="/images/workshop.jpg"
-            alt="Yıldızlar Grup DSG Servisi Atölyesi"
-            class="rounded-2xl shadow-2xl"
-            loading="lazy"
-            width="1920"
-            height="1080"
-          />
+          <picture>
+            <source 
+              type="image/avif"
+              srcset="/images/workshop-480.avif 480w, /images/workshop-768.avif 768w, /images/workshop-1280.avif 1280w"
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 665px"
+            />
+            <source 
+              type="image/webp"
+              srcset="/images/workshop-480.webp 480w, /images/workshop-768.webp 768w, /images/workshop-1280.webp 1280w"
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 665px"
+            />
+            <img
+              src="/images/workshop.jpg"
+              alt="Yıldızlar Grup DSG Servisi Atölyesi"
+              class="rounded-2xl shadow-2xl"
+              loading="lazy"
+              width="1280"
+              height="960"
+              decoding="async"
+              sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 665px"
+            />
+          </picture>
           <div class="absolute -bottom-6 -right-6 bg-primary text-white p-6 rounded-xl shadow-xl">
             <div class="text-4xl font-bold">{SITE_CONFIG.stats.experience}+</div>
             <div class="text-sm">Yıl Tecrübe</div>
