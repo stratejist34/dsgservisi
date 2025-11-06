@@ -140,7 +140,16 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
     recalcInitial();
 
     const applyLayout = () => {
-      if (window.innerWidth < 1024) {
+      // Önce tüm okumaları yap (batch read)
+      const windowWidth = window.innerWidth;
+      const container = getGridContainer();
+      const containerRect = container ? container.getBoundingClientRect() : null;
+      const asideRect = aside.getBoundingClientRect();
+      const asideHeight = aside.offsetHeight;
+      const asideWidth = aside.offsetWidth;
+      
+      // Sonra tüm yazmaları yap (batch write)
+      if (windowWidth < 1024) {
         aside.classList.remove('toc-force-fixed');
         aside.style.removeProperty('left');
         aside.style.removeProperty('width');
@@ -152,16 +161,13 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
         return;
       }
 
-      const container = getGridContainer();
-      const containerRect = container ? container.getBoundingClientRect() : null;
-      const asideHeight = aside.offsetHeight;
       if (!container || !containerRect) {
-        // Klasik fixed
+        // Klasik fixed - cache'lenmiş değerleri kullan
         aside.classList.add('toc-force-fixed');
         aside.style.removeProperty('position');
         aside.style.top = `${TOP_OFFSET_PX}px`;
-        aside.style.left = `${aside.getBoundingClientRect().left}px`;
-        aside.style.width = `${aside.offsetWidth}px`;
+        aside.style.left = `${asideRect.left}px`;
+        aside.style.width = `${asideWidth}px`;
         aside.style.zIndex = '30';
         aside.style.opacity = '1';
         aside.style.visibility = 'visible';
@@ -222,10 +228,13 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
+      // Önce okuma
       const headerOffset = 100;
-      const elementPosition = element.getBoundingClientRect().top;
+      const elementRect = element.getBoundingClientRect();
+      const elementPosition = elementRect.top;
       const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
+      // Sonra yazma
       window.scrollTo({
         top: offsetPosition,
         behavior: 'smooth',
