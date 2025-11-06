@@ -51,29 +51,9 @@
     @apply font-semibold;
   }
   
-  h1 {
-    @apply text-[21px] md:text-[25px] lg:text-[26px] font-bold;
-  }
-  
-  h2 {
-    @apply text-[19px] md:text-[24px] lg:text-[25.6px] font-semibold;
-  }
-  
-  h3 {
-    @apply text-[12px] md:text-[14px] lg:text-[17px] font-semibold;
-  }
-  
-  h4 {
-    @apply text-lg md:text-xl lg:text-[24px] font-semibold;
-  }
-  
-  h5 {
-    @apply text-base md:text-lg lg:text-[20px] font-semibold;
-  }
-  
-  h6 {
-    @apply text-base md:text-base lg:text-[18px] font-medium;
-  }
+  /* Başlık stilleri artık Tailwind Typography config'inde tanımlı */
+  /* Sadece prose dışındaki başlıklar için genel stiller (prose içindekiler typography config'inden gelir) */
+  /* Eğer prose dışında başlık kullanıyorsanız, burada özelleştirebilirsiniz */
 }
 
 @layer components {
@@ -124,6 +104,52 @@
   }
 
   /* Blog Content Styles */
+  /* Paragraf aralarındaki boşluğu artır */
+  .prose p {
+    @apply mb-6;
+  }
+  
+  .prose p:last-child {
+    @apply mb-0;
+  }
+  
+  /* Tailwind Typography başlık boyutlarını override et */
+  .prose h1 {
+    font-size: 2.0625rem !important; /* 33px */
+    font-weight: 700 !important;
+    line-height: 2.5rem !important;
+  }
+  
+  .prose h2 {
+    font-size: 1.5rem !important; /* 24px */
+    font-weight: 600 !important;
+    line-height: 2rem !important;
+  }
+  
+  .prose h3 {
+    font-size: 1.25rem !important; /* 20px */
+    font-weight: 600 !important;
+    line-height: 1.75rem !important;
+  }
+  
+  .prose-lg h1 {
+    font-size: 2.0625rem !important; /* 33px */
+    font-weight: 700 !important;
+    line-height: 2.5rem !important;
+  }
+  
+  .prose-lg h2 {
+    font-size: 1.5rem !important; /* 24px */
+    font-weight: 600 !important;
+    line-height: 2rem !important;
+  }
+  
+  .prose-lg h3 {
+    font-size: 1.25rem !important; /* 20px */
+    font-weight: 600 !important;
+    line-height: 1.75rem !important;
+  }
+  
   /* CTA Box Styles */
   .cta-box {
     @apply bg-blue-50 border border-blue-200 p-5 rounded-lg my-5 text-center;

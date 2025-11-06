@@ -134,8 +134,88 @@ export default {
       backgroundSize: {
         '300%': '300%',
       },
+      typography: {
+        DEFAULT: {
+          css: {
+            // Tüm başlıklar için font ailesi
+            'h1, h2, h3, h4, h5, h6': {
+              fontFamily: "'Rajdhani', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+            },
+            h1: {
+              fontSize: '2.0625rem', // 33px
+              fontWeight: '700',
+              lineHeight: '2.5rem',
+            },
+            h2: {
+              fontSize: '1.5rem', // 24px (optimal - kullanıcı tercihi)
+              fontWeight: '600',
+              lineHeight: '2rem',
+            },
+            h3: {
+              fontSize: '1.25rem', // 20px (H2'den biraz küçük ama okunabilir)
+              fontWeight: '600',
+              lineHeight: '1.75rem',
+            },
+            h4: {
+              fontSize: '1.25rem', // 20px (prose-lg varsayılan: 1.25rem)
+              fontWeight: '600',
+              lineHeight: '1.75rem',
+            },
+            h5: {
+              fontSize: '1.125rem', // 18px (prose-lg varsayılan: 1.125rem)
+              fontWeight: '600',
+              lineHeight: '1.75rem',
+            },
+            h6: {
+              fontSize: '1rem', // 16px (prose-lg varsayılan: 1rem)
+              fontWeight: '600',
+              lineHeight: '1.5rem',
+            },
+          },
+        },
+        lg: {
+          css: {
+            // Tüm başlıklar için font ailesi
+            'h1, h2, h3, h4, h5, h6': {
+              fontFamily: "'Rajdhani', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+            },
+            h1: {
+              fontSize: '2.25rem', // 36px
+              fontWeight: '700',
+              lineHeight: '2.5rem',
+            },
+            h2: {
+              fontSize: '1.5rem', // 24px (optimal - kullanıcı tercihi)
+              fontWeight: '600',
+              lineHeight: '2rem',
+            },
+            h3: {
+              fontSize: '1.25rem', // 20px (H2'den biraz küçük ama okunabilir)
+              fontWeight: '600',
+              lineHeight: '1.75rem',
+            },
+            h4: {
+              fontSize: '1.25rem', // 20px
+              fontWeight: '600',
+              lineHeight: '1.75rem',
+            },
+            h5: {
+              fontSize: '1.125rem', // 18px
+              fontWeight: '600',
+              lineHeight: '1.75rem',
+            },
+            h6: {
+              fontSize: '1rem', // 16px
+              fontWeight: '600',
+              lineHeight: '1.5rem',
+            },
+          },
+        },
+      },
     },
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindcss/typography'),
+  ],
 };
 
