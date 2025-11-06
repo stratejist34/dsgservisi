@@ -28,6 +28,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  {/* Resource Hints - EN ÜSTTE, meta charset'ten hemen sonra */}
+  <link rel="dns-prefetch" href="https://dsgservisi.com" />
+  <link rel="preconnect" href="https://dsgservisi.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  
   <link rel="icon" type="image/webp" href="/images/icon.webp" />
   <link rel="icon" type="image/avif" href="/images/icon.avif" />
   <link rel="icon" type="image/png" href="/images/icon.png" />
@@ -53,12 +61,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
-  {/* Resource Hints - DNS Prefetch ve Preconnect - En üstte */}
-  <link rel="dns-prefetch" href="https://dsgservisi.com" />
-  <link rel="preconnect" href="https://dsgservisi.com" crossorigin="anonymous" />
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous" />
+  {/* Google Fonts - Optimize edilmiş async yükleme */}
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" rel="stylesheet"></noscript>
   
@@ -238,7 +241,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   
       <Footer />
   
-      {/* Floating Buttons - Lazy load after page is interactive */}
+      {/* Floating Buttons - Optimize lazy loading */}
       <PhoneButton client:idle />
       <WhatsAppButton
         client:idle
@@ -247,13 +250,22 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
       {/* Optimize edilmiş Scroll ve Reveal Script */}
       <script is:inline>
-        // Optimize edilmiş tek script
-        let ticking = false;
-        const header = document.querySelector('header');
-        const progress = document.getElementById('progress');
+        // DOMContentLoaded'da çalıştır - daha erken başlatma
+        (function() {
+          if (document.readyState === 'loading') {
+            document.addEventListener('DOMContentLoaded', initScript);
+          } else {
+            // DOM zaten hazır
+            setTimeout(initScript, 0);
+          }
+          
+          function initScript() {
+            let ticking = false;
+            const header = document.querySelector('header');
+            const progress = document.getElementById('progress');
 
-        // Reveal
-        const io = new IntersectionObserver((entries) => {
+            // Reveal
+            const io = new IntersectionObserver((entries) => {
           entries.forEach((entry, index) => {
             if (!entry.isIntersecting) return;
             const el = entry.target;
@@ -304,11 +316,12 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
         // İlk yüklemede viewport'ta olanları anında aç, diğerlerini gözlemle
         // Batch olarak tüm okumaları yap, sonra yazmaları yap (forced reflow önleme)
+        // Cache viewport dimensions
+        let cachedVh = window.innerHeight || document.documentElement.clientHeight;
+        let cachedVw = window.innerWidth || document.documentElement.clientWidth;
+        
         requestAnimationFrame(() => {
-          const vh = window.innerHeight || document.documentElement.clientHeight;
-          const vw = window.innerWidth || document.documentElement.clientWidth;
-          
-          // Önce tüm rect'leri oku (batch read)
+          // Önce tüm rect'leri oku (batch read) - tek seferde
           const rects = Array.from(allAnimateTargets).map(el => ({
             el,
             rect: el.getBoundingClientRect()
@@ -317,7 +330,7 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
           // Sonra tüm yazmaları yap (batch write)
           rects.forEach(({ el, rect }) => {
             const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
-            const inViewport = rect.top < vh && rect.bottom > 0 && rect.left < vw && rect.right > 0;
+            const inViewport = rect.top < cachedVh && rect.bottom > 0 && rect.left < cachedVw && rect.right > 0;
             
             if (!inViewport) {
               io.observe(el);
@@ -391,6 +404,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
             ticking = true;
           }
         }, { passive: true });
+          }
+        })();
       </script>
 
   {/* Google Analytics - Lazy loaded after interaction */}
