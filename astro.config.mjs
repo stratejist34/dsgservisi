@@ -51,6 +51,7 @@ export default defineConfig({
   },
   build: {
     inlineStylesheets: 'auto',
+    assets: '_assets',
   },
   server: {
     headers: {

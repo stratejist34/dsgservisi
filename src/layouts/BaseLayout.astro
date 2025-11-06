@@ -53,65 +53,88 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
+  {/* Resource Hints - DNS Prefetch ve Preconnect */}
+  <link rel="dns-prefetch" href="https://dsgservisi.com" />
+  <link rel="preconnect" href="https://dsgservisi.com" crossorigin />
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
+  
   {/* Google Fonts - Optimize edilmiş async yükleme */}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" rel="stylesheet"></noscript>
   
-  {/* Preload Critical Resources */}
-      <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-      <link rel="preload" href="/images/hero-bg-1920.avif" as="image" type="image/avif" fetchpriority="high">
+  {/* Preload Critical Resources - Responsive image preload */}
+  <link rel="preload" href="/images/hero-bg-768.avif" as="image" type="image/avif" media="(max-width: 768px)" fetchpriority="high">
+  <link rel="preload" href="/images/hero-bg-1920.avif" as="image" type="image/avif" media="(min-width: 769px)" fetchpriority="high">
   
-  {/* Critical CSS */}
+  {/* Critical CSS - Genişletilmiş */}
   <style is:inline>
+    /* Above-the-fold critical styles */
     body {
       font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       background-color: #ffffff;
-      color: #1a202c; /* gray-900 */
+      color: #1a202c;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
       text-rendering: optimizeLegibility;
       overflow-x: hidden;
       width: 100%;
       min-width: 320px;
+      margin: 0;
+      padding: 0;
+    }
+    html {
+      scroll-behavior: smooth;
+      scroll-padding-top: 80px;
     }
     .container {
       margin-left: auto;
       margin-right: auto;
-      padding-left: 1rem; /* px-4 */
-      padding-right: 1rem; /* px-4 */
-      max-width: 1280px; /* max-w-7xl */
+      padding-left: 1rem;
+      padding-right: 1rem;
+      max-width: 1280px;
       width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
       font-family: 'Rajdhani', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-weight: 600; /* font-semibold */
+      font-weight: 600;
+      margin: 0;
     }
     h1 {
-      font-size: 1.875rem; /* text-3xl */
-      line-height: 2.25rem; /* leading-9 */
-      font-weight: 700; /* font-bold */
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      font-weight: 700;
     }
     @media (min-width: 768px) {
       .container {
-        padding-left: 1.5rem; /* sm:px-6 */
-        padding-right: 1.5rem; /* sm:px-6 */
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
       }
       h1 {
-        font-size: 2.25rem; /* md:text-4xl */
-        line-height: 2.5rem; /* md:leading-10 */
+        font-size: 2.25rem;
+        line-height: 2.5rem;
       }
     }
     @media (min-width: 1024px) {
       .container {
-        padding-left: 2rem; /* lg:px-8 */
-        padding-right: 2rem; /* lg:px-8 */
+        padding-left: 2rem;
+        padding-right: 2rem;
       }
       h1 {
-        font-size: 2.25rem; /* lg:text-4xl */
-        line-height: 2.5rem; /* lg:leading-10 */
+        font-size: 2.25rem;
+        line-height: 2.5rem;
       }
+    }
+    /* Prevent layout shift */
+    img {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
+    /* Hero section critical styles */
+    section {
+      position: relative;
     }
   </style>
 
@@ -217,10 +240,10 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   
       <Footer />
   
-      {/* Floating Buttons */}
-      <PhoneButton client:load />
+      {/* Floating Buttons - Lazy load after page is interactive */}
+      <PhoneButton client:idle />
       <WhatsAppButton
-        client:load
+        client:idle
         message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
       />
 
