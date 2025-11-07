@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG 2 Den 3 E Geçerken Vuruntu"
 description: "DSG 2 den 3 e geçerken vuruntu sorunu: Belirtileri, nedenleri ve çözümleri. DSG vites geçiş vuruntusu, kavrama sorunları ve mekatronik arızası."
 category: "DSG"
 tags: ["dsg", "2 den 3 e geçerken vuruntu", "vites geçiş vuruntusu", "arıza", "belirtiler", "mekatronik", "kavrama"]
 slug: "dsg-2-den-3-e-gecerken-vuruntu"
-publishDate: "2025-11-08T14:48:00"
-updatedDate: "2025-11-08T14:48:00"
+publishDate: "2025-11-08T14:48:00+03:00"
+updatedDate: "2025-11-08T14:48:00+03:00"
 featuredImage: "/images/blog/dsg-2-den-3-e-gecerken-vuruntu.jpg"
 imageAlt: "DSG 2 den 3 e geçerken vuruntu - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-2-den-3-e-gecerken-vuruntu.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Vites Geçiş Arızası Teşhisi"
 serviceDescription: "DSG 2 den 3 e geçerken vuruntu sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-2-den-3-e-gecerken-vuruntu"
+
 ---
 
 DSG 2 den 3 e geçerken vuruntu sorunu, **DSG şanzımanlarda vites yükseltme sırasında (2→3 geçişi) görülen vuruntu ve sarsıntı problemidir**. Bu sorun, çift numaralı viteslerden (2, 4, 6) tek numaralı viteslere (1, 3, 5, 7) geçişte mekatronik modül veya kavrama kontrolünde bir sorun olduğunu gösterir. Vuruntu, kavrama geçiş zamanlaması bozulduğunda veya kavrama aşınması nedeniyle oluşur.

@@ -1,11 +1,13 @@
+
 ---
+
 title: "BMW Özel Servis"
 description: "BMW ZF şanzıman, motor, turbo, elektronik ve süspansiyon arızalarında uzman özel servis. 1-3-5-7 Serisi ve X1-X3-X5-X6 için ekonomik, garantili çözümler."
 category: "BMW"
 tags: ["bmw", "özel servis", "zf", "bakım", "onarım"]
 slug: "bmw-ozel-servis"
-publishDate: "2025-11-04T10:30:00"
-updatedDate: "2025-11-04T10:30:00"
+publishDate: "2025-11-04T10:30:00+03:00"
+updatedDate: "2025-11-04T10:30:00+03:00"
 featuredImage: "/images/blog/bmw-ozel-servis.jpg"
 imageAlt: "BMW özel servis atölye görüntüsü"
 ogImage: "/images/blog/bmw-ozel-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "BMW ZF şanzıman, motor ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/bmw-ozel-servis"
+
 ---
 
 BMW araçlarında ZF şanzıman, motor, turbo, elektronik, fren, klima ve süspansiyon arızalarında uzmanlaşmış bir özel servis merkeziyiz. 1, 3, 5, 7 Serisi ile X1, X3, X5, X6 modellerinde 15+ yıllık deneyimle yetkili servise alternatif, ekonomik ve garantili çözümler sunuyoruz.

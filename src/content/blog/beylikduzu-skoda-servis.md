@@ -1,11 +1,13 @@
+
 ---
+
 title: "Beylikdüzü Skoda Servis"
 description: "Beylikdüzü Skoda servis: Octavia, Superb, Kodiaq, Karoq modellerinde DSG şanzıman, motor, turbo, DPF tamiri. Merkezi konum, ücretsiz araç çekme, aynı gün teslimat."
 category: "Skoda"
 tags: ["skoda", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "dsg", "octavia", "superb"]
 slug: "beylikduzu-skoda-servis"
-publishDate: "2025-11-05T16:30:00"
-updatedDate: "2025-11-05T16:30:00"
+publishDate: "2025-11-05T16:30:00+03:00"
+updatedDate: "2025-11-05T16:30:00+03:00"
 featuredImage: "/images/blog/beylikduzu-skoda-servis.jpg"
 imageAlt: "Beylikdüzü Skoda servis - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/beylikduzu-skoda-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Skoda DSG şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
 offerUrl: "/beylikduzu-skoda-servis"
+
 ---
 
 Yıldızlar Grup, Beylikdüzü bölgesine özel Skoda servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü'nün tüm mahallelerinden (Yakuplu, Saadetdere, Kavaklı, Gürpınar, Adnan Kahveci, Dereağzı, Marmara) 10 dakika mesafede bulunan atölyemiz, Skoda araçlarında DSG şanzıman, motor, turbo, elektronik, DPF, klima ve süspansiyon arızalarında uzmanlaşmıştır.

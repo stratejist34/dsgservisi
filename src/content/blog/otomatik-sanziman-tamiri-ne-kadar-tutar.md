@@ -1,11 +1,13 @@
+
 ---
+
 title: "Otomatik Şanzıman Tamiri Ne Kadar Tutar"
 description: "Otomatik şanzıman tamiri fiyatları 2026: DSG, ZF, konvansiyonel otomatik şanzıman tamiri ne kadar tutar? Mekatronik, kavrama, volant, yağ kaçağı tamiri fiyatları."
 category: "DSG"
 tags: ["otomatik şanzıman", "tamir", "fiyat", "ne kadar tutar", "dsg", "zf", "mekatronik", "2026"]
 slug: "otomatik-sanziman-tamiri-ne-kadar-tutar"
-publishDate: "2025-11-07T00:40:00"
-updatedDate: "2025-11-07T00:40:00"
+publishDate: "2025-11-07T00:40:00+03:00"
+updatedDate: "2025-11-07T00:40:00+03:00"
 featuredImage: "/images/blog/otomatik-sanziman-tamiri-ne-kadar-tutar.jpg"
 imageAlt: "Otomatik şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/otomatik-sanziman-tamiri-ne-kadar-tutar.jpg"
@@ -23,6 +25,7 @@ lowPrice: 3500
 highPrice: 50000
 priceCurrency: "TRY"
 offerUrl: "/otomatik-sanziman-tamiri-ne-kadar-tutar"
+
 ---
 
 Otomatik şanzıman tamiri, **DSG, ZF ve konvansiyonel otomatik şanzımanlarda** sık görülen bir ihtiyaçtır. Şanzıman tipi, arıza kapsamı ve parça kalitesine göre fiyatlar değişir. Basit yağ değişimi 3.500–6.500₺, mekatronik tamiri 12.500–27.000₺, kavrama değişimi 13.000–29.000₺, komple şanzıman değişimi 24.000–104.000₺ aralığındadır.

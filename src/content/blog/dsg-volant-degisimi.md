@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG Volant Değişimi"
 description: "DSG volant ve debriyaj seti fiyatı 2025. Çift kütleli volant arıza belirtileri, ıslak/kuru kavrama. Büyükçekmece İstanbul."
 category: "DSG"
 tags: ["volant", "kavrama", "dsg", "şanzıman"]
 slug: "dsg-volant-degisimi"
-publishDate: "2025-11-04T11:00:00"
-updatedDate: "2025-11-04T11:00:00"
+publishDate: "2025-11-04T11:00:00+03:00"
+updatedDate: "2025-11-04T11:00:00+03:00"
 featuredImage: "/wp-cache/images/dsg-volant-degisimi.jpg"
 ogImage: "/wp-cache/images/dsg-volant-degisimi.jpg"
 imageAlt: "DSG çift kütleli volant ve kavrama değişimi"
@@ -18,6 +20,7 @@ serviceType: "DSG Volant Değişimi"
 serviceDescription: "DSG volant ve kavrama değişimi hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-volant-degisimi"
+
 ---
 
 DSG volant (flywheel) motor ile şanzıman arasında titreşim sönümleyici görevi görür. Volant arızası; motor titreşimi, vites atarken tak‑tak sesi, kavrama kayması ve mekatronik baskı sorunlarına yol açar. Kuru kavramalı DSG'lerde (DQ200) daha hızlı yıpranır.

@@ -1,11 +1,13 @@
+
 ---
+
 title: "Seat Periyodik Bakım Fiyatları 2025"
 description: "Seat periyodik bakım fiyatları 2025: Leon, Ibiza, Ateca, Arona, Tarraco için yağ değişimi, filtre, fren, DSG DQ200/DQ250/DQ381, DPF, klima bakım fiyatları."
 category: "Seat"
 tags: ["seat", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "dsg", "dq200", "dq250", "dq381"]
 slug: "seat-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-05T20:30:00"
-updatedDate: "2025-11-05T20:30:00"
+publishDate: "2025-11-05T20:30:00+03:00"
+updatedDate: "2025-11-05T20:30:00+03:00"
 featuredImage: "/images/blog/seat-periyodik-bakim-fiyatlari.jpg"
 imageAlt: "Seat periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/seat-periyodik-bakim-fiyatlari.jpg"
@@ -21,6 +23,7 @@ lowPrice: 3000
 highPrice: 10000
 priceCurrency: "TRY"
 offerUrl: "/seat-periyodik-bakim-fiyatlari-2025"
+
 ---
 
 Yıldızlar Grup, Seat araçlarında periyodik bakım hizmetleri sunan uzman servis merkezidir. Leon, Ibiza, Ateca, Arona, Tarraco modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %50-65 daha ekonomik periyodik bakım fiyatları sunuyoruz.

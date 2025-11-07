@@ -1,11 +1,13 @@
+
 ---
+
 title: "Audi Özel Servis"
 description: "Audi DSG/S‑Tronic, motor, elektronik ve quattro arızalarında uzman, ekonomik ve garantili özel servis. A3, A4, A5, A6, Q3, Q5, Q7, Q8 için teşhis, bakım ve onarım."
 category: "Audi"
 tags: ["audi", "özel servis", "dsg", "s-tronic", "bakım", "onarım"]
 slug: "audi-ozel-servis"
-publishDate: "2025-11-04T09:00:00"
-updatedDate: "2025-11-04T09:00:00"
+publishDate: "2025-11-04T09:00:00+03:00"
+updatedDate: "2025-11-04T09:00:00+03:00"
 featuredImage: "/images/blog/audi-ozel-servis.jpg"
 imageAlt: "Audi özel servis atölye görüntüsü"
 ogImage: "/images/blog/audi-ozel-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Audi DSG/S‑Tronic, motor, elektronik ve quattro arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/audi-ozel-servis"
+
 ---
 
 Audi araçlarında DSG/S‑Tronic şanzıman, motor, turbo, elektronik, fren, quattro ve klima arızalarında uzmanlaşmış bir özel servis merkeziyiz. A3, A4, A5, A6, Q3, Q5, Q7, Q8 modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, ekonomik ve garantili çözümler sunuyoruz.

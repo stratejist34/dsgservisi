@@ -1,11 +1,13 @@
+
 ---
+
 title: "BMW Periyodik Bakım Fiyatları 2025"
 description: "BMW periyodik bakım fiyatları 2025: 1, 3, 5, 7 Serisi ve X1, X3, X5, X6 için yağ değişimi, filtre, fren, ZF şanzıman, klima bakım fiyatları. Detaylı fiyat tablosu ve bakım periyotları."
 category: "BMW"
 tags: ["bmw", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "filtre", "fren", "zf", "şanzıman"]
 slug: "bmw-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-05T18:00:00"
-updatedDate: "2025-11-05T18:00:00"
+publishDate: "2025-11-05T18:00:00+03:00"
+updatedDate: "2025-11-05T18:00:00+03:00"
 featuredImage: "/images/blog/bmw-periyodik-bakim-fiyatlari.jpg"
 imageAlt: "BMW periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/bmw-periyodik-bakim-fiyatlari.jpg"
@@ -21,6 +23,7 @@ lowPrice: 2200
 highPrice: 9900
 priceCurrency: "TRY"
 offerUrl: "/bmw-periyodik-bakim-fiyatlari-2025"
+
 ---
 
 Yıldızlar Grup, BMW araçlarında periyodik bakım hizmetleri sunan uzman servis merkezidir. 1, 3, 5, 7 Serisi ile X1, X3, X5, X6 modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %45-65 daha ekonomik periyodik bakım fiyatları sunuyoruz.

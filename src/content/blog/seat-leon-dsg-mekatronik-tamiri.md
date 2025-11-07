@@ -1,8 +1,10 @@
+
 ---
+
 title: "Seat Leon DSG Mekatronik Tamiri ve Kronik Sorunları"
 description: "Seat Leon sahipleri için DSG şanzıman mekatronik arızaları, sürüş konforunu ve güvenliğini doğrudan etkileyen önemli sorunlardır. Yıldızlar Grup DSG Servisi olarak, Seat Leon araçlarda 6 ileri (DQ250) ve 7 ileri kuru tip (DQ200) DSG şanzıman mekatronik sistemlerinin arıza teşhisi, tamiri ve revizyonu konusunda uzmanlaşmış bir hizmet sunmaktayız."
-publishDate: "2025-11-03T10:30:00"
-updatedDate: "2025-11-03T10:30:00"
+publishDate: "2025-11-03T10:30:00+03:00"
+updatedDate: "2025-11-03T10:30:00+03:00"
 featuredImage: "/images/blog/seat-leon-dsg-mekatronik-tamiri.jpg"
 ogImage: "/images/blog/seat-leon-dsg-mekatronik-tamiri.jpg"
 category: "DSG"
@@ -18,6 +20,7 @@ serviceType: "DSG Mekatronik Tamiri"
 serviceDescription: "Seat Leon DSG mekatronik arızalarında uzman teşhis ve tamir."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/seat-leon-dsg-mekatronik-tamiri"
+
 ---
 
 # Seat Leon DSG Mekatronik Tamiri ve Kronik Sorunları

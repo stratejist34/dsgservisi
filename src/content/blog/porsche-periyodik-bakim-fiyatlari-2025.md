@@ -1,11 +1,13 @@
+
 ---
+
 title: "Porsche Periyodik Bakım Fiyatları 2025"
 description: "Porsche periyodik bakım fiyatları 2025: 911, Cayenne, Macan, Panamera, Boxster, Cayman için yağ değişimi, filtre, fren, PDK şanzıman, PASM hava süspansiyon, klima bakım fiyatları."
 category: "Porsche"
 tags: ["porsche", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "pdk", "pasm", "şanzıman"]
 slug: "porsche-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-05T20:00:00"
-updatedDate: "2025-11-05T20:00:00"
+publishDate: "2025-11-05T20:00:00+03:00"
+updatedDate: "2025-11-05T20:00:00+03:00"
 featuredImage: "/images/blog/porsche-periyodik-bakim-fiyatlari.jpg"
 imageAlt: "Porsche periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/porsche-periyodik-bakim-fiyatlari.jpg"
@@ -21,6 +23,7 @@ lowPrice: 5500
 highPrice: 16000
 priceCurrency: "TRY"
 offerUrl: "/porsche-periyodik-bakim-fiyatlari-2025"
+
 ---
 
 Yıldızlar Grup, Porsche araçlarında periyodik bakım hizmetleri sunan uzman servis merkezidir. 911, Cayenne, Macan, Panamera, Boxster, Cayman modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %50-65 daha ekonomik periyodik bakım fiyatları sunuyoruz.

@@ -1,11 +1,13 @@
+
 ---
+
 title: "Skoda Servis Avrupa Yakası"
 description: "Skoda servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Skoda DSG şanzıman, motor, turbo, DPF tamiri. Merkezi konum, ücretsiz araç çekme."
 category: "Skoda"
 tags: ["skoda", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "dsg", "octavia", "superb"]
 slug: "skoda-servis-avrupa-yakasi"
-publishDate: "2025-11-05T12:00:00"
-updatedDate: "2025-11-05T12:00:00"
+publishDate: "2025-11-05T12:00:00+03:00"
+updatedDate: "2025-11-05T12:00:00+03:00"
 featuredImage: "/images/blog/skoda-servis-avrupa-yakasi.jpg"
 imageAlt: "Skoda servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 ogImage: "/images/blog/skoda-servis-avrupa-yakasi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Skoda DSG şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
 offerUrl: "/skoda-servis-avrupa-yakasi"
+
 ---
 
 Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Skoda servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Skoda araçlarında DSG şanzıman, motor, turbo, elektronik, DPF, klima ve süspansiyon arızalarında uzmanlaşmıştır.

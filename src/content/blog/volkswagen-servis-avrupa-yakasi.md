@@ -1,11 +1,13 @@
+
 ---
+
 title: "Volkswagen Servis Avrupa Yakası"
 description: "Volkswagen servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Volkswagen DSG/ZF şanzıman, motor, turbo, DPF tamiri. Merkezi konum, ücretsiz araç çekme."
 category: "Volkswagen"
 tags: ["volkswagen", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "dsg", "zf", "golf", "polo", "passat", "tiguan"]
 slug: "volkswagen-servis-avrupa-yakasi"
-publishDate: "2025-11-05T12:30:00"
-updatedDate: "2025-11-05T12:30:00"
+publishDate: "2025-11-05T12:30:00+03:00"
+updatedDate: "2025-11-05T12:30:00+03:00"
 featuredImage: "/images/blog/volkswagen-servis-avrupa-yakasi.jpg"
 imageAlt: "Volkswagen servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 ogImage: "/images/blog/volkswagen-servis-avrupa-yakasi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Volkswagen DSG/ZF şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
 offerUrl: "/volkswagen-servis-avrupa-yakasi"
+
 ---
 
 Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Volkswagen servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Volkswagen araçlarında motor, turbo, şanzıman (DSG, ZF, manuel), elektronik, DPF, klima ve süspansiyon arızalarında uzmanlaşmıştır.

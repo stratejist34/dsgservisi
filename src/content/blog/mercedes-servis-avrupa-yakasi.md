@@ -1,11 +1,13 @@
+
 ---
+
 title: "Mercedes Servis Avrupa Yakası"
 description: "Mercedes servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Mercedes 7G-Tronic/9G-Tronic şanzıman, hava süspansiyon, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme."
 category: "Mercedes"
 tags: ["mercedes", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "7g-tronic", "9g-tronic", "airmatic"]
 slug: "mercedes-servis-avrupa-yakasi"
-publishDate: "2025-11-05T10:30:00"
-updatedDate: "2025-11-05T10:30:00"
+publishDate: "2025-11-05T10:30:00+03:00"
+updatedDate: "2025-11-05T10:30:00+03:00"
 featuredImage: "/images/blog/mercedes-servis-avrupa-yakasi.jpg"
 imageAlt: "Mercedes servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 ogImage: "/images/blog/mercedes-servis-avrupa-yakasi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Mercedes 7G-Tronic/9G-Tronic şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
 offerUrl: "/mercedes-servis-avrupa-yakasi"
+
 ---
 
 Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Mercedes servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Mercedes araçlarında 7G-Tronic/9G-Tronic şanzıman, Airmatic hava süspansiyon, motor, turbo, elektronik, AdBlue ve klima arızalarında uzmanlaşmıştır.

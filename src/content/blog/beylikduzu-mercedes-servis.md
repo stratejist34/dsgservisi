@@ -1,11 +1,13 @@
+
 ---
+
 title: "Beylikdüzü Mercedes Servis"
 description: "Beylikdüzü Mercedes servis: C, E, A, CLA, GLC, GLE modellerinde 7G-Tronic/9G-Tronic şanzıman, hava süspansiyon, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme, aynı gün teslimat."
 category: "Mercedes"
 tags: ["mercedes", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "7g-tronic", "9g-tronic", "airmatic"]
 slug: "beylikduzu-mercedes-servis"
-publishDate: "2025-11-05T15:00:00"
-updatedDate: "2025-11-05T15:00:00"
+publishDate: "2025-11-05T15:00:00+03:00"
+updatedDate: "2025-11-05T15:00:00+03:00"
 featuredImage: "/images/blog/beylikduzu-mercedes-servis.jpg"
 imageAlt: "Beylikdüzü Mercedes servis - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/beylikduzu-mercedes-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Mercedes 7G-Tronic/9G-Tronic şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
 offerUrl: "/beylikduzu-mercedes-servis"
+
 ---
 
 Yıldızlar Grup, Beylikdüzü bölgesine özel Mercedes servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü'nün tüm mahallelerinden (Yakuplu, Saadetdere, Kavaklı, Gürpınar, Adnan Kahveci, Dereağzı, Marmara) 10 dakika mesafede bulunan atölyemiz, Mercedes araçlarında 7G-Tronic/9G-Tronic şanzıman, Airmatic hava süspansiyon, motor, turbo, elektronik, AdBlue ve klima arızalarında uzmanlaşmıştır.

@@ -1,11 +1,13 @@
+
 ---
+
 title: "Land Rover Servis Avrupa Yakası"
 description: "Land Rover servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Land Rover ZF şanzıman, hava süspansiyon, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme."
 category: "Land Rover"
 tags: ["land rover", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "zf", "hava süspansiyon", "range rover"]
 slug: "land-rover-servis-avrupa-yakasi"
-publishDate: "2025-11-05T10:00:00"
-updatedDate: "2025-11-05T10:00:00"
+publishDate: "2025-11-05T10:00:00+03:00"
+updatedDate: "2025-11-05T10:00:00+03:00"
 featuredImage: "/images/blog/land-rover-servis-avrupa-yakasi.jpg"
 imageAlt: "Land Rover servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 ogImage: "/images/blog/land-rover-servis-avrupa-yakasi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Land Rover ZF şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
 offerUrl: "/land-rover-servis-avrupa-yakasi"
+
 ---
 
 Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Land Rover servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Land Rover araçlarında ZF şanzıman, hava süspansiyon, motor, turbo, elektronik, Terrain Response ve klima arızalarında uzmanlaşmıştır.

@@ -1,11 +1,13 @@
+
 ---
+
 title: "DQ200 Kavrama Değişimi"
 description: "DQ200 kavrama değişimi fiyatları 2025: DQ200 kuru kavrama değişimi, volant kontrolü ve adaptasyon. Golf, A3, Octavia, Leon için DQ200 kavrama değişim fiyatları."
 category: "DSG"
 tags: ["dsg", "dq200", "kavrama değişimi", "kuru kavrama", "fiyat", "2025"]
 slug: "dq200-kavrama-degisimi"
-publishDate: "2025-11-10T09:44:00"
-updatedDate: "2025-11-10T09:44:00"
+publishDate: "2025-11-10T09:44:00+03:00"
+updatedDate: "2025-11-10T09:44:00+03:00"
 featuredImage: "/images/blog/dq200-kavrama-degisimi.jpg"
 imageAlt: "DQ200 kavrama değişimi - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dq200-kavrama-degisimi.jpg"
@@ -23,6 +25,7 @@ lowPrice: 12000
 highPrice: 28000
 priceCurrency: "TRY"
 offerUrl: "/dq200-kavrama-degisimi"
+
 ---
 
 DQ200 kavrama değişimi, **DQ200 (7 ileri kuru kavrama) şanzımanında kullanılan kavrama sisteminin değiştirilmesi işlemidir**. DQ200, Golf, A3, Octavia, Leon ve Polo gibi modellerde yaygın olarak kullanılır ve kuru kavrama sistemi ile çalışır. Kavrama aşınması zamanla meydana gelir ve değişim gerektirir.
@@ -314,7 +317,7 @@ Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis
 
 Volant sağlam ise zorunlu değildir ancak hasarlı veya şüpheli ise mutlaka değiştirilmelidir.
 
----
+
 
 **DQ200 kavrama sorununuz mu var?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

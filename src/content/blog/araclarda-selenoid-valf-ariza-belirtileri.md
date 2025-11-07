@@ -1,11 +1,13 @@
+
 ---
+
 title: "Araçlarda Selenoid Valf Arıza Belirtileri"
 description: "DSG ve otomatik şanzımanlarda solenoid valf arızası belirtileri, teşhis yöntemleri, tamir fiyatları 2026. Vites geçiş sorunları, emniyet modu ve çözüm önerileri."
 category: "DSG"
 tags: ["selenoid", "valf", "arıza", "dsg", "otomatik şanzıman", "mekatronik"]
 slug: "araclarda-selenoid-valf-ariza-belirtileri"
-publishDate: "2025-11-07T00:02:00"
-updatedDate: "2025-11-07T00:02:00"
+publishDate: "2025-11-07T00:02:00+03:00"
+updatedDate: "2025-11-07T00:02:00+03:00"
 featuredImage: "/images/blog/selenoid-valf-arizasi.jpg"
 imageAlt: "DSG mekatronik solenoid valf arızası teşhisi"
 ogImage: "/images/blog/selenoid-valf-arizasi.jpg"
@@ -20,6 +22,7 @@ serviceType: "Şanzıman Solenoid Valf Tamiri"
 serviceDescription: "DSG ve otomatik şanzıman solenoid valf arızası teşhisi, tamiri ve değişimi."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/araclarda-selenoid-valf-ariza-belirtileri"
+
 ---
 
 Solenoid valf, DSG ve otomatik şanzımanlarda **hidrolik basıncı kontrol eden kritik bileşendir**. Mekatronik modülün içinde yer alan bu valfler, vites geçişlerini, kavrama açılma-kapanma zamanlamasını ve şanzıman yağ akışını yönetir. Arıza durumunda; vites geçişlerinde **gecikme**, **vuruntu**, **emniyet modu** ve **güç kaybı** belirtileri görülür.

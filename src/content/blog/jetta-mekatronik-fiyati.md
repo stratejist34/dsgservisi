@@ -1,11 +1,13 @@
+
 ---
+
 title: "Jetta Mekatronik Fiyatı"
 description: "Jetta mekatronik fiyatı 2025: Jetta DSG mekatronik tamiri, revizyonu, solenoid değişimi ve komple değişim fiyatları. DQ200 mekatronik fiyatları."
 category: "DSG"
 tags: ["jetta", "mekatronik", "fiyat", "2025", "dq200", "dsg", "volkswagen"]
 slug: "jetta-mekatronik-fiyati"
-publishDate: "2025-11-07T17:17:00"
-updatedDate: "2025-11-07T17:17:00"
+publishDate: "2025-11-07T17:17:00+03:00"
+updatedDate: "2025-11-07T17:17:00+03:00"
 featuredImage: "/images/blog/jetta-mekatronik-fiyati.jpg"
 imageAlt: "Jetta mekatronik fiyatı 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/jetta-mekatronik-fiyati.jpg"
@@ -23,6 +25,7 @@ lowPrice: 9000
 highPrice: 30500
 priceCurrency: "TRY"
 offerUrl: "/jetta-mekatronik-fiyati"
+
 ---
 
 Jetta mekatronik fiyatı, **Jetta modellerinde kullanılan DSG DQ200 (7 ileri kuru kavrama) şanzıman tipine göre değişir**. Jetta'da DQ200 şanzıman kullanılır ve mekatronik arızası; solenoid valf, hidrolik pompa, basınç sensörleri ve elektronik kart gibi kritik bileşenlerde görülür. DQ200, kuru kavrama sistemi olarak kompakt yapısıyla dikkat çeker ancak mekatronik modül hassas yapısı nedeniyle zamanla arızalar meydana gelebilir.

@@ -1,8 +1,10 @@
+
 ---
+
 title: "DSG Şanzıman Tamiri"
 description: "Yıldızlar Grup DSG Servisi'nde DSG şanzıman tamiri, mekatronik tamiri, DSG volant değişimi, şanzıman yenileme ve revizyon. Volkswagen, Audi, SEAT, Skoda, Porsche, BMW, Mercedes, Land Rover."
-publishDate: "2025-10-25T10:00:00"
-updatedDate: "2025-10-25T10:00:00"
+publishDate: "2025-10-25T10:00:00+03:00"
+updatedDate: "2025-10-25T10:00:00+03:00"
 category: "DSG"
 slug: "dsg-sanziman-tamiri"
 tags: ["dsg", "şanzıman", "tamir", "revizyon", "mekatronik"]
@@ -20,6 +22,7 @@ serviceType: "DSG Şanzıman Tamiri"
 serviceDescription: "DSG şanzıman tamiri, mekatronik tamiri ve revizyon hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-sanziman-tamiri"
+
 ---
 
 DSG (Direct-Shift Gearbox) çift kavramalı şanzımanlar; yüksek performans, düşük yakıt tüketimi ve hızlı vites geçişleriyle öne çıkar. Volkswagen Grubu'nun geliştirdiği bu teknoloji, **DQ200 (7‑ileri kuru kavrama)**, **DQ250 (6‑ileri ıslak kavrama)**, **DQ381 ve DQ500** gibi farklı jenerasyonlarla piyasada bulunmaktadır. Ancak mekatronik modül, kavrama seti, sensörler veya volant gibi kritik parçalarda oluşan arızalar; titreme, vuruntu, geç vites, arıza lambası ve emniyet moduna geçme gibi sorunlara yol açabilir.

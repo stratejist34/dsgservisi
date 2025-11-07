@@ -1,11 +1,13 @@
+
 ---
+
 title: "Otomatik Şanzıman Değişimi Fiyatı 2025"
 description: "Otomatik şanzıman değişimi fiyatları 2025: DSG, ZF, konvansiyonel otomatik şanzıman komple değişim fiyatları. Yenilenmiş, çıkma ve sıfır ünite fiyatları."
 category: "DSG"
 tags: ["otomatik şanzıman", "değişim", "fiyat", "2025", "dsg", "zf", "komple değişim"]
 slug: "otomatik-sanziman-degisimi-fiyati-2025"
-publishDate: "2025-11-07T12:12:00"
-updatedDate: "2025-11-07T12:12:00"
+publishDate: "2025-11-07T12:12:00+03:00"
+updatedDate: "2025-11-07T12:12:00+03:00"
 featuredImage: "/images/blog/otomatik-sanziman-degisimi-2025.jpg"
 imageAlt: "Otomatik şanzıman değişimi fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/otomatik-sanziman-degisimi-2025.jpg"
@@ -23,6 +25,7 @@ lowPrice: 24000
 highPrice: 104000
 priceCurrency: "TRY"
 offerUrl: "/otomatik-sanziman-degisimi-fiyati-2025"
+
 ---
 
 Otomatik şanzıman değişimi, **DSG, ZF ve konvansiyonel otomatik şanzımanlarda** ağır arıza durumlarında gerekli olan komple değişim işlemidir. Şanzıman tipi, model, ünite kalitesi (yenilenmiş, çıkma, sıfır) ve işçilik maliyetine göre fiyatlar değişir. Yenilenmiş ünite 24.000–54.000₺, çıkma ünite 24.000–44.000₺, sıfır ünite 61.000–104.000₺ aralığındadır.

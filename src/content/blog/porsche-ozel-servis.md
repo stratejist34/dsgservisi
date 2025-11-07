@@ -1,8 +1,10 @@
+
 ---
+
 title: "Porsche Özel Servis"
 description: "Porsche özel servis: PDK şanzıman, motor, turbo, elektronik arıza tamiri. 911, Cayenne, Macan, Panamera bakım. Büyükçekmece İstanbul."
-publishDate: "2025-10-18T10:00:00"
-updatedDate: "2025-10-18T10:00:00"
+publishDate: "2025-10-18T10:00:00+03:00"
+updatedDate: "2025-10-18T10:00:00+03:00"
 featuredImage: "/images/blog/porsche-ozel-servis.jpg"
 imageAlt: "Porsche Özel Servis"
 category: "Porsche"
@@ -19,6 +21,7 @@ serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Porsche PDK şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/porsche-ozel-servis"
+
 ---
 
 <style>

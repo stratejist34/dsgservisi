@@ -1,11 +1,13 @@
+
 ---
+
 title: "Beylikdüzü Volkswagen Servis"
 description: "Beylikdüzü Volkswagen servis: Golf, Polo, Passat, Tiguan, Touareg modellerinde DSG/ZF şanzıman, motor, turbo, DPF tamiri. Merkezi konum, ücretsiz araç çekme, aynı gün teslimat."
 category: "Volkswagen"
 tags: ["volkswagen", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "dsg", "zf", "golf", "polo", "passat"]
 slug: "beylikduzu-volkswagen-servis"
-publishDate: "2025-11-05T17:00:00"
-updatedDate: "2025-11-05T17:00:00"
+publishDate: "2025-11-05T17:00:00+03:00"
+updatedDate: "2025-11-05T17:00:00+03:00"
 featuredImage: "/images/blog/beylikduzu-volkswagen-servis.jpg"
 imageAlt: "Beylikdüzü Volkswagen servis - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/beylikduzu-volkswagen-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Volkswagen DSG/ZF şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
 offerUrl: "/beylikduzu-volkswagen-servis"
+
 ---
 
 Yıldızlar Grup, Beylikdüzü bölgesine özel Volkswagen servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü'nün tüm mahallelerinden (Yakuplu, Saadetdere, Kavaklı, Gürpınar, Adnan Kahveci, Dereağzı, Marmara) 10 dakika mesafede bulunan atölyemiz, Volkswagen araçlarında motor, turbo, şanzıman (DSG, ZF, manuel), elektronik, DPF, klima ve süspansiyon arızalarında uzmanlaşmıştır.

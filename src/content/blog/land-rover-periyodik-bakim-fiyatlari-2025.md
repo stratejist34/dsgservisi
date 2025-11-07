@@ -1,11 +1,13 @@
+
 ---
+
 title: "Land Rover Periyodik Bakım Fiyatları 2025"
 description: "Land Rover periyodik bakım fiyatları 2025: Range Rover, Range Rover Sport, Evoque, Discovery için yağ değişimi, filtre, fren, ZF şanzıman, hava süspansiyon, klima bakım fiyatları."
 category: "Land Rover"
 tags: ["land rover", "range rover", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "zf", "hava süspansiyon"]
 slug: "land-rover-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-05T18:30:00"
-updatedDate: "2025-11-05T18:30:00"
+publishDate: "2025-11-05T18:30:00+03:00"
+updatedDate: "2025-11-05T18:30:00+03:00"
 featuredImage: "/images/blog/land-rover-ozel-servis.jpg"
 imageAlt: "Land Rover periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/land-rover-ozel-servis.jpg"
@@ -21,6 +23,7 @@ lowPrice: 1800
 highPrice: 11000
 priceCurrency: "TRY"
 offerUrl: "/land-rover-periyodik-bakim-fiyatlari-2025"
+
 ---
 
 Yıldızlar Grup, Land Rover araçlarında periyodik bakım hizmetleri sunan uzman servis merkezidir. Range Rover, Range Rover Sport, Range Rover Evoque, Discovery, Discovery Sport ve Defender modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %50-70 daha ekonomik periyodik bakım fiyatları sunuyoruz.

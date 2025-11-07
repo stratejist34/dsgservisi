@@ -1,8 +1,10 @@
+
 ---
+
 title: "Skoda Özel Servis"
 description: "Skoda özel servis: DSG şanzıman, motor, turbo, elektronik arıza tamiri. Octavia, Superb, Kodiaq, Karoq bakım. Büyükçekmece İstanbul."
-publishDate: "2025-10-20T10:30:00"
-updatedDate: "2025-10-20T10:30:00"
+publishDate: "2025-10-20T10:30:00+03:00"
+updatedDate: "2025-10-20T10:30:00+03:00"
 featuredImage: "/images/blog/skoda-ozel-servis.jpg"
 imageAlt: "Skoda Özel Servis"
 category: "Skoda"
@@ -19,6 +21,7 @@ serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Skoda DSG şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/skoda-ozel-servis"
+
 ---
 
 <style>

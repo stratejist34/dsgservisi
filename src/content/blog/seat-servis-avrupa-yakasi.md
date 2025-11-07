@@ -1,11 +1,13 @@
+
 ---
+
 title: "Seat Servis Avrupa Yakası"
 description: "Seat servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Seat DSG şanzıman, motor, turbo, DPF tamiri. Merkezi konum, ücretsiz araç çekme."
 category: "Seat"
 tags: ["seat", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "dsg", "leon", "ibiza"]
 slug: "seat-servis-avrupa-yakasi"
-publishDate: "2025-11-05T11:30:00"
-updatedDate: "2025-11-05T11:30:00"
+publishDate: "2025-11-05T11:30:00+03:00"
+updatedDate: "2025-11-05T11:30:00+03:00"
 featuredImage: "/images/blog/seat-servis-avrupa-yakasi.jpg"
 imageAlt: "Seat servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 ogImage: "/images/blog/seat-servis-avrupa-yakasi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Seat DSG şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
 offerUrl: "/seat-servis-avrupa-yakasi"
+
 ---
 
 Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Seat servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Seat araçlarında DSG şanzıman, motor, turbo, elektronik, DPF, klima ve süspansiyon arızalarında uzmanlaşmıştır.

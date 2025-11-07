@@ -1,12 +1,14 @@
+
 ---
+
 title: "Örnek Blog Yazısı"
 description: "Bu bir örnek blog yazısı şablonudur. Yeni blog yazıları oluştururken bu şablonu kullanabilirsiniz."
 # ÖNEMLİ: publishDate ve updatedDate mutlaka saat bilgisi içermelidir! (WordPress gibi)
 # Format: "YYYY-MM-DDTHH:MM:SS" (ISO 8601 formatı)
 # Örnek: "2025-01-15T10:30:00" (sabah 10:30)
 # Aynı tarihli yazılar için farklı saatler kullanın (örn: 10:00, 10:30, 11:00)
-publishDate: "2025-01-15T10:30:00"
-updatedDate: "2025-01-15T10:30:00"
+publishDate: "2025-01-15T10:30:00+03:00"
+updatedDate: "2025-01-15T10:30:00+03:00"
 featuredImage: "/images/workshop.jpg"
 imageAlt: "DSG Servisi Atölyesi"
 category: "DSG"
@@ -19,6 +21,7 @@ seoDescription: "Bu bir örnek blog yazısı açıklamasıdır. SEO için öneml
 ogImage: "/images/workshop.jpg"
 readingTime: 5
 relatedPosts: []
+
 ---
 
 # Blog Yazısı Başlığı

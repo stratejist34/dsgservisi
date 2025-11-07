@@ -1,11 +1,13 @@
+
 ---
+
 title: "Otomatik Vites Selenoid Valf Arızası Nasıl Anlaşılır"
 description: "Otomatik vites solenoid valf arızası nasıl anlaşılır? Belirtiler, teşhis yöntemleri, test yöntemleri ve pratik kontroller. DSG, ZF otomatik şanzımanlar."
 category: "DSG"
 tags: ["otomatik vites", "selenoid valf", "arıza", "nasıl anlaşılır", "belirtiler", "teşhis", "dsg", "zf"]
 slug: "otomatik-vites-selenoid-valf-arizasi-nasil-anlasilir"
-publishDate: "2025-11-07T12:59:00"
-updatedDate: "2025-11-07T12:59:00"
+publishDate: "2025-11-07T12:59:00+03:00"
+updatedDate: "2025-11-07T12:59:00+03:00"
 featuredImage: "/images/blog/otomatik-vites-selenoid-valf-arizasi.jpg"
 imageAlt: "Otomatik vites solenoid valf arızası nasıl anlaşılır - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/otomatik-vites-selenoid-valf-arizasi.jpg"
@@ -20,6 +22,7 @@ serviceType: "Otomatik Şanzıman Teşhisi"
 serviceDescription: "Otomatik vites solenoid valf arızası teşhisi, belirtiler ve test yöntemleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/otomatik-vites-selenoid-valf-arizasi-nasil-anlasilir"
+
 ---
 
 Otomatik vites solenoid valf arızası, **DSG ve ZF otomatik şanzımanlarda** sık görülen bir sorundur. Solenoid valf arızası, vites geçiş sorunları, emniyet modu ve güç kaybı gibi belirtilerle kendini gösterir. Erken teşhis, maliyetli tamirlerden ve komple şanzıman değişiminden tasarruf sağlar.

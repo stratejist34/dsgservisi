@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG Kavrama Değişimi"
 description: "DSG kavrama değişimi belirtileri, süreç, 2026 fiyatları (kuru/ıslak), volant ve adaptasyon dahil uzman rehber. Marka/model bazında öneriler."
 category: "DSG"
 tags: ["dsg", "kavrama", "kavrama değişimi", "volant", "adaptasyon"]
 slug: "dsg-kavrama-degisimi"
-publishDate: "2025-11-04T10:00:00"
-updatedDate: "2025-11-04T10:00:00"
+publishDate: "2025-11-04T10:00:00+03:00"
+updatedDate: "2025-11-04T10:00:00+03:00"
 featuredImage: "/images/blog/dsg-kavrama-degisimi.jpg"
 imageAlt: "DSG kavrama değişimi atölye uygulaması"
 ogImage: "/images/blog/dsg-kavrama-degisimi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Şanzıman Kavrama Değişimi"
 serviceDescription: "DSG kuru/ıslak kavrama değişimi, volant kontrolü ve adaptasyon."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-kavrama-degisimi"
+
 ---
 
 DSG şanzımanlarda kavrama aşınması; kalkışta **titreme**, vites geçişinde **vuruntu**, geri viteste **silkeleme** ve rampada **kavrama kokusu** ile kendini gösterir. Çift kavrama sistemleri manuel şanzımana göre daha karmaşıktır; hem mekanik hem elektronik kontrol gerekir. Aşınma zamanla doğaldır; sürüş tarzı ve bakım kalitesi ömrü doğrudan etkiler.

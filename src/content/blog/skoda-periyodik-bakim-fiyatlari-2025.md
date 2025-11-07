@@ -1,11 +1,13 @@
+
 ---
+
 title: "Skoda Periyodik Bakım Fiyatları 2025"
 description: "Skoda periyodik bakım fiyatları 2025: Octavia, Superb, Kodiaq, Karoq, Fabia, Scala için yağ değişimi, filtre, fren, DSG DQ200/DQ250/DQ381, DPF, klima bakım fiyatları."
 category: "Skoda"
 tags: ["skoda", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "dsg", "dq200", "dq250", "dq381"]
 slug: "skoda-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-07T00:00:00"
-updatedDate: "2025-11-07T00:00:00"
+publishDate: "2025-11-07T00:00:00+03:00"
+updatedDate: "2025-11-07T00:00:00+03:00"
 featuredImage: "/images/blog/skoda-periyodik-bakim-fiyatlari.jpg"
 imageAlt: "Skoda periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/skoda-periyodik-bakim-fiyatlari.jpg"
@@ -21,6 +23,7 @@ lowPrice: 3000
 highPrice: 10000
 priceCurrency: "TRY"
 offerUrl: "/skoda-periyodik-bakim-fiyatlari-2025"
+
 ---
 
 Yıldızlar Grup, Skoda araçlarında periyodik bakım hizmetleri sunan uzman servis merkezidir. Octavia, Superb, Kodiaq, Karoq, Fabia, Scala modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %50-65 daha ekonomik periyodik bakım fiyatları sunuyoruz.

@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG Geri Kaçırma"
 description: "DSG geri kaçırma sorunu: Belirtileri, nedenleri ve çözümleri. DSG yokuşta geri kaçırma, kavrama sorunları ve mekatronik arızası."
 category: "DSG"
 tags: ["dsg", "geri kaçırma", "yokuşta geri kaçırma", "arıza", "belirtiler", "mekatronik", "kavrama"]
 slug: "dsg-geri-kacirma"
-publishDate: "2025-11-08T15:47:00"
-updatedDate: "2025-11-08T15:47:00"
+publishDate: "2025-11-08T15:47:00+03:00"
+updatedDate: "2025-11-08T15:47:00+03:00"
 featuredImage: "/images/blog/dsg-geri-kacirma.jpg"
 imageAlt: "DSG geri kaçırma - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-geri-kacirma.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Kavrama Arızası Teşhisi"
 serviceDescription: "DSG geri kaçırma sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-geri-kacirma"
+
 ---
 
 DSG geri kaçırma sorunu, **DSG şanzımanlarda yokuş yukarı çıkarken veya düşük hızlarda araçın geriye doğru kayması problemidir**. Bu sorun, kavrama aşınması, kavrama kontrol solenoid valfi arızası veya mekatronik modül sorunundan kaynaklanır. Geri kaçırma, kavrama tutuş gücünün yetersiz olduğunu veya kavrama kontrolünün bozulduğunu gösterir.

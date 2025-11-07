@@ -1,11 +1,13 @@
+
 ---
+
 title: "Range Rover Servis Avrupa Yakası"
 description: "Range Rover servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Range Rover ZF şanzıman, hava süspansiyon, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme."
 category: "Land Rover"
 tags: ["range rover", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "zf", "hava süspansiyon", "land rover"]
 slug: "range-rover-servis-avrupa-yakasi"
-publishDate: "2025-11-05T13:00:00"
-updatedDate: "2025-11-05T13:00:00"
+publishDate: "2025-11-05T13:00:00+03:00"
+updatedDate: "2025-11-05T13:00:00+03:00"
 featuredImage: "/images/blog/range-rover-servis-avrupa-yakasi.jpg"
 imageAlt: "Range Rover servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 ogImage: "/images/blog/range-rover-servis-avrupa-yakasi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Range Rover ZF şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
 offerUrl: "/range-rover-servis-avrupa-yakasi"
+
 ---
 
 Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Range Rover servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Range Rover araçlarında ZF şanzıman, hava süspansiyon, motor, turbo, elektronik, Terrain Response ve klima arızalarında uzmanlaşmıştır.

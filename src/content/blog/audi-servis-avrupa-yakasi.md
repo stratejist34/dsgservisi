@@ -1,11 +1,13 @@
+
 ---
+
 title: "Audi Servis Avrupa Yakası"
 description: "Audi servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Audi DSG/S‑Tronic, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme."
 category: "Audi"
 tags: ["audi", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar"]
 slug: "audi-servis-avrupa-yakasi"
-publishDate: "2025-11-05T09:00:00"
-updatedDate: "2025-11-05T09:00:00"
+publishDate: "2025-11-05T09:00:00+03:00"
+updatedDate: "2025-11-05T09:00:00+03:00"
 featuredImage: "/images/blog/audi-servis-avrupa-yakasi.jpg"
 imageAlt: "Audi servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 ogImage: "/images/blog/audi-servis-avrupa-yakasi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Audi DSG/S‑Tronic, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
 offerUrl: "/audi-servis-avrupa-yakasi"
+
 ---
 
 Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Audi servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Audi araçlarında DSG/S‑Tronic şanzıman, motor, turbo, elektronik, quattro ve klima arızalarında uzmanlaşmıştır.

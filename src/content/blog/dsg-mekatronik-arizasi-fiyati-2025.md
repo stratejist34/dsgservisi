@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG Mekatronik Arızası Fiyatı 2025"
 description: "DSG mekatronik arızası fiyatları 2025: DQ200, DQ250, DQ381/DQ500 mekatronik tamiri, solenoid değişimi, revizyon ve komple değişim fiyatları."
 category: "DSG"
 tags: ["dsg", "mekatronik", "arıza", "fiyat", "2025", "dq200", "dq250", "dq381", "dq500"]
 slug: "dsg-mekatronik-arizasi-fiyati-2025"
-publishDate: "2025-11-07T11:11:00"
-updatedDate: "2025-11-07T11:11:00"
+publishDate: "2025-11-07T11:11:00+03:00"
+updatedDate: "2025-11-07T11:11:00+03:00"
 featuredImage: "/images/blog/dsg-mekatronik-arizasi-2025.jpg"
 imageAlt: "DSG mekatronik arızası fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-mekatronik-arizasi-2025.jpg"
@@ -23,6 +25,7 @@ lowPrice: 9000
 highPrice: 50000
 priceCurrency: "TRY"
 offerUrl: "/dsg-mekatronik-arizasi-fiyati-2025"
+
 ---
 
 DSG mekatronik arızası, **DQ200, DQ250 ve DQ381/DQ500** şanzımanlarında sık görülen bir sorundur. Mekatronik modül; solenoid valf, hidrolik pompa, basınç sensörleri ve elektronik kart gibi kritik bileşenlerden oluşur ve arıza durumunda vites geçiş sorunları, emniyet modu ve güç kaybı belirtileri görülür.

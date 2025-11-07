@@ -1,11 +1,13 @@
+
 ---
+
 title: "Şanzıman İndirme Ücreti 2025"
 description: "Şanzıman indirme ücreti 2025: DSG, ZF, konvansiyonel otomatik şanzıman söküm işçilik fiyatları. Model bazında şanzıman indirme ücretleri."
 category: "DSG"
 tags: ["şanzıman indirme", "söküm", "işçilik", "fiyat", "2025", "dsg", "zf"]
 slug: "sanziman-indirme-ucreti-2025"
-publishDate: "2025-11-07T11:12:00"
-updatedDate: "2025-11-07T11:12:00"
+publishDate: "2025-11-07T11:12:00+03:00"
+updatedDate: "2025-11-07T11:12:00+03:00"
 featuredImage: "/images/blog/sanziman-indirme-ucreti.jpg"
 imageAlt: "Şanzıman indirme ücreti 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/sanziman-indirme-ucreti.jpg"
@@ -23,6 +25,7 @@ lowPrice: 2000
 highPrice: 8000
 priceCurrency: "TRY"
 offerUrl: "/sanziman-indirme-ucreti-2025"
+
 ---
 
 Şanzıman indirme ücreti, **DSG, ZF ve konvansiyonel otomatik şanzıman** tamiri veya değişimi için gerekli söküm işçilik maliyetidir. Şanzıman tipi, model, erişim zorluğu ve işçilik süresine göre fiyatlar değişir. Basit erişimli modellerde 2.000–4.000₺, zor erişimli modellerde 4.000–8.000₺ aralığındadır.

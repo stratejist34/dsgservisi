@@ -1,11 +1,13 @@
+
 ---
+
 title: "7 İleri DSG Mekatronik Kartı Fiyatı"
 description: "7 ileri DSG mekatronik kartı fiyatı 2025: DQ200, DQ380, DQ381 mekatronik kart tamiri ve değişim fiyatları. Golf, Passat, A3, A4, Octavia için mekatronik kart fiyatları."
 category: "DSG"
 tags: ["dsg", "7 ileri", "mekatronik kart", "fiyat", "dq200", "dq380", "dq381", "2025"]
 slug: "7-ileri-dsg-mekatronik-karti-fiyati"
-publishDate: "2025-11-09T13:15:00"
-updatedDate: "2025-11-09T13:15:00"
+publishDate: "2025-11-09T13:15:00+03:00"
+updatedDate: "2025-11-09T13:15:00+03:00"
 featuredImage: "/images/blog/7-ileri-dsg-mekatronik-karti-fiyati.jpg"
 imageAlt: "7 ileri DSG mekatronik kartı fiyatı - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/7-ileri-dsg-mekatronik-karti-fiyati.jpg"
@@ -23,6 +25,7 @@ lowPrice: 5000
 highPrice: 15000
 priceCurrency: "TRY"
 offerUrl: "/7-ileri-dsg-mekatronik-karti-fiyati"
+
 ---
 
 7 ileri DSG mekatronik kartı fiyatı, **DQ200 (kuru kavrama), DQ380 ve DQ381 (ıslak kavrama) şanzıman tiplerine göre değişir**. 7 ileri DSG şanzımanlar, Golf, Passat, A3, A4, Octavia ve Superb gibi modellerde yaygın olarak kullanılır. Mekatronik kart, şanzımanın elektronik kontrol ünitesidir ve solenoid valfleri, sensörleri ve kavrama sistemini yönetir.
@@ -301,7 +304,7 @@ Evet, kart değişimi sonrası mutlaka adaptasyon ve kalibrasyon yapılmalıdır
 
 Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis gerekir.
 
----
+
 
 **7 ileri DSG mekatronik kartı sorununuz mu var?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

@@ -1,11 +1,13 @@
+
 ---
+
 title: "Polo Şanzıman Tamiri Fiyatı"
 description: "Polo şanzıman tamiri fiyatı 2025: Polo DSG DQ200 tamiri, mekatronik revizyonu, kavrama değişimi, solenoid değişimi fiyatları. Polo şanzıman arızası tamiri."
 category: "DSG"
 tags: ["polo", "şanzıman tamiri", "fiyat", "2025", "dq200", "dsg", "volkswagen"]
 slug: "polo-sanziman-tamiri-fiyati"
-publishDate: "2025-11-07T19:07:00"
-updatedDate: "2025-11-07T19:07:00"
+publishDate: "2025-11-07T19:07:00+03:00"
+updatedDate: "2025-11-07T19:07:00+03:00"
 featuredImage: "/images/blog/polo-sanziman-tamiri-fiyati.jpg"
 imageAlt: "Polo şanzıman tamiri fiyatı 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/polo-sanziman-tamiri-fiyati.jpg"
@@ -23,6 +25,7 @@ lowPrice: 3500
 highPrice: 45500
 priceCurrency: "TRY"
 offerUrl: "/polo-sanziman-tamiri-fiyati"
+
 ---
 
 Polo şanzıman tamiri fiyatı, **Polo modellerinde kullanılan DSG DQ200 (7 ileri kuru kavrama) şanzıman tipine göre değişir**. Polo'da DQ200 şanzıman kullanılır ve şanzıman tamiri; yağ değişimi, mekatronik revizyonu, kavrama değişimi ve solenoid değişimi gibi işlemleri içerir. DQ200, kuru kavrama sistemi olarak kompakt yapısıyla dikkat çeker ancak düzenli bakım gerektirir.

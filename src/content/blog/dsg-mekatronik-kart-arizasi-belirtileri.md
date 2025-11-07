@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG Mekatronik Kart Arızası Belirtileri"
 description: "DSG mekatronik kart arızası belirtileri nelerdir? Nasıl anlaşılır? Mekatronik kart arızası teşhisi, çözümleri ve fiyatları. Yıldızlar Grup DSG Servisi."
 category: "DSG"
 tags: ["dsg", "mekatronik kart", "arıza belirtileri", "elektronik kart", "teşhis", "tamir"]
 slug: "dsg-mekatronik-kart-arizasi-belirtileri"
-publishDate: "2025-11-09T11:11:00"
-updatedDate: "2025-11-09T11:11:00"
+publishDate: "2025-11-09T11:11:00+03:00"
+updatedDate: "2025-11-09T11:11:00+03:00"
 featuredImage: "/images/blog/dsg-mekatronik-kart-arizasi-belirtileri.jpg"
 imageAlt: "DSG mekatronik kart arızası belirtileri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-mekatronik-kart-arizasi-belirtileri.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Mekatronik Kart Tamiri"
 serviceDescription: "DSG mekatronik kart arızası belirtileri, teşhisi ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-mekatronik-kart-arizasi-belirtileri"
+
 ---
 
 DSG mekatronik kart arızası, **DSG şanzıman sisteminin elektronik kontrol ünitesinde meydana gelen sorunlardır**. Mekatronik kart, şanzımanın beyni konumundadır ve solenoid valfleri, sensörleri ve kavrama sistemini kontrol eder. Kart arızası, şanzıman performansını ciddi şekilde etkiler ve çeşitli belirtilerle kendini gösterir.
@@ -309,7 +312,7 @@ Evet, kart değişimi sonrası mutlaka adaptasyon ve kalibrasyon yapılmalıdır
 
 Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis gerekir.
 
----
+
 
 **DSG mekatronik kart arızası belirtileri mi görüyorsunuz?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

@@ -1,11 +1,13 @@
+
 ---
+
 title: "Otomatik Şanzıman Yağ Kaçağı Tamiri Fiyat"
 description: "DSG ve otomatik şanzıman yağ kaçağı tamiri fiyatları 2026: keçe değişimi, conta tamiri, karter sızdırmazlık, mekatronik conta, yağ soğutucu bağlantıları. Volkswagen, Audi, BMW, Mercedes."
 category: "DSG"
 tags: ["otomatik şanzıman", "yağ kaçağı", "tamir", "fiyat", "dsg", "keçe", "conta", "2026"]
 slug: "otomatik-sanziman-yag-kacagi-tamiri-fiyat"
-publishDate: "2025-11-07T00:30:00"
-updatedDate: "2025-11-07T00:30:00"
+publishDate: "2025-11-07T00:30:00+03:00"
+updatedDate: "2025-11-07T00:30:00+03:00"
 featuredImage: "/images/blog/otomatik-sanziman-yag-kacagi.jpg"
 imageAlt: "DSG otomatik şanzıman yağ kaçağı tamiri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/otomatik-sanziman-yag-kacagi.jpg"
@@ -23,6 +25,7 @@ lowPrice: 1500
 highPrice: 8000
 priceCurrency: "TRY"
 offerUrl: "/otomatik-sanziman-yag-kacagi-tamiri-fiyat"
+
 ---
 
 Otomatik şanzıman yağ kaçağı, DSG ve konvansiyonel otomatik şanzımanlarda **sık görülen bir sorundur**. Yağ kaçağı; keçe aşınması, conta hasarı, karter çatlağı, mekatronik modül sızdırmazlık sorunları veya yağ soğutucu bağlantı hatalarından kaynaklanabilir. Erken teşhis ve müdahale, şanzıman hasarını ve maliyeti önemli ölçüde azaltır.

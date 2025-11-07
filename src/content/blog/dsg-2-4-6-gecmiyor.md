@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG 2 4 6 Geçmiyor"
 description: "DSG 2 4 6 geçmiyor sorunu: Belirtileri, nedenleri ve çözümleri. DSG çift numaralı vitesler geçmiyor, mekatronik arızası ve kavrama sorunları."
 category: "DSG"
 tags: ["dsg", "2 4 6 geçmiyor", "çift numaralı vitesler", "arıza", "belirtiler", "mekatronik", "kavrama"]
 slug: "dsg-2-4-6-gecmiyor"
-publishDate: "2025-11-08T12:44:00"
-updatedDate: "2025-11-08T12:44:00"
+publishDate: "2025-11-08T12:44:00+03:00"
+updatedDate: "2025-11-08T12:44:00+03:00"
 featuredImage: "/images/blog/dsg-2-4-6-gecmiyor.jpg"
 imageAlt: "DSG 2 4 6 geçmiyor - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-2-4-6-gecmiyor.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Vites Geçiş Arızası Teşhisi"
 serviceDescription: "DSG 2 4 6 geçmiyor sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-2-4-6-gecmiyor"
+
 ---
 
 DSG 2 4 6 geçmiyor sorunu, **DSG şanzımanlarda çift numaralı viteslerin (2, 4, 6) geçmediği veya zor geçtiği ciddi bir arızadır**. DSG şanzımanlar çift kavrama sistemi kullanır; birinci kavrama tek numaralı vitesleri (1, 3, 5, 7), ikinci kavrama çift numaralı vitesleri (2, 4, 6) kontrol eder. Çift numaralı viteslerin geçmemesi, ikinci kavrama veya ilgili mekatronik bileşenlerde sorun olduğunu gösterir.

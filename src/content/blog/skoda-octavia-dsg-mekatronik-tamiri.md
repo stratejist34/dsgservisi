@@ -1,8 +1,10 @@
+
 ---
+
 title: "Skoda Octavia DSG Mekatronik Tamiri"
 description: "Skoda Octavia DSG mekatronik tamiri: Vites geçiş sorunları, valf body arızası, hidrolik pompa onarımı. DQ200, DQ250 şanzıman uzmanı. Beykent, Büyükçekmece İstanbul."
-publishDate: "2025-10-28T10:00:00"
-updatedDate: "2025-10-28T10:00:00"
+publishDate: "2025-10-28T10:00:00+03:00"
+updatedDate: "2025-10-28T10:00:00+03:00"
 featuredImage: "/images/blog/skoda-octavia-dsg-mekatronik-tamiri.jpg"
 imageAlt: "Skoda Octavia DSG Mekatronik Tamiri"
 category: "DSG"
@@ -19,6 +21,7 @@ serviceType: "DSG Mekatronik Tamiri"
 serviceDescription: "Skoda Octavia DSG mekatronik arızalarında uzman teşhis ve tamir."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/skoda-octavia-dsg-mekatronik-tamiri"
+
 ---
 
 <style>

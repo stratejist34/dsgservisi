@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG P Yanıp Sönüyor Araba Çalışmıyor"
 description: "DSG P yanıp sönüyor araba çalışmıyor sorunu: Belirtileri, nedenleri ve çözümleri. DSG şanzıman arızası, mekatronik sorunları ve P konumu hatası."
 category: "DSG"
 tags: ["dsg", "p yanıp sönüyor", "araba çalışmıyor", "arıza", "belirtiler", "mekatronik", "vites konumu"]
 slug: "dsg-p-yanip-sonuyor-araba-calismiyor"
-publishDate: "2025-11-08T09:53:00"
-updatedDate: "2025-11-08T09:53:00"
+publishDate: "2025-11-08T09:53:00+03:00"
+updatedDate: "2025-11-08T09:53:00+03:00"
 featuredImage: "/images/blog/dsg-p-yanip-sonuyor-araba-calismiyor.jpg"
 imageAlt: "DSG P yanıp sönüyor araba çalışmıyor - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-p-yanip-sonuyor-araba-calismiyor.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Vites Konumu Arızası Teşhisi"
 serviceDescription: "DSG P yanıp sönüyor araba çalışmıyor sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-p-yanip-sonuyor-araba-calismiyor"
+
 ---
 
 DSG P yanıp sönüyor araba çalışmıyor sorunu, **DSG şanzımanlarda vites konumu algılama hatasını gösteren ciddi bir arızadır**. Vites göstergesinde P (Park) konumunun yanıp sönmesi ve aracın çalışmaması, şanzıman kontrol ünitesinin (TCU) vites konumunu algılayamadığını veya mekatronik modülde bir sorun olduğunu işaret eder. Bu durum, güvenlik nedeniyle motorun çalışmasını engeller.

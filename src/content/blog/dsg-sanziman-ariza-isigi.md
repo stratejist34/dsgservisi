@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG Şanzıman Arıza Işığı"
 description: "DSG şanzıman arıza ışığı nedir? Belirtileri, nedenleri ve çözümleri. DSG şanzıman uyarı lambası, mekatronik arızası ve arıza ışığı sorunları."
 category: "DSG"
 tags: ["dsg", "arıza ışığı", "uyarı lambası", "belirtiler", "mekatronik", "şanzıman arızası"]
 slug: "dsg-sanziman-ariza-isigi"
-publishDate: "2025-11-08T10:58:00"
-updatedDate: "2025-11-08T10:58:00"
+publishDate: "2025-11-08T10:58:00+03:00"
+updatedDate: "2025-11-08T10:58:00+03:00"
 featuredImage: "/images/blog/dsg-sanziman-ariza-isigi.jpg"
 imageAlt: "DSG şanzıman arıza ışığı - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-sanziman-ariza-isigi.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Şanzıman Arızası Teşhisi"
 serviceDescription: "DSG şanzıman arıza ışığı teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-sanziman-ariza-isigi"
+
 ---
 
 DSG şanzıman arıza ışığı, **DSG şanzıman sisteminde bir sorun olduğunu gösteren önemli bir uyarıdır**. Gösterge panelinde yanan şanzıman uyarı lambası (genellikle sarı veya kırmızı renkte), şanzıman kontrol ünitesinin (TCU) bir arıza tespit ettiğini gösterir. Bu uyarı, mekatronik modül arızası, kavrama sorunları, yağ basıncı problemi veya elektronik kart hatası gibi ciddi sorunların belirtisi olabilir.

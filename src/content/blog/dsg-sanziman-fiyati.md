@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG Şanzıman Fiyatı"
 description: "DSG şanzıman fiyatları 2025: DQ200, DQ250, DQ381/DQ500 komple değişim fiyatları. Yenilenmiş, çıkma ve sıfır ünite fiyatları. Model bazında DSG şanzıman fiyatları."
 category: "DSG"
 tags: ["dsg", "şanzıman", "fiyat", "2025", "dq200", "dq250", "dq381", "komple değişim"]
 slug: "dsg-sanziman-fiyati"
-publishDate: "2025-11-07T14:20:00"
-updatedDate: "2025-11-07T14:20:00"
+publishDate: "2025-11-07T14:20:00+03:00"
+updatedDate: "2025-11-07T14:20:00+03:00"
 featuredImage: "/images/blog/dsg-sanziman-fiyati.jpg"
 imageAlt: "DSG şanzıman fiyatı 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-sanziman-fiyati.jpg"
@@ -23,6 +25,7 @@ lowPrice: 24000
 highPrice: 104000
 priceCurrency: "TRY"
 offerUrl: "/dsg-sanziman-fiyati"
+
 ---
 
 DSG şanzıman fiyatları, **şanzıman tipine (DQ200, DQ250, DQ381/DQ500)**, **ünite kalitesine (yenilenmiş, çıkma, sıfır)** ve **model** bazında değişir. DSG şanzıman değişimi, revizyonla çözülemeyen ağır arızalarda gerekli olan komple değişim işlemidir. Kod uyumluluğu kritiktir; yanlış kod seçimi araç çalışmayabilir veya sürekli arıza verebilir.

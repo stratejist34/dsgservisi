@@ -1,11 +1,13 @@
+
 ---
+
 title: "Volkswagen Periyodik Bakım Fiyatları 2025"
 description: "Volkswagen periyodik bakım fiyatları 2025: Golf, Polo, Passat, Tiguan, Jetta, T-Roc için yağ değişimi, filtre, fren, DSG DQ200/DQ250/DQ381/DQ500, DPF, klima bakım fiyatları."
 category: "Volkswagen"
 tags: ["volkswagen", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "dsg", "dq200", "dq250", "dq381", "dq500"]
 slug: "volkswagen-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-07T00:00:00"
-updatedDate: "2025-11-07T00:00:00"
+publishDate: "2025-11-07T00:00:00+03:00"
+updatedDate: "2025-11-07T00:00:00+03:00"
 featuredImage: "/images/blog/volkswagen-periyodik-bakim-fiyatlari.jpg"
 imageAlt: "Volkswagen periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/volkswagen-periyodik-bakim-fiyatlari.jpg"
@@ -21,6 +23,7 @@ lowPrice: 3000
 highPrice: 10000
 priceCurrency: "TRY"
 offerUrl: "/volkswagen-periyodik-bakim-fiyatlari-2025"
+
 ---
 
 Yıldızlar Grup, Volkswagen araçlarında periyodik bakım hizmetleri sunan uzman servis merkezidir. Golf, Polo, Passat, Tiguan, Jetta, T-Roc modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %50-65 daha ekonomik periyodik bakım fiyatları sunuyoruz.

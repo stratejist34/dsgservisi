@@ -1,11 +1,13 @@
+
 ---
+
 title: "Beylikdüzü Land Rover Servis"
 description: "Beylikdüzü Land Rover servis: Range Rover, Discovery, Evoque modellerinde ZF şanzıman, hava süspansiyon, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme, aynı gün teslimat."
 category: "Land Rover"
 tags: ["land rover", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "zf", "hava süspansiyon", "range rover"]
 slug: "beylikduzu-land-rover-servis"
-publishDate: "2025-11-05T14:30:00"
-updatedDate: "2025-11-05T14:30:00"
+publishDate: "2025-11-05T14:30:00+03:00"
+updatedDate: "2025-11-05T14:30:00+03:00"
 featuredImage: "/images/blog/beylikduzu-land-rover-servis.jpg"
 imageAlt: "Beylikdüzü Land Rover servis - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/beylikduzu-land-rover-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Land Rover ZF şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
 offerUrl: "/beylikduzu-land-rover-servis"
+
 ---
 
 Yıldızlar Grup, Beylikdüzü bölgesine özel Land Rover servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü'nün tüm mahallelerinden (Yakuplu, Saadetdere, Kavaklı, Gürpınar, Adnan Kahveci, Dereağzı, Marmara) 10 dakika mesafede bulunan atölyemiz, Land Rover araçlarında ZF şanzıman, hava süspansiyon, motor, turbo, elektronik, Terrain Response ve klima arızalarında uzmanlaşmıştır.

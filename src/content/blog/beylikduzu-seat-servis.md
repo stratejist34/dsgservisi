@@ -1,11 +1,13 @@
+
 ---
+
 title: "Beylikdüzü Seat Servis"
 description: "Beylikdüzü Seat servis: Leon, Ibiza, Arona, Ateca, Tarraco modellerinde DSG şanzıman, motor, turbo, DPF tamiri. Merkezi konum, ücretsiz araç çekme, aynı gün teslimat."
 category: "Seat"
 tags: ["seat", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "dsg", "leon", "ibiza"]
 slug: "beylikduzu-seat-servis"
-publishDate: "2025-11-05T16:00:00"
-updatedDate: "2025-11-05T16:00:00"
+publishDate: "2025-11-05T16:00:00+03:00"
+updatedDate: "2025-11-05T16:00:00+03:00"
 featuredImage: "/images/blog/beylikduzu-seat-servis.jpg"
 imageAlt: "Beylikdüzü Seat servis - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/beylikduzu-seat-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Seat DSG şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
 offerUrl: "/beylikduzu-seat-servis"
+
 ---
 
 Yıldızlar Grup, Beylikdüzü bölgesine özel Seat servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü'nün tüm mahallelerinden (Yakuplu, Saadetdere, Kavaklı, Gürpınar, Adnan Kahveci, Dereağzı, Marmara) 10 dakika mesafede bulunan atölyemiz, Seat araçlarında DSG şanzıman, motor, turbo, elektronik, DPF, klima ve süspansiyon arızalarında uzmanlaşmıştır.

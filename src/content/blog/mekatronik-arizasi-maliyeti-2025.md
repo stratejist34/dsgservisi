@@ -1,11 +1,13 @@
+
 ---
+
 title: "Mekatronik Arızası Maliyeti 2025"
 description: "Mekatronik arızası maliyeti 2025: DSG mekatronik tamiri, revizyonu, solenoid değişimi ve komple değişim maliyetleri. DQ200, DQ250, DQ381/DQ500 için maliyet analizi."
 category: "DSG"
 tags: ["mekatronik", "arıza", "maliyet", "2025", "dsg", "tamir", "revizyon", "fiyat"]
 slug: "mekatronik-arizasi-maliyeti-2025"
-publishDate: "2025-11-07T15:00:00"
-updatedDate: "2025-11-07T15:00:00"
+publishDate: "2025-11-07T15:00:00+03:00"
+updatedDate: "2025-11-07T15:00:00+03:00"
 featuredImage: "/images/blog/mekatronik-arizasi-maliyeti-2025.jpg"
 imageAlt: "Mekatronik arızası maliyeti 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/mekatronik-arizasi-maliyeti-2025.jpg"
@@ -23,6 +25,7 @@ lowPrice: 9000
 highPrice: 50000
 priceCurrency: "TRY"
 offerUrl: "/mekatronik-arizasi-maliyeti-2025"
+
 ---
 
 Mekatronik arızası maliyeti, **DSG şanzımanlarda en yaygın ve maliyetli arıza türlerinden biridir**. Mekatronik modül; solenoid valf, hidrolik pompa, basınç sensörleri ve elektronik kart gibi kritik bileşenlerden oluşur. Arıza kapsamına göre maliyet değişir; basit solenoid değişimi 9.000–16.500₺, mekatronik revizyonu 14.000–27.000₺, komple mekatronik değişimi 18.000–35.000₺ aralığındadır.

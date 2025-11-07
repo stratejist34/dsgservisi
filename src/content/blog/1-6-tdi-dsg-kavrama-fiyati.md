@@ -1,11 +1,13 @@
+
 ---
+
 title: "1.6 TDI DSG Kavrama Fiyatı"
 description: "1.6 TDI DSG kavrama fiyatı 2025: DQ200 kuru kavrama değişimi fiyatları. Golf, A3, Octavia, Leon için 1.6 TDI DSG kavrama değişim fiyatları ve volant dahil toplam maliyet."
 category: "DSG"
 tags: ["dsg", "1.6 tdi", "kavrama", "fiyat", "dq200", "kuru kavrama", "2025"]
 slug: "1-6-tdi-dsg-kavrama-fiyati"
-publishDate: "2025-11-09T16:48:00"
-updatedDate: "2025-11-09T16:48:00"
+publishDate: "2025-11-09T16:48:00+03:00"
+updatedDate: "2025-11-09T16:48:00+03:00"
 featuredImage: "/images/blog/1-6-tdi-dsg-kavrama-fiyati.jpg"
 imageAlt: "1.6 TDI DSG kavrama fiyatı - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/1-6-tdi-dsg-kavrama-fiyati.jpg"
@@ -23,6 +25,7 @@ lowPrice: 12000
 highPrice: 25000
 priceCurrency: "TRY"
 offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
+
 ---
 
 1.6 TDI DSG kavrama fiyatı, **DQ200 (7 ileri kuru kavrama) şanzıman tipine göre değişir**. 1.6 TDI motor, Golf, A3, Octavia ve Leon gibi modellerde yaygın olarak kullanılır ve DQ200 şanzıman ile eşleştirilir. DQ200, kuru kavrama sistemi olarak kompakt yapısıyla dikkat çeker ancak kavrama aşınması zamanla meydana gelebilir.
@@ -269,7 +272,7 @@ Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis
 
 Volant sağlam ise zorunlu değildir ancak hasarlı veya şüpheli ise mutlaka değiştirilmelidir.
 
----
+
 
 **1.6 TDI DSG kavrama sorununuz mu var?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

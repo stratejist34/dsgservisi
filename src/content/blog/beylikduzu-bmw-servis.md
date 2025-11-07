@@ -1,11 +1,13 @@
+
 ---
+
 title: "Beylikdüzü BMW Servis"
 description: "Beylikdüzü BMW servis: 3 Serisi, 5 Serisi, X3, X5, X6 modellerinde ZF şanzıman, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme, aynı gün teslimat."
 category: "BMW"
 tags: ["bmw", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "zf", "sport", "xdrive"]
 slug: "beylikduzu-bmw-servis"
-publishDate: "2025-11-05T14:00:00"
-updatedDate: "2025-11-05T14:00:00"
+publishDate: "2025-11-05T14:00:00+03:00"
+updatedDate: "2025-11-05T14:00:00+03:00"
 featuredImage: "/images/blog/beylikduzu-bmw-servis.jpg"
 imageAlt: "Beylikdüzü BMW servis - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/beylikduzu-bmw-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine BMW ZF şanzıman, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
 offerUrl: "/beylikduzu-bmw-servis"
+
 ---
 
 Yıldızlar Grup, Beylikdüzü bölgesine özel BMW servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü'nün tüm mahallelerinden (Yakuplu, Saadetdere, Kavaklı, Gürpınar, Adnan Kahveci, Dereağzı, Marmara) 10 dakika mesafede bulunan atölyemiz, BMW araçlarında ZF şanzıman, motor, turbo, elektronik, xDrive ve klima arızalarında uzmanlaşmıştır.

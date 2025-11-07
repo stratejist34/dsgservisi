@@ -1,11 +1,13 @@
+
 ---
+
 title: "Mercedes Periyodik Bakım Fiyatları 2025"
 description: "Mercedes periyodik bakım fiyatları 2025: C, E, A, S Serisi, CLA, GLC, GLE için yağ değişimi, filtre, fren, 7G-Tronic/9G-Tronic, Airmatic, klima bakım fiyatları."
 category: "Mercedes"
 tags: ["mercedes", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "7g-tronic", "9g-tronic", "airmatic"]
 slug: "mercedes-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-05T19:00:00"
-updatedDate: "2025-11-05T19:00:00"
+publishDate: "2025-11-05T19:00:00+03:00"
+updatedDate: "2025-11-05T19:00:00+03:00"
 featuredImage: "/images/blog/mercedes-periyodik-bakim-fiyatlari.jpg"
 imageAlt: "Mercedes periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/mercedes-periyodik-bakim-fiyatlari.jpg"
@@ -21,6 +23,7 @@ lowPrice: 3500
 highPrice: 13000
 priceCurrency: "TRY"
 offerUrl: "/mercedes-periyodik-bakim-fiyatlari-2025"
+
 ---
 
 Yıldızlar Grup, Mercedes-Benz araçlarında periyodik bakım hizmetleri sunan uzman servis merkezidir. C, E, A, S Serisi, CLA, CLS, GLA, GLC, GLE, GLS modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %50-70 daha ekonomik periyodik bakım fiyatları sunuyoruz.

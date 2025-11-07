@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG 1 3 5 7 Geçmiyor"
 description: "DSG 1 3 5 7 geçmiyor sorunu: Belirtileri, nedenleri ve çözümleri. DSG tek numaralı vitesler geçmiyor, mekatronik arızası ve kavrama sorunları."
 category: "DSG"
 tags: ["dsg", "1 3 5 7 geçmiyor", "tek numaralı vitesler", "arıza", "belirtiler", "mekatronik", "kavrama"]
 slug: "dsg-1-3-5-7-gecmiyor"
-publishDate: "2025-11-08T11:57:00"
-updatedDate: "2025-11-08T11:57:00"
+publishDate: "2025-11-08T11:57:00+03:00"
+updatedDate: "2025-11-08T11:57:00+03:00"
 featuredImage: "/images/blog/dsg-1-3-5-7-gecmiyor.jpg"
 imageAlt: "DSG 1 3 5 7 geçmiyor - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-1-3-5-7-gecmiyor.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Vites Geçiş Arızası Teşhisi"
 serviceDescription: "DSG 1 3 5 7 geçmiyor sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-1-3-5-7-gecmiyor"
+
 ---
 
 DSG 1 3 5 7 geçmiyor sorunu, **DSG şanzımanlarda tek numaralı viteslerin (1, 3, 5, 7) geçmediği veya zor geçtiği ciddi bir arızadır**. DSG şanzımanlar çift kavrama sistemi kullanır; birinci kavrama tek numaralı vitesleri (1, 3, 5, 7), ikinci kavrama çift numaralı vitesleri (2, 4, 6) kontrol eder. Tek numaralı viteslerin geçmemesi, birinci kavrama veya ilgili mekatronik bileşenlerde sorun olduğunu gösterir.

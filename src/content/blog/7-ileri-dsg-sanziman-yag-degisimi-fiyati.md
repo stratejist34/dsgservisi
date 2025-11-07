@@ -1,11 +1,13 @@
+
 ---
+
 title: "7 İleri DSG Şanzıman Yağ Değişimi Fiyatı"
 description: "7 ileri DSG şanzıman yağ değişimi fiyatı 2025: DQ200, DQ380, DQ381 şanzıman yağı değişimi fiyatları. Golf, Passat, A3, A4, Octavia için 7 ileri DSG yağ değişim fiyatları."
 category: "DSG"
 tags: ["dsg", "7 ileri", "şanzıman yağı", "yağ değişimi", "fiyat", "dq200", "dq380", "dq381", "2025"]
 slug: "7-ileri-dsg-sanziman-yag-degisimi-fiyati"
-publishDate: "2025-11-10T10:12:00"
-updatedDate: "2025-11-10T10:12:00"
+publishDate: "2025-11-10T10:12:00+03:00"
+updatedDate: "2025-11-10T10:12:00+03:00"
 featuredImage: "/images/blog/7-ileri-dsg-sanziman-yag-degisimi-fiyati.jpg"
 imageAlt: "7 ileri DSG şanzıman yağ değişimi fiyatı - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/7-ileri-dsg-sanziman-yag-degisimi-fiyati.jpg"
@@ -23,6 +25,7 @@ lowPrice: 2500
 highPrice: 5500
 priceCurrency: "TRY"
 offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
+
 ---
 
 7 ileri DSG şanzıman yağ değişimi fiyatı, **DQ200 (kuru kavrama), DQ380 ve DQ381 (ıslak kavrama) şanzıman tiplerine göre değişir**. 7 ileri DSG şanzımanlar, Golf, Passat, A3, A4, Octavia ve Superb gibi modellerde yaygın olarak kullanılır. Şanzıman yağı, şanzımanın ömrünü ve performansını doğrudan etkiler.
@@ -264,7 +267,7 @@ Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis
 
 Mutlaka orijinal DSG yağı (G 052 182) kullanılmalıdır. Yanlış yağ kullanımı şanzıman arızasına neden olabilir.
 
----
+
 
 **7 ileri DSG şanzıman yağ değişimi için:** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz hizmetiniz için hazır!
 

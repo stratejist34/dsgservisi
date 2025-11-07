@@ -1,11 +1,13 @@
+
 ---
+
 title: "Audi Periyodik Bakım Fiyatları 2025"
 description: "Audi periyodik bakım fiyatları 2025: A3, A4, A5, A6, Q3, Q5, Q7, Q8 için yağ değişimi, filtre, fren, DSG/S‑Tronic, klima bakım fiyatları. Detaylı fiyat tablosu ve bakım periyotları."
 category: "Audi"
 tags: ["audi", "periyodik bakım", "bakım fiyatları", "2025", "yağ değişimi", "filtre", "fren", "dsg", "s-tronic"]
 slug: "audi-periyodik-bakim-fiyatlari-2025"
-publishDate: "2025-11-05T17:30:00"
-updatedDate: "2025-11-05T17:30:00"
+publishDate: "2025-11-05T17:30:00+03:00"
+updatedDate: "2025-11-05T17:30:00+03:00"
 featuredImage: "/images/blog/audi-periyodik-bakim-fiyatlari.jpg"
 imageAlt: "Audi periyodik bakım fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/audi-periyodik-bakim-fiyatlari.jpg"
@@ -21,6 +23,7 @@ lowPrice: 2500
 highPrice: 13000
 priceCurrency: "TRY"
 offerUrl: "/audi-periyodik-bakim-fiyatlari-2025"
+
 ---
 
 Yıldızlar Grup, Audi araçlarında periyodik bakım hizmetleri sunan uzman servis merkezidir. A3, A4, A5, A6, Q3, Q5, Q7, Q8 modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, %50-70 daha ekonomik periyodik bakım fiyatları sunuyoruz.

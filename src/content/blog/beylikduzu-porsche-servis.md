@@ -1,11 +1,13 @@
+
 ---
+
 title: "Beylikdüzü Porsche Servis"
 description: "Beylikdüzü Porsche servis: 911, Cayenne, Macan, Panamera modellerinde PDK şanzıman, hava süspansiyon, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme, aynı gün teslimat."
 category: "Porsche"
 tags: ["porsche", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "pdk", "cayenne", "macan"]
 slug: "beylikduzu-porsche-servis"
-publishDate: "2025-11-05T15:30:00"
-updatedDate: "2025-11-05T15:30:00"
+publishDate: "2025-11-05T15:30:00+03:00"
+updatedDate: "2025-11-05T15:30:00+03:00"
 featuredImage: "/images/blog/beylikduzu-porsche-servis.jpg"
 imageAlt: "Beylikdüzü Porsche servis - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/beylikduzu-porsche-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Porsche PDK şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
 offerUrl: "/beylikduzu-porsche-servis"
+
 ---
 
 Yıldızlar Grup, Beylikdüzü bölgesine özel Porsche servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü'nün tüm mahallelerinden (Yakuplu, Saadetdere, Kavaklı, Gürpınar, Adnan Kahveci, Dereağzı, Marmara) 10 dakika mesafede bulunan atölyemiz, Porsche araçlarında PDK şanzıman, motor, turbo, elektronik, PASM hava süspansiyon, fren sistemi ve klima arızalarında uzmanlaşmıştır.

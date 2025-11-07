@@ -1,11 +1,13 @@
+
 ---
+
 title: "Passat B8 Şanzıman Hatası"
 description: "Passat B8 şanzıman hatası belirtileri, nedenleri ve çözümleri: DQ250, DQ381 mekatronik arızası, kavrama sorunları, vites geçiş problemleri. Passat B8 spesifik şanzıman hataları."
 category: "DSG"
 tags: ["passat b8", "şanzıman hatası", "arıza", "belirtiler", "dq250", "dq381", "dsg", "b8"]
 slug: "passat-b8-sanziman-hatasi"
-publishDate: "2025-11-07T18:26:00"
-updatedDate: "2025-11-07T18:26:00"
+publishDate: "2025-11-07T18:26:00+03:00"
+updatedDate: "2025-11-07T18:26:00+03:00"
 featuredImage: "/images/blog/passat-b8-sanziman-hatasi.jpg"
 imageAlt: "Passat B8 şanzıman hatası belirtileri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/passat-b8-sanziman-hatasi.jpg"
@@ -20,6 +22,7 @@ serviceType: "Passat B8 Şanzıman Arızası Tamiri"
 serviceDescription: "Passat B8 şanzıman hatası teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/passat-b8-sanziman-hatasi"
+
 ---
 
 Passat B8 şanzıman hatası, **Passat B8 modellerinde (2014-2022) kullanılan DSG şanzımanlarında (DQ250, DQ381) görülen spesifik sorunlardır**. Passat B8'de hem DQ250 (6 ileri ıslak kavrama) hem de DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır. B8 nesilinde yapılan iyileştirmelere rağmen, mekatronik arızası, kavrama sorunları ve vites geçiş problemleri görülebilir.

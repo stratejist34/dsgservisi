@@ -1,11 +1,13 @@
+
 ---
+
 title: "Beylikdüzü Audi Servis"
 description: "Beylikdüzü Audi servis: A3, A4, A5, A6, Q3, Q5, Q7, Q8 modellerinde DSG/S‑Tronic, motor, turbo tamiri. Merkezi konum, ücretsiz araç çekme, aynı gün teslimat."
 category: "Audi"
 tags: ["audi", "beylikdüzü", "servis", "istanbul", "avrupa yakası", "dsg", "s-tronic", "quattro"]
 slug: "beylikduzu-audi-servis"
-publishDate: "2025-11-05T13:30:00"
-updatedDate: "2025-11-05T13:30:00"
+publishDate: "2025-11-05T13:30:00+03:00"
+updatedDate: "2025-11-05T13:30:00+03:00"
 featuredImage: "/images/blog/beylikduzu-audi-servis.jpg"
 imageAlt: "Beylikdüzü Audi servis - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/beylikduzu-audi-servis.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Audi DSG/S‑Tronic, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
 offerUrl: "/beylikduzu-audi-servis"
+
 ---
 
 Yıldızlar Grup, Beylikdüzü bölgesine özel Audi servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü'nün tüm mahallelerinden (Yakuplu, Saadetdere, Kavaklı, Gürpınar, Adnan Kahveci, Dereağzı, Marmara) 10 dakika mesafede bulunan atölyemiz, Audi araçlarında DSG/S‑Tronic şanzıman, motor, turbo, elektronik, quattro ve klima arızalarında uzmanlaşmıştır.

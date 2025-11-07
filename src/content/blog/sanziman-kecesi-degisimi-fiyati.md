@@ -1,11 +1,13 @@
+
 ---
+
 title: "Şanzıman Keçesi Değişimi Fiyatı"
 description: "Şanzıman keçesi değişimi fiyatları 2025: DSG, ZF, konvansiyonel otomatik şanzıman keçe değişimi ne kadar? Çıkış mili, giriş mili, diferansiyel keçesi fiyatları."
 category: "DSG"
 tags: ["şanzıman keçesi", "keçe değişimi", "fiyat", "2025", "dsg", "zf", "yağ kaçağı", "tamir"]
 slug: "sanziman-kecesi-degisimi-fiyati"
-publishDate: "2025-11-07T13:13:00"
-updatedDate: "2025-11-07T13:13:00"
+publishDate: "2025-11-07T13:13:00+03:00"
+updatedDate: "2025-11-07T13:13:00+03:00"
 featuredImage: "/images/blog/sanziman-kecesi-degisimi.jpg"
 imageAlt: "Şanzıman keçesi değişimi fiyatı 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/sanziman-kecesi-degisimi.jpg"
@@ -23,6 +25,7 @@ lowPrice: 1500
 highPrice: 5000
 priceCurrency: "TRY"
 offerUrl: "/sanziman-kecesi-degisimi-fiyati"
+
 ---
 
 Şanzıman keçesi değişimi, otomatik şanzımanlarda **yağ kaçağı sorununun en yaygın çözümüdür**. Keçe; çıkış mili, giriş mili, diferansiyel ve mekatronik modül bağlantı noktalarında sızdırmazlık sağlar. Zamanla aşınma, yaşlanma ve termal stres nedeniyle keçe elastikiyetini kaybeder ve yağ kaçağı başlar. Erken müdahale, şanzıman hasarını ve maliyeti önemli ölçüde azaltır.

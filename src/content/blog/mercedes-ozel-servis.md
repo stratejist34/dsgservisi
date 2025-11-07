@@ -1,11 +1,13 @@
+
 ---
+
 title: "Mercedes Özel Servis"
 description: "Mercedes özel servis: 7G-Tronic şanzıman, motor, turbo, elektronik arıza tamiri. C, E, A, CLA, GLC, GLE Serisi bakım. Büyükçekmece İstanbul."
 category: "Mercedes"
 tags: ["Mercedes", "Özel Servis", "7G-Tronic", "Motor", "Bakım", "İstanbul"]
 slug: "mercedes-ozel-servis"
-publishDate: "2025-11-04T12:00:00"
-updatedDate: "2025-11-04T12:00:00"
+publishDate: "2025-11-04T12:00:00+03:00"
+updatedDate: "2025-11-04T12:00:00+03:00"
 featuredImage: "/images/blog/mercedes-ozel-servis.jpg"
 ogImage: "/images/blog/mercedes-ozel-servis.jpg"
 imageAlt: "Mercedes özel servis atölye görüntüsü"
@@ -20,6 +22,7 @@ serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Mercedes 7G-Tronic şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/mercedes-ozel-servis"
+
 ---
 
 <style>

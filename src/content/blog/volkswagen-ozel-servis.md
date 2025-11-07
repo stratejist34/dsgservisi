@@ -1,8 +1,10 @@
+
 ---
+
 title: "Volkswagen Özel Servis"
 description: "Volkswagen özel servis: DSG, ZF şanzıman, motor, turbo, fren, elektronik arıza tamiri. Golf, Polo, Passat, Tiguan bakım. Büyükçekmece İstanbul."
-publishDate: "2025-10-20T10:00:00"
-updatedDate: "2025-10-20T10:00:00"
+publishDate: "2025-10-20T10:00:00+03:00"
+updatedDate: "2025-10-20T10:00:00+03:00"
 featuredImage: "/images/blog/volkswagen-ozel-servis.jpg"
 imageAlt: "Volkswagen Özel Servis"
 category: "Volkswagen"
@@ -19,6 +21,7 @@ serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Volkswagen DSG/ZF şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/volkswagen-ozel-servis"
+
 ---
 
 <style>

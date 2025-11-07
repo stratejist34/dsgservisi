@@ -1,11 +1,13 @@
+
 ---
+
 title: "7 İleri DSG Şanzıman Sorunları"
 description: "7 ileri DSG şanzıman sorunları nelerdir? DQ200, DQ380, DQ381 şanzıman sorunları, belirtileri ve çözümleri. Golf, Passat, A3, A4, Octavia için 7 ileri DSG sorunları."
 category: "DSG"
 tags: ["dsg", "7 ileri", "şanzıman sorunları", "dq200", "dq380", "dq381", "arıza", "belirtiler"]
 slug: "7-ileri-dsg-sanziman-sorunlari"
-publishDate: "2025-11-09T14:18:00"
-updatedDate: "2025-11-09T14:18:00"
+publishDate: "2025-11-09T14:18:00+03:00"
+updatedDate: "2025-11-09T14:18:00+03:00"
 featuredImage: "/images/blog/7-ileri-dsg-sanziman-sorunlari.jpg"
 imageAlt: "7 ileri DSG şanzıman sorunları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/7-ileri-dsg-sanziman-sorunlari.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Şanzıman Arızası Teşhisi"
 serviceDescription: "7 ileri DSG şanzıman sorunları teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
+
 ---
 
 7 ileri DSG şanzıman sorunları, **DQ200 (kuru kavrama), DQ380 ve DQ381 (ıslak kavrama) şanzıman tiplerinde görülen yaygın arızalardır**. 7 ileri DSG şanzımanlar, Golf, Passat, A3, A4, Octavia ve Superb gibi modellerde yaygın olarak kullanılır ve zamanla çeşitli sorunlar ortaya çıkabilir. Bu sorunlar; mekatronik modül arızası, kavrama problemi, yağ kalitesi bozulması ve adaptasyon hatası gibi nedenlerle meydana gelir.
@@ -355,7 +358,7 @@ Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis
 
 Düzenli bakım ve doğru kullanım ile tekrar etmez. Ancak kök neden çözülmezse tekrar edebilir.
 
----
+
 
 **7 ileri DSG şanzıman sorununuz mu var?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

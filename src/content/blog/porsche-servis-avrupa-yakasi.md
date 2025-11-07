@@ -1,11 +1,13 @@
+
 ---
+
 title: "Porsche Servis Avrupa Yakası"
 description: "Porsche servis Avrupa Yakası: Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir bölgelerine hızlı ve ekonomik Porsche PDK şanzıman, motor, turbo, hava süspansiyon tamiri. Merkezi konum, ücretsiz araç çekme."
 category: "Porsche"
 tags: ["porsche", "avrupa yakası", "servis", "istanbul", "beylikdüzü", "büyükçekmece", "esenyurt", "avcılar", "pdk", "cayenne", "macan"]
 slug: "porsche-servis-avrupa-yakasi"
-publishDate: "2025-11-05T11:00:00"
-updatedDate: "2025-11-05T11:00:00"
+publishDate: "2025-11-05T11:00:00+03:00"
+updatedDate: "2025-11-05T11:00:00+03:00"
 featuredImage: "/images/blog/porsche-servis-avrupa-yakasi.jpg"
 imageAlt: "Porsche servis Avrupa Yakası - Beylikdüzü Büyükçekmece bölgesi"
 ogImage: "/images/blog/porsche-servis-avrupa-yakasi.jpg"
@@ -18,6 +20,7 @@ serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Porsche PDK şanzıman, motor, turbo, hava süspansiyon ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
 offerUrl: "/porsche-servis-avrupa-yakasi"
+
 ---
 
 Yıldızlar Grup, İstanbul Avrupa Yakası'nın tüm bölgelerine Porsche servis hizmeti sunan merkezi konumdaki özel servis merkezidir. Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece ve Başakşehir bölgelerinden 10-20 dakika mesafede bulunan atölyemiz, Porsche araçlarında PDK şanzıman, motor, turbo, elektronik, PASM hava süspansiyon, fren sistemi ve klima arızalarında uzmanlaşmıştır.

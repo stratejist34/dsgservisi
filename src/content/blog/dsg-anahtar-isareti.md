@@ -1,11 +1,13 @@
+
 ---
+
 title: "DSG Anahtar İşareti"
 description: "DSG vites göstergesinde anahtar işareti nedir? Belirtileri, nedenleri ve çözümleri. DSG şanzıman arızası, mekatronik sorunları ve anahtar işareti uyarısı."
 category: "DSG"
 tags: ["dsg", "anahtar işareti", "vites göstergesi", "arıza", "belirtiler", "mekatronik", "şanzıman arızası"]
 slug: "dsg-anahtar-isareti"
-publishDate: "2025-11-09T10:10:00"
-updatedDate: "2025-11-09T10:10:00"
+publishDate: "2025-11-09T10:10:00+03:00"
+updatedDate: "2025-11-09T10:10:00+03:00"
 featuredImage: "/images/blog/dsg-anahtar-isareti.jpg"
 imageAlt: "DSG anahtar işareti - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/dsg-anahtar-isareti.jpg"
@@ -20,6 +22,7 @@ serviceType: "DSG Şanzıman Arızası Teşhisi"
 serviceDescription: "DSG anahtar işareti teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-anahtar-isareti"
+
 ---
 
 DSG vites göstergesinde anahtar işareti, **DSG şanzıman sisteminde bir sorun olduğunu gösteren önemli bir uyarıdır**. Vites göstergesinde (PRND göstergesi) yanıp sönen anahtar işareti veya kilit sembolü, şanzıman kontrol ünitesinin (TCU) bir arıza tespit ettiğini gösterir. Bu uyarı, mekatronik modül arızası, elektronik kart sorunu, sensör hatası veya kavrama problemi gibi ciddi sorunların belirtisi olabilir.
@@ -284,7 +287,7 @@ Arıza türüne göre 1 saat (adaptasyon) ile 3 gün (mekatronik değişimi) ara
 
 Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis gerekir.
 
----
+
 
 **DSG anahtar işareti sorununuz mu var?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

@@ -1,8 +1,10 @@
+
 ---
+
 title: "DSG Şanzıman Değişimi"
 description: "DSG şanzıman değişimi 2026: revizyon mu değişim mi? Tam değişim süreçleri, maliyet kalemleri ve garanti. Büyükçekmece Yıldızlar Grup DSG Servisi."
-publishDate: "2025-10-25T10:30:00"
-updatedDate: "2025-10-25T10:30:00"
+publishDate: "2025-10-25T10:30:00+03:00"
+updatedDate: "2025-10-25T10:30:00+03:00"
 category: "DSG"
 slug: "dsg-sanziman-degisimi"
 tags: ["dsg", "şanzıman", "değişim", "tamir"]
@@ -20,6 +22,7 @@ serviceType: "DSG Şanzıman Değişimi"
 serviceDescription: "DSG şanzıman tam değişimi ve revizyon hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-sanziman-degisimi"
+
 ---
 
 Revizyonla çözülemeyen ağır arızalarda **DSG şanzıman değişimi** tercih edilir. Maliyeti belirleyen; şanzıman seri/kod bilgisi, çıkma‑yenilenmiş‑yeni seçenekleri, **mekatronik ve kavrama uyumluluğu**, volant ve yardımcı parçaların durumu ile **adaptasyon/kalibrasyon** işlemleridir. Tam şanzıman değişimi genellikle son çare olmalıdır; önce revizyon olanaklarını değerlendirmek ekonomik açıdan daha mantıklıdır.

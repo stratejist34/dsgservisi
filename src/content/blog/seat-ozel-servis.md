@@ -1,8 +1,10 @@
+
 ---
+
 title: "Seat Özel Servis"
 description: "Seat özel servis: DSG şanzıman, motor, turbo, elektronik arıza tamiri. Leon, Ibiza, Arona, Ateca, Tarraco bakım. Büyükçekmece İstanbul."
-publishDate: "2025-10-22T10:00:00"
-updatedDate: "2025-10-22T10:00:00"
+publishDate: "2025-10-22T10:00:00+03:00"
+updatedDate: "2025-10-22T10:00:00+03:00"
 featuredImage: "/images/blog/seat-ozel-servis.jpg"
 imageAlt: "Seat Özel Servis"
 category: "Seat"
@@ -19,8 +21,8 @@ serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Seat DSG şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/seat-ozel-servis"
----
 
+---
 
 Yıldızlar Grup, Seat araçlarında DSG şanzıman, motor, turbo, elektronik, fren, klima ve süspansiyon arızalarında uzmanlaşmış bir özel servis merkezidir. 
 

@@ -1,11 +1,13 @@
+
 ---
+
 title: "Jetta Vites Göstergesinde Anahtar İşareti"
 description: "Jetta vites göstergesinde anahtar işareti nedir? Belirtileri, nedenleri ve çözümleri. DSG şanzıman arızası, mekatronik sorunları ve anahtar işareti uyarısı."
 category: "DSG"
 tags: ["jetta", "anahtar işareti", "vites göstergesi", "arıza", "belirtiler", "dsg", "mekatronik"]
 slug: "jetta-vites-gostergesinde-anahtar-isareti"
-publishDate: "2025-11-08T09:08:00"
-updatedDate: "2025-11-08T09:08:00"
+publishDate: "2025-11-08T09:08:00+03:00"
+updatedDate: "2025-11-08T09:08:00+03:00"
 featuredImage: "/images/blog/jetta-vites-gostergesinde-anahtar-isareti.jpg"
 imageAlt: "Jetta vites göstergesinde anahtar işareti - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/jetta-vites-gostergesinde-anahtar-isareti.jpg"
@@ -20,6 +22,7 @@ serviceType: "Jetta DSG Şanzıman Arızası Teşhisi"
 serviceDescription: "Jetta vites göstergesinde anahtar işareti teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/jetta-vites-gostergesinde-anahtar-isareti"
+
 ---
 
 Jetta vites göstergesinde anahtar işareti, **Jetta modellerinde DSG şanzıman arızasını gösteren önemli bir uyarıdır**. Vites göstergesinde (PRND göstergesi) yanıp sönen anahtar işareti veya kilit sembolü, şanzıman sisteminde bir sorun olduğunu işaret eder. Bu uyarı, mekatronik modül arızası, elektronik kart sorunu veya sensör hatası gibi ciddi problemlerin belirtisi olabilir.

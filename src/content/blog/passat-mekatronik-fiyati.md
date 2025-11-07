@@ -1,11 +1,13 @@
+
 ---
+
 title: "Passat Mekatronik Fiyatı"
 description: "Passat mekatronik fiyatı 2025: Passat B7, B8 DSG mekatronik tamiri, revizyonu, solenoid değişimi ve komple değişim fiyatları. DQ250, DQ381 mekatronik fiyatları."
 category: "DSG"
 tags: ["passat", "mekatronik", "fiyat", "2025", "b7", "b8", "dq250", "dq381", "dsg"]
 slug: "passat-mekatronik-fiyati"
-publishDate: "2025-11-07T16:20:00"
-updatedDate: "2025-11-07T16:20:00"
+publishDate: "2025-11-07T16:20:00+03:00"
+updatedDate: "2025-11-07T16:20:00+03:00"
 featuredImage: "/images/blog/passat-mekatronik-fiyati.jpg"
 imageAlt: "Passat mekatronik fiyatı 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/passat-mekatronik-fiyati.jpg"
@@ -23,6 +25,7 @@ lowPrice: 9500
 highPrice: 35000
 priceCurrency: "TRY"
 offerUrl: "/passat-mekatronik-fiyati"
+
 ---
 
 Passat mekatronik fiyatı, **Passat B7 ve B8 modellerinde kullanılan DSG şanzıman tipine (DQ250, DQ381) göre değişir**. Passat B7'de DQ250 (6 ileri ıslak kavrama), Passat B8'de DQ250 ve DQ381 (7 ileri ıslak kavrama) kullanılır. Mekatronik arızası; solenoid valf, hidrolik pompa, basınç sensörleri ve elektronik kart gibi kritik bileşenlerde görülür.

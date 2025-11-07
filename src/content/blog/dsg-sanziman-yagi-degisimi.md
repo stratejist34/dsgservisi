@@ -1,8 +1,10 @@
+
 ---
+
 title: "DSG Şanzıman Yağı Değişimi"
 description: "7 ileri ve 6 ileri DSG şanzıman yağı değişimi fiyatı, interval ve spesifikasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
-publishDate: "2025-11-04T11:30:00"
-updatedDate: "2025-11-04T11:30:00"
+publishDate: "2025-11-04T11:30:00+03:00"
+updatedDate: "2025-11-04T11:30:00+03:00"
 category: "DSG"
 slug: "dsg-sanziman-yagi-degisimi"
 tags: ["dsg", "yağ değişimi", "bakım", "filtre"]
@@ -21,6 +23,7 @@ serviceType: "DSG Bakımı"
 serviceDescription: "DSG şanzıman yağı ve filtre değişimi hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
 offerUrl: "/dsg-sanziman-yagi-degisimi"
+
 ---
 
 Doğru **DSG şanzıman yağı** ve filtre kullanımı; mekatronik, kavrama ve dişli ömrünü uzatır. DSG şanzımanlar özel yağ spesifikasyonu gerektirir; motor yağı veya manuel şanzıman yağı kullanılamaz. 7 ileri DSG (kuru/ıslak) ve 6 ileri DSG sistemlerinde yağ spesifikasyonu ve değişim aralıkları farklıdır. Yağ kalitesi mekatronik valf ve solenoid performansını doğrudan etkiler.

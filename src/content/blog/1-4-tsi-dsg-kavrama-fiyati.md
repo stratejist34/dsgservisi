@@ -1,11 +1,13 @@
+
 ---
+
 title: "1.4 TSI DSG Kavrama Fiyatı"
 description: "1.4 TSI DSG kavrama fiyatı 2025: DQ200 kuru kavrama değişimi fiyatları. Golf, A3, Octavia, Leon için 1.4 TSI DSG kavrama değişim fiyatları ve volant dahil toplam maliyet."
 category: "DSG"
 tags: ["dsg", "1.4 tsi", "kavrama", "fiyat", "dq200", "kuru kavrama", "2025"]
 slug: "1-4-tsi-dsg-kavrama-fiyati"
-publishDate: "2025-11-10T08:35:00"
-updatedDate: "2025-11-10T08:35:00"
+publishDate: "2025-11-10T08:35:00+03:00"
+updatedDate: "2025-11-10T08:35:00+03:00"
 featuredImage: "/images/blog/1-4-tsi-dsg-kavrama-fiyati.jpg"
 imageAlt: "1.4 TSI DSG kavrama fiyatı - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/1-4-tsi-dsg-kavrama-fiyati.jpg"
@@ -23,6 +25,7 @@ lowPrice: 12000
 highPrice: 25000
 priceCurrency: "TRY"
 offerUrl: "/1-4-tsi-dsg-kavrama-fiyati"
+
 ---
 
 1.4 TSI DSG kavrama fiyatı, **DQ200 (7 ileri kuru kavrama) şanzıman tipine göre değişir**. 1.4 TSI motor, Golf, A3, Octavia ve Leon gibi modellerde yaygın olarak kullanılır ve DQ200 şanzıman ile eşleştirilir. DQ200, kuru kavrama sistemi olarak kompakt yapısıyla dikkat çeker ancak kavrama aşınması zamanla meydana gelebilir.
@@ -285,7 +288,7 @@ Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis
 
 Volant sağlam ise zorunlu değildir ancak hasarlı veya şüpheli ise mutlaka değiştirilmelidir.
 
----
+
 
 **1.4 TSI DSG kavrama sorununuz mu var?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 
