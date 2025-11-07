@@ -1,4 +1,3 @@
-
 ---
 
 title: "Passat B8 Şanzıman Hatası"

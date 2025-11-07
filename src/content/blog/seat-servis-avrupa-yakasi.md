@@ -1,4 +1,3 @@
-
 ---
 
 title: "Seat Servis Avrupa Yakası"

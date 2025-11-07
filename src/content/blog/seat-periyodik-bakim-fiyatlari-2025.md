@@ -1,4 +1,3 @@
-
 ---
 
 title: "Seat Periyodik Bakım Fiyatları 2025"

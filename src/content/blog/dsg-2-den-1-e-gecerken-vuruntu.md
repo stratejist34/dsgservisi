@@ -1,4 +1,3 @@
-
 ---
 
 title: "DSG 2 Den 1 E Geçerken Vuruntu"

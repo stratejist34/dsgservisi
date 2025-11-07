@@ -1,4 +1,3 @@
-
 ---
 
 title: "Passat Şanzıman Hatası"

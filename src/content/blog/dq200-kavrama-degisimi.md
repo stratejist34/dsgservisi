@@ -1,4 +1,3 @@
-
 ---
 
 title: "DQ200 Kavrama Değişimi"

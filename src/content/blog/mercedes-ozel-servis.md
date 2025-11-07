@@ -1,4 +1,3 @@
-
 ---
 
 title: "Mercedes Özel Servis"

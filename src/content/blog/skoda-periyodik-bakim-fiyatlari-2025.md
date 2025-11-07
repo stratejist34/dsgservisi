@@ -1,4 +1,3 @@
-
 ---
 
 title: "Skoda Periyodik Bakım Fiyatları 2025"

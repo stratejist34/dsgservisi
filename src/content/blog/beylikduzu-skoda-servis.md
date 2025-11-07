@@ -1,4 +1,3 @@
-
 ---
 
 title: "Beylikdüzü Skoda Servis"

@@ -1,4 +1,3 @@
-
 ---
 
 title: "Örnek Blog Yazısı"

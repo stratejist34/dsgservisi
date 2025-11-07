@@ -1,4 +1,3 @@
-
 ---
 
 title: "Jetta Vites Göstergesinde Anahtar İşareti"

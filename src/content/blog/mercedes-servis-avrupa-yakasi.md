@@ -1,4 +1,3 @@
-
 ---
 
 title: "Mercedes Servis Avrupa Yakası"

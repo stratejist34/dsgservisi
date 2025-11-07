@@ -1,4 +1,3 @@
-
 ---
 
 title: "1.6 TDI DSG Kavrama Fiyatı"

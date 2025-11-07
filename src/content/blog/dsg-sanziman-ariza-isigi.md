@@ -1,4 +1,3 @@
-
 ---
 
 title: "DSG Şanzıman Arıza Işığı"

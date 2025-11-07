@@ -1,4 +1,3 @@
-
 ---
 
 title: "Skoda Servis Avrupa Yakası"

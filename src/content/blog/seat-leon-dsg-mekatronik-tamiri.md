@@ -1,4 +1,3 @@
-
 ---
 
 title: "Seat Leon DSG Mekatronik Tamiri ve Kronik Sorunları"

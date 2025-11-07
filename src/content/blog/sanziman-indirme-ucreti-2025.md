@@ -1,4 +1,3 @@
-
 ---
 
 title: "Şanzıman İndirme Ücreti 2025"

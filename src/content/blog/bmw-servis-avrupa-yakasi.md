@@ -1,4 +1,3 @@
-
 ---
 
 title: "BMW Servis Avrupa Yakası"

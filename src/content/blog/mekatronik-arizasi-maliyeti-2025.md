@@ -1,4 +1,3 @@
-
 ---
 
 title: "Mekatronik Arızası Maliyeti 2025"
