@@ -186,53 +186,22 @@ export function calculateReadingTime(content: string): number {
 }
 
 /**
- * Blog yazılarını tarihe göre sıralar (en yeni önce)
- * Aynı tarihli yazılar için saat bilgisi kullanılır (WordPress gibi)
- * Saat bilgisi yoksa slug'a göre alfabetik sıralama yapılır
+ * Blog yazılarını tam zaman damgasına göre sıralar (en yeni önce).
+ * Aynı milisaniyede yayınlanmışsa ikinci anahtar olarak slug (ters) kullanılır.
  */
 export function sortPostsByDate(posts: BlogPost[]): BlogPost[] {
   return [...posts].sort((a, b) => {
-    // Tarih string'ini kontrol et - saat bilgisi var mı?
-    const dateStrA = a.data.publishDate instanceof Date 
-      ? a.data.publishDate.toISOString()
-      : String(a.data.publishDate);
-    const dateStrB = b.data.publishDate instanceof Date 
-      ? b.data.publishDate.toISOString()
-      : String(b.data.publishDate);
-    
-    // Eğer tarih string'inde saat bilgisi yoksa (sadece YYYY-MM-DD formatındaysa)
-    // Saat bilgisi ekle (varsayılan olarak 00:00:00)
-    const hasTimeA = dateStrA.includes('T') || dateStrA.includes(' ');
-    const hasTimeB = dateStrB.includes('T') || dateStrB.includes(' ');
-    
-    const dateA = a.data.publishDate instanceof Date 
-      ? a.data.publishDate 
+    const dateA = a.data.publishDate instanceof Date
+      ? a.data.publishDate
       : new Date(a.data.publishDate);
-    const dateB = b.data.publishDate instanceof Date 
-      ? b.data.publishDate 
+    const dateB = b.data.publishDate instanceof Date
+      ? b.data.publishDate
       : new Date(b.data.publishDate);
-    
-    // Tarih karşılaştırması (milisaniye cinsinden)
-    const timeDiff = dateB.getTime() - dateA.getTime();
-    
-    // Eğer tarihler aynıysa (aynı gün), saat bilgisini kullan
-    if (Math.abs(timeDiff) < 86400000) { // 24 saat = 86400000 ms
-      // Eğer her iki yazıda da saat bilgisi varsa, saat bilgisini kullan
-      if (hasTimeA && hasTimeB) {
-        const hoursA = dateA.getHours() * 3600000 + dateA.getMinutes() * 60000 + dateA.getSeconds() * 1000;
-        const hoursB = dateB.getHours() * 3600000 + dateB.getMinutes() * 60000 + dateB.getSeconds() * 1000;
-        const hourDiff = hoursB - hoursA;
-        if (hourDiff !== 0) {
-          return hourDiff; // Daha geç saatte yayınlanan yazı önce
-        }
-      }
-      
-      // Saat bilgisi yoksa veya aynıysa, slug'a göre alfabetik sıralama (fallback)
-      // Ancak bu durumda ters alfabetik sıralama yaparak yeni yazıları üste al
-      return b.slug.localeCompare(a.slug);
-    }
-    
-    return timeDiff;
+
+    const diff = dateB.getTime() - dateA.getTime();
+    if (diff !== 0) return diff;
+    // Tam eşitse, stabil sonuç için slug'a göre ters sırala
+    return b.slug.localeCompare(a.slug);
   });
 }
 

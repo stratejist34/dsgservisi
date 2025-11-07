@@ -15,19 +15,23 @@ const posts = sortPostsByDate(allEntries);
 
 // Yayınlanmış ve planlanmış yazıları ayır
 const now = new Date();
-const publishedPosts = posts.filter(post => {
-  const publishDate = post.data.publishDate instanceof Date 
-    ? post.data.publishDate 
-    : new Date(post.data.publishDate);
-  return publishDate <= now;
-});
+const publishedPosts = sortPostsByDate(
+  posts.filter(post => {
+    const publishDate = post.data.publishDate instanceof Date 
+      ? post.data.publishDate 
+      : new Date(post.data.publishDate);
+    return publishDate <= now;
+  })
+);
 
-const scheduledPosts = posts.filter(post => {
-  const publishDate = post.data.publishDate instanceof Date 
-    ? post.data.publishDate 
-    : new Date(post.data.publishDate);
-  return publishDate > now;
-});
+const scheduledPosts = sortPostsByDate(
+  posts.filter(post => {
+    const publishDate = post.data.publishDate instanceof Date 
+      ? post.data.publishDate 
+      : new Date(post.data.publishDate);
+    return publishDate > now;
+  })
+);
 
 const PAGE_SIZE = 16;
 const currentPage = 1;
