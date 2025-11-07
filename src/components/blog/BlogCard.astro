@@ -23,7 +23,7 @@ const sizeConfig = {
     height: 'h-full', // 3 rows x 200px = 600px
     padding: 'p-6 md:p-8',
     titleSize: 'text-2xl md:text-[32px]',
-    showExcerpt: true,
+    showExcerpt: false,
   },
   'featured-small': {
     height: 'h-full', // 1 row x 200px = 200px
@@ -103,26 +103,16 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
     </a>
   )}
   
-  {/* Content Overlay - Everything on top of image */}
-  <div class={`relative z-20 w-full h-full flex flex-col justify-end ${config.padding}`}>
-      {/* Title with glass band */}
-      <div class="relative mb-3">
-        <div class="absolute inset-0 rounded-xl backdrop-blur-[6px] bg-gradient-to-r from-slate-900/60 via-slate-800/35 to-white/10 border border-white/10"></div>
-        <h3 class={`relative font-display font-bold text-white line-clamp-2 leading-tight ${config.titleSize} px-4 py-2`}>
-          <a href={`/${postSlug}`} class="hover:text-cyan transition-colors">
-            {postTitle}
-          </a>
-        </h3>
-      </div>
+  {/* Content Overlay container kept for stacking context */}
+  <div class={`relative z-20 w-full h-full ${config.padding}`}></div>
 
-      {/* Excerpt - only for large */}
-      {config.showExcerpt && (
-        <p class="text-white/90 mb-4 line-clamp-2 leading-relaxed text-sm">
-          {excerpt}
-        </p>
-      )}
-
-      {/* Read More removed as requested */}
+  {/* Full-width glass band with title (edge-to-edge) */}
+  <div class="absolute inset-x-0 bottom-0 z-30">
+    <div class="backdrop-blur-md bg-gradient-to-r from-slate-900/75 via-slate-800/45 to-white/10 border-t border-white/10">
+      <a href={`/${postSlug}`} class="block focus:outline-none focus:ring-2 focus:ring-cyan/60">
+        <h3 class={`font-display text-white ${config.titleSize} uppercase tracking-wide font-extrabold leading-tight px-5 py-4`}>{postTitle}</h3>
+      </a>
+    </div>
   </div>
 
   
