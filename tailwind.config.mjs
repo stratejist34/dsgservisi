@@ -38,7 +38,7 @@ export default {
       },
       fontFamily: {
         sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        display: ['Rajdhani', 'Montserrat', 'Barlow', 'sans-serif'],
+        display: ['Titillium Web', 'Montserrat', 'Barlow', 'sans-serif'],
         tech: ['Montserrat', 'monospace'],
       },
       animation: {
@@ -139,11 +139,11 @@ export default {
           css: {
             // Tüm başlıklar için font ailesi
             'h1, h2, h3, h4, h5, h6': {
-              fontFamily: "'Rajdhani', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+              fontFamily: "'Titillium Web', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
             },
             h1: {
               fontSize: '2.0625rem', // 33px
-              fontWeight: '700',
+              fontWeight: '600',
               lineHeight: '2.5rem',
             },
             h2: {
@@ -171,13 +171,27 @@ export default {
               fontWeight: '600',
               lineHeight: '1.5rem',
             },
+            // Liste öğeleri için satır arası yüksekliği
+            'ul, ol': {
+              lineHeight: '1.5',
+            },
+            'li': {
+              marginTop: '0.125rem', // 2px
+              marginBottom: '0.125rem', // 2px
+              lineHeight: '1.5',
+            },
+            'li p': {
+              marginTop: '0',
+              marginBottom: '0',
+              lineHeight: '1.5',
+            },
           },
         },
         lg: {
           css: {
             // Tüm başlıklar için font ailesi
             'h1, h2, h3, h4, h5, h6': {
-              fontFamily: "'Rajdhani', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
+              fontFamily: "'Rubik', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif",
             },
             h1: {
               fontSize: '2.25rem', // 36px
@@ -208,6 +222,20 @@ export default {
               fontSize: '1rem', // 16px
               fontWeight: '600',
               lineHeight: '1.5rem',
+            },
+            // Liste öğeleri için satır arası yüksekliği
+            'ul, ol': {
+              lineHeight: '1.5',
+            },
+            'li': {
+              marginTop: '0.125rem', // 2px
+              marginBottom: '0.125rem', // 2px
+              lineHeight: '1.5',
+            },
+            'li p': {
+              marginTop: '0',
+              marginBottom: '0',
+              lineHeight: '1.5',
             },
           },
         },

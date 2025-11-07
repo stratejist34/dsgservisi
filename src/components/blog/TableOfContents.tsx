@@ -13,7 +13,6 @@ interface TableOfContentsProps {
 export default function TableOfContents({ contentId = 'article-content' }: TableOfContentsProps) {
   const [headings, setHeadings] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState<string>('');
-  const [isMobileOpen, setIsMobileOpen] = useState(false);
   const [isInitialized, setIsInitialized] = useState(false);
   const asideEl = useRef<HTMLElement | null>(null);
 
@@ -151,15 +150,14 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
       const asideWidth = aside.offsetWidth;
       
       // Sonra tüm yazmaları yap (batch write)
+      // Mobilde de sticky kullanıyoruz, sadece fixed positioning'i kaldırıyoruz
       if (windowWidth < 1024) {
         aside.classList.remove('toc-force-fixed');
         aside.style.removeProperty('left');
         aside.style.removeProperty('width');
-        aside.style.removeProperty('top');
         aside.style.removeProperty('position');
         aside.style.removeProperty('transform');
-        aside.style.removeProperty('opacity');
-        aside.style.removeProperty('visibility');
+        // Mobilde sticky CSS ile çalışacak, bu yüzden opacity ve visibility'yi koruyoruz
         return;
       }
 
@@ -241,9 +239,6 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
         top: offsetPosition,
         behavior: 'smooth',
       });
-      
-      // Mobilde menüyü kapat
-      setIsMobileOpen(false);
     }
   };
 
@@ -251,81 +246,21 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
 
   return (
     <>
-      {/* Mobile Toggle Button - sadece başlıklar varsa göster */}
-      {headings.length > 0 && (
-        <button
-          onClick={() => setIsMobileOpen(!isMobileOpen)}
-          className="lg:hidden fixed bottom-20 right-4 z-[60] bg-gradient-to-r from-primary to-cyan text-white p-3.5 rounded-full shadow-xl hover:shadow-2xl hover:scale-105 transition-all duration-300"
-          aria-label="İçindekiler"
-          style={{
-            boxShadow: '0 4px 20px rgba(26, 156, 176, 0.4)',
-            display: 'block',
-            visibility: 'visible',
-            opacity: 1,
-          }}
-        >
-          <svg
-            className="w-5 h-5"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M4 6h16M4 10h16M4 14h16M4 18h16"
-            />
-          </svg>
-        </button>
-      )}
-
-      {/* Mobile TOC Overlay */}
-      {isMobileOpen && headings.length > 0 && (
-        <div
-          className="lg:hidden fixed inset-0 bg-black/60 z-[70] backdrop-blur-sm"
-          onClick={() => setIsMobileOpen(false)}
-        />
-      )}
-
-      {/* Desktop & Mobile TOC (iç içerik sarmalayıcı) */}
+      {/* Desktop & Mobile TOC - her zaman görünür */}
       {headings.length > 0 && (
         <div
-          className={`
-            ${isMobileOpen ? 'lg:hidden' : 'hidden lg:block'}
-            w-80 lg:w-full
-            bg-white 
-            border border-gray-100 
-            rounded-xl 
-            p-6 
-            shadow-xl lg:shadow-md
-          `}
+          className="w-full bg-white border border-gray-100 rounded-xl p-6 shadow-md"
           ref={(el) => {
             if (el) {
               asideEl.current = el as any;
             }
           }}
           style={{
-            ...(isMobileOpen
-              ? {
-                  position: 'fixed',
-                  top: '50%',
-                  left: '50%',
-                  transform: 'translate(-50%, -50%)',
-                  maxHeight: '85vh',
-                  overflowY: 'auto',
-                  zIndex: 80,
-                  display: 'block',
-                  visibility: 'visible',
-                  opacity: 1,
-                }
-              : {
-                  maxHeight: 'calc(100vh - 8rem)',
-                  overflowY: 'auto',
-                  display: 'block',
-                  visibility: 'visible',
-                  opacity: 1,
-                }),
+            maxHeight: 'calc(100vh - 8rem)',
+            overflowY: 'auto',
+            display: 'block',
+            visibility: 'visible',
+            opacity: 1,
           }}
           role="navigation"
           aria-label="İçindekiler"
@@ -347,17 +282,6 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
               </svg>
               İçindekiler
             </h3>
-            {isMobileOpen && (
-              <button
-                onClick={() => setIsMobileOpen(false)}
-                className="text-gray-500 hover:text-gray-700 transition-colors"
-                aria-label="Kapat"
-              >
-                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
-                </svg>
-              </button>
-            )}
           </div>
           <nav className="space-y-2">
             {headings.map((heading) => (

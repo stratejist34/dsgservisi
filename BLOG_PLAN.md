@@ -102,7 +102,7 @@
 42. 1.4 Tsi Dsg Kavrama Fiyat
 43. Dq200 Kavrama Değişimi
 44. 7 İleri Dsg Şanzıman Yağ Değişimi Fiyatı
-45. Audi A4 Multitronic Şanzıman Arızaları
+
 
 ---
 
@@ -112,10 +112,10 @@
 1. Audi Multitronic Şanzıman Arızası
 2. Audi S-Tronic Şanzıman Sorunları
 3. Audi Şanzıman Yağı Değişimi Fiyatı
-4. Audi A3 Şanzıman Arızası
-5. Audi A4 Şanzıman Arızası
-6. Audi A6 Şanzıman Arızası
-7. Audi Q5 Şanzıman Arızası
+4. Audi A3 Şanzıman Tamiri
+5. Audi A4 Şanzıman Tamiri
+6. Audi A6 Şanzıman Tamiri
+7. Audi Q5 Şanzıman Servisi
 8. Audi Ağır Bakım Fiyatları
 9. Audi Multitronic Tamiri Fiyatı
 10. Audi S-Tronic Tamiri Fiyatı
@@ -319,9 +319,36 @@
 - [x] Şanzıman İndirme Ücreti 2025 (TAMAMLANDI)
 - [x] Otomatik Şanzıman Değişimi Fiyatı 2025 (TAMAMLANDI)
 - [x] Otomatik Vites Selenoid Valf Arızası Nasıl Anlaşılır (TAMAMLANDI)
+- [x] Şanzıman Keçesi Değişimi Fiyatı (TAMAMLANDI)
+- [x] DSG Optimizasyon Fiyat (TAMAMLANDI)
+- [x] DSG Şanzıman Fiyatı (TAMAMLANDI)
+- [x] Mekatronik Arızası Maliyeti 2025 (TAMAMLANDI)
+- [x] Passat Mekatronik Fiyatı (TAMAMLANDI)
+- [x] Jetta Mekatronik Fiyatı (TAMAMLANDI)
+- [x] Passat Şanzıman Hatası (TAMAMLANDI)
+- [x] Passat B8 Şanzıman Hatası (TAMAMLANDI)
+- [x] Polo Şanzıman Tamiri Fiyatı (TAMAMLANDI)
+- [x] Audi A3 Mekatronik Kart Fiyatı (TAMAMLANDI)
+- [x] Jetta Vites Göstergesinde Anahtar İşareti (TAMAMLANDI)
+- [x] DSG P Yanıp Sönüyor Araba Çalışmıyor (TAMAMLANDI)
+- [x] DSG Şanzıman Arıza Işığı (TAMAMLANDI)
+- [x] DSG 1 3 5 7 Geçmiyor (TAMAMLANDI)
+- [x] DSG 2 4 6 Geçmiyor (TAMAMLANDI)
+- [x] DSG 2 Den 1 E Geçerken Vuruntu (TAMAMLANDI)
+- [x] DSG 2 Den 3 E Geçerken Vuruntu (TAMAMLANDI)
+- [x] DSG Geri Kaçırma (TAMAMLANDI)
 - [x] Seat Leon DSG Mekatronik Tamiri (TAMAMLANDI)
 - [x] Skoda Octavia DSG Mekatronik Tamiri (TAMAMLANDI)
 - [x] Volkswagen Golf GTI DSG Arızası (TAMAMLANDI)
+- [x] DSG Anahtar İşareti (TAMAMLANDI)
+- [x] DSG Mekatronik Kart Arızası Belirtileri (TAMAMLANDI)
+- [x] DSG Mekatronik Arızası Neden Olur (TAMAMLANDI)
+- [x] 7 İleri Dsg Mekatronik Kartı Fiyatı (TAMAMLANDI)
+- [x] 7 İleri Dsg Şanzıman Sorunları (TAMAMLANDI)
+- [x] 1.6 Tdi Dsg Kavrama Fiyatı (TAMAMLANDI)
+- [x] 1.4 Tsi Dsg Kavrama Fiyat (TAMAMLANDI)
+- [x] Dq200 Kavrama Değişimi (TAMAMLANDI)
+- [x] 7 İleri Dsg Şanzıman Yağ Değişimi Fiyatı (TAMAMLANDI)
 
 - [ ] Büyükçekmece Audi Servis
 - [ ] Büyükçekmece Bmw Servis

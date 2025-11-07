@@ -62,8 +62,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
   {/* Google Fonts - Optimize edilmiş async yükleme */}
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Rajdhani:wght@600;700;800&display=swap" rel="stylesheet"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Titillium+Web:wght@400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet"></noscript>
   
   {/* Preload Critical Resources - Responsive image preload */}
   <link rel="preload" href="/images/hero-bg-768.avif" as="image" type="image/avif" media="(max-width: 768px)" fetchpriority="high">
@@ -98,14 +98,14 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
       width: 100%;
     }
     h1, h2, h3, h4, h5, h6 {
-      font-family: 'Rajdhani', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      font-family: 'Titillium Web', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
       font-weight: 600;
       margin: 0;
     }
     h1 {
       font-size: 1.875rem;
       line-height: 2.25rem;
-      font-weight: 700;
+      font-weight: 600;
     }
     @media (min-width: 768px) {
       .container {

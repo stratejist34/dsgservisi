@@ -85,7 +85,7 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
 
         {/* Right Side - 30% - Animated List */}
         <div class="lg:col-span-3">
-          <AnimatedServiceList client:visible />
+          <AnimatedServiceList client:load />
         </div>
       </div>
     </div>
@@ -182,6 +182,89 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
   <!-- Stats Section - Açık Renkli -->
   <Stats client:visible />
 
+  <!-- Process Timeline -->
+  <section class="section bg-white relative overflow-hidden">
+    <div class="container">
+      <div class="text-center mb-16" data-reveal>
+        <h2 class="text-3xl md:text-5xl font-display font-bold text-navy mb-4">
+          Nasıl Çalışıyoruz?
+        </h2>
+        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
+          Aracınızın bakım ve tamir sürecini 4 basit adımda tamamlıyoruz
+        </p>
+      </div>
+
+      <div class="relative max-w-5xl mx-auto" data-stagger-children data-stagger-step="90">
+        {/* Timeline Line */}
+        <div class="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-primary via-cyan to-primary transform -translate-y-1/2"></div>
+
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
+          {/* Step 1 */}
+          <div class="group text-center" data-animate>
+            <div class="relative inline-block mb-6">
+              <div class="w-20 h-20 bg-white border-4 border-primary rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                <span class="text-3xl font-display font-black text-primary">1</span>
+              </div>
+              <div class="absolute -top-2 -right-2 w-6 h-6 bg-cyan rounded-full animate-ping"></div>
+            </div>
+            <h3 class="text-xl font-display font-bold text-navy mb-2">
+              Randevu Alın
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Telefon veya online form ile hızlıca randevu oluşturun
+            </p>
+          </div>
+
+          {/* Step 2 */}
+          <div class="group text-center" data-animate>
+            <div class="relative inline-block mb-6">
+              <div class="w-20 h-20 bg-white border-4 border-cyan rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                <span class="text-3xl font-display font-black text-cyan">2</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-display font-bold text-navy mb-2">
+              Teşhis & Fiyat
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Detaylı arıza tespiti ve şeffaf fiyat teklifi
+            </p>
+          </div>
+
+          {/* Step 3 */}
+          <div class="group text-center" data-animate>
+            <div class="relative inline-block mb-6">
+              <div class="w-20 h-20 bg-white border-4 border-primary rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                <span class="text-3xl font-display font-black text-primary">3</span>
+              </div>
+            </div>
+            <h3 class="text-xl font-display font-bold text-navy mb-2">
+              Onarım
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Uzman kadromuz aracınızı titizlikle tamir eder
+            </p>
+          </div>
+
+          {/* Step 4 */}
+          <div class="group text-center" data-animate>
+            <div class="relative inline-block mb-6">
+              <div class="w-20 h-20 bg-white border-4 border-cyan rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
+                <span class="text-3xl font-display font-black text-cyan">4</span>
+              </div>
+              <div class="absolute -top-2 -right-2 w-6 h-6 bg-primary rounded-full animate-pulse"></div>
+            </div>
+            <h3 class="text-xl font-display font-bold text-navy mb-2">
+              Teslimat
+            </h3>
+            <p class="text-gray-600 text-sm">
+              Aracınızı güvenle teslim alın, yola devam edin
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Supported Brands Showcase -->
   <section class="section bg-gradient-to-br from-navy via-navy-600 to-navy relative overflow-hidden">
     {/* Pattern */}
@@ -263,85 +346,74 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
     </div>
   </section>
 
-  <!-- Process Timeline -->
-  <section class="section bg-white relative overflow-hidden">
+  <!-- FAQ Section -->
+  <section class="section bg-gradient-to-b from-white to-gray-50">
     <div class="container">
       <div class="text-center mb-16" data-reveal>
         <h2 class="text-3xl md:text-5xl font-display font-bold text-navy mb-4">
-          Nasıl Çalışıyoruz?
+          Sıkça Sorulan Sorular
         </h2>
         <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          Aracınızın bakım ve tamir sürecini 4 basit adımda tamamlıyoruz
+          Müşterilerimizin en çok merak ettiği konular hakkında bilgiler
         </p>
       </div>
 
-      <div class="relative max-w-5xl mx-auto" data-stagger-children data-stagger-step="90">
-        {/* Timeline Line */}
-        <div class="hidden md:block absolute top-1/2 left-0 right-0 h-1 bg-gradient-to-r from-primary via-cyan to-primary transform -translate-y-1/2"></div>
-
-        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative z-10">
-          {/* Step 1 */}
-          <div class="group text-center" data-animate>
-            <div class="relative inline-block mb-6">
-              <div class="w-20 h-20 bg-white border-4 border-primary rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                <span class="text-3xl font-display font-black text-primary">1</span>
-              </div>
-              <div class="absolute -top-2 -right-2 w-6 h-6 bg-cyan rounded-full animate-ping"></div>
-            </div>
-            <h3 class="text-xl font-display font-bold text-navy mb-2">
-              Randevu Alın
-            </h3>
-            <p class="text-gray-600 text-sm">
-              Telefon veya online form ile hızlıca randevu oluşturun
-            </p>
+      <div class="max-w-3xl mx-auto space-y-4" data-stagger-children data-stagger-step="90">
+        {/* FAQ 1 */}
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
+          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
+            <span>DSG şanzıman tamiri ne kadar sürer?</span>
+            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Arızanın türüne göre değişmekle birlikte, ortalama 2-3 gün içinde tamir işlemi tamamlanır. 
+            Bazı durumlarda aynı gün teslimat bile mümkündür. Detaylı bilgi için bizimle iletişime geçin.
           </div>
+        </details>
 
-          {/* Step 2 */}
-          <div class="group text-center" data-animate>
-            <div class="relative inline-block mb-6">
-              <div class="w-20 h-20 bg-white border-4 border-cyan rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                <span class="text-3xl font-display font-black text-cyan">2</span>
-              </div>
-            </div>
-            <h3 class="text-xl font-display font-bold text-navy mb-2">
-              Teşhis & Fiyat
-            </h3>
-            <p class="text-gray-600 text-sm">
-              Detaylı arıza tespiti ve şeffaf fiyat teklifi
-            </p>
+        {/* FAQ 2 */}
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
+          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
+            <span>Garanti süresi ne kadar?</span>
+            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Tüm işçiliklerimizde 12 ay, kullandığımız orijinal parçalarda ise 2 yıl garanti sunuyoruz. 
+            Garantilerimiz yazılı olarak belgeli şekilde verilir.
           </div>
+        </details>
 
-          {/* Step 3 */}
-          <div class="group text-center" data-animate>
-            <div class="relative inline-block mb-6">
-              <div class="w-20 h-20 bg-white border-4 border-primary rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                <span class="text-3xl font-display font-black text-primary">3</span>
-              </div>
-            </div>
-            <h3 class="text-xl font-display font-bold text-navy mb-2">
-              Onarım
-            </h3>
-            <p class="text-gray-600 text-sm">
-              Uzman kadromuz aracınızı titizlikle tamir eder
-            </p>
+        {/* FAQ 3 */}
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
+          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
+            <span>Orijinal parça mı kullanılıyor?</span>
+            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Evet, tüm parçalarımız orijinal ve sertifikalıdır. Kalite bizim için öncelik olduğundan, 
+            yedek parça konusunda hiçbir taviz vermiyoruz.
           </div>
+        </details>
 
-          {/* Step 4 */}
-          <div class="group text-center" data-animate>
-            <div class="relative inline-block mb-6">
-              <div class="w-20 h-20 bg-white border-4 border-cyan rounded-full flex items-center justify-center mx-auto shadow-lg group-hover:scale-110 group-hover:rotate-12 transition-all duration-500">
-                <span class="text-3xl font-display font-black text-cyan">4</span>
-              </div>
-              <div class="absolute -top-2 -right-2 w-6 h-6 bg-primary rounded-full animate-pulse"></div>
-            </div>
-            <h3 class="text-xl font-display font-bold text-navy mb-2">
-              Teslimat
-            </h3>
-            <p class="text-gray-600 text-sm">
-              Aracınızı güvenle teslim alın, yola devam edin
-            </p>
+        {/* FAQ 4 */}
+        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
+          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
+            <span>Randevu almak zorunlu mu?</span>
+            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </summary>
+          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
+            Randevu almanız önerilir ancak zorunlu değildir. Randevusuz müşterilerimize de hizmet veriyoruz, 
+            ancak randevulu müşterilerimiz önceliklidir. Beklemeden hızlı servis için randevu almanızı tavsiye ederiz.
           </div>
-        </div>
+        </details>
       </div>
     </div>
   </section>
@@ -465,78 +537,6 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
             </ul>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- FAQ Section -->
-  <section class="section bg-gradient-to-b from-white to-gray-50">
-    <div class="container">
-      <div class="text-center mb-16" data-reveal>
-        <h2 class="text-3xl md:text-5xl font-display font-bold text-navy mb-4">
-          Sıkça Sorulan Sorular
-        </h2>
-        <p class="text-lg text-gray-600 max-w-2xl mx-auto">
-          Müşterilerimizin en çok merak ettiği konular hakkında bilgiler
-        </p>
-      </div>
-
-      <div class="max-w-3xl mx-auto space-y-4" data-stagger-children data-stagger-step="90">
-        {/* FAQ 1 */}
-        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
-          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
-            <span>DSG şanzıman tamiri ne kadar sürer?</span>
-            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </summary>
-          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-            Arızanın türüne göre değişmekle birlikte, ortalama 2-3 gün içinde tamir işlemi tamamlanır. 
-            Bazı durumlarda aynı gün teslimat bile mümkündür. Detaylı bilgi için bizimle iletişime geçin.
-          </div>
-        </details>
-
-        {/* FAQ 2 */}
-        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
-          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
-            <span>Garanti süresi ne kadar?</span>
-            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </summary>
-          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-            Tüm işçiliklerimizde 12 ay, kullandığımız orijinal parçalarda ise 2 yıl garanti sunuyoruz. 
-            Garantilerimiz yazılı olarak belgeli şekilde verilir.
-          </div>
-        </details>
-
-        {/* FAQ 3 */}
-        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
-          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
-            <span>Orijinal parça mı kullanılıyor?</span>
-            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </summary>
-          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-            Evet, tüm parçalarımız orijinal ve sertifikalıdır. Kalite bizim için öncelik olduğundan, 
-            yedek parça konusunda hiçbir taviz vermiyoruz.
-          </div>
-        </details>
-
-        {/* FAQ 4 */}
-        <details class="group bg-white rounded-xl shadow-md hover:shadow-xl transition-all duration-300 overflow-hidden" data-animate>
-          <summary class="cursor-pointer p-6 font-display font-bold text-navy text-lg flex items-center justify-between">
-            <span>Randevu almak zorunlu mu?</span>
-            <svg class="w-6 h-6 text-primary group-open:rotate-180 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-            </svg>
-          </summary>
-          <div class="px-6 pb-6 text-gray-600 leading-relaxed">
-            Randevu almanız önerilir ancak zorunlu değildir. Randevusuz müşterilerimize de hizmet veriyoruz, 
-            ancak randevulu müşterilerimiz önceliklidir. Beklemeden hızlı servis için randevu almanızı tavsiye ederiz.
-          </div>
-        </details>
       </div>
     </div>
   </section>

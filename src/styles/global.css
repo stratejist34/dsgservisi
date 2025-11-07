@@ -47,7 +47,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rajdhani', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: 'Titillium Web', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     @apply font-semibold;
   }
   
@@ -104,50 +104,118 @@
   }
 
   /* Blog Content Styles */
-  /* Paragraf aralarındaki boşluğu artır */
+  /* Paragraf aralarındaki boşluğu azalt */
   .prose p {
-    @apply mb-6;
+    @apply mb-2 leading-normal;
   }
   
   .prose p:last-child {
     @apply mb-0;
   }
   
-  /* Tailwind Typography başlık boyutlarını override et */
+  /* prose-lg için de aynı ayarlar */
+  .prose-lg p {
+    @apply mb-2 leading-normal;
+  }
+  
+  .prose-lg p:last-child {
+    @apply mb-0;
+  }
+  
+  /* Liste öğeleri için de dengeli boşluk */
+  .prose ul,
+  .prose ol {
+    @apply mb-4;
+    line-height: 1.5 !important;
+  }
+  
+  .prose-lg ul,
+  .prose-lg ol {
+    @apply mb-4;
+    line-height: 1.5 !important;
+  }
+  
+  /* Maddeli liste öğeleri için satır arası yüksekliğini azalt - daha spesifik selector */
+  .prose ul li,
+  .prose ol li,
+  .prose-lg ul li,
+  .prose-lg ol li {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    line-height: 1.5 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  /* Liste içindeki paragraflar için de satır arası ayarı */
+  .prose ul li p,
+  .prose ol li p,
+  .prose-lg ul li p,
+  .prose-lg ol li p {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    line-height: 1.5 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+  }
+  
+  /* Liste öğelerinin son öğesi için margin sıfırla */
+  .prose ul li:last-child,
+  .prose ol li:last-child,
+  .prose-lg ul li:last-child,
+  .prose-lg ol li:last-child {
+    margin-bottom: 0 !important;
+  }
+  
+  /* Liste öğelerinin ilk öğesi için margin sıfırla */
+  .prose ul li:first-child,
+  .prose ol li:first-child,
+  .prose-lg ul li:first-child,
+  .prose-lg ol li:first-child {
+    margin-top: 0 !important;
+  }
+  
+  /* Tailwind Typography başlık boyutlarını override et ve margin ekle */
   .prose h1 {
     font-size: 2.0625rem !important; /* 33px */
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     line-height: 2.5rem !important;
+    @apply mb-4 mt-6;
   }
   
   .prose h2 {
     font-size: 1.5rem !important; /* 24px */
     font-weight: 600 !important;
     line-height: 2rem !important;
+    @apply mb-3 mt-6;
   }
   
   .prose h3 {
     font-size: 1.25rem !important; /* 20px */
     font-weight: 600 !important;
     line-height: 1.75rem !important;
+    @apply mb-2 mt-4;
   }
   
   .prose-lg h1 {
     font-size: 2.0625rem !important; /* 33px */
-    font-weight: 700 !important;
+    font-weight: 600 !important;
     line-height: 2.5rem !important;
+    @apply mb-4 mt-6;
   }
   
   .prose-lg h2 {
     font-size: 1.5rem !important; /* 24px */
     font-weight: 600 !important;
     line-height: 2rem !important;
+    @apply mb-3 mt-6;
   }
   
   .prose-lg h3 {
     font-size: 1.25rem !important; /* 20px */
     font-weight: 600 !important;
     line-height: 1.75rem !important;
+    @apply mb-2 mt-4;
   }
   
   /* CTA Box Styles */
@@ -417,39 +485,43 @@
     overflow: visible !important;
   }
   
-  /* TOC Sticky - ABSOLUTE GUARANTEE */
+  /* TOC Sticky - Mobil ve Desktop için */
+  aside.toc-sticky {
+    position: -webkit-sticky !important;
+    position: sticky !important;
+    top: 5rem !important;
+    align-self: flex-start !important;
+    z-index: 30 !important;
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    width: 100% !important;
+    max-width: 320px !important;
+    max-height: calc(100vh - 5rem) !important;
+    overflow-y: auto !important;
+    /* Remove any transform that could break sticky */
+    transform: none !important;
+    will-change: auto !important;
+    contain: none !important;
+    /* Smooth scrolling for TOC content */
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: thin;
+    scrollbar-color: rgba(26, 156, 176, 0.3) transparent;
+    /* Extra guarantee */
+    flex-shrink: 0 !important;
+  }
+  
   @media (min-width: 1024px) {
     aside.toc-sticky {
-      position: -webkit-sticky !important;
-      position: sticky !important;
-      top: 5rem !important;
-      align-self: flex-start !important;
-      z-index: 30 !important;
-      display: block !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-      width: 100% !important;
       max-width: 320px !important;
-      max-height: calc(100vh - 5rem) !important;
-      overflow-y: auto !important;
-      /* Remove any transform that could break sticky */
-      transform: none !important;
-      will-change: auto !important;
-      contain: none !important;
-      /* Smooth scrolling for TOC content */
-      -webkit-overflow-scrolling: touch;
-      scrollbar-width: thin;
-      scrollbar-color: rgba(26, 156, 176, 0.3) transparent;
-      /* Extra guarantee */
-      flex-shrink: 0 !important;
     }
-    
-    /* TOC içindeki div'in görünürlüğünü garanti et */
-    aside.toc-sticky > div {
-      display: block !important;
-      visibility: visible !important;
-      opacity: 1 !important;
-    }
+  }
+  
+  /* TOC içindeki div'in görünürlüğünü garanti et */
+  aside.toc-sticky > div {
+    display: block !important;
+    visibility: visible !important;
+    opacity: 1 !important;
   }
 
   /* Force fixed positioning when requested (overrides sticky) */
@@ -762,6 +834,17 @@
   to {
     opacity: 1;
     transform: translateX(0);
+  }
+}
+
+@keyframes slideInFromBottom {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
