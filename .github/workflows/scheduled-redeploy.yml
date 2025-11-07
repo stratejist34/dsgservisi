@@ -1,0 +1,29 @@
+name: Scheduled redeploy (Vercel)
+
+on:
+  schedule:
+    - cron: '0 * * * *' # Her saat başı
+  workflow_dispatch: {}
+
+jobs:
+  redeploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Vercel Deploy Hook
+        env:
+          HOOK: ${{ secrets.VERCEL_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "VERCEL_DEPLOY_HOOK secret not set" >&2
+            exit 1
+          fi
+          code=$(curl -s -o /dev/null -w "%{http_code}" -X POST "$HOOK")
+          echo "HTTP $code"
+          if [ "$code" -ge 200 ] && [ "$code" -lt 300 ]; then
+            echo "Triggered successfully"
+          else
+            echo "Failed to trigger" >&2
+            exit 1
+          fi
+
+
