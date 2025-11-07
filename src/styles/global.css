@@ -938,3 +938,16 @@
   transform: translateZ(0);
 }
 
+/* İç Linkleme Stilleri */
+.prose .internal-link {
+  @apply text-primary no-underline font-medium border-b border-primary/30 transition-all duration-200;
+}
+
+.prose .internal-link:hover {
+  @apply text-primary border-b border-primary bg-primary/5 rounded px-1 py-0.5;
+}
+
+.prose .internal-link:active {
+  @apply text-primary/80;
+}
+

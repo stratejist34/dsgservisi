@@ -24,42 +24,49 @@ const sizeConfig = {
     padding: 'p-6 md:p-8',
     titleSize: 'text-2xl md:text-[32px]',
     showExcerpt: false,
+    bandClass: 'band-bold',
   },
   'featured-small': {
     height: 'h-full', // 1 row x 200px = 200px
     padding: 'p-4 md:p-5',
     titleSize: 'text-sm md:text-base',
     showExcerpt: false,
+    bandClass: 'band-soft',
   },
   'square-left': {
     height: 'h-full', // 2 rows x 200px = 400px
     padding: 'p-5 md:p-6',
     titleSize: 'text-lg md:text-[22px]',
     showExcerpt: false,
+    bandClass: 'band-medium',
   },
   'rect-right': {
     height: 'h-full', // 2 rows x 200px = 400px
     padding: 'p-5 md:p-6',
     titleSize: 'text-xl md:text-[26px]',
     showExcerpt: false,
+    bandClass: 'band-medium',
   },
   'rect-wide': {
     height: 'h-full', // 2 rows x 200px = 400px
     padding: 'p-5 md:p-6',
     titleSize: 'text-xl md:text-[26px]',
     showExcerpt: false,
+    bandClass: 'band-medium',
   },
   'square-stack': {
     height: 'h-full', // 1 row x 200px = 200px
     padding: 'p-4 md:p-5',
     titleSize: 'text-sm md:text-base',
     showExcerpt: false,
+    bandClass: 'band-soft',
   },
   'rect-regular': {
     height: 'h-full', // 2 rows x 200px = 400px
     padding: 'p-5 md:p-6',
     titleSize: 'text-base md:text-xl',
     showExcerpt: false,
+    bandClass: 'band-medium',
   },
 };
 
@@ -108,9 +115,9 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
 
   {/* Full-width glass band with title (edge-to-edge) */}
   <div class="absolute inset-x-0 bottom-0 z-30">
-    <div class="backdrop-blur-md bg-gradient-to-r from-slate-900/75 via-slate-800/45 to-white/10 border-t border-white/10">
+    <div class={`title-band ${config.bandClass}`}>
       <a href={`/${postSlug}`} class="block focus:outline-none focus:ring-2 focus:ring-cyan/60">
-        <h3 class={`font-display text-white ${config.titleSize} uppercase tracking-wide font-extrabold leading-tight px-5 py-4`}>{postTitle}</h3>
+        <h3 class={`font-display text-white ${config.titleSize} uppercase tracking-[0.06em] font-extrabold leading-tight px-5 py-4`}>{postTitle}</h3>
       </a>
     </div>
   </div>
@@ -215,6 +222,61 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
         rgba(26, 156, 176, 0.05) 50%,
         rgba(26, 156, 176, 0.00) 90%
       );
+  }
+
+  /* Title band presets for quick tuning */
+  .title-band {
+    backdrop-filter: blur(5.12px);
+    -webkit-backdrop-filter: blur(5.12px);
+    border-top: 1px solid rgba(255,255,255,0.12);
+    background: linear-gradient(90deg,
+      rgba(8, 16, 24, 0.78) 0%,
+      rgba(20, 32, 44, 0.52) 52%,
+      rgba(255, 255, 255, 0.10) 100%
+    );
+  }
+  .band-soft {
+    backdrop-filter: blur(2.56px);
+    -webkit-backdrop-filter: blur(2.56px);
+    background: linear-gradient(90deg,
+      rgba(8, 16, 24, 0.55) 0%,
+      rgba(20, 32, 44, 0.28) 50%,
+      rgba(255, 255, 255, 0.06) 100%
+    );
+  }
+  .band-medium {
+    /* uses base .title-band values */
+  }
+  .band-bold {
+    backdrop-filter: blur(6.4px);
+    -webkit-backdrop-filter: blur(6.4px);
+    background: linear-gradient(90deg,
+      rgba(4, 10, 18, 0.92) 0%,
+      rgba(14, 26, 36, 0.70) 50%,
+      rgba(255, 255, 255, 0.16) 100%
+    );
+    border-top-color: rgba(255,255,255,0.18);
+  }
+  .group:hover .title-band.band-soft {
+    background: linear-gradient(90deg,
+      rgba(8, 16, 24, 0.62) 0%,
+      rgba(20, 32, 44, 0.36) 50%,
+      rgba(255, 255, 255, 0.08) 100%
+    );
+  }
+  .group:hover .title-band.band-medium {
+    background: linear-gradient(90deg,
+      rgba(8, 16, 24, 0.84) 0%,
+      rgba(20, 32, 44, 0.60) 50%,
+      rgba(255, 255, 255, 0.12) 100%
+    );
+  }
+  .group:hover .title-band.band-bold {
+    background: linear-gradient(90deg,
+      rgba(2, 6, 12, 0.96) 0%,
+      rgba(10, 18, 28, 0.78) 50%,
+      rgba(255, 255, 255, 0.20) 100%
+    );
   }
 </style>
 

@@ -9,6 +9,7 @@ import remarkBreaks from 'remark-breaks';
 import remarkDirective from 'remark-directive';
 import rehypeSlug from 'rehype-slug';
 import remarkCallouts from './src/utils/remark-callouts.mjs';
+import remarkInternalLinks from './src/utils/remark-internal-links.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -31,7 +32,7 @@ export default defineConfig({
       theme: 'github-dark',
       wrap: true,
     },
-    remarkPlugins: [remarkBreaks, remarkDirective, remarkCallouts],
+    remarkPlugins: [remarkBreaks, remarkDirective, remarkCallouts, remarkInternalLinks],
     rehypePlugins: [rehypeSlug],
   },
   image: {
