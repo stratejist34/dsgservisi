@@ -7,4 +7,7 @@ Disallow: /wp-cache/
 # API endpoint'leri varsa (gelecekte)
 Disallow: /api/
 
+# Preview sayfası - Google tarafından indexlenmemeli
+Disallow: /blog/preview
+
 Sitemap: https://dsgservisi.com/sitemap-index.xml
