@@ -4,8 +4,8 @@ description: "Otomatik şanzıman yağı değişimi fiyatları 2025: DSG, ZF, ko
 category: "DSG"
 tags: ["otomatik şanzıman yağı", "yağ değişimi", "fiyat", "2025", "dsg", "zf", "bakım"]
 slug: "otomatik-sanziman-yagi-degisimi-fiyati-2025"
-publishDate: "2025-11-07T10:10:00"
-updatedDate: "2025-11-07T10:10:00"
+publishDate: "2025-11-07T10:10:00+03:00"
+updatedDate: "2025-11-07T10:10:00+03:00"
 featuredImage: "/images/blog/otomatik-sanziman-yagi-degisimi-2025.jpg"
 imageAlt: "Otomatik şanzıman yağı değişimi fiyatları 2025 - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/otomatik-sanziman-yagi-degisimi-2025.jpg"

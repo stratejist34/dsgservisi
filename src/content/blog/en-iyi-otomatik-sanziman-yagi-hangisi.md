@@ -4,8 +4,8 @@ description: "En iyi otomatik şanzıman yağı hangisi? DSG, ZF, konvansiyonel 
 category: "DSG"
 tags: ["otomatik şanzıman yağı", "en iyi yağ", "dsg yağı", "zf yağı", "yağ seçimi", "spesifikasyon", "2026"]
 slug: "en-iyi-otomatik-sanziman-yagi-hangisi"
-publishDate: "2025-11-07T09:30:00"
-updatedDate: "2025-11-07T09:30:00"
+publishDate: "2025-11-07T09:30:00+03:00"
+updatedDate: "2025-11-07T09:30:00+03:00"
 featuredImage: "/images/blog/en-iyi-otomatik-sanziman-yagi.jpg"
 imageAlt: "En iyi otomatik şanzıman yağı seçimi - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/en-iyi-otomatik-sanziman-yagi.jpg"
