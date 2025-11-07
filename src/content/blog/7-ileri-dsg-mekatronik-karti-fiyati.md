@@ -5,8 +5,8 @@ description: "7 ileri DSG mekatronik kartı fiyatı 2025: DQ200, DQ380, DQ381 me
 category: "DSG"
 tags: ["dsg", "7 ileri", "mekatronik kart", "fiyat", "dq200", "dq380", "dq381", "2025"]
 slug: "7-ileri-dsg-mekatronik-karti-fiyati"
-publishDate: "2025-11-09T13:15:00+03:00"
-updatedDate: "2025-11-09T13:15:00+03:00"
+publishDate: "2025-11-07T20:45:00+03:00"
+updatedDate: "2025-11-07T20:45:00+03:00"
 featuredImage: "/images/blog/7-ileri-dsg-mekatronik-karti-fiyati.jpg"
 imageAlt: "7 ileri DSG mekatronik kartı fiyatı - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/7-ileri-dsg-mekatronik-karti-fiyati.jpg"

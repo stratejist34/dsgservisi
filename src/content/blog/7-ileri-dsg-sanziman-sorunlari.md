@@ -5,8 +5,8 @@ description: "7 ileri DSG şanzıman sorunları nelerdir? DQ200, DQ380, DQ381 ş
 category: "DSG"
 tags: ["dsg", "7 ileri", "şanzıman sorunları", "dq200", "dq380", "dq381", "arıza", "belirtiler"]
 slug: "7-ileri-dsg-sanziman-sorunlari"
-publishDate: "2025-11-09T14:18:00+03:00"
-updatedDate: "2025-11-09T14:18:00+03:00"
+publishDate: "2025-11-07T20:45:00+03:00"
+updatedDate: "2025-11-07T20:45:00+03:00"
 featuredImage: "/images/blog/7-ileri-dsg-sanziman-sorunlari.jpg"
 imageAlt: "7 ileri DSG şanzıman sorunları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/7-ileri-dsg-sanziman-sorunlari.jpg"

@@ -2,7 +2,7 @@ name: Scheduled redeploy (Vercel)
 
 on:
   schedule:
-    - cron: '0 * * * *' # Her saat başı
+    - cron: '*/5 * * * *' # Her 5 dakikada bir (test)
   workflow_dispatch: {}
 
 jobs:
