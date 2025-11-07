@@ -105,12 +105,15 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
   
   {/* Content Overlay - Everything on top of image */}
   <div class={`relative z-20 w-full h-full flex flex-col justify-end ${config.padding}`}>
-      {/* Title */}
-      <h3 class={`font-display font-bold text-white mb-3 group-hover:text-cyan transition-colors line-clamp-2 leading-tight ${config.titleSize}`}>
-        <a href={`/${postSlug}`} class="hover:text-cyan transition-colors">
-          {postTitle}
-        </a>
-      </h3>
+      {/* Title with glass band */}
+      <div class="relative mb-3">
+        <div class="absolute inset-0 rounded-xl backdrop-blur-[6px] bg-gradient-to-r from-slate-900/60 via-slate-800/35 to-white/10 border border-white/10"></div>
+        <h3 class={`relative font-display font-bold text-white line-clamp-2 leading-tight ${config.titleSize} px-4 py-2`}>
+          <a href={`/${postSlug}`} class="hover:text-cyan transition-colors">
+            {postTitle}
+          </a>
+        </h3>
+      </div>
 
       {/* Excerpt - only for large */}
       {config.showExcerpt && (
@@ -119,16 +122,7 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
         </p>
       )}
 
-      {/* Read More Button */}
-      <a
-        href={`/${postSlug}`}
-        class="inline-flex items-center gap-2 text-cyan hover:text-white font-semibold transition-all group/btn text-sm w-fit"
-      >
-        <span>Devamını Oku</span>
-        <svg class="w-4 h-4 transform transition-transform group-hover/btn:translate-x-2" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
-          <path stroke-linecap="round" stroke-linejoin="round" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
-        </svg>
-      </a>
+      {/* Read More removed as requested */}
   </div>
 
   
