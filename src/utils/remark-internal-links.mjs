@@ -6,8 +6,9 @@ import { internalLinkMap, sortedTerms, getLinkUrl } from './internal-links.mjs';
  * ilgili blog yazılarına linkler.
  * 
  * Kurallar:
- * - Her terim maksimum 2 kere linklenir
+ * - Her terim maksimum 1 kere linklenir
  * - Aynı terim arasında 150 kelime sınırı vardır
+ * - Herhangi 2 link arasında minimum 10 kelime boşluk vardır
  * - Bir yazıda maksimum 10 iç link kullanılır
  * - Başlıklarda kullanılmaz
  * - Tablo içinde kullanılmaz
@@ -20,10 +21,12 @@ export default function remarkInternalLinks() {
     const termCounts = new Map(); // term -> { count: number, lastWordIndex: number }
     let totalLinks = 0;
     let totalWordCount = 0;
+    let lastLinkWordIndex = -Infinity; // Son eklenen link'in wordIndex'i (global)
     
     const MAX_LINKS_PER_ARTICLE = 10;
-    const MAX_LINKS_PER_TERM = 2;
+    const MAX_LINKS_PER_TERM = 1;
     const MIN_WORDS_BETWEEN_SAME_TERM = 150;
+    const MIN_WORDS_BETWEEN_ANY_LINKS = 33;
     
     // Önce table node'larını işaretle (içlerindeki paragrafları atlamak için)
     const tableNodes = new Set();
@@ -137,7 +140,7 @@ export default function remarkInternalLinks() {
         
         const termInfo = termCounts.get(match.term) || { count: 0, lastWordIndex: -Infinity };
         
-        // Aynı terim için maksimum 2 kere kontrolü
+        // Aynı terim için maksimum 1 kere kontrolü
         if (termInfo.count >= MAX_LINKS_PER_TERM) {
           continue;
         }
@@ -148,12 +151,19 @@ export default function remarkInternalLinks() {
           continue;
         }
         
+        // Herhangi 2 link arasında minimum 10 kelime boşluk kontrolü
+        const wordsSinceLastLink = match.wordIndex - lastLinkWordIndex;
+        if (totalLinks > 0 && wordsSinceLastLink < MIN_WORDS_BETWEEN_ANY_LINKS) {
+          continue;
+        }
+        
         // Eşleşmeyi ekle
         filteredMatches.push(match);
         termCounts.set(match.term, {
           count: termInfo.count + 1,
           lastWordIndex: match.wordIndex,
         });
+        lastLinkWordIndex = match.wordIndex;
         totalLinks++;
       }
       
