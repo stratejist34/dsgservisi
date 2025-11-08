@@ -7,13 +7,12 @@ import { findRelatedPosts, calculateReadingTime, extractPriceRangeFromHtml, extr
 import { getBlogFeaturedImage } from '@utils/content';
 
 export async function getStaticPaths() {
-  // Preview modu için: TÜM yazıları al (draft hariç, publishDate kontrolü YOK)
-  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+  // Sadece yayınlanmış yazılar için route oluştur (gelecek tarihli yazılar preview sayfasında görünür)
+  const publishedPosts = await getCollection('blog', ({ data }) => isPublishedPost(data));
   
-  // Hem yayınlanmış hem de planlanmış yazılar için route oluştur
-  return allPosts.map((post) => ({
+  return publishedPosts.map((post) => ({
     params: { slug: post.slug },
-    props: { post, isPublished: isPublishedPost(post.data) },
+    props: { post, isPublished: true },
   }));
 }
 
@@ -21,12 +20,13 @@ const { post, isPublished } = Astro.props;
 const { Content } = await post.render();
 const data = post.data;
 
-// Preview uyarısı (gelecek tarihli yazılar için)
-const showPreviewWarning = !isPublished;
+// Artık sadece yayınlanmış yazılar buraya gelir, preview uyarısı gerekmez
+const showPreviewWarning = false;
 
-// Tüm yazıları al (ilgili yazılar için - preview modunda tüm yazılar)
+// Sadece yayınlanmış yazıları al (ilgili yazılar için - SEO için kritik!)
 const allPostsForRelated = await getCollection('blog', ({ data }) => !data.draft);
-const relatedPosts = findRelatedPosts(post, allPostsForRelated, 3);
+const publishedPostsForRelated = allPostsForRelated.filter(post => isPublishedPost(post.data));
+const relatedPosts = findRelatedPosts(post, publishedPostsForRelated, 3);
 
 // Okuma süresini hesapla
 const readingTime = data.readingTime || calculateReadingTime(Content.toString());
@@ -46,7 +46,7 @@ const extractedService = extractPriceRangeFromHtml(html);
 const extractedFaqs = extractFaqsFromHtml(html);
 ---
 
-<BlogLayout post={post} extractedService={extractedService} extractedFaqs={extractedFaqs}>
+<BlogLayout post={post} extractedService={extractedService} extractedFaqs={extractedFaqs} isPublished={isPublished}>
   <Fragment slot="head">
     {/* TOC Sticky ve aktif link stilleri - hyundaiservisim stili */}
     <style is:inline>

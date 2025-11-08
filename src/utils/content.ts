@@ -230,6 +230,7 @@ export function filterPostsByTag(posts: BlogPost[], tag: string): BlogPost[] {
 
 /**
  * İlgili blog yazılarını bulur
+ * NOT: allPosts parametresi zaten yayınlanmış yazılar olmalı (isPublishedPost filtresi ile)
  */
 export function findRelatedPosts(
   currentPost: BlogPost,
@@ -239,10 +240,11 @@ export function findRelatedPosts(
   const related: BlogPost[] = [];
   
   // Önce manuel olarak belirtilen ilgili yazıları al
+  // (allPosts zaten yayınlanmış yazılar olduğu için ekstra kontrol gerekmez)
   if (currentPost.data.relatedPosts) {
     for (const slug of currentPost.data.relatedPosts) {
       const found = allPosts.find(p => p.slug === slug);
-      if (found && found.slug !== currentPost.slug) {
+      if (found && found.slug !== currentPost.slug && isPublishedPost(found.data)) {
         related.push(found);
       }
     }

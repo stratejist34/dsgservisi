@@ -9,9 +9,10 @@ interface Props {
   post: CollectionEntry<'blog'>;
   extractedService?: any;
   extractedFaqs?: Array<{ question: string; answer: string }>;
+  isPublished?: boolean;
 }
 
-const { post, extractedService, extractedFaqs } = Astro.props;
+const { post, extractedService, extractedFaqs, isPublished = true } = Astro.props;
 const es = extractedService || {};
 const data = post.data;
 const d = data as any; // geniş tip: opsiyonel alanlar için güvenli erişim
