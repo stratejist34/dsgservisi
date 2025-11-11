@@ -38,11 +38,13 @@ const { post, isPublished } = Astro.props;
 const { Content } = await post.render();
 const data = post.data;
 
-// Gelecek tarihli yazılar için preview uyarısı göster
+// Runtime'da gerçek yayın durumunu kontrol et (build time'daki prop'a güvenme)
 const publishDate = data.publishDate instanceof Date 
   ? data.publishDate 
   : new Date(data.publishDate);
-const showPreviewWarning = !isPublished && publishDate > new Date();
+const now = new Date();
+const actuallyPublished = isPublishedPost(data); // Runtime kontrolü
+const showPreviewWarning = !actuallyPublished && publishDate > now;
 
 // Sadece yayınlanmış yazıları al (ilgili yazılar için - SEO için kritik!)
 const allPostsForRelated = await getCollection('blog', ({ data }) => !data.draft);
@@ -64,7 +66,7 @@ const extractedService = extractPriceRangeFromHtml(html);
 const extractedFaqs = extractFaqsFromHtml(html);
 ---
 
-<BlogLayout post={post} extractedService={extractedService} extractedFaqs={extractedFaqs} isPublished={isPublished}>
+<BlogLayout post={post} extractedService={extractedService} extractedFaqs={extractedFaqs} isPublished={actuallyPublished}>
   <Fragment slot="head">
     {/* TOC Sticky ve aktif link stilleri - hyundaiservisim stili */}
     <style is:inline>

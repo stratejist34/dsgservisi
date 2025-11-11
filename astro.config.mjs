@@ -54,6 +54,7 @@ export default defineConfig({
     inlineStylesheets: 'always',
     assets: '_assets',
   },
+  compressHTML: true,
   server: {
     headers: {
       'Cache-Control': 'public, max-age=31536000, immutable',
@@ -66,7 +67,10 @@ export default defineConfig({
         algorithm: 'gzip',
         ext: '.gz',
         threshold: 1024, // 1KB üzeri dosyalar
-        deleteOriginFile: false
+        deleteOriginFile: false,
+        compressionOptions: {
+          level: 9, // Maximum compression
+        }
       }),
       // Brotli compression (daha iyi sıkıştırma)
       compression({
@@ -76,6 +80,36 @@ export default defineConfig({
         deleteOriginFile: false
       })
     ],
+    build: {
+      cssCodeSplit: true,
+      minify: 'terser',
+      terserOptions: {
+        compress: {
+          drop_console: true, // Production'da console.log'ları kaldır
+          drop_debugger: true,
+          pure_funcs: ['console.log', 'console.info', 'console.debug'],
+        },
+        format: {
+          comments: false, // Yorumları kaldır
+        },
+      },
+      rollupOptions: {
+        output: {
+          manualChunks: (id) => {
+            // Vendor chunk'ları ayır
+            if (id.includes('node_modules')) {
+              if (id.includes('react') || id.includes('react-dom')) {
+                return 'react-vendor';
+              }
+              if (id.includes('lucide')) {
+                return 'lucide-vendor';
+              }
+              return 'vendor';
+            }
+          },
+        },
+      },
+    },
     resolve: {
       alias: {
         '@': path.resolve(__dirname, './src'),
