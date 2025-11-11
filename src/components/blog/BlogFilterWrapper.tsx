@@ -18,3 +18,4 @@ export default function BlogFilterWrapper({ posts, onFilteredPostsChange }: Blog
   return <BlogFilter posts={posts} onFilterChange={handleFilterChange} />;
 }
 
+

@@ -44,7 +44,7 @@
 8. Volkswagen Triger Değişimi Fiyatları
 
 ###Şanzman Tamiri Fiyatı Yazıları
-1. Audi Şanzıman Tamiri Fiyatı
+1. Audi Şanzıman Tamiri Fiyatları
 2. Bmw Şanzıman Tamiri Fiyatları
 3. Land Rover Şanzıman Tamiri Fiyat
 4. Mercedes Şanzıman Tamiri Fiyatları
@@ -102,7 +102,6 @@
 42. 1.4 Tsi Dsg Kavrama Fiyat
 43. Dq200 Kavrama Değişimi
 44. 7 İleri Dsg Şanzıman Yağ Değişimi Fiyatı
-
 
 ---
 
@@ -194,7 +193,7 @@
 
 ---
 
-## Genel Arıza ve Bakım Yazıları
+
 
 #Volkswagen Arıza ve Bakım Yazıları
 1. Polo Ağır Bakım Fiyatları
@@ -209,6 +208,8 @@
 10. T-Roc Periyodik Bakım
 11. Golf 7 Periyodik Bakım
 12. Tiguan Ağır Bakım
+
+## Genel Arıza ve Bakım Yazıları (Buradan sonraki kısım 8 Markayı Kapsayacak Şekilde)
 13. Balata Değişimi Ne Kadar
 14. Fren Balata Değişim İşçilik Ücreti 2025
 15. Baskı Balata Değişimi Ne Kadar 2025
@@ -218,19 +219,18 @@
 19. Triger Kayışı Değişimi Ne Kadar Sürer
 20. Otomatik Şanzıman Tamiri Kaç Gün Sürer
 21. Triger Kayışı Değişimi Fiyatı 2025
-22. Triger Kayışı Değişimi Ne Kadar Sürer
-23. Triger Kayışı Kopması Belirtileri
-24. Fren Balata Değişimi Fiyatı 2025
-25. Alternatör Değişimi Fiyatı
-26. Akü Değişimi Fiyatı 2025
-27. Akü Değişimi Ne Kadar Sürer
-28. Termostat Değişimi Fiyatı
-29. Radyatör Değişimi Fiyatı
-30. Amortisör Değişimi Fiyatı 2025
-31. Amortisör Değişimi Ne Kadar Sürer
-32. Süspansiyon Tamiri Fiyatı
-33. Süspansiyon Arızası Belirtileri
-34. Süspansiyon Bakımı Fiyatı
+22. Triger Kayışı Kopması Belirtileri
+23. Fren Balata Değişimi Fiyatı 2025
+24. Alternatör Değişimi Fiyatı
+25. Akü Değişimi Fiyatı 2025
+26. Akü Değişimi Ne Kadar Sürer
+27. Termostat Değişimi Fiyatı
+28. Radyatör Değişimi Fiyatı
+29. Amortisör Değişimi Fiyatı 2025
+30. Amortisör Değişimi Ne Kadar Sürer
+31. Süspansiyon Tamiri Fiyatı
+32. Süspansiyon Arızası Belirtileri
+33. Süspansiyon Bakımı Fiyatı
 
 
 
@@ -349,6 +349,7 @@
 - [x] 1.4 Tsi Dsg Kavrama Fiyat (TAMAMLANDI)
 - [x] Dq200 Kavrama Değişimi (TAMAMLANDI)
 - [x] 7 İleri Dsg Şanzıman Yağ Değişimi Fiyatı (TAMAMLANDI)
+- [x] Dsg Mekatronik Arızası Belirtileri (TAMAMLANDI)
 
 - [ ] Büyükçekmece Audi Servis
 - [ ] Büyükçekmece Bmw Servis

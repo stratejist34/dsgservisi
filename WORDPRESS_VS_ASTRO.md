@@ -217,3 +217,4 @@
 **Tahmini WordPress Eklentisi Sayısı:** 15-20 eklenti
 **Astro'da Gerekli:** 0 eklenti (native özellikler)
 
+

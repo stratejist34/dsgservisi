@@ -33,6 +33,10 @@ const updatedDate = data.updatedDate
   ? (data.updatedDate instanceof Date ? data.updatedDate : new Date(data.updatedDate))
   : publishDate;
 
+// Yayınlanmamış yazılar için noindex (gelecek tarihli veya draft)
+// Build zamanında kontrol edilir, yayın tarihi geldiğinde otomatik olarak indexlenebilir hale gelir
+const shouldNoIndex = !isPublished || publishDate > new Date();
+
 // Article Schema
 const articleSchema = {
   title: data.title,
@@ -238,7 +242,7 @@ const localServiceSchema = {
 };
 ---
 
-<BaseLayout title={title} description={description} image={image}>
+<BaseLayout title={title} description={description} image={image} noindex={shouldNoIndex}>
   <Fragment slot="head">
     {/* Article Schema */}
     <Schema type="article" article={articleSchema} />

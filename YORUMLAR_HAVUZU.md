@@ -470,3 +470,4 @@ Bu dosyaya gerçek Google yorumlarını ekleyin. Her yeni blog yazısı yazarken
 - Yeni yorumlar eklendikçe bu dosya güncellenecek
 
 
+

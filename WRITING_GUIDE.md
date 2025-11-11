@@ -234,3 +234,38 @@ Cevap 1…
 ### Soru 2?
 Cevap 2…
 ```
+
+### 12) Blog Yazı Yayın Planı
+
+**Yayın Takvimi:** Yazılar belirli günlerde ve saatlerde yayınlanır. Plan şu şekildedir:
+
+#### Günlük Yayın Saatleri:
+- **Her yayın günü:** 3 yazı
+  - 09:00
+  - 12:50
+  - 15:25
+
+#### Yayın Düzeni:
+- **1 gün yayın, 1 gün atla** sistemi uygulanır
+- Yayın günlerinde 3 yazı yayınlanır
+- Atlanan günlerde yazı yayınlanmaz
+
+#### Örnek Plan:
+- **1. Gün (Yayın):** 09:00, 12:50, 15:25 (3 yazı)
+- **2. Gün (Atla):** Yazı yok
+- **3. Gün (Yayın):** 09:00, 12:50, 15:25 (3 yazı)
+- **4. Gün (Atla):** Yazı yok
+- **5. Gün (Yayın):** 09:00, 12:50, 15:25 (3 yazı)
+- **6. Gün (Atla):** Yazı yok
+- ... (bu şekilde devam eder)
+
+#### Tarih Formatı:
+Yazıların `publishDate` alanında tarih ve saat şu formatta belirtilir:
+```yaml
+publishDate: "2025-11-15T09:00:00+03:00"   # 15 Kasım 2025, 09:00
+publishDate: "2025-11-15T12:50:00+03:00"  # 15 Kasım 2025, 12:50
+publishDate: "2025-11-15T15:25:00+03:00"  # 15 Kasım 2025, 15:25
+publishDate: "2025-11-17T09:00:00+03:00"  # 17 Kasım 2025, 09:00 (bir sonraki yayın günü)
+```
+
+**Not:** Tarih formatı ISO 8601 standardına uygun olmalıdır. Saat dilimi +03:00 (Türkiye saati) olarak belirtilir.

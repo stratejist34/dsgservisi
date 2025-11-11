@@ -2,6 +2,7 @@
 import BaseLayout from '@layouts/BaseLayout.astro';
 import BlogCard from '@components/blog/BlogCard.astro';
 import PostGridPattern from '@components/blog/PostGridPattern.astro';
+import PreviewPassword from '@components/blog/PreviewPassword.tsx';
 import { getCollection } from 'astro:content';
 import { sortPostsByDate, getCategoriesWithCounts, getCategoryLogo, getCategoryLink } from '@utils/content';
 
@@ -14,13 +15,15 @@ const allEntries = await getCollection('blog', ({ data }) => !data.draft);
 const posts = sortPostsByDate(allEntries);
 
 // Yayınlanmış ve planlanmış yazıları ayır
+// Saati gelmeyen her yazı planlanmış sayılır (tarih ve saat kontrolü)
 const now = new Date();
 const publishedPosts = sortPostsByDate(
   posts.filter(post => {
     const publishDate = post.data.publishDate instanceof Date 
       ? post.data.publishDate 
       : new Date(post.data.publishDate);
-    return publishDate <= now;
+    // Sadece publishDate şu andan önce veya eşitse yayınlanmış sayılır
+    return publishDate.getTime() <= now.getTime();
   })
 );
 
@@ -29,7 +32,8 @@ const scheduledPosts = sortPostsByDate(
     const publishDate = post.data.publishDate instanceof Date 
       ? post.data.publishDate 
       : new Date(post.data.publishDate);
-    return publishDate > now;
+    // publishDate şu andan sonraysa (tarih veya saat) planlanmış sayılır
+    return publishDate.getTime() > now.getTime();
   })
 );
 
@@ -53,8 +57,9 @@ const categoryLogos = categoriesWithCounts
   });
 ---
 
-<BaseLayout title={title} description={description} image={image}>
-  <main class="min-h-screen bg-gradient-to-b from-gray-50 to-white">
+<BaseLayout title={title} description={description} image={image} noindex={true}>
+  <PreviewPassword client:load />
+  <main id="preview-content" class="min-h-screen bg-gradient-to-b from-gray-50 to-white hidden">
     <div class="container max-w-7xl mx-auto px-4 py-12">
       <!-- Preview Uyarısı -->
       <div class="mb-8 p-4 bg-yellow-100 border-l-4 border-yellow-500 rounded-lg">

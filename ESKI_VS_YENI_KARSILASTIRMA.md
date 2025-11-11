@@ -126,3 +126,4 @@ Ama eski sistem de çalışıyor ve performans farkı minimal.
 
 **Karar sizin!** 🤔
 
+

@@ -7,23 +7,46 @@ import { findRelatedPosts, calculateReadingTime, extractPriceRangeFromHtml, extr
 import { getBlogFeaturedImage } from '@utils/content';
 
 export async function getStaticPaths() {
-  // Sadece yayınlanmış yazılar için route oluştur (gelecek tarihli yazılar preview sayfasında görünür)
+  // Yayınlanmış yazılar için route oluştur
   const publishedPosts = await getCollection('blog', ({ data }) => isPublishedPost(data));
+  
+  // Gelecek tarihli yazılar için de route oluştur (preview için, noindex ile)
+  const allPosts = await getCollection('blog', ({ data }) => !data.draft);
+  const scheduledPosts = allPosts.filter((post) => {
+    const publishDate = post.data.publishDate instanceof Date 
+      ? post.data.publishDate 
+      : new Date(post.data.publishDate);
+    return publishDate > new Date();
+  });
   
   // Kategori slug'larını utility'den al
   const categorySlugs = new Set(getCategorySlugs());
   
-  // Sadece kategori slug'ı OLMAYAN blog postları için route oluştur
-  return publishedPosts
+  // Yayınlanmış yazılar (kategori slug'ı olmayanlar)
+  const publishedRoutes = publishedPosts
     .filter((post) => !categorySlugs.has(post.slug))
     .map((post) => ({
       params: { slug: post.slug },
       props: { post, isPublished: true },
     }));
+  
+  // Gelecek tarihli yazılar (preview için, kategori slug'ı olmayanlar)
+  const scheduledRoutes = scheduledPosts
+    .filter((post) => !categorySlugs.has(post.slug))
+    .map((post) => ({
+      params: { slug: post.slug },
+      props: { post, isPublished: false },
+    }));
+  
+  // Debug: route sayılarını kontrol et
+  console.log(`[slug].astro - Published routes: ${publishedRoutes.length}, Scheduled routes: ${scheduledRoutes.length}`);
+  console.log(`[slug].astro - Scheduled slugs:`, scheduledRoutes.map(r => r.params.slug));
+  
+  return [...publishedRoutes, ...scheduledRoutes];
 }
 
 const { slug } = Astro.params;
-const { post, isPublished } = Astro.props;
+const { post, isPublished } = Astro.props || {};
 
 // Kategori slug kontrolü - eğer kategori slug'ı ise [category].astro bunu handle edecek
 // Bu dosyada kategori slug'ları için route oluşturmadığımız için bu kontrol gereksiz ama güvenlik için
@@ -37,10 +60,14 @@ if (!post) {
   return Astro.redirect('/blog', 404);
 }
 
-// Artık sadece yayınlanmış yazılar buraya gelir, preview uyarısı gerekmez
-const showPreviewWarning = false;
 const { Content } = await post.render();
 const data = post.data;
+
+// Gelecek tarihli yazılar için preview uyarısı göster
+const publishDate = data.publishDate instanceof Date 
+  ? data.publishDate 
+  : new Date(data.publishDate);
+const showPreviewWarning = !isPublished && publishDate > new Date();
 
 // Sadece yayınlanmış yazıları al (ilgili yazılar için - SEO için kritik!)
 const allPostsForRelated = await getCollection('blog', ({ data }) => !data.draft);
@@ -50,10 +77,7 @@ const relatedPosts = findRelatedPosts(post, publishedPostsForRelated, 3);
 // Okuma süresini hesapla
 const readingTime = data.readingTime || calculateReadingTime(Content.toString());
 
-// Tarih formatı
-const publishDate = data.publishDate instanceof Date 
-  ? data.publishDate 
-  : new Date(data.publishDate);
+// Tarih formatı (publishDate zaten yukarıda tanımlı)
 const formattedDate = publishDate.toLocaleDateString('tr-TR', {
   year: 'numeric',
   month: 'long',
