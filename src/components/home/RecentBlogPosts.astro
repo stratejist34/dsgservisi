@@ -1,0 +1,211 @@
+---
+import { getCollection } from 'astro:content';
+import { isPublishedPost, sortPostsByDate } from '@utils/content';
+
+// Blog yazılarını Content Collections'dan çekiyoruz
+const allPosts = await getCollection('blog', ({ data }) => isPublishedPost(data));
+
+// Son 4 yazıyı tarih sırasına göre al
+const recentPosts = sortPostsByDate(allPosts).slice(0, 4);
+
+// URL oluşturma fonksiyonu
+const getPostUrl = (slug: string) => {
+  return `/${slug}`;
+};
+---
+
+<section class="blog-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>DSG Bilgi Merkezi</h2>
+      <p>DSG şanzıman, bakım ve onarım hakkında güncel bilgiler</p>
+    </div>
+    <div class="blog-grid">
+      {recentPosts.map((post, index) => {
+        const postUrl = getPostUrl(post.slug);
+        const featuredImage = post.data.featuredImage || `/images/blog/${post.slug}.jpg`;
+        const description = post.data.description || '';
+        
+        return (
+          <article class="blog-card" data-index={index}>
+            <a href={postUrl} class="card-link">
+              {featuredImage && (
+                <div class="card-image">
+                  <img 
+                    src={featuredImage} 
+                    alt={post.data.imageAlt || post.data.title}
+                    loading={index < 2 ? 'eager' : 'lazy'}
+                    width="400"
+                    height="250"
+                  />
+                </div>
+              )}
+              <div class="card-content">
+                <h3 class="card-title">{post.data.title}</h3>
+                <p class="card-excerpt">
+                  {description || 'DSG şanzıman ve bakım hizmetleri hakkında detaylı bilgi...'}
+                </p>
+                <span class="read-more">Devamını Oku →</span>
+              </div>
+            </a>
+          </article>
+        );
+      })}
+    </div>
+    <div class="blog-footer">
+      <a href="/blog" class="view-all-btn">Tüm Blog Yazıları</a>
+    </div>
+  </div>
+</section>
+
+<style>
+  .blog-section {
+    padding: 60px 0;
+    background: linear-gradient(135deg, #0a4d5e 0%, #1a6b7d 50%, #0a4d5e 100%);
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  .section-header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .section-header h2 {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 10px;
+  }
+  
+  .section-header p {
+    color: #e0f4f8;
+    font-size: 1rem;
+  }
+  
+  .blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    margin-bottom: 40px;
+  }
+  
+  .blog-card {
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .blog-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
+  }
+  
+  .card-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .card-image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    background: #e9ecef;
+  }
+  
+  .card-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s;
+  }
+  
+  .blog-card:hover .card-image img {
+    transform: scale(1.05);
+  }
+  
+  .card-content {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    color: #1a1a1a;
+    margin-bottom: 12px;
+    line-height: 1.4;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .card-excerpt {
+    font-size: 0.95rem;
+    color: #555;
+    line-height: 1.6;
+    margin-bottom: 16px;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  
+  .read-more {
+    color: #0066cc;
+    font-weight: 500;
+    font-size: 0.9rem;
+  }
+  
+  .blog-footer {
+    text-align: center;
+  }
+  
+  .view-all-btn {
+    display: inline-block;
+    padding: 12px 32px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background 0.2s;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+  }
+  
+  .view-all-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  @media (max-width: 1024px) {
+    .blog-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .blog-section {
+      padding: 40px 0;
+    }
+    
+    .section-header h2 {
+      font-size: 1.5rem;
+    }
+    
+    .blog-grid {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+    
+    .card-image {
+      height: 180px;
+    }
+  }
+</style>
+

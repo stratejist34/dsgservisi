@@ -6,6 +6,7 @@ import Stats from '@components/home/Stats';
 import CTA from '@components/home/CTA.astro';
 import WhyUs from '@components/home/WhyUs.astro';
 import Reviews from '@components/home/Reviews';
+import RecentBlogPosts from '@components/home/RecentBlogPosts.astro';
 import InstagramFeed from '@components/home/InstagramFeed.astro';
 import Schema from '@components/seo/Schema.astro';
 import { SITE_CONFIG } from '@utils/constants';
@@ -88,6 +89,7 @@ const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, S
   <Services />
   <Stats client:visible />
   <Reviews client:visible />
+  <RecentBlogPosts />
   <CTA />
   <WhyUs />
   <InstagramFeed />
