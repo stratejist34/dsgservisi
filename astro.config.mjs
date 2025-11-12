@@ -35,9 +35,6 @@ export default defineConfig({
     rehypePlugins: [rehypeSlug],
   },
   image: {
-    service: {
-      entrypoint: 'astro/assets/services/sharp',
-    },
     remotePatterns: [
       {
         protocol: 'https',
