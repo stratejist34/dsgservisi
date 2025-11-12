@@ -184,14 +184,19 @@ async function main() {
       const metadata = await sharp(imagePath).metadata();
       const width = metadata.width || 0;
       
-      // Large images (>1000px) get full responsive set
-      if (largeImagePatterns.some(p => p.test(relativePath)) || width > 1000) {
+      // Blog images ALWAYS get [400, 650] - check pattern first
+      if (mediumImagePatterns.some(p => p.test(relativePath))) {
+        needsResponsive = true;
+        responsiveSizes = [400, 650];
+      }
+      // Large images (hero, workshop) get full responsive set
+      else if (largeImagePatterns.some(p => p.test(relativePath)) || width > 1000) {
         needsResponsive = true;
         responsiveSizes = [480, 768, 1280];
         if (width > 1500) responsiveSizes.push(1920);
       }
-      // Medium images (500-1000px) get smaller responsive set
-      else if (mediumImagePatterns.some(p => p.test(relativePath)) || (width > 500 && width <= 1000)) {
+      // Other medium images (500-1000px)
+      else if (width > 500 && width <= 1000) {
         needsResponsive = true;
         responsiveSizes = [400, 650];
       }
