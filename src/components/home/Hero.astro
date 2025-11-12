@@ -50,7 +50,7 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
         <span class="flex flex-wrap items-center justify-center gap-x-4 text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-tight">
           <span class="relative inline-block group overflow-hidden">
             <span class="text-gradient relative z-10">DSG ŞANZIMAN</span>
-            <span class="shine-bar pointer-events-none absolute inset-y-0 left-[-25%] w-[40%] bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 transition-opacity duration-500" style="transform: translateX(-120%); will-change: transform, opacity;"></span>
+            <span class="shine-bar pointer-events-none absolute inset-y-0 left-[-25%] w-[40%] bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 transition-opacity duration-500" style="transform: translateX(-120%);"></span>
           </span>
           <span class="text-white">SERVİSİ</span>
         </span>
@@ -214,6 +214,9 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
 
 <style is:inline>
   /* Stars and heavy glow removed per performance rules */
+  .shine-bar {
+    will-change: transform;
+  }
   .group:hover > .shine-bar { 
     transform: translateX(180%);
     opacity: 1;
@@ -225,6 +228,9 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
     opacity: 1;
     transition: transform 1200ms cubic-bezier(0.22, 1, 0.36, 1), opacity 400ms ease-out;
     transition-delay: 120ms;
+  }
+  .reveal--in .shine-bar {
+    will-change: auto;
   }
 
   /* Kayan Yazı Bandı - Infinite Scroll */
@@ -241,7 +247,6 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
     display: inline-flex;
     align-items: center;
     animation: marquee 30s linear infinite;
-    will-change: transform;
   }
 
   .marquee-item {

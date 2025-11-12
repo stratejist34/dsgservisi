@@ -351,6 +351,16 @@
 - [x] 7 İleri Dsg Şanzıman Yağ Değişimi Fiyatı (TAMAMLANDI)
 - [x] Dsg Mekatronik Arızası Belirtileri (TAMAMLANDI)
 
+### Tamamlanan Marka Bazlı Yazılar
+- [x] Audi Multitronic Şanzıman Arızası (TAMAMLANDI)
+- [x] Audi S-Tronic Şanzıman Sorunları (TAMAMLANDI)
+
+### Tamamlanan Genel Arıza ve Bakım Yazıları
+- [x] Balata Değişimi Ne Kadar (Fren Balatası) (TAMAMLANDI)
+- [x] Fren Balata Değişim İşçilik Ücreti 2025 (TAMAMLANDI)
+- [x] Baskı Balata Değişimi Ne Kadar 2025 (Debriyaj Balatası) (TAMAMLANDI)
+- [x] Debriyaj Baskı Balata Değişimi Fiyatı 2025 (TAMAMLANDI)
+
 - [ ] Büyükçekmece Audi Servis
 - [ ] Büyükçekmece Bmw Servis
 - [ ] Büyükçekmece Land Rover Servis

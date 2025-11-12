@@ -61,9 +61,9 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
-  {/* Google Fonts - Optimize edilmiş async yükleme (font-display: swap) */}
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Titillium+Web:wght@400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Titillium+Web:wght@400;600&display=swap" rel="stylesheet"></noscript>
+  {/* Google Fonts - Optimize edilmiş preload */}
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Titillium+Web:wght@600&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÇĞİÖŞÜçğıöşü0123456789" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet"></noscript>
   
   {/* Preload Critical Resources - Responsive image preload */}
   <link rel="preload" href="/images/hero-bg-768.avif" as="image" type="image/avif" media="(max-width: 768px)" fetchpriority="high">
@@ -151,26 +151,22 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
     [data-reveal] {
       opacity: 0;
       transform: translateY(20px);
-      transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-      will-change: opacity, transform;
+      transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     }
     .reveal--in {
       opacity: 1;
       transform: translateY(0);
-      will-change: auto; /* animasyon bitince kaldır */
     }
 
     /* 2b. Animate (fade-up) */
     [data-animate] {
       opacity: 0;
       transform: translateY(30px);
-      transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-      will-change: opacity, transform;
+      transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
     }
     [data-animate].animate-in {
       opacity: 1;
       transform: translateY(0);
-      will-change: auto;
     }
 
     /* CTA butonları için özel easing */

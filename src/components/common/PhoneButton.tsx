@@ -178,16 +178,13 @@ export default function PhoneButton({
         shadow-2xl ring-1 ring-white/20
         overflow-hidden
         cursor-pointer
-        transform transition-all duration-500 ease-in-out
+        transform transition-all duration-200 ease-out
         hover:scale-105
         active:scale-95
         ${className}
       `}
       style={{
-        backgroundSize: '300% 300%',
-        animation: mounted ? 'gradient-shift 6s ease infinite, bounce-spring 2.2s cubic-bezier(0.22, 1, 0.36, 1) 1' : 'none',
-        animationDelay: '0.1s, 0.25s',
-        boxShadow: '0 10px 40px rgba(93, 211, 224, 0.45), 0 0 80px rgba(26, 156, 176, 0.35), 0 0 120px rgba(26, 156, 176, 0.18)',
+        boxShadow: '0 8px 24px rgba(93, 211, 224, 0.4), 0 4px 12px rgba(26, 156, 176, 0.3)',
       }}
       aria-label={`Bizi arayın: ${phone}`}
       onMouseDown={() => {
@@ -201,32 +198,10 @@ export default function PhoneButton({
         (window as any).__callIntentAt = Date.now();
       }}
     >
-      {/* Glow Layer */}
+      {/* Basit pulse efekti - sadece hover'da */}
       <div 
-        className="absolute inset-0 rounded-full opacity-75"
-        style={{
-          animation: mounted ? 'glow-pulse 3.4s ease-in-out 2' : 'none',
-          animationDelay: '0.35s',
-        }}
+        className="absolute inset-0 rounded-full bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
       />
-      
-      {/* Ring Layer */}
-      <div 
-        className="absolute inset-0 flex items-center justify-center"
-        style={{
-          animation: mounted ? 'ring-rotate 2.6s ease-in-out 2' : 'none',
-          animationDelay: '0.35s',
-        }}
-      >
-        <svg
-          className="w-12 h-12 md:w-16 md:h-16 text-white opacity-20"
-          fill="none"
-          stroke="currentColor"
-          viewBox="0 0 24 24"
-        >
-          <circle cx="12" cy="12" r="10" strokeWidth="2" strokeDasharray="3 3" />
-        </svg>
-      </div>
 
       {/* Phone Icon */}
       <svg
@@ -241,7 +216,7 @@ export default function PhoneButton({
       <span
         className={`
           relative z-10 font-semibold text-sm md:text-base whitespace-nowrap
-          transition-all duration-500
+          transition-all duration-300
           ${showText ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4 w-0'}
         `}
       >
@@ -264,14 +239,6 @@ export default function PhoneButton({
         />
       ))}
 
-      {/* Hover Pulse Ring */}
-      <span 
-        className="absolute inset-0 rounded-full border-4 border-white opacity-0 group-hover:opacity-30 transition-opacity duration-300"
-        style={{
-          animation: mounted ? 'pulse 2.2s cubic-bezier(0.4, 0, 0.6, 1) 2' : 'none',
-          animationDelay: '0.35s',
-        }}
-      />
     </a>
   );
 }

@@ -80,10 +80,15 @@ async function convertToWebPAndAVIF(inputPath) {
   let ok = 0; let fail = 0;
   
   try {
-    // WebP
+    // WebP - Blog ve hero resimleri için daha agresif sıkıştırma
+    const isBlogImage = inputPath.includes('blog');
+    const isHeroImage = inputPath.includes('hero-bg');
+    const webpQuality = isBlogImage ? 65 : (isHeroImage ? 68 : 72);
+    const avifQuality = isBlogImage ? 50 : (isHeroImage ? 52 : 55);
+    
     if (!(await fileExists(outWebp))) {
       await sharp(inputPath)
-        .webp({ quality: 72 })
+        .webp({ quality: webpQuality, effort: 6 })
         .toFile(outWebp);
       ok++;
     }
@@ -91,7 +96,7 @@ async function convertToWebPAndAVIF(inputPath) {
     // AVIF
     if (!(await fileExists(outAvif))) {
       await sharp(inputPath)
-        .avif({ quality: 55 })
+        .avif({ quality: avifQuality, effort: 9 })
         .toFile(outAvif);
       ok++;
     }
@@ -107,6 +112,11 @@ async function generateResponsiveImages(inputPath, sizes) {
   const ext = path.extname(inputPath).toLowerCase();
   const base = inputPath.slice(0, -ext.length);
   
+  const isBlogImage = inputPath.includes('blog');
+  const isHeroImage = inputPath.includes('hero-bg');
+  const webpQuality = isBlogImage ? 65 : (isHeroImage ? 68 : 72);
+  const avifQuality = isBlogImage ? 50 : (isHeroImage ? 52 : 55);
+  
   for (const w of sizes) {
     // AVIF
     const outAvif = `${base}-${w}.avif`;
@@ -114,7 +124,7 @@ async function generateResponsiveImages(inputPath, sizes) {
       try {
         await sharp(inputPath)
           .resize(w, null, { withoutEnlargement: true })
-          .avif({ quality: 55 })
+          .avif({ quality: avifQuality, effort: 9 })
           .toFile(outAvif);
         ok++;
       } catch (e) {
@@ -129,7 +139,7 @@ async function generateResponsiveImages(inputPath, sizes) {
       try {
         await sharp(inputPath)
           .resize(w, null, { withoutEnlargement: true })
-          .webp({ quality: 72 })
+          .webp({ quality: webpQuality, effort: 6 })
           .toFile(outWebp);
         ok++;
       } catch (e) {
@@ -183,7 +193,7 @@ async function main() {
       // Medium images (500-1000px) get smaller responsive set
       else if (mediumImagePatterns.some(p => p.test(relativePath)) || (width > 500 && width <= 1000)) {
         needsResponsive = true;
-        responsiveSizes = [480, 768];
+        responsiveSizes = [400, 650];
       }
     } catch (e) {
       console.warn(`⚠️  Could not read metadata for ${fileName}:`, e.message);

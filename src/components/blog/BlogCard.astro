@@ -74,17 +74,32 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
 ---
 
 <article
-  class="netflix-card premium-card group relative rounded-[1.6rem] overflow-hidden shadow-lg w-full h-full min-h-[200px] transition-transform duration-500 ease-out will-change-transform group-hover:-translate-y-1 group-hover:shadow-xl"
+  class="netflix-card premium-card group relative rounded-[1.6rem] overflow-hidden shadow-lg w-full h-full min-h-[200px] transition-transform duration-500 ease-out group-hover:-translate-y-1 group-hover:shadow-xl"
   style={`animation: fade-in-up 0.8s ease-out ${index * 0.1}s both;`}
 >
-  <!-- Background Image (Full Card Height) -->
+  <!-- Background Image (Full Card Height) - Responsive with AVIF/WebP -->
   {featuredImage ? (
-    <img
-      src={featuredImage}
-      alt={post.data.imageAlt || postTitle}
-      class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-115 group-hover:brightness-110"
-      loading="lazy"
-    />
+    <picture>
+      <source
+        type="image/avif"
+        srcset={`${featuredImage.replace('.jpg', '-400.avif')} 400w, ${featuredImage.replace('.jpg', '-650.avif')} 650w, ${featuredImage.replace('.jpg', '.avif')} 1280w`}
+        sizes="(max-width: 640px) 400px, (max-width: 1024px) 650px, 1280px"
+      />
+      <source
+        type="image/webp"
+        srcset={`${featuredImage.replace('.jpg', '-400.webp')} 400w, ${featuredImage.replace('.jpg', '-650.webp')} 650w, ${featuredImage.replace('.jpg', '.webp')} 1280w`}
+        sizes="(max-width: 640px) 400px, (max-width: 1024px) 650px, 1280px"
+      />
+      <img
+        src={featuredImage}
+        alt={post.data.imageAlt || postTitle}
+        class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-115 group-hover:brightness-110"
+        loading="lazy"
+        width="650"
+        height="400"
+        decoding="async"
+      />
+    </picture>
   ) : (
     <div class="absolute inset-0 w-full h-full bg-gray-800 flex items-center justify-center text-white">
       <span>No Image</span>
@@ -130,6 +145,7 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
     transform-style: preserve-3d;
     backface-visibility: hidden;
     transition: transform 300ms cubic-bezier(0.2, 0.8, 0.2, 1), box-shadow 300ms ease;
+    contain: layout style paint;
   }
 
   .netflix-card.is-tilting {

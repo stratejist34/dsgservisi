@@ -1,15 +1,15 @@
 import * as React from 'react';
 
-// SSR-safe çalışma saatleri kontrolü
+// SSR-safe çalışma saatleri kontrolü (Telefon için)
 function checkWorkingHours(): boolean {
   if (typeof window === 'undefined') return false; // SSR'da false döndür
   const now = new Date();
   const day = now.getDay(); // 0=Sun,1=Mon,...6=Sat
-  if (day === 0) return false; // Pazar kapalı
+  if (day === 0) return false; // Pazar kapalı (WhatsApp açık olacak)
   const hour = now.getHours();
   const minute = now.getMinutes();
   const time = hour + minute / 60;
-  return time >= 9 && time < 18;
+  return time >= 9 && time < 18; // 09:00-18:00 arası telefon açık
 }
 
 export default function WhatsAppButton({ 
@@ -130,8 +130,7 @@ export default function WhatsAppButton({
         ${className}
       `}
       style={{
-        animation: mounted ? 'glow-pulse 3s ease-in-out 2' : 'none',
-        animationDelay: '0.25s',
+        boxShadow: '0 8px 24px rgba(37, 211, 102, 0.4), 0 4px 12px rgba(37, 211, 102, 0.3)',
       }}
       aria-label="WhatsApp ile İletişim"
       onMouseDown={() => {
