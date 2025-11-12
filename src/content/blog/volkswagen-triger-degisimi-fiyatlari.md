@@ -4,8 +4,8 @@ description: "Volkswagen triger değişimi fiyatları: Golf, Polo, Passat, Tigua
 category: "Volkswagen"
 tags: ["volkswagen", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
 slug: "volkswagen-triger-degisimi-fiyatlari"
-publishDate: "2025-11-13T11:00:00+03:00"
-updatedDate: "2025-11-13T11:00:00+03:00"
+publishDate: "2025-11-12T10:25:00+03:00"
+updatedDate: "2025-11-12T10:25:00+03:00"
 featuredImage: "/images/blog/volkswagen-triger-degisimi-fiyatlari.jpg"
 imageAlt: "Volkswagen triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/volkswagen-triger-degisimi-fiyatlari.jpg"
