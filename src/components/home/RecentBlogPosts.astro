@@ -31,13 +31,26 @@ const getPostUrl = (slug: string) => {
             <a href={postUrl} class="card-link">
               {featuredImage && (
                 <div class="card-image">
-                  <img 
-                    src={featuredImage} 
-                    alt={post.data.imageAlt || post.data.title}
-                    loading={index < 2 ? 'eager' : 'lazy'}
-                    width="400"
-                    height="250"
-                  />
+                  <picture>
+                    <source
+                      type="image/avif"
+                      srcset={`${featuredImage.replace('.jpg', '-400.avif')} 400w, ${featuredImage.replace('.jpg', '-650.avif')} 650w`}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
+                    />
+                    <source
+                      type="image/webp"
+                      srcset={`${featuredImage.replace('.jpg', '-400.webp')} 400w, ${featuredImage.replace('.jpg', '-650.webp')} 650w`}
+                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
+                    />
+                    <img 
+                      src={featuredImage} 
+                      alt={post.data.imageAlt || post.data.title}
+                      loading={index < 2 ? 'eager' : 'lazy'}
+                      width="400"
+                      height="250"
+                      decoding="async"
+                    />
+                  </picture>
                 </div>
               )}
               <div class="card-content">
