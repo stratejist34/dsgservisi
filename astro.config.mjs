@@ -62,17 +62,7 @@ export default defineConfig({
   vite: {
     build: {
       cssCodeSplit: true,
-      minify: 'terser',
-      terserOptions: {
-        compress: {
-          drop_console: true, // Production'da console.log'ları kaldır
-          drop_debugger: true,
-          pure_funcs: ['console.log', 'console.info', 'console.debug'],
-        },
-        format: {
-          comments: false, // Yorumları kaldır
-        },
-      },
+      minify: 'esbuild', // Vite'ın default minifier'ı (daha hızlı)
       rollupOptions: {
         output: {
           manualChunks: (id) => {
