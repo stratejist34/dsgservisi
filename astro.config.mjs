@@ -4,7 +4,6 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import path from 'path';
 import { fileURLToPath } from 'url';
-import compression from 'vite-plugin-compression';
 import remarkBreaks from 'remark-breaks';
 import remarkDirective from 'remark-directive';
 import rehypeSlug from 'rehype-slug';
@@ -61,25 +60,6 @@ export default defineConfig({
     },
   },
   vite: {
-    plugins: [
-      // Gzip compression
-      compression({
-        algorithm: 'gzip',
-        ext: '.gz',
-        threshold: 1024, // 1KB üzeri dosyalar
-        deleteOriginFile: false,
-        compressionOptions: {
-          level: 9, // Maximum compression
-        }
-      }),
-      // Brotli compression (daha iyi sıkıştırma)
-      compression({
-        algorithm: 'brotliCompress',
-        ext: '.br',
-        threshold: 1024,
-        deleteOriginFile: false
-      })
-    ],
     build: {
       cssCodeSplit: true,
       minify: 'terser',
