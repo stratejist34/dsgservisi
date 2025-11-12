@@ -39,3 +39,4 @@ Thumbs.db
 .ollama/
 .docker/
 .dbus-keyrings/
+.vercel
