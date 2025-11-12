@@ -1,6 +1,9 @@
 name: Scheduled redeploy (Vercel)
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # GitHub Actions CRON UTC ile çalışır. TR (UTC+3) için saatler:
     # Yeni yayın planı: 09:00, 12:50, 15:25 (TR saati)
