@@ -4,6 +4,7 @@ import tailwind from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 import path from 'path';
 import { fileURLToPath } from 'url';
+import { execSync } from 'child_process';
 import remarkBreaks from 'remark-breaks';
 import remarkDirective from 'remark-directive';
 import rehypeSlug from 'rehype-slug';
@@ -11,6 +12,24 @@ import remarkCallouts from './src/utils/remark-callouts.mjs';
 import remarkInternalLinks from './src/utils/remark-internal-links.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+
+// Otomatik resim dönüştürme integration
+function autoConvertImages() {
+  return {
+    name: 'auto-convert-images',
+    hooks: {
+      'astro:build:start': async () => {
+        console.log('🖼️  Converting images to AVIF/WebP...');
+        try {
+          execSync('node scripts/convert-images.mjs', { stdio: 'inherit' });
+          console.log('✅ Image conversion complete!');
+        } catch (error) {
+          console.warn('⚠️  Image conversion failed:', error.message);
+        }
+      },
+    },
+  };
+}
 
 export default defineConfig({
   site: 'https://dsgservisi.com',
@@ -25,6 +44,7 @@ export default defineConfig({
       priority: 0.7,
       lastmod: new Date(),
     }),
+    autoConvertImages(),
   ],
   markdown: {
     shikiConfig: {
