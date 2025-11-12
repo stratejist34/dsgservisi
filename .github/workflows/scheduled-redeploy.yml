@@ -6,11 +6,11 @@ on:
       - main
   schedule:
     # GitHub Actions CRON UTC ile çalışır. TR (UTC+3) için saatler:
-    # Yeni yayın planı: 09:00, 10:17, 12:50, 15:25 (TR saati)
+    # Yeni yayın planı: 09:00, 10:20, 12:50, 15:25 (TR saati)
     # 09:00 TR -> 06:00 UTC
     - cron: '0 6 * * *'
-    # 10:17 TR -> 07:17 UTC (TEST)
-    - cron: '17 7 * * *'
+    # 10:20 TR -> 07:20 UTC (TEST)
+    - cron: '20 7 * * *'
     # 12:50 TR -> 09:50 UTC
     - cron: '50 9 * * *'
     # 15:25 TR -> 12:25 UTC
