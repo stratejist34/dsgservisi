@@ -3,20 +3,13 @@ name: Scheduled redeploy (Vercel)
 on:
   schedule:
     # GitHub Actions CRON UTC ile çalışır. TR (UTC+3) için saatler:
-    # 10:00 TR -> 07:00 UTC
-    - cron: '0 7 * * *'
-    # 12:00 TR -> 09:00 UTC
-    - cron: '0 9 * * *'
-    # 13:00 TR -> 10:00 UTC
-    - cron: '0 10 * * *'
-    # 15:00 TR -> 12:00 UTC
-    - cron: '0 12 * * *'
-    # 16:00 TR -> 13:00 UTC
-    - cron: '0 13 * * *'
-    # 17:00 TR -> 14:00 UTC
-    - cron: '0 14 * * *'
-    # 19:00 TR -> 16:00 UTC
-    - cron: '0 16 * * *'
+    # Yeni yayın planı: 09:00, 12:50, 15:25 (TR saati)
+    # 09:00 TR -> 06:00 UTC
+    - cron: '0 6 * * *'
+    # 12:50 TR -> 09:50 UTC
+    - cron: '50 9 * * *'
+    # 15:25 TR -> 12:25 UTC
+    - cron: '25 12 * * *'
   workflow_dispatch: {}
 
 jobs:
