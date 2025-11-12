@@ -7,6 +7,10 @@ import { findRelatedPosts, calculateReadingTime, extractPriceRangeFromHtml, extr
 import { getBlogFeaturedImage } from '@utils/content';
 
 export async function getStaticPaths() {
+  // Build time'ı logla (debug için)
+  const buildTime = new Date();
+  console.log(`[blog/[slug].astro] Build time: ${buildTime.toISOString()} (TR: ${new Date(buildTime.getTime() + 3*60*60*1000).toISOString().replace('T', ' ').substring(0, 19)})`);
+  
   // Yayınlanmış yazılar için route oluştur
   const publishedPosts = await getCollection('blog', ({ data }) => isPublishedPost(data));
   
@@ -19,6 +23,17 @@ export async function getStaticPaths() {
     return publishDate > new Date();
   });
   
+  // Debug: 11 Kasım yazılarını kontrol et
+  const nov11Posts = allPosts.filter(post => {
+    const pd = post.data.publishDate instanceof Date ? post.data.publishDate : new Date(post.data.publishDate);
+    return pd >= new Date('2025-11-11T00:00:00+03:00') && pd < new Date('2025-11-12T00:00:00+03:00');
+  });
+  console.log(`[blog/[slug].astro] 11 Kasım yazıları (${nov11Posts.length}):`, nov11Posts.map(p => ({
+    slug: p.slug,
+    publishDate: p.data.publishDate,
+    isPublished: isPublishedPost(p.data)
+  })));
+  
   // Yayınlanmış yazılar
   const publishedRoutes = publishedPosts.map((post) => ({
     params: { slug: post.slug },
@@ -30,6 +45,8 @@ export async function getStaticPaths() {
     params: { slug: post.slug },
     props: { post, isPublished: false },
   }));
+  
+  console.log(`[blog/[slug].astro] Published routes: ${publishedRoutes.length}, Scheduled routes: ${scheduledRoutes.length}`);
   
   return [...publishedRoutes, ...scheduledRoutes];
 }
