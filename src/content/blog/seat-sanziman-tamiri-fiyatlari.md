@@ -4,8 +4,8 @@ description: "Seat şanzıman tamiri fiyatları: DSG şanzıman tamiri fiyatlar�
 category: "Seat"
 tags: ["seat", "şanzıman", "şanzıman tamiri", "dsg", "dq200", "dq250", "dq381", "fiyat"]
 slug: "seat-sanziman-tamiri-fiyatlari"
-publishDate: "2025-11-14T12:00:00+03:00"
-updatedDate: "2025-11-14T12:00:00+03:00"
+publishDate: "2025-11-12T18:00:00+03:00"
+updatedDate: "2025-11-12T18:00:00+03:00"
 featuredImage: "/images/blog/seat-sanziman-tamiri-fiyatlari.jpg"
 imageAlt: "Seat şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/seat-sanziman-tamiri-fiyatlari.jpg"

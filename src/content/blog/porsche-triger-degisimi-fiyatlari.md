@@ -4,8 +4,8 @@ description: "Porsche triger değişimi fiyatları: 911, Cayenne, Macan, Panamer
 category: "Porsche"
 tags: ["porsche", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
 slug: "porsche-triger-degisimi-fiyatlari"
-publishDate: "2025-11-12T19:00:00+03:00"
-updatedDate: "2025-11-12T19:00:00+03:00"
+publishDate: "2025-11-12T11:00:00+03:00"
+updatedDate: "2025-11-12T11:00:00+03:00"
 featuredImage: "/images/blog/porsche-triger-degisimi-fiyatlari.jpg"
 imageAlt: "Porsche triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/porsche-triger-degisimi-fiyatlari.jpg"

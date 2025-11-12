@@ -4,8 +4,8 @@ description: "Mercedes şanzıman tamiri fiyatları: 7G-Tronic/9G-Tronic şanzı
 category: "Mercedes"
 tags: ["mercedes", "şanzıman", "şanzıman tamiri", "7g-tronic", "9g-tronic", "fiyat"]
 slug: "mercedes-sanziman-tamiri-fiyatlari"
-publishDate: "2025-11-13T15:00:00+03:00"
-updatedDate: "2025-11-13T15:00:00+03:00"
+publishDate: "2025-11-12T16:00:00+03:00"
+updatedDate: "2025-11-12T16:00:00+03:00"
 featuredImage: "/images/blog/mercedes-sanziman-tamiri-fiyatlari.jpg"
 imageAlt: "Mercedes şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/mercedes-sanziman-tamiri-fiyatlari.jpg"

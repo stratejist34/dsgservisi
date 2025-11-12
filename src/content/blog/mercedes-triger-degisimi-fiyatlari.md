@@ -4,8 +4,8 @@ description: "Mercedes triger değişimi fiyatları: C, E, S Serisi ve GLC, GLE,
 category: "Mercedes"
 tags: ["mercedes", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
 slug: "mercedes-triger-degisimi-fiyatlari"
-publishDate: "2025-11-12T17:00:00+03:00"
-updatedDate: "2025-11-12T17:00:00+03:00"
+publishDate: "2025-11-12T12:00:00+03:00"
+updatedDate: "2025-11-12T12:00:00+03:00"
 featuredImage: "/images/blog/mercedes-triger-degisimi-fiyatlari.jpg"
 imageAlt: "Mercedes triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/mercedes-triger-degisimi-fiyatlari.jpg"

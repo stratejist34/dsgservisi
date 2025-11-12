@@ -4,8 +4,8 @@ description: "Seat triger değişimi fiyatları: Leon, Ibiza, Arona, Ateca, Tarr
 category: "Seat"
 tags: ["seat", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
 slug: "seat-triger-degisimi-fiyatlari"
-publishDate: "2025-11-13T09:00:00+03:00"
-updatedDate: "2025-11-13T09:00:00+03:00"
+publishDate: "2025-11-12T14:00:00+03:00"
+updatedDate: "2025-11-12T14:00:00+03:00"
 featuredImage: "/images/blog/seat-triger-degisimi-fiyatlari.jpg"
 imageAlt: "Seat triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/seat-triger-degisimi-fiyatlari.jpg"
