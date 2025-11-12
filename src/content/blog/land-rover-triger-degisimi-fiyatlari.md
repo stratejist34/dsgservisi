@@ -4,8 +4,8 @@ description: "Land Rover triger değişimi fiyatları: Range Rover, Discovery, E
 category: "Land Rover"
 tags: ["land rover", "triger", "triger değişimi", "timing chain", "fiyat", "bakım", "range rover"]
 slug: "land-rover-triger-degisimi-fiyatlari"
-publishDate: "2025-11-12T14:30:00+03:00"
-updatedDate: "2025-11-12T14:30:00+03:00"
+publishDate: "2025-11-12T10:16:00+03:00"
+updatedDate: "2025-11-12T10:16:00+03:00"
 featuredImage: "/images/blog/land-rover-triger-degisimi-fiyatlari.jpg"
 imageAlt: "Land Rover triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/land-rover-triger-degisimi-fiyatlari.jpg"

@@ -4,8 +4,8 @@ description: "BMW triger değişimi fiyatları: 1, 3, 5, 7 Serisi ve X1, X3, X5,
 category: "BMW"
 tags: ["bmw", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
 slug: "bmw-triger-degisimi-fiyatlari"
-publishDate: "2025-11-12T11:00:00+03:00"
-updatedDate: "2025-11-12T11:00:00+03:00"
+publishDate: "2025-11-12T10:15:00+03:00"
+updatedDate: "2025-11-12T10:15:00+03:00"
 featuredImage: "/images/blog/bmw-triger-degisimi-fiyatlari.jpg"
 imageAlt: "BMW triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/bmw-triger-degisimi-fiyatlari.jpg"
