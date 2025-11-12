@@ -1,15 +1,21 @@
+// Environment variables'dan oku, yoksa default değerleri kullan
+const getEnv = (key: string, defaultValue: string = '') => {
+  return import.meta.env[key] || defaultValue;
+};
+
 export const SITE_CONFIG = {
-  name: 'Yıldızlar Grup DSG Servisi',
-  shortName: 'DSG Servisi',
-  description: '15 yıldır VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlarında uzman DSG şanzıman ve mekatronik tamiri. İstanbul Büyükçekmece\'de güvenilir servis.',
-  phone: '0533 262 34 51',
-  phoneFormatted: '+90 533 262 34 51',
-  email: 'yildizlarvolkswagen@gmail.com',
+  name: getEnv('PUBLIC_SITE_NAME', 'Yıldızlar Grup DSG Servisi'),
+  shortName: getEnv('PUBLIC_SITE_NAME', 'DSG Servisi').split('-')[0].trim(),
+  description: getEnv('PUBLIC_SITE_DESCRIPTION', '15 yıldır VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlarında uzman DSG şanzıman ve mekatronik tamiri. İstanbul Büyükçekmece\'de güvenilir servis.'),
+  phone: getEnv('PUBLIC_PHONE', '0533 262 34 51'),
+  phoneFormatted: getEnv('PUBLIC_PHONE', '+90 533 262 34 51'),
+  whatsapp: getEnv('PUBLIC_WHATSAPP', '+90 532 261 48 86'),
+  email: getEnv('PUBLIC_EMAIL', 'yildizlarvolkswagen@gmail.com'),
   address: {
-    street: 'Beykent Sanayi Sitesi Meriç Sk. No: 179-180',
-    city: 'Büyükçekmece',
-    state: 'İstanbul',
-    postalCode: '34520',
+    street: getEnv('PUBLIC_ADDRESS', 'Beykent Sanayi Sitesi Meriç Sk. No: 179-180'),
+    city: getEnv('PUBLIC_DISTRICT', 'Büyükçekmece'),
+    state: getEnv('PUBLIC_CITY', 'İstanbul'),
+    postalCode: getEnv('PUBLIC_POSTAL_CODE', '34520'),
     country: 'Türkiye',
   },
   coordinates: {
