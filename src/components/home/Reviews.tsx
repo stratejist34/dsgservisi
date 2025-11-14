@@ -72,7 +72,7 @@ export default function Reviews() {
   const widthPctPerCard = 100 / visibleDesktop; // 33.333...
 
   return (
-    <div className="section bg-gradient-to-b from-white to-gray-50">
+    <section className="section bg-gradient-to-b from-white to-gray-50">
       <div className="container">
         {/* Başlık */}
         <div className="text-center mb-12" data-reveal>
@@ -88,8 +88,8 @@ export default function Reviews() {
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 max-w-6xl mx-auto items-start">
           {/* Sol: Google Kartı (lg:2 kolon) */}
           <div className="lg:col-span-2" data-reveal>
-            <div className="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 rounded-2xl p-6 md:p-8 border border-cyan/30">
-              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl -z-10"></div>
+            <div className="relative bg-gradient-to-r from-primary/20 via-urgent/20 to-primary/20 rounded-2xl p-6 md:p-8 border border-primary/30">
+              <div className="absolute inset-0 bg-gradient-to-br from-primary/10 to-urgent/10 rounded-2xl -z-10"></div>
               <div className="flex justify-center mb-4">
                 <img
                   src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png"
@@ -148,7 +148,7 @@ export default function Reviews() {
                     <div key={review.id} className="basis-1/3 shrink-0 px-2">
                       <div className="bg-white/90 rounded-2xl border border-gray-200 p-6 h-full">
                         <div className="flex items-start gap-4 mb-3">
-                          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-cyan flex items-center justify-center text-white font-bold">
+                          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-urgent flex items-center justify-center text-white font-bold">
                             {review.initial}
                           </div>
                           <div className="flex-1">
@@ -177,7 +177,7 @@ export default function Reviews() {
                     <div key={review.id} className="w-full shrink-0 px-1">
                       <div className="bg-white/90 rounded-2xl border border-gray-200 p-6">
                         <div className="flex items-start gap-4 mb-3">
-                          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-cyan flex items-center justify-center text-white font-bold">
+                          <div className="w-12 h-12 rounded-full bg-gradient-to-br from-primary to-urgent flex items-center justify-center text-white font-bold">
                             {review.initial}
                           </div>
                           <div className="flex-1">
@@ -200,6 +200,6 @@ export default function Reviews() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }

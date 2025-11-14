@@ -111,7 +111,7 @@ export default function BlogFilter({ posts, onFilterChange }: BlogFilterProps) {
         <h2 className="text-2xl font-display font-bold text-navy">Filtrele</h2>
         <button
           onClick={clearFilters}
-          className="text-sm text-primary hover:text-cyan transition-colors"
+          className="text-sm text-primary hover:text-urgent transition-colors"
         >
           Filtreleri Temizle
         </button>

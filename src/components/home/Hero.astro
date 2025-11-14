@@ -38,7 +38,7 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
   </div>
 
   {/* Lightweight radial breathing background (opacity-only) */}
-  <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse at 30% 30%, rgba(93,211,224,0.10), transparent 60%), radial-gradient(ellipse at 70% 70%, rgba(26,156,176,0.08), transparent 60%);"></div>
+  <div class="absolute inset-0 pointer-events-none" style="background: radial-gradient(ellipse at 30% 30%, rgba(249,115,22,0.10), transparent 60%), radial-gradient(ellipse at 70% 70%, rgba(220,38,38,0.08), transparent 60%);"></div>
 
   <div class="container mx-auto px-4 py-12 relative z-10">
     <div class="max-w-5xl mx-auto text-center">
@@ -58,7 +58,7 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
 
       {/* Description */}
       <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed" data-reveal>
-        <span class="text-cyan font-semibold">{SITE_CONFIG.stats.experience} yıldır</span> 
+        <span class="text-primary font-semibold">{SITE_CONFIG.stats.experience} yıldır</span> 
         {' '}VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlarında 
         <span class="text-white font-semibold"> DSG şanzıman ve mekatronik tamiri</span>.
         {' '}İstanbul Büyükçekmece'de güvenilir servis.
@@ -70,9 +70,9 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
           data-animate
           href={`tel:${SITE_CONFIG.phoneFormatted}`}
           class="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-0.5 cta-ease-fast"
-          style="background: linear-gradient(135deg, rgba(26,156,176,1) 0%, rgba(93,211,224,1) 50%, rgba(26,156,176,1) 100%); box-shadow: 0 4px 15px rgba(26,156,176,0.3);"
-          onmouseenter="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(26,156,176,0.4)';"
-          onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(26,156,176,0.3)';"
+          style="background: linear-gradient(135deg, rgba(249,115,22,1) 0%, rgba(220,38,38,1) 50%, rgba(249,115,22,1) 100%); box-shadow: 0 4px 15px rgba(249,115,22,0.3);"
+          onmouseenter="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(249,115,22,0.4)';"
+          onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(249,115,22,0.3)';"
         >
           {/* Subtle shimmer effect */}
           <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
@@ -90,7 +90,7 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
         <a
           data-animate
           href="/hizmetlerimiz"
-          class="group inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-navy bg-white rounded-xl border-2 border-white/30 hover:border-cyan shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5 cta-ease-soft"
+          class="group inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-navy bg-white rounded-xl border-2 border-white/30 hover:border-primary shadow-xl premium-shine transition-transform duration-300 hover:scale-[1.02] hover:-translate-y-0.5 cta-ease-soft"
         >
           <span class="font-display tracking-wide">HİZMETLERİMİZ</span>
           <svg class="w-6 h-6 ml-3 group-hover:translate-x-2 transition-transform duration-300" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24">
@@ -101,9 +101,9 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
 
   {/* DSG Badge - Özel Vurgu */}
       <div class="mb-8" data-animate data-badge>
-    <div class="inline-flex items-center gap-4 bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 px-10 py-5 rounded-2xl border-2 border-cyan/30 premium-shine transition-transform duration-300 hover:scale-[1.01]">
+    <div class="inline-flex items-center gap-4 bg-gradient-to-r from-primary/20 via-urgent/20 to-primary/20 px-10 py-5 rounded-2xl border-2 border-primary/30 premium-shine transition-transform duration-300 hover:scale-[1.01]">
           <div class="relative">
-            <div class="relative w-14 h-14 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center shadow-xl">
+            <div class="relative w-14 h-14 bg-gradient-to-br from-primary to-urgent rounded-lg flex items-center justify-center shadow-xl">
               <svg class="w-8 h-8 text-white" fill="none" stroke="currentColor" stroke-width="3" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
               </svg>
@@ -111,7 +111,7 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
           </div>
           <div class="flex flex-col">
             <span class="text-white font-display font-black text-2xl tracking-tight uppercase">DSG Uzmanı</span>
-            <span class="text-cyan-light font-tech text-sm tracking-widest uppercase">Certified Specialist</span>
+            <span class="text-primary-400 font-tech text-sm tracking-widest uppercase">Certified Specialist</span>
           </div>
         </div>
       </div>
@@ -134,7 +134,7 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
   </div>
 
   {/* Kayan Yazı Bandı */}
-  <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-primary/90 via-primary to-primary/90 border-t border-cyan/30 overflow-hidden">
+  <div class="absolute bottom-0 left-0 right-0 bg-gradient-to-r from-primary/90 via-primary to-primary/90 border-t border-primary/30 overflow-hidden">
     <div class="marquee-container">
       <div class="marquee-content">
         <span class="marquee-item">
@@ -263,13 +263,13 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
 
   .marquee-icon {
     flex-shrink: 0;
-    color: rgba(93, 211, 224, 1);
-    filter: drop-shadow(0 0 4px rgba(93, 211, 224, 0.4));
+    color: rgba(249, 115, 22, 1);
+    filter: drop-shadow(0 0 4px rgba(249, 115, 22, 0.4));
   }
 
   .marquee-separator {
     display: inline-block;
-    color: rgba(93, 211, 224, 0.6);
+    color: rgba(249, 115, 22, 0.6);
     padding: 0 10px;
     font-size: 12px;
   }

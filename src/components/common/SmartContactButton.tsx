@@ -218,7 +218,7 @@ export default function SmartContactButton({
         ${showText ? 'w-auto px-6' : 'w-16'} h-16 md:${showText ? 'w-auto md:px-8' : 'w-20'} md:h-20
         rounded-full
         ${isPhone 
-          ? 'bg-gradient-to-br from-[#00e5ff] via-[#33ecff] to-[#00bcd4]' 
+          ? 'bg-gradient-to-br from-primary via-urgent to-primary-600' 
           : 'bg-[#25D366]'
         }
         text-white
@@ -239,7 +239,7 @@ export default function SmartContactButton({
           : 'none',
         animationDelay: '0.1s, 0.25s',
         boxShadow: isPhone 
-          ? '0 10px 40px rgba(93, 211, 224, 0.45), 0 0 80px rgba(26, 156, 176, 0.35), 0 0 120px rgba(26, 156, 176, 0.18)'
+          ? '0 10px 40px rgba(249, 115, 22, 0.45), 0 0 80px rgba(220, 38, 38, 0.35), 0 0 120px rgba(220, 38, 38, 0.18)'
           : '0 10px 40px rgba(37, 211, 102, 0.45), 0 0 80px rgba(37, 211, 102, 0.35)',
       }}
       aria-label={isPhone ? `Bizi arayın: ${phone}` : 'WhatsApp ile iletişim'}

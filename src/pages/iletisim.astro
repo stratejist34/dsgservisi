@@ -47,14 +47,14 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
       <div class="max-w-4xl mx-auto text-center" data-animate style="margin-top: 7.5rem;">
         {/* Badge */}
         <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-6 py-2 rounded-full mb-4 animate-[fade-in-up_0.6s_ease-out]">
-          <svg class="w-5 h-5 text-cyan" fill="currentColor" viewBox="0 0 20 20">
+          <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
             <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
           </svg>
           <span class="font-semibold">7/24 İletişimde</span>
         </div>
 
         <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold text-white mb-4">
-          Bize <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-cyan to-primary">Ulaşın</span>
+          Bize <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-urgent to-primary">Ulaşın</span>
         </h1>
         
         <p class="text-base md:text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto" data-animate>
@@ -78,11 +78,11 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
             <!-- Phone -->
             <a 
               href={`tel:${SITE_CONFIG.phoneFormatted}`}
-              class="group block bg-gradient-to-br from-primary/10 to-cyan/10 hover:from-primary/20 hover:to-cyan/20 rounded-2xl p-6 border-2 border-primary/40 hover:border-primary/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              class="group block bg-gradient-to-br from-primary/10 to-urgent/10 hover:from-primary/20 hover:to-urgent/20 rounded-2xl p-6 border-2 border-primary/40 hover:border-primary/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
               data-animate
             >
               <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-primary to-cyan rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
+                <div class="w-14 h-14 bg-gradient-to-br from-primary to-urgent rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
                   <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
                   </svg>
@@ -98,19 +98,19 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
             <!-- Email -->
             <a 
               href={`mailto:${SITE_CONFIG.email}`}
-              class="group block bg-gradient-to-br from-cyan/10 to-primary/10 hover:from-cyan/20 hover:to-primary/20 rounded-2xl p-6 border-2 border-cyan/40 hover:border-cyan/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              class="group block bg-gradient-to-br from-urgent/10 to-primary/10 hover:from-urgent/20 hover:to-primary/20 rounded-2xl p-6 border-2 border-urgent/40 hover:border-urgent/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
               data-animate
             >
               <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-cyan to-primary rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
+                <div class="w-14 h-14 bg-gradient-to-br from-urgent to-primary rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
                   <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                   </svg>
                 </div>
                 <div class="flex-1">
-                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-cyan transition-colors">E-posta</h3>
-                  <p class="text-lg font-semibold text-cyan break-all">{SITE_CONFIG.email}</p>
+                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-urgent transition-colors">E-posta</h3>
+                  <p class="text-lg font-semibold text-urgent break-all">{SITE_CONFIG.email}</p>
                 </div>
               </div>
             </a>
@@ -120,11 +120,11 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
               href={SITE_CONFIG.google.mapUrl}
               target="_blank"
               rel="noopener noreferrer"
-              class="group block bg-gradient-to-br from-primary/10 to-cyan/10 hover:from-primary/20 hover:to-cyan/20 rounded-2xl p-6 border-2 border-primary/40 hover:border-primary/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              class="group block bg-gradient-to-br from-primary/10 to-urgent/10 hover:from-primary/20 hover:to-urgent/20 rounded-2xl p-6 border-2 border-primary/40 hover:border-primary/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
               data-animate
             >
               <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-primary to-cyan rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
+                <div class="w-14 h-14 bg-gradient-to-br from-primary to-urgent rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
                   <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
                   </svg>
@@ -149,15 +149,15 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
             </a>
 
             <!-- Working Hours -->
-            <div class="group bg-gradient-to-br from-cyan/10 to-primary/10 hover:from-cyan/20 hover:to-primary/20 rounded-2xl p-6 border-2 border-cyan/40 hover:border-cyan/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-animate>
+            <div class="group bg-gradient-to-br from-urgent/10 to-primary/10 hover:from-urgent/20 hover:to-primary/20 rounded-2xl p-6 border-2 border-urgent/40 hover:border-urgent/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-animate>
               <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-cyan to-primary rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
+                <div class="w-14 h-14 bg-gradient-to-br from-urgent to-primary rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
                   <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                   </svg>
                 </div>
                 <div class="flex-1">
-                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-cyan transition-colors">Çalışma Saatleri</h3>
+                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-urgent transition-colors">Çalışma Saatleri</h3>
                   <div class="space-y-2">
                     <div class="flex items-center justify-between">
                       <span class="text-gray-600">Hafta İçi:</span>
@@ -196,7 +196,7 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
               href={`https://www.google.com/maps/dir/?api=1&destination_place_id=${SITE_CONFIG.google.placeId}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="group w-full inline-flex items-center justify-center gap-3 bg-gradient-to-r from-primary to-cyan text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+              class="group w-full inline-flex items-center justify-center gap-3 bg-gradient-to-r from-primary to-urgent text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
             >
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
@@ -215,7 +215,7 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
   <!-- CTA Section -->
   <section class="relative section overflow-hidden">
     {/* Gradient Background */}
-    <div class="absolute inset-0 bg-gradient-to-br from-primary via-cyan to-primary opacity-95"></div>
+    <div class="absolute inset-0 bg-gradient-to-br from-primary via-urgent to-primary opacity-95"></div>
     
     {/* Animated Pattern */}
     <div class="absolute inset-0 opacity-10">

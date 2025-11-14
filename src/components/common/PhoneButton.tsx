@@ -123,7 +123,7 @@ export default function PhoneButton({
         if (delta < 5000) {
           // 5 sn içinde sekme gizlendiyse arama başlatılmış olabilir
           if ((window as any).gtag) {
-            (window as any).gtag('event', 'turkuaz_tel_butonu_olasi_arama', { 
+            (window as any).gtag('event', 'primary_tel_butonu_olasi_arama', { 
               delta_ms: delta,
               location: 'floating_button'
             });
@@ -173,7 +173,7 @@ export default function PhoneButton({
         flex items-center justify-center gap-3
         ${showText ? 'w-auto px-6' : 'w-16'} h-16 md:${showText ? 'w-auto md:px-8' : 'w-20'} md:h-20
         rounded-full
-        bg-gradient-to-br from-[#00e5ff] via-[#33ecff] to-[#00bcd4]
+        bg-gradient-to-br from-primary via-urgent to-primary-600
         text-white
         shadow-2xl ring-1 ring-white/20
         overflow-hidden
@@ -184,7 +184,7 @@ export default function PhoneButton({
         ${className}
       `}
       style={{
-        boxShadow: '0 8px 24px rgba(93, 211, 224, 0.4), 0 4px 12px rgba(26, 156, 176, 0.3)',
+        boxShadow: '0 8px 24px rgba(249, 115, 22, 0.4), 0 4px 12px rgba(220, 38, 38, 0.3)',
       }}
       aria-label={`Bizi arayın: ${phone}`}
       onMouseDown={() => {
@@ -192,7 +192,7 @@ export default function PhoneButton({
         // @ts-ignore
         if (window.gtag) {
           // @ts-ignore
-          window.gtag('event', 'turkuaz_tel_butonu', { location: 'floating_button' });
+          window.gtag('event', 'primary_tel_butonu', { location: 'floating_button' });
         }
         // visibility ölçümleme için işaretle
         (window as any).__callIntentAt = Date.now();

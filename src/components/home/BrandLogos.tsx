@@ -27,7 +27,7 @@ export default function BrandLogos() {
           <div 
             className="absolute inset-0 rounded-full z-0 group-hover:opacity-0 transition-opacity duration-300"
             style={{
-              background: `conic-gradient(from 0deg, #00d4ff, #1a9cb0, #5dd3e0, #00d4ff)`,
+              background: `conic-gradient(from 0deg, #FB923C, #F97316, #EA580C, #FB923C)`,
             }}
           />
 
@@ -35,7 +35,7 @@ export default function BrandLogos() {
           <div 
             className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"
             style={{
-              background: `conic-gradient(from 0deg, #00d4ff, #1a9cb0, #5dd3e0, #00d4ff)`,
+              background: `conic-gradient(from 0deg, #FB923C, #F97316, #EA580C, #FB923C)`,
             }}
           />
 

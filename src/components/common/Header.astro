@@ -12,9 +12,11 @@ const navLinks = [
 ];
 ---
 
-<header class="fixed top-0 left-0 right-0 z-40 backdrop-blur-xl transition-all duration-300 border-b border-cyan/20 shadow-2xl" id="header" style="background: linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.97), rgba(15, 23, 42, 0.95)); backdrop-filter: blur(20px) saturate(180%); box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);">
-  {/* Subtle gradient overlay */}
-  <div class="absolute inset-0 pointer-events-none opacity-30" style="background: radial-gradient(ellipse at top, rgba(93, 211, 224, 0.05), transparent 70%);"></div>
+<header class="fixed top-0 left-0 right-0 z-40 backdrop-blur-xl transition-all duration-300 border-b border-white/20 shadow-2xl" id="header" style="background: linear-gradient(to right, rgba(30, 58, 138, 0.95) 0%, rgba(30, 58, 138, 0.98) 30%, rgba(37, 99, 235, 0.95) 70%, rgba(30, 58, 138, 0.95) 100%); backdrop-filter: blur(28px) saturate(200%); box-shadow: 0 8px 32px rgba(30, 58, 138, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 0 rgba(255, 255, 255, 0.1);">
+  {/* Strong glass effect overlay - soldan sağa akan ışık */}
+  <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.02) 100%);"></div>
+  {/* Cam kenarları için ekstra highlight */}
+  <div class="absolute top-0 left-0 right-0 h-px pointer-events-none" style="background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4), transparent);"></div>
   
   <div class="container relative">
     <div class="flex items-center justify-between h-20">
@@ -39,12 +41,12 @@ const navLinks = [
         {navLinks.map((link) => (
           <a
             href={link.href}
-            class={`text-gray-200 font-semibold hover:text-cyan-light transition-all duration-300 relative group ${
-              currentPath === link.href ? 'text-cyan-light' : ''
+            class={`text-white/90 font-semibold hover:text-white transition-all duration-300 relative group ${
+              currentPath === link.href ? 'text-white' : ''
             }`}
           >
             {link.label}
-            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-transparent via-cyan-light to-transparent transition-all duration-300 group-hover:w-full"></span>
+            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-transparent via-white to-transparent transition-all duration-300 group-hover:w-full"></span>
           </a>
         ))}
       </nav>
@@ -53,10 +55,10 @@ const navLinks = [
       <a 
         href={`tel:${SITE_CONFIG.phone.replace(/\s/g, '')}`}
         class="hidden md:inline-flex px-6 py-3 rounded-lg font-semibold text-white transition-all duration-300 relative z-10 overflow-hidden group"
-        style="background: linear-gradient(135deg, rgba(26,156,176,1) 0%, rgba(93,211,224,1) 50%, rgba(26,156,176,1) 100%); box-shadow: 0 4px 15px rgba(26,156,176,0.3);"
+        style="background: linear-gradient(135deg, rgba(249,115,22,1) 0%, rgba(220,38,38,1) 50%, rgba(249,115,22,1) 100%); box-shadow: 0 4px 15px rgba(249,115,22,0.3);"
         onmousedown="if(window.gtag){window.gtag('event','header_fiyat_iste_butonu',{location:'header_nav'});}"
-        onmouseenter="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(26,156,176,0.4)';"
-        onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(26,156,176,0.3)';"
+        onmouseenter="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(249,115,22,0.4)';"
+        onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(249,115,22,0.3)';"
       >
         {/* Subtle shimmer effect */}
         <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
@@ -66,7 +68,7 @@ const navLinks = [
       {/* Mobile Menu Button */}
       <button 
         id="mobile-menu-btn"
-        class="lg:hidden text-gray-200 p-2 relative z-10 hover:text-cyan-light transition-all duration-200"
+        class="lg:hidden text-white/90 p-2 relative z-10 hover:text-white transition-all duration-200"
         aria-label="Menüyü Aç"
       >
         <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -77,20 +79,24 @@ const navLinks = [
   </div>
 
   {/* Mobile Menu */}
-  <div id="mobile-menu" class="hidden lg:hidden backdrop-blur-xl border-t border-cyan/20 shadow-2xl" style="background: linear-gradient(to bottom, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.98)); backdrop-filter: blur(20px) saturate(180%); box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.4);">
+  <div id="mobile-menu" class="hidden lg:hidden backdrop-blur-xl border-t border-white/20 shadow-2xl" style="background: linear-gradient(to right, rgba(30, 58, 138, 0.95) 0%, rgba(30, 58, 138, 0.98) 30%, rgba(37, 99, 235, 0.95) 70%, rgba(30, 58, 138, 0.95) 100%); backdrop-filter: blur(28px) saturate(200%); box-shadow: 0 -8px 32px rgba(30, 58, 138, 0.5), inset 0 -1px 0 rgba(255, 255, 255, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);">
+    {/* Glass effect overlay */}
+    <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.02) 100%);"></div>
+    {/* Cam kenarı highlight */}
+    <div class="absolute top-0 left-0 right-0 h-px pointer-events-none" style="background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4), transparent);"></div>
     <nav class="container py-4 flex flex-col gap-4">
       {navLinks.map((link) => (
         <a
           href={link.href}
-          class={`text-gray-200 font-semibold py-2 hover:text-cyan-light transition-all relative ${
-            currentPath === link.href ? 'text-cyan-light' : ''
+          class={`text-white/90 font-semibold py-2 hover:text-white transition-all relative ${
+            currentPath === link.href ? 'text-white' : ''
           }`}
         >
           {link.label}
         </a>
       ))}
       <a href={`tel:${SITE_CONFIG.phone.replace(/\s/g, '')}`} class="inline-flex justify-center items-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 mt-2 relative overflow-hidden group"
-        style="background: linear-gradient(135deg, rgba(26,156,176,1) 0%, rgba(93,211,224,1) 50%, rgba(26,156,176,1) 100%); box-shadow: 0 4px 15px rgba(26,156,176,0.3);">
+        style="background: linear-gradient(135deg, rgba(249,115,22,1) 0%, rgba(220,38,38,1) 50%, rgba(249,115,22,1) 100%); box-shadow: 0 4px 15px rgba(249,115,22,0.3);">
         <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
         <span class="relative z-10">FİYAT İSTE</span>
       </a>
@@ -122,14 +128,14 @@ const navLinks = [
         // Sonra yazmalar (batch)
         if (isScrolled && lastScroll <= 100) {
           header?.classList.add('shadow-2xl');
-          header?.style.setProperty('background', 'linear-gradient(to right, rgba(15, 23, 42, 0.98), rgba(30, 41, 59, 0.99), rgba(15, 23, 42, 0.98))');
-          header?.style.setProperty('backdrop-filter', 'blur(24px) saturate(180%)');
-          header?.style.setProperty('boxShadow', '0 8px 30px rgba(0, 0, 0, 0.5)');
+          header?.style.setProperty('background', 'linear-gradient(to right, rgba(30, 58, 138, 0.98) 0%, rgba(30, 58, 138, 0.99) 30%, rgba(37, 99, 235, 0.98) 70%, rgba(30, 58, 138, 0.98) 100%)');
+          header?.style.setProperty('backdrop-filter', 'blur(32px) saturate(200%)');
+          header?.style.setProperty('boxShadow', '0 12px 48px rgba(30, 58, 138, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.15)');
         } else if (!isScrolled && lastScroll > 100) {
           header?.classList.remove('shadow-2xl');
-          header?.style.setProperty('background', 'linear-gradient(to right, rgba(15, 23, 42, 0.95), rgba(30, 41, 59, 0.97), rgba(15, 23, 42, 0.95))');
-          header?.style.setProperty('backdrop-filter', 'blur(20px) saturate(180%)');
-          header?.style.setProperty('boxShadow', '0 4px 20px rgba(0, 0, 0, 0.4)');
+          header?.style.setProperty('background', 'linear-gradient(to right, rgba(30, 58, 138, 0.95) 0%, rgba(30, 58, 138, 0.98) 30%, rgba(37, 99, 235, 0.95) 70%, rgba(30, 58, 138, 0.95) 100%)');
+          header?.style.setProperty('backdrop-filter', 'blur(28px) saturate(200%)');
+          header?.style.setProperty('boxShadow', '0 8px 32px rgba(30, 58, 138, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 0 rgba(255, 255, 255, 0.1)');
         }
         
         lastScroll = currentScroll;

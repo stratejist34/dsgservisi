@@ -26,13 +26,13 @@ import { WHY_US } from '@utils/constants';
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {WHY_US.map((item, index) => (
         <div class="group relative" data-reveal>
-          <div class="relative bg-gradient-to-r from-primary/20 via-cyan/20 to-primary/20 border-2 border-cyan/30 rounded-2xl p-8 h-full transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-cyan overflow-hidden premium-shine">
+          <div class="relative bg-gradient-to-r from-primary/20 via-urgent/20 to-primary/20 border-2 border-primary/30 rounded-2xl p-8 h-full transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-primary overflow-hidden premium-shine">
             <div class="mb-6 relative z-10">
-              <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-primary to-cyan flex items-center justify-center text-4xl transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
+              <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-primary to-urgent flex items-center justify-center text-4xl transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
                 {item.icon}
               </div>
             </div>
-            <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-cyan transition-colors relative z-10">
+            <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-primary transition-colors relative z-10">
               {item.title}
             </h3>
             <p class="text-white/80 leading-relaxed relative z-10">

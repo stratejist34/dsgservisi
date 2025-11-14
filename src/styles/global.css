@@ -68,7 +68,7 @@
   }
   
   .btn-primary {
-    @apply bg-gradient-to-r from-primary to-cyan text-white hover:shadow-lg;
+    @apply bg-gradient-to-r from-primary to-urgent-600 text-white hover:shadow-lg;
     transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
   }
   
@@ -279,34 +279,34 @@
     margin: 16px 0;
   }
   
-  /* Uzman Tavsiyesi - Mercedes/Porsche görünümü */
+  /* Uzman Tavsiyesi - Turuncu/Sıcak görünüm */
   .uzman-tavsiyesi {
-    background: linear-gradient(135deg, #e0f4ff 0%, #f0f9ff 100%);
-    border-left: 4px solid #00d4ff;
+    background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
+    border-left: 5px solid #F97316;
     padding: 15px;
     margin: 20px 0;
     font-size: 0.95rem;
     line-height: 1.6;
-    color: #0a4d68;
+    color: #7C2D12;
     font-weight: 500;
   }
 
-  /* Cam efektli CTA kutusu - Mercedes/Porsche görünümü */
+  /* Cam efektli CTA kutusu - Turuncu/Sıcak görünüm */
   .glass-cta {
-    background: linear-gradient(135deg, #f0f9ff 0%, #e0f4ff 100%);
-    border: 2px solid #00d4ff;
+    background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
+    border: 3px solid #F97316;
     padding: 20px;
     border-radius: 8px;
     margin: 20px 0;
     text-align: center;
-    box-shadow: 0 4px 12px rgba(0,212,255,0.15);
+    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.2);
   }
 
   .glass-cta strong {
     display: block;
     margin-bottom: 12px;
     font-size: 1.1rem;
-    color: #0a4d68;
+    color: #9A3412;
     font-weight: 700;
   }
 
@@ -335,15 +335,15 @@
   }
   
   .glass-cta a[href^="tel:"] {
-    background: linear-gradient(135deg, #0a4d68 0%, #0c5f7d 100%);
+    background: linear-gradient(135deg, #F97316 0%, #DC2626 100%);
     color: #fff;
-    border: 2px solid #0a4d68;
+    border: 2px solid #F97316;
   }
   
   .glass-cta a[href^="tel:"]:hover {
-    background: linear-gradient(135deg, #0c5f7d 0%, #00d4ff 100%);
+    background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,212,255,0.4);
+    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.5);
   }
   
   .glass-cta a[href*="wa.me"] {
@@ -359,15 +359,15 @@
   }
   
   .glass-cta a[href*="maps"], .glass-cta a[href*="goo.gl"] {
-    background: linear-gradient(135deg, #00d4ff 0%, #0c5f7d 100%);
+    background: linear-gradient(135deg, #3B82F6 0%, #1E3A8A 100%);
     color: #fff;
-    border: 2px solid #00d4ff;
+    border: 2px solid #3B82F6;
   }
   
   .glass-cta a[href*="maps"]:hover, .glass-cta a[href*="goo.gl"]:hover {
-    background: linear-gradient(135deg, #0c5f7d 0%, #0a4d68 100%);
+    background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,212,255,0.5);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
   }
   
   /* Review Cards */
@@ -576,14 +576,14 @@
 
 @layer utilities {
   .text-gradient {
-    @apply bg-gradient-to-r from-primary via-cyan to-primary-600 bg-clip-text text-transparent bg-300% animate-gradient;
+    @apply bg-gradient-to-r from-primary via-urgent to-primary-600 bg-clip-text text-transparent bg-300% animate-gradient;
   }
   .nowrap {
     white-space: nowrap;
   }
   
   .glow-text {
-    text-shadow: 0 0 20px rgba(26, 156, 176, 0.5);
+    text-shadow: 0 0 20px rgba(249, 115, 22, 0.5);
   }
   
   .smooth-scroll {
@@ -609,9 +609,9 @@
       transparent 20%,
       rgba(255, 255, 255, 0.01) 30%,
       rgba(255, 255, 255, 0.03) 38%,
-      rgba(93, 211, 224, 0.08) 45%,
+      rgba(251, 146, 60, 0.08) 45%,
       rgba(255, 255, 255, 0.12) 50%,
-      rgba(93, 211, 224, 0.08) 55%,
+      rgba(251, 146, 60, 0.08) 55%,
       rgba(255, 255, 255, 0.03) 62%,
       rgba(255, 255, 255, 0.01) 70%,
       transparent 80%,
@@ -640,7 +640,7 @@
     background: radial-gradient(
       ellipse at center,
       rgba(255, 255, 255, 0.06) 0%,
-      rgba(93, 211, 224, 0.04) 30%,
+      rgba(251, 146, 60, 0.04) 30%,
       transparent 70%
     );
     transform: translateX(-150%) scale(0.8) translateZ(0);
@@ -692,12 +692,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #1a9cb0, #5dd3e0);
+  background: linear-gradient(180deg, #F97316, #EA580C);
   border-radius: 5px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #157d8d, #2cc4d4);
+  background: linear-gradient(180deg, #EA580C, #DC2626);
 }
 
 /* ========== ANIMATIONS FROM animations.css ========== */
@@ -735,15 +735,15 @@
 @keyframes glow-pulse {
   0%, 100% {
     box-shadow: 
-      0 0 20px rgba(26, 156, 176, 0.4),
-      0 0 40px rgba(26, 156, 176, 0.2),
-      inset 0 0 20px rgba(26, 156, 176, 0.1);
+      0 0 20px rgba(249, 115, 22, 0.4),
+      0 0 40px rgba(249, 115, 22, 0.2),
+      inset 0 0 20px rgba(249, 115, 22, 0.1);
   }
   50% {
     box-shadow: 
-      0 0 40px rgba(26, 156, 176, 0.8),
-      0 0 80px rgba(26, 156, 176, 0.4),
-      inset 0 0 30px rgba(26, 156, 176, 0.2);
+      0 0 40px rgba(220, 38, 38, 0.8),
+      0 0 80px rgba(220, 38, 38, 0.4),
+      inset 0 0 30px rgba(220, 38, 38, 0.2);
   }
 }
 
@@ -882,9 +882,9 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  border: 3px solid rgba(26, 156, 176, 0.3);
+  border: 3px solid rgba(249, 115, 22, 0.3);
   border-radius: 50%;
-  border-top-color: #1a9cb0;
+  border-top-color: #F97316;
   animation: spin 1s ease-in-out infinite;
 }
 

@@ -125,7 +125,7 @@ export default function PreviewPassword() {
 
           <button
             type="submit"
-            className="w-full bg-gradient-to-r from-primary to-cyan text-white py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all"
+            className="w-full bg-gradient-to-r from-primary to-urgent text-white py-3 rounded-lg font-semibold hover:shadow-lg hover:shadow-primary/50 transition-all"
           >
             Giriş Yap
           </button>
