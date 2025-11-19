@@ -25,6 +25,8 @@ const getPostUrl = (slug: string) => {
         const postUrl = getPostUrl(post.slug);
         const featuredImage = post.data.featuredImage || `/images/blog/${post.slug}.jpg`;
         const description = post.data.description || '';
+        const truncatedTitle =
+          post.data.title.length > 26 ? `${post.data.title.slice(0, 26).trimEnd()}…` : post.data.title;
         
         return (
           <article class="blog-card" data-index={index}>
@@ -54,7 +56,7 @@ const getPostUrl = (slug: string) => {
                 </div>
               )}
               <div class="card-content">
-                <h3 class="card-title">{post.data.title}</h3>
+                <h3 class="card-title">{truncatedTitle}</h3>
                 <p class="card-excerpt">
                   {description || 'DSG şanzıman ve bakım hizmetleri hakkında detaylı bilgi...'}
                 </p>
@@ -127,7 +129,7 @@ const getPostUrl = (slug: string) => {
   
   .card-image {
     width: 100%;
-    height: 200px;
+    aspect-ratio: 16 / 9;
     overflow: hidden;
     background: #e9ecef;
   }
@@ -137,6 +139,7 @@ const getPostUrl = (slug: string) => {
     height: 100%;
     object-fit: cover;
     transition: transform 0.3s;
+    display: block;
   }
   
   .blog-card:hover .card-image img {
@@ -144,7 +147,7 @@ const getPostUrl = (slug: string) => {
   }
   
   .card-content {
-    padding: 20px;
+    padding: 20px 20px 12px;
   }
   
   .card-title {
@@ -152,10 +155,9 @@ const getPostUrl = (slug: string) => {
     color: #1a1a1a;
     margin-bottom: 12px;
     line-height: 1.4;
-    display: -webkit-box;
-    -webkit-line-clamp: 2;
-    -webkit-box-orient: vertical;
+    white-space: nowrap;
     overflow: hidden;
+    text-overflow: ellipsis;
   }
   
   .card-excerpt {
@@ -170,8 +172,8 @@ const getPostUrl = (slug: string) => {
   }
   
   .read-more {
-    color: #F97316;
-    font-weight: 500;
+    color: #1e3a8a;
+    font-weight: 600;
     font-size: 0.9rem;
   }
   
@@ -216,9 +218,6 @@ const getPostUrl = (slug: string) => {
       gap: 20px;
     }
     
-    .card-image {
-      height: 180px;
-    }
   }
 </style>
 

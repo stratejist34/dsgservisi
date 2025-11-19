@@ -128,32 +128,32 @@ export const SERVICES = [
 
 export const WHY_US = [
   {
-    icon: '⏱️',
+    icon: 'speed',
     title: 'Hızlı Servis Anlayışı',
     description: 'Yoğun iş akımını aksatmamak için servis hızımızı maksimum düzeyde tutuyoruz.',
   },
   {
-    icon: '💬',
+    icon: 'chat',
     title: 'İletişim',
     description: 'Aracınızın servis sürecindeki her aşamasında iletişim kurarak bilgilendiriyoruz.',
   },
   {
-    icon: '📊',
+    icon: 'diagnostic',
     title: 'Bilgisayarlı Tanı',
     description: 'Son teknoloji arıza tanı sistemlerimiz ile nokta atışı arıza tespitleri.',
   },
   {
-    icon: '🚗',
+    icon: 'roadside',
     title: 'Yol Yardım Servisi',
     description: 'Yolda mı kaldınız? Endişe Etmeyin Yıldızlar Özel Servis Yanınızda. Bize Ulaşın.',
   },
   {
-    icon: '🎯',
+    icon: 'parts',
     title: 'Yedek Parça Desteği',
     description: 'Aracınızın özel olduğunun farkındayız, yedek parça konusunda aynı hassasiyeti gösteriyoruz.',
   },
   {
-    icon: '👥',
+    icon: 'experts',
     title: 'İşinde Uzman Ustalar',
     description: 'Ustalarımız yılların tecrübe, bilgi birikimi ile arıza tanısı ve çözüm sürecindeki pratik ve hızlarıyla bilinmektedir.',
   },

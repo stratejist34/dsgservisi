@@ -10,6 +10,7 @@ import remarkDirective from 'remark-directive';
 import rehypeSlug from 'rehype-slug';
 import remarkCallouts from './src/utils/remark-callouts.mjs';
 import remarkInternalLinks from './src/utils/remark-internal-links.mjs';
+import icon from 'astro-icon';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
@@ -45,6 +46,11 @@ export default defineConfig({
       lastmod: new Date(),
     }),
     autoConvertImages(),
+    icon({
+      include: {
+        lucide: ['gauge', 'messages-square', 'scan-line', 'car', 'settings-2', 'users', 'sparkles'],
+      },
+    }),
   ],
   markdown: {
     shikiConfig: {
