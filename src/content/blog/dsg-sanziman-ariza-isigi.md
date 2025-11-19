@@ -38,7 +38,7 @@ DSG şanzıman arıza ışığı yandığında, araç genellikle emniyet moduna 
 
 **DSG şanzıman arıza ışığı teşhisi için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -262,7 +262,7 @@ DSG şanzıman arıza ışığı, şanzıman sisteminde bir sorun olduğunu gös
 
 **DSG şanzıman arıza ışığı teşhisi için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

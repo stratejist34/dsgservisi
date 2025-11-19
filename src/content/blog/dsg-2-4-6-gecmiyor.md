@@ -38,7 +38,7 @@ DSG 2 4 6 geçmiyor sorunu, genellikle ikinci kavrama aşınması, kavrama kontr
 
 **DSG 2 4 6 geçmiyor sorunu için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -239,7 +239,7 @@ DSG 2 4 6 geçmiyor sorunu, ikinci kavrama veya ilgili mekatronik bileşenlerde 
 
 **DSG 2 4 6 geçmiyor sorunu için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

@@ -38,7 +38,7 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 
 **7 ileri DSG şanzıman sorunları teşhisi için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -359,5 +359,5 @@ Düzenli bakım ve doğru kullanım ile tekrar etmez. Ancak kök neden çözülm
 
 
 
-**7 ileri DSG şanzıman sorununuz mu var?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
+**7 ileri DSG şanzıman sorununuz mu var?** Hemen [randevu alın](tel:05332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

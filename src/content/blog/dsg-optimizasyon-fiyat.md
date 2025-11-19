@@ -41,7 +41,7 @@ DSG optimizasyon, şanzımanın **performansını artırmak**, **vites geçişle
 
 **DSG optimizasyon için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -279,7 +279,7 @@ DSG optimizasyon, performans sorunlarının en ekonomik ve etkili çözümüdür
 
 **DSG optimizasyon için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

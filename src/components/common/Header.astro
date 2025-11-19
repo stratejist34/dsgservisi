@@ -12,14 +12,15 @@ const navLinks = [
 ];
 ---
 
-<header class="fixed top-0 left-0 right-0 z-40 backdrop-blur-xl transition-all duration-300 border-b border-white/20 shadow-2xl" id="header" style="background: linear-gradient(to right, rgba(30, 58, 138, 0.95) 0%, rgba(30, 58, 138, 0.98) 30%, rgba(37, 99, 235, 0.95) 70%, rgba(30, 58, 138, 0.95) 100%); backdrop-filter: blur(28px) saturate(200%); box-shadow: 0 8px 32px rgba(30, 58, 138, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 0 rgba(255, 255, 255, 0.1);">
-  {/* Strong glass effect overlay - soldan sağa akan ışık */}
-  <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.02) 100%);"></div>
-  {/* Cam kenarları için ekstra highlight */}
-  <div class="absolute top-0 left-0 right-0 h-px pointer-events-none" style="background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4), transparent);"></div>
+<header class="fixed top-0 left-0 right-0 z-40 backdrop-blur-xl transition-all duration-300 border-b border-white/20 shadow-2xl" id="header" style="background: linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.98)); backdrop-filter: blur(28px) saturate(200%); box-shadow: 0 8px 32px rgba(15, 23, 42, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.18), inset 0 -1px 0 rgba(255, 255, 255, 0.08);">
   
+  <div class="header-ticker">
+    <div class="ticker-track">
+      <span id="ticker-message" class="ticker-message"></span>
+    </div>
+  </div>
   <div class="container relative">
-    <div class="flex items-center justify-between h-20">
+    <div class="flex items-center justify-between h-16 lg:h-[68px]">
       {/* Logo */}
       <a href="/" class="flex items-center gap-3 group relative z-10">
         <div class="relative">
@@ -53,7 +54,7 @@ const navLinks = [
 
       {/* CTA Button - Subtle Tech Effect */}
       <a 
-        href={`tel:${SITE_CONFIG.phone.replace(/\s/g, '')}`}
+        href={`tel:${SITE_CONFIG.phoneTel}`}
         class="hidden md:inline-flex px-6 py-3 rounded-lg font-semibold text-white transition-all duration-300 relative z-10 overflow-hidden group"
         style="background: linear-gradient(135deg, rgba(249,115,22,1) 0%, rgba(220,38,38,1) 50%, rgba(249,115,22,1) 100%); box-shadow: 0 4px 15px rgba(249,115,22,0.3);"
         onmousedown="if(window.gtag){window.gtag('event','header_fiyat_iste_butonu',{location:'header_nav'});}"
@@ -95,7 +96,7 @@ const navLinks = [
           {link.label}
         </a>
       ))}
-      <a href={`tel:${SITE_CONFIG.phone.replace(/\s/g, '')}`} class="inline-flex justify-center items-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 mt-2 relative overflow-hidden group"
+      <a href={`tel:${SITE_CONFIG.phoneTel}`} class="inline-flex justify-center items-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 mt-2 relative overflow-hidden group"
         style="background: linear-gradient(135deg, rgba(249,115,22,1) 0%, rgba(220,38,38,1) 50%, rgba(249,115,22,1) 100%); box-shadow: 0 4px 15px rgba(249,115,22,0.3);">
         <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
         <span class="relative z-10">FİYAT İSTE</span>
@@ -117,6 +118,29 @@ const navLinks = [
   let ticking = false;
   let lastScroll = 0;
   const header = document.getElementById('header');
+const tickerMessageEl = document.getElementById('ticker-message');
+const tickerMessages = [
+  { text: 'Servisimiz İstanbul Avrupa Yakasındadır', color: '#fbbf24' },
+  { text: 'Beytepe Sanayi Sitesindeyiz', color: '#38bdf8' },
+  { text: 'Otomobil Motor Tamir & Şanzıman Tamir Servisi', color: '#f472b6' },
+];
+let tickerIndex = 0;
+
+const playTicker = () => {
+  if (!tickerMessageEl) return;
+  const { text, color } = tickerMessages[tickerIndex];
+  tickerMessageEl.textContent = text;
+  tickerMessageEl.style.setProperty('--ticker-color', color);
+  tickerMessageEl.classList.remove('ticker-animate');
+  void tickerMessageEl.offsetWidth;
+  tickerMessageEl.classList.add('ticker-animate');
+  tickerIndex = (tickerIndex + 1) % tickerMessages.length;
+};
+
+if (tickerMessageEl) {
+  playTicker();
+  setInterval(playTicker, 4500);
+}
 
   window.addEventListener('scroll', () => {
     if (!ticking) {
@@ -128,14 +152,14 @@ const navLinks = [
         // Sonra yazmalar (batch)
         if (isScrolled && lastScroll <= 100) {
           header?.classList.add('shadow-2xl');
-          header?.style.setProperty('background', 'linear-gradient(to right, rgba(30, 58, 138, 0.98) 0%, rgba(30, 58, 138, 0.99) 30%, rgba(37, 99, 235, 0.98) 70%, rgba(30, 58, 138, 0.98) 100%)');
+          header?.style.setProperty('background', 'linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.98))');
           header?.style.setProperty('backdrop-filter', 'blur(32px) saturate(200%)');
-          header?.style.setProperty('boxShadow', '0 12px 48px rgba(30, 58, 138, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.15)');
+          header?.style.setProperty('boxShadow', '0 12px 48px rgba(15, 23, 42, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.15)');
         } else if (!isScrolled && lastScroll > 100) {
           header?.classList.remove('shadow-2xl');
-          header?.style.setProperty('background', 'linear-gradient(to right, rgba(30, 58, 138, 0.95) 0%, rgba(30, 58, 138, 0.98) 30%, rgba(37, 99, 235, 0.95) 70%, rgba(30, 58, 138, 0.95) 100%)');
+          header?.style.setProperty('background', 'linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.98))');
           header?.style.setProperty('backdrop-filter', 'blur(28px) saturate(200%)');
-          header?.style.setProperty('boxShadow', '0 8px 32px rgba(30, 58, 138, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 0 rgba(255, 255, 255, 0.1)');
+          header?.style.setProperty('boxShadow', '0 8px 32px rgba(15, 23, 42, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 0 rgba(255, 255, 255, 0.1)');
         }
         
         lastScroll = currentScroll;
@@ -145,4 +169,68 @@ const navLinks = [
     }
   }, { passive: true });
 </script>
+
+<style is:inline>
+  .header-ticker {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .ticker-track {
+    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 4px 16px;
+    background: linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.96));
+    display: flex;
+    justify-content: center;
+  }
+
+  .ticker-message {
+    font-size: 0.85rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 600;
+    white-space: nowrap;
+    color: rgba(255, 255, 255, 0.65);
+    opacity: 0;
+  }
+
+  .ticker-animate {
+    animation: tickerHighlight 4.5s ease-in-out forwards;
+  }
+
+  @keyframes tickerHighlight {
+    0% {
+      opacity: 0;
+      transform: translateY(8px) scale(0.92);
+      color: rgba(255, 255, 255, 0.4);
+    }
+    20% {
+      opacity: 1;
+      transform: translateY(0) scale(1);
+      color: rgba(255, 255, 255, 0.85);
+    }
+    45% {
+      transform: translateY(0) scale(1.08);
+      color: var(--ticker-color, #fbbf24);
+      text-shadow: 0 0 8px color-mix(in srgb, var(--ticker-color, #fbbf24) 60%, transparent);
+    }
+    70% {
+      transform: translateY(0) scale(1.02);
+      color: var(--ticker-color, #fbbf24);
+      opacity: 1;
+    }
+    100% {
+      opacity: 0;
+      transform: translateY(-6px) scale(0.95);
+      color: rgba(255, 255, 255, 0.3);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .header-ticker {
+      display: none;
+    }
+  }
+</style>
 

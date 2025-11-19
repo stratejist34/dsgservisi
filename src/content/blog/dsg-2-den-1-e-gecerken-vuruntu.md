@@ -38,7 +38,7 @@ DSG 2 den 1 e geçerken vuruntu sorunu, genellikle birinci kavrama kontrol solen
 
 **DSG 2 den 1 e geçerken vuruntu sorunu için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -233,7 +233,7 @@ DSG 2 den 1 e geçerken vuruntu sorunu, birinci kavrama kontrol solenoid valfi a
 
 **DSG 2 den 1 e geçerken vuruntu sorunu için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

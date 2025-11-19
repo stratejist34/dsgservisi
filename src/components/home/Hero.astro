@@ -44,15 +44,17 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
     <div class="max-w-5xl mx-auto text-center">
       {/* Main Heading */}
       <h1 class="font-display font-bold mb-6 tracking-tight" data-reveal>
-        <span class="block text-white/90 text-3xl md:text-4xl lg:text-5xl mb-3 font-medium uppercase tracking-wider">
-          VOLKSWAGEN GRUBU
-        </span>
         <span class="flex flex-wrap items-center justify-center gap-x-4 text-4xl md:text-6xl lg:text-7xl font-extrabold tracking-tighter leading-tight">
           <span class="relative inline-block group overflow-hidden">
-            <span class="text-gradient relative z-10">DSG ŞANZIMAN</span>
+            <span class="text-gradient relative z-10">
+              <span class="text-[#fbbf24]">İSTANBUL</span> DSG ŞANZIMAN
+            </span>
             <span class="shine-bar pointer-events-none absolute inset-y-0 left-[-25%] w-[40%] bg-gradient-to-r from-transparent via-white/30 to-transparent opacity-0 transition-opacity duration-500" style="transform: translateX(-120%);"></span>
           </span>
           <span class="text-white">SERVİSİ</span>
+        </span>
+        <span class="block text-white/80 text-lg md:text-xl lg:text-2xl mt-4 font-semibold tracking-[0.3em]">
+          BÜYÜKÇEKMECE - BEYLİKDÜZÜ - BEYTEPE <span class="text-[#fbbf24]">AVRUPA YAKASI</span>
         </span>
       </h1>
 
@@ -60,7 +62,7 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
       <p class="text-xl md:text-2xl text-gray-300 mb-12 max-w-3xl mx-auto leading-relaxed" data-reveal>
         <span class="text-primary font-semibold">{SITE_CONFIG.stats.experience} yıldır</span> 
         {' '}VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlarında 
-        <span class="text-white font-semibold"> DSG şanzıman ve mekatronik tamiri</span>.
+        <span class="text-gradient font-semibold"> DSG şanzıman ve mekatronik tamiri</span>.
         {' '}İstanbul Büyükçekmece'de güvenilir servis.
       </p>
 
@@ -68,7 +70,7 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
       <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
         <a
           data-animate
-          href={`tel:${SITE_CONFIG.phoneFormatted}`}
+          href={`tel:${SITE_CONFIG.phoneTel}`}
           class="group relative inline-flex items-center justify-center px-10 py-5 text-lg font-bold text-white rounded-xl overflow-hidden transition-all duration-300 hover:-translate-y-0.5 cta-ease-fast"
           style="background: linear-gradient(135deg, rgba(249,115,22,1) 0%, rgba(220,38,38,1) 50%, rgba(249,115,22,1) 100%); box-shadow: 0 4px 15px rgba(249,115,22,0.3);"
           onmouseenter="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(249,115,22,0.4)';"
@@ -289,5 +291,5 @@ import { Award, Wrench, Zap, ShieldCheck, Car, Phone, Settings, Gauge, Cog } fro
       animation: none;
     }
   }
-</style>
 
+</style>

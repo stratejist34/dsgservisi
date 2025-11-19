@@ -41,7 +41,7 @@ Jetta mekatronik fiyatı, **Jetta modellerinde kullanılan DSG DQ200 (7 ileri ku
 
 **Jetta mekatronik tamiri için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -252,7 +252,7 @@ Jetta mekatronik fiyatları, arıza kapsamına göre değişir. Mekatronik reviz
 
 **Jetta mekatronik tamiri için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

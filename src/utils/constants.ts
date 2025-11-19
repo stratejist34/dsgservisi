@@ -3,12 +3,20 @@ const getEnv = (key: string, defaultValue: string = '') => {
   return import.meta.env[key] || defaultValue;
 };
 
+const DEFAULT_PHONE = '0533 262 34 51';
+const DEFAULT_PHONE_FORMATTED = '+90 533 262 34 51';
+const sanitizePhone = (value: string) => value.replace(/\D/g, '');
+const rawPhone = getEnv('PUBLIC_PHONE', DEFAULT_PHONE);
+const formattedPhone = getEnv('PUBLIC_PHONE_FORMATTED', DEFAULT_PHONE_FORMATTED);
+const telPhone = getEnv('PUBLIC_PHONE_TEL', sanitizePhone(rawPhone));
+
 export const SITE_CONFIG = {
   name: getEnv('PUBLIC_SITE_NAME', 'Yıldızlar Grup DSG Servisi'),
   shortName: getEnv('PUBLIC_SITE_NAME', 'DSG Servisi').split('-')[0].trim(),
   description: getEnv('PUBLIC_SITE_DESCRIPTION', '15 yıldır VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlarında uzman DSG şanzıman ve mekatronik tamiri. İstanbul Büyükçekmece\'de güvenilir servis.'),
-  phone: getEnv('PUBLIC_PHONE', '0533 262 34 51'),
-  phoneFormatted: getEnv('PUBLIC_PHONE', '+90 533 262 34 51'),
+  phone: rawPhone,
+  phoneFormatted: formattedPhone,
+  phoneTel: telPhone,
   whatsapp: getEnv('PUBLIC_WHATSAPP', '+90 532 261 48 86'),
   email: getEnv('PUBLIC_EMAIL', 'yildizlarvolkswagen@gmail.com'),
   address: {

@@ -38,7 +38,7 @@ S-Tronic, Audi'nin çift kavramalı DSG teknolojisidir. Volkswagen Grubu'nun DQ5
 
 **Audi S-Tronic arızası için ücretsiz teşhis:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

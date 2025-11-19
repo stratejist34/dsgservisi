@@ -41,7 +41,7 @@ Polo şanzıman tamiri fiyatı, **Polo modellerinde kullanılan DSG DQ200 (7 ile
 
 **Polo şanzıman tamiri için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -214,7 +214,7 @@ Polo şanzıman tamiri fiyatları, arıza kapsamına göre değişir. Mekatronik
 
 **Polo şanzıman tamiri için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

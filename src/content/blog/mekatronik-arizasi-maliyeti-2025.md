@@ -41,7 +41,7 @@ Mekatronik arızası maliyeti, **DSG şanzımanlarda en yaygın ve maliyetli ar�
 
 **Ücretsiz ön teşhis ve maliyet analizi için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -293,7 +293,7 @@ Mekatronik arızası maliyeti, arıza kapsamına ve şanzıman tipine göre değ
 
 **Ücretsiz ön teşhis ve maliyet analizi için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

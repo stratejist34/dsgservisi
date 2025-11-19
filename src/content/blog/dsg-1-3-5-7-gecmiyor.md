@@ -38,7 +38,7 @@ DSG 1 3 5 7 geçmiyor sorunu, genellikle birinci kavrama aşınması, kavrama ko
 
 **DSG 1 3 5 7 geçmiyor sorunu için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -240,7 +240,7 @@ DSG 1 3 5 7 geçmiyor sorunu, birinci kavrama veya ilgili mekatronik bileşenler
 
 **DSG 1 3 5 7 geçmiyor sorunu için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

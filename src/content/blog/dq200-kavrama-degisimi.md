@@ -41,7 +41,7 @@ DQ200 kavrama değişimi, **DQ200 (7 ileri kuru kavrama) şanzımanında kullan�
 
 **DQ200 kavrama değişimi için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -318,5 +318,5 @@ Volant sağlam ise zorunlu değildir ancak hasarlı veya şüpheli ise mutlaka d
 
 
 
-**DQ200 kavrama sorununuz mu var?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
+**DQ200 kavrama sorununuz mu var?** Hemen [randevu alın](tel:05332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

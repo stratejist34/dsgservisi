@@ -24,7 +24,7 @@ offerUrl: "/land-rover-ozel-servis"
 
 ::::cta
 **Land Rover için ücretsiz ön kontrol**
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
 ::::
@@ -98,7 +98,7 @@ Land Rover'da erken arıza tespiti tamir maliyetini %70 azaltır. Düzenli periy
 
 ::::cta
 **Detaylı teşhis ve ekonomik tamir**
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
 ::::

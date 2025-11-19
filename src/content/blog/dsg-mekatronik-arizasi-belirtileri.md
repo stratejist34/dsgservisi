@@ -37,7 +37,7 @@ DSG mekatronik arızası belirtileri erken tespit edildiğinde, tamir maliyeti %
 
 **DSG mekatronik arızası teşhisi için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -460,5 +460,5 @@ DSG mekatronik arızası, elektronik bileşen arızası, nem/korozyon, aşırı 
 
 DSG mekatronik arızası fiyatı, arıza şiddetine ve çözüm yöntemine göre değişir. Tamir 5.000–12.000₺, değişim 8.000–15.000₺, revizyon 14.000–23.500₺ arasındadır. Kesin fiyat teklifi için ön teşhis gereklidir.
 
-**DSG mekatronik arızası belirtileri mi görüyorsunuz?** Hemen [randevu alın](tel:+905332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
+**DSG mekatronik arızası belirtileri mi görüyorsunuz?** Hemen [randevu alın](tel:05332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
 

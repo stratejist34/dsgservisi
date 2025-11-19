@@ -38,7 +38,7 @@ Passat B8 şanzıman hatalarının en yaygın nedenleri; yağ değişimi ihmal e
 
 **Passat B8 şanzıman hatası teşhisi için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -288,7 +288,7 @@ Passat B8 şanzıman hatası, erken teşhis ve müdahale ile çözülebilir. Yı
 
 **Passat B8 şanzıman hatası teşhisi için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

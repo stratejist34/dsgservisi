@@ -41,7 +41,7 @@ Passat mekatronik fiyatı, **Passat B7 ve B8 modellerinde kullanılan DSG şanz�
 
 **Passat mekatronik tamiri için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -296,7 +296,7 @@ Passat mekatronik fiyatları, model (B7, B8), şanzıman tipi (DQ250, DQ381) ve 
 
 **Passat mekatronik tamiri için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

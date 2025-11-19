@@ -29,7 +29,7 @@ BMW yüksek performans ve teknoloji sunsa da belirli kilometre ve model yıllar�
 <div class="glass-cta">
   <strong>BMW aracınız için ücretsiz ön kontrol</strong>
   <div class="cta-actions" style="margin-top: 12px;">
-    <a href="tel:+905332623451" class="btn bg-gradient-to-r from-primary to-cyan text-white">📞 0533 262 34 51</a>
+    <a href="tel:05332623451" class="btn bg-gradient-to-r from-primary to-cyan text-white">📞 0533 262 34 51</a>
     <a href="https://wa.me/905332623451" class="btn bg-[#25d366] text-white">WhatsApp Randevu</a>
     <a href="https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA" class="btn bg-white text-navy border-2 border-cyan/40">Konum Tarifi</a>
   </div>

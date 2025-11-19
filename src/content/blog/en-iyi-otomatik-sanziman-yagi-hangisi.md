@@ -36,7 +36,7 @@ En iyi otomatik şanzıman yağı hangisi? Bu soru, **DSG, ZF ve konvansiyonel o
 
 **Doğru yağ seçimi ve değişimi için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 

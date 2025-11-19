@@ -41,7 +41,7 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 
 **Ücretsiz ön teşhis ve fiyat teklifi için:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
@@ -263,7 +263,7 @@ Keçe değişimi sırasında yağ kaybı olmuşsa yağ seviyesi ayarlanır. Yağ
 
 **Ücretsiz ön teşhis ve fiyat teklifi için hemen iletişime geçin:**
 
-- [📞 0533 262 34 51](tel:+905332623451)
+- [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
