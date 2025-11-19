@@ -2,20 +2,24 @@
 import { WHY_US } from '@utils/constants';
 ---
 
-<section class="section relative bg-gradient-to-br from-navy via-navy-600 to-navy overflow-hidden">
+<section class="section relative bg-gradient-to-br from-primary/95 via-primary/90 to-urgent/95 overflow-hidden">
   {/* Subtle static pattern */}
-  <div class="absolute inset-0 opacity-8">
-    <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.3\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+  <div class="absolute inset-0 opacity-10">
+    <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23F97316\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
   </div>
 
+  {/* Glass effect overlay */}
+  <div class="absolute inset-0 bg-gradient-to-b from-white/5 via-transparent to-white/5"></div>
+
   {/* Single lightweight orb */}
-  <div class="absolute top-20 left-10 w-72 h-72 bg-primary/25 rounded-full blur-xl"></div>
+  <div class="absolute top-20 left-10 w-72 h-72 bg-urgent/30 rounded-full blur-xl"></div>
+  <div class="absolute bottom-20 right-10 w-96 h-96 bg-primary/20 rounded-full blur-2xl"></div>
 
   {/* Stars removed for performance */}
 
   <div class="container relative z-10">
     <div class="section-title" data-reveal>
-      <h2 class="font-display font-bold text-white mb-4">
+      <h2 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white mb-4">
         Neden Bizi Seçmelisiniz?
       </h2>
       <p class="text-xl text-white/90 max-w-3xl mx-auto">
@@ -26,13 +30,13 @@ import { WHY_US } from '@utils/constants';
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
       {WHY_US.map((item, index) => (
         <div class="group relative" data-reveal>
-          <div class="relative bg-gradient-to-r from-primary/20 via-urgent/20 to-primary/20 border-2 border-primary/30 rounded-2xl p-8 h-full transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-primary overflow-hidden premium-shine">
+          <div class="relative bg-white/10 backdrop-blur-md border-2 border-white/20 rounded-2xl p-8 h-full transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-white/40 hover:bg-white/15 overflow-hidden premium-shine">
             <div class="mb-6 relative z-10">
               <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-primary to-urgent flex items-center justify-center text-4xl transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
                 {item.icon}
               </div>
             </div>
-            <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-primary transition-colors relative z-10">
+            <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-white transition-colors relative z-10">
               {item.title}
             </h3>
             <p class="text-white/80 leading-relaxed relative z-10">
