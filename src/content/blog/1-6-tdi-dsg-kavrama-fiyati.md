@@ -1,35 +1,31 @@
 ---
 
-title: "1.6 TDI DSG Kavrama Fiyatı"
-description: "1.6 TDI DSG kavrama fiyatı 2025: DQ200 kuru kavrama değişimi fiyatları. Golf, A3, Octavia, Leon için 1.6 TDI DSG kavrama değişim fiyatları ve volant dahil toplam maliyet."
+title: "1.6 TDI DSG Kavrama Tamiri ve Servisi"
+description: "1.6 TDI DSG kavrama bilgisi: DQ200 kuru kavrama değişimi hizmetleri. Golf, A3, Octavia, Leon için 1.6 TDI DSG kavrama değişim hizmetleri ve volant dahil toplam maliyet."
 category: "DSG"
-tags: ["dsg", "1.6 tdi", "kavrama", "fiyat", "dq200", "kuru kavrama", "2025"]
+tags: ["dsg", "1.6 tdi", "kavrama", "dq200", "kuru kavrama"]
 slug: "1-6-tdi-dsg-kavrama-fiyati"
 publishDate: "2025-11-09T16:48:00+03:00"
 updatedDate: "2025-11-09T16:48:00+03:00"
 featuredImage: "/images/blog/1-6-tdi-dsg-kavrama-fiyati.jpg"
-imageAlt: "1.6 TDI DSG kavrama fiyatı - Yıldızlar Grup DSG Servisi"
+imageAlt: "1.6 TDI DSG kavrama hizmeti - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/1-6-tdi-dsg-kavrama-fiyati.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "1.6 TDI DSG Kavrama Fiyatı 2025 | DQ200 Kavrama Değişimi | DSG Servisi"
-seoDescription: "1.6 TDI DSG kavrama fiyatı 2025: DQ200 kuru kavrama değişimi fiyatları. Golf, A3, Octavia, Leon için 1.6 TDI DSG kavrama değişim fiyatları ve volant dahil toplam maliyet."
+seoTitle: "1.6 TDI DSG Kavrama Tamiri Tamiri ve Değişimi DQ200 Kavrama Değişimi | DSG Servisi"
+seoDescription: "1.6 TDI DSG kavrama bilgisi: DQ200 kuru kavrama değişimi hizmetleri. Golf, A3, Octavia, Leon için 1.6 TDI DSG kavrama değişim hizmetleri ve volant dahil toplam maliyet."
 
 # Hizmet Şeması
 serviceName: "1.6 TDI DSG Kavrama Değişimi"
 serviceType: "DSG Kavrama Değişimi"
 serviceDescription: "1.6 TDI DSG kavrama değişimi, volant kontrolü ve adaptasyon hizmetleri. DQ200 kuru kavrama fiyatları."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 12000
-highPrice: 25000
-priceCurrency: "TRY"
-offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 
 ---
 
 1.6 TDI DSG kavrama fiyatı, **DQ200 (7 ileri kuru kavrama) şanzıman tipine göre değişir**. 1.6 TDI motor, Golf, A3, Octavia ve Leon gibi modellerde yaygın olarak kullanılır ve DQ200 şanzıman ile eşleştirilir. DQ200, kuru kavrama sistemi olarak kompakt yapısıyla dikkat çeker ancak kavrama aşınması zamanla meydana gelebilir.
 
-2025 yılı için *1.6 TDI DSG kavrama fiyatları*, kavrama tipine ve volant durumuna göre değişir. Kavrama değişimi 12.000–22.000₺, volant dahil kombi değişim 18.000–28.000₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile 1.6 TDI DSG kavrama değişimi hizmeti sunuyoruz.
+2025 yılı için *1.6 TDI DSG kavrama fiyatları*, kavrama tipine ve volant durumuna göre değişir. Kavrama değişimi uygun maliyetler, volant dahil kombi değişim uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile 1.6 TDI DSG kavrama değişimi hizmeti sunuyoruz.
 
 :::tip
 
@@ -58,14 +54,14 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 
 1.6 TDI motor, DQ200 şanzıman ile eşleştirilir ve kavrama aşınması zamanla meydana gelebilir.
 
-## 1.6 TDI DSG Kavrama Fiyatları 2025
+## 1.6 TDI DSG Kavrama Hizmetleri
 
 | İşlem | Parça Fiyatı | İşçilik | Toplam Fiyat | Garanti | Süre |
 | --- | ---: | ---: | ---: | --- | --- |
-| Kavrama değişimi | 9.000–18.000₺ | 3.000–4.000₺ | 12.000–22.000₺ | 12 ay | 1-2 gün |
-| Volant değişimi | 6.000–12.000₺ | 2.000–3.000₺ | 8.000–15.000₺ | 12 ay | 1-2 gün |
-| Kavrama + volant kombi | 15.000–24.000₺ | 3.000–4.000₺ | 18.000–28.000₺ | 12 ay | 1-2 gün |
-| Adaptasyon/kalibrasyon | – | 1.500–3.000₺ | 1.500–3.000₺ | İşçilik garantisi | Aynı gün |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay | 1-2 gün |
+| Volant değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay | 1-2 gün |
+| Kavrama + volant kombi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay | 1-2 gün |
+| Adaptasyon/kalibrasyon | – | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik garantisi | Aynı gün |
 
 :::note
 
@@ -76,7 +72,7 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 
 :::
 
-## Model Bazında 1.6 TDI DSG Kavrama Fiyatları
+## Model Bazında 1.6 TDI DSG Kavrama Hizmetleri
 
 ### Volkswagen Golf (7. Nesil)
 
@@ -85,8 +81,8 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Kavrama değişimi | 12.000–22.000₺ | 1-2 gün |
-| Volant dahil kombi | 18.000–28.000₺ | 1-2 gün |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Volant dahil kombi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Audi A3 (8V)
 
@@ -95,8 +91,8 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Kavrama değişimi | 12.500–22.500₺ | 1-2 gün |
-| Volant dahil kombi | 18.500–28.500₺ | 1-2 gün |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Volant dahil kombi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Skoda Octavia (5E)
 
@@ -105,8 +101,8 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Kavrama değişimi | 12.000–22.000₺ | 1-2 gün |
-| Volant dahil kombi | 18.000–28.000₺ | 1-2 gün |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Volant dahil kombi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Seat Leon (5F)
 
@@ -115,8 +111,8 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Kavrama değişimi | 12.000–22.000₺ | 1-2 gün |
-| Volant dahil kombi | 18.000–28.000₺ | 1-2 gün |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Volant dahil kombi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ## 1.6 TDI DSG Kavrama Arıza Belirtileri
 
@@ -208,7 +204,7 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 - **Yüksek kilometre:** 150.000+ km
 - **Birlikte değişim:** Uzun vadeli çözüm
 
-**Volant Değişimi Fiyatı:** 8.000–15.000₺
+**Volant Değişimi Fiyatı:** uygun maliyetler
 
 **Avantajlar:**
 - Yeni kavramanın ömrü uzar
@@ -224,7 +220,7 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 - Düşük kilometre
 - Bütçe kısıtlı
 
-**Fiyat:** 12.000–22.000₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Dezavantajlar:**
 - Volant hasarlıysa kısa sürede tekrar arıza
@@ -237,7 +233,7 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 - Yüksek kilometre
 - Uzun vadeli çözüm isteniyor
 
-**Fiyat:** 18.000–28.000₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Avantajlar:**
 - Uzun vadeli çözüm
@@ -248,7 +244,7 @@ offerUrl: "/1-6-tdi-dsg-kavrama-fiyati"
 
 - **15+ Yıl Deneyim:** 1.6 TDI DSG kavrama değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teşhis, 1-2 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi
@@ -274,4 +270,5 @@ Volant sağlam ise zorunlu değildir ancak hasarlı veya şüpheli ise mutlaka d
 
 
 **1.6 TDI DSG kavrama sorununuz mu var?** Hemen [randevu alın](tel:05332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
+
 

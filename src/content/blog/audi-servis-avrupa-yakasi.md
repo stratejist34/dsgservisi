@@ -18,7 +18,6 @@ serviceName: "Audi Servis Avrupa Yakası"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Audi DSG/S‑Tronic, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
-offerUrl: "/audi-servis-avrupa-yakasi"
 
 ---
 
@@ -62,7 +61,7 @@ Avrupa Yakası'nın tüm bölgelerinden (Beylikdüzü, Büyükçekmece, Esenyurt
 Merkezi konumumuz sayesinde Avrupa Yakası'ndan gelen müşteriler için aynı gün teşhis ve basit arızalarda teslimat mümkündür. Yağ değişimi, filtre değişimi, fren balata gibi bakım işlemleri genellikle aynı gün tamamlanır.
 
 ### Şeffaf Fiyatlandırma
-Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Audi Servis Hizmetlerimiz (Avrupa Yakası)
 
@@ -81,37 +80,37 @@ Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme s
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200/DQ250 mekatronik arızası | %33 | 8.500–17.000₺ | 80.000–150.000 km |
-| 2.0 TDI DPF tıkanması | %44 | 9.000–23.000₺ | 80.000–140.000 km |
-| 1.4 TFSI timing zincir gevşemesi | %29 | 7.000–13.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme/geometri | %26 | 9.000–19.000₺ | 100.000–180.000 km |
+| DSG DQ200/DQ250 mekatronik arızası | %33 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 2.0 TDI DPF tıkanması | %44 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| 1.4 TFSI timing zincir gevşemesi | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme/geometri | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Audi A4 (B8, B9) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic (DL501) mekatronik/kavrama | %31 | 12.000–24.000₺ | 100.000–180.000 km |
-| 2.0 TDI timing zincir gerginliği | %35 | 8.500–16.000₺ | 100.000–180.000 km |
-| AdBlue sistemi sensör/pompa | %39 | 4.500–11.000₺ | 80.000–150.000 km |
-| Turbo wastegate/geometri | %28 | 10.000–21.000₺ | 100.000–180.000 km |
+| S‑Tronic (DL501) mekatronik/kavrama | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI timing zincir gerginliği | %35 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| AdBlue sistemi sensör/pompa | %39 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo wastegate/geometri | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Audi Q5 (8R, FY) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic şanzıman mekatronik/kavrama | %34 | 13.000–26.000₺ | 100.000–180.000 km |
-| DPF tıkanması (dizel) | %46 | 10.000–24.000₺ | 80.000–150.000 km |
-| 3.0 TDI timing zincir/gerginlik | %32 | 9.500–18.000₺ | 120.000–200.000 km |
-| Quattro diferansiyel yağ kaçağı | %21 | 5.500–11.000₺ | 100.000–180.000 km |
+| S‑Tronic şanzıman mekatronik/kavrama | %34 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| DPF tıkanması (dizel) | %46 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 3.0 TDI timing zincir/gerginlik | %32 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Quattro diferansiyel yağ kaçağı | %21 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Audi A6 (C7, C8) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic/Tiptronic mekatronik | %36 | 14.000–28.000₺ | 120.000–200.000 km |
-| 3.0 TDI enjektör/turbo | %33 | 12.000–26.000₺ | 100.000–180.000 km |
-| AdBlue sistemi arızası | %42 | 5.000–13.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör/valf | %31 | 11.000–23.000₺ | 100.000–180.000 km |
+| S‑Tronic/Tiptronic mekatronik | %36 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| 3.0 TDI enjektör/turbo | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| AdBlue sistemi arızası | %42 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör/valf | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ## Audi DSG/S‑Tronic Şanzıman Arızaları
 
@@ -119,10 +118,10 @@ Audi'de kullanılan DSG (DQ200, DQ250) ve S‑Tronic (DL501) şanzımanlar VW Gr
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| DQ200 (7 vites kuru) | A3, A1, Q2 | Mekatronik, kavrama aşınması | 8.500–17.000₺ |
-| DQ250 (6 vites yaş) | A3, TT | Mekatronik, valf body | 9.500–18.000₺ |
-| S‑Tronic DL501 | A4, A5, A6, Q5, Q7 | Çift kavrama, mekatronik | 12.000–26.000₺ |
-| Tiptronic (ZF 8HP) | A6, A7, A8, Q7, Q8 | Valf body, tork konvertör | 13.000–28.000₺ |
+| DQ200 (7 vites kuru) | A3, A1, Q2 | Mekatronik, kavrama aşınması | 📞 Fiyat Sorunuz |
+| DQ250 (6 vites yaş) | A3, TT | Mekatronik, valf body | 📞 Fiyat Sorunuz |
+| S‑Tronic DL501 | A4, A5, A6, Q5, Q7 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz |
+| Tiptronic (ZF 8HP) | A6, A7, A8, Q7, Q8 | Valf body, tork konvertör | 📞 Fiyat Sorunuz |
 
 ### DSG/S‑Tronic Bakım Önerileri
 
@@ -152,15 +151,15 @@ Audi'de kullanılan DSG (DQ200, DQ250) ve S‑Tronic (DL501) şanzımanlar VW Gr
 
 Avrupa Yakası'nın tüm bölgelerinden (Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir) arızalı araçlarınız için ücretsiz çekme hizmeti sunuyoruz. Randevu alarak araç çekme hizmetinden yararlanabilirsiniz.
 
-## Audi Periyodik Bakım Fiyatları 2025
+## Audi Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–7.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.000–11.000₺ | 30.000 km | Aynı gün |
-| DSG/S‑Tronic yağ değişimi | 4.500–8.000₺ | 60.000–80.000 km | Aynı gün |
-| Fren balata (ön/arka) | 6.000–12.000₺ | 40.000–60.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 2.500–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG/S‑Tronic yağ değişimi | 📞 Fiyat Sorunuz | 60.000–80.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 40.000–60.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Neden Avrupa Yakası için Yıldızlar Grup?
 
@@ -170,7 +169,7 @@ Avrupa Yakası'nın tüm bölgelerinden (Beylikdüzü, Büyükçekmece, Esenyurt
 - **Ücretsiz Araç Çekme:** Avrupa Yakası bölgelerinden ücretsiz çekme hizmeti
 - **Ekonomik Fiyatlar:** Yetkili servise göre %50-70 daha ekonomik
 - **2 Yıl Garanti:** Tüm işlemlerde parça ve işçilik garantisi
-- **Şeffaf Fiyatlandırma:** Ön görüşme sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön görüşme sonrası net servis teklifi
 - **Tam Teşhis Cihazları:** VCDS, ODIS gibi özel cihazlar
 
 ## Sık Sorulan Sorular
@@ -241,7 +240,7 @@ Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büy�
       <span class="review-stars">★★★★★</span>
       <span class="review-date">5 yıl önce</span>
     </div>
-    <p class="review-text">Audi a1 2012 tdi dsg yürüyen ve direksiyon sorunlarımızı çözdüler. Başarılı ve ilgili bir işletme.</p>
+    <p class="review-text">Audi a1 letiime Geinizdi dsg yürüyen ve direksiyon sorunlarımızı çözdüler. Başarılı ve ilgili bir işletme.</p>
   </div>
 </div>
 
@@ -259,3 +258,4 @@ Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büy�
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00–18:00, Cumartesi 09:00–14:00</p>
 <p><strong>Hizmet Bölgeleri:</strong> Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece, Başakşehir ve tüm Avrupa Yakası</p>
+

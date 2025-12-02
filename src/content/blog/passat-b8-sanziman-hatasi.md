@@ -20,7 +20,6 @@ serviceName: "Passat B8 Şanzıman Arızası Teşhisi"
 serviceType: "Passat B8 Şanzıman Arızası Tamiri"
 serviceDescription: "Passat B8 şanzıman hatası teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/passat-b8-sanziman-hatasi"
 
 ---
 
@@ -146,8 +145,8 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 **Çözüm:** DSG yağı ve filtre değişimi
 
 **Maliyet:**
-- **DQ250:** 3.500–6.000₺
-- **DQ381:** 4.000–7.000₺
+- **DQ250:** uygun maliyetler
+- **DQ381:** uygun maliyetler
 
 **Süre:** 2-3 saat
 
@@ -158,8 +157,8 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 **Çözüm:** Solenoid valf set değişimi
 
 **Maliyet:**
-- **DQ250:** 9.500–16.500₺
-- **DQ381:** 10.000–17.000₺
+- **DQ250:** uygun maliyetler
+- **DQ381:** uygun maliyetler
 
 **Süre:** 1-2 gün
 
@@ -170,8 +169,8 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 **Çözüm:** Komple mekatronik revizyonu
 
 **Maliyet:**
-- **DQ250:** 14.500–27.000₺
-- **DQ381:** 15.500–27.500₺
+- **DQ250:** uygun maliyetler
+- **DQ381:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -182,8 +181,8 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 **Çözüm:** Kavrama seti değişimi
 
 **Maliyet:**
-- **DQ250:** 15.000–29.000₺
-- **DQ381:** 16.000–32.000₺
+- **DQ250:** uygun maliyetler
+- **DQ381:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -194,8 +193,8 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 **Çözüm:** Komple mekatronik değişimi
 
 **Maliyet:**
-- **DQ250:** 19.000–35.000₺
-- **DQ381:** 20.000–37.000₺
+- **DQ250:** uygun maliyetler
+- **DQ381:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -262,7 +261,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 - **Hızlı Çözüm:** Basit arızalar 1-2 gün içinde tamamlanır
 - **Orijinal Parça:** Tüm parçalar orijinal veya OEM kalitede
 - **Garanti:** Tüm tamirlerde 6-12 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 
 ## Sık Sorulan Sorular
 
@@ -276,7 +275,7 @@ Passat B8'de hem DQ250 (6 ileri ıslak) hem de DQ381 (7 ileri ıslak) şanzıman
 
 ### Passat B8 şanzıman hatası maliyeti ne kadar?
 
-Arıza kapsamına göre değişir. Basit yağ değişimi 3.500–7.000₺, solenoid değişimi 9.500–17.000₺, mekatronik revizyonu 14.500–27.500₺ aralığındadır.
+Arıza kapsamına göre değişir. Basit yağ değişimi uygun maliyetler, solenoid değişimi uygun maliyetler, mekatronik revizyonu uygun maliyetler aralığındadır.
 
 ### Passat B8 şanzıman hatası önlenebilir mi?
 
@@ -291,4 +290,5 @@ Passat B8 şanzıman hatası, erken teşhis ve müdahale ile çözülebilir. Yı
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 

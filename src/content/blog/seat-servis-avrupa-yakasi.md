@@ -18,7 +18,6 @@ serviceName: "Seat Servis Avrupa Yakası"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Seat DSG şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
-offerUrl: "/seat-servis-avrupa-yakasi"
 
 ---
 
@@ -71,7 +70,7 @@ Merkezi konumumuz sayesinde Avrupa Yakası'ndan gelen müşteriler için aynı g
 
 ### Şeffaf Fiyatlandırma
 
-Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Seat Servis Hizmetlerimiz (Avrupa Yakası)
 
@@ -90,52 +89,52 @@ Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme s
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200/DQ250 mekatronik arızası | %30 | 8.500–16.000₺ | 80.000–150.000 km |
-| 1.4 TSI timing zincir gevşemesi | %26 | 6.500–11.000₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %42 | 8.000–20.000₺ | 80.000–140.000 km |
-| Turbo geometri/yağ besleme | %22 | 7.500–16.500₺ | 120.000–200.000 km |
-| Su pompası/termostat arızası | %21 | 2.200–4.500₺ | 80.000–120.000 km |
-| Klima kompresör arızası | %17 | 6.000–11.000₺ | 100.000–180.000 km |
+| DSG DQ200/DQ250 mekatronik arızası | %30 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 1.4 TSI timing zincir gevşemesi | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %42 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Turbo geometri/yağ besleme | %22 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Su pompası/termostat arızası | %21 | 📞 Fiyat Sorunuz | 80.000–120.000 km |
+| Klima kompresör arızası | %17 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Seat Ibiza (6F) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200 mekatronik/kavrama | %29 | 8.000–15.500₺ | 80.000–150.000 km |
-| 1.0 TSI timing zincir gerginliği | %24 | 5.500–10.000₺ | 100.000–180.000 km |
-| 1.6 TDI DPF tıkanması | %39 | 7.000–18.000₺ | 80.000–140.000 km |
-| Turbo geometri arızası | %19 | 6.500–14.000₺ | 120.000–200.000 km |
-| Su pompası plastik pervane | %22 | 2.000–4.200₺ | 80.000–120.000 km |
+| DSG DQ200 mekatronik/kavrama | %29 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 1.0 TSI timing zincir gerginliği | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 1.6 TDI DPF tıkanması | %39 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Turbo geometri arızası | %19 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Su pompası plastik pervane | %22 | 📞 Fiyat Sorunuz | 80.000–120.000 km |
 
 ### Seat Ateca (KH7) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ381 mekatronik/yağ kaçağı | %32 | 9.500–17.000₺ | 100.000–180.000 km |
-| 1.5 TSI ACT timing zincir | %27 | 6.500–11.500₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %41 | 8.000–19.500₺ | 80.000–150.000 km |
-| Turbo wastegate arızası | %23 | 8.000–17.000₺ | 120.000–200.000 km |
-| Haldex 4x4 pompa arızası | %21 | 5.000–10.000₺ | 100.000–180.000 km |
+| DSG DQ381 mekatronik/yağ kaçağı | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 1.5 TSI ACT timing zincir | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %41 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo wastegate arızası | %23 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Haldex 4x4 pompa arızası | %21 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Seat Arona (KH7) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200 mekatronik | %28 | 7.500–15.000₺ | 80.000–150.000 km |
-| 1.0 TSI timing zincir | %25 | 5.500–10.500₺ | 100.000–180.000 km |
-| 1.6 TDI DPF tıkanması | %38 | 7.500–18.000₺ | 80.000–140.000 km |
-| Turbo yağ besleme | %20 | 6.000–13.000₺ | 120.000–200.000 km |
+| DSG DQ200 mekatronik | %28 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 1.0 TSI timing zincir | %25 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 1.6 TDI DPF tıkanması | %38 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Turbo yağ besleme | %20 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
 
-## Seat Periyodik Bakım Fiyatları 2025
+## Seat Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.000–6.500₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 5.500–10.000₺ | 30.000 km | Aynı gün |
-| DSG yağ değişimi | 4.500–8.500₺ | 80.000 km | Aynı gün |
-| DPF temizleme | 3.500–7.500₺ | 100.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.000–12.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 2.500–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 100.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Avrupa Yakası'ndan Ulaşım
 
@@ -243,5 +242,6 @@ Evet, metrobüs ile Beylikdüzü istasyonundan veya otobüs ile Büyükçekmece 
 ### Avrupa Yakası bölgelerinden servisinize ödeme seçenekleri nelerdir?
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
+
 
 

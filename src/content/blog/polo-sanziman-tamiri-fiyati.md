@@ -1,35 +1,31 @@
 ---
 
-title: "Polo Şanzıman Tamiri Fiyatı"
-description: "Polo şanzıman tamiri fiyatı 2025: Polo DSG DQ200 tamiri, mekatronik revizyonu, kavrama değişimi, solenoid değişimi fiyatları. Polo şanzıman arızası tamiri."
+title: "Polo Şanzıman Tamiri Tamiri ve Servisi"
+description: "Polo şanzıman tamiri bilgisi: Polo DSG DQ200 tamiri, mekatronik revizyonu, kavrama değişimi, solenoid değişimi hizmetleri. Polo şanzıman arızası tamiri."
 category: "DSG"
-tags: ["polo", "şanzıman tamiri", "fiyat", "2025", "dq200", "dsg", "volkswagen"]
+tags: ["polo", "şanzıman tamiri", "dq200", "dsg", "volkswagen"]
 slug: "polo-sanziman-tamiri-fiyati"
 publishDate: "2025-11-07T19:07:00+03:00"
 updatedDate: "2025-11-07T19:07:00+03:00"
 featuredImage: "/images/blog/polo-sanziman-tamiri-fiyati.jpg"
-imageAlt: "Polo şanzıman tamiri fiyatı 2025 - Yıldızlar Grup DSG Servisi"
+imageAlt: "Polo şanzıman tamiri hizmeti - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/polo-sanziman-tamiri-fiyati.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "Polo Şanzıman Tamiri Fiyatı 2025 | DQ200 Tamiri | DSG Servisi"
-seoDescription: "Polo şanzıman tamiri fiyatı 2025: Polo DSG DQ200 tamiri, mekatronik revizyonu, kavrama değişimi, solenoid değişimi fiyatları."
+seoTitle: "Polo Şanzıman Tamiri Tamiri Tamiri ve Değişimi DQ200 Tamiri | DSG Servisi"
+seoDescription: "Polo şanzıman tamiri bilgisi: Polo DSG DQ200 tamiri, mekatronik revizyonu, kavrama değişimi, solenoid değişimi hizmetleri."
 
 # Hizmet Şeması
 serviceName: "Polo DSG Şanzıman Tamiri"
 serviceType: "Polo Şanzıman Tamiri"
 serviceDescription: "Polo DSG şanzıman tamiri, mekatronik revizyonu, kavrama değişimi ve solenoid değişimi hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 3500
-highPrice: 45500
-priceCurrency: "TRY"
-offerUrl: "/polo-sanziman-tamiri-fiyati"
 
 ---
 
 Polo şanzıman tamiri fiyatı, **Polo modellerinde kullanılan DSG DQ200 (7 ileri kuru kavrama) şanzıman tipine göre değişir**. Polo'da DQ200 şanzıman kullanılır ve şanzıman tamiri; yağ değişimi, mekatronik revizyonu, kavrama değişimi ve solenoid değişimi gibi işlemleri içerir. DQ200, kuru kavrama sistemi olarak kompakt yapısıyla dikkat çeker ancak düzenli bakım gerektirir.
 
-2025 yılı için *Polo şanzıman tamiri fiyatları*, arıza kapsamına ve parça/işçilik kalitesine göre değişir. Basit yağ değişimi 3.500–5.800₺, solenoid değişimi 9.000–14.500₺, mekatronik revizyonu 14.000–23.500₺, kavrama değişimi 13.000–25.000₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile Polo şanzıman tamiri hizmeti sunuyoruz.
+2025 yılı için *Polo şanzıman tamiri fiyatları*, arıza kapsamına ve parça/işçilik kalitesine göre değişir. Basit yağ değişimi uygun maliyetler, solenoid değişimi uygun maliyetler, mekatronik revizyonu uygun maliyetler, kavrama değişimi uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile Polo şanzıman tamiri hizmeti sunuyoruz.
 
 :::tip
 
@@ -47,17 +43,17 @@ Polo şanzıman tamiri fiyatı, **Polo modellerinde kullanılan DSG DQ200 (7 ile
 
 :::
 
-## Polo Şanzıman Tamiri Fiyatları 2025 (Genel)
+## Polo Şanzıman Tamiri Hizmetleri (Genel)
 
 | Tamir Türü | Parça | İşçilik | Toplam | Süre | Garanti |
 | --- | ---: | ---: | ---: | --- | --- |
-| Yağ değişimi | 2.200–4.000₺ | 900–1.800₺ | 3.500–5.800₺ | 2-3 saat | İşçilik garantisi |
-| Solenoid set değişimi | 6.500–11.000₺ | 2.500–3.500₺ | 9.000–14.500₺ | 1-2 gün | 6 ay |
-| Mekatronik revizyonu | 9.500–17.000₺ | 4.500–6.500₺ | 14.000–23.500₺ | 2-3 gün | 6-12 ay |
-| Kavrama değişimi | 10.000–20.000₺ | 3.000–5.000₺ | 13.000–25.000₺ | 2-3 gün | 12 ay |
-| Volant değişimi | 8.000–16.000₺ | 2.000–4.000₺ | 10.000–20.000₺ | 1-2 gün | 12 ay |
-| Komple mekatronik değişimi | 15.000–26.000₺ | 3.000–4.500₺ | 18.000–30.500₺ | 2-3 gün | 12 ay |
-| Mekatronik + kavrama kombi | 20.000–38.000₺ | 5.000–7.500₺ | 25.000–45.500₺ | 3-5 gün | 12 ay |
+| Yağ değişimi | 📞 Fiyat Sorunuz | 900–uygun fiyat | 📞 Fiyat Sorunuz | 2-3 saat | İşçilik garantisi |
+| Solenoid set değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 1-2 gün | 6 ay |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 2-3 gün | 6-12 ay |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 2-3 gün | 12 ay |
+| Volant değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 1-2 gün | 12 ay |
+| Komple mekatronik değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 2-3 gün | 12 ay |
+| Mekatronik + kavrama kombi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 3-5 gün | 12 ay |
 
 :::note
 
@@ -79,53 +75,53 @@ Polo modellerinde DSG DQ200 (7 ileri kuru kavrama) şanzıman kullanılır. DQ20
 
 DQ200 kuru kavrama sistemi, yağ banyosu olmadan çalışır ve mekatronik modül şanzıman yağı ile soğutulmaz. Bu nedenle düzenli bakım kritik öneme sahiptir.
 
-## Arıza Türüne Göre Polo Şanzıman Tamiri Fiyatları 2025
+## Arıza Türüne Göre Polo Şanzıman Tamiri Hizmetleri
 
-### 1. Yağ Değişimi (3.500–5.800₺)
+### 1. Yağ Değişimi (Fiyat Sorunuz)
 
 **Belirtiler:** Vites geçişlerinde hafif gecikme, performans kaybı
 
-**Fiyat:** 3.500–5.800₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Süre:** 2-3 saat
 
-### 2. Solenoid Valf Değişimi (9.000–14.500₺)
+### 2. Solenoid Valf Değişimi (Fiyat Sorunuz)
 
 **Belirtiler:** Vites geçişlerinde gecikme ve sarsıntı, kalkışta titreme
 
-**Fiyat:** 9.000–14.500₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Süre:** 1-2 gün
 
-### 3. Mekatronik Revizyonu (14.000–23.500₺)
+### 3. Mekatronik Revizyonu (Fiyat Sorunuz)
 
 **Belirtiler:** Birden fazla arıza belirtisi, yaygın performans kaybı
 
-**Fiyat:** 14.000–23.500₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Süre:** 2-3 gün
 
-### 4. Kavrama Değişimi (13.000–25.000₺)
+### 4. Kavrama Değişimi (Fiyat Sorunuz)
 
 **Belirtiler:** Kalkışta titreme, yokuşta geri kaçırma, kavrama kokusu
 
-**Fiyat:** 13.000–25.000₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Süre:** 2-3 gün
 
-### 5. Volant Değişimi (10.000–20.000₺)
+### 5. Volant Değişimi (Fiyat Sorunuz)
 
 **Belirtiler:** Kalkışta tıkırtı sesleri, volant kaynaklı titreşim
 
-**Fiyat:** 10.000–20.000₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Süre:** 1-2 gün
 
-### 6. Komple Mekatronik Değişimi (18.000–30.500₺)
+### 6. Komple Mekatronik Değişimi (Fiyat Sorunuz)
 
 **Belirtiler:** Ağır mekanik hasar, yaygın iç arıza, revizyon mümkün değil
 
-**Fiyat:** 18.000–30.500₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Süre:** 2-3 gün
 
@@ -162,11 +158,11 @@ DQ200 kuru kavrama sistemi, yağ banyosu olmadan çalışır ve mekatronik modü
 
 | Tamir Türü | Yetkili Servis | Yıldızlar Grup | Tasarruf |
 | --- | ---: | ---: | ---: |
-| Yağ değişimi | 6.000–10.000₺ | 3.500–5.800₺ | %40 |
-| Solenoid değişimi | 15.000–28.000₺ | 9.000–14.500₺ | %40 |
-| Mekatronik revizyonu | 25.000–50.000₺ | 14.000–23.500₺ | %45 |
-| Kavrama değişimi | 22.000–45.000₺ | 13.000–25.000₺ | %40 |
-| Komple değişim | 35.000–65.000₺ | 18.000–30.500₺ | %50 |
+| Yağ değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| Solenoid değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %45 |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| Komple değişim | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %50 |
 
 **Yıldızlar Grup Avantajları:**
 - %40-50 daha ekonomik fiyatlar
@@ -183,14 +179,14 @@ DQ200 kuru kavrama sistemi, yağ banyosu olmadan çalışır ve mekatronik modü
 - **Hızlı Çözüm:** Basit arızalar 1-2 gün içinde tamamlanır
 - **Orijinal Parça:** Tüm parçalar orijinal veya OEM kalitede
 - **Garanti:** Tüm tamirlerde 6-12 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 - **Gereksiz Parça Değişimi Yok:** Sadece arızalı parçalar değişir
 
 ## Sık Sorulan Sorular
 
 ### Polo şanzıman tamiri fiyatı ne kadar?
 
-Polo şanzıman tamiri fiyatı, arıza kapsamına göre değişir. Basit yağ değişimi 3.500–5.800₺, solenoid değişimi 9.000–14.500₺, mekatronik revizyonu 14.000–23.500₺ aralığındadır.
+Polo şanzıman tamiri fiyatı, arıza kapsamına göre değişir. Basit yağ değişimi uygun maliyetler, solenoid değişimi uygun maliyetler, mekatronik revizyonu uygun maliyetler aralığındadır.
 
 ### Polo'da hangi şanzıman kullanılır?
 
@@ -217,4 +213,5 @@ Polo şanzıman tamiri fiyatları, arıza kapsamına göre değişir. Mekatronik
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 

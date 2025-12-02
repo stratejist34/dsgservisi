@@ -123,14 +123,14 @@ export default function WhatsAppButton({
         rounded-full
         bg-[#25D366]
         text-white
-        shadow-2xl ring-1 ring-white/20
+        shadow-lg
         transform transition-all duration-300
-        hover:scale-105 hover:shadow-[#25D366]/50
+        hover:scale-105 hover:bg-[#1da851]
         active:scale-95
         ${className}
       `}
       style={{
-        boxShadow: '0 8px 24px rgba(37, 211, 102, 0.4), 0 4px 12px rgba(37, 211, 102, 0.3)',
+        boxShadow: '0 4px 14px 0 rgba(37, 211, 102, 0.39)',
       }}
       aria-label="WhatsApp ile İletişim"
       onMouseDown={() => {

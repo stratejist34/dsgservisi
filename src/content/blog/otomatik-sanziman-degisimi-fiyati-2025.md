@@ -1,35 +1,31 @@
 ---
 
-title: "Otomatik Şanzıman Değişimi Fiyatı 2025"
-description: "Otomatik şanzıman değişimi fiyatları 2025: DSG, ZF, konvansiyonel otomatik şanzıman komple değişim fiyatları. Yenilenmiş, çıkma ve sıfır ünite fiyatları."
+title: "Otomatik Şanzıman Değişimi Tamiri ve Servisi"
+description: "Otomatik şanzıman değişimi hizmetleri: DSG, ZF, konvansiyonel otomatik şanzıman komple değişim hizmetleri. Yenilenmiş, çıkma ve sıfır ünite hizmetleri."
 category: "DSG"
-tags: ["otomatik şanzıman", "değişim", "fiyat", "2025", "dsg", "zf", "komple değişim"]
+tags: ["otomatik şanzıman", "değişim", "dsg", "zf", "komple değişim"]
 slug: "otomatik-sanziman-degisimi-fiyati-2025"
 publishDate: "2025-11-07T12:12:00+03:00"
 updatedDate: "2025-11-07T12:12:00+03:00"
 featuredImage: "/images/blog/otomatik-sanziman-degisimi-2025.jpg"
-imageAlt: "Otomatik şanzıman değişimi fiyatları 2025 - Yıldızlar Grup DSG Servisi"
+imageAlt: "Otomatik şanzıman değişimi hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/otomatik-sanziman-degisimi-2025.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "Otomatik Şanzıman Değişimi Fiyatı 2025 | DSG, ZF Komple Değişim"
-seoDescription: "Otomatik şanzıman değişimi fiyatları 2025: DSG, ZF, konvansiyonel otomatik şanzıman komple değişim fiyatları. Yenilenmiş, çıkma ve sıfır ünite fiyatları."
+seoTitle: "Otomatik Şanzıman Değişimi Tamiri Tamiri ve Değişimi DSG, ZF Komple Değişim"
+seoDescription: "Otomatik şanzıman değişimi hizmetleri: DSG, ZF, konvansiyonel otomatik şanzıman komple değişim hizmetleri. Yenilenmiş, çıkma ve sıfır ünite hizmetleri."
 
 # Hizmet Şeması
 serviceName: "Otomatik Şanzıman Değişimi"
 serviceType: "Otomatik Şanzıman Komple Değişimi"
 serviceDescription: "DSG, ZF ve konvansiyonel otomatik şanzıman komple değişimi, yenilenmiş ünite, çıkma ünite ve sıfır ünite hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 24000
-highPrice: 104000
-priceCurrency: "TRY"
-offerUrl: "/otomatik-sanziman-degisimi-fiyati-2025"
 
 ---
 
-Otomatik şanzıman değişimi, **DSG, ZF ve konvansiyonel otomatik şanzımanlarda** ağır arıza durumlarında gerekli olan komple değişim işlemidir. Şanzıman tipi, model, ünite kalitesi (yenilenmiş, çıkma, sıfır) ve işçilik maliyetine göre fiyatlar değişir. Yenilenmiş ünite 24.000–54.000₺, çıkma ünite 24.000–44.000₺, sıfır ünite 61.000–104.000₺ aralığındadır.
+Otomatik şanzıman değişimi, **DSG, ZF ve konvansiyonel otomatik şanzımanlarda** ağır arıza durumlarında gerekli olan komple değişim işlemidir. Şanzıman tipi, model, ünite kalitesi (yenilenmiş, çıkma, sıfır) ve işçilik maliyetine göre fiyatlar değişir. Yenilenmiş ünite uygun maliyetler, çıkma ünite uygun maliyetler, sıfır ünite uygun maliyetler aralığındadır.
 
-2025 yılı için *otomatik şanzıman değişimi fiyatları*, şanzıman tipine, model, ünite kalitesine ve işçilik maliyetine göre değişir. DSG şanzıman değişimi 24.000–54.000₺, ZF şanzıman değişimi 35.000–95.000₺, konvansiyonel otomatik şanzıman değişimi 20.000–55.000₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **kod uyumluluğu kontrolü**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile otomatik şanzıman değişimi hizmeti sunuyoruz.
+2025 yılı için *otomatik şanzıman değişimi fiyatları*, şanzıman tipine, model, ünite kalitesine ve işçilik maliyetine göre değişir. DSG şanzıman değişimi uygun maliyetler, ZF şanzıman değişimi uygun maliyetler, konvansiyonel otomatik şanzıman değişimi uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **kod uyumluluğu kontrolü**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile otomatik şanzıman değişimi hizmeti sunuyoruz.
 
 :::tip
 
@@ -39,7 +35,7 @@ Otomatik şanzıman değişimi, **DSG, ZF ve konvansiyonel otomatik şanzımanla
 
 :::cta
 
-**Ücretsiz ön teşhis ve fiyat teklifi için:**
+**Ücretsiz ön teşhis ve servis teklifi için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -47,13 +43,13 @@ Otomatik şanzıman değişimi, **DSG, ZF ve konvansiyonel otomatik şanzımanla
 
 :::
 
-## Otomatik Şanzıman Değişimi Fiyatları 2025 (Genel)
+## Otomatik Şanzıman Değişimi Hizmetleri (Genel)
 
 | Ünite Tipi | Parça | İşçilik | Toplam | Garanti | Süre |
 | --- | ---: | ---: | ---: | --- | --- |
-| Yenilenmiş ünite | 18.000–45.000₺ | 6.000–9.000₺ | 24.000–54.000₺ | 12-18 ay | 3-5 gün |
-| Çıkma ünite | 18.000–35.000₺ | 6.000–9.000₺ | 24.000–44.000₺ | 6-12 ay | 3-5 gün |
-| Sıfır ünite | 55.000–95.000₺ | 6.000–9.000₺ | 61.000–104.000₺ | 24 ay | 5-7 gün |
+| Yenilenmiş ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12-18 ay | 3-5 gün |
+| Çıkma ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-12 ay | 3-5 gün |
+| Sıfır ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 24 ay | 5-7 gün |
 
 :::note
 
@@ -65,7 +61,7 @@ Otomatik şanzıman değişimi, **DSG, ZF ve konvansiyonel otomatik şanzımanla
 
 :::
 
-## Şanzıman Tipine Göre Değişim Fiyatları 2025
+## Şanzıman Tipine Göre Değişim Hizmetleri
 
 ### DSG Şanzıman Değişimi Fiyatı
 
@@ -73,9 +69,9 @@ DSG (Direct-Shift Gearbox) çift kavramalı şanzımanlar, Volkswagen Grubu ara�
 
 | DSG Tipi | Yenilenmiş | Çıkma | Sıfır | İşçilik |
 | --- | ---: | ---: | ---: | ---: |
-| DQ200 (7 Kuru) | 24.000–40.000₺ | 24.000–35.000₺ | 61.000–85.000₺ | 6.000–8.000₺ |
-| DQ250 (6 Islak) | 28.000–45.000₺ | 26.000–38.000₺ | 65.000–90.000₺ | 6.000–9.000₺ |
-| DQ381/DQ500 (7 Islak) | 32.000–54.000₺ | 30.000–44.000₺ | 70.000–104.000₺ | 7.000–9.000₺ |
+| DQ200 (7 Kuru) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| DQ250 (6 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| DQ381/DQ500 (7 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
 **Kullanıldığı Modeller:**
 - **DQ200:** Golf, Polo, Jetta, Ibiza, Leon, Octavia, Fabia
@@ -88,8 +84,8 @@ ZF 8HP ve 6HP otomatik şanzımanlar, BMW, Mercedes, Land Rover ve Audi modeller
 
 | ZF Tipi | Yenilenmiş | Çıkma | Sıfır | İşçilik |
 | --- | ---: | ---: | ---: | ---: |
-| ZF 8HP | 40.000–70.000₺ | 35.000–60.000₺ | 80.000–140.000₺ | 7.000–10.000₺ |
-| ZF 6HP | 35.000–60.000₺ | 30.000–55.000₺ | 75.000–130.000₺ | 7.000–10.000₺ |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| ZF 6HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
 **Kullanıldığı Modeller:**
 - **ZF 8HP:** BMW 3/5/7 Serisi, Mercedes C/E/S Serisi, Land Rover Range Rover, Audi Q7/Q8
@@ -101,13 +97,13 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 | Şanzıman Tipi | Yenilenmiş | Çıkma | Sıfır | İşçilik |
 | --- | ---: | ---: | ---: | ---: |
-| ATF+4 | 20.000–40.000₺ | 18.000–35.000₺ | 50.000–80.000₺ | 5.000–8.000₺ |
-| Dexron VI | 22.000–42.000₺ | 20.000–37.000₺ | 55.000–85.000₺ | 5.000–8.000₺ |
-| Mercon V | 20.000–45.000₺ | 18.000–40.000₺ | 52.000–88.000₺ | 5.000–8.000₺ |
+| ATF+4 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Dexron VI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Mercon V | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
-## Ünite Tipine Göre Değişim Fiyatları 2025
+## Ünite Tipine Göre Değişim Hizmetleri
 
-### 1. Yenilenmiş Ünite (24.000–54.000₺)
+### 1. Yenilenmiş Ünite (Fiyat Sorunuz)
 
 **Özellikler:**
 - Revizyonlu ve test edilmiş ünite
@@ -125,7 +121,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - Sıfır üniteye göre daha kısa garanti
 - Tedarik süresi 3-5 gün
 
-### 2. Çıkma Ünite (24.000–44.000₺)
+### 2. Çıkma Ünite (Fiyat Sorunuz)
 
 **Özellikler:**
 - Kontrollü çıkma ünite
@@ -143,7 +139,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - Kullanım ömrü belirsiz
 - Risk faktörü
 
-### 3. Sıfır Ünite (61.000–104.000₺)
+### 3. Sıfır Ünite (Fiyat Sorunuz)
 
 **Özellikler:**
 - Orijinal yeni ünite
@@ -161,50 +157,50 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - En pahalı seçenek
 - Uzun tedarik süresi (5-7 gün)
 
-## Model Bazında Otomatik Şanzıman Değişimi Fiyatları 2025
+## Model Bazında Otomatik Şanzıman Değişimi Hizmetleri
 
 ### Volkswagen Golf (7, 8)
 
 | Ünite Tipi | Fiyat | Süre | Garanti |
 | --- | ---: | --- | --- |
-| DSG DQ200 yenilenmiş | 24.000–40.000₺ | 3-5 gün | 12-18 ay |
-| DSG DQ200 çıkma | 24.000–35.000₺ | 3-5 gün | 6-12 ay |
-| DSG DQ200 sıfır | 61.000–85.000₺ | 5-7 gün | 24 ay |
-| DSG DQ381 yenilenmiş | 32.000–54.000₺ | 3-5 gün | 12-18 ay |
+| DSG DQ200 yenilenmiş | 📞 Fiyat Sorunuz | 3-5 gün | 12-18 ay |
+| DSG DQ200 çıkma | 📞 Fiyat Sorunuz | 3-5 gün | 6-12 ay |
+| DSG DQ200 sıfır | 📞 Fiyat Sorunuz | 5-7 gün | 24 ay |
+| DSG DQ381 yenilenmiş | 📞 Fiyat Sorunuz | 3-5 gün | 12-18 ay |
 
 ### Volkswagen Passat (B7, B8)
 
 | Ünite Tipi | Fiyat | Süre | Garanti |
 | --- | ---: | --- | --- |
-| DSG DQ250 yenilenmiş | 28.000–45.000₺ | 3-5 gün | 12-18 ay |
-| DSG DQ250 çıkma | 26.000–38.000₺ | 3-5 gün | 6-12 ay |
-| DSG DQ250 sıfır | 65.000–90.000₺ | 5-7 gün | 24 ay |
-| DSG DQ381 yenilenmiş | 32.000–54.000₺ | 3-5 gün | 12-18 ay |
+| DSG DQ250 yenilenmiş | 📞 Fiyat Sorunuz | 3-5 gün | 12-18 ay |
+| DSG DQ250 çıkma | 📞 Fiyat Sorunuz | 3-5 gün | 6-12 ay |
+| DSG DQ250 sıfır | 📞 Fiyat Sorunuz | 5-7 gün | 24 ay |
+| DSG DQ381 yenilenmiş | 📞 Fiyat Sorunuz | 3-5 gün | 12-18 ay |
 
 ### Audi A3, A4, A5
 
 | Ünite Tipi | Fiyat | Süre | Garanti |
 | --- | ---: | --- | --- |
-| S-tronic yenilenmiş | 32.000–54.000₺ | 3-5 gün | 12-18 ay |
-| S-tronic çıkma | 30.000–44.000₺ | 3-5 gün | 6-12 ay |
-| S-tronic sıfır | 70.000–104.000₺ | 5-7 gün | 24 ay |
-| ZF 8HP yenilenmiş (Q7/Q8) | 40.000–70.000₺ | 4-6 gün | 12-18 ay |
+| S-tronic yenilenmiş | 📞 Fiyat Sorunuz | 3-5 gün | 12-18 ay |
+| S-tronic çıkma | 📞 Fiyat Sorunuz | 3-5 gün | 6-12 ay |
+| S-tronic sıfır | 📞 Fiyat Sorunuz | 5-7 gün | 24 ay |
+| ZF 8HP yenilenmiş (Q7/Q8) | 📞 Fiyat Sorunuz | 4-6 gün | 12-18 ay |
 
 ### BMW 3/5/7 Serisi
 
 | Ünite Tipi | Fiyat | Süre | Garanti |
 | --- | ---: | --- | --- |
-| ZF 8HP yenilenmiş | 40.000–70.000₺ | 4-6 gün | 12-18 ay |
-| ZF 8HP çıkma | 35.000–60.000₺ | 3-5 gün | 6-12 ay |
-| ZF 8HP sıfır | 80.000–140.000₺ | 5-7 gün | 24 ay |
+| ZF 8HP yenilenmiş | 📞 Fiyat Sorunuz | 4-6 gün | 12-18 ay |
+| ZF 8HP çıkma | 📞 Fiyat Sorunuz | 3-5 gün | 6-12 ay |
+| ZF 8HP sıfır | 📞 Fiyat Sorunuz | 5-7 gün | 24 ay |
 
 ### Mercedes C/E/S Serisi
 
 | Ünite Tipi | Fiyat | Süre | Garanti |
 | --- | ---: | --- | --- |
-| ZF 8HP yenilenmiş | 40.000–70.000₺ | 4-6 gün | 12-18 ay |
-| ZF 8HP çıkma | 35.000–60.000₺ | 3-5 gün | 6-12 ay |
-| ZF 8HP sıfır | 80.000–140.000₺ | 5-7 gün | 24 ay |
+| ZF 8HP yenilenmiş | 📞 Fiyat Sorunuz | 4-6 gün | 12-18 ay |
+| ZF 8HP çıkma | 📞 Fiyat Sorunuz | 3-5 gün | 6-12 ay |
+| ZF 8HP sıfır | 📞 Fiyat Sorunuz | 5-7 gün | 24 ay |
 
 ## Hangi Durumlarda Tam Değişim Gerekir?
 
@@ -213,42 +209,42 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - Dişli kırığı veya çatlağı
 - Diferansiyel hasarı
 - İç dişli setlerinde kırık/çatlak
-- **Maliyet:** 24.000–104.000₺
+- **Maliyet:** uygun maliyetler
 
 ### 2. Kasada Çatlak ve Onarılamayan Yağ Kaçağı
 
 - Alüminyum kasa hasarı
 - Kaynakla onarılamayan çatlak
 - Yaygın kaçak
-- **Maliyet:** 24.000–104.000₺
+- **Maliyet:** uygun maliyetler
 
 ### 3. Revizyon Sonrası Nüks Eden Kritik Arızalar
 
 - 2-3 kez onarım denemesine rağmen sorun sürüyor
 - Yaygın iç arıza
 - Onarım mümkün değil
-- **Maliyet:** 24.000–104.000₺
+- **Maliyet:** uygun maliyetler
 
 ### 4. Yanlış Yağ Kullanımıyla Oluşan Yaygın İç Hasar
 
 - Motor yağı kullanımı
 - Yanlış spesifikasyon yağ
 - Yaygın iç hasar
-- **Maliyet:** 24.000–104.000₺
+- **Maliyet:** uygun maliyetler
 
 ### 5. Su Girişi veya Kaza Hasarı
 
 - Taşkın/sel sonucu iç hasar
 - Çarpma sonucu kasa hasarı
 - Onarılamayan hasar
-- **Maliyet:** 24.000–104.000₺
+- **Maliyet:** uygun maliyetler
 
 ### 6. Aşırı Kilometrede Yaygın Aşınma
 
 - 200.000+ km'de tüm bileşenlerde yorgunluk
 - Yaygın aşınma
 - Onarım ekonomik değil
-- **Maliyet:** 24.000–104.000₺
+- **Maliyet:** uygun maliyetler
 
 ## Otomatik Şanzıman Değişimi Süreci
 
@@ -306,7 +302,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 | Kriter | Revizyon (Tamir) | Tam Değişim |
 | --- | --- | --- |
-| Maliyet | 12.000–30.000₺ | 24.000–104.000₺ |
+| Maliyet | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 | Süre | 3-7 gün | 3-7 gün (tedarik süresine göre) |
 | Garanti | 6-12 ay | 6-24 ay |
 | Uygun Durum | Solenoid/valf arızası, elektronik sorun | Ağır mekanik hasar, yaygın iç arıza |
@@ -328,9 +324,9 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 | Ünite Tipi | Yetkili Servis | Yıldızlar Grup | Tasarruf |
 | --- | ---: | ---: | ---: |
-| Yenilenmiş ünite | 48.000–90.000₺ | 24.000–54.000₺ | %50 |
-| Çıkma ünite | 45.000–75.000₺ | 24.000–44.000₺ | %50 |
-| Sıfır ünite | 120.000–200.000₺ | 61.000–104.000₺ | %50 |
+| Yenilenmiş ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %50 |
+| Çıkma ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %50 |
+| Sıfır ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %50 |
 
 **Yıldızlar Grup Avantajları:**
 - %50 daha ekonomik fiyatlar
@@ -346,7 +342,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - **Ekonomik Fiyatlar:** Yetkili servise göre %50 daha ekonomik
 - **Hızlı Çözüm:** Yenilenmiş üniteler 3-5 gün içinde teslim
 - **Garanti:** Tüm ünitelerde 6-24 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 - **Kaliteli Üniteler:** Sadece güvenilir kaynaklardan ünite tedariki
 
 ## Müşteri Yorumları
@@ -406,7 +402,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 ### Otomatik şanzıman değişimi fiyatı ne kadar?
 
-Otomatik şanzıman değişimi fiyatları şanzıman tipine ve ünite kalitesine göre değişir. Yenilenmiş ünite 24.000–54.000₺, çıkma ünite 24.000–44.000₺, sıfır ünite 61.000–104.000₺ arasında değişir.
+Otomatik şanzıman değişimi fiyatları şanzıman tipine ve ünite kalitesine göre değişir. Yenilenmiş ünite uygun maliyetler, çıkma ünite uygun maliyetler, sıfır ünite uygun maliyetler arasında değişir.
 
 ### Otomatik şanzıman değişimi ne kadar sürer?
 
@@ -422,7 +418,7 @@ Yıldızlar Grup özel servis, yetkili servise göre %50 daha ekonomik otomatik 
 
 ### Otomatik şanzıman değişimi için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ön teşhis sonrası net fiyat teklifi verilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ön teşhis sonrası net servis teklifi verilir.
 
 ### Otomatik şanzıman değişimi sonrası ne yapılmalı?
 
@@ -435,4 +431,5 @@ Revizyon, tam değişime göre %50-60 daha ekonomiktir ve çoğu arıza onarıla
 ### Kod uyumluluğu neden önemli?
 
 Kod uyumluluğu, şanzımanın araca tam uyumlu olmasını sağlar. Yanlış kod seçimi, araç çalışmayabilir veya sürekli arıza verebilir. Yıldızlar Grup, %100 kod uyumluluğu garantisi verir.
+
 

@@ -20,7 +20,6 @@ serviceName: "DSG Şanzıman Arızası Teşhisi"
 serviceType: "DSG Vites Geçiş Arızası Teşhisi"
 serviceDescription: "DSG 1 3 5 7 geçmiyor sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-1-3-5-7-gecmiyor"
 
 ---
 
@@ -127,7 +126,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** DSG yağı ve filtre değişimi
 
-**Maliyet:** 3.500–7.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 saat
 
@@ -137,7 +136,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Birinci kavrama kontrol solenoid valfi değişimi
 
-**Maliyet:** 4.500–12.500₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 1-2 gün
 
@@ -147,7 +146,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Birinci kavrama seti değişimi
 
-**Maliyet:** 13.000–25.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -157,7 +156,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Komple mekatronik revizyonu (birinci kavrama kontrolü dahil)
 
-**Maliyet:** 14.000–27.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -167,7 +166,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Volant ve birinci kavrama birlikte değişimi
 
-**Maliyet:** 20.000–42.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -214,7 +213,7 @@ Birinci kavrama arızası, sadece tek numaralı viteslerde sorun yaratır. İkin
 - **Hızlı Çözüm:** Basit arızalar 1-2 gün içinde tamamlanır
 - **Orijinal Parça:** Tüm parçalar orijinal veya OEM kalitede
 - **Garanti:** Tüm tamirlerde 6-12 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 
 ## Sık Sorulan Sorular
 
@@ -224,7 +223,7 @@ Tek numaralı viteslerin geçmemesi, birinci kavrama veya ilgili mekatronik bile
 
 ### 1 3 5 7 geçmiyor sorunu maliyeti ne kadar?
 
-Arıza kapsamına göre değişir. Solenoid valf değişimi 4.500–12.500₺, kavrama değişimi 13.000–25.000₺, mekatronik revizyonu 14.000–27.000₺ aralığındadır.
+Arıza kapsamına göre değişir. Solenoid valf değişimi uygun maliyetler, kavrama değişimi uygun maliyetler, mekatronik revizyonu uygun maliyetler aralığındadır.
 
 ### 2 4 6 vitesler normal çalışıyorsa sorun nedir?
 
@@ -243,4 +242,5 @@ DSG 1 3 5 7 geçmiyor sorunu, birinci kavrama veya ilgili mekatronik bileşenler
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 

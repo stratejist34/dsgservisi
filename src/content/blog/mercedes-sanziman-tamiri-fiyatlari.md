@@ -1,13 +1,13 @@
 ---
-title: "Mercedes Şanzıman Tamiri Fiyatları"
-description: "Mercedes şanzıman tamiri fiyatları: 7G-Tronic/9G-Tronic şanzıman tamiri fiyatları. C, E, S Serisi, GLC, GLE, A, CLA modellerinde valf body, conductor plate, tork konvertör tamiri fiyatları."
+title: "Mercedes Şanzıman Tamiri Hizmetleri"
+description: "Mercedes şanzıman tamiri hizmetleri: 7G-Tronic/9G-Tronic şanzıman tamiri hizmetleri. C, E, S Serisi, GLC, GLE, A, CLA modellerinde valf body, conductor plate, tork konvertör tamiri hizmetleri."
 category: "Mercedes"
-tags: ["mercedes", "şanzıman", "şanzıman tamiri", "7g-tronic", "9g-tronic", "fiyat"]
+tags: ["mercedes", "şanzıman", "şanzıman tamiri", "7g-tronic", "9g-tronic"]
 slug: "mercedes-sanziman-tamiri-fiyatlari"
 publishDate: "2025-11-12T16:00:00+03:00"
 updatedDate: "2025-11-12T16:00:00+03:00"
 featuredImage: "/images/blog/mercedes-sanziman-tamiri-fiyatlari.jpg"
-imageAlt: "Mercedes şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Mercedes şanzıman tamiri hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/mercedes-sanziman-tamiri-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Mercedes Şanzıman Tamiri"
 serviceType: "Şanzıman Onarımı"
 serviceDescription: "Mercedes araçlarında 7G-Tronic/9G-Tronic şanzıman tamiri hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 10000
-highPrice: 38000
-priceCurrency: "TRY"
-offerUrl: "/mercedes-sanziman-tamiri-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Mercedes araçlarında şanzıman arızaları motor performansını ve güvenli�
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Mercedes şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. 7G-Tronic/9G-Tronic yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Yağ değişimi 6.500-12.000₺; değişmezse valf body arızası 14.000-28.000₺, tork konvertör arızası 20.000-38.000₺. 7G-Tronic'te conductor plate arızası yaygındır (%34).
+**UZMAN TAVSİYESİ:** Mercedes şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. 7G-Tronic/9G-Tronic yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler, tork konvertör arızası uygun maliyetler. 7G-Tronic'te conductor plate arızası yaygındır (%34).
 
 :::
 
@@ -44,15 +40,15 @@ Mercedes araçlarında şanzıman arızaları motor performansını ve güvenli�
 
 :::
 
-## Mercedes Şanzıman Tamiri Fiyatları 2025 (Genel)
+## Mercedes Şanzıman Tamiri Hizmetleri (Genel)
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | --- | ---: | --- |
-| 7G-Tronic (722.9) | C, E, S, A, CLA, CLS | Conductor plate, valf body | 14.000–28.000₺ | 2-5 gün |
-| 9G-Tronic (725.0) | GLC, GLE, GLS, S Serisi | Adaptasyon, yazılım | 3.500–7.500₺ | 1-2 gün |
-| 7-Speed DCT | A, CLA Serisi | Mekatronik, kavrama | 10.000–18.000₺ | 2-4 gün |
+| 7G-Tronic (722.9) | C, E, S, A, CLA, CLS | Conductor plate, valf body | 📞 Fiyat Sorunuz | 2-5 gün |
+| 9G-Tronic (725.0) | GLC, GLE, GLS, S Serisi | Adaptasyon, yazılım | 📞 Fiyat Sorunuz | 1-2 gün |
+| 7-Speed DCT | A, CLA Serisi | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 2-4 gün |
 
-## Şanzıman Tipine Göre Tamir Fiyatları
+## Şanzıman Tipine Göre Tamir Hizmetleri
 
 ### 7G-Tronic Şanzıman Tamiri
 
@@ -60,11 +56,11 @@ Mercedes araçlarında şanzıman arızaları motor performansını ve güvenli�
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Conductor plate değişimi | 14.000–24.000₺ | 2-4 gün | %34 |
-| Valf body revizyonu | 16.000–28.000₺ | 3-5 gün | %28 |
-| Tork konvertör tamiri | 20.000–38.000₺ | 4-6 gün | %24 |
-| Yağ kaçağı tamiri | 7.000–13.000₺ | 1-2 gün | %22 |
-| Tam revizyon | 28.000–45.000₺ | 5-7 gün | %18 |
+| Conductor plate değişimi | 📞 Fiyat Sorunuz | 2-4 gün | %34 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 3-5 gün | %28 |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 4-6 gün | %24 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %22 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 5-7 gün | %18 |
 
 **7G-Tronic Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -79,11 +75,11 @@ Mercedes araçlarında şanzıman arızaları motor performansını ve güvenli�
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Adaptasyon/yazılım güncelleme | 3.500–7.500₺ | 1-2 gün | %22 |
-| Valf body revizyonu | 15.000–26.000₺ | 2-4 gün | %20 |
-| Tork konvertör tamiri | 18.000–32.000₺ | 3-5 gün | %18 |
-| Yağ kaçağı tamiri | 6.500–12.000₺ | 1-2 gün | %19 |
-| Tam revizyon | 25.000–42.000₺ | 4-6 gün | %16 |
+| Adaptasyon/yazılım güncelleme | 📞 Fiyat Sorunuz | 1-2 gün | %22 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %20 |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 3-5 gün | %18 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %19 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-6 gün | %16 |
 
 **9G-Tronic Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -97,49 +93,49 @@ Mercedes araçlarında şanzıman arızaları motor performansını ve güvenli�
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 10.000–16.000₺ | 2-3 gün | %31 |
-| Kavrama değişimi | 12.000–18.000₺ | 3-4 gün | %28 |
-| Yağ kaçağı tamiri | 5.500–9.500₺ | 1 gün | %24 |
-| Tam revizyon | 18.000–28.000₺ | 4-5 gün | %22 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-3 gün | %31 |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 3-4 gün | %28 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1 gün | %24 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-5 gün | %22 |
 
-## Model Bazlı Şanzıman Tamiri Fiyatları
+## Model Bazlı Şanzıman Tamiri Hizmetleri
 
 ### Mercedes C Serisi (W204, W205) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| 7G-Tronic | Conductor plate, valf body | 14.000–28.000₺ | 2-5 gün |
+| 7G-Tronic | Conductor plate, valf body | 📞 Fiyat Sorunuz | 2-5 gün |
 
 ### Mercedes E Serisi (W212, W213) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| 7G-Tronic | Tork konvertör, valf body | 20.000–38.000₺ | 3-6 gün |
+| 7G-Tronic | Tork konvertör, valf body | 📞 Fiyat Sorunuz | 3-6 gün |
 
 ### Mercedes S Serisi (W221, W222) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| 7G-Tronic | Valf body, tork konvertör | 16.000–30.000₺ | 3-5 gün |
-| 9G-Tronic | Adaptasyon, yazılım | 3.500–7.500₺ | 1-2 gün |
+| 7G-Tronic | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 3-5 gün |
+| 9G-Tronic | Adaptasyon, yazılım | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Mercedes GLC (X253) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| 9G-Tronic | Adaptasyon, valf body | 3.500–26.000₺ | 1-4 gün |
+| 9G-Tronic | Adaptasyon, valf body | 📞 Fiyat Sorunuz | 1-4 gün |
 
 ### Mercedes GLE (W166, W167) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| 9G-Tronic | Adaptasyon, valf body | 3.500–26.000₺ | 1-4 gün |
+| 9G-Tronic | Adaptasyon, valf body | 📞 Fiyat Sorunuz | 1-4 gün |
 
 ### Mercedes A/CLA Serisi (W176, W117) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| 7-Speed DCT | Mekatronik, kavrama | 10.000–18.000₺ | 2-4 gün |
+| 7-Speed DCT | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ## Şanzıman Arıza Türleri ve Çözümleri
 
@@ -149,9 +145,9 @@ Conductor plate, 7G-Tronic şanzımanın elektronik kontrol ünitesidir. Yağ es
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Conductor plate değişimi | 14.000–24.000₺ | 2-4 gün |
-| Conductor plate revizyonu | 10.000–18.000₺ | 2-3 gün |
-| Elektronik bağlantı tamiri | 6.000–12.000₺ | 1-2 gün |
+| Conductor plate değişimi | 📞 Fiyat Sorunuz | 2-4 gün |
+| Conductor plate revizyonu | 📞 Fiyat Sorunuz | 2-3 gün |
+| Elektronik bağlantı tamiri | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Valf Body Arızası
 
@@ -159,9 +155,9 @@ Valf body, şanzımanın hidrolik kontrol ünitesidir. Yağ eskimesi ve solenoid
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Valf body revizyonu | 16.000–28.000₺ | 3-5 gün |
-| Valf body değişimi | 22.000–35.000₺ | 4-6 gün |
-| Solenoid değişimi | 8.000–14.000₺ | 1-2 gün |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 3-5 gün |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 4-6 gün |
+| Solenoid değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Tork Konvertör Arızası
 
@@ -169,9 +165,9 @@ Tork konvertör, motor ve şanzıman arasındaki güç aktarımını sağlar. Ka
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Tork konvertör tamiri | 20.000–38.000₺ | 4-6 gün |
-| Tork konvertör değişimi | 28.000–45.000₺ | 5-7 gün |
-| Tork konvertör revizyonu | 18.000–35.000₺ | 4-6 gün |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 4-6 gün |
+| Tork konvertör değişimi | 📞 Fiyat Sorunuz | 5-7 gün |
+| Tork konvertör revizyonu | 📞 Fiyat Sorunuz | 4-6 gün |
 
 ### Mekatronik Arızası
 
@@ -179,9 +175,9 @@ Mekatronik, 7-Speed DCT şanzımanın elektronik kontrol ünitesidir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Mekatronik revizyonu | 10.000–16.000₺ | 2-3 gün |
-| Mekatronik değişimi | 14.000–22.000₺ | 3-4 gün |
-| Elektronik modül değişimi | 7.000–12.000₺ | 1-2 gün |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-3 gün |
+| Mekatronik değişimi | 📞 Fiyat Sorunuz | 3-4 gün |
+| Elektronik modül değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Yağ Kaçağı Tamiri
 
@@ -189,16 +185,16 @@ Mekatronik, 7-Speed DCT şanzımanın elektronik kontrol ünitesidir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Keçe değişimi | 6.500–12.000₺ | Aynı gün |
-| Conta değişimi | 7.000–13.000₺ | 1 gün |
-| Gövde tamiri | 10.000–18.000₺ | 2-3 gün |
+| Keçe değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Conta değişimi | 📞 Fiyat Sorunuz | 1 gün |
+| Gövde tamiri | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ## Şanzıman Bakım Önerileri
 
 :::note
 
 - 7G-Tronic/9G-Tronic yağ değişimi 80.000 km'de mutlaka yapılmalı
-- Yağ değişimi 6.500-12.000₺; değişmezse conductor plate arızası 14.000-28.000₺
+- Yağ değişimi uygun maliyetler; değişmezse conductor plate arızası uygun maliyetler
 - Tork konvertör kontrolü 150.000 km'de yapılmalı
 - 7G-Tronic'te conductor plate arızası yaygındır (%34)
 - Erken teşhis %50'ye varan maliyet tasarrufu sağlar
@@ -219,7 +215,7 @@ Mekatronik, 7-Speed DCT şanzımanın elektronik kontrol ünitesidir.
 
 - **15+ Yıl Deneyim:** Mercedes şanzıman tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-7 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Mercedes servisi
@@ -292,7 +288,7 @@ Mekatronik, 7-Speed DCT şanzımanın elektronik kontrol ünitesidir.
 
 ### Mercedes şanzıman tamiri fiyatı ne kadar?
 
-Mercedes şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. 7G-Tronic conductor plate değişimi 14.000-24.000₺, valf body revizyonu 16.000-28.000₺, tork konvertör tamiri 20.000-38.000₺, 9G-Tronic adaptasyon 3.500-7.500₺ arasındadır.
+Mercedes şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. 7G-Tronic conductor plate değişimi uygun maliyetler, valf body revizyonu uygun maliyetler, tork konvertör tamiri uygun maliyetler, 9G-Tronic adaptasyon uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Mercedes 7G-Tronic conductor plate arızası belirtileri nelerdir?
 
@@ -300,7 +296,7 @@ Mercedes şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre de
 
 ### Mercedes 7G-Tronic şanzıman yağı ne zaman değiştirilmeli?
 
-7G-Tronic şanzıman yağı 80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, conductor plate arızası riski %40 artar. Yağ değişimi 6.500-11.000₺; değişmezse conductor plate arızası 14.000-28.000₺.
+7G-Tronic şanzıman yağı 80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, conductor plate arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse conductor plate arızası uygun maliyetler.
 
 ### Mercedes şanzıman tamiri ne kadar sürer?
 
@@ -324,9 +320,10 @@ Yıldızlar Grup'ta Mercedes şanzıman tamiri fiyatları yetkili servise göre 
 
 ### Mercedes 7G-Tronic conductor plate arızası ne kadar?
 
-7G-Tronic conductor plate değişimi 14.000-24.000₺ arasındadır. Yağ eskimesi nedeniyle elektronik bağlantılar kısa devre yapar. Erken teşhis ve yağ değişimi conductor plate arızasını önler.
+7G-Tronic conductor plate değişimi uygun maliyetler arasındadır. Yağ eskimesi nedeniyle elektronik bağlantılar kısa devre yapar. Erken teşhis ve yağ değişimi conductor plate arızasını önler.
 
 ### Mercedes tork konvertör arızası ne kadar?
 
-7G-Tronic tork konvertör tamiri 20.000-38.000₺ arasındadır. 150.000-250.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Tork konvertör kaydırma ve titreşim yaygın arızalardır.
+7G-Tronic tork konvertör tamiri uygun maliyetler arasındadır. 150.000-250.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Tork konvertör kaydırma ve titreşim yaygın arızalardır.
+
 

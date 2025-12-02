@@ -1,7 +1,7 @@
 ---
 
 title: "DSG Şanzıman Değişimi"
-description: "DSG şanzıman değişimi 2026: revizyon mu değişim mi? Tam değişim süreçleri, maliyet kalemleri ve garanti. Büyükçekmece Yıldızlar Grup DSG Servisi."
+description: "DSG şanzıman değişimi: revizyon mu değişim mi? Tam değişim süreçleri, maliyet kalemleri ve garanti. Büyükçekmece Yıldızlar Grup DSG Servisi."
 publishDate: "2025-10-25T10:30:00+03:00"
 updatedDate: "2025-10-25T10:30:00+03:00"
 category: "DSG"
@@ -9,8 +9,8 @@ slug: "dsg-sanziman-degisimi"
 tags: ["dsg", "şanzıman", "değişim", "tamir"]
 author: "DSG Servisi"
 draft: false
-seoTitle: "DSG Şanzıman Değişimi Fiyatı 2026 – Yıldızlar Grup DSG Servisi"
-seoDescription: "DSG şanzıman değişimi 2026: revizyon mu değişim mi? Tam değişim süreçleri, maliyet kalemleri ve garanti. Büyükçekmece Yıldızlar Grup DSG Servisi."
+seoTitle: "DSG Şanzıman Değişimi Tamiri 2026 – Yıldızlar Grup DSG Servisi"
+seoDescription: "DSG şanzıman değişimi: revizyon mu değişim mi? Tam değişim süreçleri, maliyet kalemleri ve garanti. Büyükçekmece Yıldızlar Grup DSG Servisi."
 ogImage: "/images/blog/dsg-sanziman-degisimi.jpg"
 featuredImage: "/images/blog/dsg-sanziman-degisimi.jpg"
 imageAlt: "DSG şanzıman değişimi işlemi"
@@ -20,7 +20,6 @@ serviceName: "DSG Şanzıman Değişimi"
 serviceType: "DSG Şanzıman Değişimi"
 serviceDescription: "DSG şanzıman tam değişimi ve revizyon hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-sanziman-degisimi"
 
 ---
 
@@ -61,9 +60,9 @@ Yıldızlar Grup DSG Servisi, üretici prosedürlerine uygun sök‑tak, yazıl�
 
 | Seçenek | Parça | İşçilik | Toplam | Garanti |
 | --- | ---: | ---: | ---: | --- |
-| Yenilenmiş (revizyonlu) ünite | 25.000–45.000₺ | 6.000–9.000₺ | 31.000–54.000₺ | 12–18 ay |
-| Çıkma (kontrollü) ünite | 18.000–35.000₺ | 6.000–9.000₺ | 24.000–44.000₺ | 6–12 ay |
-| Sıfır (orijinal) ünite | 55.000–95.000₺ | 6.000–9.000₺ | 61.000–104.000₺ | 24 ay |
+| Yenilenmiş (revizyonlu) ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12–18 ay |
+| Çıkma (kontrollü) ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6–12 ay |
+| Sıfır (orijinal) ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 24 ay |
 
 <p class="note"><em>Not:</em> Kesin fiyat için şanzıman seri/kod bilgisini iletmeniz gerekir. Her araç modeli farklı şanzıman koduna sahiptir.</p>
 
@@ -97,7 +96,7 @@ Yıldızlar Grup DSG Servisi, üretici prosedürlerine uygun sök‑tak, yazıl�
 
 | Kriter | Revizyon (Tamir) | Tam Değişim |
 | --- | --- | --- |
-| Maliyet | 12.000–30.000₺ | 24.000–104.000₺ |
+| Maliyet | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 | Süre | 3–7 gün | 5–14 gün (tedarik süresine göre) |
 | Garanti | 6–12 ay | 6–24 ay |
 | Uygun Durum | Mekatronik, kavrama, volant arızası | Dişli kırığı, kasa hasarı, yaygın arıza |
@@ -183,3 +182,4 @@ Evet, eski şanzıman değerinde alınır ve takas değeri toplam fiyattan düş
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
+

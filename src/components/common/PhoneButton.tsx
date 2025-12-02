@@ -24,8 +24,6 @@ export default function PhoneButton({
   const [ripples, setRipples] = useState<Array<{ x: number; y: number; id: number }>>([]);
   const [mounted, setMounted] = useState(false);
   const [showButton, setShowButton] = useState(false);
-  const [showText, setShowText] = useState(false);
-  const [phraseIndex, setPhraseIndex] = useState(0);
   // SSR-safe initial state - client-side'da hemen kontrol et
   const [isWorkingHours, setIsWorkingHours] = useState(false);
 
@@ -92,28 +90,8 @@ export default function PhoneButton({
       return;
     }
     
-    // Biraz daha erken göster (dönüşüm için)
-    const buttonTimer = setTimeout(() => {
-      setShowButton(true);
-      
-      // İlk kısa gösterim
-      const textTimer = setTimeout(() => {
-        setShowText(true);
-        const hideTextTimer = setTimeout(() => {
-          setShowText(false);
-        }, 2200);
-        return () => clearTimeout(hideTextTimer);
-      }, 1200);
-      
-      return () => clearTimeout(textTimer);
-    }, 1500);
-    
-    // Düşük frekanslı döngü: her 18 sn'de 2.2 sn göster
-    const cycle = setInterval(() => {
-      setPhraseIndex((i) => (i + 1) % 4);
-      setShowText(true);
-      setTimeout(() => setShowText(false), 2200);
-    }, 18000);
+    // Butonu hemen göster
+    setShowButton(true);
 
     // Visibility ölçümleme (aramaya başladı mı?)
     const onVisibility = () => {
@@ -134,8 +112,6 @@ export default function PhoneButton({
     document.addEventListener('visibilitychange', onVisibility, { passive: true } as any);
 
     return () => {
-      clearTimeout(buttonTimer);
-      clearInterval(cycle);
       document.removeEventListener('visibilitychange', onVisibility as any);
     };
   }, [isWorkingHours, mounted]);
@@ -161,8 +137,6 @@ export default function PhoneButton({
     return null;
   }
 
-  const phrases = ['Hemen Ara', 'Ustaya Sor', 'Destek Hattı', 'Hemen Fiyat Al'];
-
   return (
     <a
       id="floating-call"
@@ -171,20 +145,19 @@ export default function PhoneButton({
       className={`
         group fixed bottom-6 right-6 z-[55]
         flex items-center justify-center gap-3
-        ${showText ? 'w-auto px-6' : 'w-16'} h-16 md:${showText ? 'w-auto md:px-8' : 'w-20'} md:h-20
+        w-16 h-16 md:w-20 md:h-20
         rounded-full
-        bg-gradient-to-br from-primary via-urgent to-primary-600
+        bg-primary
         text-white
-        shadow-2xl ring-1 ring-white/20
-        overflow-hidden
+        shadow-lg
         cursor-pointer
         transform transition-all duration-200 ease-out
-        hover:scale-105
+        hover:bg-primary-600 hover:scale-105
         active:scale-95
         ${className}
       `}
       style={{
-        boxShadow: '0 8px 24px rgba(249, 115, 22, 0.4), 0 4px 12px rgba(220, 38, 38, 0.3)',
+        boxShadow: '0 4px 14px 0 rgba(249, 115, 22, 0.39)',
       }}
       aria-label={`Bizi arayın: ${phone}`}
       onMouseDown={() => {
@@ -211,17 +184,6 @@ export default function PhoneButton({
       >
         <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
       </svg>
-
-      {/* Telefon Desteği Yazısı */}
-      <span
-        className={`
-          relative z-10 font-semibold text-sm md:text-base whitespace-nowrap
-          transition-all duration-300
-          ${showText ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4 w-0'}
-        `}
-      >
-        {showText && phrases[phraseIndex]}
-      </span>
 
       {/* Ripple Effects */}
       {ripples.map((ripple) => (

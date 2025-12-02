@@ -1,39 +1,35 @@
 ---
 
 title: "Şanzıman İndirme Ücreti 2025"
-description: "Şanzıman indirme ücreti 2025: DSG, ZF, konvansiyonel otomatik şanzıman söküm işçilik fiyatları. Model bazında şanzıman indirme ücretleri."
+description: "Şanzıman indirme ücreti: DSG, ZF, konvansiyonel otomatik şanzıman söküm işçilik hizmetleri. Model bazında şanzıman indirme ücretleri."
 category: "DSG"
-tags: ["şanzıman indirme", "söküm", "işçilik", "fiyat", "2025", "dsg", "zf"]
+tags: ["şanzıman indirme", "söküm", "işçilik", "dsg", "zf"]
 slug: "sanziman-indirme-ucreti-2025"
 publishDate: "2025-11-07T11:12:00+03:00"
 updatedDate: "2025-11-07T11:12:00+03:00"
 featuredImage: "/images/blog/sanziman-indirme-ucreti.jpg"
-imageAlt: "Şanzıman indirme ücreti 2025 - Yıldızlar Grup DSG Servisi"
+imageAlt: "Şanzıman indirme ücreti - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/sanziman-indirme-ucreti.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "Şanzıman İndirme Ücreti 2025 | DSG, ZF Söküm İşçilik Fiyatları"
-seoDescription: "Şanzıman indirme ücreti 2025: DSG, ZF, konvansiyonel otomatik şanzıman söküm işçilik fiyatları. Model bazında şanzıman indirme ücretleri."
+seoTitle: "Şanzıman İndirme Ücreti Tamiri ve Değişimi DSG, ZF Söküm İşçilik Fiyatları"
+seoDescription: "Şanzıman indirme ücreti: DSG, ZF, konvansiyonel otomatik şanzıman söküm işçilik hizmetleri. Model bazında şanzıman indirme ücretleri."
 
 # Hizmet Şeması
 serviceName: "Şanzıman İndirme ve Söküm"
 serviceType: "Şanzıman Söküm İşçiliği"
 serviceDescription: "DSG, ZF ve konvansiyonel otomatik şanzıman söküm, indirme ve montaj işçilik hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 2000
-highPrice: 8000
-priceCurrency: "TRY"
-offerUrl: "/sanziman-indirme-ucreti-2025"
 
 ---
 
-Şanzıman indirme ücreti, **DSG, ZF ve konvansiyonel otomatik şanzıman** tamiri veya değişimi için gerekli söküm işçilik maliyetidir. Şanzıman tipi, model, erişim zorluğu ve işçilik süresine göre fiyatlar değişir. Basit erişimli modellerde 2.000–4.000₺, zor erişimli modellerde 4.000–8.000₺ aralığındadır.
+Şanzıman indirme ücreti, **DSG, ZF ve konvansiyonel otomatik şanzıman** tamiri veya değişimi için gerekli söküm işçilik maliyetidir. Şanzıman tipi, model, erişim zorluğu ve işçilik süresine göre fiyatlar değişir. Basit erişimli modellerde uygun maliyetler, zor erişimli modellerde uygun maliyetler aralığındadır.
 
-2025 yılı için *şanzıman indirme ücretleri*, şanzıman tipine, model, erişim zorluğu ve işçilik süresine göre değişir. DSG şanzıman sökümü 2.000–5.000₺, ZF şanzıman sökümü 3.000–7.000₺, konvansiyonel otomatik şanzıman sökümü 2.000–4.500₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **profesyonel ekipman**, **deneyimli ekip** ve **şeffaf fiyatlandırma** ile şanzıman söküm hizmeti sunuyoruz.
+2025 yılı için *şanzıman indirme ücretleri*, şanzıman tipine, model, erişim zorluğu ve işçilik süresine göre değişir. DSG şanzıman sökümü uygun maliyetler, ZF şanzıman sökümü uygun maliyetler, konvansiyonel otomatik şanzıman sökümü uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **profesyonel ekipman**, **deneyimli ekip** ve **şeffaf fiyatlandırma** ile şanzıman söküm hizmeti sunuyoruz.
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Şanzıman indirme ücreti, sadece söküm işçiliğini kapsar. Tamir veya değişim işçiliği ayrıca ücretlendirilir. Ön teşhis sonrası net fiyat teklifi alın.
+**UZMAN TAVSİYESİ:** Şanzıman indirme ücreti, sadece söküm işçiliğini kapsar. Tamir veya değişim işçiliği ayrıca ücretlendirilir. Ön teşhis sonrası net servis teklifi alın.
 
 :::
 
@@ -51,19 +47,19 @@ offerUrl: "/sanziman-indirme-ucreti-2025"
 
 | Şanzıman Tipi | Söküm İşçiliği | Montaj İşçiliği | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| DSG DQ200 (7 Kuru) | 2.000–3.500₺ | 2.000–3.500₺ | 4.000–7.000₺ | 4-6 saat |
-| DSG DQ250 (6 Islak) | 2.500–4.000₺ | 2.500–4.000₺ | 5.000–8.000₺ | 5-7 saat |
-| DSG DQ381/DQ500 (7 Islak) | 3.000–5.000₺ | 3.000–5.000₺ | 6.000–10.000₺ | 6-8 saat |
-| ZF 8HP | 3.500–6.000₺ | 3.500–6.000₺ | 7.000–12.000₺ | 7-10 saat |
-| ZF 6HP | 3.000–5.500₺ | 3.000–5.500₺ | 6.000–11.000₺ | 6-9 saat |
-| Konvansiyonel ATF | 2.000–3.500₺ | 2.000–3.500₺ | 4.000–7.000₺ | 4-6 saat |
+| DSG DQ200 (7 Kuru) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
+| DSG DQ250 (6 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 5-7 saat |
+| DSG DQ381/DQ500 (7 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-8 saat |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 7-10 saat |
+| ZF 6HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-9 saat |
+| Konvansiyonel ATF | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
 
 :::note
 
 - Fiyatlar şanzıman tipi, model, erişim zorluğu ve işçilik süresine göre değişir
 - Söküm ve montaj işçiliği ayrı ücretlendirilir
 - Zor erişimli modellerde (4x4, SUV) işçilik ücreti artar
-- Ön teşhis sonrası net fiyat teklifi verilir
+- Ön teşhis sonrası net servis teklifi verilir
 
 :::
 
@@ -75,9 +71,9 @@ DSG (Direct-Shift Gearbox) çift kavramalı şanzımanlar, Volkswagen Grubu ara�
 
 | DSG Tipi | Söküm | Montaj | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| DQ200 (7 Kuru) | 2.000–3.500₺ | 2.000–3.500₺ | 4.000–7.000₺ | 4-6 saat |
-| DQ250 (6 Islak) | 2.500–4.000₺ | 2.500–4.000₺ | 5.000–8.000₺ | 5-7 saat |
-| DQ381/DQ500 (7 Islak) | 3.000–5.000₺ | 3.000–5.000₺ | 6.000–10.000₺ | 6-8 saat |
+| DQ200 (7 Kuru) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
+| DQ250 (6 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 5-7 saat |
+| DQ381/DQ500 (7 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-8 saat |
 
 **Kullanıldığı Modeller:**
 - **DQ200:** Golf, Polo, Jetta, Ibiza, Leon, Octavia, Fabia
@@ -90,8 +86,8 @@ ZF 8HP ve 6HP otomatik şanzımanlar, BMW, Mercedes, Land Rover ve Audi modeller
 
 | ZF Tipi | Söküm | Montaj | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| ZF 8HP | 3.500–6.000₺ | 3.500–6.000₺ | 7.000–12.000₺ | 7-10 saat |
-| ZF 6HP | 3.000–5.500₺ | 3.000–5.500₺ | 6.000–11.000₺ | 6-9 saat |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 7-10 saat |
+| ZF 6HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-9 saat |
 
 **Kullanıldığı Modeller:**
 - **ZF 8HP:** BMW 3/5/7 Serisi, Mercedes C/E/S Serisi, Land Rover Range Rover, Audi Q7/Q8
@@ -103,9 +99,9 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 | Şanzıman Tipi | Söküm | Montaj | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| ATF+4 | 2.000–3.500₺ | 2.000–3.500₺ | 4.000–7.000₺ | 4-6 saat |
-| Dexron VI | 2.000–3.500₺ | 2.000–3.500₺ | 4.000–7.000₺ | 4-6 saat |
-| Mercon V | 2.000–3.500₺ | 2.000–3.500₺ | 4.000–7.000₺ | 4-6 saat |
+| ATF+4 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
+| Dexron VI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
+| Mercon V | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
 
 ## Model Bazında Şanzıman İndirme Ücreti 2025
 
@@ -113,40 +109,40 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 | Şanzıman Tipi | Söküm | Montaj | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| DSG DQ200 | 2.000–3.500₺ | 2.000–3.500₺ | 4.000–7.000₺ | 4-6 saat |
-| DSG DQ381 | 3.000–5.000₺ | 3.000–5.000₺ | 6.000–10.000₺ | 6-8 saat |
+| DSG DQ200 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
+| DSG DQ381 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-8 saat |
 
 ### Volkswagen Passat (B7, B8)
 
 | Şanzıman Tipi | Söküm | Montaj | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| DSG DQ250 | 2.500–4.000₺ | 2.500–4.000₺ | 5.000–8.000₺ | 5-7 saat |
-| DSG DQ381 | 3.000–5.000₺ | 3.000–5.000₺ | 6.000–10.000₺ | 6-8 saat |
+| DSG DQ250 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 5-7 saat |
+| DSG DQ381 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-8 saat |
 
 ### Audi A3, A4, A5
 
 | Şanzıman Tipi | Söküm | Montaj | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| S-tronic | 3.000–5.000₺ | 3.000–5.000₺ | 6.000–10.000₺ | 6-8 saat |
-| ZF 8HP (Q7/Q8) | 3.500–6.000₺ | 3.500–6.000₺ | 7.000–12.000₺ | 7-10 saat |
+| S-tronic | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-8 saat |
+| ZF 8HP (Q7/Q8) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 7-10 saat |
 
 ### BMW 3/5/7 Serisi
 
 | Şanzıman Tipi | Söküm | Montaj | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| ZF 8HP | 3.500–6.000₺ | 3.500–6.000₺ | 7.000–12.000₺ | 7-10 saat |
-| ZF 6HP | 3.000–5.500₺ | 3.000–5.500₺ | 6.000–11.000₺ | 6-9 saat |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 7-10 saat |
+| ZF 6HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-9 saat |
 
 ### Mercedes C/E/S Serisi
 
 | Şanzıman Tipi | Söküm | Montaj | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| ZF 8HP | 3.500–6.000₺ | 3.500–6.000₺ | 7.000–12.000₺ | 7-10 saat |
-| ZF 6HP | 3.000–5.500₺ | 3.000–5.500₺ | 6.000–11.000₺ | 6-9 saat |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 7-10 saat |
+| ZF 6HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-9 saat |
 
 ## Erişim Zorluğuna Göre Şanzıman İndirme Ücreti
 
-### 1. Kolay Erişimli Modeller (2.000–3.500₺)
+### 1. Kolay Erişimli Modeller (Fiyat Sorunuz)
 
 **Özellikler:**
 - Ön motor, önden çekiş
@@ -159,7 +155,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 **Süre:** 4-6 saat
 
-### 2. Orta Zorlukta Erişimli Modeller (2.500–4.500₺)
+### 2. Orta Zorlukta Erişimli Modeller (Fiyat Sorunuz)
 
 **Özellikler:**
 - Ön motor, önden çekiş veya 4x4
@@ -172,7 +168,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 **Süre:** 5-7 saat
 
-### 3. Zor Erişimli Modeller (3.000–6.000₺)
+### 3. Zor Erişimli Modeller (Fiyat Sorunuz)
 
 **Özellikler:**
 - Ön motor, 4x4 veya SUV
@@ -244,10 +240,10 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 | Şanzıman Tipi | Yetkili Servis | Yıldızlar Grup | Tasarruf |
 | --- | ---: | ---: | ---: |
-| DSG DQ200 | 6.000–12.000₺ | 4.000–7.000₺ | %40 |
-| DSG DQ250 | 7.500–14.000₺ | 5.000–8.000₺ | %40 |
-| DSG DQ381/DQ500 | 9.000–16.000₺ | 6.000–10.000₺ | %40 |
-| ZF 8HP | 10.000–18.000₺ | 7.000–12.000₺ | %30 |
+| DSG DQ200 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| DSG DQ250 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| DSG DQ381/DQ500 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %30 |
 
 **Yıldızlar Grup Avantajları:**
 - %30-40 daha ekonomik fiyatlar
@@ -262,7 +258,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - **Profesyonel Ekipman:** Lift, şanzıman kaldırıcı, özel aletler
 - **Ekonomik Fiyatlar:** Yetkili servise göre %30-40 daha ekonomik
 - **Hızlı Çözüm:** Şanzıman sökümü 4-10 saat içinde tamamlanır
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 - **Garanti:** Tüm işçiliklerde 6 ay garanti
 - **Güvenilir Hizmet:** Deneyimli ekip, kaliteli işçilik
 
@@ -323,7 +319,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 ### Şanzıman indirme ücreti ne kadar?
 
-Şanzıman indirme ücretleri şanzıman tipine ve erişim zorluğuna göre değişir. DSG DQ200 için 4.000–7.000₺, DSG DQ250 için 5.000–8.000₺, DSG DQ381/DQ500 için 6.000–10.000₺, ZF 8HP için 7.000–12.000₺ arasında değişir.
+Şanzıman indirme ücretleri şanzıman tipine ve erişim zorluğuna göre değişir. DSG DQ200 modeli, DSG DQ250 modeli, DSG DQ381/DQ500 modeli, ZF 8HP modeli arasında değişir.
 
 ### Şanzıman indirme ücreti ne kadar sürer?
 
@@ -339,7 +335,7 @@ Yıldızlar Grup özel servis, yetkili servise göre %30-40 daha ekonomik şanz�
 
 ### Şanzıman indirme ücreti için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ön teşhis sonrası net fiyat teklifi verilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ön teşhis sonrası net servis teklifi verilir.
 
 ### Şanzıman indirme ücreti sadece sökümü kapsar mı?
 
@@ -352,4 +348,5 @@ Kontrol ve yol testi yapılır, yağ seviyesi kontrol edilir. İlk 1.000 km'de k
 ### Şanzıman indirme ücreti hangi faktörlere bağlıdır?
 
 Şanzıman tipi, model, erişim zorluğu, işçilik süresi ve yardımcı parça sökümü şanzıman indirme ücretini etkiler.
+
 

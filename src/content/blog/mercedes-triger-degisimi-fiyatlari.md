@@ -1,13 +1,13 @@
 ---
-title: "Mercedes Triger Değişimi Fiyatları"
-description: "Mercedes triger değişimi fiyatları: C, E, S Serisi ve GLC, GLE, GLS modellerinde timing chain değişimi fiyatları. Detaylı fiyat tablosu ve değişim periyotları."
+title: "Mercedes Triger Değişimi Hizmetleri"
+description: "Mercedes triger değişimi hizmetleri: C, E, S Serisi ve GLC, GLE, GLS modellerinde timing chain değişimi hizmetleri. Detaylı hizmet tablosu ve değişim periyotları."
 category: "Mercedes"
-tags: ["mercedes", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
+tags: ["mercedes", "triger", "triger değişimi", "timing chain", "bakım"]
 slug: "mercedes-triger-degisimi-fiyatlari"
 publishDate: "2025-11-12T12:00:00+03:00"
 updatedDate: "2025-11-12T12:00:00+03:00"
 featuredImage: "/images/blog/mercedes-triger-degisimi-fiyatlari.jpg"
-imageAlt: "Mercedes triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Mercedes triger değişimi hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/mercedes-triger-degisimi-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Mercedes Triger Değişimi"
 serviceType: "Motor Bakımı"
 serviceDescription: "Mercedes araçlarında triger zinciri değişimi hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 5500
-highPrice: 21000
-priceCurrency: "TRY"
-offerUrl: "/mercedes-triger-degisimi-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Mercedes araçlarında triger değişimi motorun en kritik bakım işlemlerinden
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Mercedes'te triger zinciri kontrolü 100.000-120.000 km'de yapılmalı, değişim gerekiyorsa 100.000-200.000 km arasında yapılır. Triger zinciri koparsa motor hasarı 20.000-40.000₺ arasında maliyet oluşturur. Erken değişim maliyeti 5.500-21.000₺; koparsa tamir 20.000-40.000₺.
+**UZMAN TAVSİYESİ:** Mercedes'te triger zinciri kontrolü 100.000-120.000 km'de yapılmalı, değişim gerekiyorsa 100.000-200.000 km arasında yapılır. Triger zinciri koparsa motor hasarı çok yüksek maliyetler oluşturur. Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::
 
@@ -44,18 +40,18 @@ Mercedes araçlarında triger değişimi motorun en kritik bakım işlemlerinden
 
 :::
 
-## Mercedes Triger Değişimi Fiyatları 2025 (Genel)
+## Mercedes Triger Değişimi Hizmetleri (Genel)
 
 | Model | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | --- | ---: | --- | --- |
-| C Serisi (W204, W205) | 1.6/2.0/3.0 | Zincir | 6.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| E Serisi (W212, W213) | 2.0/3.0 | Zincir | 7.500–15.000₺ | 100.000–200.000 km | 2-3 gün |
-| S Serisi (W221, W222) | 3.0/4.0/6.0 | Zincir | 12.000–21.000₺ | 100.000–200.000 km | 3-4 gün |
-| GLC (X253) | 2.0/3.0 | Zincir | 7.000–13.000₺ | 100.000–180.000 km | 2-3 gün |
-| GLE (W166, W167) | 3.0/4.0 | Zincir | 9.000–17.000₺ | 100.000–200.000 km | 3-4 gün |
-| GLS (X166, X167) | 3.0/4.0 | Zincir | 11.000–19.000₺ | 100.000–200.000 km | 3-4 gün |
+| C Serisi (W204, W205) | 1.6/2.0/3.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| E Serisi (W212, W213) | 2.0/3.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 2-3 gün |
+| S Serisi (W221, W222) | 3.0/4.0/6.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| GLC (X253) | 2.0/3.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| GLE (W166, W167) | 3.0/4.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| GLS (X166, X167) | 3.0/4.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
-## Model Bazlı Triger Değişimi Fiyatları
+## Model Bazlı Triger Değişimi Hizmetleri
 
 ### Mercedes C Serisi (W204, W205) Triger Değişimi
 
@@ -63,10 +59,10 @@ Mercedes C Serisi modellerinde timing chain (triger zinciri) kullanılır. Zinci
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 1.6 M274 (Benzin) | Zincir | 6.500–10.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 M274 (Benzin) | Zincir | 7.000–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 OM651 (Dizel) | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 M276 (Benzin) | Zincir | 8.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| 1.6 M274 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 M274 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 OM651 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 M276 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 **C Serisi Triger Değişimi İçeriği:**
 - Timing chain (triger zinciri)
@@ -81,10 +77,10 @@ Mercedes E Serisi modellerinde timing chain (triger zinciri) kullanılır. Zinci
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 M274 (Benzin) | Zincir | 7.500–12.000₺ | 100.000–200.000 km | 2-3 gün |
-| 3.0 M276 (Benzin) | Zincir | 9.000–14.000₺ | 100.000–200.000 km | 2-3 gün |
-| 2.0 OM651 (Dizel) | Zincir | 8.000–13.000₺ | 100.000–200.000 km | 2-3 gün |
-| 3.0 OM642 (Dizel) | Zincir | 10.000–15.000₺ | 100.000–200.000 km | 2-3 gün |
+| 2.0 M274 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 2-3 gün |
+| 3.0 M276 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 2-3 gün |
+| 2.0 OM651 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 2-3 gün |
+| 3.0 OM642 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 2-3 gün |
 
 ### Mercedes S Serisi (W221, W222) Triger Değişimi
 
@@ -92,10 +88,10 @@ Mercedes S Serisi modellerinde timing chain (triger zinciri) kullanılır. Zinci
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 M276 (Benzin) | Zincir | 12.000–17.000₺ | 100.000–200.000 km | 3-4 gün |
-| 4.0 M176 (Benzin) | Zincir | 14.000–19.000₺ | 100.000–200.000 km | 3-4 gün |
-| 3.0 OM642 (Dizel) | Zincir | 13.000–18.000₺ | 100.000–200.000 km | 3-4 gün |
-| 6.0 M275 (Benzin) | Zincir | 16.000–21.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 M276 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 4.0 M176 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 3.0 OM642 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 6.0 M275 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 ### Mercedes GLC (X253) Triger Değişimi
 
@@ -103,9 +99,9 @@ Mercedes GLC modellerinde timing chain (triger zinciri) kullanılır. Zincir ger
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 M274 (Benzin) | Zincir | 7.000–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 M276 (Benzin) | Zincir | 8.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 OM651 (Dizel) | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 M274 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 M276 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 OM651 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Mercedes GLE (W166, W167) Triger Değişimi
 
@@ -113,9 +109,9 @@ Mercedes GLE modellerinde timing chain (triger zinciri) kullanılır. Zincir ger
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 M276 (Benzin) | Zincir | 9.000–14.000₺ | 100.000–200.000 km | 3-4 gün |
-| 4.0 M176 (Benzin) | Zincir | 11.000–17.000₺ | 100.000–200.000 km | 3-4 gün |
-| 3.0 OM642 (Dizel) | Zincir | 10.000–16.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 M276 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 4.0 M176 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 3.0 OM642 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 ### Mercedes GLS (X166, X167) Triger Değişimi
 
@@ -123,9 +119,9 @@ Mercedes GLS modellerinde timing chain (triger zinciri) kullanılır. Zincir ger
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 M276 (Benzin) | Zincir | 11.000–16.000₺ | 100.000–200.000 km | 3-4 gün |
-| 4.0 M176 (Benzin) | Zincir | 13.000–19.000₺ | 100.000–200.000 km | 3-4 gün |
-| 3.0 OM642 (Dizel) | Zincir | 12.000–18.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 M276 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 4.0 M176 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 3.0 OM642 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 ## Mercedes Triger Zinciri Özellikleri
 
@@ -134,9 +130,9 @@ Mercedes araçlarında modern modellerde timing chain (triger zinciri) kullanıl
 | Özellik | Mercedes Triger Zinciri |
 | --- | --- |
 | Dayanıklılık | 100.000-200.000 km |
-| Değişim Maliyeti | 5.500-21.000₺ |
+| Değişim Maliyeti | 📞 Fiyat Sorunuz |
 | Kopma Riski | Düşük (gerginlik kontrolü önemli) |
-| Motor Hasarı (Koparsa) | 20.000-40.000₺ |
+| Motor Hasarı (Koparsa) | 📞 Fiyat Sorunuz |
 | Kontrol Periyodu | 100.000 km |
 
 ## Triger Değişimi Neden Önemli?
@@ -146,9 +142,9 @@ Triger (timing chain) motorun en kritik parçalarından biridir. Supap zamanlama
 - Supap ve piston çarpışması
 - Motor bloğu hasarı
 - Silindir kapağı hasarı
-- Tam motor revizyonu gerekir (20.000-40.000₺)
+- Tam motor revizyonu gerekir (Fiyat Sorunuz)
 
-Erken değişim maliyeti 5.500-21.000₺; koparsa tamir 20.000-40.000₺.
+Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::note
 
@@ -190,7 +186,7 @@ Mercedes'in dizel motorlarıdır. Triger zinciri gerginliği kontrolü önemlidi
 
 - **15+ Yıl Deneyim:** Mercedes triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-4 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Mercedes servisi
@@ -255,7 +251,7 @@ Mercedes araçlarında triger zinciri kontrolü 100.000 km'de yapılmalı, deği
 
 ### Mercedes triger değişimi fiyatı ne kadar?
 
-Mercedes triger değişimi fiyatı modele ve motora göre değişir. C Serisi için 6.500-12.000₺, E Serisi için 7.500-15.000₺, S Serisi için 12.000-21.000₺, GLE/GLS için 9.000-19.000₺ arasındadır.
+Mercedes triger değişimi fiyatı modele ve motora göre değişir. C Serisi modeli, E Serisi modeli, S Serisi modeli, GLE/GLS modeli için servisimizden net fiyat alabilirsiniz.
 
 ### Mercedes triger zinciri mi kayışı mı?
 
@@ -263,7 +259,7 @@ Mercedes araçlarında modern modellerde (2000 sonrası) timing chain (triger zi
 
 ### Mercedes triger koparsa ne olur?
 
-Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (20.000-40.000₺). Erken değişim maliyeti 5.500-21.000₺; koparsa tamir 20.000-40.000₺.
+Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (Fiyat Sorunuz). Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 ### Mercedes triger değişimi ne kadar sürer?
 
@@ -292,4 +288,5 @@ Mercedes triger değişimi için randevu almak için telefon (0533 262 34 51) ve
 ### Mercedes triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 
 Yıldızlar Grup'ta Mercedes triger değişimi fiyatları yetkili servise göre %50-70 daha ekonomiktir. Aynı kalitede orijinal parça ve işçilikle hizmet sunuyoruz.
+
 

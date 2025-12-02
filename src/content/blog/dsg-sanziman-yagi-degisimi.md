@@ -1,7 +1,7 @@
 ---
 
 title: "DSG Şanzıman Yağı Değişimi"
-description: "7 ileri ve 6 ileri DSG şanzıman yağı değişimi fiyatı, interval ve spesifikasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
+description: "7 ileri ve 6 ileri DSG şanzıman yağı değişimi bilgisi, interval ve spesifikasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
 publishDate: "2025-11-04T11:30:00+03:00"
 updatedDate: "2025-11-04T11:30:00+03:00"
 category: "DSG"
@@ -10,8 +10,8 @@ tags: ["dsg", "yağ değişimi", "bakım", "filtre"]
 author: "DSG Servisi"
 draft: false
 featured: false
-seoTitle: "DSG Şanzıman Yağı Değişimi Fiyatı 2026 – Yıldızlar Grup DSG Servisi"
-seoDescription: "7 ileri ve 6 ileri DSG şanzıman yağı değişimi fiyatı, interval ve spesifikasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
+seoTitle: "DSG Şanzıman Yağı Değişimi Tamiri 2026 – Yıldızlar Grup DSG Servisi"
+seoDescription: "7 ileri ve 6 ileri DSG şanzıman yağı değişimi bilgisi, interval ve spesifikasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
 featuredImage: "/images/blog/dsg-sanziman-yagi-degisimi.jpg"
 ogImage: "/images/blog/dsg-sanziman-yagi-degisimi.jpg"
 imageAlt: "DSG şanzıman yağı değişimi uygulaması"
@@ -21,7 +21,6 @@ serviceName: "DSG Şanzıman Yağı Değişimi"
 serviceType: "DSG Bakımı"
 serviceDescription: "DSG şanzıman yağı ve filtre değişimi hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-sanziman-yagi-degisimi"
 
 ---
 
@@ -29,7 +28,7 @@ Doğru **DSG şanzıman yağı** ve filtre kullanımı; mekatronik, kavrama ve d
 
 Yıldızlar Grup DSG Servisi; üretici tavsiyelerine uygun yağ/filtre değişimi, adaptasyon ve yol testini birlikte uygular. DSG yağ değişiminde sadece yağ dolumu yeterli değildir; filtre değişimi, adaptasyon sıfırlama ve yol testi mutlaka yapılmalıdır. Eski yağdaki metal partiküller filtrede birikir; yeni yağla eski filtre kullanılırsa hızla kirlenme tekrarlar.
 
-<div class="uzman-tavsiyesi">💡 UZMAN TAVSİYESİ: DSG yağ değişiminde mutlaka orijinal spesifikasyon yağ kullanın. Yanlış yağ, mekatronik arızasına ve kavrama hasarına yol açar; tamir maliyeti 15.000–25.000₺ olabilir.</div>
+<div class="uzman-tavsiyesi">💡 UZMAN TAVSİYESİ: DSG yağ değişiminde mutlaka orijinal spesifikasyon yağ kullanın. Yanlış yağ, mekatronik arızasına ve kavrama hasarına yol açar; tamir maliyeti uygun maliyetler olabilir.</div>
 
 <div class="cta-box">
   <strong>DSG yağ değişimi için:</strong>
@@ -62,9 +61,9 @@ Yıldızlar Grup DSG Servisi; üretici tavsiyelerine uygun yağ/filtre değişim
 
 | DSG Tipi | Yağ + Filtre | İşçilik | Toplam | Periyot |
 | --- | ---: | ---: | ---: | --- |
-| 7 İleri Kuru DSG (DQ200) | 2.200–4.000₺ | 900–1.800₺ | 3.100–5.800₺ | 60.000 km |
-| 6 İleri Islak DSG (DQ250) | 2.400–4.200₺ | 900–1.800₺ | 3.300–6.000₺ | 80.000 km |
-| 7 İleri Islak DSG (DQ381/DQ500) | 2.800–4.800₺ | 1.200–2.200₺ | 4.000–7.000₺ | 80.000 km |
+| 7 İleri Kuru DSG (DQ200) | 📞 Fiyat Sorunuz | 900–uygun fiyat | 📞 Fiyat Sorunuz | 60.000 km |
+| 6 İleri Islak DSG (DQ250) | 📞 Fiyat Sorunuz | 900–uygun fiyat | 📞 Fiyat Sorunuz | 80.000 km |
+| 7 İleri Islak DSG (DQ381/DQ500) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 80.000 km |
 
 <p class="note"><em>Not:</em> Ağır kullanımda (taksi, kurye, yoğun trafik) periyotları 40.000–50.000 km'ye düşürün.</p>
 
@@ -187,3 +186,4 @@ Spesifikasyon uygunsa kaliteli markalar (Shell, Castrol, Mobil) kullanılabilir.
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
+

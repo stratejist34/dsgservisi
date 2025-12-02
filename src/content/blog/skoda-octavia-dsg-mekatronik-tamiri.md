@@ -19,7 +19,6 @@ serviceName: "Skoda Octavia DSG Mekatronik Tamiri"
 serviceType: "DSG Mekatronik Tamiri"
 serviceDescription: "Skoda Octavia DSG mekatronik arızalarında uzman teşhis ve tamir."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/skoda-octavia-dsg-mekatronik-tamiri"
 
 ---
 
@@ -60,7 +59,7 @@ Skoda Octavia, Volkswagen Grubu'nun MQB platformunda üretilen popüler bir C-se
 </p>
 
 <p>
-DSG mekatronik arızası, şanzıman beyni olarak çalışan ünitenin elektronik valfler, hidrolik solenoidler ve kontrol modülünden kaynaklanır. Octavia III (2013-günümüz) modellerinde DQ200 mekatronik arızası %52 oranla en yaygındır; belirtileri vites takılma, acil mod (limp mode), "PRNDS" ışıklarının yanıp sönmesi ve şanzıman ikaz lambasıdır. DQ250'de ise hidrolik pompa ve valf body sorunları %41 yaygınlık gösterir. Tamir maliyetleri yetkili serviste 25.000-45.000₺ iken, Yıldızlar Grup'ta uzman onarım ile %50-60 tasarruf sağlanır. Düzenli DSG yağ değişimi (40.000-60.000 km) arıza riskini %70 azaltır.
+DSG mekatronik arızası, şanzıman beyni olarak çalışan ünitenin elektronik valfler, hidrolik solenoidler ve kontrol modülünden kaynaklanır. Octavia III (2013-günümüz) modellerinde DQ200 mekatronik arızası %52 oranla en yaygındır; belirtileri vites takılma, acil mod (limp mode), "PRNDS" ışıklarının yanıp sönmesi ve şanzıman ikaz lambasıdır. DQ250'de ise hidrolik pompa ve valf body sorunları %41 yaygınlık gösterir. Tamir maliyetleri yetkili serviste uygun maliyetler iken, Yıldızlar Grup'ta uzman onarım ile %50-60 tasarruf sağlanır. Düzenli DSG yağ değişimi (40.000-60.000 km) arıza riskini %70 azaltır.
 </p>
 
 <p>
@@ -84,7 +83,7 @@ Mekatronik arızalarının %70'i elektronik (solenoid kısa devre, sensör hatas
 </p>
 
 <p>
-Skoda Octavia vRS (2.0 TSI 220 PS) gibi performans modellerinde mekatronik yükü artar; yüksek tork (350 Nm) valf body'yi zorlar. Teşhis için VCDS ile hata kodları (P17BF, P0841) okunur. Mekatronik değişimi yerine onarım, maliyeti %60 düşürür (15.000₺ vs 35.000₺). Servisimizde mekatronik test tezgahı ile %100 doğrulukta teşhis yapılır.
+Skoda Octavia vRS (2.0 TSI 220 PS) gibi performans modellerinde mekatronik yükü artar; yüksek tork (350 Nm) valf body'yi zorlar. Teşhis için VCDS ile hata kodları (P17BF, P0841) okunur. Mekatronik değişimi yerine onarım, maliyeti %60 düşürür (uygun fiyat vs uygun fiyat). Servisimizde mekatronik test tezgahı ile %100 doğrulukta teşhis yapılır.
 </p>
 
 <h2>Skoda Octavia DSG Mekatronik Arıza Belirtileri ve Teşhis Yöntemleri</h2>
@@ -98,7 +97,7 @@ Teşhis yöntemleri: İlk adım OBD-II taramasıdır; VCDS cihazı ile hata kodl
 </p>
 
 <p>
-Arıza nedenleri: Yağ kirlenmesi (%52), aşırı ısınma (%29), yazılım uyumsuzluğu (%18) ve mekanik aşınma (%41). Octavia Combi station wagon modellerinde bagaj yükü mekatronik titreşimini artırır. Teşhis süresi 1-2 saat; erken müdahale ile tam şanzıman revizyonu önlenir (25.000₺ tasarruf). %70 vakada yazılım sıfırlama ve adaptasyon sorunu çözer.
+Arıza nedenleri: Yağ kirlenmesi (%52), aşırı ısınma (%29), yazılım uyumsuzluğu (%18) ve mekanik aşınma (%41). Octavia Combi station wagon modellerinde bagaj yükü mekatronik titreşimini artırır. Teşhis süresi 1-2 saat; erken müdahale ile tam şanzıman revizyonu önlenir (uygun fiyat tasarruf). %70 vakada yazılım sıfırlama ve adaptasyon sorunu çözer.
 </p>
 
 <table>
@@ -131,11 +130,11 @@ Skoda Octavia'da kullanılan DQ200 (kuru tip) ve DQ250 (ıslak tip) DSG şanzım
 </p>
 
 <p>
-DQ200 mekatronik arızaları: Valf body elektrik kısa devresi (%52), sensör kablolama aşınması (%38), adaptasyon kaybı (%29). Belirtiler: 1-2 vites arası sarsıntı, rölantide titreme, yakıt tüketiminde %15 artış. Tamir: Valf temizliği 8.000-12.000₺, solenoid değişimi 5.000-9.000₺, tam mekatronik yenileme 15.000-22.000₺. DQ200'de yağsız çalışma debriyaj tozunu mekatronik'e taşır; 60.000 km'de adaptasyon şarttır.
+DQ200 mekatronik arızaları: Valf body elektrik kısa devresi (%52), sensör kablolama aşınması (%38), adaptasyon kaybı (%29). Belirtiler: 1-2 vites arası sarsıntı, rölantide titreme, yakıt tüketiminde %15 artış. Tamir: Valf temizliği uygun maliyetler, solenoid değişimi uygun maliyetler, tam mekatronik yenileme uygun maliyetler. DQ200'de yağsız çalışma debriyaj tozunu mekatronik'e taşır; 60.000 km'de adaptasyon şarttır.
 </p>
 
 <p>
-DQ250 mekatronik arızaları: Hidrolik pompa aşınması (%41), valf bloğu tıkanıklığı (%35), tork konvertör entegrasyonu hatası (%24). Belirtiler: 4. vites sonrası takılma, 4x4 modunda güç kaybı, hidrolik sızıntı (yağ lekesi). Tamir: Pompa revizyonu 10.000-16.000₺, valf body onarımı 12.000-18.000₺, komple ünite değişimi 20.000-30.000₺. DQ250'de yağ değişimi (ATF) 40.000 km'de zorunludur; kirli yağ pompa ömrünü %50 kısaltır.
+DQ250 mekatronik arızaları: Hidrolik pompa aşınması (%41), valf bloğu tıkanıklığı (%35), tork konvertör entegrasyonu hatası (%24). Belirtiler: 4. vites sonrası takılma, 4x4 modunda güç kaybı, hidrolik sızıntı (yağ lekesi). Tamir: Pompa revizyonu uygun maliyetler, valf body onarımı uygun maliyetler, komple ünite değişimi uygun maliyetler. DQ250'de yağ değişimi (ATF) 40.000 km'de zorunludur; kirli yağ pompa ömrünü %50 kısaltır.
 </p>
 
 <table>
@@ -143,10 +142,10 @@ DQ250 mekatronik arızaları: Hidrolik pompa aşınması (%41), valf bloğu tık
     <tr><th>Şanzıman Tipi</th><th>Modeller</th><th>Yaygın Arıza</th><th>Maliyet</th><th>Km Aralığı</th></tr>
   </thead>
   <tbody>
-    <tr><td>DQ200 (Kuru)</td><td>1.4 TSI, 1.6 TDI</td><td>Valf body (%52)</td><td>8.000-22.000₺</td><td>80.000-140.000 km</td></tr>
-    <tr><td>DQ250 (Islak)</td><td>2.0 TDI, vRS</td><td>Hidrolik pompa (%41)</td><td>10.000-30.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>DQ200 (4x4)</td><td>Octavia Scout</td><td>Sensör hatası (%38)</td><td>9.000-20.000₺</td><td>90.000-150.000 km</td></tr>
-    <tr><td>DQ250 RS</td><td>2.0 TSI vRS</td><td>Tork konvertör (%24)</td><td>15.000-28.000₺</td><td>120.000-200.000 km</td></tr>
+    <tr><td>DQ200 (Kuru)</td><td>1.4 TSI, 1.6 TDI</td><td>Valf body (%52)</td><td>uygun maliyetler</td><td>80.000-140.000 km</td></tr>
+    <tr><td>DQ250 (Islak)</td><td>2.0 TDI, vRS</td><td>Hidrolik pompa (%41)</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>DQ200 (4x4)</td><td>Octavia Scout</td><td>Sensör hatası (%38)</td><td>uygun maliyetler</td><td>90.000-150.000 km</td></tr>
+    <tr><td>DQ250 RS</td><td>2.0 TSI vRS</td><td>Tork konvertör (%24)</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
   </tbody>
 </table>
 
@@ -161,11 +160,11 @@ Skoda Octavia DSG mekatronik tamiri, Yıldızlar Grup'ta 5 aşamalı profesyonel
 </p>
 
 <p>
-Kullanılan ekipman: ZF onaylı test tezgahı, Bosch solenoid tester, hidrolik basınç ölçer. Parçalar orijinal veya OEM (ZF, Luk, Sachs); ithal parça gecikmesi önlenir. Tamir sonrası 12 ay/20.000 km garanti, sınırsız km opsiyonu +3.000₺. Maliyet analizi: Basit valf temizliği 6.000-9.000₺, orta seviye solenoid değişimi 10.000-15.000₺, kapsamlı mekatronik yenileme 18.000-25.000₺. Yetkili servis fiyatlarının %60'ı; parça+işçilik ayrımı şeffaftır.
+Kullanılan ekipman: ZF onaylı test tezgahı, Bosch solenoid tester, hidrolik basınç ölçer. Parçalar orijinal veya OEM (ZF, Luk, Sachs); ithal parça gecikmesi önlenir. Tamir sonrası 12 ay/20.000 km garanti, sınırsız km opsiyonu +uygun fiyat. Maliyet analizi: Basit valf temizliği uygun maliyetler, orta seviye solenoid değişimi uygun maliyetler, kapsamlı mekatronik yenileme uygun maliyetler. Yetkili servis fiyatlarının %60'ı; parça+işçilik ayrımı şeffaftır.
 </p>
 
 <p>
-Maliyet etkileyen faktörler: Arıza şiddeti (%40), model yılı (%25), km (%20), 4x4 varlığı (%15). Octavia III 2013-2017 modelleri en ucuz tamir edilir (yedek parça bol). RS modellerinde performans parçaları +%20 maliyet artırır. Ödeme: Peşin %10 indirim, taksit (2-6 ay) faizsiz. Karşılaştırma: Yetkili servis 35.000-50.000₺ + uzun bekleme; bizde hızlı ve ekonomik.
+Maliyet etkileyen faktörler: Arıza şiddeti (%40), model yılı (%25), km (%20), 4x4 varlığı (%15). Octavia III 2013-2017 modelleri en ucuz tamir edilir (yedek parça bol). RS modellerinde performans parçaları +%20 maliyet artırır. Ödeme: Peşin %10 indirim, taksit (2-6 ay) faizsiz. Karşılaştırma: Yetkili servis uygun maliyetler + uzun bekleme; bizde hızlı ve ekonomik.
 </p>
 
 <table>
@@ -173,16 +172,16 @@ Maliyet etkileyen faktörler: Arıza şiddeti (%40), model yılı (%25), km (%20
     <tr><th>Tamir Türü</th><th>Açıklama</th><th>Maliyet</th><th>Süre</th><th>Garanti</th></tr>
   </thead>
   <tbody>
-    <tr><td>Valf Temizliği</td><td>Yağ flush + solenoid test</td><td>6.000-9.000₺</td><td>4-6 saat</td><td>12 ay</td></tr>
-    <tr><td>Solenoid Değişimi</td><td>2-4 valf yenileme</td><td>10.000-15.000₺</td><td>6-8 saat</td><td>18 ay</td></tr>
-    <tr><td>Hidrolik Pompa</td><td>Pompa revizyonu + valf</td><td>12.000-18.000₺</td><td>8-10 saat</td><td>18 ay</td></tr>
-    <tr><td>Komple Yenileme</td><td>Tüm ünite onarımı</td><td>18.000-25.000₺</td><td>10-12 saat</td><td>24 ay</td></tr>
-    <tr><td>Yazılım + Adaptasyon</td><td>ECU güncelleme</td><td>4.000-7.000₺</td><td>2-3 saat</td><td>12 ay</td></tr>
+    <tr><td>Valf Temizliği</td><td>Yağ flush + solenoid test</td><td>uygun maliyetler</td><td>4-6 saat</td><td>12 ay</td></tr>
+    <tr><td>Solenoid Değişimi</td><td>2-4 valf yenileme</td><td>uygun maliyetler</td><td>6-8 saat</td><td>18 ay</td></tr>
+    <tr><td>Hidrolik Pompa</td><td>Pompa revizyonu + valf</td><td>uygun maliyetler</td><td>8-10 saat</td><td>18 ay</td></tr>
+    <tr><td>Komple Yenileme</td><td>Tüm ünite onarımı</td><td>uygun maliyetler</td><td>10-12 saat</td><td>24 ay</td></tr>
+    <tr><td>Yazılım + Adaptasyon</td><td>ECU güncelleme</td><td>uygun maliyetler</td><td>2-3 saat</td><td>12 ay</td></tr>
   </tbody>
 </table>
 
 <p>
-Tamir sonrası bakım: 1.000 km'de kontrol, DSG yağı her 40.000 km. %95 başarı oranı; nadir vakalarda şanzıman revizyonu önerilir (30.000-45.000₺).
+Tamir sonrası bakım: 1.000 km'de kontrol, DSG yağı her 40.000 km. %95 başarı oranı; nadir vakalarda şanzıman revizyonu önerilir (Fiyat Sorunuz).
 </p>
 
 <h2>Skoda Octavia Model Bazlı DSG Mekatronik Sorunları</h2>
@@ -218,15 +217,15 @@ Combi station wagon'larda bagaj yükü titreşimi artırır (%25 ek risk). Dizel
 <h2>Skoda Octavia DSG Bakım Önerileri ve Önleme Yöntemleri</h2>
 
 <p>
-Skoda Octavia DSG mekatronik ömrünü uzatmak için düzenli bakım esastır. İlk bakım 40.000 km'de DSG yağı ve filtresi değişimi (DQ200 için kuru tip bakım sınırlı, DQ250 için ATF 5.000-7.000₺). Adaptasyon testi VCDS ile yılda 1 kez; hata kodlarını sıfırlar ve verimliliği artırır. Sürüş tarzı: Ani gaz-frenlerden kaçının, römork çekerken tork limiter kullanın. Isınma önleme: Yazın uzun yolda mola verin, kışın yağ vizkozitesini kontrol edin.
+Skoda Octavia DSG mekatronik ömrünü uzatmak için düzenli bakım esastır. İlk bakım 40.000 km'de DSG yağı ve filtresi değişimi (DQ200 için kuru tip bakım sınırlı, DQ250 için ATF uygun maliyetler). Adaptasyon testi VCDS ile yılda 1 kez; hata kodlarını sıfırlar ve verimliliği artırır. Sürüş tarzı: Ani gaz-frenlerden kaçının, römork çekerken tork limiter kullanın. Isınma önleme: Yazın uzun yolda mola verin, kışın yağ vizkozitesini kontrol edin.
 </p>
 
 <p>
-Önleme yöntemleri: 1. Yağ kalitesi - Orijinal VW G 052 182 yağı kullanın (sahte yağ %40 arıza artırır). 2. Yazılım güncellemeleri - Skoda bayisinden periyodik download. 3. Debriyaj kullanımı - Manuel modda yumuşak vites. 4. Teşhis rutinleri - Her 20.000 km OBD tarama. 5. Aksesuarlar - Mekatronik soğutucu radyatör (vRS için önerilir, 2.000₺). Bu yöntemler arıza riskini %75 azaltır; ömür 200.000 km'ye çıkar.
+Önleme yöntemleri: 1. Yağ kalitesi - Orijinal VW G 052 182 yağı kullanın (sahte yağ %40 arıza artırır). 2. Yazılım güncellemeleri - Skoda bayisinden periyodik download. 3. Debriyaj kullanımı - Manuel modda yumuşak vites. 4. Teşhis rutinleri - Her 20.000 km OBD tarama. 5. Aksesuarlar - Mekatronik soğutucu radyatör (vRS için önerilir, uygun fiyat). Bu yöntemler arıza riskini %75 azaltır; ömür 200.000 km'ye çıkar.
 </p>
 
 <p>
-Maliyet etkin bakım: Yıllık 3.000-5.000₺ ile önlenir 20.000₺'lik tamir. Octavia filosu sahipleri için toplu bakım paketi %20 indirimli. Servisimizde bakım sonrası rapor ve hatırlatma SMS'i gönderilir.
+Maliyet etkin bakım: Yıllık uygun maliyetler ile önlenir uygun fiyat'lik tamir. Octavia filosu sahipleri için toplu bakım paketi %20 indirimli. Servisimizde bakım sonrası rapor ve hatırlatma SMS'i gönderilir.
 </p>
 
 <table>
@@ -234,11 +233,11 @@ Maliyet etkin bakım: Yıllık 3.000-5.000₺ ile önlenir 20.000₺'lik tamir. 
     <tr><th>Bakım Periyodu</th><th>İşlem</th><th>Maliyet</th><th>Fayda</th></tr>
   </thead>
   <tbody>
-    <tr><td>40.000 km</td><td>Yağ + filtre değişimi</td><td>5.000-7.000₺</td><td>%50 arıza önleme</td></tr>
-    <tr><td>Her yıl</td><td>Adaptasyon testi</td><td>1.500-2.500₺</td><td>Erken teşhis</td></tr>
-    <tr><td>80.000 km</td><td>Valf temizliği</td><td>4.000-6.000₺</td><td>%40 ömür uzatma</td></tr>
-    <tr><td>100.000 km</td><td>Komple flush</td><td>8.000-12.000₺</td><td>%70 risk azaltma</td></tr>
-    <tr><td>Yazlık</td><td>Soğutma kontrolü</td><td>1.000-2.000₺</td><td>Isınma önleme</td></tr>
+    <tr><td>40.000 km</td><td>Yağ + filtre değişimi</td><td>uygun maliyetler</td><td>%50 arıza önleme</td></tr>
+    <tr><td>Her yıl</td><td>Adaptasyon testi</td><td>uygun maliyetler</td><td>Erken teşhis</td></tr>
+    <tr><td>80.000 km</td><td>Valf temizliği</td><td>uygun maliyetler</td><td>%40 ömür uzatma</td></tr>
+    <tr><td>100.000 km</td><td>Komple flush</td><td>uygun maliyetler</td><td>%70 risk azaltma</td></tr>
+    <tr><td>Yazlık</td><td>Soğutma kontrolü</td><td>uygun maliyetler</td><td>Isınma önleme</td></tr>
   </tbody>
 </table>
 
@@ -251,22 +250,22 @@ Maliyet etkin bakım: Yıllık 3.000-5.000₺ ile önlenir 20.000₺'lik tamir. 
 <p>Tamir süresi 8-12 saat; teşhis 1 saat, söküm 2-3 saat, onarım 3-4 saat, montaj 1-2 saat, test 30 dakika. Aynı gün teslim; yoğunlukta ertesi gün. Garanti 12-24 ay, km sınırı yok. Yetkili servis 3-5 gün bekletir.</p>
 
 <p><strong>Skoda Octavia DQ200 mekatronik tamiri maliyeti nedir?</strong></p>
-<p>DQ200 tamiri: Valf temizliği 6.000-9.000₺, solenoid değişimi 10.000-15.000₺, komple yenileme 15.000-22.000₺. Yetkili 30.000-40.000₺. Maliyet arızaya göre değişir; valf body %52 vakada ana sorun. Orijinal parça ile %95 başarı.</p>
+<p>DQ200 tamiri: Valf temizliği uygun maliyetler, solenoid değişimi uygun maliyetler, komple yenileme uygun maliyetler. Yetkili uygun maliyetler. Maliyet arızaya göre değişir; valf body %52 vakada ana sorun. Orijinal parça ile %95 başarı.</p>
 
 <p><strong>DQ250 mekatronik arızası nasıl önlenir?</strong></p>
-<p>Önleme: 40.000 km'de ATF yağ değişimi (5.000₺), yıllık adaptasyon (1.500₺), yumuşak sürüş. Pompa aşınması (%41) yağ kirinden; orijinal VW yağı kullanın. 4x4 modellerde diferansiyel yağı 60.000 km'de değişin. Risk %75 azalır.</p>
+<p>Önleme: 40.000 km'de ATF yağ değişimi (uygun fiyat), yıllık adaptasyon (uygun fiyat), yumuşak sürüş. Pompa aşınması (%41) yağ kirinden; orijinal VW yağı kullanın. 4x4 modellerde diferansiyel yağı 60.000 km'de değişin. Risk %75 azalır.</p>
 
 <p><strong>Skoda Octavia vRS DSG sorunları nelerdir?</strong></p>
-<p>vRS (2.0 TSI 220 PS): Solenoid ısınma (%45), tork konvertör hatası (%24), yüksek tork (350 Nm) valf yükü. Tamir 18.000-28.000₺; soğutma kiti önerilir (2.000₺). Performans sürüşü ömrü 80.000 km'ye düşürür.</p>
+<p>vRS (2.0 TSI 220 PS): Solenoid ısınma (%45), tork konvertör hatası (%24), yüksek tork (350 Nm) valf yükü. Tamir uygun maliyetler; soğutma kiti önerilir (uygun fiyat). Performans sürüşü ömrü 80.000 km'ye düşürür.</p>
 
 <p><strong>Skoda Octavia DSG yağı ne zaman değiştirilmeli?</strong></p>
-<p>DQ200 kuru tipte yağ değişimi sınırlı (100.000 km'de flush 8.000₺), DQ250 ıslak tipte 40.000 km (5.000-7.000₺). Skoda "ömür boyu" dese de kirlenme valf arızası yapar (%52). Değişmezse tamir 20.000₺ olur.</p>
+<p>DQ200 kuru tipte yağ değişimi sınırlı (100.000 km'de flush uygun fiyat), DQ250 ıslak tipte 40.000 km (Fiyat Sorunuz). Skoda "ömür boyu" dese de kirlenme valf arızası yapar (%52). Değişmezse tamir uygun fiyat olur.</p>
 
 <p><strong>Skoda Octavia 4x4 Scout mekatronik tamiri mümkün mü?</strong></p>
-<p>Evet, DQ250 4Motion tamiri diferansiyel entegrasyonuyla yapılır (12.000-20.000₺). Haldex pompa senkronu kontrol edilir. 4x4 modunda güç kaybı pompa arızasıdır (%35). Garanti 18 ay; yol testi off-road simülasyonu içerir.</p>
+<p>Evet, DQ250 4Motion tamiri diferansiyel entegrasyonuyla yapılır (Fiyat Sorunuz). Haldex pompa senkronu kontrol edilir. 4x4 modunda güç kaybı pompa arızasıdır (%35). Garanti 18 ay; yol testi off-road simülasyonu içerir.</p>
 
 <p><strong>Skoda Octavia DSG adaptasyon testi nedir?</strong></p>
-<p>Adaptasyon, VCDS ile debriyaj ve valf kalibrasyonu; hata sıfırlar, geçişi iyileştirir (1.500-2.500₺). 60.000 km'de zorunlu; %70 arızayı önler. Yazılım güncellemesi entegre edilebilir (ek 1.000₺).</p>
+<p>Adaptasyon, VCDS ile debriyaj ve valf kalibrasyonu; hata sıfırlar, geçişi iyileştirir (Fiyat Sorunuz). 60.000 km'de zorunlu; %70 arızayı önler. Yazılım güncellemesi entegre edilebilir (ek uygun fiyat).</p>
 
 <p><strong>Mekatronik tamiri sonrası nelere dikkat edilmeli?</strong></p>
 <p>İlk 500 km yumuşak sürüş, 1.000 km'de kontrol. Yağ seviyesini izleyin, ani yükten kaçının. Garanti ihlali: Modifiye parça kullanımı. Yıldızlar Grup takip SMS'i gönderir; sorun olursa ücretsiz revizyon.</p>
@@ -295,3 +294,4 @@ Yıldızlar Grup DSG Servisi, Beykent Sanayi Sitesi Meriç Sk. No: 179-180 Büy�
 </div>
 
 <p><a href="/dsg-sanziman-tamiri/">DSG şanzıman tamiri</a> | <a href="/dsg-mekatronik-tamiri/">DSG mekatronik tamiri</a> | <a href="/dsg-volant-degisimi/">DSG volant değişimi</a> | <a href="/sanziman-yenileme/">Şanzıman yenileme</a> | <a href="/sanziman-revizyonu/">Şanzıman revizyonu</a></p>
+

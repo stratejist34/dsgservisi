@@ -17,7 +17,6 @@ serviceName: "Büyükçekmece Audi Servis"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Büyükçekmece bölgesine Audi DSG/S‑Tronic, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Büyükçekmece", "İstanbul", "Avrupa Yakası"]
-offerUrl: "/buyukcekmece-audi-servis"
 
 ---
 
@@ -70,7 +69,7 @@ Merkezi konumumuz sayesinde Büyükçekmece'den gelen müşteriler için aynı g
 
 ### Şeffaf Fiyatlandırma
 
-Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Audi Servis Hizmetlerimiz (Büyükçekmece)
 
@@ -89,62 +88,62 @@ Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası ne
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200/DQ250 mekatronik arızası | %33 | 8.500–17.000₺ | 80.000–150.000 km |
-| 2.0 TDI DPF tıkanması | %44 | 9.000–23.000₺ | 80.000–140.000 km |
-| 1.4 TFSI timing zincir gevşemesi | %29 | 7.000–13.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme/geometri | %26 | 9.000–19.000₺ | 100.000–180.000 km |
-| Su pompası/termostat arızası | %23 | 2.500–5.000₺ | 80.000–120.000 km |
+| DSG DQ200/DQ250 mekatronik arızası | %33 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 2.0 TDI DPF tıkanması | %44 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| 1.4 TFSI timing zincir gevşemesi | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme/geometri | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Su pompası/termostat arızası | %23 | 📞 Fiyat Sorunuz | 80.000–120.000 km |
 
 ### Audi A4 (B8, B9) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic (DL501) mekatronik/kavrama | %31 | 12.000–24.000₺ | 100.000–180.000 km |
-| 2.0 TDI timing zincir gerginliği | %35 | 8.500–16.000₺ | 100.000–180.000 km |
-| AdBlue sistemi sensör/pompa | %39 | 4.500–11.000₺ | 80.000–150.000 km |
-| Turbo wastegate/geometri | %28 | 10.000–21.000₺ | 100.000–180.000 km |
-| Klima kompresör arızası | %20 | 7.000–13.000₺ | 100.000–180.000 km |
+| S‑Tronic (DL501) mekatronik/kavrama | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI timing zincir gerginliği | %35 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| AdBlue sistemi sensör/pompa | %39 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo wastegate/geometri | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Klima kompresör arızası | %20 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Audi Q5 (8R, FY) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic şanzıman mekatronik/kavrama | %34 | 13.000–26.000₺ | 100.000–180.000 km |
-| DPF tıkanması (dizel) | %46 | 10.000–24.000₺ | 80.000–150.000 km |
-| Quattro Haldex pompa arızası | %27 | 6.000–12.000₺ | 100.000–180.000 km |
-| Hava süspansiyon kompresör | %24 | 13.000–26.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme | %22 | 11.000–22.000₺ | 120.000–200.000 km |
+| S‑Tronic şanzıman mekatronik/kavrama | %34 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| DPF tıkanması (dizel) | %46 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Quattro Haldex pompa arızası | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Hava süspansiyon kompresör | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme | %22 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
 
 ### Audi Q7 (4L, 4M) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman yağ kaçağı | %28 | 16.000–30.000₺ | 100.000–180.000 km |
-| 3.0 TDI DPF tıkanması | %42 | 11.000–25.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör/valf | %26 | 15.000–28.000₺ | 100.000–180.000 km |
-| AdBlue sistemi arızası | %37 | 6.500–14.000₺ | 80.000–150.000 km |
-| Turbo geometri/yağ besleme | %23 | 13.000–25.000₺ | 120.000–200.000 km |
+| ZF 8HP şanzıman yağ kaçağı | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 3.0 TDI DPF tıkanması | %42 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör/valf | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| AdBlue sistemi arızası | %37 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo geometri/yağ besleme | %23 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
 
 ### Audi A6 (C7, C8) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic şanzıman mekatronik | %32 | 13.000–25.000₺ | 100.000–180.000 km |
-| 2.0 TDI timing zincir gerginliği | %36 | 9.000–17.000₺ | 100.000–180.000 km |
-| AdBlue sistemi sensör/pompa | %40 | 5.000–12.000₺ | 80.000–150.000 km |
-| Turbo wastegate arızası | %29 | 11.000–22.000₺ | 120.000–200.000 km |
+| S‑Tronic şanzıman mekatronik | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI timing zincir gerginliği | %36 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| AdBlue sistemi sensör/pompa | %40 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo wastegate arızası | %29 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
 
-## Audi Periyodik Bakım Fiyatları 2025
+## Audi Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–7.500₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.000–11.000₺ | 30.000 km | Aynı gün |
-| S‑Tronic yağ değişimi | 5.500–9.500₺ | 60.000–80.000 km | Aynı gün |
-| ZF şanzıman yağ değişimi (Q7/Q8) | 7.000–13.000₺ | 80.000–120.000 km | Aynı gün |
-| DPF temizleme | 4.000–8.500₺ | 100.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.500–13.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 2.800–5.500₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| S‑Tronic yağ değişimi | 📞 Fiyat Sorunuz | 60.000–80.000 km | Aynı gün |
+| ZF şanzıman yağ değişimi (Q7/Q8) | 📞 Fiyat Sorunuz | 80.000–120.000 km | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 100.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Büyükçekmece'den Ulaşım
 
@@ -171,7 +170,7 @@ Büyükçekmece'nin tüm mahallelerinden arızalı Audi araçlarınız için üc
 
 - **15+ Yıl Deneyim:** Audi servisinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teşhis, 1-3 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Audi servisi
@@ -281,5 +280,6 @@ Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büy�
 
 ### Audi periyodik bakım fiyatları ne kadar?
 
-Audi periyodik bakım fiyatları bakım türüne göre değişir. Küçük bakım (yağ + filtre) 3.500–7.500₺, büyük bakım 6.000–11.000₺ arasındadır. Kesin fiyat teklifi için ön teşhis gereklidir.
+Audi periyodik bakım fiyatları bakım türüne göre değişir. Küçük bakım (yağ + filtre) uygun maliyetler, büyük bakım uygun maliyetler için servisimizden net fiyat alabilirsiniz. Kesin servis teklifi için ön teşhis gereklidir.
+
 

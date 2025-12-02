@@ -1,8 +1,8 @@
 ---
 title: "Golf Bakım Hizmetleri"
-description: "Volkswagen Golf bakım hizmetleri: Periyodik bakım, ağır bakım, DSG bakımı, motor bakımı, fren bakımı fiyatları. Golf 7, Golf 8 modellerinde tüm bakım hizmetleri."
+description: "Volkswagen Golf bakım hizmetleri: Periyodik bakım, ağır bakım, DSG bakımı, motor bakımı, fren bakımı hizmetleri. Golf 7, Golf 8 modellerinde tüm bakım hizmetleri."
 category: "Volkswagen"
-tags: ["volkswagen", "golf", "bakım", "periyodik bakım", "ağır bakım", "dsg bakımı", "fiyat"]
+tags: ["volkswagen", "golf", "bakım", "periyodik bakım", "ağır bakım", "dsg bakımı"]
 slug: "golf-bakim-hizmetleri"
 publishDate: "2025-11-15T15:25:00+03:00"
 updatedDate: "2025-11-15T15:25:00+03:00"
@@ -17,10 +17,6 @@ serviceName: "Volkswagen Golf Bakım Hizmetleri"
 serviceType: "Araç Bakımı"
 serviceDescription: "Volkswagen Golf araçlarında periyodik bakım, ağır bakım, DSG bakımı hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 3500
-highPrice: 22000
-priceCurrency: "TRY"
-offerUrl: "/golf-bakim-hizmetleri"
 
 ---
 
@@ -30,7 +26,7 @@ Volkswagen Golf bakımı, aracın ömrünü uzatan ve büyük arızaları önley
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Golf bakımında erken müdahale %50'ye varan maliyet tasarrufu sağlar. DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalıdır (4.500-7.500₺). Değişmezse mekatronik arızası 8.500-16.000₺. DSG DQ250 yağ değişimi 80.000 km'de yapılmalıdır (5.500-8.500₺). 1.4 TSI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 6.500-11.000₺. 2.0 TDI DPF temizleme 100.000 km'de yapılmalıdır (8.000-20.000₺). Golf GTI gibi sportif modellerde DSG aşınması %40 hızlanır.
+**UZMAN TAVSİYESİ:** Golf bakımında erken müdahale %50'ye varan maliyet tasarrufu sağlar. DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalıdır (Fiyat Sorunuz). Değişmezse mekatronik arızası uygun maliyetler. DSG DQ250 yağ değişimi 80.000 km'de yapılmalıdır (Fiyat Sorunuz). 1.4 TSI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa uygun maliyetler. 2.0 TDI DPF temizleme 100.000 km'de yapılmalıdır (Fiyat Sorunuz). Golf GTI gibi sportif modellerde DSG aşınması %40 hızlanır.
 
 :::
 
@@ -48,15 +44,15 @@ Volkswagen Golf bakımı, aracın ömrünü uzatan ve büyük arızaları önley
 
 | Bakım Türü | Maliyet | Periyot | Süre | Model |
 | --- | ---: | --- | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–6.500₺ | 15.000 km | Aynı gün | Golf 7, 8 |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.000–10.000₺ | 30.000 km | Aynı gün | Golf 7, 8 |
-| DSG DQ200 yağ değişimi | 4.500–7.500₺ | 60.000 km | Aynı gün | Golf 7, 8 |
-| DSG DQ250 yağ değişimi | 5.500–8.500₺ | 80.000 km | Aynı gün | Golf GTI |
-| DSG DQ381 yağ değişimi | 6.000–9.000₺ | 80.000 km | Aynı gün | Golf 8 |
-| Fren balata (ön/arka) | 6.000–12.000₺ | 50.000–70.000 km | Aynı gün | Golf 7, 8 |
-| DPF temizleme (2.0 TDI) | 8.000–20.000₺ | 100.000 km | 1-2 gün | Golf 7, 8 TDI |
-| Timing zincir (1.4 TSI) | 6.500–11.000₺ | 100.000–180.000 km | 2-3 gün | Golf 7, 8 TSI |
-| Klima bakım | 2.500–5.000₺ | Yıllık | Aynı gün | Golf 7, 8 |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün | Golf 7, 8 |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün | Golf 7, 8 |
+| DSG DQ200 yağ değişimi | 📞 Fiyat Sorunuz | 60.000 km | Aynı gün | Golf 7, 8 |
+| DSG DQ250 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün | Golf GTI |
+| DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün | Golf 8 |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün | Golf 7, 8 |
+| DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | 100.000 km | 1-2 gün | Golf 7, 8 TDI |
+| Timing zincir (1.4 TSI) | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün | Golf 7, 8 TSI |
+| Klima bakım | 📞 Fiyat Sorunuz | Yıllık | Aynı gün | Golf 7, 8 |
 
 ## Periyodik Bakım Hizmetleri
 
@@ -66,11 +62,11 @@ Küçük bakım, motor yağı ve yağ filtresi değişimini içerir. Golf araçl
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| Motor yağı değişimi | 2.500–4.500₺ | Orijinal motor yağı (5W-30, 5W-40) |
+| Motor yağı değişimi | 📞 Fiyat Sorunuz | Orijinal motor yağı (5W-30, 5W-40) |
 | Yağ filtresi değişimi | 300–600₺ | Orijinal yağ filtresi |
 | Genel kontrol | Ücretsiz | Yağ seviyesi, sıvılar, lastikler |
 | OBD-II hata taraması | Ücretsiz | Elektronik hata kontrolü |
-| **TOPLAM** | **3.500–6.500₺** | **Tüm işlemler dahil** |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **Küçük Bakım Önemi:**
 - Motor yağı değişimi motor ömrünü uzatır
@@ -83,12 +79,12 @@ Büyük bakım, küçük bakıma ek olarak hava filtresi, polen filtresi ve yak�
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| Küçük bakım paketi | 3.500–6.500₺ | Yukarıdaki tüm işlemler |
-| Hava filtresi değişimi | 500–1.000₺ | Motor hava filtresi |
+| Küçük bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
+| Hava filtresi değişimi | 500–uygun fiyat | Motor hava filtresi |
 | Polen filtresi değişimi | 400–800₺ | Kabin hava filtresi |
-| Yakıt filtresi değişimi (TDI) | 600–1.200₺ | Dizel yakıt filtresi |
+| Yakıt filtresi değişimi (TDI) | 600–uygun fiyat | Dizel yakıt filtresi |
 | Genel kontrol ve hata taraması | Ücretsiz | Detaylı kontrol |
-| **TOPLAM** | **6.000–10.000₺** | **Tüm işlemler dahil** |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **Büyük Bakım Önemi:**
 - Hava filtresi motor performansını korur
@@ -103,14 +99,14 @@ Golf 7 ve Golf 8 modellerde DQ200 (7 ileri kuru kavrama) şanzıman kullanılır
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DSG yağ değişimi | 4.500–7.500₺ | 2-3 saat |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 2-3 saat |
 | DSG filtre değişimi | Dahil | Dahil |
 | Mekatronik adaptasyonu | Dahil | Dahil |
 
 **DQ200 Yağ Değişimi Önemi:**
 - Yağ eskirse mekatronik arızası riski %40 artar
-- Mekatronik arızası 8.500-16.000₺
-- Erken yağ değişimi maliyeti 4.500-7.500₺
+- Mekatronik arızası uygun maliyetler
+- Erken yağ değişimi maliyeti uygun maliyetler
 - Şehir içi sık dur-kalkta kavrama aşınması %40 hızlanır
 
 ### DSG DQ250 Yağ Değişimi (80.000 km)
@@ -119,14 +115,14 @@ Golf GTI modellerde DQ250 (6 ileri ıslak kavrama) şanzıman kullanılır. DQ25
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DSG yağ değişimi | 5.500–8.500₺ | 2-3 saat |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 2-3 saat |
 | DSG filtre değişimi | Dahil | Dahil |
 | Mekatronik adaptasyonu | Dahil | Dahil |
 
 **DQ250 Yağ Değişimi Önemi:**
 - Golf GTI gibi sportif modellerde DSG aşınması %40 hızlanır
 - Yağ değişimi şanzıman ömrünü %50 uzatır
-- Mekatronik arızası 9.500-18.000₺
+- Mekatronik arızası uygun maliyetler
 
 ### DSG DQ381 Yağ Değişimi (80.000 km)
 
@@ -134,7 +130,7 @@ Golf 8 modellerde DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DSG yağ değişimi | 6.000–9.000₺ | 2-3 saat |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 2-3 saat |
 | DSG filtre değişimi | Dahil | Dahil |
 | Mekatronik adaptasyonu | Dahil | Dahil |
 
@@ -146,13 +142,13 @@ Golf 8 modellerde DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır.
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| DSG DQ200 yağ değişimi | 4.500–7.500₺ | Şanzıman yağı ve filtre değişimi |
-| Büyük bakım paketi | 6.000–10.000₺ | Motor yağı, filtreler |
+| DSG DQ200 yağ değişimi | 📞 Fiyat Sorunuz | Şanzıman yağı ve filtre değişimi |
+| Büyük bakım paketi | 📞 Fiyat Sorunuz | Motor yağı, filtreler |
 | Fren balata kontrolü | Ücretsiz | Ön/arka fren balata kontrolü |
-| Fren balata değişimi (gerekirse) | 6.000–12.000₺ | Ön/arka fren balata değişimi |
-| Klima bakımı | 2.500–5.000₺ | Klima gazı ve temizlik |
+| Fren balata değişimi (gerekirse) | 📞 Fiyat Sorunuz | Ön/arka fren balata değişimi |
+| Klima bakımı | 📞 Fiyat Sorunuz | Klima gazı ve temizlik |
 | Akü kontrolü | Ücretsiz | Akü voltaj ve şarj kontrolü |
-| **TOPLAM** | **9.000–15.000₺** | **Tüm işlemler dahil** |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 ### 90.000 km Ağır Bakım
 
@@ -160,13 +156,13 @@ Golf 8 modellerde DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır.
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| 60.000 km bakım paketi | 9.000–15.000₺ | Yukarıdaki tüm işlemler |
-| DPF temizleme (2.0 TDI) | 8.000–20.000₺ | Dizel partikül filtresi temizleme |
+| 60.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
+| DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | Dizel partikül filtresi temizleme |
 | Turbo kontrolü | Ücretsiz | Turbo basınç ve yağ kontrolü |
-| Turbo temizleme (gerekirse) | 4.000–9.000₺ | Turbo geometri temizleme |
-| Yakıt filtresi değişimi | 600–1.200₺ | Dizel yakıt filtresi |
+| Turbo temizleme (gerekirse) | 📞 Fiyat Sorunuz | Turbo geometri temizleme |
+| Yakıt filtresi değişimi | 600–uygun fiyat | Dizel yakıt filtresi |
 | AdBlue kontrolü (gerekirse) | Ücretsiz | AdBlue seviye ve kalite kontrolü |
-| **TOPLAM** | **12.500–22.000₺** | **Tüm işlemler dahil** |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 ### 120.000 km Ağır Bakım
 
@@ -174,14 +170,14 @@ Golf 8 modellerde DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır.
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| 90.000 km bakım paketi | 12.500–22.000₺ | Yukarıdaki tüm işlemler |
+| 90.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
 | Timing zincir kontrolü | Ücretsiz | 1.4 TSI timing zincir gerginlik kontrolü |
-| Timing zincir değişimi (gerekirse) | 6.500–11.000₺ | Timing zincir ve gergi değişimi |
+| Timing zincir değişimi (gerekirse) | 📞 Fiyat Sorunuz | Timing zincir ve gergi değişimi |
 | DSG kavrama kontrolü | Ücretsiz | DQ200/DQ250 kavrama aşınma kontrolü |
-| DSG kavrama değişimi (gerekirse) | 8.500–17.000₺ | DQ200/DQ250 kavrama değişimi |
+| DSG kavrama değişimi (gerekirse) | 📞 Fiyat Sorunuz | DQ200/DQ250 kavrama değişimi |
 | Su pompası kontrolü | Ücretsiz | Su pompası ve termostat kontrolü |
-| Su pompası değişimi (gerekirse) | 2.200–4.500₺ | Su pompası ve termostat değişimi |
-| **TOPLAM** | **15.000–25.000₺** | **Tüm işlemler dahil** |
+| Su pompası değişimi (gerekirse) | 📞 Fiyat Sorunuz | Su pompası ve termostat değişimi |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 ## Motor Tipine Göre Bakım Hizmetleri
 
@@ -189,29 +185,29 @@ Golf 8 modellerde DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır.
 
 | Bakım Türü | Özel İşlemler | Toplam Fiyat | Süre |
 | --- | --- | ---: | --- |
-| Küçük bakım | Motor yağı, filtre | 3.500–6.500₺ | Aynı gün |
-| Büyük bakım | Küçük bakım + hava, polen filtresi | 6.000–10.000₺ | Aynı gün |
-| 60.000 km bakım | DSG yağ, filtreler, fren | 9.000–15.000₺ | 1 gün |
-| 120.000 km bakım | 60.000 km + timing zincir | 15.000–25.000₺ | 2-3 gün |
+| Küçük bakım | Motor yağı, filtre | 📞 Fiyat Sorunuz | Aynı gün |
+| Büyük bakım | Küçük bakım + hava, polen filtresi | 📞 Fiyat Sorunuz | Aynı gün |
+| 60.000 km bakım | DSG yağ, filtreler, fren | 📞 Fiyat Sorunuz | 1 gün |
+| 120.000 km bakım | 60.000 km + timing zincir | 📞 Fiyat Sorunuz | 2-3 gün |
 
 **1.4 TSI Özel Notlar:**
 - Timing zincir kontrolü 100.000 km'de mutlaka yapılmalı
 - 2012-2017 arası modellerde timing zincir gerginliği fabrikasyon kusurdur
-- Timing zincir koparsa motor hasarı 15.000-30.000₺
+- Timing zincir koparsa motor hasarı uygun maliyetler
 
 ### 2.0 TDI Motor (Dizel) Bakım
 
 | Bakım Türü | Özel İşlemler | Toplam Fiyat | Süre |
 | --- | --- | ---: | --- |
-| Küçük bakım | Motor yağı, filtre | 3.500–6.500₺ | Aynı gün |
-| Büyük bakım | Küçük bakım + hava, polen, yakıt filtresi | 6.000–10.000₺ | Aynı gün |
-| 60.000 km bakım | DSG yağ, filtreler, fren | 9.000–15.000₺ | 1 gün |
-| 90.000 km bakım | 60.000 km + DPF temizleme | 12.500–22.000₺ | 1-2 gün |
+| Küçük bakım | Motor yağı, filtre | 📞 Fiyat Sorunuz | Aynı gün |
+| Büyük bakım | Küçük bakım + hava, polen, yakıt filtresi | 📞 Fiyat Sorunuz | Aynı gün |
+| 60.000 km bakım | DSG yağ, filtreler, fren | 📞 Fiyat Sorunuz | 1 gün |
+| 90.000 km bakım | 60.000 km + DPF temizleme | 📞 Fiyat Sorunuz | 1-2 gün |
 
 **2.0 TDI Özel Notlar:**
 - DPF temizleme 100.000 km'de mutlaka yapılmalı
 - DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar
-- DPF değişimi 18.000-28.000₺ (temizleme 8.000-20.000₺)
+- DPF değişimi uygun maliyetler (temizleme uygun maliyetler)
 
 ## Fren Bakım Hizmetleri
 
@@ -221,10 +217,10 @@ Fren balata değişimi güvenlik için kritiktir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Ön fren balata | 3.500–7.000₺ | Aynı gün |
-| Arka fren balata | 2.500–5.000₺ | Aynı gün |
-| Fren diski değişimi (gerekirse) | 4.000–8.000₺ | Aynı gün |
-| Fren hidroliği değişimi | 800–1.500₺ | Aynı gün |
+| Ön fren balata | 📞 Fiyat Sorunuz | Aynı gün |
+| Arka fren balata | 📞 Fiyat Sorunuz | Aynı gün |
+| Fren diski değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
+| Fren hidroliği değişimi | 800–uygun fiyat | Aynı gün |
 
 **Fren Bakım Önemi:**
 - Fren balata değişimi 50.000-70.000 km'de yapılmalı
@@ -239,8 +235,8 @@ Klima bakımı konfor ve sağlık için önemlidir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Klima gazı değişimi | 1.500–3.000₺ | Aynı gün |
-| Klima temizliği | 1.000–2.000₺ | Aynı gün |
+| Klima gazı değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Klima temizliği | 📞 Fiyat Sorunuz | Aynı gün |
 | Klima filtresi değişimi | 400–800₺ | Aynı gün |
 
 **Klima Bakım Önemi:**
@@ -261,7 +257,7 @@ Klima bakımı konfor ve sağlık için önemlidir.
 
 - **15+ Yıl Deneyim:** Golf bakımında uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün veya 1-3 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -334,19 +330,19 @@ Klima bakımı konfor ve sağlık için önemlidir.
 
 ### Golf bakım fiyatı ne kadar?
 
-Golf bakım fiyatı bakım türüne göre değişir. Küçük bakım 3.500-6.500₺, büyük bakım 6.000-10.000₺, 60.000 km bakım 9.000-15.000₺, 90.000 km bakım 12.500-22.000₺, 120.000 km bakım 15.000-25.000₺ arasındadır.
+Golf bakım fiyatı bakım türüne göre değişir. Küçük bakım uygun maliyetler, büyük bakım uygun maliyetler, 60.000 km bakım uygun maliyetler, 90.000 km bakım uygun maliyetler, 120.000 km bakım uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Golf DSG yağ değişimi ne zaman yapılmalı?
 
-Golf DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalıdır. DSG DQ250 yağ değişimi 80.000 km'de yapılmalıdır. Üretici "ömür boyu yağ" dese de pratikte yağ eskir, mekatronik arızası riski %40 artar. DQ200 yağ değişimi 4.500-7.500₺; değişmezse mekatronik arızası 8.500-16.000₺.
+Golf DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalıdır. DSG DQ250 yağ değişimi 80.000 km'de yapılmalıdır. Üretici "ömür boyu yağ" dese de pratikte yağ eskir, mekatronik arızası riski %40 artar. DQ200 yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler.
 
 ### Golf 1.4 TSI timing zincir değişimi ne zaman yapılmalı?
 
-1.4 TSI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Özellikle 2012-2017 arası modellerde timing zincir gerginliği fabrikasyon kusurdur. Timing zincir değişimi 6.500-11.000₺; koparsa motor hasarı 15.000-30.000₺.
+1.4 TSI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Özellikle 2012-2017 arası modellerde timing zincir gerginliği fabrikasyon kusurdur. Timing zincir değişimi uygun maliyetler; koparsa motor hasarı uygun maliyetler.
 
 ### Golf 2.0 TDI DPF temizleme ne zaman yapılmalı?
 
-2.0 TDI DPF temizleme 100.000 km'de mutlaka yapılmalıdır. DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar. DPF temizleme 8.000-20.000₺; değişim 18.000-28.000₺.
+2.0 TDI DPF temizleme 100.000 km'de mutlaka yapılmalıdır. DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar. DPF temizleme uygun maliyetler; değişim uygun maliyetler.
 
 ### Golf bakım ne kadar sürer?
 
@@ -370,8 +366,9 @@ Evet, Golf GTI gibi sportif modellerde DSG aşınması %40 hızlanır. DQ250 kav
 
 ### Golf fren balata değişimi ne zaman yapılmalı?
 
-Golf fren balata değişimi 50.000-70.000 km arasında yapılmalıdır. Ön fren balata 3.500-7.000₺, arka fren balata 2.500-5.000₺. Fren diski değişimi gerekirse 4.000-8.000₺ eklenir.
+Golf fren balata değişimi 50.000-70.000 km arasında yapılmalıdır. Ön fren balata uygun maliyetler, arka fren balata uygun maliyetler. Fren diski değişimi gerekirse uygun maliyetler eklenir.
 
 ### Golf klima bakımı ne zaman yapılmalı?
 
-Golf klima bakımı yılda bir yapılmalıdır. Klima gazı değişimi 1.500-3.000₺, klima temizliği 1.000-2.000₺, klima filtresi değişimi 400-800₺. Toplam 2.500-5.000₺.
+Golf klima bakımı yılda bir yapılmalıdır. Klima gazı değişimi uygun maliyetler, klima temizliği uygun maliyetler, klima filtresi değişimi 400-800₺. Toplam uygun maliyetler.
+

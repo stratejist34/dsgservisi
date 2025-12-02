@@ -18,7 +18,6 @@ serviceName: "BMW Servis Avrupa Yakası"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine BMW ZF şanzıman, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
-offerUrl: "/bmw-servis-avrupa-yakasi"
 
 ---
 
@@ -69,7 +68,7 @@ Merkezi konumumuz sayesinde Avrupa Yakası'ndan gelen müşteriler için aynı g
 
 ### Şeffaf Fiyatlandırma
 
-Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## BMW Servis Hizmetlerimiz (Avrupa Yakası)
 
@@ -88,36 +87,36 @@ Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme s
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP valf body arızası | %26 | 12.000–22.000₺ | 120.000–200.000 km |
-| N47/N57 timing zincir gerginliği | %38 | 8.000–16.000₺ | 100.000–180.000 km |
-| N20 turbo yağ besleme/wastegate | %31 | 10.000–22.000₺ | 80.000–150.000 km |
-| Valvetronic motor arızası | %22 | 5.500–12.000₺ | 100.000–180.000 km |
+| ZF 8HP valf body arızası | %26 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| N47/N57 timing zincir gerginliği | %38 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| N20 turbo yağ besleme/wastegate | %31 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Valvetronic motor arızası | %22 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### BMW 5 Serisi (F10, G30) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP tork konvertör titreşimi | %24 | 18.000–35.000₺ | 150.000–250.000 km |
-| N57 DPF tıkanması (dizel) | %33 | 12.000–28.000₺ | 100.000–180.000 km |
-| N63 V8 supap kaçağı | %29 | 15.000–35.000₺ | 100.000–180.000 km |
-| Hava süspansiyon kompresör | %21 | 12.000–22.000₺ | 80.000–150.000 km |
+| ZF 8HP tork konvertör titreşimi | %24 | 📞 Fiyat Sorunuz | 150.000–250.000 km |
+| N57 DPF tıkanması (dizel) | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| N63 V8 supap kaçağı | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Hava süspansiyon kompresör | %21 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### BMW X3/X5 (F25, F15, G01, G05) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman yağ değişimi ihtiyacı | %42 | 5.400–9.900₺ | 80.000–120.000 km |
-| Ön/arka diferansiyel servotronic | %27 | 8.000–18.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme (N55/B58) | %24 | 10.000–20.000₺ | 100.000–180.000 km |
-| Ön salıncak/rotil aşınması | %31 | 6.500–13.000₺ | 80.000–140.000 km |
+| ZF 8HP şanzıman yağ değişimi ihtiyacı | %42 | 📞 Fiyat Sorunuz | 80.000–120.000 km |
+| Ön/arka diferansiyel servotronic | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme (N55/B58) | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Ön salıncak/rotil aşınması | %31 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
 
 ### BMW 1 Serisi (F20, F40) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| N47 timing zincir gerginliği | %39 | 7.500–14.000₺ | 90.000–160.000 km |
-| ZF 8HP adaptasyon sorunu | %21 | 2.500–5.500₺ | 80.000–150.000 km |
-| Ön fren kaliper sıkışma | %23 | 4.500–8.500₺ | 60.000–120.000 km |
+| N47 timing zincir gerginliği | %39 | 📞 Fiyat Sorunuz | 90.000–160.000 km |
+| ZF 8HP adaptasyon sorunu | %21 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Ön fren kaliper sıkışma | %23 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
 
 ## BMW ZF Şanzıman Arızaları
 
@@ -125,8 +124,8 @@ BMW'de ZF 6HP ve 8HP tork konvertörlü otomatik şanzıman kullanılır. Avrupa
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| ZF 6HP | 1, 3, 5, 7 Serisi (eski) | Valf body, tork konvertör | 12.000–22.000₺ |
-| ZF 8HP | 1, 3, 5, 7, X1, X3, X5, X6 | Valf body, adaptasyon sorunu | 12.000–22.000₺ |
+| ZF 6HP | 1, 3, 5, 7 Serisi (eski) | Valf body, tork konvertör | 📞 Fiyat Sorunuz |
+| ZF 8HP | 1, 3, 5, 7, X1, X3, X5, X6 | Valf body, adaptasyon sorunu | 📞 Fiyat Sorunuz |
 
 ### ZF Şanzıman Bakım Önerileri
 
@@ -144,11 +143,11 @@ BMW'de ZF 6HP ve 8HP tork konvertörlü otomatik şanzıman kullanılır. Avrupa
 
 | Motor Tipi | Kullanıldığı Modeller | Kronik Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| N47 2.0d (2007–2015) | 1, 3 Serisi | Timing zincir gerginliği | 8.000–16.000₺ |
-| N57 3.0d | 3, 5, X3, X5 | Timing zincir, DPF | 8.000–28.000₺ |
-| N20/N26 2.0t | 1, 3, X1, X3 | Turbo wastegate, yağ besleme | 10.000–22.000₺ |
-| N55/B58 3.0t | 5, 7, X3, X5 | Turbo yağ besleme | 10.000–20.000₺ |
-| N63 V8 | 5, 7, X5, X6 | Supap kaçağı, Valvetronic | 15.000–35.000₺ |
+| N47 2.0d (2007–2015) | 1, 3 Serisi | Timing zincir gerginliği | 📞 Fiyat Sorunuz |
+| N57 3.0d | 3, 5, X3, X5 | Timing zincir, DPF | 📞 Fiyat Sorunuz |
+| N20/N26 2.0t | 1, 3, X1, X3 | Turbo wastegate, yağ besleme | 📞 Fiyat Sorunuz |
+| N55/B58 3.0t | 5, 7, X3, X5 | Turbo yağ besleme | 📞 Fiyat Sorunuz |
+| N63 V8 | 5, 7, X5, X6 | Supap kaçağı, Valvetronic | 📞 Fiyat Sorunuz |
 
 ## Avrupa Yakası'ndan Ulaşım Bilgileri
 
@@ -172,15 +171,15 @@ BMW'de ZF 6HP ve 8HP tork konvertörlü otomatik şanzıman kullanılır. Avrupa
 
 Avrupa Yakası'nın tüm bölgelerinden (Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir) arızalı araçlarınız için ücretsiz çekme hizmeti sunuyoruz. Randevu alarak araç çekme hizmetinden yararlanabilirsiniz.
 
-## BMW Periyodik Bakım Fiyatları 2025
+## BMW Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 2.800–5.500₺ | 12.000–15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 4.500–8.500₺ | 30.000 km | Aynı gün |
-| ZF şanzıman yağ değişimi | 5.400–9.900₺ | 80.000 km | Aynı gün |
-| Fren balata (ön/arka) | 4.500–9.000₺ | 40.000–60.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 2.200–4.500₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 12.000–15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| ZF şanzıman yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 40.000–60.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Neden Avrupa Yakası için Yıldızlar Grup?
 
@@ -190,7 +189,7 @@ Avrupa Yakası'nın tüm bölgelerinden (Beylikdüzü, Büyükçekmece, Esenyurt
 - **Ücretsiz Araç Çekme:** Avrupa Yakası bölgelerinden ücretsiz çekme hizmeti
 - **Ekonomik Fiyatlar:** Yetkili servise göre %45-65 daha ekonomik
 - **2 Yıl Garanti:** Tüm işlemlerde parça ve işçilik garantisi
-- **Şeffaf Fiyatlandırma:** Ön görüşme sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön görüşme sonrası net servis teklifi
 - **Tam Teşhis Cihazları:** INPA, ISTA, Rheingold gibi özel cihazlar
 
 ## Sık Sorulan Sorular
@@ -279,3 +278,4 @@ Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büy�
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00–18:00, Cumartesi 09:00–14:00</p>
 <p><strong>Hizmet Bölgeleri:</strong> Beylikdüzü, Büyükçekmece, Esenyurt, Avcılar, Bahçeşehir, Küçükçekmece, Başakşehir ve tüm Avrupa Yakası</p>
+

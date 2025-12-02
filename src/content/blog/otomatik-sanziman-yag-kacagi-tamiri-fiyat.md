@@ -1,9 +1,9 @@
 ---
 
-title: "Otomatik Şanzıman Yağ Kaçağı Tamiri Fiyat"
-description: "DSG ve otomatik şanzıman yağ kaçağı tamiri fiyatları 2026: keçe değişimi, conta tamiri, karter sızdırmazlık, mekatronik conta, yağ soğutucu bağlantıları. Volkswagen, Audi, BMW, Mercedes."
+title: "Otomatik Şanzıman Yağ Kaçağı Tamiri Hizmeti"
+description: "DSG ve otomatik şanzıman yağ kaçağı tamiri hizmetleri: keçe değişimi, conta tamiri, karter sızdırmazlık, mekatronik conta, yağ soğutucu bağlantıları. Volkswagen, Audi, BMW, Mercedes."
 category: "DSG"
-tags: ["otomatik şanzıman", "yağ kaçağı", "tamir", "fiyat", "dsg", "keçe", "conta", "2026"]
+tags: ["otomatik şanzıman", "yağ kaçağı", "tamir", "dsg", "keçe", "conta"]
 slug: "otomatik-sanziman-yag-kacagi-tamiri-fiyat"
 publishDate: "2025-11-07T00:30:00+03:00"
 updatedDate: "2025-11-07T00:30:00+03:00"
@@ -12,24 +12,20 @@ imageAlt: "DSG otomatik şanzıman yağ kaçağı tamiri - Yıldızlar Grup DSG 
 ogImage: "/images/blog/otomatik-sanziman-yag-kacagi.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "Otomatik Şanzıman Yağ Kaçağı Tamiri Fiyatları 2026 | DSG Servisi"
-seoDescription: "DSG ve otomatik şanzıman yağ kaçağı tamiri fiyatları 2026: keçe değişimi, conta tamiri, karter sızdırmazlık, mekatronik conta, yağ soğutucu bağlantıları."
+seoTitle: "Otomatik Şanzıman Yağ Kaçağı Tamiri Fiyatları Tamiri ve Değişimi DSG Servisi"
+seoDescription: "DSG ve otomatik şanzıman yağ kaçağı tamiri hizmetleri: keçe değişimi, conta tamiri, karter sızdırmazlık, mekatronik conta, yağ soğutucu bağlantıları."
 
 # Hizmet Şeması
 serviceName: "Otomatik Şanzıman Yağ Kaçağı Tamiri"
 serviceType: "Şanzıman Yağ Kaçağı Tamiri"
 serviceDescription: "DSG ve otomatik şanzıman yağ kaçağı teşhisi, keçe değişimi, conta tamiri ve sızdırmazlık kontrolü."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 1500
-highPrice: 8000
-priceCurrency: "TRY"
-offerUrl: "/otomatik-sanziman-yag-kacagi-tamiri-fiyat"
 
 ---
 
 Otomatik şanzıman yağ kaçağı, DSG ve konvansiyonel otomatik şanzımanlarda **sık görülen bir sorundur**. Yağ kaçağı; keçe aşınması, conta hasarı, karter çatlağı, mekatronik modül sızdırmazlık sorunları veya yağ soğutucu bağlantı hatalarından kaynaklanabilir. Erken teşhis ve müdahale, şanzıman hasarını ve maliyeti önemli ölçüde azaltır.
 
-2026 yılı için *otomatik şanzıman yağ kaçağı tamiri fiyatları*, kaçak kaynağına ve şanzıman tipine göre değişir. Basit keçe değişimi 1.500–4.000₺, mekatronik conta değişimi 3.500–8.000₺, karter sızdırmazlık tamiri 4.000–10.000₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **UV ışık testi**, **basınç testi** ve **görsel inceleme** ile kaçak kaynağını doğru tespit ediyor, gereksiz parça değişimini önlüyoruz.
+2026 yılı için *otomatik şanzıman yağ kaçağı tamiri fiyatları*, kaçak kaynağına ve şanzıman tipine göre değişir. Basit keçe değişimi uygun maliyetler, mekatronik conta değişimi uygun maliyetler, karter sızdırmazlık tamiri uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **UV ışık testi**, **basınç testi** ve **görsel inceleme** ile kaçak kaynağını doğru tespit ediyor, gereksiz parça değişimini önlüyoruz.
 
 :::tip
 
@@ -119,18 +115,18 @@ Otomatik şanzıman yağ kaçağı, çeşitli nedenlerle oluşabilir:
 - Metal partikül analizi
 - Yağ kirlilik seviyesi ölçümü
 
-## Otomatik Şanzıman Yağ Kaçağı Tamiri Fiyatları 2026
+## Otomatik Şanzıman Yağ Kaçağı Tamiri Hizmetleri 2026
 
 | Tamir Türü | Parça | İşçilik | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| Çıkış mili keçesi değişimi | 300–800₺ | 1.200–2.500₺ | 1.500–3.300₺ | 2-3 saat |
-| Giriş mili keçesi değişimi | 400–1.000₺ | 1.500–3.000₺ | 1.900–4.000₺ | 3-4 saat |
-| Karter conta değişimi | 500–1.200₺ | 2.000–4.000₺ | 2.500–5.200₺ | 4-6 saat |
-| Mekatronik conta değişimi (DSG) | 800–2.000₺ | 2.700–6.000₺ | 3.500–8.000₺ | 5-8 saat |
-| Yan kapak conta değişimi | 400–1.000₺ | 1.800–3.500₺ | 2.200–4.500₺ | 3-5 saat |
-| Yağ soğutucu bağlantı tamiri | 600–1.500₺ | 1.500–3.000₺ | 2.100–4.500₺ | 3-4 saat |
-| Karter tamiri (çatlak kaynak) | 1.000–2.500₺ | 3.000–6.000₺ | 4.000–8.500₺ | 6-10 saat |
-| Diferansiyel keçesi değişimi (4x4) | 500–1.200₺ | 2.500–4.500₺ | 3.000–5.700₺ | 4-6 saat |
+| Çıkış mili keçesi değişimi | 300–800₺ | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 2-3 saat |
+| Giriş mili keçesi değişimi | 400–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 3-4 saat |
+| Karter conta değişimi | 500–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
+| Mekatronik conta değişimi (DSG) | 800–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 5-8 saat |
+| Yan kapak conta değişimi | 400–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 3-5 saat |
+| Yağ soğutucu bağlantı tamiri | 600–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 3-4 saat |
+| Karter tamiri (çatlak kaynak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-10 saat |
+| Diferansiyel keçesi değişimi (4x4) | 500–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
 
 :::note
 
@@ -141,15 +137,15 @@ Otomatik şanzıman yağ kaçağı, çeşitli nedenlerle oluşabilir:
 
 :::
 
-## Şanzıman Tipine Göre Yağ Kaçağı Tamiri Fiyatları
+## Şanzıman Tipine Göre Yağ Kaçağı Tamiri Hizmetleri
 
 ### DSG DQ200 (7 İleri Kuru Kavrama)
 
 | Tamir Türü | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi | 1.500–3.000₺ | 2-3 saat |
-| Mekatronik conta | 3.500–7.000₺ | 5-7 saat |
-| Karter conta | 2.500–5.000₺ | 4-6 saat |
+| Çıkış mili keçesi | 📞 Fiyat Sorunuz | 2-3 saat |
+| Mekatronik conta | 📞 Fiyat Sorunuz | 5-7 saat |
+| Karter conta | 📞 Fiyat Sorunuz | 4-6 saat |
 
 **Kullanıldığı Modeller:** Golf, Polo, Jetta, Ibiza, Leon, Octavia, Fabia
 
@@ -157,9 +153,9 @@ Otomatik şanzıman yağ kaçağı, çeşitli nedenlerle oluşabilir:
 
 | Tamir Türü | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi | 1.800–3.500₺ | 3-4 saat |
-| Mekatronik conta | 4.000–8.000₺ | 6-8 saat |
-| Karter conta | 3.000–6.000₺ | 5-7 saat |
+| Çıkış mili keçesi | 📞 Fiyat Sorunuz | 3-4 saat |
+| Mekatronik conta | 📞 Fiyat Sorunuz | 6-8 saat |
+| Karter conta | 📞 Fiyat Sorunuz | 5-7 saat |
 
 **Kullanıldığı Modeller:** Passat, Tiguan, Octavia RS, Superb, Golf GTI
 
@@ -167,9 +163,9 @@ Otomatik şanzıman yağ kaçağı, çeşitli nedenlerle oluşabilir:
 
 | Tamir Türü | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi | 2.000–4.000₺ | 3-4 saat |
-| Mekatronik conta | 4.500–9.000₺ | 7-9 saat |
-| Karter conta | 3.500–7.000₺ | 6-8 saat |
+| Çıkış mili keçesi | 📞 Fiyat Sorunuz | 3-4 saat |
+| Mekatronik conta | 📞 Fiyat Sorunuz | 7-9 saat |
+| Karter conta | 📞 Fiyat Sorunuz | 6-8 saat |
 
 **Kullanıldığı Modeller:** Tiguan 4Motion, Passat 4Motion, Audi S-tronic
 
@@ -177,9 +173,9 @@ Otomatik şanzıman yağ kaçağı, çeşitli nedenlerle oluşabilir:
 
 | Tamir Türü | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi | 2.500–5.000₺ | 4-5 saat |
-| Karter conta | 4.000–8.000₺ | 6-8 saat |
-| Diferansiyel keçesi (4x4) | 3.500–7.000₺ | 5-7 saat |
+| Çıkış mili keçesi | 📞 Fiyat Sorunuz | 4-5 saat |
+| Karter conta | 📞 Fiyat Sorunuz | 6-8 saat |
+| Diferansiyel keçesi (4x4) | 📞 Fiyat Sorunuz | 5-7 saat |
 
 **Kullanıldığı Modeller:** BMW, Mercedes, Land Rover, Audi Q7/Q8
 
@@ -232,7 +228,7 @@ Otomatik şanzıman yağ kaçağı, çeşitli nedenlerle oluşabilir:
 - **Hızlı Çözüm:** Basit keçe değişimleri aynı gün teslim
 - **Orijinal Parça:** Tüm keçe ve contalar orijinal veya OEM kalitede
 - **Garanti:** Tüm tamirlerde 12 ay / 20.000 km garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 
 ## Müşteri Yorumları
 
@@ -299,7 +295,7 @@ Basit keçe değişimi 2-3 saat, mekatronik conta değişimi 5-8 saat, karter ta
 
 ### Otomatik şanzıman yağ kaçağı tamiri fiyatı ne kadar?
 
-Basit keçe değişimi 1.500–4.000₺, mekatronik conta değişimi 3.500–8.000₺, karter tamiri 4.000–10.000₺ arasında değişir. Şanzıman tipi ve kaçak kaynağına göre fiyat değişir.
+Basit keçe değişimi uygun maliyetler, mekatronik conta değişimi uygun maliyetler, karter tamiri uygun maliyetler arasında değişir. Şanzıman tipi ve kaçak kaynağına göre fiyat değişir.
 
 ### Otomatik şanzıman yağ kaçağı tamiri garanti kapsamında mı?
 
@@ -307,7 +303,7 @@ Evet, tüm yağ kaçağı tamirleri 12 ay / 20.000 km garanti kapsamındadır. K
 
 ### DSG mekatronik conta değişimi ne kadar?
 
-DSG mekatronik conta değişimi 3.500–8.000₺ arasında değişir. DSG tipine göre (DQ200, DQ250, DQ381) fiyat değişir.
+DSG mekatronik conta değişimi uygun maliyetler arasında değişir. DSG tipine göre (DQ200, DQ250, DQ381) fiyat değişir.
 
 ### Otomatik şanzıman yağ kaçağı tamiri için randevu nasıl alınır?
 
@@ -320,4 +316,5 @@ Yağ seviyesi kontrolü, basınç testi ve yol testi yapılır. İlk 1.000 km'de
 ### Otomatik şanzıman yağ kaçağı tamiri için hangi parçalar değişir?
 
 Kaçak kaynağına göre keçe, conta, karter veya mekatronik conta değişir. Gereksiz parça değişimi yapılmaz.
+
 

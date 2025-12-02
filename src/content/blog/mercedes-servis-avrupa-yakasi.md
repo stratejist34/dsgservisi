@@ -18,7 +18,6 @@ serviceName: "Mercedes Servis Avrupa Yakası"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Mercedes 7G-Tronic/9G-Tronic şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
-offerUrl: "/mercedes-servis-avrupa-yakasi"
 
 ---
 
@@ -71,7 +70,7 @@ Merkezi konumumuz sayesinde Avrupa Yakası'ndan gelen müşteriler için aynı g
 
 ### Şeffaf Fiyatlandırma
 
-Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Mercedes Servis Hizmetlerimiz (Avrupa Yakası)
 
@@ -90,51 +89,51 @@ Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme s
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| 7G-Tronic valf body/conductor plate | %34 | 14.000–28.000₺ | 120.000–200.000 km |
-| OM651 2.2 CDI timing zincir gerginliği | %36 | 9.000–18.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme/geometri | %29 | 11.000–24.000₺ | 100.000–180.000 km |
-| AdBlue sensör/pompa arızası | %41 | 4.500–12.000₺ | 80.000–150.000 km |
-| Ön salıncak/rotil aşınması | %24 | 6.500–13.000₺ | 80.000–140.000 km |
+| 7G-Tronic valf body/conductor plate | %34 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| OM651 2.2 CDI timing zincir gerginliği | %36 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme/geometri | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| AdBlue sensör/pompa arızası | %41 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Ön salıncak/rotil aşınması | %24 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
 
 ### Mercedes E Serisi (W212, W213) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| 7G-Tronic tork konvertör titreşimi | %28 | 20.000–38.000₺ | 150.000–250.000 km |
-| Hava süspansiyon (Airmatic) kompresör | %27 | 14.000–26.000₺ | 100.000–180.000 km |
-| OM642 3.0 V6 DPF tıkanması | %39 | 15.000–32.000₺ | 100.000–180.000 km |
-| Turbo geometri/yağlama | %26 | 12.000–25.000₺ | 120.000–200.000 km |
-| EGR valfi karbon birikimi | %31 | 5.500–11.000₺ | 100.000–180.000 km |
+| 7G-Tronic tork konvertör titreşimi | %28 | 📞 Fiyat Sorunuz | 150.000–250.000 km |
+| Hava süspansiyon (Airmatic) kompresör | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| OM642 3.0 V6 DPF tıkanması | %39 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo geometri/yağlama | %26 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| EGR valfi karbon birikimi | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Mercedes A/CLA Serisi (W176, W117) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| 7-Speed DCT (DSG) mekatronik | %31 | 10.000–18.000₺ | 80.000–150.000 km |
-| M270/M274 timing zincir | %33 | 8.000–15.000₺ | 100.000–180.000 km |
-| Turbo yağ tüketimi/besleme | %24 | 9.000–18.000₺ | 80.000–150.000 km |
-| Ön salıncak burç aşınması | %28 | 5.500–10.000₺ | 60.000–120.000 km |
+| 7-Speed DCT (DSG) mekatronik | %31 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| M270/M274 timing zincir | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ tüketimi/besleme | %24 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Ön salıncak burç aşınması | %28 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
 
 ### Mercedes GLC/GLE (X253, W166) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| 9G-Tronic şanzıman adaptasyon | %22 | 3.500–7.500₺ | 80.000–150.000 km |
-| Hava süspansiyon körük çatlama | %29 | 8.000–16.000₺ | 80.000–150.000 km |
-| Turbo yağ besleme (OM656) | %21 | 11.000–22.000₺ | 100.000–180.000 km |
-| DPF/AdBlue kombine arıza | %38 | 18.000–35.000₺ | 100.000–180.000 km |
+| 9G-Tronic şanzıman adaptasyon | %22 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon körük çatlama | %29 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo yağ besleme (OM656) | %21 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| DPF/AdBlue kombine arıza | %38 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
-## Mercedes Periyodik Bakım Fiyatları 2025
+## Mercedes Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 4.000–8.500₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 7.500–13.000₺ | 30.000 km | Aynı gün |
-| 7G-Tronic yağ değişimi | 6.500–11.000₺ | 80.000 km | Aynı gün |
-| 9G-Tronic yağ değişimi | 7.000–12.000₺ | 80.000 km | Aynı gün |
-| Airmatic hava süspansiyon kontrolü | 3.000–5.500₺ | 30.000 km | Aynı gün |
-| Fren balata (ön/arka) | 7.500–15.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 3.500–6.500₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| 7G-Tronic yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| 9G-Tronic yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Airmatic hava süspansiyon kontrolü | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Avrupa Yakası'ndan Ulaşım
 
@@ -242,5 +241,6 @@ Evet, metrobüs ile Beylikdüzü istasyonundan veya otobüs ile Büyükçekmece 
 ### Avrupa Yakası bölgelerinden servisinize ödeme seçenekleri nelerdir?
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
+
 
 

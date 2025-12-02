@@ -12,7 +12,7 @@ const navLinks = [
 ];
 ---
 
-<header class="fixed top-0 left-0 right-0 z-40 backdrop-blur-xl transition-all duration-300 border-b border-white/20 shadow-2xl" id="header" style="background: linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.98)); backdrop-filter: blur(28px) saturate(200%); box-shadow: 0 8px 32px rgba(15, 23, 42, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.18), inset 0 -1px 0 rgba(255, 255, 255, 0.08);">
+<header class="fixed top-0 left-0 right-0 z-40 transition-all duration-300 border-b border-white/5" id="header" style="background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px);">
   
   <div class="header-ticker">
     <div class="ticker-track">
@@ -27,7 +27,7 @@ const navLinks = [
           <img 
             src="/images/DSG Servis logosu.webp" 
             alt="DSG Servisi - Yıldızlar Grup" 
-            class="h-8 md:h-10 w-auto transition-all duration-300 group-hover:scale-110 relative z-10 filter brightness-105"
+            class="h-8 md:h-10 w-auto transition-all duration-300 group-hover:scale-105 relative z-10 filter brightness-105"
             loading="eager"
             fetchpriority="high"
             width="48"
@@ -42,28 +42,26 @@ const navLinks = [
         {navLinks.map((link) => (
           <a
             href={link.href}
-            class={`text-white/90 font-semibold hover:text-white transition-all duration-300 relative group ${
-              currentPath === link.href ? 'text-white' : ''
+            class={`text-sm tracking-wide font-semibold hover:text-white transition-colors duration-200 relative group ${
+              currentPath === link.href ? 'text-white' : 'text-slate-400'
             }`}
           >
             {link.label}
-            <span class="absolute bottom-0 left-0 w-0 h-0.5 bg-gradient-to-r from-transparent via-white to-transparent transition-all duration-300 group-hover:w-full"></span>
+            <span class={`absolute -bottom-1 left-0 h-0.5 bg-primary transition-all duration-300 ${currentPath === link.href ? 'w-full' : 'w-0 group-hover:w-full'}`}></span>
           </a>
         ))}
       </nav>
 
-      {/* CTA Button - Subtle Tech Effect */}
+      {/* CTA Button - Solid Tech Look */}
       <a 
         href={`tel:${SITE_CONFIG.phoneTel}`}
-        class="hidden md:inline-flex px-6 py-3 rounded-lg font-semibold text-white transition-all duration-300 relative z-10 overflow-hidden group"
-        style="background: linear-gradient(135deg, rgba(249,115,22,1) 0%, rgba(220,38,38,1) 50%, rgba(249,115,22,1) 100%); box-shadow: 0 4px 15px rgba(249,115,22,0.3);"
+        class="hidden md:inline-flex items-center justify-center px-5 py-2.5 rounded text-sm font-bold text-white transition-all duration-300 relative z-10 overflow-hidden group border border-primary/50 bg-primary/10 hover:bg-primary"
         onmousedown="if(window.gtag){window.gtag('event','header_fiyat_iste_butonu',{location:'header_nav'});}"
-        onmouseenter="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 6px 20px rgba(249,115,22,0.4)';"
-        onmouseleave="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(249,115,22,0.3)';"
       >
-        {/* Subtle shimmer effect */}
-        <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
-        <span class="relative z-10">FİYAT İSTE</span>
+        <span class="relative z-10 flex items-center gap-2">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          FİYAT İSTE
+        </span>
       </a>
 
       {/* Mobile Menu Button */}
@@ -80,26 +78,20 @@ const navLinks = [
   </div>
 
   {/* Mobile Menu */}
-  <div id="mobile-menu" class="hidden lg:hidden backdrop-blur-xl border-t border-white/20 shadow-2xl" style="background: linear-gradient(to right, rgba(30, 58, 138, 0.95) 0%, rgba(30, 58, 138, 0.98) 30%, rgba(37, 99, 235, 0.95) 70%, rgba(30, 58, 138, 0.95) 100%); backdrop-filter: blur(28px) saturate(200%); box-shadow: 0 -8px 32px rgba(30, 58, 138, 0.5), inset 0 -1px 0 rgba(255, 255, 255, 0.25), inset 0 1px 0 rgba(255, 255, 255, 0.1);">
-    {/* Glass effect overlay */}
-    <div class="absolute inset-0 pointer-events-none" style="background: linear-gradient(to right, rgba(255, 255, 255, 0.25) 0%, rgba(255, 255, 255, 0.15) 30%, rgba(255, 255, 255, 0.08) 60%, rgba(255, 255, 255, 0.02) 100%);"></div>
-    {/* Cam kenarı highlight */}
-    <div class="absolute top-0 left-0 right-0 h-px pointer-events-none" style="background: linear-gradient(to right, transparent, rgba(255, 255, 255, 0.4), transparent);"></div>
+  <div id="mobile-menu" class="hidden lg:hidden border-t border-white/10 bg-[#0f172a]/95 backdrop-blur-xl">
     <nav class="container py-4 flex flex-col gap-4">
       {navLinks.map((link) => (
         <a
           href={link.href}
-          class={`text-white/90 font-semibold py-2 hover:text-white transition-all relative ${
-            currentPath === link.href ? 'text-white' : ''
+          class={`font-semibold py-3 px-4 rounded hover:bg-white/5 transition-all ${
+            currentPath === link.href ? 'text-white bg-white/5' : 'text-slate-400'
           }`}
         >
           {link.label}
         </a>
       ))}
-      <a href={`tel:${SITE_CONFIG.phoneTel}`} class="inline-flex justify-center items-center px-6 py-3 rounded-lg font-semibold text-white transition-all duration-200 mt-2 relative overflow-hidden group"
-        style="background: linear-gradient(135deg, rgba(249,115,22,1) 0%, rgba(220,38,38,1) 50%, rgba(249,115,22,1) 100%); box-shadow: 0 4px 15px rgba(249,115,22,0.3);">
-        <div class="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-1000"></div>
-        <span class="relative z-10">FİYAT İSTE</span>
+      <a href={`tel:${SITE_CONFIG.phoneTel}`} class="inline-flex justify-center items-center px-6 py-3 rounded font-bold text-white bg-primary hover:bg-primary-600 transition-all mx-4 mb-2">
+        HEMEN ARA
       </a>
     </nav>
   </div>
@@ -114,55 +106,45 @@ const navLinks = [
     mobileMenu?.classList.toggle('hidden');
   });
 
-  // Sticky header on scroll - Optimize edilmiş (forced reflow önleme)
+  // Sticky header logic
   let ticking = false;
-  let lastScroll = 0;
   const header = document.getElementById('header');
-const tickerMessageEl = document.getElementById('ticker-message');
-const tickerMessages = [
-  { text: 'Servisimiz İstanbul Avrupa Yakasındadır', color: '#fbbf24' },
-  { text: 'Beytepe Sanayi Sitesindeyiz', color: '#38bdf8' },
-  { text: 'Otomobil Motor Tamir & Şanzıman Tamir Servisi', color: '#f472b6' },
-];
-let tickerIndex = 0;
 
-const playTicker = () => {
-  if (!tickerMessageEl) return;
-  const { text, color } = tickerMessages[tickerIndex];
-  tickerMessageEl.textContent = text;
-  tickerMessageEl.style.setProperty('--ticker-color', color);
-  tickerMessageEl.classList.remove('ticker-animate');
-  void tickerMessageEl.offsetWidth;
-  tickerMessageEl.classList.add('ticker-animate');
-  tickerIndex = (tickerIndex + 1) % tickerMessages.length;
-};
+  const tickerMessageEl = document.getElementById('ticker-message');
+  const tickerMessages = [
+    { text: 'İstanbul Avrupa Yakası', color: '#fbbf24' },
+    { text: 'Beytepe Sanayi Sitesi', color: '#38bdf8' },
+    { text: 'DSG & Mekatronik Tamiri', color: '#f472b6' },
+  ];
+  let tickerIndex = 0;
 
-if (tickerMessageEl) {
-  playTicker();
-  setInterval(playTicker, 4500);
-}
+  const playTicker = () => {
+    if (!tickerMessageEl) return;
+    const { text, color } = tickerMessages[tickerIndex];
+    tickerMessageEl.textContent = text;
+    tickerMessageEl.style.color = color; // Basit renk değişimi
+    tickerMessageEl.classList.remove('ticker-animate');
+    void tickerMessageEl.offsetWidth;
+    tickerMessageEl.classList.add('ticker-animate');
+    tickerIndex = (tickerIndex + 1) % tickerMessages.length;
+  };
+
+  if (tickerMessageEl) {
+    playTicker();
+    setInterval(playTicker, 4500);
+  }
 
   window.addEventListener('scroll', () => {
     if (!ticking) {
       requestAnimationFrame(() => {
-        // Önce okuma
-        const currentScroll = window.pageYOffset;
-        const isScrolled = currentScroll > 100;
-        
-        // Sonra yazmalar (batch)
-        if (isScrolled && lastScroll <= 100) {
-          header?.classList.add('shadow-2xl');
-          header?.style.setProperty('background', 'linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.98))');
-          header?.style.setProperty('backdrop-filter', 'blur(32px) saturate(200%)');
-          header?.style.setProperty('boxShadow', '0 12px 48px rgba(15, 23, 42, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 0 rgba(255, 255, 255, 0.15)');
-        } else if (!isScrolled && lastScroll > 100) {
-          header?.classList.remove('shadow-2xl');
-          header?.style.setProperty('background', 'linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.98))');
-          header?.style.setProperty('backdrop-filter', 'blur(28px) saturate(200%)');
-          header?.style.setProperty('boxShadow', '0 8px 32px rgba(15, 23, 42, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.25), inset 0 -1px 0 rgba(255, 255, 255, 0.1)');
+        const isScrolled = window.pageYOffset > 20;
+        if (isScrolled) {
+           header?.classList.add('bg-[#0f172a]/90', 'shadow-lg');
+           header?.style.setProperty('backdrop-filter', 'blur(16px)');
+        } else {
+           header?.classList.remove('shadow-lg');
+           header?.style.setProperty('background', 'rgba(15, 23, 42, 0.8)');
         }
-        
-        lastScroll = currentScroll;
         ticking = false;
       });
       ticking = true;
@@ -174,57 +156,32 @@ if (tickerMessageEl) {
   .header-ticker {
     width: 100%;
     overflow: hidden;
+    background: rgba(15, 23, 42, 0.95);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
   }
 
   .ticker-track {
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
     padding: 4px 16px;
-    background: linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.96));
     display: flex;
     justify-content: center;
   }
 
   .ticker-message {
-    font-size: 0.85rem;
-    letter-spacing: 0.08em;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
     text-transform: uppercase;
     font-weight: 600;
-    white-space: nowrap;
-    color: rgba(255, 255, 255, 0.65);
+    font-family: monospace;
     opacity: 0;
   }
 
   .ticker-animate {
-    animation: tickerHighlight 4.5s ease-in-out forwards;
+    animation: fadeInOut 4.5s ease-in-out forwards;
   }
 
-  @keyframes tickerHighlight {
-    0% {
-      opacity: 0;
-      transform: translateY(8px) scale(0.92);
-      color: rgba(255, 255, 255, 0.4);
-    }
-    20% {
-      opacity: 1;
-      transform: translateY(0) scale(1);
-      color: rgba(255, 255, 255, 0.85);
-    }
-    45% {
-      transform: translateY(0) scale(1.08);
-      color: var(--ticker-color, #fbbf24);
-      text-shadow: 0 0 8px color-mix(in srgb, var(--ticker-color, #fbbf24) 60%, transparent);
-    }
-    70% {
-      transform: translateY(0) scale(1.02);
-      color: var(--ticker-color, #fbbf24);
-      opacity: 1;
-    }
-    100% {
-      opacity: 0;
-      transform: translateY(-6px) scale(0.95);
-      color: rgba(255, 255, 255, 0.3);
-    }
+  @keyframes fadeInOut {
+    0%, 100% { opacity: 0; transform: translateY(2px); }
+    10%, 90% { opacity: 1; transform: translateY(0); }
   }
 
   @media (min-width: 1024px) {
@@ -233,4 +190,3 @@ if (tickerMessageEl) {
     }
   }
 </style>
-

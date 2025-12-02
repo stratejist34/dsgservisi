@@ -1,7 +1,7 @@
 ---
 
 title: "ZF Şanzıman Yağı Değişimi"
-description: "ZF otomatik şanzıman yağı değişimi fiyatı, bakım aralığı ve spesifikasyon bilgileri. Büyükçekmece Yıldızlar Grup DSG Servisi."
+description: "ZF otomatik şanzıman yağı değişimi bilgisi, bakım aralığı ve spesifikasyon bilgileri. Büyükçekmece Yıldızlar Grup DSG Servisi."
 publishDate: "2025-10-14T10:00:00+03:00"
 updatedDate: "2025-10-14T10:00:00+03:00"
 featuredImage: "/images/blog/zf-sanziman-yagi-degisimi.jpg"
@@ -10,8 +10,8 @@ category: "Bmw"
 tags: ["ZF", "Yağ Değişimi", "Otomatik Şanzıman", "Bakım", "İstanbul"]
 author: "Yıldızlar Grup DSG Servisi"
 draft: false
-seoTitle: "ZF Şanzıman Yağı Değişimi Fiyatı 2026 – Yıldızlar Grup DSG Servisi"
-seoDescription: "ZF otomatik şanzıman yağı değişimi fiyatı, bakım aralığı ve spesifikasyon bilgileri. Büyükçekmece Yıldızlar Grup DSG Servisi."
+seoTitle: "ZF Şanzıman Yağı Değişimi Tamiri 2026 – Yıldızlar Grup DSG Servisi"
+seoDescription: "ZF otomatik şanzıman yağı değişimi bilgisi, bakım aralığı ve spesifikasyon bilgileri. Büyükçekmece Yıldızlar Grup DSG Servisi."
 ogImage: "/images/blog/zf-sanziman-yagi-degisimi.jpg"
 
 # Hizmet Şeması (opsiyonel alanlar; fiyat yoksa otomatik çıkarım devreye girer)
@@ -19,7 +19,6 @@ serviceName: "ZF Şanzıman Yağı Değişimi"
 serviceType: "Şanzıman Bakımı"
 serviceDescription: "ZF otomatik şanzıman yağı değişimi ve bakım hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/zf-sanziman-yagi-degisimi"
 
 ---
 
@@ -113,9 +112,9 @@ Yıldızlar Grup DSG Servisi; spesifikasyon uyumlu yağ ve karter‑filtre çöz
     <tr><th>İşlem</th><th>Parça (Yağ+Karter+Filtre)</th><th>İşçilik</th><th>Toplam</th><th>Periyot</th></tr>
   </thead>
   <tbody>
-    <tr><td>ZF 6HP (6 ileri)</td><td>3.500–6.500₺</td><td>1.200–2.200₺</td><td>4.700–8.700₺</td><td>80.000 km</td></tr>
-    <tr><td>ZF 8HP (8 ileri)</td><td>4.000–7.500₺</td><td>1.400–2.400₺</td><td>5.400–9.900₺</td><td>80.000 km</td></tr>
-    <tr><td>Tam değişim (flush)</td><td>5.500–9.500₺</td><td>2.000–3.500₺</td><td>7.500–13.000₺</td><td>Özel durum</td></tr>
+    <tr><td>ZF 6HP (6 ileri)</td><td>uygun maliyetler</td><td>uygun maliyetler</td><td>uygun maliyetler</td><td>80.000 km</td></tr>
+    <tr><td>ZF 8HP (8 ileri)</td><td>uygun maliyetler</td><td>uygun maliyetler</td><td>uygun maliyetler</td><td>80.000 km</td></tr>
+    <tr><td>Tam değişim (flush)</td><td>uygun maliyetler</td><td>uygun maliyetler</td><td>uygun maliyetler</td><td>Özel durum</td></tr>
   </tbody>
 </table>
 <p class="note"><em>Not:</em> Ağır kullanımda (taksi, SUV ağır yük) periyodu 60.000 km'ye düşürün.</p>
@@ -235,3 +234,4 @@ Yıldızlar Grup DSG Servisi; spesifikasyon uyumlu yağ ve karter‑filtre çöz
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi-Cumartesi 08:30-18:30, Pazar kapalı</p>
+

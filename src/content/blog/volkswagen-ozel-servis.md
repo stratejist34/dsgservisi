@@ -19,7 +19,6 @@ serviceName: "Volkswagen Özel Servis"
 serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Volkswagen DSG/ZF şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/volkswagen-ozel-servis"
 
 ---
 
@@ -108,12 +107,12 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>DSG mekatronik arızası (DQ200/DQ250)</td><td>%32</td><td>8.500–16.500₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>1.4 TSI timing zincir gevşemesi</td><td>%28</td><td>6.500–12.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Su pompası/termostat arızası</td><td>%22</td><td>2.500–5.000₺</td><td>80.000-120.000 km</td></tr>
-    <tr><td>Turbo geometri veya yağlama</td><td>%19</td><td>8.000–18.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>DPF tıkanması (dizel modeller)</td><td>%41</td><td>8.000–22.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Klima kompresör arızası</td><td>%15</td><td>6.500–12.000₺</td><td>100.000-180.000 km</td></tr>
+    <tr><td>DSG mekatronik arızası (DQ200/DQ250)</td><td>%32</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>1.4 TSI timing zincir gevşemesi</td><td>%28</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Su pompası/termostat arızası</td><td>%22</td><td>uygun maliyetler</td><td>80.000-120.000 km</td></tr>
+    <tr><td>Turbo geometri veya yağlama</td><td>%19</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>DPF tıkanması (dizel modeller)</td><td>%41</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Klima kompresör arızası</td><td>%15</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
   </tbody>
 </table>
 
@@ -125,10 +124,10 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>DSG kavrama aşınması (DQ200)</td><td>%35</td><td>7.500–15.000₺</td><td>70.000-130.000 km</td></tr>
-    <tr><td>1.0 TSI silindir kapağı çatlağı</td><td>%18</td><td>12.000–22.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Ön amortisör ve yay kırılması</td><td>%24</td><td>3.500–7.000₺</td><td>60.000-100.000 km</td></tr>
-    <tr><td>Klima kompresör kayışı/rulman</td><td>%16</td><td>4.500–9.000₺</td><td>80.000-140.000 km</td></tr>
+    <tr><td>DSG kavrama aşınması (DQ200)</td><td>%35</td><td>uygun maliyetler</td><td>70.000-130.000 km</td></tr>
+    <tr><td>1.0 TSI silindir kapağı çatlağı</td><td>%18</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Ön amortisör ve yay kırılması</td><td>%24</td><td>uygun maliyetler</td><td>60.000-100.000 km</td></tr>
+    <tr><td>Klima kompresör kayışı/rulman</td><td>%16</td><td>uygun maliyetler</td><td>80.000-140.000 km</td></tr>
   </tbody>
 </table>
 
@@ -140,11 +139,11 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>2.0 TDI DPF/EGR tıkanması</td><td>%44</td><td>10.000–25.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>DSG DQ250/DQ381 mekatronik valf</td><td>%29</td><td>10.000–18.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>Turbo yağ yolu tıkanması</td><td>%21</td><td>8.000–18.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>Motor alt muhafaza yağ kaçağı</td><td>%26</td><td>2.500–6.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>ABS/ESP sensör arızası</td><td>%19</td><td>1.800–4.500₺</td><td>80.000-150.000 km</td></tr>
+    <tr><td>2.0 TDI DPF/EGR tıkanması</td><td>%44</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>DSG DQ250/DQ381 mekatronik valf</td><td>%29</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>Turbo yağ yolu tıkanması</td><td>%21</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>Motor alt muhafaza yağ kaçağı</td><td>%26</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>ABS/ESP sensör arızası</td><td>%19</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
   </tbody>
 </table>
 
@@ -166,10 +165,10 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>DSG DQ500 mekatronik/kavrama</td><td>%27</td><td>11.000–26.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>2.0 TSI turbo yağ tüketimi</td><td>%24</td><td>8.000–16.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>4Motion diferansiyel yağ kaçağı</td><td>%18</td><td>4.500–9.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Ön alt salıncak/rotil aşınması</td><td>%22</td><td>5.500–11.000₺</td><td>80.000-140.000 km</td></tr>
+    <tr><td>DSG DQ500 mekatronik/kavrama</td><td>%27</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>2.0 TSI turbo yağ tüketimi</td><td>%24</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>4Motion diferansiyel yağ kaçağı</td><td>%18</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Ön alt salıncak/rotil aşınması</td><td>%22</td><td>uygun maliyetler</td><td>80.000-140.000 km</td></tr>
   </tbody>
 </table>
 
@@ -202,16 +201,16 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
     <tr><th>DSG Arıza Türü</th><th>Maliyet</th><th>Süre</th><th>Garanti</th></tr>
   </thead>
   <tbody>
-    <tr><td>Mekatronik tamiri (elektronik/valf)</td><td>8.500–16.500₺</td><td>1-3 gün</td><td>2 yıl</td></tr>
-    <tr><td>Kavrama (debriyaj) seti değişimi</td><td>8.000–16.000₺</td><td>1-2 gün</td><td>2 yıl</td></tr>
-    <tr><td>Yağ + filtre değişimi</td><td>3.100–7.000₺</td><td>Aynı gün</td><td>1 yıl</td></tr>
-    <tr><td>Volant değişimi</td><td>11.000–22.000₺</td><td>2-3 gün</td><td>2 yıl</td></tr>
-    <tr><td>Şanzıman revizyonu (komple)</td><td>16.500–30.000₺</td><td>3-5 gün</td><td>2 yıl</td></tr>
+    <tr><td>Mekatronik tamiri (elektronik/valf)</td><td>uygun maliyetler</td><td>1-3 gün</td><td>2 yıl</td></tr>
+    <tr><td>Kavrama (debriyaj) seti değişimi</td><td>uygun maliyetler</td><td>1-2 gün</td><td>2 yıl</td></tr>
+    <tr><td>Yağ + filtre değişimi</td><td>uygun maliyetler</td><td>Aynı gün</td><td>1 yıl</td></tr>
+    <tr><td>Volant değişimi</td><td>uygun maliyetler</td><td>2-3 gün</td><td>2 yıl</td></tr>
+    <tr><td>Şanzıman revizyonu (komple)</td><td>uygun maliyetler</td><td>3-5 gün</td><td>2 yıl</td></tr>
   </tbody>
 </table>
 
 <div class="cta-box">
-  <strong>DSG arıza teşhisi ve fiyat teklifi:</strong>
+  <strong>DSG arıza teşhisi ve servis teklifi:</strong>
   <div class="cta-actions">
     <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
     <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Fiyat Al</a>
@@ -226,9 +225,9 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
     <tr><th>ZF Bakım/Arıza</th><th>Maliyet</th><th>Periyot/Süre</th></tr>
   </thead>
   <tbody>
-    <tr><td>Yağ + karter + filtre değişimi</td><td>5.400–9.900₺</td><td>80.000 km</td></tr>
-    <tr><td>Valf body tamiri</td><td>12.000–22.000₺</td><td>2-4 gün</td></tr>
-    <tr><td>Tork konvertör değişimi</td><td>18.000–35.000₺</td><td>3-5 gün</td></tr>
+    <tr><td>Yağ + karter + filtre değişimi</td><td>uygun maliyetler</td><td>80.000 km</td></tr>
+    <tr><td>Valf body tamiri</td><td>uygun maliyetler</td><td>2-4 gün</td></tr>
+    <tr><td>Tork konvertör değişimi</td><td>uygun maliyetler</td><td>3-5 gün</td></tr>
   </tbody>
 </table>
 
@@ -237,12 +236,12 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
 <h3>1.4 TSI Timing Zincir Gerginliği</h3>
 <p>2012-2017 arası 1.4 TSI (EA211) motorlarda timing zincir gerginliği fabrikasyon kusur. Zincir gevşemesi supap zamanlamasını bozar; motor titremeye başlar, performans düşer, arıza lambası yanar. İhmal edilirse motor içi hasar riski vardır.</p>
 <p><strong>Belirtiler:</strong> Rölantide titreşim, soğuk çalıştırmada zincir sesi, motor lambası (P0016, P0017 kodları).</p>
-<p><strong>Çözüm:</strong> Timing zincir, gergi, rehber değişimi. Maliyet: 6.500-12.000₺.</p>
+<p><strong>Çözüm:</strong> Timing zincir, gergi, rehber değişimi. Maliyet: uygun maliyetler.</p>
 
 <h3>2.0 TDI DPF Tıkanması</h3>
 <p>2.0 TDI (EA189/EA288) dizel motorlarda DPF (partikül filtresi) şehir içi kısa mesafe kullanımda rejenerasyon yetersizliği nedeniyle tıkanır. %41 yaygınlık oranıyla VW'nin en sık görülen arızasıdır.</p>
 <p><strong>Belirtiler:</strong> Motor gücü düşüşü, arıza lambası, yüksek yakıt tüketimi, DPF ikaz lambası.</p>
-<p><strong>Çözüm:</strong> DPF temizliği (8.000-12.000₺) veya yeni DPF (15.000-22.000₺).</p>
+<p><strong>Çözüm:</strong> DPF temizliği (Fiyat Sorunuz) veya yeni DPF (Fiyat Sorunuz).</p>
 
 <div class="cta-box">
   <strong>Motor arızası teşhisi:</strong>
@@ -260,9 +259,9 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
     <tr><th>Turbo Arıza/Bakım</th><th>Maliyet</th><th>Süre</th></tr>
   </thead>
   <tbody>
-    <tr><td>Turbo geometri tamiri</td><td>5.500–11.000₺</td><td>1-2 gün</td></tr>
-    <tr><td>Turbo revizyonu (rulman, conta)</td><td>8.000–14.000₺</td><td>2-3 gün</td></tr>
-    <tr><td>Yeni turbo (orjinal/yan sanayi)</td><td>12.000–28.000₺</td><td>1-2 gün</td></tr>
+    <tr><td>Turbo geometri tamiri</td><td>uygun maliyetler</td><td>1-2 gün</td></tr>
+    <tr><td>Turbo revizyonu (rulman, conta)</td><td>uygun maliyetler</td><td>2-3 gün</td></tr>
+    <tr><td>Yeni turbo (orjinal/yan sanayi)</td><td>uygun maliyetler</td><td>1-2 gün</td></tr>
   </tbody>
 </table>
 
@@ -272,11 +271,11 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
     <tr><th>Bakım Türü</th><th>Maliyet</th><th>Periyot</th></tr>
   </thead>
   <tbody>
-    <tr><td>Küçük bakım (yağ + filtre)</td><td>2.200–4.500₺</td><td>15.000 km</td></tr>
-    <tr><td>Büyük bakım (yağ, filtre, hava, polen, yakıt filtresi)</td><td>3.500–7.000₺</td><td>30.000 km</td></tr>
-    <tr><td>Fren balata (ön/arka)</td><td>3.000–6.500₺</td><td>40.000-60.000 km</td></tr>
-    <tr><td>Klima bakım (gaz, temizlik)</td><td>1.800–3.500₺</td><td>Yıllık</td></tr>
-    <tr><td>Timing kayış değişimi</td><td>4.500–9.000₺</td><td>120.000 km</td></tr>
+    <tr><td>Küçük bakım (yağ + filtre)</td><td>uygun maliyetler</td><td>15.000 km</td></tr>
+    <tr><td>Büyük bakım (yağ, filtre, hava, polen, yakıt filtresi)</td><td>uygun maliyetler</td><td>30.000 km</td></tr>
+    <tr><td>Fren balata (ön/arka)</td><td>uygun maliyetler</td><td>40.000-60.000 km</td></tr>
+    <tr><td>Klima bakım (gaz, temizlik)</td><td>uygun maliyetler</td><td>Yıllık</td></tr>
+    <tr><td>Timing kayış değişimi</td><td>uygun maliyetler</td><td>120.000 km</td></tr>
   </tbody>
 </table>
 
@@ -340,3 +339,4 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
+

@@ -63,8 +63,8 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
   {/* Google Fonts - Optimize edilmiş preload */}
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Titillium+Web:wght@600&display=swap&text=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÇĞİÖŞÜçğıöşü0123456789" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet"></noscript>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet"></noscript>
   
   {/* Preload Critical Resources - Responsive image preload */}
   <link rel="preload" href="/images/hero-bg-768.avif" as="image" type="image/avif" media="(max-width: 768px)" fetchpriority="high">

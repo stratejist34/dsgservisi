@@ -1,35 +1,31 @@
 ---
 
-title: "Şanzıman Keçesi Değişimi Fiyatı"
-description: "Şanzıman keçesi değişimi fiyatları 2025: DSG, ZF, konvansiyonel otomatik şanzıman keçe değişimi ne kadar? Çıkış mili, giriş mili, diferansiyel keçesi fiyatları."
+title: "Şanzıman Keçesi Değişimi Tamiri ve Servisi"
+description: "Şanzıman keçesi değişimi hizmetleri: DSG, ZF, konvansiyonel otomatik şanzıman keçe değişimi ne kadar? Çıkış mili, giriş mili, diferansiyel keçesi hizmetleri."
 category: "DSG"
-tags: ["şanzıman keçesi", "keçe değişimi", "fiyat", "2025", "dsg", "zf", "yağ kaçağı", "tamir"]
+tags: ["şanzıman keçesi", "keçe değişimi", "dsg", "zf", "yağ kaçağı", "tamir"]
 slug: "sanziman-kecesi-degisimi-fiyati"
 publishDate: "2025-11-07T13:13:00+03:00"
 updatedDate: "2025-11-07T13:13:00+03:00"
 featuredImage: "/images/blog/sanziman-kecesi-degisimi.jpg"
-imageAlt: "Şanzıman keçesi değişimi fiyatı 2025 - Yıldızlar Grup DSG Servisi"
+imageAlt: "Şanzıman keçesi değişimi hizmeti - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/sanziman-kecesi-degisimi.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "Şanzıman Keçesi Değişimi Fiyatı 2025 | DSG, ZF Keçe Değişimi"
-seoDescription: "Şanzıman keçesi değişimi fiyatları 2025: DSG, ZF, konvansiyonel otomatik şanzıman keçe değişimi ne kadar? Çıkış mili, giriş mili, diferansiyel keçesi fiyatları."
+seoTitle: "Şanzıman Keçesi Değişimi Tamiri Tamiri ve Değişimi DSG, ZF Keçe Değişimi"
+seoDescription: "Şanzıman keçesi değişimi hizmetleri: DSG, ZF, konvansiyonel otomatik şanzıman keçe değişimi ne kadar? Çıkış mili, giriş mili, diferansiyel keçesi hizmetleri."
 
 # Hizmet Şeması
 serviceName: "Şanzıman Keçesi Değişimi"
 serviceType: "Şanzıman Keçe Değişimi"
 serviceDescription: "DSG, ZF ve konvansiyonel otomatik şanzıman keçe değişimi, yağ kaçağı tamiri hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 1500
-highPrice: 5000
-priceCurrency: "TRY"
-offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 
 ---
 
 Şanzıman keçesi değişimi, otomatik şanzımanlarda **yağ kaçağı sorununun en yaygın çözümüdür**. Keçe; çıkış mili, giriş mili, diferansiyel ve mekatronik modül bağlantı noktalarında sızdırmazlık sağlar. Zamanla aşınma, yaşlanma ve termal stres nedeniyle keçe elastikiyetini kaybeder ve yağ kaçağı başlar. Erken müdahale, şanzıman hasarını ve maliyeti önemli ölçüde azaltır.
 
-2025 yılı için *şanzıman keçesi değişimi fiyatları*, keçe tipine, şanzıman modeline ve işçilik kapsamına göre değişir. Basit çıkış mili keçesi değişimi 1.500–3.300₺, giriş mili keçesi değişimi 1.900–4.000₺, diferansiyel keçesi değişimi (4x4) 3.000–5.700₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **doğru keçe seçimi**, **profesyonel montaj** ve **sızdırmazlık garantisi** ile şanzıman keçe değişimi hizmeti sunuyoruz.
+2025 yılı için *şanzıman keçesi değişimi fiyatları*, keçe tipine, şanzıman modeline ve işçilik kapsamına göre değişir. Basit çıkış mili keçesi değişimi uygun maliyetler, giriş mili keçesi değişimi uygun maliyetler, diferansiyel keçesi değişimi (4x4) uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **doğru keçe seçimi**, **profesyonel montaj** ve **sızdırmazlık garantisi** ile şanzıman keçe değişimi hizmeti sunuyoruz.
 
 :::tip
 
@@ -39,7 +35,7 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 
 :::cta
 
-**Ücretsiz ön teşhis ve fiyat teklifi için:**
+**Ücretsiz ön teşhis ve servis teklifi için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -59,14 +55,14 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 - **Mekanik hasar:** Montaj hatası veya darbeli hasar keçe bütünlüğünü bozar
 - **Yanlış keçe seçimi:** Orijinal spesifikasyona uygun olmayan keçe kısa sürede arızalanır
 
-## Şanzıman Keçesi Değişimi Fiyatları 2025 (Genel)
+## Şanzıman Keçesi Değişimi Hizmetleri (Genel)
 
 | Keçe Tipi | Parça | İşçilik | Toplam | Süre |
 | --- | ---: | ---: | ---: | --- |
-| Çıkış mili keçesi değişimi | 300–800₺ | 1.200–2.500₺ | 1.500–3.300₺ | 2-3 saat |
-| Giriş mili keçesi değişimi | 400–1.000₺ | 1.500–3.000₺ | 1.900–4.000₺ | 3-4 saat |
-| Diferansiyel keçesi değişimi (4x4) | 500–1.200₺ | 2.500–4.500₺ | 3.000–5.700₺ | 4-6 saat |
-| Mekatronik modül keçesi (DSG) | 600–1.500₺ | 2.000–3.500₺ | 2.600–5.000₺ | 3-5 saat |
+| Çıkış mili keçesi değişimi | 300–800₺ | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 2-3 saat |
+| Giriş mili keçesi değişimi | 400–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 3-4 saat |
+| Diferansiyel keçesi değişimi (4x4) | 500–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 4-6 saat |
+| Mekatronik modül keçesi (DSG) | 600–uygun fiyat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 3-5 saat |
 
 :::note
 
@@ -77,15 +73,15 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 
 :::
 
-## Şanzıman Tipine Göre Keçe Değişimi Fiyatları
+## Şanzıman Tipine Göre Keçe Değişimi Hizmetleri
 
 ### DSG DQ200 (7 İleri Kuru Kavrama)
 
 | Keçe Tipi | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi | 1.500–3.000₺ | 2-3 saat |
-| Giriş mili keçesi | 1.900–3.500₺ | 3-4 saat |
-| Mekatronik modül keçesi | 2.600–4.500₺ | 3-5 saat |
+| Çıkış mili keçesi | 📞 Fiyat Sorunuz | 2-3 saat |
+| Giriş mili keçesi | 📞 Fiyat Sorunuz | 3-4 saat |
+| Mekatronik modül keçesi | 📞 Fiyat Sorunuz | 3-5 saat |
 
 **Kullanıldığı Modeller:** Golf, Polo, Jetta, Ibiza, Leon, Octavia, Fabia
 
@@ -93,9 +89,9 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 
 | Keçe Tipi | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi | 1.800–3.500₺ | 3-4 saat |
-| Giriş mili keçesi | 2.200–4.000₺ | 3-4 saat |
-| Mekatronik modül keçesi | 3.000–5.000₺ | 4-6 saat |
+| Çıkış mili keçesi | 📞 Fiyat Sorunuz | 3-4 saat |
+| Giriş mili keçesi | 📞 Fiyat Sorunuz | 3-4 saat |
+| Mekatronik modül keçesi | 📞 Fiyat Sorunuz | 4-6 saat |
 
 **Kullanıldığı Modeller:** Passat, Tiguan, Octavia RS, Superb, Golf GTI
 
@@ -103,9 +99,9 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 
 | Keçe Tipi | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi | 2.000–4.000₺ | 3-4 saat |
-| Giriş mili keçesi | 2.500–4.500₺ | 3-4 saat |
-| Mekatronik modül keçesi | 3.500–5.500₺ | 5-7 saat |
+| Çıkış mili keçesi | 📞 Fiyat Sorunuz | 3-4 saat |
+| Giriş mili keçesi | 📞 Fiyat Sorunuz | 3-4 saat |
+| Mekatronik modül keçesi | 📞 Fiyat Sorunuz | 5-7 saat |
 
 **Kullanıldığı Modeller:** Tiguan 4Motion, Passat 4Motion, Audi S-tronic
 
@@ -113,9 +109,9 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 
 | Keçe Tipi | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi | 2.500–5.000₺ | 4-5 saat |
-| Giriş mili keçesi | 3.000–5.500₺ | 4-5 saat |
-| Diferansiyel keçesi (4x4) | 3.500–7.000₺ | 5-7 saat |
+| Çıkış mili keçesi | 📞 Fiyat Sorunuz | 4-5 saat |
+| Giriş mili keçesi | 📞 Fiyat Sorunuz | 4-5 saat |
+| Diferansiyel keçesi (4x4) | 📞 Fiyat Sorunuz | 5-7 saat |
 
 **Kullanıldığı Modeller:** BMW, Mercedes, Land Rover, Audi Q7/Q8
 
@@ -177,39 +173,39 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 - **Ağır kullanım:** 80.000–120.000 km
 - **Yaşlanma:** 8–10 yıl (kilometreye bakılmaksızın)
 
-## Model Bazında Keçe Değişimi Fiyatları
+## Model Bazında Keçe Değişimi Hizmetleri
 
 ### Volkswagen Golf (7, 8)
 
 | Keçe Tipi | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi (DQ200) | 1.500–3.000₺ | 2-3 saat |
-| Giriş mili keçesi (DQ200) | 1.900–3.500₺ | 3-4 saat |
-| Mekatronik modül keçesi | 2.600–4.500₺ | 3-5 saat |
+| Çıkış mili keçesi (DQ200) | 📞 Fiyat Sorunuz | 2-3 saat |
+| Giriş mili keçesi (DQ200) | 📞 Fiyat Sorunuz | 3-4 saat |
+| Mekatronik modül keçesi | 📞 Fiyat Sorunuz | 3-5 saat |
 
 ### Volkswagen Passat (B7, B8)
 
 | Keçe Tipi | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi (DQ250) | 1.800–3.500₺ | 3-4 saat |
-| Giriş mili keçesi (DQ250) | 2.200–4.000₺ | 3-4 saat |
-| Mekatronik modül keçesi | 3.000–5.000₺ | 4-6 saat |
+| Çıkış mili keçesi (DQ250) | 📞 Fiyat Sorunuz | 3-4 saat |
+| Giriş mili keçesi (DQ250) | 📞 Fiyat Sorunuz | 3-4 saat |
+| Mekatronik modül keçesi | 📞 Fiyat Sorunuz | 4-6 saat |
 
 ### Audi A3, A4, A5
 
 | Keçe Tipi | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi (S-tronic) | 2.000–4.000₺ | 3-4 saat |
-| Giriş mili keçesi (S-tronic) | 2.500–4.500₺ | 3-4 saat |
-| Mekatronik modül keçesi | 3.500–5.500₺ | 5-7 saat |
+| Çıkış mili keçesi (S-tronic) | 📞 Fiyat Sorunuz | 3-4 saat |
+| Giriş mili keçesi (S-tronic) | 📞 Fiyat Sorunuz | 3-4 saat |
+| Mekatronik modül keçesi | 📞 Fiyat Sorunuz | 5-7 saat |
 
 ### BMW 3 Serisi, 5 Serisi
 
 | Keçe Tipi | Fiyat | Süre |
 | --- | ---: | --- |
-| Çıkış mili keçesi (ZF 8HP) | 2.500–5.000₺ | 4-5 saat |
-| Giriş mili keçesi (ZF 8HP) | 3.000–5.500₺ | 4-5 saat |
-| Diferansiyel keçesi (xDrive) | 3.500–7.000₺ | 5-7 saat |
+| Çıkış mili keçesi (ZF 8HP) | 📞 Fiyat Sorunuz | 4-5 saat |
+| Giriş mili keçesi (ZF 8HP) | 📞 Fiyat Sorunuz | 4-5 saat |
+| Diferansiyel keçesi (xDrive) | 📞 Fiyat Sorunuz | 5-7 saat |
 
 ## Neden Yıldızlar Grup?
 
@@ -224,7 +220,7 @@ offerUrl: "/sanziman-kecesi-degisimi-fiyati"
 
 | Durum | Keçe Değişimi | Komple Değişim |
 | --- | ---: | ---: |
-| Maliyet | 1.500–5.700₺ | 24.000–104.000₺ |
+| Maliyet | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 | Süre | 2-6 saat | 3-7 gün |
 | Garanti | 12 ay / 20.000 km | 12-18 ay / 30.000 km |
 | Uygunluk | Erken teşhis durumunda | Şanzıman hasarı durumunda |
@@ -261,9 +257,10 @@ Keçe değişimi sırasında yağ kaybı olmuşsa yağ seviyesi ayarlanır. Yağ
 
 Şanzıman keçesi değişimi, yağ kaçağı sorununun en ekonomik ve etkili çözümüdür. Erken teşhis ve müdahale, şanzıman hasarını ve maliyeti önemli ölçüde azaltır. Yıldızlar Grup DSG Servisi olarak; doğru teşhis, profesyonel montaj ve garanti ile şanzıman keçe değişimi hizmeti sunuyoruz.
 
-**Ücretsiz ön teşhis ve fiyat teklifi için hemen iletişime geçin:**
+**Ücretsiz ön teşhis ve servis teklifi için hemen iletişime geçin:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 

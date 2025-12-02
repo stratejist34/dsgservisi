@@ -1,40 +1,74 @@
 ---
 ---
 
-<!-- CTA Section - White Background -->
-<section class="section bg-white">
-  <div class="container">
-    <div class="max-w-4xl mx-auto text-center" data-animate>
-      <h3 class="text-3xl md:text-4xl font-display font-bold text-navy mb-4">
-        Aracınız İçin En İyi Hizmeti Alın
+<!-- CTA Section - Tech Style -->
+<section class="section relative overflow-hidden py-20">
+  {/* Dark Gradient Background */}
+  <div class="absolute inset-0 bg-gradient-to-r from-slate-900 via-slate-800 to-slate-900"></div>
+  
+  {/* Tech Grid Pattern */}
+  <div class="absolute inset-0 opacity-[0.03]" 
+       style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 30px 30px;">
+  </div>
+
+  {/* Glowing Orbs */}
+  <div class="absolute top-0 left-1/4 w-[500px] h-[500px] bg-amber-500/5 rounded-full blur-[100px] pointer-events-none"></div>
+  <div class="absolute bottom-0 right-1/4 w-[500px] h-[500px] bg-blue-600/5 rounded-full blur-[100px] pointer-events-none"></div>
+
+  <div class="container relative z-10">
+    <div class="max-w-5xl mx-auto bg-white/5 backdrop-blur-lg border border-white/10 rounded-2xl p-8 md:p-12 text-center shadow-2xl" data-animate>
+      
+      <div class="inline-flex items-center justify-center w-16 h-16 rounded-full bg-amber-500/10 border border-amber-500/30 mb-6 text-amber-500">
+        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+      </div>
+
+      <h3 class="text-3xl md:text-5xl font-display font-bold text-white mb-6">
+        Aracınız İçin <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Mühendislik Çözümleri</span>
       </h3>
-      <p class="text-xl text-gray-600 mb-8 max-w-2xl mx-auto" data-animate>
-        Uzman ekibimizle tanışın ve aracınızın ihtiyaç duyduğu profesyonel bakımı alın
+      
+      <p class="text-xl text-slate-400 mb-10 max-w-2xl mx-auto leading-relaxed">
+        Standart bakım veya karmaşık mekatronik onarımı fark etmeksizin, uzman ekibimizle tanışın ve aracınızın performansını zirveye taşıyın.
       </p>
-      <div class="flex flex-col sm:flex-row gap-4 justify-center" data-stagger-children data-stagger-step="90">
+      
+      <div class="flex flex-col sm:flex-row gap-5 justify-center" data-stagger-children data-stagger-step="90">
         <a
           href="/iletisim"
-          class="btn btn-primary btn-lg group"
+          class="group relative inline-flex items-center justify-center px-8 py-4 bg-amber-500 text-white font-bold rounded-lg overflow-hidden transition-all hover:bg-amber-600 shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)]"
           data-animate
         >
-          <svg class="w-5 h-5 mr-2 group-hover:animate-ring" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-            <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
-          </svg>
-          Randevu Alın
+          <span class="relative z-10 flex items-center gap-3">
+            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+            ONLİNE RANDEVU
+          </span>
         </a>
+        
         <a
           href="/hakkimizda"
-          class="btn bg-navy text-white hover:bg-navy-600 btn-lg"
+          class="group inline-flex items-center justify-center px-8 py-4 bg-transparent border border-white/20 text-white font-semibold rounded-lg hover:bg-white/5 transition-all"
           data-animate
         >
-          Hakkımızda
-          <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <span class="mr-2">Kurumsal</span>
+          <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6"></path>
           </svg>
         </a>
       </div>
+      
+      <div class="mt-8 flex items-center justify-center gap-6 text-sm text-slate-500 font-mono">
+        <div class="flex items-center gap-2">
+          <span class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
+          7/24 Destek
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="w-1.5 h-1.5 bg-amber-500 rounded-full"></span>
+          Orijinal Parça
+        </div>
+        <div class="flex items-center gap-2">
+          <span class="w-1.5 h-1.5 bg-blue-500 rounded-full"></span>
+          Garantili İşçilik
+        </div>
+      </div>
+
     </div>
   </div>
 </section>
-

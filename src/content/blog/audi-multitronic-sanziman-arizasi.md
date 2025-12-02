@@ -1,6 +1,6 @@
 ---
 title: "Audi Multitronic Şanzıman Arızası"
-description: "Audi Multitronic şanzıman arızası belirtileri, nedenleri ve çözümleri. A4, A5, A6 modellerinde CVT şanzıman arızası tamiri fiyatları ve bakım önerileri."
+description: "Audi Multitronic şanzıman arızası belirtileri, nedenleri ve çözümleri. A4, A5, A6 modellerinde CVT şanzıman arızası tamiri hizmetleri ve bakım önerileri."
 category: "Audi"
 tags: ["audi", "multitronic", "şanzıman arızası", "cvt", "a4", "a5", "a6", "şanzıman tamiri"]
 slug: "audi-multitronic-sanziman-arizasi"
@@ -17,10 +17,6 @@ serviceName: "Audi Multitronic Şanzıman Tamiri"
 serviceType: "Şanzıman Onarımı"
 serviceDescription: "Audi Multitronic CVT şanzıman arızası tamiri. A4, A5, A6 modellerinde uzman hizmet."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 9500
-highPrice: 32000
-priceCurrency: "TRY"
-offerUrl: "/audi-multitronic-sanziman-arizasi"
 
 ---
 
@@ -30,7 +26,7 @@ Multitronic, Audi'nin sürekli değişken transmisyon (CVT) teknolojisidir. Zinc
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Multitronic şanzıman arızalarında erken teşhis %60'a varan maliyet tasarrufu sağlar. Multitronic yağ değişimi 60.000 km'de mutlaka yapılmalıdır. Yağ değişimi 5.500-8.500₺; değişmezse zincir arızası 15.000-32.000₺. Şehir içi sık dur-kalkta hidrolik sistem yükü %35 artar.
+**UZMAN TAVSİYESİ:** Multitronic şanzıman arızalarında erken teşhis %60'a varan maliyet tasarrufu sağlar. Multitronic yağ değişimi 60.000 km'de mutlaka yapılmalıdır. Yağ değişimi uygun maliyetler; değişmezse zincir arızası uygun maliyetler. Şehir içi sık dur-kalkta hidrolik sistem yükü %35 artar.
 
 :::
 
@@ -52,9 +48,9 @@ Multitronic, Audi'nin 2002-2012 yılları arasında kullandığı CVT (Continuou
 
 | Model | Yıl | Motor | Şanzıman Kodu |
 | --- | --- | --- | --- |
-| Audi A4 (B6, B7) | 2002-2008 | 1.8T, 2.0T, 3.0 V6 | 01J |
-| Audi A5 (8T) | 2007-2012 | 2.0T, 3.0 V6 | 0AW |
-| Audi A6 (C5, C6) | 2002-2011 | 2.0T, 2.4, 2.8, 3.0 V6 | 01J, 0AW |
+| Audi A4 (B6, B7) | letiime Geiniz 1.8T, 2.0T, 3.0 V6 | 01J |
+| Audi A5 (8T) | letiime Geiniz 2.0T, 3.0 V6 | 0AW |
+| Audi A6 (C5, C6) | letiime Geiniz 2.0T, 2.4, 2.8, 3.0 V6 | 01J, 0AW |
 
 ## Multitronic Şanzıman Arızası Belirtileri
 
@@ -136,27 +132,27 @@ TCU, şanzımanın beyniydir. Yazılım veya donanım arızası şanzımanı dev
 - Acil mod
 - Hata kodları (P0700, P0730)
 
-## Multitronic Şanzıman Tamiri Fiyatları 2025
+## Multitronic Şanzıman Tamiri Hizmetleri
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Yağ değişimi (önleyici bakım) | 5.500–8.500₺ | Aynı gün | %100 |
-| Valf body revizyonu | 9.500–16.000₺ | 2-3 gün | %15 |
-| Hidrolik pompa değişimi | 12.000–20.000₺ | 3-4 gün | %18 |
-| Zincir değişimi | 15.000–26.000₺ | 4-5 gün | %28 |
-| Elektronik kontrol ünitesi (TCU) | 8.000–14.000₺ | 1-2 gün | %12 |
-| Tam revizyon (zincir + pompa + valf) | 22.000–32.000₺ | 5-7 gün | %20 |
+| Yağ değişimi (önleyici bakım) | 📞 Fiyat Sorunuz | Aynı gün | %100 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-3 gün | %15 |
+| Hidrolik pompa değişimi | 📞 Fiyat Sorunuz | 3-4 gün | %18 |
+| Zincir değişimi | 📞 Fiyat Sorunuz | 4-5 gün | %28 |
+| Elektronik kontrol ünitesi (TCU) | 📞 Fiyat Sorunuz | 1-2 gün | %12 |
+| Tam revizyon (zincir + pompa + valf) | 📞 Fiyat Sorunuz | 5-7 gün | %20 |
 
-## Model Bazlı Multitronic Arıza Fiyatları
+## Model Bazlı Multitronic Arıza Hizmetleri
 
 ### Audi A4 (B6, B7) Multitronic Arızası
 
 | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | ---: | --- |
-| Yağ değişimi | 5.500–7.500₺ | Aynı gün |
-| Zincir değişimi | 15.000–24.000₺ | 4-5 gün |
-| Hidrolik pompa | 12.000–18.000₺ | 3-4 gün |
-| Tam revizyon | 22.000–30.000₺ | 5-7 gün |
+| Yağ değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Zincir değişimi | 📞 Fiyat Sorunuz | 4-5 gün |
+| Hidrolik pompa | 📞 Fiyat Sorunuz | 3-4 gün |
+| Tam revizyon | 📞 Fiyat Sorunuz | 5-7 gün |
 
 **A4 Multitronic Özel Notlar:**
 - B6 (2002-2005) modellerinde 01J şanzıman daha sorunludur
@@ -167,10 +163,10 @@ TCU, şanzımanın beyniydir. Yazılım veya donanım arızası şanzımanı dev
 
 | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | ---: | --- |
-| Yağ değişimi | 6.000–8.000₺ | Aynı gün |
-| Zincir değişimi | 16.000–25.000₺ | 4-5 gün |
-| Hidrolik pompa | 13.000–19.000₺ | 3-4 gün |
-| Tam revizyon | 23.000–31.000₺ | 5-7 gün |
+| Yağ değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Zincir değişimi | 📞 Fiyat Sorunuz | 4-5 gün |
+| Hidrolik pompa | 📞 Fiyat Sorunuz | 3-4 gün |
+| Tam revizyon | 📞 Fiyat Sorunuz | 5-7 gün |
 
 **A5 Multitronic Özel Notlar:**
 - 2007-2012 arası üretilen A5'lerde 0AW şanzıman kullanılır
@@ -181,10 +177,10 @@ TCU, şanzımanın beyniydir. Yazılım veya donanım arızası şanzımanı dev
 
 | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | ---: | --- |
-| Yağ değişimi | 6.500–8.500₺ | Aynı gün |
-| Zincir değişimi | 17.000–26.000₺ | 4-5 gün |
-| Hidrolik pompa | 14.000–20.000₺ | 3-4 gün |
-| Tam revizyon | 24.000–32.000₺ | 5-7 gün |
+| Yağ değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Zincir değişimi | 📞 Fiyat Sorunuz | 4-5 gün |
+| Hidrolik pompa | 📞 Fiyat Sorunuz | 3-4 gün |
+| Tam revizyon | 📞 Fiyat Sorunuz | 5-7 gün |
 
 **A6 Multitronic Özel Notlar:**
 - C5 (2002-2004) modellerinde 01J şanzıman en sorunlu versiyondur
@@ -234,7 +230,7 @@ TCU, şanzımanın beyniydir. Yazılım veya donanım arızası şanzımanı dev
 
 - **15+ Yıl Deneyim:** Audi Multitronic tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-7 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Audi servisi
@@ -273,7 +269,7 @@ TCU, şanzımanın beyniydir. Yazılım veya donanım arızası şanzımanı dev
       <span class="review-stars">★★★★★</span>
       <span class="review-date">5 yıl önce</span>
     </div>
-    <p class="review-text">Audi a1 2012 tdi dsg yürüyen ve direksiyon sorunlarımızı çözdüler. Başarılı ve ilgili bir işletme.</p>
+    <p class="review-text">Audi a1 letiime Geinizdi dsg yürüyen ve direksiyon sorunlarımızı çözdüler. Başarılı ve ilgili bir işletme.</p>
   </div>
 </div>
 
@@ -311,11 +307,11 @@ Multitronic arıza belirtileri: vites geçişlerinde sarsıntı, gaz pedalına b
 
 ### Multitronic yağ değişimi ne zaman yapılmalı?
 
-Multitronic yağ değişimi 60.000 km'de mutlaka yapılmalıdır. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, zincir aşınması riski %40 artar. Yağ değişimi 5.500-8.500₺; değişmezse zincir arızası 15.000-32.000₺.
+Multitronic yağ değişimi 60.000 km'de mutlaka yapılmalıdır. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, zincir aşınması riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse zincir arızası uygun maliyetler.
 
 ### Multitronic şanzıman tamiri ne kadar tutar?
 
-Multitronic tamir fiyatı arıza türüne göre değişir. Yağ değişimi 5.500-8.500₺, valf body revizyonu 9.500-16.000₺, hidrolik pompa 12.000-20.000₺, zincir değişimi 15.000-26.000₺, tam revizyon 22.000-32.000₺ arasındadır.
+Multitronic tamir fiyatı arıza türüne göre değişir. Yağ değişimi uygun maliyetler, valf body revizyonu uygun maliyetler, hidrolik pompa uygun maliyetler, zincir değişimi uygun maliyetler, tam revizyon uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Multitronic şanzıman ne kadar dayanıklıdır?
 
@@ -344,3 +340,4 @@ Multitronic şanzımanda sadece Audi G 052 180 A2 veya eşdeğeri kullanılmalı
 ### Multitronic şanzıman tamiri garanti kapsamında mı?
 
 Evet, Yıldızlar Grup'ta yapılan tüm Multitronic tamirlerinde işçilik 12 ay, parçalarda 2 yıl garanti kapsamındadır. Orijinal parça ve uzman işçilik garantisi veriyoruz.
+

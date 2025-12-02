@@ -20,7 +20,6 @@ serviceName: "DSG Şanzıman Arızası Teşhisi"
 serviceType: "DSG Kavrama Arızası Teşhisi"
 serviceDescription: "DSG geri kaçırma sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-geri-kacirma"
 
 ---
 
@@ -133,7 +132,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Mekatronik adaptasyon sıfırlama ve kalibrasyon
 
-**Maliyet:** 1.500–3.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 1-2 saat
 
@@ -143,7 +142,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** DSG yağı ve filtre değişimi + adaptasyon
 
-**Maliyet:** 3.500–7.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 saat
 
@@ -153,7 +152,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Kavrama kontrol solenoid valfi değişimi
 
-**Maliyet:** 4.500–12.500₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 1-2 gün
 
@@ -163,7 +162,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Kavrama seti değişimi
 
-**Maliyet:** 13.000–29.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -173,7 +172,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Volant ve kavrama birlikte değişimi
 
-**Maliyet:** 20.000–42.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -223,7 +222,7 @@ Bu nedenle geri kaçırma başladığında hemen bir DSG uzmanına başvurulmal�
 - **Hızlı Çözüm:** Basit arızalar 1-2 saat içinde tamamlanır
 - **Orijinal Parça:** Tüm parçalar orijinal veya OEM kalitede
 - **Garanti:** Tüm tamirlerde 6-12 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 
 ## Sık Sorulan Sorular
 
@@ -233,7 +232,7 @@ Geri kaçırma, kavrama tutuş gücünün yetersiz olduğunu veya kavrama kontro
 
 ### Geri kaçırma maliyeti ne kadar?
 
-Arıza kapsamına göre değişir. Adaptasyon sıfırlama 1.500–3.000₺, solenoid valf değişimi 4.500–12.500₺, kavrama değişimi 13.000–29.000₺ aralığındadır.
+Arıza kapsamına göre değişir. Adaptasyon sıfırlama uygun maliyetler, solenoid valf değişimi uygun maliyetler, kavrama değişimi uygun maliyetler aralığındadır.
 
 ### Geri kaçırma tehlikeli mi?
 
@@ -252,4 +251,5 @@ DSG geri kaçırma sorunu, kavrama aşınması veya kavrama kontrol solenoid val
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 

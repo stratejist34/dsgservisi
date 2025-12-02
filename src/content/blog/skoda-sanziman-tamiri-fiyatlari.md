@@ -1,13 +1,13 @@
 ---
-title: "Skoda Şanzıman Tamiri Fiyatları"
-description: "Skoda şanzıman tamiri fiyatları: DSG şanzıman tamiri fiyatları. Octavia, Superb, Kodiaq, Karoq, Fabia, Scala modellerinde DQ200, DQ250, DQ381, DQ500 mekatronik, kavrama, valf body tamiri fiyatları."
+title: "Skoda Şanzıman Tamiri Hizmetleri"
+description: "Skoda şanzıman tamiri hizmetleri: DSG şanzıman tamiri hizmetleri. Octavia, Superb, Kodiaq, Karoq, Fabia, Scala modellerinde DQ200, DQ250, DQ381, DQ500 mekatronik, kavrama, valf body tamiri hizmetleri."
 category: "Skoda"
-tags: ["skoda", "şanzıman", "şanzıman tamiri", "dsg", "dq200", "dq250", "dq381", "fiyat"]
+tags: ["skoda", "şanzıman", "şanzıman tamiri", "dsg", "dq200", "dq250", "dq381"]
 slug: "skoda-sanziman-tamiri-fiyatlari"
 publishDate: "2025-11-14T15:00:00+03:00"
 updatedDate: "2025-11-14T15:00:00+03:00"
 featuredImage: "/images/blog/skoda-sanziman-tamiri-fiyatlari.jpg"
-imageAlt: "Skoda şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Skoda şanzıman tamiri hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/skoda-sanziman-tamiri-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Skoda Şanzıman Tamiri"
 serviceType: "Şanzıman Onarımı"
 serviceDescription: "Skoda araçlarında DSG şanzıman tamiri hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 8500
-highPrice: 18500
-priceCurrency: "TRY"
-offerUrl: "/skoda-sanziman-tamiri-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Skoda araçlarında şanzıman arızaları motor performansını ve güvenliği 
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Skoda şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. DSG yağ değişimi 60.000-80.000 km'de mutlaka yapılmalıdır. Yağ değişimi 5.500-9.000₺; değişmezse mekatronik arızası 8.500-18.500₺. DQ200 kuru kavrama şehir içi sık dur-kalkta %40 daha hızlı aşınır. Octavia RS gibi sportif modellerde DSG aşınması %40 hızlanır. Kodiaq gibi ağır SUV modellerde kavrama aşınması %33 hızlanır.
+**UZMAN TAVSİYESİ:** Skoda şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. DSG yağ değişimi 60.000-80.000 km'de mutlaka yapılmalıdır. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler. DQ200 kuru kavrama şehir içi sık dur-kalkta %40 daha hızlı aşınır. Octavia RS gibi sportif modellerde DSG aşınması %40 hızlanır. Kodiaq gibi ağır SUV modellerde kavrama aşınması %33 hızlanır.
 
 :::
 
@@ -44,16 +40,16 @@ Skoda araçlarında şanzıman arızaları motor performansını ve güvenliği 
 
 :::
 
-## Skoda Şanzıman Tamiri Fiyatları 2025 (Genel)
+## Skoda Şanzıman Tamiri Hizmetleri (Genel)
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | --- | ---: | --- |
-| DSG DQ200 (7 vites kuru) | Octavia, Fabia, Scala | Mekatronik, kavrama | 8.500–16.500₺ | 1-3 gün |
-| DSG DQ250 (6 vites yaş) | Octavia RS, Superb | Mekatronik, valf body | 9.500–17.500₺ | 1-3 gün |
-| DSG DQ381 (7 vites yaş) | Kodiaq, Karoq, Superb 4x4 | Çift kavrama, mekatronik | 10.500–18.500₺ | 2-4 gün |
-| DSG DQ500 (7 vites yaş yüksek tork) | Kodiaq 2.0 TSI 4Drive | Mekatronik, kavrama | 12.000–20.000₺ | 2-4 gün |
+| DSG DQ200 (7 vites kuru) | Octavia, Fabia, Scala | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 1-3 gün |
+| DSG DQ250 (6 vites yaş) | Octavia RS, Superb | Mekatronik, valf body | 📞 Fiyat Sorunuz | 1-3 gün |
+| DSG DQ381 (7 vites yaş) | Kodiaq, Karoq, Superb 4x4 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
+| DSG DQ500 (7 vites yaş yüksek tork) | Kodiaq 2.0 TSI 4Drive | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 2-4 gün |
 
-## Şanzıman Tipine Göre Tamir Fiyatları
+## Şanzıman Tipine Göre Tamir Hizmetleri
 
 ### DSG DQ200 Şanzıman Tamiri (Octavia, Fabia, Scala)
 
@@ -61,11 +57,11 @@ DQ200 7 vites kuru kavramalı DSG şanzımanıdır. Mekatronik ve kavrama arıza
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 8.500–14.500₺ | 1-2 gün | %33 |
-| Kavrama değişimi | 9.000–16.500₺ | 2-3 gün | %29 |
-| Yağ kaçağı tamiri | 3.500–6.500₺ | Aynı gün | %22 |
-| Valf body değişimi | 6.000–11.500₺ | 1-2 gün | %19 |
-| Tam revizyon | 12.000–16.500₺ | 3-4 gün | %15 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 1-2 gün | %33 |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 2-3 gün | %29 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | Aynı gün | %22 |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %19 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 3-4 gün | %15 |
 
 **DQ200 Arıza Belirtileri:**
 - Vites atarken sarsıntı
@@ -81,11 +77,11 @@ DQ250 6 vites yaş kavramalı DSG şanzımanıdır. Mekatronik ve valf body arı
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 9.500–15.500₺ | 1-2 gün | %30 |
-| Valf body değişimi | 8.000–13.500₺ | 1-2 gün | %25 |
-| Kavrama değişimi | 10.000–17.500₺ | 2-3 gün | %22 |
-| Yağ kaçağı tamiri | 4.000–7.500₺ | Aynı gün | %20 |
-| Tam revizyon | 13.000–17.500₺ | 3-4 gün | %18 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 1-2 gün | %30 |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %25 |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 2-3 gün | %22 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | Aynı gün | %20 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 3-4 gün | %18 |
 
 **DQ250 Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -100,11 +96,11 @@ DQ381 7 vites yaş kavramalı DSG şanzımanıdır. Çift kavrama ve mekatronik 
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 10.500–17.000₺ | 2-3 gün | %32 |
-| Çift kavrama değişimi | 13.000–18.500₺ | 3-4 gün | %30 |
-| Valf body değişimi | 9.000–14.500₺ | 2-3 gün | %24 |
-| Yağ kaçağı tamiri | 4.500–8.500₺ | 1 gün | %21 |
-| Tam revizyon | 15.500–18.500₺ | 4-5 gün | %20 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-3 gün | %32 |
+| Çift kavrama değişimi | 📞 Fiyat Sorunuz | 3-4 gün | %30 |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 2-3 gün | %24 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1 gün | %21 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-5 gün | %20 |
 
 **DQ381 Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -120,20 +116,20 @@ DQ500 7 vites yaş kavramalı yüksek torklu DSG şanzımanıdır. Kodiaq'ın 7 
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 12.000–18.000₺ | 2-3 gün | %31 |
-| Çift kavrama değişimi | 14.000–20.000₺ | 3-4 gün | %29 |
-| Valf body değişimi | 10.000–15.500₺ | 2-3 gün | %25 |
-| Yağ kaçağı tamiri | 5.000–9.500₺ | 1 gün | %22 |
-| Tam revizyon | 17.000–20.000₺ | 4-5 gün | %21 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-3 gün | %31 |
+| Çift kavrama değişimi | 📞 Fiyat Sorunuz | 3-4 gün | %29 |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 2-3 gün | %25 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1 gün | %22 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-5 gün | %21 |
 
-## Model Bazlı Şanzıman Tamiri Fiyatları
+## Model Bazlı Şanzıman Tamiri Hizmetleri
 
 ### Skoda Octavia (5E, NL) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| DSG DQ200 | Mekatronik, kavrama | 8.500–16.500₺ | 1-3 gün |
-| DSG DQ250 | Mekatronik, valf body | 9.500–17.500₺ | 1-3 gün |
+| DSG DQ200 | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 1-3 gün |
+| DSG DQ250 | Mekatronik, valf body | 📞 Fiyat Sorunuz | 1-3 gün |
 
 **Octavia RS:** Sportif kullanım nedeniyle DSG aşınması %40 hızlanır. DQ250 kavrama değişimi 100.000-120.000 km'de gerekebilir.
 
@@ -141,8 +137,8 @@ DQ500 7 vites yaş kavramalı yüksek torklu DSG şanzımanıdır. Kodiaq'ın 7 
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| DSG DQ250 | Mekatronik, valf body | 9.500–17.500₺ | 1-3 gün |
-| DSG DQ381 | Çift kavrama, mekatronik | 10.500–18.500₺ | 2-4 gün |
+| DSG DQ250 | Mekatronik, valf body | 📞 Fiyat Sorunuz | 1-3 gün |
+| DSG DQ381 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
 
 **Superb 4x4:** Haldex 4x4 modellerinde DQ381 kullanılır. Ekstra bakım gerekir.
 
@@ -150,8 +146,8 @@ DQ500 7 vites yaş kavramalı yüksek torklu DSG şanzımanıdır. Kodiaq'ın 7 
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| DSG DQ381 | Çift kavrama, mekatronik | 10.500–18.500₺ | 2-4 gün |
-| DSG DQ500 | Mekatronik, kavrama | 12.000–20.000₺ | 2-4 gün |
+| DSG DQ381 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
+| DSG DQ500 | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 2-4 gün |
 
 **Kodiaq DQ381/DQ500:** 7 kişilik ağır SUV gövdesi nedeniyle kavrama aşınması %33 oranında hızlanır. 2.0 TSI 4Drive modellerinde DQ500 kullanılır. Haldex 4x4 pompa arızası da yaygındır (%22).
 
@@ -159,20 +155,20 @@ DQ500 7 vites yaş kavramalı yüksek torklu DSG şanzımanıdır. Kodiaq'ın 7 
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| DSG DQ200 | Mekatronik, kavrama | 8.500–16.000₺ | 1-3 gün |
-| DSG DQ381 | Çift kavrama, mekatronik | 10.500–18.500₺ | 2-4 gün |
+| DSG DQ200 | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 1-3 gün |
+| DSG DQ381 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Skoda Fabia (NJ, NS) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| DSG DQ200 | Mekatronik, kavrama | 8.500–16.000₺ | 1-3 gün |
+| DSG DQ200 | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 1-3 gün |
 
 ### Skoda Scala (NW) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| DSG DQ200 | Mekatronik, kavrama | 8.500–16.000₺ | 1-3 gün |
+| DSG DQ200 | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 1-3 gün |
 
 ## Şanzıman Arıza Türleri ve Çözümleri
 
@@ -182,10 +178,10 @@ Mekatronik, şanzımanın elektronik kontrol ünitesidir. Basınç sensörü, va
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Mekatronik revizyonu | 8.500–18.000₺ | 1-3 gün |
-| Mekatronik değişimi | 11.000–20.000₺ | 2-4 gün |
-| Basınç sensörü değişimi | 4.000–7.500₺ | Aynı gün |
-| Valf değişimi | 5.500–12.500₺ | 1-2 gün |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 1-3 gün |
+| Mekatronik değişimi | 📞 Fiyat Sorunuz | 2-4 gün |
+| Basınç sensörü değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Valf değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Kavrama Arızası
 
@@ -193,9 +189,9 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Kavrama değişimi (DQ200) | 9.000–16.500₺ | 2-3 gün |
-| Çift kavrama değişimi (DQ381/DQ500) | 13.000–20.000₺ | 3-4 gün |
-| Kavrama revizyonu | 6.500–13.500₺ | 2-3 gün |
+| Kavrama değişimi (DQ200) | 📞 Fiyat Sorunuz | 2-3 gün |
+| Çift kavrama değişimi (DQ381/DQ500) | 📞 Fiyat Sorunuz | 3-4 gün |
+| Kavrama revizyonu | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ### Yağ Kaçağı Tamiri
 
@@ -203,9 +199,9 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Keçe değişimi | 3.500–7.500₺ | Aynı gün |
-| Conta değişimi | 4.000–8.500₺ | 1 gün |
-| Gövde tamiri | 5.500–11.500₺ | 2-3 gün |
+| Keçe değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Conta değişimi | 📞 Fiyat Sorunuz | 1 gün |
+| Gövde tamiri | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ## Şanzıman Bakım Önerileri
 
@@ -235,7 +231,7 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
 
 - **15+ Yıl Deneyim:** Skoda şanzıman tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-5 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Skoda servisi
@@ -308,7 +304,7 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
 
 ### Skoda şanzıman tamiri fiyatı ne kadar?
 
-Skoda şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. DSG DQ200 için 8.500-16.500₺, DSG DQ250 için 9.500-17.500₺, DSG DQ381 için 10.500-18.500₺, DSG DQ500 için 12.000-20.000₺ arasındadır.
+Skoda şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. DSG DQ200 modeli, DSG DQ250 modeli, DSG DQ381 modeli, DSG DQ500 modeli için servisimizden net fiyat alabilirsiniz.
 
 ### Skoda DSG mekatronik arızası belirtileri nelerdir?
 
@@ -316,7 +312,7 @@ DSG mekatronik arızası belirtileri: vites atarken sarsıntı, vites geçişler
 
 ### Skoda DSG şanzıman yağı ne zaman değiştirilmeli?
 
-DSG şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi 5.500-9.000₺; değişmezse mekatronik arızası 8.500-18.500₺.
+DSG şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler.
 
 ### Skoda şanzıman tamiri ne kadar sürer?
 
@@ -340,15 +336,15 @@ Yıldızlar Grup'ta Skoda şanzıman tamiri fiyatları yetkili servise göre %50
 
 ### Skoda şanzıman yağ kaçağı tamiri ne kadar?
 
-Skoda şanzıman yağ kaçağı tamiri arıza türüne göre değişir. Keçe değişimi 3.500-7.500₺, conta değişimi 4.000-8.500₺, gövde tamiri 5.500-11.500₺ arasındadır.
+Skoda şanzıman yağ kaçağı tamiri arıza türüne göre değişir. Keçe değişimi uygun maliyetler, conta değişimi uygun maliyetler, gövde tamiri uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Skoda DQ200 kavrama değişimi ne zaman yapılmalı?
 
-DQ200 kuru kavrama 100.000-150.000 km'de değiştirilmelidir. Şehir içi sık dur-kalkta kavrama aşınması %40 hızlanır. Erken değişim maliyeti 9.000-16.500₺; geç kalınırsa mekatronik hasarı eklenince 12.500-18.000₺.
+DQ200 kuru kavrama 100.000-150.000 km'de değiştirilmelidir. Şehir içi sık dur-kalkta kavrama aşınması %40 hızlanır. Erken değişim maliyeti uygun maliyetler; geç kalınırsa mekatronik hasarı eklenince uygun maliyetler.
 
 ### Skoda DQ381 çift kavrama değişimi ne kadar?
 
-DQ381 çift kavrama değişimi 13.000-18.500₺ arasındadır. 120.000-180.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Kodiaq ve Karoq gibi SUV modellerde ağır kullanım nedeniyle kavrama aşınması hızlanır.
+DQ381 çift kavrama değişimi uygun maliyetler arasındadır. 120.000-180.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Kodiaq ve Karoq gibi SUV modellerde ağır kullanım nedeniyle kavrama aşınması hızlanır.
 
 ### Skoda Octavia RS şanzıman bakımı farklı mı?
 
@@ -357,4 +353,5 @@ Evet, Octavia RS gibi sportif modellerde DSG aşınması %40 hızlanır. DQ250 k
 ### Skoda Kodiaq şanzıman bakımı farklı mı?
 
 Evet, Kodiaq gibi 7 kişilik ağır SUV modellerde kavrama aşınması %33 hızlanır. DQ381/DQ500 kavrama değişimi 100.000-140.000 km'de gerekebilir. Haldex 4x4 pompa arızası da yaygındır (%22).
+
 

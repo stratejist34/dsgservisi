@@ -18,7 +18,6 @@ serviceName: "BMW Özel Servis"
 serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "BMW ZF şanzıman, motor ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/bmw-ozel-servis"
 
 ---
 
@@ -54,12 +53,12 @@ BMW yüksek performans ve teknoloji sunsa da belirli kilometre ve model yıllar�
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP valf body arızası | %26 | 12.000–22.000₺ | 120.000–200.000 km |
-| N47/N57 timing zincir gerginliği | %38 | 8.000–16.000₺ | 100.000–180.000 km |
-| N20 turbo yağ besleme/wastegate | %31 | 10.000–22.000₺ | 80.000–150.000 km |
-| Valvetronic motor arızası | %22 | 5.500–12.000₺ | 100.000–180.000 km |
-| Su pompası/termostat elektroniği | %28 | 3.500–7.500₺ | 80.000–140.000 km |
-| Arka diferansiyel yağ kaçağı | %19 | 4.500–9.000₺ | 100.000–180.000 km |
+| ZF 8HP valf body arızası | %26 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| N47/N57 timing zincir gerginliği | %38 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| N20 turbo yağ besleme/wastegate | %31 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Valvetronic motor arızası | %22 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Su pompası/termostat elektroniği | %28 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Arka diferansiyel yağ kaçağı | %19 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 3 Serisi arıza nedenleri: N47 2.0d (2007–2015) timing zincir gerginliği; ZF 8HP valf body yağ eskimesi; N20 wastegate diyaframı sıcaklıkta çatlayabilir.
 
@@ -72,11 +71,11 @@ BMW yüksek performans ve teknoloji sunsa da belirli kilometre ve model yıllar�
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP tork konvertör titreşimi | %24 | 18.000–35.000₺ | 150.000–250.000 km |
-| N57 DPF tıkanması (dizel) | %33 | 12.000–28.000₺ | 100.000–180.000 km |
-| N63 V8 supap kaçağı | %29 | 15.000–35.000₺ | 100.000–180.000 km |
-| Hava süspansiyon kompresör | %21 | 12.000–22.000₺ | 80.000–150.000 km |
-| O2 sensör hatası | %18 | 3.500–8.500₺ | 100.000–180.000 km |
+| ZF 8HP tork konvertör titreşimi | %24 | 📞 Fiyat Sorunuz | 150.000–250.000 km |
+| N57 DPF tıkanması (dizel) | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| N63 V8 supap kaçağı | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Hava süspansiyon kompresör | %21 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| O2 sensör hatası | %18 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 5 Serisi arıza nedenleri: ZF 8HP yağ bakımı ihmalinde konvertör kayması; N57 3.0d DPF tıkanması; N63 supap contası sıcaklıkla sertleşir.
 
@@ -84,11 +83,11 @@ BMW yüksek performans ve teknoloji sunsa da belirli kilometre ve model yıllar�
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman yağ değişimi ihtiyacı | %42 | 5.400–9.900₺ | 80.000–120.000 km |
-| Ön/arka diferansiyel servotronic | %27 | 8.000–18.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme (N55/B58) | %24 | 10.000–20.000₺ | 100.000–180.000 km |
-| Ön salıncak/rotil aşınması | %31 | 6.500–13.000₺ | 80.000–140.000 km |
-| Elektronik el freni arızası | %19 | 4.500–9.500₺ | 100.000–180.000 km |
+| ZF 8HP şanzıman yağ değişimi ihtiyacı | %42 | 📞 Fiyat Sorunuz | 80.000–120.000 km |
+| Ön/arka diferansiyel servotronic | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme (N55/B58) | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Ön salıncak/rotil aşınması | %31 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Elektronik el freni arızası | %19 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 X3/X5 arıza nedenleri: SUV kullanımında ZF yağ eskimesi hızlanır; ön süspansiyon ağır yükte erken yıpranır; N55/B58’te yağ yolu tıkanması VANOS’u etkileyebilir.
 
@@ -106,10 +105,10 @@ Kaynak: Yıldızlar Grup 15 yıllık BMW servis verileri
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| N47 timing zincir gerginliği | %39 | 7.500–14.000₺ | 90.000–160.000 km |
-| ZF 8HP adaptasyon sorunu | %21 | 2.500–5.500₺ | 80.000–150.000 km |
-| Ön fren kaliper sıkışma | %23 | 4.500–8.500₺ | 60.000–120.000 km |
-| Klima kompresör rulman | %18 | 6.500–12.000₺ | 80.000–150.000 km |
+| N47 timing zincir gerginliği | %39 | 📞 Fiyat Sorunuz | 90.000–160.000 km |
+| ZF 8HP adaptasyon sorunu | %21 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Ön fren kaliper sıkışma | %23 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
+| Klima kompresör rulman | %18 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ## BMW Şanzıman Arızaları ve Çözümler
 
@@ -125,16 +124,16 @@ BMW’de ZF 6HP ve 8HP tork konvertörlü otomatik şanzıman kullanılır. Yağ
 - Arıza lambası ve “Trans Failsafe Prog” (%31)
 - Geri viteste gecikme/takılma (%19)
 
-#### ZF Arıza/Bakım Fiyatları
+#### ZF Arıza/Bakım Hizmetleri
 
 | İşlem | Maliyet | Süre | Garanti |
 | --- | ---: | --- | --- |
-| ZF yağ + karter + filtre değişimi | 5.400–9.900₺ | Aynı gün | 1 yıl |
-| Valf body tamiri/yenileme | 12.000–22.000₺ | 2–4 gün | 2 yıl |
-| Tork konvertör değişimi | 18.000–35.000₺ | 3–5 gün | 2 yıl |
-| ZF şanzıman revizyonu (komple) | 25.000–45.000₺ | 5–7 gün | 2 yıl |
+| ZF yağ + karter + filtre değişimi | 📞 Fiyat Sorunuz | Aynı gün | 1 yıl |
+| Valf body tamiri/yenileme | 📞 Fiyat Sorunuz | 2–4 gün | 2 yıl |
+| Tork konvertör değişimi | 📞 Fiyat Sorunuz | 3–5 gün | 2 yıl |
+| ZF şanzıman revizyonu (komple) | 📞 Fiyat Sorunuz | 5–7 gün | 2 yıl |
 
-> ZF şanzıman teşhisi ve fiyat teklifi: 0533 262 34 51
+> ZF şanzıman teşhisi ve servis teklifi: 0533 262 34 51
 
 ## BMW Motor Arızaları
 
@@ -144,7 +143,7 @@ BMW’de ZF 6HP ve 8HP tork konvertörlü otomatik şanzıman kullanılır. Yağ
 
 Belirtiler: Soğuk çalıştırmada zincir sesi, motor titremesi, arıza kodları (P0016, P0017, P000A).
 
-Çözüm: Zincir, gergi, rehber ve kasnak değişimi. Maliyet: 8.000–16.000₺.
+Çözüm: Zincir, gergi, rehber ve kasnak değişimi. Maliyet: uygun maliyetler.
 
 ### N20/N26 Turbo Yağ Besleme ve Wastegate
 
@@ -152,7 +151,7 @@ Belirtiler: Soğuk çalıştırmada zincir sesi, motor titremesi, arıza kodlar�
 
 Belirtiler: Güç kaybı, turbo ıslığı, yağ tüketimi, arıza kodları (P0234, P0299).
 
-Çözüm: Turbo revizyon/yenileme + yağ yolu temizliği. Maliyet: 10.000–22.000₺.
+Çözüm: Turbo revizyon/yenileme + yağ yolu temizliği. Maliyet: uygun maliyetler.
 
 ### N63 V8 Supap Kaçağı (Valvetronic)
 
@@ -160,7 +159,7 @@ N63 V8 (550i, X5 50i) motorlarda supap contası sıcaklıkla sertleşerek yağ k
 
 Belirtiler: Motor bölmesinde yağ kokusu, yağ tüketimi, Valvetronic arıza lambası.
 
-Çözüm: Supap conta seti + Valvetronic motor değişimi. Maliyet: 15.000–35.000₺.
+Çözüm: Supap conta seti + Valvetronic motor değişimi. Maliyet: uygun maliyetler.
 
 ## BMW DPF ve Yakıt Sistemi Arızaları
 
@@ -168,20 +167,20 @@ BMW dizellerde (N47, N57, B47) DPF kısa mesafe şehir içi kullanımda rejenera
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DPF temizliği (kimyasal/fırın) | 8.000–12.000₺ | 1–2 gün |
-| Yeni DPF (orijinal/yan sanayi) | 18.000–38.000₺ | 1–2 gün |
-| Enjektör temizliği/kalibrasyon | 4.500–9.000₺ | Aynı gün |
-| Yüksek basınç pompası | 12.000–25.000₺ | 2–3 gün |
+| DPF temizliği (kimyasal/fırın) | 📞 Fiyat Sorunuz | 1–2 gün |
+| Yeni DPF (orijinal/yan sanayi) | 📞 Fiyat Sorunuz | 1–2 gün |
+| Enjektör temizliği/kalibrasyon | 📞 Fiyat Sorunuz | Aynı gün |
+| Yüksek basınç pompası | 📞 Fiyat Sorunuz | 2–3 gün |
 
-## BMW Periyodik Bakım Fiyatları 2026
+## BMW Periyodik Bakım Hizmetleri 2026
 
 | Bakım Türü | Maliyet | Periyot |
 | --- | ---: | --- |
-| Küçük bakım (yağ + filtre) | 2.800–5.500₺ | 12.000–15.000 km |
-| Büyük bakım (yağ, filtre, hava, polen, yakıt) | 4.500–8.500₺ | 30.000 km |
-| Fren balata (ön/arka) | 4.500–9.000₺ | 40.000–60.000 km |
-| Klima bakım (gaz, temizlik) | 2.200–4.500₺ | Yıllık |
-| ZF şanzıman yağ değişimi | 5.400–9.900₺ | 80.000 km |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 12.000–15.000 km |
+| Büyük bakım (yağ, filtre, hava, polen, yakıt) | 📞 Fiyat Sorunuz | 30.000 km |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 40.000–60.000 km |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık |
+| ZF şanzıman yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km |
 
 ## Bölgesel Hizmet Noktaları
 
@@ -241,3 +240,4 @@ Küçük bakım 1.5–2 saat, büyük bakım 3–4 saat. Randevulu gelişte ayn�
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451" target="_blank">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
+

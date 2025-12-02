@@ -1,33 +1,29 @@
 ---
-title: "Otomatik Şanzıman Yağı Değişimi Fiyatı 2025"
-description: "Otomatik şanzıman yağı değişimi fiyatları 2025: DSG, ZF, konvansiyonel otomatik şanzımanlar için yağ değişimi fiyatları, periyotlar ve öneriler."
+title: "Otomatik Şanzıman Yağı Değişimi Tamiri ve Servisi"
+description: "Otomatik şanzıman yağı değişimi hizmetleri: DSG, ZF, konvansiyonel otomatik şanzımanlar için yağ değişimi hizmetleri, periyotlar ve öneriler."
 category: "DSG"
-tags: ["otomatik şanzıman yağı", "yağ değişimi", "fiyat", "2025", "dsg", "zf", "bakım"]
+tags: ["otomatik şanzıman yağı", "yağ değişimi", "dsg", "zf", "bakım"]
 slug: "otomatik-sanziman-yagi-degisimi-fiyati-2025"
 publishDate: "2025-11-07T10:10:00+03:00"
 updatedDate: "2025-11-07T10:10:00+03:00"
 featuredImage: "/images/blog/otomatik-sanziman-yagi-degisimi-2025.jpg"
-imageAlt: "Otomatik şanzıman yağı değişimi fiyatları 2025 - Yıldızlar Grup DSG Servisi"
+imageAlt: "Otomatik şanzıman yağı değişimi hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/otomatik-sanziman-yagi-degisimi-2025.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "Otomatik Şanzıman Yağı Değişimi Fiyatı 2025 | DSG, ZF Yağ Değişimi"
-seoDescription: "Otomatik şanzıman yağı değişimi fiyatları 2025: DSG, ZF, konvansiyonel otomatik şanzımanlar için yağ değişimi fiyatları, periyotlar ve öneriler."
+seoTitle: "Otomatik Şanzıman Yağı Değişimi Tamiri Tamiri ve Değişimi DSG, ZF Yağ Değişimi"
+seoDescription: "Otomatik şanzıman yağı değişimi hizmetleri: DSG, ZF, konvansiyonel otomatik şanzımanlar için yağ değişimi hizmetleri, periyotlar ve öneriler."
 
 # Hizmet Şeması
 serviceName: "Otomatik Şanzıman Yağı Değişimi"
 serviceType: "Otomatik Şanzıman Bakımı"
 serviceDescription: "DSG, ZF ve konvansiyonel otomatik şanzımanlar için yağ değişimi, filtre değişimi ve bakım hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 1500
-highPrice: 13000
-priceCurrency: "TRY"
-offerUrl: "/otomatik-sanziman-yagi-degisimi-fiyati-2025"
 ---
 
 Otomatik şanzıman yağı değişimi, **DSG, ZF ve konvansiyonel otomatik şanzımanlar** için kritik bir bakım işlemidir. Doğru yağ seçimi ve düzenli değişim; şanzıman ömrünü uzatır, vites geçiş kalitesini iyileştirir ve maliyetli arızaları önler. Yanlış yağ kullanımı veya gecikmiş değişim; mekatronik arızası, kavrama hasarı ve komple şanzıman değişimine yol açabilir.
 
-2025 yılı için *otomatik şanzıman yağı değişimi fiyatları*, şanzıman tipine, model ve yağ kalitesine göre değişir. DSG yağ değişimi 3.100–7.000₺, ZF yağ değişimi 7.000–13.000₺, konvansiyonel otomatik şanzıman yağ değişimi 1.500–3.500₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **üretici spesifikasyonlarına uygun yağ kullanımı**, **doğru yağ değişimi prosedürü** ve **şeffaf fiyatlandırma** ile otomatik şanzıman bakımı hizmeti sunuyoruz.
+2025 yılı için *otomatik şanzıman yağı değişimi fiyatları*, şanzıman tipine, model ve yağ kalitesine göre değişir. DSG yağ değişimi uygun maliyetler, ZF yağ değişimi uygun maliyetler, konvansiyonel otomatik şanzıman yağ değişimi uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **üretici spesifikasyonlarına uygun yağ kullanımı**, **doğru yağ değişimi prosedürü** ve **şeffaf fiyatlandırma** ile otomatik şanzıman bakımı hizmeti sunuyoruz.
 
 :::tip
 
@@ -45,16 +41,16 @@ Otomatik şanzıman yağı değişimi, **DSG, ZF ve konvansiyonel otomatik şanz
 
 :::
 
-## Otomatik Şanzıman Yağı Değişimi Fiyatları 2025 (Genel)
+## Otomatik Şanzıman Yağı Değişimi Hizmetleri (Genel)
 
 | Şanzıman Tipi | Yağ + Filtre | İşçilik | Toplam | Periyot |
 | --- | ---: | ---: | ---: | --- |
-| DSG DQ200 (7 Kuru) | 2.200–4.000₺ | 900–1.800₺ | 3.100–5.800₺ | 60.000 km |
-| DSG DQ250 (6 Islak) | 2.400–4.200₺ | 900–1.800₺ | 3.300–6.000₺ | 80.000 km |
-| DSG DQ381/DQ500 (7 Islak) | 2.800–4.800₺ | 1.200–2.200₺ | 4.000–7.000₺ | 80.000 km |
-| ZF 8HP | 5.000–10.000₺ | 2.000–3.000₺ | 7.000–13.000₺ | 100.000 km |
-| ZF 6HP | 4.500–9.000₺ | 1.800–2.800₺ | 6.300–11.800₺ | 100.000 km |
-| Konvansiyonel ATF | 1.000–2.500₺ | 500–1.000₺ | 1.500–3.500₺ | 60.000 km |
+| DSG DQ200 (7 Kuru) | 📞 Fiyat Sorunuz | 900–uygun fiyat | 📞 Fiyat Sorunuz | 60.000 km |
+| DSG DQ250 (6 Islak) | 📞 Fiyat Sorunuz | 900–uygun fiyat | 📞 Fiyat Sorunuz | 80.000 km |
+| DSG DQ381/DQ500 (7 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 80.000 km |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 100.000 km |
+| ZF 6HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 100.000 km |
+| Konvansiyonel ATF | 📞 Fiyat Sorunuz | 500–uygun fiyat | 📞 Fiyat Sorunuz | 60.000 km |
 
 :::note
 
@@ -65,17 +61,17 @@ Otomatik şanzıman yağı değişimi, **DSG, ZF ve konvansiyonel otomatik şanz
 
 :::
 
-## Şanzıman Tipine Göre Yağ Değişimi Fiyatları 2025
+## Şanzıman Tipine Göre Yağ Değişimi Hizmetleri
 
-### DSG Şanzıman Yağı Değişimi Fiyatı 2025
+### DSG Şanzıman Yağı Değişimi Hizmet Detayları
 
 DSG (Direct-Shift Gearbox) çift kavramalı şanzımanlar, Volkswagen Grubu araçlarında kullanılır.
 
 | DSG Tipi | Yağ + Filtre | İşçilik | Toplam | Yağ Miktarı | Periyot |
 | --- | ---: | ---: | ---: | --- | --- |
-| DQ200 (7 Kuru) | 2.200–4.000₺ | 900–1.800₺ | 3.100–5.800₺ | 1.7 litre | 60.000 km |
-| DQ250 (6 Islak) | 2.400–4.200₺ | 900–1.800₺ | 3.300–6.000₺ | 5.5 litre | 80.000 km |
-| DQ381/DQ500 (7 Islak) | 2.800–4.800₺ | 1.200–2.200₺ | 4.000–7.000₺ | 7.0 litre | 80.000 km |
+| DQ200 (7 Kuru) | 📞 Fiyat Sorunuz | 900–uygun fiyat | 📞 Fiyat Sorunuz | 1.7 litre | 60.000 km |
+| DQ250 (6 Islak) | 📞 Fiyat Sorunuz | 900–uygun fiyat | 📞 Fiyat Sorunuz | 5.5 litre | 80.000 km |
+| DQ381/DQ500 (7 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 7.0 litre | 80.000 km |
 
 **Kullanıldığı Modeller:**
 - **DQ200:** Golf, Polo, Jetta, Ibiza, Leon, Octavia, Fabia
@@ -86,14 +82,14 @@ DSG (Direct-Shift Gearbox) çift kavramalı şanzımanlar, Volkswagen Grubu ara�
 - **Orijinal:** VW G 052 182 A2 (DQ200/DQ250), VW G 052 529 A2 (DQ381/DQ500)
 - **Onaylı:** Castrol, Motul, Liqui Moly (VW onaylı)
 
-### ZF Şanzıman Yağı Değişimi Fiyatı 2025
+### ZF Şanzıman Yağı Değişimi Hizmet Detayları
 
 ZF 8HP ve 6HP otomatik şanzımanlar, BMW, Mercedes, Land Rover ve Audi modellerinde kullanılır.
 
 | ZF Tipi | Yağ + Filtre | İşçilik | Toplam | Yağ Miktarı | Periyot |
 | --- | ---: | ---: | ---: | --- | --- |
-| ZF 8HP | 5.000–10.000₺ | 2.000–3.000₺ | 7.000–13.000₺ | 7.0–9.0 litre | 100.000 km |
-| ZF 6HP | 4.500–9.000₺ | 1.800–2.800₺ | 6.300–11.800₺ | 6.0–8.0 litre | 100.000 km |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 7.0–9.0 litre | 100.000 km |
+| ZF 6HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6.0–8.0 litre | 100.000 km |
 
 **Kullanıldığı Modeller:**
 - **ZF 8HP:** BMW 3/5/7 Serisi, Mercedes C/E/S Serisi, Land Rover Range Rover, Audi Q7/Q8
@@ -103,15 +99,15 @@ ZF 8HP ve 6HP otomatik şanzımanlar, BMW, Mercedes, Land Rover ve Audi modeller
 - **Orijinal:** ZF Lifeguard 8 (ZF 8HP), ZF Lifeguard 6 (ZF 6HP)
 - **Onaylı:** Castrol, Motul, Pentosin (ZF onaylı)
 
-### Konvansiyonel Otomatik Şanzıman Yağı Değişimi Fiyatı 2025
+### Konvansiyonel Otomatik Şanzıman Yağı Değişimi Hizmet Detayları
 
 Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanılır.
 
 | Şanzıman Tipi | Yağ + Filtre | İşçilik | Toplam | Yağ Miktarı | Periyot |
 | --- | ---: | ---: | ---: | --- | --- |
-| ATF+4 | 1.000–2.000₺ | 500–800₺ | 1.500–2.800₺ | 4.0–6.0 litre | 60.000 km |
-| Dexron VI | 1.200–2.200₺ | 500–800₺ | 1.700–3.000₺ | 4.0–6.0 litre | 60.000 km |
-| Mercon V | 1.000–2.500₺ | 500–1.000₺ | 1.500–3.500₺ | 4.0–6.0 litre | 60.000 km |
+| ATF+4 | 📞 Fiyat Sorunuz | 500–800₺ | 📞 Fiyat Sorunuz | 4.0–6.0 litre | 60.000 km |
+| Dexron VI | 📞 Fiyat Sorunuz | 500–800₺ | 📞 Fiyat Sorunuz | 4.0–6.0 litre | 60.000 km |
+| Mercon V | 📞 Fiyat Sorunuz | 500–uygun fiyat | 📞 Fiyat Sorunuz | 4.0–6.0 litre | 60.000 km |
 
 **Kullanıldığı Modeller:**
 - **ATF+4:** Chrysler, Dodge, Jeep
@@ -122,42 +118,42 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - **Orijinal:** Üretici onaylı yağlar
 - **Onaylı:** Castrol, Mobil, Valvoline
 
-## Model Bazında Otomatik Şanzıman Yağı Değişimi Fiyatları 2025
+## Model Bazında Otomatik Şanzıman Yağı Değişimi Hizmetleri
 
 ### Volkswagen Golf (7, 8)
 
 | Şanzıman Tipi | Yağ Değişimi | Süre | Periyot |
 | --- | ---: | --- | --- |
-| DSG DQ200 | 3.100–5.800₺ | 2-3 saat | 60.000 km |
-| DSG DQ381 | 4.000–7.000₺ | 2-3 saat | 80.000 km |
+| DSG DQ200 | 📞 Fiyat Sorunuz | 2-3 saat | 60.000 km |
+| DSG DQ381 | 📞 Fiyat Sorunuz | 2-3 saat | 80.000 km |
 
 ### Volkswagen Passat (B7, B8)
 
 | Şanzıman Tipi | Yağ Değişimi | Süre | Periyot |
 | --- | ---: | --- | --- |
-| DSG DQ250 | 3.300–6.000₺ | 2-3 saat | 80.000 km |
-| DSG DQ381 | 4.000–7.000₺ | 2-3 saat | 80.000 km |
+| DSG DQ250 | 📞 Fiyat Sorunuz | 2-3 saat | 80.000 km |
+| DSG DQ381 | 📞 Fiyat Sorunuz | 2-3 saat | 80.000 km |
 
 ### Audi A3, A4, A5
 
 | Şanzıman Tipi | Yağ Değişimi | Süre | Periyot |
 | --- | ---: | --- | --- |
-| S-tronic | 4.000–7.000₺ | 2-3 saat | 80.000 km |
-| ZF 8HP (Q7/Q8) | 7.000–13.000₺ | 3-4 saat | 100.000 km |
+| S-tronic | 📞 Fiyat Sorunuz | 2-3 saat | 80.000 km |
+| ZF 8HP (Q7/Q8) | 📞 Fiyat Sorunuz | 3-4 saat | 100.000 km |
 
 ### BMW 3/5/7 Serisi
 
 | Şanzıman Tipi | Yağ Değişimi | Süre | Periyot |
 | --- | ---: | --- | --- |
-| ZF 8HP | 7.000–13.000₺ | 3-4 saat | 100.000 km |
-| ZF 6HP | 6.300–11.800₺ | 3-4 saat | 100.000 km |
+| ZF 8HP | 📞 Fiyat Sorunuz | 3-4 saat | 100.000 km |
+| ZF 6HP | 📞 Fiyat Sorunuz | 3-4 saat | 100.000 km |
 
 ### Mercedes C/E/S Serisi
 
 | Şanzıman Tipi | Yağ Değişimi | Süre | Periyot |
 | --- | ---: | --- | --- |
-| ZF 8HP | 7.000–13.000₺ | 3-4 saat | 100.000 km |
-| ZF 6HP | 6.300–11.800₺ | 3-4 saat | 100.000 km |
+| ZF 8HP | 📞 Fiyat Sorunuz | 3-4 saat | 100.000 km |
+| ZF 6HP | 📞 Fiyat Sorunuz | 3-4 saat | 100.000 km |
 
 ## Otomatik Şanzıman Yağı Değişimi Süreci
 
@@ -230,11 +226,11 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 | Şanzıman Tipi | Yetkili Servis | Yıldızlar Grup | Tasarruf |
 | --- | ---: | ---: | ---: |
-| DSG DQ200 | 5.000–9.000₺ | 3.100–5.800₺ | %40 |
-| DSG DQ250 | 5.500–10.000₺ | 3.300–6.000₺ | %40 |
-| DSG DQ381/DQ500 | 6.500–12.000₺ | 4.000–7.000₺ | %40 |
-| ZF 8HP | 10.000–18.000₺ | 7.000–13.000₺ | %30 |
-| Konvansiyonel ATF | 2.500–5.000₺ | 1.500–3.500₺ | %40 |
+| DSG DQ200 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| DSG DQ250 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| DSG DQ381/DQ500 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
+| ZF 8HP | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %30 |
+| Konvansiyonel ATF | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | %40 |
 
 **Yıldızlar Grup Avantajları:**
 - %30-40 daha ekonomik fiyatlar
@@ -251,7 +247,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - **Ekonomik Fiyatlar:** Yetkili servise göre %30-40 daha ekonomik
 - **Hızlı Çözüm:** Yağ değişimi 2-3 saat içinde tamamlanır
 - **Garanti:** Tüm yağ değişimlerinde 6 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 - **Gereksiz İşlem Yok:** Sadece gerekli işlemler yapılır
 
 ## Müşteri Yorumları
@@ -311,7 +307,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 ### Otomatik şanzıman yağı değişimi fiyatı ne kadar?
 
-Otomatik şanzıman yağı değişimi fiyatları şanzıman tipine göre değişir. DSG DQ200 için 3.100–5.800₺, DSG DQ250 için 3.300–6.000₺, DSG DQ381/DQ500 için 4.000–7.000₺, ZF 8HP için 7.000–13.000₺, konvansiyonel ATF için 1.500–3.500₺ arasında değişir.
+Otomatik şanzıman yağı değişimi fiyatları şanzıman tipine göre değişir. DSG DQ200 modeli, DSG DQ250 modeli, DSG DQ381/DQ500 modeli, ZF 8HP modeli, konvansiyonel ATF modeli arasında değişir.
 
 ### Otomatik şanzıman yağı ne kadar sürede değişmeli?
 
@@ -340,4 +336,5 @@ Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol
 ### Otomatik şanzıman yağı değişiminde filtre değişmeli mi?
 
 Evet, otomatik şanzıman yağı değişiminde mutlaka filtre değişmelidir. Eski yağdaki metal partiküller filtrede birikir; yeni yağla eski filtre kullanılırsa hızla kirlenme tekrarlar.
+
 

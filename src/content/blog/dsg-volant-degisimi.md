@@ -1,7 +1,7 @@
 ---
 
 title: "DSG Volant Değişimi"
-description: "DSG volant ve debriyaj seti fiyatı 2025. Çift kütleli volant arıza belirtileri, ıslak/kuru kavrama. Büyükçekmece İstanbul."
+description: "DSG volant ve debriyaj seti bilgisi. Çift kütleli volant arıza belirtileri, ıslak/kuru kavrama. Büyükçekmece İstanbul."
 category: "DSG"
 tags: ["volant", "kavrama", "dsg", "şanzıman"]
 slug: "dsg-volant-degisimi"
@@ -18,7 +18,6 @@ serviceName: "DSG Volant Değişimi"
 serviceType: "DSG Volant Değişimi"
 serviceDescription: "DSG volant ve kavrama değişimi hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-volant-degisimi"
 
 ---
 
@@ -57,9 +56,9 @@ Volant kontrolü için: [📞 0533 262 34 51](tel:05332623451) [WhatsApp Randevu
 
 | İşlem | Parça (Volant + Kavrama Seti) | İşçilik | Toplam |
 | --- | --- | --- | --- |
-| Çift Kütleli Volant + Kavrama (DQ200 Kuru) | 8.000–14.000₺ | 3.000–5.500₺ | 11.000–19.500₺ |
-| Çift Kütleli Volant + Kavrama (DQ250 Islak) | 10.000–16.000₺ | 3.500–6.000₺ | 13.500–22.000₺ |
-| Volant Yüzey İşleme (taşlama) | 1.200–2.500₺ | 800–1.500₺ | 2.000–4.000₺ |
+| Çift Kütleli Volant + Kavrama (DQ200 Kuru) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Çift Kütleli Volant + Kavrama (DQ250 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Volant Yüzey İşleme (taşlama) | 📞 Fiyat Sorunuz | 800–uygun fiyat | 📞 Fiyat Sorunuz |
 
 _Not: Tek kütleli volanta geçiş bazı modellerde uygulanabilir; ancak titreşim riski artar, tavsiye edilmez._
 
@@ -174,3 +173,4 @@ Kaliteli markalar (LuK, Sachs, Valeo) kullanılabilir; ancak orijinal parça gar
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
+

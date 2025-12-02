@@ -11,14 +11,13 @@ author: "Yıldızlar Grup DSG Servisi"
 draft: false
 featured: true
 seoTitle: "Seat Leon DSG Mekatronik Tamiri ve Kronik Sorunları | Yıldızlar Grup"
-seoDescription: "Seat Leon DSG mekatronik arızaları, belirtileri, tamir süreci ve fiyatları. 15 yıllık deneyim, garanti, ekonomik çözümler. Yıldızlar Grup DSG Servisi."
+seoDescription: "Seat Leon DSG mekatronik arızaları, belirtileri, tamir süreci ve hizmetleri. 15 yıllık deneyim, garanti, ekonomik çözümler. Yıldızlar Grup DSG Servisi."
 
 # Hizmet Şeması (opsiyonel alanlar; fiyat yoksa otomatik çıkarım devreye girer)
 serviceName: "Seat Leon DSG Mekatronik Tamiri"
 serviceType: "DSG Mekatronik Tamiri"
 serviceDescription: "Seat Leon DSG mekatronik arızalarında uzman teşhis ve tamir."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/seat-leon-dsg-mekatronik-tamiri"
 
 ---
 
@@ -103,18 +102,18 @@ Tüm tamir işlemlerimiz, Yıldızlar Grup güvencesiyle **1 yıl veya 20.000 km
 
 [Konum Tarifi](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
 
-## Seat Leon DSG Mekatronik Tamir Fiyatları ve Maliyetleri
+## Seat Leon DSG Mekatronik Tamir Hizmetleri ve Maliyetleri
 
 Seat Leon DSG mekatronik tamir fiyatları, arızanın türüne, şanzıman tipine (DQ200 veya DQ250) ve değiştirilmesi gereken parçalara göre değişiklik gösterebilir. Yıldızlar Grup olarak şeffaf fiyat politikasıyla, müşterilerimize en uygun ve ekonomik çözümleri sunuyoruz.
 
 | Mekatronik Arızası | DQ200 (Kuru Tip) Ortalama Maliyet | DQ250 (Islak Tip) Ortalama Maliyet | Ek Notlar |
 |-------------------|-----------------------------------|-------------------------------------|-----------|
-| Elektronik kart tamiri | 8.000₺ – 15.000₺ | 9.000₺ – 18.000₺ | Sıkça görülen bir arızadır. |
-| Hidrolik valf değişimi | 7.000₺ – 12.000₺ | 8.000₺ – 14.000₺ | Vuruntu ve sarsıntı sorunlarında etkilidir. |
-| Basınç sensörü değişimi | 6.000₺ – 10.000₺ | 7.000₺ – 11.000₺ | Yanlış vites algılamalarında çözüm. |
-| Hidrolik pompa değişimi | 10.000₺ – 18.000₺ | 12.000₺ – 22.000₺ | Güç kesintisi ve boşa düşme sorunlarında. |
-| Komple mekatronik revizyonu | 15.000₺ – 25.000₺ | 18.000₺ – 30.000₺ | Ciddi ve birden fazla arızada tercih edilir. |
-| Şanzıman yağı ve filtre değişimi | 2.000₺ – 3.500₺ (sadece yağ kontrolü) | 4.500₺ – 7.500₺ (yağ ve filtre) | DQ250 için düzenli bakım maliyeti. |
+| Elektronik kart tamiri | 📞 Fiyat Sorunuz – uygun fiyat | 📞 Fiyat Sorunuz – uygun fiyat | Sıkça görülen bir arızadır. |
+| Hidrolik valf değişimi | 📞 Fiyat Sorunuz – uygun fiyat | 📞 Fiyat Sorunuz – uygun fiyat | Vuruntu ve sarsıntı sorunlarında etkilidir. |
+| Basınç sensörü değişimi | 📞 Fiyat Sorunuz – uygun fiyat | 📞 Fiyat Sorunuz – uygun fiyat | Yanlış vites algılamalarında çözüm. |
+| Hidrolik pompa değişimi | 📞 Fiyat Sorunuz – uygun fiyat | 📞 Fiyat Sorunuz – uygun fiyat | Güç kesintisi ve boşa düşme sorunlarında. |
+| Komple mekatronik revizyonu | 📞 Fiyat Sorunuz – uygun fiyat | 📞 Fiyat Sorunuz – uygun fiyat | Ciddi ve birden fazla arızada tercih edilir. |
+| Şanzıman yağı ve filtre değişimi | 📞 Fiyat Sorunuz – uygun fiyat (sadece yağ kontrolü) | 📞 Fiyat Sorunuz – uygun fiyat (yağ ve filtre) | DQ250 için düzenli bakım maliyeti. |
 
 **Not:** Yukarıdaki fiyatlar ortalama değerler olup, kesin maliyet arıza teşhisi sonrasında belirlenir. Yetkili servislerde bu tamirlerin maliyetleri %50 ila %100 daha yüksek olabilmektedir. Yıldızlar Grup olarak, en uygun fiyatlarla kaliteli ve garantili hizmet sunmaktayız.
 

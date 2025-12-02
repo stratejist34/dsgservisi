@@ -1,13 +1,13 @@
 ---
-title: "Passat Ağır Bakım Fiyatları"
-description: "Volkswagen Passat ağır bakım fiyatları: 60.000, 90.000, 120.000 km ağır bakım paketleri. DSG yağ değişimi, timing zincir, fren balata, DPF temizleme, AdBlue fiyatları."
+title: "Passat Ağır Bakım Hizmetleri"
+description: "Volkswagen Passat ağır bakım hizmetleri: 60.000, 90.000, 120.000 km ağır bakım paketleri. DSG yağ değişimi, timing zincir, fren balata, DPF temizleme, AdBlue hizmetleri."
 category: "Volkswagen"
-tags: ["volkswagen", "passat", "ağır bakım", "60 bin bakım", "90 bin bakım", "120 bin bakım", "fiyat"]
+tags: ["volkswagen", "passat", "ağır bakım", "60 bin bakım", "90 bin bakım", "120 bin bakım"]
 slug: "passat-agir-bakim-fiyatlari"
 publishDate: "2025-11-15T12:50:00+03:00"
 updatedDate: "2025-11-15T12:50:00+03:00"
 featuredImage: "/images/blog/passat-agir-bakim-fiyatlari.jpg"
-imageAlt: "Volkswagen Passat ağır bakım fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Volkswagen Passat ağır bakım hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/passat-agir-bakim-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Volkswagen Passat Ağır Bakım"
 serviceType: "Araç Bakımı"
 serviceDescription: "Volkswagen Passat araçlarında 60.000, 90.000, 120.000 km ağır bakım hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 9500
-highPrice: 22000
-priceCurrency: "TRY"
-offerUrl: "/passat-agir-bakim-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Volkswagen Passat ağır bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Passat ağır bakımında erken müdahale %50'ye varan maliyet tasarrufu sağlar. DSG DQ250/DQ381 yağ değişimi 80.000 km'de mutlaka yapılmalıdır (5.500-9.000₺). Değişmezse mekatronik arızası 12.000-22.000₺. 2.0 TDI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 8.500-16.000₺. 2.0 TDI DPF temizleme 100.000 km'de yapılmalıdır (8.500-19.500₺). AdBlue sistemi bakımı 80.000 km'de yapılmalıdır (4.500-11.000₺).
+**UZMAN TAVSİYESİ:** Passat ağır bakımında erken müdahale %50'ye varan maliyet tasarrufu sağlar. DSG DQ250/DQ381 yağ değişimi 80.000 km'de mutlaka yapılmalıdır (Fiyat Sorunuz). Değişmezse mekatronik arızası uygun maliyetler. 2.0 TDI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa uygun maliyetler. 2.0 TDI DPF temizleme 100.000 km'de yapılmalıdır (Fiyat Sorunuz). AdBlue sistemi bakımı 80.000 km'de yapılmalıdır (Fiyat Sorunuz).
 
 :::
 
@@ -44,13 +40,13 @@ Volkswagen Passat ağır bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 :::
 
-## Passat Ağır Bakım Fiyatları 2025 (Genel)
+## Passat Ağır Bakım Hizmetleri (Genel)
 
 | Bakım Paketi | Kilometre | İçerik | Toplam Fiyat | Süre |
 | --- | ---: | --- | ---: | --- |
-| 60.000 km Ağır Bakım | 60.000 km | DSG yağ, filtreler, fren kontrolü, klima | 9.500–13.500₺ | 1 gün |
-| 90.000 km Ağır Bakım | 90.000 km | 60.000 km + DPF temizleme, turbo kontrolü, AdBlue | 13.500–20.000₺ | 1-2 gün |
-| 120.000 km Ağır Bakım | 120.000 km | 90.000 km + timing zincir, kavrama kontrolü | 17.000–24.000₺ | 2-3 gün |
+| 60.000 km Ağır Bakım | 60.000 km | DSG yağ, filtreler, fren kontrolü, klima | 📞 Fiyat Sorunuz | 1 gün |
+| 90.000 km Ağır Bakım | 90.000 km | 60.000 km + DPF temizleme, turbo kontrolü, AdBlue | 📞 Fiyat Sorunuz | 1-2 gün |
+| 120.000 km Ağır Bakım | 120.000 km | 90.000 km + timing zincir, kavrama kontrolü | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ## Kilometre Bazlı Ağır Bakım Paketleri
 
@@ -60,14 +56,14 @@ Volkswagen Passat ağır bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| Motor yağı ve filtre | 4.000–6.500₺ | Orijinal motor yağı ve filtre |
+| Motor yağı ve filtre | 📞 Fiyat Sorunuz | Orijinal motor yağı ve filtre |
 | Hava filtresi değişimi | 500–900₺ | Motor hava filtresi |
 | Polen filtresi değişimi | 400–700₺ | Kabin hava filtresi |
 | Fren balata kontrolü | Ücretsiz | Ön/arka fren balata kontrolü |
-| Fren balata değişimi (gerekirse) | 6.000–12.000₺ | Ön/arka fren balata değişimi |
-| Klima bakımı | 3.000–5.000₺ | Klima gazı ve temizlik |
+| Fren balata değişimi (gerekirse) | 📞 Fiyat Sorunuz | Ön/arka fren balata değişimi |
+| Klima bakımı | 📞 Fiyat Sorunuz | Klima gazı ve temizlik |
 | Akü kontrolü | Ücretsiz | Akü voltaj ve şarj kontrolü |
-| **TOPLAM** | **9.500–13.500₺** | **Tüm işlemler dahil** |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **60.000 km Bakım Önemi:**
 - Filtre değişimi motor performansını korur
@@ -81,14 +77,14 @@ Volkswagen Passat ağır bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| 60.000 km bakım paketi | 9.500–13.500₺ | Yukarıdaki tüm işlemler |
-| DSG DQ250/DQ381 yağ değişimi | 5.500–9.000₺ | Şanzıman yağı ve filtre değişimi |
-| DPF temizleme (2.0 TDI) | 8.500–19.500₺ | Dizel partikül filtresi temizleme |
+| 60.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
+| DSG DQ250/DQ381 yağ değişimi | 📞 Fiyat Sorunuz | Şanzıman yağı ve filtre değişimi |
+| DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | Dizel partikül filtresi temizleme |
 | Turbo kontrolü | Ücretsiz | Turbo basınç ve yağ kontrolü |
-| Turbo temizleme (gerekirse) | 4.000–9.000₺ | Turbo geometri temizleme |
-| Yakıt filtresi değişimi | 700–1.400₺ | Dizel yakıt filtresi |
-| AdBlue sistemi bakımı | 4.500–11.000₺ | AdBlue seviye, kalite ve pompa kontrolü |
-| **TOPLAM** | **13.500–20.000₺** | **Tüm işlemler dahil** |
+| Turbo temizleme (gerekirse) | 📞 Fiyat Sorunuz | Turbo geometri temizleme |
+| Yakıt filtresi değişimi | 700–uygun fiyat | Dizel yakıt filtresi |
+| AdBlue sistemi bakımı | 📞 Fiyat Sorunuz | AdBlue seviye, kalite ve pompa kontrolü |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **90.000 km Bakım Önemi:**
 - DSG yağ değişimi mekatronik arızasını önler
@@ -102,31 +98,31 @@ Volkswagen Passat ağır bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| 90.000 km bakım paketi | 13.500–20.000₺ | Yukarıdaki tüm işlemler |
+| 90.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
 | Timing zincir kontrolü | Ücretsiz | 2.0 TDI timing zincir gerginlik kontrolü |
-| Timing zincir değişimi (gerekirse) | 8.500–16.000₺ | Timing zincir ve gergi değişimi |
+| Timing zincir değişimi (gerekirse) | 📞 Fiyat Sorunuz | Timing zincir ve gergi değişimi |
 | DSG kavrama kontrolü | Ücretsiz | DQ250/DQ381 kavrama aşınma kontrolü |
-| DSG kavrama değişimi (gerekirse) | 10.000–18.000₺ | DQ250/DQ381 kavrama değişimi |
+| DSG kavrama değişimi (gerekirse) | 📞 Fiyat Sorunuz | DQ250/DQ381 kavrama değişimi |
 | Su pompası kontrolü | Ücretsiz | Su pompası ve termostat kontrolü |
-| Su pompası değişimi (gerekirse) | 2.800–5.500₺ | Su pompası ve termostat değişimi |
+| Su pompası değişimi (gerekirse) | 📞 Fiyat Sorunuz | Su pompası ve termostat değişimi |
 | Alternatör kontrolü | Ücretsiz | Alternatör şarj kontrolü |
 | Radyatör kontrolü | Ücretsiz | Radyatör sızıntı kontrolü |
-| **TOPLAM** | **17.000–24.000₺** | **Tüm işlemler dahil** |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **120.000 km Bakım Önemi:**
 - Timing zincir kontrolü motor hasarını önler
 - DSG kavrama kontrolü şanzıman arızasını önler
 - Su pompası kontrolü soğutma sistemini korur
 
-## Motor Tipine Göre Ağır Bakım Fiyatları
+## Motor Tipine Göre Ağır Bakım Hizmetleri
 
 ### 2.0 TSI Motor (Benzin) Ağır Bakım
 
 | Bakım Paketi | Özel İşlemler | Toplam Fiyat | Süre |
 | --- | --- | ---: | --- |
-| 60.000 km | Filtreler, fren, klima | 9.500–13.500₺ | 1 gün |
-| 90.000 km | 60.000 km + DSG yağ, turbo kontrolü | 13.500–20.000₺ | 1-2 gün |
-| 120.000 km | 90.000 km + timing zincir | 17.000–24.000₺ | 2-3 gün |
+| 60.000 km | Filtreler, fren, klima | 📞 Fiyat Sorunuz | 1 gün |
+| 90.000 km | 60.000 km + DSG yağ, turbo kontrolü | 📞 Fiyat Sorunuz | 1-2 gün |
+| 120.000 km | 90.000 km + timing zincir | 📞 Fiyat Sorunuz | 2-3 gün |
 
 **2.0 TSI Özel Notlar:**
 - DSG DQ250/DQ381 yağ değişimi 80.000 km'de mutlaka yapılmalı
@@ -137,16 +133,16 @@ Volkswagen Passat ağır bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | Bakım Paketi | Özel İşlemler | Toplam Fiyat | Süre |
 | --- | --- | ---: | --- |
-| 60.000 km | Filtreler, fren, klima | 9.500–13.500₺ | 1 gün |
-| 90.000 km | 60.000 km + DSG yağ, DPF, AdBlue | 13.500–20.000₺ | 1-2 gün |
-| 120.000 km | 90.000 km + timing zincir | 17.000–24.000₺ | 2-3 gün |
+| 60.000 km | Filtreler, fren, klima | 📞 Fiyat Sorunuz | 1 gün |
+| 90.000 km | 60.000 km + DSG yağ, DPF, AdBlue | 📞 Fiyat Sorunuz | 1-2 gün |
+| 120.000 km | 90.000 km + timing zincir | 📞 Fiyat Sorunuz | 2-3 gün |
 
 **2.0 TDI Özel Notlar:**
 - DPF temizleme 100.000 km'de mutlaka yapılmalı
 - DPF tıkanırsa motor performansı düşer, yakıt tüketimi artar
-- DPF değişimi 18.000-28.000₺ (temizleme 8.500-19.500₺)
+- DPF değişimi uygun maliyetler (temizleme uygun maliyetler)
 - AdBlue sistemi bakımı 80.000 km'de yapılmalı
-- AdBlue pompa arızası 4.500-11.000₺
+- AdBlue pompa arızası uygun maliyetler
 
 ## Ağır Bakım İçeriği Detayları
 
@@ -156,14 +152,14 @@ DSG DQ250/DQ381 yağ değişimi, Passat'ın en kritik bakım işlemlerinden biri
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DSG yağ değişimi | 5.500–9.000₺ | 1-2 saat |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
 | DSG filtre değişimi | Dahil | Dahil |
 | Mekatronik adaptasyonu | Dahil | Dahil |
 
 **DSG Yağ Değişimi Önemi:**
 - Yağ eskirse mekatronik arızası riski %40 artar
-- Mekatronik arızası 12.000-22.000₺
-- Erken yağ değişimi maliyeti 5.500-9.000₺
+- Mekatronik arızası uygun maliyetler
+- Erken yağ değişimi maliyeti uygun maliyetler
 
 ### Timing Zincir Kontrolü ve Değişimi (120.000 km)
 
@@ -172,13 +168,13 @@ DSG DQ250/DQ381 yağ değişimi, Passat'ın en kritik bakım işlemlerinden biri
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
 | Timing zincir kontrolü | Ücretsiz | 30 dakika |
-| Timing zincir değişimi | 8.500–16.000₺ | 2-3 gün |
+| Timing zincir değişimi | 📞 Fiyat Sorunuz | 2-3 gün |
 | Zincir gergi değişimi | Dahil | Dahil |
 | Zincir kılavuzları | Dahil | Dahil |
 
 **Timing Zincir Önemi:**
-- Zincir koparsa motor hasarı 20.000-35.000₺
-- Erken değişim maliyeti 8.500-16.000₺
+- Zincir koparsa motor hasarı uygun maliyetler
+- Erken değişim maliyeti uygun maliyetler
 - 2010-2015 arası modellerde gerginlik kontrolü önemli
 
 ### DPF Temizleme (90.000 km - Dizel)
@@ -187,14 +183,14 @@ DSG DQ250/DQ381 yağ değişimi, Passat'ın en kritik bakım işlemlerinden biri
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DPF temizleme | 8.500–19.500₺ | 1-2 gün |
-| DPF değişimi (gerekirse) | 18.000–28.000₺ | 2-3 gün |
-| EGR temizleme | 2.500–5.500₺ | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 1-2 gün |
+| DPF değişimi (gerekirse) | 📞 Fiyat Sorunuz | 2-3 gün |
+| EGR temizleme | 📞 Fiyat Sorunuz | Aynı gün |
 
 **DPF Temizleme Önemi:**
 - DPF tıkanırsa motor performansı düşer
 - Yakıt tüketimi %20-30 artar
-- Erken temizleme maliyeti 8.500-19.500₺
+- Erken temizleme maliyeti uygun maliyetler
 
 ### AdBlue Sistemi Bakımı (90.000 km - Dizel)
 
@@ -205,13 +201,13 @@ DSG DQ250/DQ381 yağ değişimi, Passat'ın en kritik bakım işlemlerinden biri
 | AdBlue seviye kontrolü | Ücretsiz | 15 dakika |
 | AdBlue kalite kontrolü | Ücretsiz | 15 dakika |
 | AdBlue pompa kontrolü | Ücretsiz | 30 dakika |
-| AdBlue pompa değişimi (gerekirse) | 4.500–11.000₺ | Aynı gün |
-| AdBlue sensör değişimi (gerekirse) | 2.500–6.000₺ | Aynı gün |
+| AdBlue pompa değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
+| AdBlue sensör değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
 
 **AdBlue Sistemi Önemi:**
 - AdBlue sistemi arızası emisyon kontrolünü bozar
-- Pompa arızası 4.500-11.000₺
-- Sensör arızası 2.500-6.000₺
+- Pompa arızası uygun maliyetler
+- Sensör arızası uygun maliyetler
 
 ### Fren Balata Değişimi
 
@@ -219,10 +215,10 @@ Fren balata değişimi güvenlik için kritiktir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Ön fren balata | 3.500–7.000₺ | Aynı gün |
-| Arka fren balata | 3.000–5.000₺ | Aynı gün |
-| Fren diski değişimi (gerekirse) | 4.500–9.000₺ | Aynı gün |
-| Fren hidroliği değişimi | 1.000–2.000₺ | Aynı gün |
+| Ön fren balata | 📞 Fiyat Sorunuz | Aynı gün |
+| Arka fren balata | 📞 Fiyat Sorunuz | Aynı gün |
+| Fren diski değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
+| Fren hidroliği değişimi | 📞 Fiyat Sorunuz | Aynı gün |
 
 ## Ağır Bakım Süreci
 
@@ -237,7 +233,7 @@ Fren balata değişimi güvenlik için kritiktir.
 
 - **15+ Yıl Deneyim:** Passat ağır bakımında uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-3 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -310,27 +306,27 @@ Fren balata değişimi güvenlik için kritiktir.
 
 ### Passat ağır bakım fiyatı ne kadar?
 
-Passat ağır bakım fiyatı kilometreye göre değişir. 60.000 km bakım 9.500-13.500₺, 90.000 km bakım 13.500-20.000₺, 120.000 km bakım 17.000-24.000₺ arasındadır.
+Passat ağır bakım fiyatı kilometreye göre değişir. 60.000 km bakım uygun maliyetler, 90.000 km bakım uygun maliyetler, 120.000 km bakım uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Passat 60.000 km bakımı ne içerir?
 
-60.000 km bakımı: Motor yağı ve filtre (4.000-6.500₺), hava filtresi (500-900₺), polen filtresi (400-700₺), fren balata kontrolü, klima bakımı (3.000-5.000₺) içerir. Toplam 9.500-13.500₺.
+60.000 km bakımı: Motor yağı ve filtre (Fiyat Sorunuz), hava filtresi (500-900₺), polen filtresi (400-700₺), fren balata kontrolü, klima bakımı (Fiyat Sorunuz) içerir. Toplam uygun maliyetler.
 
 ### Passat DSG yağ değişimi ne zaman yapılmalı?
 
-Passat DSG DQ250/DQ381 yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi 5.500-9.000₺; değişmezse mekatronik arızası 12.000-22.000₺.
+Passat DSG DQ250/DQ381 yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler.
 
 ### Passat 2.0 TDI timing zincir değişimi ne zaman yapılmalı?
 
-2.0 TDI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Özellikle 2010-2015 arası modellerde timing zincir gerginliği fabrikasyon kusurdur. Timing zincir değişimi 8.500-16.000₺; koparsa motor hasarı 20.000-35.000₺.
+2.0 TDI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Özellikle 2010-2015 arası modellerde timing zincir gerginliği fabrikasyon kusurdur. Timing zincir değişimi uygun maliyetler; koparsa motor hasarı uygun maliyetler.
 
 ### Passat 2.0 TDI DPF temizleme ne zaman yapılmalı?
 
-2.0 TDI DPF temizleme 100.000 km'de mutlaka yapılmalıdır. DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar. DPF temizleme 8.500-19.500₺; değişim 18.000-28.000₺.
+2.0 TDI DPF temizleme 100.000 km'de mutlaka yapılmalıdır. DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar. DPF temizleme uygun maliyetler; değişim uygun maliyetler.
 
 ### Passat AdBlue sistemi bakımı ne zaman yapılmalı?
 
-Passat 2.0 TDI AdBlue sistemi bakımı 80.000 km'de yapılmalıdır. AdBlue pompa arızası 4.500-11.000₺, sensör arızası 2.500-6.000₺. AdBlue sistemi arızası emisyon kontrolünü bozar.
+Passat 2.0 TDI AdBlue sistemi bakımı 80.000 km'de yapılmalıdır. AdBlue pompa arızası uygun maliyetler, sensör arızası uygun maliyetler. AdBlue sistemi arızası emisyon kontrolünü bozar.
 
 ### Passat ağır bakım ne kadar sürer?
 
@@ -350,9 +346,10 @@ Yıldızlar Grup'ta Passat ağır bakım fiyatları yetkili servise göre %50-70
 
 ### Passat DSG kavrama değişimi ne zaman yapılmalı?
 
-DQ250/DQ381 ıslak kavrama 120.000-180.000 km'de değiştirilmelidir. Şehir içi sık dur-kalkta kavrama aşınması %30 hızlanır. Erken değişim maliyeti 10.000-18.000₺; geç kalınırsa mekatronik hasarı eklenince 15.000-25.000₺.
+DQ250/DQ381 ıslak kavrama 120.000-180.000 km'de değiştirilmelidir. Şehir içi sık dur-kalkta kavrama aşınması %30 hızlanır. Erken değişim maliyeti uygun maliyetler; geç kalınırsa mekatronik hasarı eklenince uygun maliyetler.
 
 ### Passat fren balata değişimi ne zaman yapılmalı?
 
-Passat fren balata değişimi 50.000-70.000 km arasında yapılmalıdır. Ön fren balata 3.500-7.000₺, arka fren balata 3.000-5.000₺. Fren diski değişimi gerekirse 4.500-9.000₺ eklenir.
+Passat fren balata değişimi 50.000-70.000 km arasında yapılmalıdır. Ön fren balata uygun maliyetler, arka fren balata uygun maliyetler. Fren diski değişimi gerekirse uygun maliyetler eklenir.
+
 

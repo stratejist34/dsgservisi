@@ -1,8 +1,8 @@
 ---
 title: "T Roc Periyodik Bakım"
-description: "Volkswagen T-Roc periyodik bakım: Küçük bakım, büyük bakım, DSG bakımı, fren bakımı fiyatları. 15.000, 30.000, 60.000 km periyodik bakım paketleri."
+description: "Volkswagen T-Roc periyodik bakım: Küçük bakım, büyük bakım, DSG bakımı, fren bakımı hizmetleri. 15.000, 30.000, 60.000 km periyodik bakım paketleri."
 category: "Volkswagen"
-tags: ["volkswagen", "t-roc", "t roc", "periyodik bakım", "15 bin bakım", "30 bin bakım", "60 bin bakım", "fiyat"]
+tags: ["volkswagen", "t-roc", "t roc", "periyodik bakım", "15 bin bakım", "30 bin bakım", "60 bin bakım"]
 slug: "t-roc-periyodik-bakim"
 publishDate: "2025-11-17T15:25:00+03:00"
 updatedDate: "2025-11-17T15:25:00+03:00"
@@ -17,10 +17,6 @@ serviceName: "Volkswagen T-Roc Periyodik Bakım"
 serviceType: "Araç Bakımı"
 serviceDescription: "Volkswagen T-Roc araçlarında periyodik bakım hizmeti. Küçük bakım, büyük bakım, DSG bakımı. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 3500
-highPrice: 19500
-priceCurrency: "TRY"
-offerUrl: "/t-roc-periyodik-bakim"
 
 ---
 
@@ -30,7 +26,7 @@ Volkswagen T-Roc periyodik bakımı, aracın ömrünü uzatan ve büyük arızal
 
 :::tip
 
-**UZMAN TAVSİYESİ:** T-Roc periyodik bakımında erken müdahale %50'ye varan maliyet tasarrufu sağlar. DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalıdır (4.500-7.500₺). Değişmezse mekatronik arızası 8.500-16.000₺. DSG DQ381 yağ değişimi 80.000 km'de yapılmalıdır (6.000-9.000₺). 1.0 TSI/1.5 TSI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 6.000-11.000₺. 2.0 TDI DPF temizleme 100.000 km'de yapılmalıdır (8.000-19.000₺).
+**UZMAN TAVSİYESİ:** T-Roc periyodik bakımında erken müdahale %50'ye varan maliyet tasarrufu sağlar. DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalıdır (Fiyat Sorunuz). Değişmezse mekatronik arızası uygun maliyetler. DSG DQ381 yağ değişimi 80.000 km'de yapılmalıdır (Fiyat Sorunuz). 1.0 TSI/1.5 TSI timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa uygun maliyetler. 2.0 TDI DPF temizleme 100.000 km'de yapılmalıdır (Fiyat Sorunuz).
 
 :::
 
@@ -44,18 +40,18 @@ Volkswagen T-Roc periyodik bakımı, aracın ömrünü uzatan ve büyük arızal
 
 :::
 
-## T-Roc Periyodik Bakım Fiyatları 2025 (Genel)
+## T-Roc Periyodik Bakım Hizmetleri (Genel)
 
 | Bakım Türü | Maliyet | Periyot | Süre | Model |
 | --- | ---: | --- | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–6.000₺ | 15.000 km | Aynı gün | Tüm modeller |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.000–9.500₺ | 30.000 km | Aynı gün | Tüm modeller |
-| DSG DQ200 yağ değişimi | 4.500–7.500₺ | 60.000 km | Aynı gün | 1.0 TSI, 1.5 TSI |
-| DSG DQ381 yağ değişimi | 6.000–9.000₺ | 80.000 km | Aynı gün | 2.0 TSI, 2.0 TDI |
-| Fren balata (ön/arka) | 5.500–11.000₺ | 50.000–70.000 km | Aynı gün | Tüm modeller |
-| DPF temizleme (2.0 TDI) | 8.000–19.000₺ | 100.000 km | 1-2 gün | Dizel modeller |
-| Klima bakım (gaz, temizlik) | 2.500–5.000₺ | Yıllık | Aynı gün | Tüm modeller |
-| Timing zincir değişimi | 6.000–11.000₺ | 100.000–180.000 km | 2-3 gün | TSI modeller |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün | Tüm modeller |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün | Tüm modeller |
+| DSG DQ200 yağ değişimi | 📞 Fiyat Sorunuz | 60.000 km | Aynı gün | 1.0 TSI, 1.5 TSI |
+| DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün | 2.0 TSI, 2.0 TDI |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün | Tüm modeller |
+| DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | 100.000 km | 1-2 gün | Dizel modeller |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün | Tüm modeller |
+| Timing zincir değişimi | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün | TSI modeller |
 
 ## Periyodik Bakım Hizmetleri
 
@@ -65,11 +61,11 @@ Küçük bakım, motor yağı ve yağ filtresi değişimini içerir. T-Roc araç
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| Motor yağı değişimi | 2.500–4.500₺ | Orijinal motor yağı (5W-30, 5W-40) |
+| Motor yağı değişimi | 📞 Fiyat Sorunuz | Orijinal motor yağı (5W-30, 5W-40) |
 | Yağ filtresi değişimi | 300–600₺ | Orijinal yağ filtresi |
 | Genel kontrol | Ücretsiz | Yağ seviyesi, sıvılar, lastikler |
 | OBD-II hata taraması | Ücretsiz | Elektronik hata kontrolü |
-| **TOPLAM** | **3.500–6.000₺** | **Tüm işlemler dahil** |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **Küçük Bakım Önemi:**
 - Motor yağı değişimi motor ömrünü uzatır
@@ -82,30 +78,30 @@ Büyük bakım, küçük bakıma ek olarak hava filtresi ve polen filtresi deği
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| Küçük bakım paketi | 3.500–6.000₺ | Yukarıdaki tüm işlemler |
+| Küçük bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
 | Hava filtresi değişimi | 400–800₺ | Motor hava filtresi |
 | Polen filtresi değişimi | 300–600₺ | Kabin hava filtresi |
 | Fren balata kontrolü | Ücretsiz | Ön/arka fren balata kontrolü |
-| Fren balata değişimi (gerekirse) | 5.500–11.000₺ | Ön/arka fren balata değişimi |
-| **TOPLAM** | **6.000–9.500₺** | **Tüm işlemler dahil** |
+| Fren balata değişimi (gerekirse) | 📞 Fiyat Sorunuz | Ön/arka fren balata değişimi |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **Büyük Bakım Önemi:**
 - Hava filtresi motor performansını korur
 - Polen filtresi kabin hava kalitesini artırır
 - Fren kontrolü güvenliği sağlar
 
-## Motor Tipine Göre Periyodik Bakım Fiyatları
+## Motor Tipine Göre Periyodik Bakım Hizmetleri
 
 ### 1.0 TSI Motor (Benzin) Periyodik Bakım
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–6.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.000–9.500₺ | 30.000 km | Aynı gün |
-| DSG DQ200 yağ değişimi | 4.500–7.500₺ | 60.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.500–11.000₺ | 50.000–70.000 km | Aynı gün |
-| Timing zincir (1.0 TSI) | 6.000–10.500₺ | 100.000–180.000 km | 2-3 gün |
-| Klima bakım | 2.500–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG DQ200 yağ değişimi | 📞 Fiyat Sorunuz | 60.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Timing zincir (1.0 TSI) | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Klima bakım | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 **1.0 TSI Özel Notlar:**
 - DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalı
@@ -116,12 +112,12 @@ Büyük bakım, küçük bakıma ek olarak hava filtresi ve polen filtresi deği
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–6.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.000–9.500₺ | 30.000 km | Aynı gün |
-| DSG DQ200 yağ değişimi | 4.500–7.500₺ | 60.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.500–11.000₺ | 50.000–70.000 km | Aynı gün |
-| Timing zincir (1.5 TSI) | 6.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| Klima bakım | 2.500–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG DQ200 yağ değişimi | 📞 Fiyat Sorunuz | 60.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Timing zincir (1.5 TSI) | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Klima bakım | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 **1.5 TSI Özel Notlar:**
 - DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalı
@@ -132,11 +128,11 @@ Büyük bakım, küçük bakıma ek olarak hava filtresi ve polen filtresi deği
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–6.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.000–9.500₺ | 30.000 km | Aynı gün |
-| DSG DQ381 yağ değişimi | 6.000–9.000₺ | 80.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.500–11.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım | 2.500–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 **2.0 TSI Özel Notlar:**
 - DSG DQ381 yağ değişimi 80.000 km'de mutlaka yapılmalı
@@ -146,18 +142,18 @@ Büyük bakım, küçük bakıma ek olarak hava filtresi ve polen filtresi deği
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–6.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.000–9.500₺ | 30.000 km | Aynı gün |
-| DSG DQ381 yağ değişimi | 6.000–9.000₺ | 80.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.500–11.000₺ | 50.000–70.000 km | Aynı gün |
-| DPF temizleme (2.0 TDI) | 8.000–19.000₺ | 100.000 km | 1-2 gün |
-| AdBlue sistemi bakımı | 4.500–11.000₺ | 80.000 km | Aynı gün |
-| Klima bakım | 2.500–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | 100.000 km | 1-2 gün |
+| AdBlue sistemi bakımı | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Klima bakım | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 **2.0 TDI Özel Notlar:**
 - DPF temizleme 100.000 km'de mutlaka yapılmalı
 - DPF tıkanırsa motor performansı düşer, yakıt tüketimi artar
-- DPF değişimi 18.000-28.000₺ (temizleme 8.000-19.000₺)
+- DPF değişimi uygun maliyetler (temizleme uygun maliyetler)
 - AdBlue sistemi bakımı 80.000 km'de yapılmalı
 
 ## Özel Bakım İşlemleri
@@ -168,14 +164,14 @@ DSG DQ200 yağ değişimi, 1.0 TSI ve 1.5 TSI modellerde kritiktir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DSG yağ değişimi | 4.500–7.500₺ | 1-2 saat |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
 | DSG filtre değişimi | Dahil | Dahil |
 | Mekatronik adaptasyonu | Dahil | Dahil |
 
 **DSG DQ200 Yağ Değişimi Önemi:**
 - Yağ eskirse mekatronik arızası riski %40 artar
-- Mekatronik arızası 8.500-16.000₺
-- Erken yağ değişimi maliyeti 4.500-7.500₺
+- Mekatronik arızası uygun maliyetler
+- Erken yağ değişimi maliyeti uygun maliyetler
 
 ### DSG DQ381 Yağ Değişimi (80.000 km)
 
@@ -183,14 +179,14 @@ DSG DQ381 yağ değişimi, 2.0 TSI ve 2.0 TDI modellerde kritiktir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DSG yağ değişimi | 6.000–9.000₺ | 1-2 saat |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
 | DSG filtre değişimi | Dahil | Dahil |
 | Mekatronik adaptasyonu | Dahil | Dahil |
 
 **DSG DQ381 Yağ Değişimi Önemi:**
 - Yağ eskirse mekatronik arızası riski %40 artar
-- Mekatronik arızası 9.500-17.000₺
-- Erken yağ değişimi maliyeti 6.000-9.000₺
+- Mekatronik arızası uygun maliyetler
+- Erken yağ değişimi maliyeti uygun maliyetler
 
 ### DPF Temizleme (100.000 km - Dizel)
 
@@ -198,14 +194,14 @@ DSG DQ381 yağ değişimi, 2.0 TSI ve 2.0 TDI modellerde kritiktir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DPF temizleme | 8.000–19.000₺ | 1-2 gün |
-| DPF değişimi (gerekirse) | 18.000–28.000₺ | 2-3 gün |
-| EGR temizleme | 2.500–5.500₺ | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 1-2 gün |
+| DPF değişimi (gerekirse) | 📞 Fiyat Sorunuz | 2-3 gün |
+| EGR temizleme | 📞 Fiyat Sorunuz | Aynı gün |
 
 **DPF Temizleme Önemi:**
 - DPF tıkanırsa motor performansı düşer
 - Yakıt tüketimi %20-30 artar
-- Erken temizleme maliyeti 8.000-19.000₺
+- Erken temizleme maliyeti uygun maliyetler
 
 ### Timing Zincir Değişimi (100.000-180.000 km)
 
@@ -214,12 +210,12 @@ TSI motorlarda timing zincir kontrolü kritiktir.
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
 | Timing zincir kontrolü | Ücretsiz | 30 dakika |
-| Timing zincir değişimi | 6.000–11.000₺ | 2-3 gün |
+| Timing zincir değişimi | 📞 Fiyat Sorunuz | 2-3 gün |
 | Zincir gergi değişimi | Dahil | Dahil |
 
 **Timing Zincir Önemi:**
-- Zincir koparsa motor hasarı 15.000-30.000₺
-- Erken değişim maliyeti 6.000-11.000₺
+- Zincir koparsa motor hasarı uygun maliyetler
+- Erken değişim maliyeti uygun maliyetler
 - Kontrol ücretsiz
 
 ### Fren Balata Değişimi
@@ -228,10 +224,10 @@ Fren balata değişimi güvenlik için kritiktir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Ön fren balata | 3.000–6.000₺ | Aynı gün |
-| Arka fren balata | 2.500–5.000₺ | Aynı gün |
-| Fren diski değişimi (gerekirse) | 4.000–8.000₺ | Aynı gün |
-| Fren hidroliği değişimi | 1.000–2.000₺ | Aynı gün |
+| Ön fren balata | 📞 Fiyat Sorunuz | Aynı gün |
+| Arka fren balata | 📞 Fiyat Sorunuz | Aynı gün |
+| Fren diski değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
+| Fren hidroliği değişimi | 📞 Fiyat Sorunuz | Aynı gün |
 
 ## T-Roc Periyodik Bakım Süreci
 
@@ -246,7 +242,7 @@ Fren balata değişimi güvenlik için kritiktir.
 
 - **15+ Yıl Deneyim:** T-Roc periyodik bakımında uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -319,27 +315,27 @@ Fren balata değişimi güvenlik için kritiktir.
 
 ### T-Roc periyodik bakım fiyatı ne kadar?
 
-T-Roc periyodik bakım fiyatı bakım türüne göre değişir. Küçük bakım (yağ + filtre) 3.500-6.000₺, büyük bakım 6.000-9.500₺, DSG yağ değişimi 4.500-9.000₺, DPF temizleme 8.000-19.000₺ arasındadır.
+T-Roc periyodik bakım fiyatı bakım türüne göre değişir. Küçük bakım (yağ + filtre) uygun maliyetler, büyük bakım uygun maliyetler, DSG yağ değişimi uygun maliyetler, DPF temizleme uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### T-Roc 15.000 km bakımı ne içerir?
 
-15.000 km bakımı: Motor yağı değişimi (2.500-4.500₺), yağ filtresi (300-600₺), genel kontrol (ücretsiz), OBD-II hata taraması (ücretsiz) içerir. Toplam 3.500-6.000₺.
+15.000 km bakımı: Motor yağı değişimi (Fiyat Sorunuz), yağ filtresi (300-600₺), genel kontrol (ücretsiz), OBD-II hata taraması (ücretsiz) içerir. Toplam uygun maliyetler.
 
 ### T-Roc 30.000 km bakımı ne içerir?
 
-30.000 km bakımı: 15.000 km bakımı + hava filtresi (400-800₺), polen filtresi (300-600₺), fren balata kontrolü (ücretsiz) içerir. Toplam 6.000-9.500₺.
+30.000 km bakımı: 15.000 km bakımı + hava filtresi (400-800₺), polen filtresi (300-600₺), fren balata kontrolü (ücretsiz) içerir. Toplam uygun maliyetler.
 
 ### T-Roc DSG yağ değişimi ne zaman yapılmalı?
 
-T-Roc DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalıdır (1.0 TSI, 1.5 TSI modeller). DSG DQ381 yağ değişimi 80.000 km'de yapılmalıdır (2.0 TSI, 2.0 TDI modeller). Üretici "ömür boyu yağ" dese de pratikte yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi 4.500-9.000₺; değişmezse mekatronik arızası 8.500-17.000₺.
+T-Roc DSG DQ200 yağ değişimi 60.000 km'de mutlaka yapılmalıdır (1.0 TSI, 1.5 TSI modeller). DSG DQ381 yağ değişimi 80.000 km'de yapılmalıdır (2.0 TSI, 2.0 TDI modeller). Üretici "ömür boyu yağ" dese de pratikte yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler.
 
 ### T-Roc 2.0 TDI DPF temizleme ne zaman yapılmalı?
 
-2.0 TDI DPF temizleme 100.000 km'de mutlaka yapılmalıdır. DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar. DPF temizleme 8.000-19.000₺; değişim 18.000-28.000₺.
+2.0 TDI DPF temizleme 100.000 km'de mutlaka yapılmalıdır. DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar. DPF temizleme uygun maliyetler; değişim uygun maliyetler.
 
 ### T-Roc timing zincir değişimi ne zaman yapılmalı?
 
-T-Roc TSI motorlarda timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Timing zincir değişimi 6.000-11.000₺; koparsa motor hasarı 15.000-30.000₺.
+T-Roc TSI motorlarda timing zincir kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Timing zincir değişimi uygun maliyetler; koparsa motor hasarı uygun maliyetler.
 
 ### T-Roc periyodik bakım ne kadar sürer?
 
@@ -359,5 +355,6 @@ Yıldızlar Grup'ta T-Roc periyodik bakım fiyatları yetkili servise göre %50-
 
 ### T-Roc fren balata değişimi ne zaman yapılmalı?
 
-T-Roc fren balata değişimi 50.000-70.000 km arasında yapılmalıdır. Ön fren balata 3.000-6.000₺, arka fren balata 2.500-5.000₺. Fren diski değişimi gerekirse 4.000-8.000₺ eklenir.
+T-Roc fren balata değişimi 50.000-70.000 km arasında yapılmalıdır. Ön fren balata uygun maliyetler, arka fren balata uygun maliyetler. Fren diski değişimi gerekirse uygun maliyetler eklenir.
+
 

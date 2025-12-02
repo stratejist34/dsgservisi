@@ -18,7 +18,6 @@ serviceName: "Land Rover Özel Servis"
 serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Land Rover ZF şanzıman, motor, turbo ve hava süspansiyon arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Büyükçekmece", "Beylikdüzü", "Esenyurt", "Avcılar"]
-offerUrl: "/land-rover-ozel-servis"
 
 ---
 
@@ -54,12 +53,12 @@ Land Rover'da erken arıza tespiti tamir maliyetini %70 azaltır. Düzenli periy
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| Hava süspansiyon kompresör/körük | %44 | 16.000–34.000₺ | 80.000–150.000 km |
-| ZF 8HP şanzıman valf‑body | %36 | 18.000–38.000₺ | 120.000–200.000 km |
-| 3.0 TDV6 timing zincir gerginliği | %32 | 12.000–24.000₺ | 100.000–180.000 km |
-| Turbo intercooler sızıntısı | %34 | 14.000–28.000₺ | 100.000–180.000 km |
-| Elektronik kontrol ünitesi (ECU/TCM) | %41 | 9.000–22.000₺ | 80.000–150.000 km |
-| Su pompası/termostat elektroniği | %26 | 5.500–12.000₺ | 80.000–140.000 km |
+| Hava süspansiyon kompresör/körük | %44 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| ZF 8HP şanzıman valf‑body | %36 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| 3.0 TDV6 timing zincir gerginliği | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo intercooler sızıntısı | %34 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Elektronik kontrol ünitesi (ECU/TCM) | %41 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Su pompası/termostat elektroniği | %26 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
 
 **Nedenler:** Ağır gövde nedeniyle kompresör aşınması; ZF’de yağ eskimesi sonrası valf‑body kısa devresi; TDV6 zincir gergisi üretim kusuru; plastik intercooler bağlantılarında sızıntı; ECU/TCM donanım/yazılım arızaları.
 
@@ -67,34 +66,34 @@ Land Rover'da erken arıza tespiti tamir maliyetini %70 azaltır. Düzenli periy
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| Hava süspansiyon arızası | %43 | 15.000–32.000₺ | 80.000–150.000 km |
-| ZF 8HP valf‑body/mekatronik | %35 | 17.000–36.000₺ | 120.000–200.000 km |
-| 3.0 SDV6 turbo/intercooler | %33 | 13.000–27.000₺ | 100.000–180.000 km |
-| Motor timing zincir/gerginlik | %29 | 11.000–23.000₺ | 100.000–180.000 km |
-| Transfer case/diferansiyel yağ kaçağı | %24 | 6.500–14.000₺ | 100.000–180.000 km |
-| InControl/Touch Pro ekran arızası | %38 | 8.500–21.000₺ | 80.000–150.000 km |
+| Hava süspansiyon arızası | %43 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| ZF 8HP valf‑body/mekatronik | %35 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| 3.0 SDV6 turbo/intercooler | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Motor timing zincir/gerginlik | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Transfer case/diferansiyel yağ kaçağı | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| InControl/Touch Pro ekran arızası | %38 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Range Rover Evoque (L538, L551) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| 9HP şanzıman sarsıntı/vites geçiş | %31 | 14.000–26.000₺ | 80.000–150.000 km |
-| 2.0 D motor turbo/DPF arızası | %38 | 11.000–24.000₺ | 100.000–180.000 km |
-| Timing zincir gerginliği | %27 | 8.500–16.000₺ | 100.000–180.000 km |
-| Haldex 4x4 pompa arızası | %26 | 7.500–15.000₺ | 100.000–180.000 km |
-| Panoramik tavan su kaçağı | %34 | 4.500–11.000₺ | 60.000–120.000 km |
-| Elektronik park freni arızası | %22 | 4.200–9.500₺ | 80.000–150.000 km |
+| 9HP şanzıman sarsıntı/vites geçiş | %31 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 2.0 D motor turbo/DPF arızası | %38 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Timing zincir gerginliği | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Haldex 4x4 pompa arızası | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Panoramik tavan su kaçağı | %34 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
+| Elektronik park freni arızası | %22 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Discovery Sport (L550) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| 9HP şanzıman vites geçiş sorunları | %32 | 13.500–25.000₺ | 80.000–150.000 km |
-| 2.0 D Ingenium turbo/enjektör | %36 | 10.500–23.000₺ | 100.000–180.000 km |
-| Timing zincir gerginliği | %28 | 8.000–15.000₺ | 100.000–180.000 km |
-| Haldex 4x4 kontrol modülü | %25 | 6.500–13.500₺ | 100.000–180.000 km |
-| Panoramik tavan su kaçağı | %33 | 4.000–10.500₺ | 60.000–120.000 km |
-| Elektronik handbrake motor | %21 | 3.800–8.500₺ | 80.000–150.000 km |
+| 9HP şanzıman vites geçiş sorunları | %32 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 2.0 D Ingenium turbo/enjektör | %36 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Timing zincir gerginliği | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Haldex 4x4 kontrol modülü | %25 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Panoramik tavan su kaçağı | %33 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
+| Elektronik handbrake motor | %21 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ::::cta
 **Detaylı teşhis ve ekonomik tamir**
@@ -109,11 +108,11 @@ Land Rover EAS (Electronic Air Suspension) sisteminde kompresör, körük, valf 
 
 | Parça | Arıza Türü | Yaygınlık | Tamir Maliyeti |
 | --- | --- | ---: | ---: |
-| Kompresör | Aşınma, sürekli çalışma | %24 | 11.000–22.000₺ |
-| Körük (hava yastığı) | Delik, yırtık | %18 | 5.500–12.000₺ (adet) |
-| Valf bloğu | Sıkışma, hava kaçağı | %15 | 7.500–16.000₺ |
-| Yükseklik sensörü | Kalibrasyon, arıza | %12 | 2.500–6.000₺ (adet) |
-| Hava hattı | Çatlak, bağlantı kaçağı | %9 | 1.800–4.500₺ |
+| Kompresör | Aşınma, sürekli çalışma | %24 | 📞 Fiyat Sorunuz |
+| Körük (hava yastığı) | Delik, yırtık | %18 | 📞 Fiyat Sorunuz (adet) |
+| Valf bloğu | Sıkışma, hava kaçağı | %15 | 📞 Fiyat Sorunuz |
+| Yükseklik sensörü | Kalibrasyon, arıza | %12 | 📞 Fiyat Sorunuz (adet) |
+| Hava hattı | Çatlak, bağlantı kaçağı | %9 | 📞 Fiyat Sorunuz |
 
 ::::note
 - Kompresör 100.000–150.000 km’de kontrol edilmeli
@@ -121,7 +120,7 @@ Land Rover EAS (Electronic Air Suspension) sisteminde kompresör, körük, valf 
 - Valf bloğu temizliği 80.000 km’de önerilir
 - Yükseklik sensörü kalibrasyonu yılda 1 kez
 - Off‑road kullanım körük ömrünü %40 azaltır
-- Alternatif: çelik süspansiyon dönüşümü 15.000–28.000₺
+- Alternatif: çelik süspansiyon dönüşümü uygun maliyetler
 ::::
 
 ## Land Rover ZF Şanzıman Arızaları
@@ -130,50 +129,50 @@ Land Rover’da ZF 8HP (8 ileri) ve ZF 9HP (9 ileri) şanzımanlar kullanılır.
 
 | ZF Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir |
 | --- | --- | --- | ---: |
-| ZF 8HP (8 vites) | Range Rover, RR Sport, Discovery | Valf‑body, tork konvertör | 17.000–38.000₺ |
-| ZF 9HP (9 vites) | Evoque, Discovery Sport | Vites sarsıntı, mekatronik | 13.500–26.000₺ |
+| ZF 8HP (8 vites) | Range Rover, RR Sport, Discovery | Valf‑body, tork konvertör | 📞 Fiyat Sorunuz |
+| ZF 9HP (9 vites) | Evoque, Discovery Sport | Vites sarsıntı, mekatronik | 📞 Fiyat Sorunuz |
 
 ## Land Rover Motor Arızaları
 
 | Motor Tipi | Kullanıldığı Modeller | Kronik Arıza | Tahmini Tamir |
 | --- | --- | --- | ---: |
-| 2.0 D Ingenium | Evoque, Discovery Sport | Turbo, timing zincir, DPF | 9.000–23.000₺ |
-| 3.0 TDV6 (Ford) | Range Rover, Discovery | Timing zincir, turbo, enjektör | 11.000–26.000₺ |
-| 3.0 SDV6 (Ford) | Range Rover Sport | Twin‑turbo, intercooler sızıntı | 13.000–28.000₺ |
-| 5.0 V8 (Jaguar) | Range Rover, RR Sport | Timing zincir, su pompası | 15.000–35.000₺ |
+| 2.0 D Ingenium | Evoque, Discovery Sport | Turbo, timing zincir, DPF | 📞 Fiyat Sorunuz |
+| 3.0 TDV6 (Ford) | Range Rover, Discovery | Timing zincir, turbo, enjektör | 📞 Fiyat Sorunuz |
+| 3.0 SDV6 (Ford) | Range Rover Sport | Twin‑turbo, intercooler sızıntı | 📞 Fiyat Sorunuz |
+| 5.0 V8 (Jaguar) | Range Rover, RR Sport | Timing zincir, su pompası | 📞 Fiyat Sorunuz |
 
 ## Sık Sorulan Sorular
 
 ### Land Rover hava süspansiyon arızası belirtileri nelerdir?
-Hava süspansiyon arızası belirtileri: aracın çökmesi, sürüş yüksekliğinin ayarlanmaması, kompresörün sürekli çalışması, uyarı lambası ve bir köşenin çökmesi (körük deliği). Kompresör 11.000–22.000₺, körük 5.500–12.000₺ (adet), valf bloğu 7.500–16.000₺. Alternatif çelik süspansiyon: 15.000–28.000₺.
+Hava süspansiyon arızası belirtileri: aracın çökmesi, sürüş yüksekliğinin ayarlanmaması, kompresörün sürekli çalışması, uyarı lambası ve bir köşenin çökmesi (körük deliği). Kompresör uygun maliyetler, körük uygun maliyetler (adet), valf bloğu uygun maliyetler. Alternatif çelik süspansiyon: uygun maliyetler.
 
 ### ZF şanzıman yağı ne zaman değiştirilmeli?
-ZF 8HP/9HP şanzıman yağı 80.000 km’de değiştirilmelidir. “Ömür boyu yağ” iddiasına rağmen pratikte yağ eskir ve valf‑body arızası riski %34–36’ya çıkar. Yağ değişimi 5.500–9.000₺; değişmezse valf‑body tamiri 17.000–38.000₺.
+ZF 8HP/9HP şanzıman yağı 80.000 km’de değiştirilmelidir. “Ömür boyu yağ” iddiasına rağmen pratikte yağ eskir ve valf‑body arızası riski %34–36’ya çıkar. Yağ değişimi uygun maliyetler; değişmezse valf‑body tamiri uygun maliyetler.
 
 ### Timing zincir arızası nasıl anlaşılır?
-Soğukta şarıltı sesi, devir dalgalanması, ikaz lambası ve güç düşüşü. 100.000 km sonrası risk %27–32. Tahmini maliyet: 2.0 D Ingenium 8.000–15.000₺, 3.0 TDV6 11.000–23.000₺, 5.0 V8 15.000–32.000₺.
+Soğukta şarıltı sesi, devir dalgalanması, ikaz lambası ve güç düşüşü. 100.000 km sonrası risk %27–32. Tahmini maliyet: 2.0 D Ingenium uygun maliyetler, 3.0 TDV6 uygun maliyetler, 5.0 V8 uygun maliyetler.
 
 ### Panoramik tavan su kaçağı nasıl çözülür?
-Evoque ve Discovery Sport’ta yaygındır (%33–34). Neden: drenaj tıkanması ve conta eskimesi. Çözüm: drenaj temizliği 1.200–2.500₺, conta değişimi 3.500–7.500₺, mekanizma 8.000–16.000₺.
+Evoque ve Discovery Sport’ta yaygındır (%33–34). Neden: drenaj tıkanması ve conta eskimesi. Çözüm: drenaj temizliği uygun maliyetler, conta değişimi uygun maliyetler, mekanizma uygun maliyetler.
 
 ### InControl/Touch Pro ekran arızası nasıl çözülür?
-Donma, dokunmatik çalışmaması, piksel hatası görülebilir. Çözümler: yazılım güncellemesi 2.500–5.000₺, elektronik kart tamiri 6.500–13.000₺, ekran değişimi 12.000–26.000₺.
+Donma, dokunmatik çalışmaması, piksel hatası görülebilir. Çözümler: yazılım güncellemesi uygun maliyetler, elektronik kart tamiri uygun maliyetler, ekran değişimi uygun maliyetler.
 
 ### Turbo arızası maliyeti nedir?
-Belirtiler: güç kaybı, duman, ıslık sesi, ikaz lambası. Geometri temizliği 3.500–7.000₺, turbo yenileme 10.000–19.000₺, orijinal değişim 18.000–35.000₺. İntercooler sızıntısı ek 5.000–12.000₺.
+Belirtiler: güç kaybı, duman, ıslık sesi, ikaz lambası. Geometri temizliği uygun maliyetler, turbo yenileme uygun maliyetler, orijinal değişim uygun maliyetler. İntercooler sızıntısı ek uygun maliyetler.
 
 ### Haldex 4x4 sistemi arızası nedir?
-Evoque ve Discovery Sport’ta elektronik kontrollü arka teker itiş sistemidir. Yaygın arızalar: pompa, kontrol modülü, yağ kaçağı. Maliyet: pompa 6.500–12.000₺, modül 5.500–11.000₺, yağ/conta 2.200–5.000₺. Yağ değişimi 60.000 km’de yapılmalı.
+Evoque ve Discovery Sport’ta elektronik kontrollü arka teker itiş sistemidir. Yaygın arızalar: pompa, kontrol modülü, yağ kaçağı. Maliyet: pompa uygun maliyetler, modül uygun maliyetler, yağ/conta uygun maliyetler. Yağ değişimi 60.000 km’de yapılmalı.
 
 ### Periyodik bakım maliyeti nedir?
-15.000 km bakım: 3.500–7.500₺. Fren hidroliği (2 yıl): 2.500–5.000₺. Klima: 1.800–3.500₺. ZF yağ (80.000 km): 5.500–9.000₺. Yıllık ortalama 9.000–18.000₺.
+15.000 km bakım: uygun maliyetler. Fren hidroliği (2 yıl): uygun maliyetler. Klima: uygun maliyetler. ZF yağ (80.000 km): uygun maliyetler. Yıllık ortalama uygun maliyetler.
 
 ## Müşteri Yorumları
 
-- **Ahmet Kaya – 2016 Range Rover Sport:** "Hava süspansiyon kompresörü yetkili serviste 34.000₺ idi, burada 17.500₺'ye çözüldü."
-- **Serkan Yıldız – Evoque:** "ZF sarsıntı sorunu 14.500₺'ye düzeldi, araç harika çalışıyor."
+- **Ahmet Kaya – 2016 Range Rover Sport:** "Hava süspansiyon kompresörü yetkili serviste uygun fiyat idi, burada uygun fiyat'ye çözüldü."
+- **Serkan Yıldız – Evoque:** "ZF sarsıntı sorunu uygun fiyat'ye düzeldi, araç harika çalışıyor."
 - **Murat Çelik – 2018 Discovery Sport:** "Timing zincir + turbo arızası detaylı teşhisle, yetkili servisten %60 daha ekonomik."
-- **Emre Özdemir – Range Rover 3.0 TDV6:** "Valf‑body + hava süspansiyon toplam 26.500₺. İşçilik mükemmel."
+- **Emre Özdemir – Range Rover 3.0 TDV6:** "Valf‑body + hava süspansiyon toplam uygun fiyat. İşçilik mükemmel."
 - **Burak Koç – 2017 Evoque:** "Panoramik tavan kaçağı ve park freni çözüldü, fiyat uygundu."
 
 ## Google Harita ve Yorumlar
@@ -189,3 +188,4 @@ Evoque ve Discovery Sport’ta elektronik kontrollü arka teker itiş sistemidir
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00–18:00, Cumartesi 09:00–14:00</p>
+

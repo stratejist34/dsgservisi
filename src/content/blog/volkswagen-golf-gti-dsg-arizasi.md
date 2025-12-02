@@ -19,7 +19,6 @@ serviceName: "Volkswagen Golf GTI DSG Tamiri"
 serviceType: "DSG Tamiri"
 serviceDescription: "Volkswagen Golf GTI DSG arızalarında uzman teşhis ve tamir."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/volkswagen-golf-gti-dsg-arizasi"
 
 ---
 
@@ -74,3 +73,4 @@ Golf GTI DSG arızalarında uzman ekibimizle hizmetinizdeyiz. Garanti belgeli ta
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
+

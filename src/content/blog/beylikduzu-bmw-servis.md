@@ -18,7 +18,6 @@ serviceName: "Beylikdüzü BMW Servis"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine BMW ZF şanzıman, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
-offerUrl: "/beylikduzu-bmw-servis"
 
 ---
 
@@ -71,7 +70,7 @@ Merkezi konumumuz sayesinde Beylikdüzü'nden gelen müşteriler için aynı gü
 
 ### Şeffaf Fiyatlandırma
 
-Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## BMW Servis Hizmetlerimiz (Beylikdüzü)
 
@@ -90,61 +89,61 @@ Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net 
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman mekatronik/yağ kaçağı | %28 | 10.000–20.000₺ | 100.000–180.000 km |
-| 2.0 Turbo timing zincir gerginliği | %32 | 7.500–14.000₺ | 100.000–180.000 km |
-| 2.0 Dizel DPF tıkanması | %38 | 8.500–20.000₺ | 80.000–150.000 km |
-| Turbo wastegate/geometri | %24 | 9.000–18.000₺ | 120.000–200.000 km |
-| Su pompası/termostat arızası | %26 | 3.500–6.500₺ | 80.000–120.000 km |
+| ZF 8HP şanzıman mekatronik/yağ kaçağı | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 Turbo timing zincir gerginliği | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 Dizel DPF tıkanması | %38 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo wastegate/geometri | %24 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Su pompası/termostat arızası | %26 | 📞 Fiyat Sorunuz | 80.000–120.000 km |
 
 ### BMW 5 Serisi (F10, F11, G30) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman mekatronik/yağ kaçağı | %30 | 11.000–22.000₺ | 100.000–180.000 km |
-| 2.0 Turbo timing zincir gerginliği | %34 | 8.500–16.000₺ | 100.000–180.000 km |
-| 3.0 Dizel DPF tıkanması | %36 | 9.500–22.000₺ | 80.000–150.000 km |
-| Turbo wastegate arızası | %26 | 10.000–20.000₺ | 120.000–200.000 km |
-| Hava süspansiyon kompresör | %22 | 12.000–24.000₺ | 100.000–180.000 km |
+| ZF 8HP şanzıman mekatronik/yağ kaçağı | %30 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 Turbo timing zincir gerginliği | %34 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 3.0 Dizel DPF tıkanması | %36 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo wastegate arızası | %26 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Hava süspansiyon kompresör | %22 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### BMW X3 (F25, G01) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman mekatronik/yağ kaçağı | %29 | 10.500–21.000₺ | 100.000–180.000 km |
-| 2.0 Dizel DPF tıkanması | %37 | 9.000–21.000₺ | 80.000–150.000 km |
-| xDrive transfer kutusu arızası | %25 | 8.000–16.000₺ | 100.000–180.000 km |
-| Turbo wastegate/geometri | %23 | 9.500–19.000₺ | 120.000–200.000 km |
-| Hava süspansiyon kompresör | %21 | 13.000–25.000₺ | 100.000–180.000 km |
+| ZF 8HP şanzıman mekatronik/yağ kaçağı | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 Dizel DPF tıkanması | %37 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| xDrive transfer kutusu arızası | %25 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo wastegate/geometri | %23 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Hava süspansiyon kompresör | %21 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### BMW X5 (F15, F16, G05) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman mekatronik/yağ kaçağı | %31 | 12.000–24.000₺ | 100.000–180.000 km |
-| 3.0 Dizel DPF tıkanması | %35 | 10.000–23.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör/valf | %27 | 14.000–27.000₺ | 100.000–180.000 km |
-| xDrive transfer kutusu arızası | %24 | 9.000–18.000₺ | 100.000–180.000 km |
-| Turbo wastegate/geometri | %22 | 11.000–22.000₺ | 120.000–200.000 km |
+| ZF 8HP şanzıman mekatronik/yağ kaçağı | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 3.0 Dizel DPF tıkanması | %35 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör/valf | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| xDrive transfer kutusu arızası | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo wastegate/geometri | %22 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
 
 ### BMW X6 (F16, G06) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman mekatronik/yağ kaçağı | %32 | 12.500–25.000₺ | 100.000–180.000 km |
-| 3.0 Dizel DPF tıkanması | %34 | 10.500–24.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör/valf | %28 | 14.500–28.000₺ | 100.000–180.000 km |
-| Turbo wastegate arızası | %24 | 11.500–23.000₺ | 120.000–200.000 km |
+| ZF 8HP şanzıman mekatronik/yağ kaçağı | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 3.0 Dizel DPF tıkanması | %34 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör/valf | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo wastegate arızası | %24 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
 
-## BMW Periyodik Bakım Fiyatları 2025
+## BMW Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–8.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.500–12.000₺ | 30.000 km | Aynı gün |
-| ZF şanzıman yağ değişimi | 6.000–13.000₺ | 80.000–120.000 km | Aynı gün |
-| DPF temizleme | 4.500–9.000₺ | 100.000 km | Aynı gün |
-| Fren balata (ön/arka) | 6.000–14.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 3.000–6.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| ZF şanzıman yağ değişimi | 📞 Fiyat Sorunuz | 80.000–120.000 km | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 100.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Beylikdüzü'nden Ulaşım
 
@@ -257,5 +256,6 @@ Evet, metrobüs ile Beylikdüzü istasyonundan veya otobüs ile Beylikdüzü mer
 ### Beylikdüzü'nden servisinize ödeme seçenekleri nelerdir?
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
+
 
 

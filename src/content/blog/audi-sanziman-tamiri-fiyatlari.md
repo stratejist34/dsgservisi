@@ -1,13 +1,13 @@
 ---
-title: "Audi Şanzıman Tamiri Fiyatları"
-description: "Audi şanzıman tamiri fiyatları: DSG, S-Tronic, Tiptronic şanzıman tamiri fiyatları. A3, A4, A5, A6, Q3, Q5, Q7, Q8 modellerinde mekatronik, kavrama, valf body tamiri fiyatları."
+title: "Audi Şanzıman Tamiri Hizmetleri"
+description: "Audi şanzıman tamiri hizmetleri: DSG, S-Tronic, Tiptronic şanzıman tamiri hizmetleri. A3, A4, A5, A6, Q3, Q5, Q7, Q8 modellerinde mekatronik, kavrama, valf body tamiri hizmetleri."
 category: "Audi"
-tags: ["audi", "şanzıman", "şanzıman tamiri", "dsg", "s-tronic", "tiptronic", "fiyat"]
+tags: ["audi", "şanzıman", "şanzıman tamiri", "dsg", "s-tronic", "tiptronic"]
 slug: "audi-sanziman-tamiri-fiyatlari"
 publishDate: "2025-11-13T12:00:00+03:00"
 updatedDate: "2025-11-13T12:00:00+03:00"
 featuredImage: "/images/blog/audi-sanziman-tamiri-fiyatlari.jpg"
-imageAlt: "Audi şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Audi şanzıman tamiri hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/audi-sanziman-tamiri-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Audi Şanzıman Tamiri"
 serviceType: "Şanzıman Onarımı"
 serviceDescription: "Audi araçlarında DSG, S-Tronic, Tiptronic şanzıman tamiri hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 8500
-highPrice: 28000
-priceCurrency: "TRY"
-offerUrl: "/audi-sanziman-tamiri-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Audi araçlarında şanzıman arızaları motor performansını ve güvenliği d
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Audi şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. DSG/S‑Tronic yağ değişimi 60.000-80.000 km'de mutlaka yapılmalıdır. Yağ değişimi 5.500-9.500₺; değişmezse mekatronik arızası 8.500-28.000₺. Şehir içi sık dur-kalkta kavrama aşınması %40 hızlanır.
+**UZMAN TAVSİYESİ:** Audi şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. DSG/S‑Tronic yağ değişimi 60.000-80.000 km'de mutlaka yapılmalıdır. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler. Şehir içi sık dur-kalkta kavrama aşınması %40 hızlanır.
 
 :::
 
@@ -44,16 +40,16 @@ Audi araçlarında şanzıman arızaları motor performansını ve güvenliği d
 
 :::
 
-## Audi Şanzıman Tamiri Fiyatları 2025 (Genel)
+## Audi Şanzıman Tamiri Hizmetleri (Genel)
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | --- | ---: | --- |
-| DSG DQ200 (7 vites kuru) | A3, A1, Q2 | Mekatronik, kavrama | 8.500–17.000₺ | 1-3 gün |
-| DSG DQ250 (6 vites yaş) | A3, TT | Mekatronik, valf body | 9.500–18.000₺ | 1-3 gün |
-| S‑Tronic DL501 | A4, A5, A6, Q5, Q7 | Çift kavrama, mekatronik | 12.000–26.000₺ | 2-4 gün |
-| Tiptronic ZF 8HP | A6, A7, A8, Q7, Q8 | Valf body, tork konvertör | 13.000–28.000₺ | 2-4 gün |
+| DSG DQ200 (7 vites kuru) | A3, A1, Q2 | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 1-3 gün |
+| DSG DQ250 (6 vites yaş) | A3, TT | Mekatronik, valf body | 📞 Fiyat Sorunuz | 1-3 gün |
+| S‑Tronic DL501 | A4, A5, A6, Q5, Q7 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
+| Tiptronic ZF 8HP | A6, A7, A8, Q7, Q8 | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
-## Şanzıman Tipine Göre Tamir Fiyatları
+## Şanzıman Tipine Göre Tamir Hizmetleri
 
 ### DSG DQ200 Şanzıman Tamiri (A3, A1, Q2)
 
@@ -61,11 +57,11 @@ DQ200 7 vites kuru kavramalı DSG şanzımanıdır. Mekatronik ve kavrama arıza
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 8.500–14.000₺ | 1-2 gün | %33 |
-| Kavrama değişimi | 9.000–17.000₺ | 2-3 gün | %28 |
-| Yağ kaçağı tamiri | 3.500–6.500₺ | Aynı gün | %22 |
-| Valf body değişimi | 6.500–11.000₺ | 1-2 gün | %19 |
-| Tam revizyon | 12.000–17.000₺ | 3-4 gün | %15 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 1-2 gün | %33 |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 2-3 gün | %28 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | Aynı gün | %22 |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %19 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 3-4 gün | %15 |
 
 **DQ200 Arıza Belirtileri:**
 - Vites atarken sarsıntı
@@ -80,11 +76,11 @@ DQ250 6 vites yaş kavramalı DSG şanzımanıdır. Mekatronik ve valf body arı
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 9.500–15.000₺ | 1-2 gün | %30 |
-| Valf body değişimi | 8.000–13.000₺ | 1-2 gün | %25 |
-| Kavrama değişimi | 10.000–18.000₺ | 2-3 gün | %22 |
-| Yağ kaçağı tamiri | 4.000–7.000₺ | Aynı gün | %20 |
-| Tam revizyon | 13.000–18.000₺ | 3-4 gün | %18 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 1-2 gün | %30 |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %25 |
+| Kavrama değişimi | 📞 Fiyat Sorunuz | 2-3 gün | %22 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | Aynı gün | %20 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 3-4 gün | %18 |
 
 ### S‑Tronic DL501 Şanzıman Tamiri (A4, A5, A6, Q5, Q7)
 
@@ -92,11 +88,11 @@ S‑Tronic DL501 7 vites yaş kavramalı şanzımandır. Çift kavrama ve mekatr
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 12.000–20.000₺ | 2-3 gün | %31 |
-| Çift kavrama değişimi | 15.000–26.000₺ | 3-4 gün | %28 |
-| Valf body değişimi | 10.000–16.000₺ | 2-3 gün | %24 |
-| Yağ kaçağı tamiri | 5.000–9.000₺ | 1 gün | %21 |
-| Tam revizyon | 18.000–26.000₺ | 4-5 gün | %20 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-3 gün | %31 |
+| Çift kavrama değişimi | 📞 Fiyat Sorunuz | 3-4 gün | %28 |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 2-3 gün | %24 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1 gün | %21 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-5 gün | %20 |
 
 **S‑Tronic DL501 Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -111,11 +107,11 @@ ZF 8HP 8 vites tork konvertörlü otomatik şanzımandır. Valf body ve tork kon
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Valf body revizyonu | 13.000–22.000₺ | 2-3 gün | %26 |
-| Tork konvertör tamiri | 15.000–25.000₺ | 3-4 gün | %23 |
-| Yağ kaçağı tamiri | 6.000–11.000₺ | 1-2 gün | %21 |
-| Elektronik modül değişimi | 8.000–14.000₺ | 1-2 gün | %19 |
-| Tam revizyon | 20.000–28.000₺ | 4-5 gün | %18 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-3 gün | %26 |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 3-4 gün | %23 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %21 |
+| Elektronik modül değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %19 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-5 gün | %18 |
 
 **ZF 8HP Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -124,59 +120,59 @@ ZF 8HP 8 vites tork konvertörlü otomatik şanzımandır. Valf body ve tork kon
 - Şanzıman aşırı ısınması
 - Performans düşüşü
 
-## Model Bazlı Şanzıman Tamiri Fiyatları
+## Model Bazlı Şanzıman Tamiri Hizmetleri
 
 ### Audi A3 (8V, 8Y) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| DSG DQ200 | Mekatronik, kavrama | 8.500–17.000₺ | 1-3 gün |
-| DSG DQ250 | Mekatronik, valf body | 9.500–18.000₺ | 1-3 gün |
+| DSG DQ200 | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 1-3 gün |
+| DSG DQ250 | Mekatronik, valf body | 📞 Fiyat Sorunuz | 1-3 gün |
 
 ### Audi A4 (B8, B9) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| S‑Tronic DL501 | Çift kavrama, mekatronik | 12.000–24.000₺ | 2-4 gün |
+| S‑Tronic DL501 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Audi A5 (F5) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| S‑Tronic DL501 | Çift kavrama, mekatronik | 12.000–24.000₺ | 2-4 gün |
+| S‑Tronic DL501 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Audi A6 (C7, C8) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| S‑Tronic DL501 | Çift kavrama, mekatronik | 12.000–26.000₺ | 2-4 gün |
-| Tiptronic ZF 8HP | Valf body, tork konvertör | 13.000–28.000₺ | 2-4 gün |
+| S‑Tronic DL501 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
+| Tiptronic ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Audi Q3 (8U, F3) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| DSG DQ200 | Mekatronik, kavrama | 8.500–17.000₺ | 1-3 gün |
-| S‑Tronic DL501 | Çift kavrama, mekatronik | 12.000–24.000₺ | 2-4 gün |
+| DSG DQ200 | Mekatronik, kavrama | 📞 Fiyat Sorunuz | 1-3 gün |
+| S‑Tronic DL501 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Audi Q5 (8R, FY) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| S‑Tronic DL501 | Çift kavrama, mekatronik | 13.000–26.000₺ | 2-4 gün |
+| S‑Tronic DL501 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Audi Q7 (4L, 4M) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| S‑Tronic DL501 | Çift kavrama, mekatronik | 13.000–26.000₺ | 2-4 gün |
-| Tiptronic ZF 8HP | Valf body, tork konvertör | 14.000–28.000₺ | 2-4 gün |
+| S‑Tronic DL501 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
+| Tiptronic ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Audi Q8 (4M) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| Tiptronic ZF 8HP | Valf body, tork konvertör | 15.000–28.000₺ | 2-4 gün |
+| Tiptronic ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ## Şanzıman Arıza Türleri ve Çözümleri
 
@@ -186,10 +182,10 @@ Mekatronik, şanzımanın elektronik kontrol ünitesidir. Basınç sensörü, va
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Mekatronik revizyonu | 8.500–20.000₺ | 1-3 gün |
-| Mekatronik değişimi | 12.000–24.000₺ | 2-4 gün |
-| Basınç sensörü değişimi | 4.500–8.000₺ | Aynı gün |
-| Valf değişimi | 6.000–12.000₺ | 1-2 gün |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 1-3 gün |
+| Mekatronik değişimi | 📞 Fiyat Sorunuz | 2-4 gün |
+| Basınç sensörü değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Valf değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Kavrama Arızası
 
@@ -197,9 +193,9 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Kavrama değişimi (DQ200) | 9.000–17.000₺ | 2-3 gün |
-| Çift kavrama değişimi (DL501) | 15.000–26.000₺ | 3-4 gün |
-| Kavrama revizyonu | 7.000–14.000₺ | 2-3 gün |
+| Kavrama değişimi (DQ200) | 📞 Fiyat Sorunuz | 2-3 gün |
+| Çift kavrama değişimi (DL501) | 📞 Fiyat Sorunuz | 3-4 gün |
+| Kavrama revizyonu | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ### Yağ Kaçağı Tamiri
 
@@ -207,9 +203,9 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Keçe değişimi | 3.500–7.000₺ | Aynı gün |
-| Conta değişimi | 4.000–8.000₺ | 1 gün |
-| Gövde tamiri | 6.000–12.000₺ | 2-3 gün |
+| Keçe değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Conta değişimi | 📞 Fiyat Sorunuz | 1 gün |
+| Gövde tamiri | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ## Şanzıman Bakım Önerileri
 
@@ -238,7 +234,7 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
 
 - **15+ Yıl Deneyim:** Audi şanzıman tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-5 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Audi servisi
@@ -289,7 +285,7 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
       <span class="review-stars">★★★★★</span>
       <span class="review-date">5 yıl önce</span>
     </div>
-    <p class="review-text">Audi a1 2012 tdi dsg yürüyen ve direksiyon sorunlarımızı çözdüler. Başarılı ve ilgili bir işletme.</p>
+    <p class="review-text">Audi a1 letiime Geinizdi dsg yürüyen ve direksiyon sorunlarımızı çözdüler. Başarılı ve ilgili bir işletme.</p>
   </div>
 </div>
 
@@ -311,7 +307,7 @@ Kavrama, şanzımanın güç aktarımını sağlayan parçadır. Aşınma ve yı
 
 ### Audi şanzıman tamiri fiyatı ne kadar?
 
-Audi şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. DSG DQ200 için 8.500-17.000₺, DSG DQ250 için 9.500-18.000₺, S‑Tronic DL501 için 12.000-26.000₺, Tiptronic ZF 8HP için 13.000-28.000₺ arasındadır.
+Audi şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. DSG DQ200 modeli, DSG DQ250 modeli, S‑Tronic DL501 modeli, Tiptronic ZF 8HP modeli için servisimizden net fiyat alabilirsiniz.
 
 ### Audi DSG mekatronik arızası belirtileri nelerdir?
 
@@ -319,7 +315,7 @@ DSG mekatronik arızası belirtileri: vites atarken sarsıntı, vites geçişler
 
 ### Audi S‑Tronic şanzıman yağı ne zaman değiştirilmeli?
 
-S‑Tronic (DL501) şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi 5.500-9.500₺; değişmezse mekatronik arızası 12.000-26.000₺.
+S‑Tronic (DL501) şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler.
 
 ### Audi şanzıman tamiri ne kadar sürer?
 
@@ -343,13 +339,14 @@ Yıldızlar Grup'ta Audi şanzıman tamiri fiyatları yetkili servise göre %50-
 
 ### Audi şanzıman yağ kaçağı tamiri ne kadar?
 
-Audi şanzıman yağ kaçağı tamiri arıza türüne göre değişir. Keçe değişimi 3.500-7.000₺, conta değişimi 4.000-8.000₺, gövde tamiri 6.000-12.000₺ arasındadır.
+Audi şanzıman yağ kaçağı tamiri arıza türüne göre değişir. Keçe değişimi uygun maliyetler, conta değişimi uygun maliyetler, gövde tamiri uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Audi DQ200 kavrama değişimi ne zaman yapılmalı?
 
-DQ200 kuru kavrama 100.000-150.000 km'de değiştirilmelidir. Şehir içi sık dur-kalkta kavrama aşınması %40 hızlanır. Erken değişim maliyeti 9.000-17.000₺; geç kalınırsa mekatronik hasarı eklenince 15.000-20.000₺.
+DQ200 kuru kavrama 100.000-150.000 km'de değiştirilmelidir. Şehir içi sık dur-kalkta kavrama aşınması %40 hızlanır. Erken değişim maliyeti uygun maliyetler; geç kalınırsa mekatronik hasarı eklenince uygun maliyetler.
 
 ### Audi S‑Tronic çift kavrama değişimi ne kadar?
 
-S‑Tronic DL501 çift kavrama değişimi 15.000-26.000₺ arasındadır. 120.000-180.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir.
+S‑Tronic DL501 çift kavrama değişimi uygun maliyetler arasındadır. 120.000-180.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir.
+
 

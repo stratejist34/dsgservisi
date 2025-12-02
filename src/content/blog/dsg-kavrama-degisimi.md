@@ -1,7 +1,7 @@
 ---
 
 title: "DSG Kavrama Değişimi"
-description: "DSG kavrama değişimi belirtileri, süreç, 2026 fiyatları (kuru/ıslak), volant ve adaptasyon dahil uzman rehber. Marka/model bazında öneriler."
+description: "DSG kavrama değişimi belirtileri, süreç, hizmetleri (kuru/ıslak), volant ve adaptasyon dahil uzman rehber. Marka/model bazında öneriler."
 category: "DSG"
 tags: ["dsg", "kavrama", "kavrama değişimi", "volant", "adaptasyon"]
 slug: "dsg-kavrama-degisimi"
@@ -18,7 +18,6 @@ serviceName: "DSG Kavrama Değişimi"
 serviceType: "Şanzıman Kavrama Değişimi"
 serviceDescription: "DSG kuru/ıslak kavrama değişimi, volant kontrolü ve adaptasyon."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-kavrama-degisimi"
 
 ---
 
@@ -86,11 +85,11 @@ Not: Golf 7 DSG kavrama değişimi fiyatı ve Polo DSG kavrama değişimi model 
 
 | İşlem | Parça | İşçilik | Toplam | Garanti |
 | --- | ---: | ---: | ---: | --- |
-| Çift kavrama seti (kuru – DQ200) | 9.000–18.000₺ | 4.000–7.000₺ | 13.000–25.000₺ | 12 ay |
-| Çift kavrama seti (ıslak – DQ250) | 11.000–22.000₺ | 4.500–7.500₺ | 15.500–29.500₺ | 12 ay |
-| Volant değişimi (opsiyonel) | 7.000–16.000₺ | 3.000–6.000₺ | 10.000–22.000₺ | 12 ay |
-| Kavrama + Volant kombi | 16.000–34.000₺ | 6.000–11.000₺ | 22.000–45.000₺ | 12–18 ay |
-| Adaptasyon/kalibrasyon | – | 1.500–3.000₺ | 1.500–3.000₺ | İşçilik |
+| Çift kavrama seti (kuru – DQ200) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay |
+| Çift kavrama seti (ıslak – DQ250) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay |
+| Volant değişimi (opsiyonel) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay |
+| Kavrama + Volant kombi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12–18 ay |
+| Adaptasyon/kalibrasyon | – | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik |
 
 ## Kuru vs Islak Kavrama Karşılaştırması
 

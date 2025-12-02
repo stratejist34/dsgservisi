@@ -18,7 +18,6 @@ serviceName: "Audi Özel Servis"
 serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Audi DSG/S‑Tronic, motor, elektronik ve quattro arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/audi-ozel-servis"
 
 ---
 
@@ -45,12 +44,12 @@ Audi, premium teknoloji ve performans sunsa da belirli kilometre ve yıllarda kr
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200/DQ250 mekatronik arızası | %33 | 8.500–17.000₺ | 80.000–150.000 km |
-| 2.0 TDI DPF tıkanması | %44 | 9.000–23.000₺ | 80.000–140.000 km |
-| 1.4 TFSI timing zincir gevşemesi | %29 | 7.000–13.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme/geometri | %26 | 9.000–19.000₺ | 100.000–180.000 km |
-| Su pompası/termostat elektroniği | %24 | 3.000–6.500₺ | 80.000–140.000 km |
-| Klima kompresör arızası | %18 | 7.500–13.000₺ | 100.000–180.000 km |
+| DSG DQ200/DQ250 mekatronik arızası | %33 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 2.0 TDI DPF tıkanması | %44 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| 1.4 TFSI timing zincir gevşemesi | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme/geometri | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Su pompası/termostat elektroniği | %24 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Klima kompresör arızası | %18 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 A3 arıza nedenleri: DQ200 7 vites DSG mekatronikte basınç sensörü/valf sorunları (özellikle 2012–2016). 2.0 TDI DPF, kısa mesafe kullanımda rejenerasyon yetersizliğiyle tıkanabilir. 1.4 TFSI (EA211) zincir gerginliği yağ basıncı düşüklüğünde gevşer.
 
@@ -58,12 +57,12 @@ A3 arıza nedenleri: DQ200 7 vites DSG mekatronikte basınç sensörü/valf soru
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic (DL501) mekatronik/kavrama | %31 | 12.000–24.000₺ | 100.000–180.000 km |
-| 2.0 TDI timing zincir gerginliği | %35 | 8.500–16.000₺ | 100.000–180.000 km |
-| Turbo wastegate/geometri | %28 | 10.000–21.000₺ | 100.000–180.000 km |
-| AdBlue sistemi sensör/pompa | %39 | 4.500–11.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör/körük | %22 | 9.000–18.000₺ | 100.000–180.000 km |
-| MMI ekran/dokunmatik arızası | %17 | 5.500–14.000₺ | 80.000–150.000 km |
+| S‑Tronic (DL501) mekatronik/kavrama | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI timing zincir gerginliği | %35 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo wastegate/geometri | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| AdBlue sistemi sensör/pompa | %39 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör/körük | %22 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| MMI ekran/dokunmatik arızası | %17 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 A4 arıza nedenleri: S‑Tronic DL501 yağ eskimesiyle valf sıkışması; 2.0 TDI EA288 zincir gerginliği; AdBlue’de donma/kristalizasyon kaynaklı arızalar.
 
@@ -71,12 +70,12 @@ A4 arıza nedenleri: S‑Tronic DL501 yağ eskimesiyle valf sıkışması; 2.0 T
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic şanzıman mekatronik/kavrama | %34 | 13.000–26.000₺ | 100.000–180.000 km |
-| 3.0 TDI timing zincir/gerginlik | %32 | 9.500–18.000₺ | 120.000–200.000 km |
-| Turbo yağ besleme/karbon birikimi | %29 | 11.000–23.000₺ | 100.000–180.000 km |
-| DPF tıkanması (dizel) | %46 | 10.000–24.000₺ | 80.000–150.000 km |
-| Quattro diferansiyel yağ kaçağı | %21 | 5.500–11.000₺ | 100.000–180.000 km |
-| Hava süspansiyon arızası | %27 | 10.000–21.000₺ | 100.000–180.000 km |
+| S‑Tronic şanzıman mekatronik/kavrama | %34 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 3.0 TDI timing zincir/gerginlik | %32 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Turbo yağ besleme/karbon birikimi | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| DPF tıkanması (dizel) | %46 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Quattro diferansiyel yağ kaçağı | %21 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Hava süspansiyon arızası | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 Q5 arıza nedenleri: Ağır gövde nedeniyle kavrama/mekatronik aşınması hızlanır; 3.0 TDI V6’da zincir gergisi; şehir içi kullanımda yüksek DPF tıkanma riski.
 
@@ -84,12 +83,12 @@ Q5 arıza nedenleri: Ağır gövde nedeniyle kavrama/mekatronik aşınması hız
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| S‑Tronic/Tiptronic mekatronik | %36 | 14.000–28.000₺ | 120.000–200.000 km |
-| 3.0 TDI enjektör/turbo | %33 | 12.000–26.000₺ | 100.000–180.000 km |
-| Timing zincir gerginliği (V6) | %30 | 10.000–19.000₺ | 120.000–200.000 km |
-| AdBlue sistemi arızası | %42 | 5.000–13.000₺ | 80.000–150.000 km |
-| MMI/Virtual Cockpit elektronik | %24 | 6.500–16.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör/valf | %31 | 11.000–23.000₺ | 100.000–180.000 km |
+| S‑Tronic/Tiptronic mekatronik | %36 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| 3.0 TDI enjektör/turbo | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Timing zincir gerginliği (V6) | %30 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| AdBlue sistemi arızası | %42 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| MMI/Virtual Cockpit elektronik | %24 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör/valf | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 A6 arıza nedenleri: DL501 ve ZF mekatronikte yağ eskimesi kaynaklı arızalar; V6 enjektör/turbo; hava süspansiyon kompresör aşınması.
 
@@ -99,10 +98,10 @@ Audi’de kullanılan DSG (DQ200, DQ250) ve S‑Tronic (DL501) şanzımanlar VW 
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| DQ200 (7 vites kuru) | A3, A1, Q2 | Mekatronik, kavrama aşınması | 8.500–17.000₺ |
-| DQ250 (6 vites yaş) | A3, TT | Mekatronik, valf body | 9.500–18.000₺ |
-| S‑Tronic DL501 | A4, A5, A6, Q5, Q7 | Çift kavrama, mekatronik | 12.000–26.000₺ |
-| Tiptronic (ZF 8HP) | A6, A7, A8, Q7, Q8 | Valf body, tork konvertör | 13.000–28.000₺ |
+| DQ200 (7 vites kuru) | A3, A1, Q2 | Mekatronik, kavrama aşınması | 📞 Fiyat Sorunuz |
+| DQ250 (6 vites yaş) | A3, TT | Mekatronik, valf body | 📞 Fiyat Sorunuz |
+| S‑Tronic DL501 | A4, A5, A6, Q5, Q7 | Çift kavrama, mekatronik | 📞 Fiyat Sorunuz |
+| Tiptronic (ZF 8HP) | A6, A7, A8, Q7, Q8 | Valf body, tork konvertör | 📞 Fiyat Sorunuz |
 
 ### DSG/S‑Tronic Bakım Önerileri
 
@@ -120,44 +119,44 @@ Audi’de kullanılan DSG (DQ200, DQ250) ve S‑Tronic (DL501) şanzımanlar VW 
 
 | Motor Tipi | Kullanıldığı Modeller | Kronik Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| 1.4 TFSI (EA211) | A3, A1, Q2 | Timing zincir gerginliği | 6.500–12.000₺ |
-| 2.0 TFSI (EA888) | A3, A4, A5, Q3, Q5 | Turbo, karbon birikimi | 9.000–19.000₺ |
-| 2.0 TDI (EA288) | A3, A4, A5, Q3, Q5 | DPF, EGR, timing zincir | 8.000–22.000₺ |
-| 3.0 TDI V6 | A6, A7, Q5, Q7, Q8 | Enjektör, turbo, zincir | 11.000–26.000₺ |
+| 1.4 TFSI (EA211) | A3, A1, Q2 | Timing zincir gerginliği | 📞 Fiyat Sorunuz |
+| 2.0 TFSI (EA888) | A3, A4, A5, Q3, Q5 | Turbo, karbon birikimi | 📞 Fiyat Sorunuz |
+| 2.0 TDI (EA288) | A3, A4, A5, Q3, Q5 | DPF, EGR, timing zincir | 📞 Fiyat Sorunuz |
+| 3.0 TDI V6 | A6, A7, Q5, Q7, Q8 | Enjektör, turbo, zincir | 📞 Fiyat Sorunuz |
 
 ## Sık Sorulan Sorular
 
 ### Audi DSG mekatronik arızası nedir ve belirtileri nelerdir?
 
-DSG mekatronik arızası elektronik kontrol ünitesinin basınç sensörü, valf veya bağlantı arızasıdır. Belirtileri: vites atarken sarsıntı, vites geçişlerinde gecikme, F veya N vitese takılma, kontrol panelinde dişli sembolü ikaz lambası. Arıza nedeni genellikle yağ eskimesi veya aşırı ısınmadır. Tamir maliyeti 8.500–17.000₺ arasındadır.
+DSG mekatronik arızası elektronik kontrol ünitesinin basınç sensörü, valf veya bağlantı arızasıdır. Belirtileri: vites atarken sarsıntı, vites geçişlerinde gecikme, F veya N vitese takılma, kontrol panelinde dişli sembolü ikaz lambası. Arıza nedeni genellikle yağ eskimesi veya aşırı ısınmadır. Tamir maliyeti uygun maliyetler arasındadır.
 
 ### Audi A3 2.0 TDI DPF tıkanması nasıl önlenir?
 
-DPF tıkanması şehir içi kısa mesafe kullanımda rejenerasyon yetersizliği nedeniyle oluşur. Önlemek için: haftada en az 1 kez 20–30 km otoyol sürüşü yapın (120+ km/s hız), motor ısındıktan sonra minimum 15 dakika sürekli sürüş yapın, düşük kalite mazot kullanmayın, motor yağını düzenli değiştirin. DPF temizliği 80.000 km’de yapılmalı. Tıkanma durumunda temizlik 4.500–8.000₺, değişim 15.000–23.000₺.
+DPF tıkanması şehir içi kısa mesafe kullanımda rejenerasyon yetersizliği nedeniyle oluşur. Önlemek için: haftada en az 1 kez 20–30 km otoyol sürüşü yapın (120+ km/s hız), motor ısındıktan sonra minimum 15 dakika sürekli sürüş yapın, düşük kalite mazot kullanmayın, motor yağını düzenli değiştirin. DPF temizliği 80.000 km’de yapılmalı. Tıkanma durumunda temizlik uygun maliyetler, değişim uygun maliyetler.
 
 ### Audi S‑Tronic şanzıman yağı ne zaman değiştirilmeli?
 
-S‑Tronic (DL501) şanzıman yağı 60.000–80.000 km’de değiştirilmelidir. Üretici “ömür boyu yağ” dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi 3.500–6.000₺, değişmezse mekatronik arızası 12.000–24.000₺ olabilir. Yağ değişimi ekonomik korumadır.
+S‑Tronic (DL501) şanzıman yağı 60.000–80.000 km’de değiştirilmelidir. Üretici “ömür boyu yağ” dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi uygun maliyetler, değişmezse mekatronik arızası uygun maliyetler olabilir. Yağ değişimi ekonomik korumadır.
 
 ### Audi 1.4 TFSI timing zincir arızası belirtileri nelerdir?
 
-Timing zincir gerginliği belirtileri: motor çalışırken şarıltı (özellikle soğukta), devir dalgalanması, ikaz lambası, motor gücünde düşüş. Neden: yağ pompası düşük basınç ve zincir gergi mekanizması aşınması. 100.000 km sonrası risk %29. Erken teşhiste sadece zincir değişimi 6.500–9.000₺; geç kalınırsa supap hasarıyla 12.000₺+ olabilir.
+Timing zincir gerginliği belirtileri: motor çalışırken şarıltı (özellikle soğukta), devir dalgalanması, ikaz lambası, motor gücünde düşüş. Neden: yağ pompası düşük basınç ve zincir gergi mekanizması aşınması. 100.000 km sonrası risk %29. Erken teşhiste sadece zincir değişimi uygun maliyetler; geç kalınırsa supap hasarıyla uygun fiyat+ olabilir.
 
 ### Audi quattro sistemi arızası tamir maliyeti nedir?
 
-Quattro sistemi diferansiyel, haldex (ön itiş) veya Torsen (sürekli quattro) kullanır. Yaygın arızalar: diferansiyel yağ kaçağı (conta eskimesi), haldex pompa arızası, aktarma organı aşınması. Tahmini maliyetler: diferansiyel conta değişimi 3.500–6.500₺, haldex pompa 8.000–14.000₺, diferansiyel revizyonu 9.000–18.000₺. Yağ kaçağı erken tespit edilirse ekonomik müdahale yapılır.
+Quattro sistemi diferansiyel, haldex (ön itiş) veya Torsen (sürekli quattro) kullanır. Yaygın arızalar: diferansiyel yağ kaçağı (conta eskimesi), haldex pompa arızası, aktarma organı aşınması. Tahmini maliyetler: diferansiyel conta değişimi uygun maliyetler, haldex pompa uygun maliyetler, diferansiyel revizyonu uygun maliyetler. Yağ kaçağı erken tespit edilirse ekonomik müdahale yapılır.
 
 ### Audi MMI ekran arızası nasıl çözülür?
 
-MMI ekran arızası; ekran donması, dokunmatik çalışmaması, piksel hatası olarak görülür. Nedenleri: elektronik kart ısınması veya yazılım hatası. Çözümler: yazılım güncellemesi (uygunsa), elektronik kart tamiri 3.500–7.000₺, ekran değişimi 8.000–16.000₺. A6/A7/A8 modellerinde Virtual Cockpit ekran arızası %24 yaygınlık gösterir.
+MMI ekran arızası; ekran donması, dokunmatik çalışmaması, piksel hatası olarak görülür. Nedenleri: elektronik kart ısınması veya yazılım hatası. Çözümler: yazılım güncellemesi (uygunsa), elektronik kart tamiri uygun maliyetler, ekran değişimi uygun maliyetler. A6/A7/A8 modellerinde Virtual Cockpit ekran arızası %24 yaygınlık gösterir.
 
 ### Audi turbo arızası belirtileri ve maliyeti nedir?
 
-Turbo arızası belirtileri: güç kaybı, siyah duman, turbo ıslık sesi, motor arıza lambası. Nedenleri: yağ besleme yetersizliği, wastegate diyafram çatlağı, turbo geometri sıkışması. Tamir seçenekleri: geometri temizliği 2.500–5.000₺, turbo yenileme 8.000–14.000₺, orijinal turbo değişimi 15.000–25.000₺. 2.0 TFSI/TDI motorlarda turbo arızası %26–28 yaygınlıkta görülür.
+Turbo arızası belirtileri: güç kaybı, siyah duman, turbo ıslık sesi, motor arıza lambası. Nedenleri: yağ besleme yetersizliği, wastegate diyafram çatlağı, turbo geometri sıkışması. Tamir seçenekleri: geometri temizliği uygun maliyetler, turbo yenileme uygun maliyetler, orijinal turbo değişimi uygun maliyetler. 2.0 TFSI/TDI motorlarda turbo arızası %26–28 yaygınlıkta görülür.
 
 ### Audi hava süspansiyon arızası nasıl anlaşılır?
 
-Belirtiler: araç yere çökmesi, sürüş yüksekliği ayarlanmaması, kompresörün sürekli çalışması, panelde süspansiyon ikazı. Neden: kompresör aşınması, körük delinmesi, valf arızası. Maliyet: körük değişimi 4.500–8.000₺ (adet), kompresör 9.000–16.000₺, valf bloğu 6.500–12.000₺. A6/A8/Q7 modellerinde %27–31 yaygınlık görülür.
+Belirtiler: araç yere çökmesi, sürüş yüksekliği ayarlanmaması, kompresörün sürekli çalışması, panelde süspansiyon ikazı. Neden: kompresör aşınması, körük delinmesi, valf arızası. Maliyet: körük değişimi uygun maliyetler (adet), kompresör uygun maliyetler, valf bloğu uygun maliyetler. A6/A8/Q7 modellerinde %27–31 yaygınlık görülür.
 
 ## Google Harita ve Yorumlar
 

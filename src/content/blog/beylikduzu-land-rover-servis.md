@@ -18,7 +18,6 @@ serviceName: "Beylikdüzü Land Rover Servis"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Land Rover ZF şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
-offerUrl: "/beylikduzu-land-rover-servis"
 
 ---
 
@@ -71,7 +70,7 @@ Merkezi konumumuz sayesinde Beylikdüzü'nden gelen müşteriler için aynı gü
 
 ### Şeffaf Fiyatlandırma
 
-Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Land Rover Servis Hizmetlerimiz (Beylikdüzü)
 
@@ -90,41 +89,41 @@ Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net 
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| Hava süspansiyon kompresör/körük | %44 | 16.000–34.000₺ | 80.000–150.000 km |
-| ZF 8HP şanzıman valf‑body | %36 | 18.000–38.000₺ | 120.000–200.000 km |
-| 3.0 TDV6 timing zincir gerginliği | %32 | 12.000–24.000₺ | 100.000–180.000 km |
-| Turbo intercooler sızıntısı | %34 | 14.000–28.000₺ | 100.000–180.000 km |
-| Elektronik kontrol ünitesi (ECU/TCM) | %41 | 9.000–22.000₺ | 80.000–150.000 km |
+| Hava süspansiyon kompresör/körük | %44 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| ZF 8HP şanzıman valf‑body | %36 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| 3.0 TDV6 timing zincir gerginliği | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo intercooler sızıntısı | %34 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Elektronik kontrol ünitesi (ECU/TCM) | %41 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Range Rover Sport (L494) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| Hava süspansiyon arızası | %43 | 15.000–32.000₺ | 80.000–150.000 km |
-| ZF 8HP valf‑body/mekatronik | %35 | 17.000–36.000₺ | 120.000–200.000 km |
-| 3.0 SDV6 turbo/intercooler | %33 | 13.000–27.000₺ | 100.000–180.000 km |
-| Motor timing zincir/gerginlik | %29 | 11.000–23.000₺ | 100.000–180.000 km |
-| Transfer case/diferansiyel yağ kaçağı | %24 | 6.500–14.000₺ | 100.000–180.000 km |
+| Hava süspansiyon arızası | %43 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| ZF 8HP valf‑body/mekatronik | %35 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| 3.0 SDV6 turbo/intercooler | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Motor timing zincir/gerginlik | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Transfer case/diferansiyel yağ kaçağı | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Range Rover Evoque (L538, L551) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| 9HP şanzıman sarsıntı/vites geçiş | %31 | 14.000–26.000₺ | 80.000–150.000 km |
-| 2.0 D motor turbo/DPF arızası | %38 | 11.000–24.000₺ | 100.000–180.000 km |
-| Timing zincir gerginliği | %27 | 8.500–16.000₺ | 100.000–180.000 km |
-| Haldex 4x4 pompa arızası | %26 | 7.500–15.000₺ | 100.000–180.000 km |
-| Panoramik tavan su kaçağı | %34 | 4.500–11.000₺ | 60.000–120.000 km |
+| 9HP şanzıman sarsıntı/vites geçiş | %31 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 2.0 D motor turbo/DPF arızası | %38 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Timing zincir gerginliği | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Haldex 4x4 pompa arızası | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Panoramik tavan su kaçağı | %34 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
 
 ### Discovery Sport (L550) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| 9HP şanzıman vites geçiş sorunları | %32 | 13.500–25.000₺ | 80.000–150.000 km |
-| 2.0 D Ingenium turbo/enjektör | %36 | 10.500–23.000₺ | 100.000–180.000 km |
-| Timing zincir gerginliği | %28 | 8.000–15.000₺ | 100.000–180.000 km |
-| Haldex 4x4 kontrol modülü | %25 | 6.500–13.500₺ | 100.000–180.000 km |
-| Panoramik tavan su kaçağı | %33 | 4.000–10.500₺ | 60.000–120.000 km |
+| 9HP şanzıman vites geçiş sorunları | %32 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 2.0 D Ingenium turbo/enjektör | %36 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Timing zincir gerginliği | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Haldex 4x4 kontrol modülü | %25 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Panoramik tavan su kaçağı | %33 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
 
 ## Land Rover Hava Süspansiyon Arızaları
 
@@ -132,11 +131,11 @@ Land Rover EAS (Electronic Air Suspension) sisteminde kompresör, körük, valf 
 
 | Parça | Arıza Türü | Yaygınlık | Tamir Maliyeti |
 | --- | --- | ---: | ---: |
-| Kompresör | Aşınma, sürekli çalışma | %24 | 11.000–22.000₺ |
-| Körük (hava yastığı) | Delik, yırtık | %18 | 5.500–12.000₺ (adet) |
-| Valf bloğu | Sıkışma, hava kaçağı | %15 | 7.500–16.000₺ |
-| Yükseklik sensörü | Kalibrasyon, arıza | %12 | 2.500–6.000₺ (adet) |
-| Hava hattı | Çatlak, bağlantı kaçağı | %9 | 1.800–4.500₺ |
+| Kompresör | Aşınma, sürekli çalışma | %24 | 📞 Fiyat Sorunuz |
+| Körük (hava yastığı) | Delik, yırtık | %18 | 📞 Fiyat Sorunuz (adet) |
+| Valf bloğu | Sıkışma, hava kaçağı | %15 | 📞 Fiyat Sorunuz |
+| Yükseklik sensörü | Kalibrasyon, arıza | %12 | 📞 Fiyat Sorunuz (adet) |
+| Hava hattı | Çatlak, bağlantı kaçağı | %9 | 📞 Fiyat Sorunuz |
 
 ### Hava Süspansiyon Bakım Önerileri
 
@@ -147,7 +146,7 @@ Land Rover EAS (Electronic Air Suspension) sisteminde kompresör, körük, valf 
 - Valf bloğu temizliği 80.000 km'de önerilir
 - Yükseklik sensörü kalibrasyonu yılda 1 kez
 - Off‑road kullanım körük ömrünü %40 azaltır
-- Alternatif: çelik süspansiyon dönüşümü 15.000–28.000₺
+- Alternatif: çelik süspansiyon dönüşümü uygun maliyetler
 
 :::
 
@@ -157,8 +156,8 @@ Land Rover'da ZF 8HP (8 ileri) ve ZF 9HP (9 ileri) şanzımanlar kullanılır. V
 
 | ZF Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| ZF 8HP (8 vites) | Range Rover, RR Sport, Discovery | Valf‑body, tork konvertör | 17.000–38.000₺ |
-| ZF 9HP (9 vites) | Evoque, Discovery Sport | Vites sarsıntı, mekatronik | 13.500–26.000₺ |
+| ZF 8HP (8 vites) | Range Rover, RR Sport, Discovery | Valf‑body, tork konvertör | 📞 Fiyat Sorunuz |
+| ZF 9HP (9 vites) | Evoque, Discovery Sport | Vites sarsıntı, mekatronik | 📞 Fiyat Sorunuz |
 
 ### ZF Şanzıman Bakım Önerileri
 
@@ -176,20 +175,20 @@ Land Rover'da ZF 8HP (8 ileri) ve ZF 9HP (9 ileri) şanzımanlar kullanılır. V
 
 | Motor Tipi | Kullanıldığı Modeller | Kronik Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| 2.0 D Ingenium | Evoque, Discovery Sport | Turbo, timing zincir, DPF | 9.000–23.000₺ |
-| 3.0 TDV6 (Ford) | Range Rover, Discovery | Timing zincir, turbo, enjektör | 11.000–26.000₺ |
-| 3.0 SDV6 (Ford) | Range Rover Sport | Twin‑turbo, intercooler sızıntı | 13.000–28.000₺ |
-| 5.0 V8 (Jaguar) | Range Rover, RR Sport | Timing zincir, su pompası | 15.000–35.000₺ |
+| 2.0 D Ingenium | Evoque, Discovery Sport | Turbo, timing zincir, DPF | 📞 Fiyat Sorunuz |
+| 3.0 TDV6 (Ford) | Range Rover, Discovery | Timing zincir, turbo, enjektör | 📞 Fiyat Sorunuz |
+| 3.0 SDV6 (Ford) | Range Rover Sport | Twin‑turbo, intercooler sızıntı | 📞 Fiyat Sorunuz |
+| 5.0 V8 (Jaguar) | Range Rover, RR Sport | Timing zincir, su pompası | 📞 Fiyat Sorunuz |
 
-## Land Rover Periyodik Bakım Fiyatları 2025
+## Land Rover Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.500–7.500₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 5.500–11.000₺ | 30.000 km | Aynı gün |
-| ZF şanzıman yağ değişimi | 5.500–9.000₺ | 80.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.500–12.000₺ | 40.000–60.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 1.800–3.500₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| ZF şanzıman yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 40.000–60.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Beylikdüzü'nden Ulaşım
 
@@ -293,7 +292,7 @@ ZF valf‑body tamiri genellikle 2-4 gün sürer. Erken teşhiste daha ekonomik 
 
 ### Land Rover ZF şanzıman yağı ne zaman değiştirilmeli?
 
-ZF 8HP/9HP şanzıman yağı 80.000 km'de değiştirilmelidir. "Ömür boyu yağ" iddiasına rağmen pratikte yağ eskir ve valf‑body arızası riski %34–36'ya çıkar. Yağ değişimi 5.500–9.000₺; değişmezse valf‑body tamiri 17.000–38.000₺.
+ZF 8HP/9HP şanzıman yağı 80.000 km'de değiştirilmelidir. "Ömür boyu yağ" iddiasına rağmen pratikte yağ eskir ve valf‑body arızası riski %34–36'ya çıkar. Yağ değişimi uygun maliyetler; değişmezse valf‑body tamiri uygun maliyetler.
 
 ### Beylikdüzü'nden servisinize ulaşım için toplu taşıma seçeneği var mı?
 
@@ -302,5 +301,6 @@ Evet, metrobüs ile Beylikdüzü istasyonundan veya otobüs ile Beylikdüzü mer
 ### Beylikdüzü'nden servisinize ödeme seçenekleri nelerdir?
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
+
 
 

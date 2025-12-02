@@ -1,13 +1,13 @@
 ---
-title: "Volkswagen Triger Değişimi Fiyatları"
-description: "Volkswagen triger değişimi fiyatları: Golf, Polo, Passat, Tiguan, Touareg modellerinde timing chain değişimi fiyatları. Detaylı fiyat tablosu ve değişim periyotları."
+title: "Volkswagen Triger Değişimi Hizmetleri"
+description: "Volkswagen triger değişimi hizmetleri: Golf, Polo, Passat, Tiguan, Touareg modellerinde timing chain değişimi hizmetleri. Detaylı hizmet tablosu ve değişim periyotları."
 category: "Volkswagen"
-tags: ["volkswagen", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
+tags: ["volkswagen", "triger", "triger değişimi", "timing chain", "bakım"]
 slug: "volkswagen-triger-degisimi-fiyatlari"
 publishDate: "2025-11-12T10:25:00+03:00"
 updatedDate: "2025-11-12T10:25:00+03:00"
 featuredImage: "/images/blog/volkswagen-triger-degisimi-fiyatlari.jpg"
-imageAlt: "Volkswagen triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Volkswagen triger değişimi hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/volkswagen-triger-degisimi-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Volkswagen Triger Değişimi"
 serviceType: "Motor Bakımı"
 serviceDescription: "Volkswagen araçlarında triger zinciri değişimi hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 6500
-highPrice: 12000
-priceCurrency: "TRY"
-offerUrl: "/volkswagen-triger-degisimi-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Volkswagen araçlarında triger değişimi motorun en kritik bakım işlemlerind
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Volkswagen'de triger zinciri kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Özellikle 2012-2017 arası 1.4 TSI motorlarda timing zincir gerginliği fabrikasyon kusurdur. Triger zinciri koparsa motor hasarı 15.000-30.000₺ arasında maliyet oluşturur. Erken değişim maliyeti 6.500-12.000₺; koparsa tamir 15.000-30.000₺.
+**UZMAN TAVSİYESİ:** Volkswagen'de triger zinciri kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Özellikle 2012-2017 arası 1.4 TSI motorlarda timing zincir gerginliği fabrikasyon kusurdur. Triger zinciri koparsa motor hasarı çok yüksek maliyetler oluşturur. Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::
 
@@ -44,20 +40,20 @@ Volkswagen araçlarında triger değişimi motorun en kritik bakım işlemlerind
 
 :::
 
-## Volkswagen Triger Değişimi Fiyatları 2025 (Genel)
+## Volkswagen Triger Değişimi Hizmetleri (Genel)
 
 | Model | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | --- | ---: | --- | --- |
-| Golf (7, 8) | 1.4/2.0 TSI | Zincir | 6.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| Golf (7, 8) | 2.0 TDI | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| Polo (6R, AW) | 1.4/1.6 TSI | Zincir | 6.000–10.500₺ | 100.000–180.000 km | 2-3 gün |
-| Polo (6R, AW) | 1.6 TDI | Zincir | 6.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| Passat (B7, B8) | 2.0 TSI | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| Passat (B7, B8) | 2.0 TDI | Zincir | 8.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
-| Tiguan (5N, AD1) | 2.0 TSI/2.0 TDI | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| Touareg (7P, CR) | 3.0 TDI | Zincir | 10.000–15.000₺ | 100.000–180.000 km | 3-4 gün |
+| Golf (7, 8) | 1.4/2.0 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Golf (7, 8) | 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Polo (6R, AW) | 1.4/1.6 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Polo (6R, AW) | 1.6 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Passat (B7, B8) | 2.0 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Passat (B7, B8) | 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Tiguan (5N, AD1) | 2.0 TSI/2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Touareg (7P, CR) | 3.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
 
-## Model Bazlı Triger Değişimi Fiyatları
+## Model Bazlı Triger Değişimi Hizmetleri
 
 ### Volkswagen Golf (7, 8) Triger Değişimi
 
@@ -65,9 +61,9 @@ Volkswagen Golf modellerinde timing chain (triger zinciri) kullanılır. Zincir 
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 1.4 TSI (EA211) | Zincir | 6.500–10.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TSI (EA888) | Zincir | 8.000–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
+| 1.4 TSI (EA211) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 **Golf Triger Değişimi İçeriği:**
 - Timing chain (triger zinciri)
@@ -82,9 +78,9 @@ Volkswagen Polo modellerinde timing chain (triger zinciri) kullanılır. Zincir 
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 1.4 TSI (EA211) | Zincir | 6.000–9.500₺ | 100.000–180.000 km | 2-3 gün |
-| 1.6 TSI (EA211) | Zincir | 6.500–10.500₺ | 100.000–180.000 km | 2-3 gün |
-| 1.6 TDI (EA288) | Zincir | 6.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
+| 1.4 TSI (EA211) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 1.6 TSI (EA211) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 1.6 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Volkswagen Passat (B7, B8) Triger Değişimi
 
@@ -92,8 +88,8 @@ Volkswagen Passat modellerinde timing chain (triger zinciri) kullanılır. Zinci
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TSI (EA888) | Zincir | 7.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 8.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 TSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Volkswagen Tiguan (5N, AD1) Triger Değişimi
 
@@ -101,8 +97,8 @@ Volkswagen Tiguan modellerinde timing chain (triger zinciri) kullanılır. Zinci
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TSI (EA888) | Zincir | 7.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 8.000–12.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 TSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Volkswagen Touareg (7P, CR) Triger Değişimi
 
@@ -110,7 +106,7 @@ Volkswagen Touareg modellerinde timing chain (triger zinciri) kullanılır. Zinc
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 TDI (EA897) | Zincir | 10.000–15.000₺ | 100.000–180.000 km | 3-4 gün |
+| 3.0 TDI (EA897) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
 
 ## Volkswagen Triger Zinciri Özellikleri
 
@@ -119,9 +115,9 @@ Volkswagen araçlarında modern modellerde timing chain (triger zinciri) kullan�
 | Özellik | Volkswagen Triger Zinciri |
 | --- | --- |
 | Dayanıklılık | 100.000-180.000 km |
-| Değişim Maliyeti | 6.500-12.000₺ |
+| Değişim Maliyeti | 📞 Fiyat Sorunuz |
 | Kopma Riski | Düşük (gerginlik kontrolü önemli) |
-| Motor Hasarı (Koparsa) | 15.000-30.000₺ |
+| Motor Hasarı (Koparsa) | 📞 Fiyat Sorunuz |
 | Kontrol Periyodu | 100.000 km |
 
 ## Triger Değişimi Neden Önemli?
@@ -131,9 +127,9 @@ Triger (timing chain) motorun en kritik parçalarından biridir. Supap zamanlama
 - Supap ve piston çarpışması
 - Motor bloğu hasarı
 - Silindir kapağı hasarı
-- Tam motor revizyonu gerekir (15.000-30.000₺)
+- Tam motor revizyonu gerekir (Fiyat Sorunuz)
 
-Erken değişim maliyeti 6.500-12.000₺; koparsa tamir 15.000-30.000₺.
+Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::note
 
@@ -190,7 +186,7 @@ Volkswagen Touareg'de kullanılan V6 dizel motorudur.
 
 - **15+ Yıl Deneyim:** Volkswagen triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-4 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -267,7 +263,7 @@ Volkswagen araçlarında triger zinciri kontrolü 100.000 km'de yapılmalı, de�
 
 ### Volkswagen triger değişimi fiyatı ne kadar?
 
-Volkswagen triger değişimi fiyatı modele ve motora göre değişir. Polo için 6.000-10.500₺, Golf için 6.500-11.000₺, Passat için 7.500-12.000₺, Tiguan için 7.500-12.000₺, Touareg için 10.000-15.000₺ arasındadır.
+Volkswagen triger değişimi fiyatı modele ve motora göre değişir. Polo modeli, Golf modeli, Passat modeli, Tiguan modeli, Touareg modeli için servisimizden net fiyat alabilirsiniz.
 
 ### Volkswagen triger zinciri mi kayışı mı?
 
@@ -275,7 +271,7 @@ Volkswagen araçlarında modern modellerde (2000 sonrası) timing chain (triger 
 
 ### Volkswagen triger koparsa ne olur?
 
-Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (15.000-30.000₺). Erken değişim maliyeti 6.500-12.000₺; koparsa tamir 15.000-30.000₺.
+Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (Fiyat Sorunuz). Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 ### Volkswagen triger değişimi ne kadar sürer?
 
@@ -304,3 +300,4 @@ Volkswagen triger değişimi için randevu almak için telefon (0533 262 34 51) 
 ### Volkswagen triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 
 Yıldızlar Grup'ta Volkswagen triger değişimi fiyatları yetkili servise göre %50-70 daha ekonomiktir. Aynı kalitede orijinal parça ve işçilikle hizmet sunuyoruz.
+

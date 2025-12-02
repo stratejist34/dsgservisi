@@ -20,7 +20,6 @@ serviceName: "7 İleri DSG Şanzıman Arızası Teşhisi"
 serviceType: "DSG Şanzıman Arızası Teşhisi"
 serviceDescription: "7 ileri DSG şanzıman sorunları teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 
 ---
 
@@ -117,9 +116,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Yağ kalitesi bozulması
 
 **Çözümler:**
-- Solenoid valf temizliği/değişimi: 3.500–14.500₺
-- Adaptasyon/kalibrasyon: 1.500–3.000₺
-- Yağ değişimi: 2.500–4.500₺
+- Solenoid valf temizliği/değişimi: uygun maliyetler
+- Adaptasyon/kalibrasyon: uygun maliyetler
+- Yağ değişimi: uygun maliyetler
 
 **Etkilenen Modeller:** Tüm 7 ileri DSG modelleri
 
@@ -137,9 +136,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Basınç kaybı
 
 **Çözümler:**
-- Mekatronik revizyonu: 14.000–27.000₺
-- Elektronik kart değişimi: 8.000–15.000₺
-- Komple mekatronik değişimi: 18.000–35.000₺
+- Mekatronik revizyonu: uygun maliyetler
+- Elektronik kart değişimi: uygun maliyetler
+- Komple mekatronik değişimi: uygun maliyetler
 
 **Etkilenen Modeller:** Golf 7, Passat B8, A3 8V, Octavia 5E
 
@@ -156,9 +155,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Elektronik iletişim hatası
 
 **Çözümler:**
-- Sensör değişimi: 2.500–5.000₺
-- Kart tamiri/değişimi: 5.000–15.000₺
-- Adaptasyon: 1.500–3.000₺
+- Sensör değişimi: uygun maliyetler
+- Kart tamiri/değişimi: uygun maliyetler
+- Adaptasyon: uygun maliyetler
 
 **Etkilenen Modeller:** Tüm 7 ileri DSG modelleri
 
@@ -175,9 +174,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Volant hasarı
 
 **Çözümler:**
-- Kavrama değişimi: 12.000–25.000₺
-- Volant değişimi: 8.000–15.000₺
-- Adaptasyon: 1.500–3.000₺
+- Kavrama değişimi: uygun maliyetler
+- Volant değişimi: uygun maliyetler
+- Adaptasyon: uygun maliyetler
 
 **Etkilenen Modeller:** DQ200 (kuru kavrama), DQ380/DQ381 (ıslak kavrama)
 
@@ -194,9 +193,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Yağ soğutucu arızası
 
 **Çözümler:**
-- Keçe değişimi: 3.500–8.500₺
-- Conta değişimi: 2.500–5.500₺
-- Yağ soğutucu tamiri: 4.000–9.000₺
+- Keçe değişimi: uygun maliyetler
+- Conta değişimi: uygun maliyetler
+- Yağ soğutucu tamiri: uygun maliyetler
 
 **Etkilenen Modeller:** Tüm 7 ileri DSG modelleri
 
@@ -213,9 +212,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Mekatronik adaptasyon hatası
 
 **Çözümler:**
-- Sensör değişimi: 2.500–5.000₺
-- Yağ değişimi: 2.500–4.500₺
-- Adaptasyon: 1.500–3.000₺
+- Sensör değişimi: uygun maliyetler
+- Yağ değişimi: uygun maliyetler
+- Adaptasyon: uygun maliyetler
 
 **Etkilenen Modeller:** DQ200, DQ380
 
@@ -232,9 +231,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Mekatronik optimizasyonu bozulmuş
 
 **Çözümler:**
-- Adaptasyon/kalibrasyon: 1.500–3.000₺
-- Yağ değişimi: 2.500–4.500₺
-- Mekatronik optimizasyonu: 3.000–6.000₺
+- Adaptasyon/kalibrasyon: uygun maliyetler
+- Yağ değişimi: uygun maliyetler
+- Mekatronik optimizasyonu: uygun maliyetler
 
 **Etkilenen Modeller:** Tüm 7 ileri DSG modelleri
 
@@ -250,9 +249,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Solenoid valf sorunu
 
 **Çözümler:**
-- Solenoid değişimi: 9.000–14.500₺
-- Mekatronik revizyonu: 14.000–23.500₺
-- Kavrama değişimi: 12.000–22.000₺
+- Solenoid değişimi: uygun maliyetler
+- Mekatronik revizyonu: uygun maliyetler
+- Kavrama değişimi: uygun maliyetler
 
 ### Volkswagen Passat B8
 
@@ -264,9 +263,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Basınç sensörü sorunu
 
 **Çözümler:**
-- Yağ değişimi: 3.500–5.500₺
-- Hidrolik pompa değişimi: 8.000–15.000₺
-- Mekatronik revizyonu: 14.500–27.000₺
+- Yağ değişimi: uygun maliyetler
+- Hidrolik pompa değişimi: uygun maliyetler
+- Mekatronik revizyonu: uygun maliyetler
 
 ### Audi A3 (8V)
 
@@ -278,9 +277,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Sensör arızası
 
 **Çözümler:**
-- Kart tamiri/değişimi: 5.000–13.000₺
-- Adaptasyon: 1.500–3.000₺
-- Sensör değişimi: 2.500–5.000₺
+- Kart tamiri/değişimi: uygun maliyetler
+- Adaptasyon: uygun maliyetler
+- Sensör değişimi: uygun maliyetler
 
 ### Audi A4 (B9)
 
@@ -292,9 +291,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Yağ kaçağı
 
 **Çözümler:**
-- Adaptasyon: 1.500–3.000₺
-- Kart değişimi: 9.500–15.500₺
-- Keçe değişimi: 3.500–8.500₺
+- Adaptasyon: uygun maliyetler
+- Kart değişimi: uygun maliyetler
+- Keçe değişimi: uygun maliyetler
 
 ### Skoda Octavia (5E)
 
@@ -306,9 +305,9 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 - Vites geçiş sorunları
 
 **Çözümler:**
-- Mekatronik revizyonu: 14.000–23.500₺
-- Kavrama değişimi: 12.000–22.000₺
-- Adaptasyon: 1.500–3.000₺
+- Mekatronik revizyonu: uygun maliyetler
+- Kavrama değişimi: uygun maliyetler
+- Adaptasyon: uygun maliyetler
 
 ## 7 İleri DSG Şanzıman Sorunları Önleme
 
@@ -334,7 +333,7 @@ offerUrl: "/7-ileri-dsg-sanziman-sorunlari"
 
 - **15+ Yıl Deneyim:** 7 ileri DSG şanzıman sorunları teşhisinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teşhis, 2-3 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi
@@ -360,4 +359,5 @@ Düzenli bakım ve doğru kullanım ile tekrar etmez. Ancak kök neden çözülm
 
 
 **7 ileri DSG şanzıman sorununuz mu var?** Hemen [randevu alın](tel:05332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!
+
 

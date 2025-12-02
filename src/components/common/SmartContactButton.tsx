@@ -20,29 +20,6 @@ function checkWorkingHours(): boolean {
   return time >= 9 && time < 18;
 }
 
-// Zamanlamaya göre dinamik CTA mesajları
-function getCTAMessage(isWorkingHours: boolean, hour: number): string {
-  if (isWorkingHours) {
-    // Çalışma saatleri içinde - telefon mesajları
-    if (hour >= 9 && hour < 12) {
-      return 'Sabah Randevusu Al';
-    } else if (hour >= 12 && hour < 15) {
-      return 'Öğle Arası Fırsatı';
-    } else if (hour >= 15 && hour < 18) {
-      return 'Akşam Öncesi Ara';
-    }
-    return 'Hemen Ara';
-  } else {
-    // Çalışma saatleri dışında - WhatsApp mesajları
-    if (hour >= 18 && hour < 22) {
-      return 'Akşam Mesajı Gönder';
-    } else if (hour >= 22 || hour < 9) {
-      return 'Yarın İçin Yaz';
-    }
-    return 'WhatsApp Mesaj';
-  }
-}
-
 export default function SmartContactButton({
   phone = '0533 262 34 51',
   whatsappPhone = '905332623451',
@@ -53,7 +30,6 @@ export default function SmartContactButton({
   const [ripples, setRipples] = useState<Array<{ x: number; y: number; id: number }>>([]);
   const [mounted, setMounted] = useState(false);
   const [showButton, setShowButton] = useState(false);
-  const [showText, setShowText] = useState(false);
   const [isWorkingHours, setIsWorkingHours] = useState(false);
   const [currentHour, setCurrentHour] = useState(0);
 
@@ -115,21 +91,8 @@ export default function SmartContactButton({
       return;
     }
     
-    const buttonTimer = setTimeout(() => {
-      setShowButton(true);
-      
-      const textTimer = setTimeout(() => {
-        setShowText(true);
-        setTimeout(() => setShowText(false), 2200);
-      }, 1200);
-      
-      return () => clearTimeout(textTimer);
-    }, 1500);
-    
-    const cycle = setInterval(() => {
-      setShowText(true);
-      setTimeout(() => setShowText(false), 2200);
-    }, 18000);
+    // Butonu hemen göster
+    setShowButton(true);
 
     // Visibility ölçümleme (aramaya/WhatsApp'e başladı mı?)
     const onVisibility = () => {
@@ -166,8 +129,6 @@ export default function SmartContactButton({
     document.addEventListener('visibilitychange', onVisibility, { passive: true } as any);
 
     return () => {
-      clearTimeout(buttonTimer);
-      clearInterval(cycle);
       document.removeEventListener('visibilitychange', onVisibility as any);
     };
   }, [mounted]);
@@ -197,7 +158,6 @@ export default function SmartContactButton({
   
   const isPhone = isWorkingHours;
   const href = isPhone ? phoneHref : whatsappUrl;
-  const ctaMessage = getCTAMessage(isWorkingHours, currentHour);
   
   // Position classes
   const positionClasses = {
@@ -215,7 +175,7 @@ export default function SmartContactButton({
       className={`
         group fixed ${positionClasses[position]} z-[55]
         flex items-center justify-center gap-3
-        ${showText ? 'w-auto px-6' : 'w-16'} h-16 md:${showText ? 'w-auto md:px-8' : 'w-20'} md:h-20
+        w-16 h-16 md:w-20 md:h-20
         rounded-full
         ${isPhone 
           ? 'bg-gradient-to-br from-primary via-urgent to-primary-600' 
@@ -287,17 +247,6 @@ export default function SmartContactButton({
         </svg>
       )}
 
-      {/* CTA Mesajı */}
-      <span
-        className={`
-          relative z-10 font-semibold text-sm md:text-base whitespace-nowrap
-          transition-all duration-500
-          ${showText ? 'opacity-100 translate-x-0' : 'opacity-0 translate-x-4 w-0'}
-        `}
-      >
-        {showText && ctaMessage}
-      </span>
-
       {/* Ripple Effects */}
       {ripples.map((ripple) => (
         <span
@@ -316,4 +265,3 @@ export default function SmartContactButton({
     </a>
   );
 }
-

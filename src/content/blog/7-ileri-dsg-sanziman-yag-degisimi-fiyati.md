@@ -1,35 +1,31 @@
 ---
 
-title: "7 İleri DSG Şanzıman Yağ Değişimi Fiyatı"
-description: "7 ileri DSG şanzıman yağ değişimi fiyatı 2025: DQ200, DQ380, DQ381 şanzıman yağı değişimi fiyatları. Golf, Passat, A3, A4, Octavia için 7 ileri DSG yağ değişim fiyatları."
+title: "7 İleri DSG Şanzıman Yağ Değişimi Tamiri ve Servisi"
+description: "7 ileri DSG şanzıman yağ değişimi bilgisi: DQ200, DQ380, DQ381 şanzıman yağı değişimi hizmetleri. Golf, Passat, A3, A4, Octavia için 7 ileri DSG yağ değişim hizmetleri."
 category: "DSG"
-tags: ["dsg", "7 ileri", "şanzıman yağı", "yağ değişimi", "fiyat", "dq200", "dq380", "dq381", "2025"]
+tags: ["dsg", "7 ileri", "şanzıman yağı", "yağ değişimi", "dq200", "dq380", "dq381"]
 slug: "7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 publishDate: "2025-11-10T10:12:00+03:00"
 updatedDate: "2025-11-10T10:12:00+03:00"
 featuredImage: "/images/blog/7-ileri-dsg-sanziman-yag-degisimi-fiyati.jpg"
-imageAlt: "7 ileri DSG şanzıman yağ değişimi fiyatı - Yıldızlar Grup DSG Servisi"
+imageAlt: "7 ileri DSG şanzıman yağ değişimi hizmeti - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/7-ileri-dsg-sanziman-yag-degisimi-fiyati.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "7 İleri DSG Şanzıman Yağ Değişimi Fiyatı 2025 | DQ200, DQ380, DQ381"
-seoDescription: "7 ileri DSG şanzıman yağ değişimi fiyatı 2025: DQ200, DQ380, DQ381 şanzıman yağı değişimi fiyatları. Golf, Passat, A3, A4, Octavia için 7 ileri DSG yağ değişim fiyatları."
+seoTitle: "7 İleri DSG Şanzıman Yağ Değişimi Tamiri Tamiri ve Değişimi DQ200, DQ380, DQ381"
+seoDescription: "7 ileri DSG şanzıman yağ değişimi bilgisi: DQ200, DQ380, DQ381 şanzıman yağı değişimi hizmetleri. Golf, Passat, A3, A4, Octavia için 7 ileri DSG yağ değişim hizmetleri."
 
 # Hizmet Şeması
 serviceName: "7 İleri DSG Şanzıman Yağ Değişimi"
 serviceType: "DSG Şanzıman Yağ Değişimi"
 serviceDescription: "7 ileri DSG şanzıman yağı değişimi, filtre değişimi ve adaptasyon hizmetleri. DQ200, DQ380, DQ381 yağ değişimi fiyatları."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 2500
-highPrice: 5500
-priceCurrency: "TRY"
-offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 
 ---
 
 7 ileri DSG şanzıman yağ değişimi fiyatı, **DQ200 (kuru kavrama), DQ380 ve DQ381 (ıslak kavrama) şanzıman tiplerine göre değişir**. 7 ileri DSG şanzımanlar, Golf, Passat, A3, A4, Octavia ve Superb gibi modellerde yaygın olarak kullanılır. Şanzıman yağı, şanzımanın ömrünü ve performansını doğrudan etkiler.
 
-2025 yılı için *7 ileri DSG şanzıman yağ değişimi fiyatları*, şanzıman tipine ve işlem kapsamına göre değişir. DQ200 yağ değişimi 2.500–4.500₺, DQ380/DQ381 yağ değişimi 3.500–5.500₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **orijinal yağ**, **şeffaf fiyatlandırma** ve **uzman ekip** ile 7 ileri DSG şanzıman yağ değişimi hizmeti sunuyoruz.
+2025 yılı için *7 ileri DSG şanzıman yağ değişimi fiyatları*, şanzıman tipine ve işlem kapsamına göre değişir. DQ200 yağ değişimi uygun maliyetler, DQ380/DQ381 yağ değişimi uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **orijinal yağ**, **şeffaf fiyatlandırma** ve **uzman ekip** ile 7 ileri DSG şanzıman yağ değişimi hizmeti sunuyoruz.
 
 :::tip
 
@@ -60,14 +56,14 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 - **DQ200:** Kuru kavrama, daha az yağ gereksinimi
 - **DQ380/DQ381:** Islak kavrama, daha fazla yağ gereksinimi
 
-## 7 İleri DSG Şanzıman Yağ Değişimi Fiyatları 2025
+## 7 İleri DSG Şanzıman Yağ Değişimi Hizmetleri
 
 | İşlem | Parça Fiyatı | İşçilik | Toplam Fiyat | Garanti | Süre |
 | --- | ---: | ---: | ---: | --- | --- |
-| DQ200 yağ değişimi | 1.500–3.000₺ | 1.000–1.500₺ | 2.500–4.500₺ | İşçilik garantisi | 1-2 saat |
-| DQ380/DQ381 yağ değişimi | 2.000–4.000₺ | 1.500–1.500₺ | 3.500–5.500₺ | İşçilik garantisi | 1-2 saat |
+| DQ200 yağ değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik garantisi | 1-2 saat |
+| DQ380/DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik garantisi | 1-2 saat |
 | Filtre değişimi (ek) | 300–600₺ | – | 300–600₺ | Parça garantisi | – |
-| Adaptasyon (ek) | – | 500–1.000₺ | 500–1.000₺ | İşçilik garantisi | – |
+| Adaptasyon (ek) | – | 500–uygun fiyat | 500–uygun fiyat | İşçilik garantisi | – |
 
 :::note
 
@@ -78,7 +74,7 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 
 :::
 
-## Şanzıman Tipine Göre Yağ Değişimi Fiyatları
+## Şanzıman Tipine Göre Yağ Değişimi Hizmetleri
 
 ### DQ200 (7 İleri Kuru Kavrama)
 
@@ -92,7 +88,7 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 **Yağ Miktarı:** 1.7 litre
 **Yağ Tipi:** Özel DSG yağı (G 052 182)
 
-**Fiyat:** 2.500–4.500₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Özellikler:**
 - Daha az yağ gereksinimi
@@ -109,14 +105,14 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 **Yağ Miktarı:** 5.5–7.0 litre
 **Yağ Tipi:** Özel DSG yağı (G 052 182)
 
-**Fiyat:** 3.500–5.500₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Özellikler:**
 - Daha fazla yağ gereksinimi
 - Daha yüksek maliyet
 - Daha uzun süre
 
-## Model Bazında 7 İleri DSG Şanzıman Yağ Değişimi Fiyatları
+## Model Bazında 7 İleri DSG Şanzıman Yağ Değişimi Hizmetleri
 
 ### Volkswagen Golf (7. Nesil)
 
@@ -124,9 +120,9 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Yağ değişimi | 2.500–4.500₺ | 1-2 saat |
-| Yağ + filtre | 2.800–5.100₺ | 1-2 saat |
-| Yağ + filtre + adaptasyon | 3.300–6.100₺ | 2-3 saat |
+| Yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre + adaptasyon | 📞 Fiyat Sorunuz | 2-3 saat |
 
 ### Volkswagen Passat B8
 
@@ -134,9 +130,9 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Yağ değişimi | 3.500–5.500₺ | 1-2 saat |
-| Yağ + filtre | 3.800–6.100₺ | 1-2 saat |
-| Yağ + filtre + adaptasyon | 4.300–7.100₺ | 2-3 saat |
+| Yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre + adaptasyon | 📞 Fiyat Sorunuz | 2-3 saat |
 
 ### Audi A3 (8V)
 
@@ -144,9 +140,9 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Yağ değişimi | 2.500–4.500₺ | 1-2 saat |
-| Yağ + filtre | 2.800–5.100₺ | 1-2 saat |
-| Yağ + filtre + adaptasyon | 3.300–6.100₺ | 2-3 saat |
+| Yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre + adaptasyon | 📞 Fiyat Sorunuz | 2-3 saat |
 
 ### Audi A4 (B9)
 
@@ -154,9 +150,9 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Yağ değişimi | 3.500–5.500₺ | 1-2 saat |
-| Yağ + filtre | 3.800–6.100₺ | 1-2 saat |
-| Yağ + filtre + adaptasyon | 4.300–7.100₺ | 2-3 saat |
+| Yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre + adaptasyon | 📞 Fiyat Sorunuz | 2-3 saat |
 
 ### Skoda Octavia (5E)
 
@@ -164,9 +160,9 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 
 | İşlem | Fiyat | Süre |
 | --- | ---: | --- |
-| Yağ değişimi | 2.500–4.500₺ | 1-2 saat |
-| Yağ + filtre | 2.800–5.100₺ | 1-2 saat |
-| Yağ + filtre + adaptasyon | 3.300–6.100₺ | 2-3 saat |
+| Yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre | 📞 Fiyat Sorunuz | 1-2 saat |
+| Yağ + filtre + adaptasyon | 📞 Fiyat Sorunuz | 2-3 saat |
 
 ## 7 İleri DSG Şanzıman Yağ Değişimi Ne Zaman Yapılır?
 
@@ -219,7 +215,7 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 - Bütçe kısıtlı
 - Erken periyot
 
-**Fiyat:** 2.500–5.500₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Dezavantajlar:**
 - Eski filtre kalır
@@ -232,7 +228,7 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 - Uzun vadeli çözüm
 - Önerilen yöntem
 
-**Fiyat:** 2.800–6.100₺
+**Fiyat:** Lütfen iletişime geçiniz
 
 **Avantajlar:**
 - Uzun vadeli çözüm
@@ -243,7 +239,7 @@ offerUrl: "/7-ileri-dsg-sanziman-yag-degisimi-fiyati"
 
 - **15+ Yıl Deneyim:** 7 ileri DSG şanzıman yağ değişiminde uzman ekip
 - **Orijinal Yağ:** Tüm yağlar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün randevu, 1-2 saat içinde tamamlanır
 - **Garanti:** Tüm işçiliklerde garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi
@@ -269,4 +265,5 @@ Mutlaka orijinal DSG yağı (G 052 182) kullanılmalıdır. Yanlış yağ kullan
 
 
 **7 ileri DSG şanzıman yağ değişimi için:** Hemen [randevu alın](tel:05332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz hizmetiniz için hazır!
+
 

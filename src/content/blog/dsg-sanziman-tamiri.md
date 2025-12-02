@@ -9,7 +9,7 @@ slug: "dsg-sanziman-tamiri"
 tags: ["dsg", "şanzıman", "tamir", "revizyon", "mekatronik"]
 author: "DSG Servisi"
 draft: false
-seoTitle: "DSG Şanzıman Tamiri Fiyatları 2025 – Yıldızlar Grup DSG Servisi"
+seoTitle: "DSG Şanzıman Tamiri Hizmetleri – Yıldızlar Grup DSG Servisi"
 seoDescription: "Yıldızlar Grup DSG Servisi'nde DSG şanzıman tamiri, mekatronik tamiri, DSG volant değişimi, şanzıman yenileme ve revizyon. Volkswagen, Audi, SEAT, Skoda, Porsche, BMW, Mercedes, Land Rover."
 ogImage: "/images/blog/dsg-sanziman-tamiri.jpg"
 featuredImage: "/images/blog/dsg-sanziman-tamiri.jpg"
@@ -20,7 +20,6 @@ serviceName: "DSG Şanzıman Tamiri"
 serviceType: "DSG Şanzıman Tamiri"
 serviceDescription: "DSG şanzıman tamiri, mekatronik tamiri ve revizyon hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-sanziman-tamiri"
 
 ---
 
@@ -76,10 +75,10 @@ Yıldızlar Grup DSG Servisi olarak, **mekatronik tamiri**, **DSG volant değiş
 
 | İşlem | Parça | İşçilik | Toplam |
 | --- | ---: | ---: | ---: |
-| DSG Mekatronik Tamiri/Revizyonu | 8.500–18.000₺ | 4.000–7.000₺ | 12.500–25.000₺ |
-| DSG Volant Değişimi | 7.000–16.000₺ | 3.000–6.000₺ | 10.000–22.000₺ |
-| Çift Kavrama Seti Değişimi | 9.000–22.000₺ | 4.000–7.000₺ | 13.000–29.000₺ |
-| DSG Şanzıman Yağı ve Filtre Değişimi | 2.500–4.500₺ | 1.000–2.000₺ | 3.500–6.500₺ |
+| DSG Mekatronik Tamiri/Revizyonu | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| DSG Volant Değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Çift Kavrama Seti Değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| DSG Şanzıman Yağı ve Filtre Değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
 <p class="note"><em>Not:</em> Fiyatlar araç modeli, parça kalitesi (OEM/Aftermarket) ve arıza kapsamına göre değişir. Kesin teklif için arayın.</p>
 

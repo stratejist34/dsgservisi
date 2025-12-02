@@ -17,7 +17,6 @@ serviceName: "Büyükçekmece Volkswagen Servis"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Büyükçekmece bölgesine Volkswagen DSG/ZF şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Büyükçekmece", "İstanbul", "Avrupa Yakası"]
-offerUrl: "/buyukcekmece-volkswagen-servis"
 
 ---
 
@@ -70,7 +69,7 @@ Merkezi konumumuz sayesinde Büyükçekmece'den gelen müşteriler için aynı g
 
 ### Şeffaf Fiyatlandırma
 
-Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Volkswagen Servis Hizmetlerimiz (Büyükçekmece)
 
@@ -89,51 +88,51 @@ Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası ne
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200/DQ250 mekatronik arızası | %32 | 8.500–16.000₺ | 80.000–150.000 km |
-| 1.4 TSI timing zincir gevşemesi | %28 | 6.500–11.000₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %41 | 8.000–20.000₺ | 80.000–140.000 km |
-| Turbo geometri/yağ besleme | %19 | 7.500–16.500₺ | 120.000–200.000 km |
-| Su pompası/termostat arızası | %22 | 2.200–4.500₺ | 80.000–120.000 km |
+| DSG DQ200/DQ250 mekatronik arızası | %32 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 1.4 TSI timing zincir gevşemesi | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %41 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Turbo geometri/yağ besleme | %19 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Su pompası/termostat arızası | %22 | 📞 Fiyat Sorunuz | 80.000–120.000 km |
 
 ### Volkswagen Polo (6R, AW) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200 mekatronik arızası | %30 | 7.500–14.500₺ | 80.000–150.000 km |
-| 1.4 TSI timing zincir gevşemesi | %27 | 6.000–10.500₺ | 100.000–180.000 km |
-| 1.6 TDI DPF tıkanması | %38 | 7.500–18.500₺ | 80.000–140.000 km |
-| Turbo wastegate arızası | %21 | 7.000–15.000₺ | 120.000–200.000 km |
-| Fren balata/disk aşınması | %35 | 4.500–9.000₺ | 50.000–70.000 km |
+| DSG DQ200 mekatronik arızası | %30 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 1.4 TSI timing zincir gevşemesi | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 1.6 TDI DPF tıkanması | %38 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Turbo wastegate arızası | %21 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Fren balata/disk aşınması | %35 | 📞 Fiyat Sorunuz | 50.000–70.000 km |
 
 ### Volkswagen Passat (B7, B8) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ250/DQ381 mekatronik | %29 | 12.000–22.000₺ | 100.000–180.000 km |
-| 2.0 TDI timing zincir gerginliği | %28 | 8.500–16.000₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %40 | 8.500–19.500₺ | 80.000–150.000 km |
-| Turbo wastegate arızası | %23 | 10.000–20.000₺ | 120.000–200.000 km |
-| AdBlue sistemi sensör/pompa | %34 | 4.500–11.000₺ | 80.000–150.000 km |
+| DSG DQ250/DQ381 mekatronik | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI timing zincir gerginliği | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %40 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo wastegate arızası | %23 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| AdBlue sistemi sensör/pompa | %34 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Volkswagen Tiguan (5N, AD1) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ250/DQ381 mekatronik/yağ kaçağı | %30 | 9.500–17.000₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %39 | 8.000–19.000₺ | 80.000–150.000 km |
-| Haldex 4x4 pompa arızası | %22 | 5.000–10.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme | %21 | 9.000–18.000₺ | 120.000–200.000 km |
-| Hava süspansiyon kompresör | %19 | 12.000–24.000₺ | 100.000–180.000 km |
+| DSG DQ250/DQ381 mekatronik/yağ kaçağı | %30 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %39 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Haldex 4x4 pompa arızası | %22 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme | %21 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Hava süspansiyon kompresör | %19 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Volkswagen Touareg (7P, CR) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| ZF 8HP şanzıman yağ kaçağı | %26 | 15.000–28.000₺ | 100.000–180.000 km |
-| 3.0 TDI DPF tıkanması | %37 | 10.000–22.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör/valf | %24 | 14.000–26.000₺ | 100.000–180.000 km |
-| Turbo geometri/yağ besleme | %20 | 12.000–24.000₺ | 120.000–200.000 km |
-| AdBlue sistemi arızası | %33 | 6.000–14.000₺ | 80.000–150.000 km |
+| ZF 8HP şanzıman yağ kaçağı | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 3.0 TDI DPF tıkanması | %37 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör/valf | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo geometri/yağ besleme | %20 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| AdBlue sistemi arızası | %33 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ## Volkswagen DSG Şanzıman Arızaları
 
@@ -141,10 +140,10 @@ Volkswagen DSG (Direct Shift Gearbox) çift kavramalı otomatik şanzıman tekno
 
 | DSG Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| DQ200 (7 vites kuru) | Golf, Polo | Mekatronik, kavrama aşınması | 8.500–16.500₺ |
-| DQ250 (6 vites yaş) | Golf GTI, Passat | Mekatronik, valf body | 10.000–18.000₺ |
-| DQ381 (7 vites yaş) | Tiguan, Passat 4Motion | Çift kavrama, yağ kaçağı | 11.000–20.000₺ |
-| DQ500 (7 vites yaş yüksek tork) | Tiguan 4Motion | Mekatronik, kavrama | 11.000–26.000₺ |
+| DQ200 (7 vites kuru) | Golf, Polo | Mekatronik, kavrama aşınması | 📞 Fiyat Sorunuz |
+| DQ250 (6 vites yaş) | Golf GTI, Passat | Mekatronik, valf body | 📞 Fiyat Sorunuz |
+| DQ381 (7 vites yaş) | Tiguan, Passat 4Motion | Çift kavrama, yağ kaçağı | 📞 Fiyat Sorunuz |
+| DQ500 (7 vites yaş yüksek tork) | Tiguan 4Motion | Mekatronik, kavrama | 📞 Fiyat Sorunuz |
 
 ### DSG Şanzıman Bakım Önerileri
 
@@ -164,8 +163,8 @@ Bazı Volkswagen modellerinde (Touareg, Passat CC) ZF 6HP/8HP tork konvertörlü
 
 | ZF Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| ZF 6HP (6 vites) | Eski Touareg | Valf body, tork konvertör | 12.000–22.000₺ |
-| ZF 8HP (8 vites) | Touareg, Passat CC | Valf body, yağ kaçağı | 15.000–28.000₺ |
+| ZF 6HP (6 vites) | Eski Touareg | Valf body, tork konvertör | 📞 Fiyat Sorunuz |
+| ZF 8HP (8 vites) | Touareg, Passat CC | Valf body, yağ kaçağı | 📞 Fiyat Sorunuz |
 
 ## Volkswagen Motor Arızaları
 
@@ -175,10 +174,10 @@ Bazı Volkswagen modellerinde (Touareg, Passat CC) ZF 6HP/8HP tork konvertörlü
 
 | Motor Tipi | Kullanıldığı Modeller | Kronik Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| 1.4 TSI (EA211) | Golf, Polo, Passat | Timing zincir gerginliği | 6.500–12.000₺ |
-| 2.0 TSI (EA888) | Golf GTI, Tiguan | Turbo, karbon birikimi | 8.000–18.000₺ |
-| 2.0 TDI (EA288) | Golf, Passat, Tiguan | DPF, EGR, timing zincir | 8.000–22.000₺ |
-| 3.0 TDI (EA897) | Touareg | DPF, turbo, AdBlue | 10.000–28.000₺ |
+| 1.4 TSI (EA211) | Golf, Polo, Passat | Timing zincir gerginliği | 📞 Fiyat Sorunuz |
+| 2.0 TSI (EA888) | Golf GTI, Tiguan | Turbo, karbon birikimi | 📞 Fiyat Sorunuz |
+| 2.0 TDI (EA288) | Golf, Passat, Tiguan | DPF, EGR, timing zincir | 📞 Fiyat Sorunuz |
+| 3.0 TDI (EA897) | Touareg | DPF, turbo, AdBlue | 📞 Fiyat Sorunuz |
 
 ## Volkswagen DPF Tıkanması ve Çözümleri
 
@@ -186,9 +185,9 @@ Volkswagen dizel motorlarda DPF (Diesel Particulate Filter) tıkanması en yayg�
 
 | DPF İşlemi | Maliyet | Süre |
 | --- | ---: | --- |
-| DPF temizleme | 3.500–7.500₺ | 1 gün |
-| DPF değişimi | 8.000–22.000₺ | 1-2 gün |
-| DPF bypass (yasal değil) | 2.500–5.000₺ | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 1 gün |
+| DPF değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| DPF bypass (yasal değil) | 📞 Fiyat Sorunuz | Aynı gün |
 
 ### DPF Bakım Önerileri
 
@@ -202,17 +201,17 @@ Volkswagen dizel motorlarda DPF (Diesel Particulate Filter) tıkanması en yayg�
 
 :::
 
-## Volkswagen Periyodik Bakım Fiyatları 2025
+## Volkswagen Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.000–6.500₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 5.500–10.000₺ | 30.000 km | Aynı gün |
-| DSG yağ değişimi | 4.500–8.500₺ | 60.000-80.000 km | Aynı gün |
-| ZF şanzıman yağ değişimi | 6.000–12.000₺ | 80.000-120.000 km | Aynı gün |
-| DPF temizleme | 3.500–7.500₺ | 100.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.000–12.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 2.500–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 60.000-80.000 km | Aynı gün |
+| ZF şanzıman yağ değişimi | 📞 Fiyat Sorunuz | 80.000-120.000 km | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 100.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Büyükçekmece'den Ulaşım
 
@@ -239,7 +238,7 @@ Büyükçekmece'nin tüm mahallelerinden arızalı Volkswagen araçlarınız iç
 
 - **15+ Yıl Deneyim:** Volkswagen servisinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teşhis, 1-3 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -341,7 +340,7 @@ DPF tıkanmasına bağlı olarak 1-2 gün içinde tamamlanır. Temizleme işlemi
 
 ### Volkswagen DSG yağı ne zaman değiştirilmeli?
 
-DSG şanzıman yağı kuru DSG 60.000 km, ıslak DSG 80.000 km'de mutlaka değiştirilmelidir. İhmal edilirse mekatronik ve kavrama arızası riski %70 artar. Yağ değişimi 4.500–8.500₺; değişmezse mekatronik arızası 8.500–17.500₺.
+DSG şanzıman yağı kuru DSG 60.000 km, ıslak DSG 80.000 km'de mutlaka değiştirilmelidir. İhmal edilirse mekatronik ve kavrama arızası riski %70 artar. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler.
 
 ### Volkswagen 2.0 TDI DPF tıkanması nasıl önlenir?
 
@@ -357,5 +356,6 @@ Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büy�
 
 ### Volkswagen periyodik bakım fiyatları ne kadar?
 
-Volkswagen periyodik bakım fiyatları bakım türüne göre değişir. Küçük bakım (yağ + filtre) 3.000–6.500₺, büyük bakım 5.500–10.000₺ arasındadır. Kesin fiyat teklifi için ön teşhis gereklidir.
+Volkswagen periyodik bakım fiyatları bakım türüne göre değişir. Küçük bakım (yağ + filtre) uygun maliyetler, büyük bakım uygun maliyetler için servisimizden net fiyat alabilirsiniz. Kesin servis teklifi için ön teşhis gereklidir.
+
 

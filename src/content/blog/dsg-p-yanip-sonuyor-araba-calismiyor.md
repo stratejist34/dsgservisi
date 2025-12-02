@@ -20,7 +20,6 @@ serviceName: "DSG Şanzıman Arızası Teşhisi"
 serviceType: "DSG Vites Konumu Arızası Teşhisi"
 serviceDescription: "DSG P yanıp sönüyor araba çalışmıyor sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-p-yanip-sonuyor-araba-calismiyor"
 
 ---
 
@@ -121,7 +120,7 @@ OBD tarayıcı ile okunan hata kodları:
 
 **Çözüm:** Vites konum sensörü değişimi ve kalibrasyonu
 
-**Maliyet:** 2.500–5.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-4 saat
 
@@ -131,7 +130,7 @@ OBD tarayıcı ile okunan hata kodları:
 
 **Çözüm:** Vites konum sensörü kalibrasyonu
 
-**Maliyet:** 1.500–3.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 1-2 saat
 
@@ -141,7 +140,7 @@ OBD tarayıcı ile okunan hata kodları:
 
 **Çözüm:** Elektronik kart tamiri veya değişimi
 
-**Maliyet:** 8.000–15.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -151,7 +150,7 @@ OBD tarayıcı ile okunan hata kodları:
 
 **Çözüm:** Komple mekatronik revizyonu
 
-**Maliyet:** 14.000–27.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -161,7 +160,7 @@ OBD tarayıcı ile okunan hata kodları:
 
 **Çözüm:** Komple mekatronik değişimi
 
-**Maliyet:** 18.000–35.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -229,7 +228,7 @@ Bu durumlarda aracı zorlamayın ve hemen bir DSG uzmanına başvurun.
 - **Hızlı Çözüm:** Basit arızalar 2-4 saat içinde tamamlanır
 - **Orijinal Parça:** Tüm parçalar orijinal veya OEM kalitede
 - **Garanti:** Tüm tamirlerde 6-12 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 
 ## Sık Sorulan Sorular
 
@@ -243,7 +242,7 @@ P yanıp sönmesi, şanzıman kontrol ünitesinin vites konumunu algılayamadı�
 
 ### P yanıp sönüyor sorunu maliyeti ne kadar?
 
-Arıza kapsamına göre değişir. Vites konum sensörü değişimi 2.500–5.000₺, elektronik kart tamiri 8.000–15.000₺, mekatronik revizyonu 14.000–27.000₺ aralığındadır.
+Arıza kapsamına göre değişir. Vites konum sensörü değişimi uygun maliyetler, elektronik kart tamiri uygun maliyetler, mekatronik revizyonu uygun maliyetler aralığındadır.
 
 ### P yanıp sönüyor sorunu önlenebilir mi?
 
@@ -258,4 +257,5 @@ DSG P yanıp sönüyor araba çalışmıyor sorunu, vites konumu algılama hatas
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 

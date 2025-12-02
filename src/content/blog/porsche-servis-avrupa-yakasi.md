@@ -18,7 +18,6 @@ serviceName: "Porsche Servis Avrupa Yakası"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Porsche PDK şanzıman, motor, turbo, hava süspansiyon ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
-offerUrl: "/porsche-servis-avrupa-yakasi"
 
 ---
 
@@ -71,7 +70,7 @@ Merkezi konumumuz sayesinde Avrupa Yakası'ndan gelen müşteriler için aynı g
 
 ### Şeffaf Fiyatlandırma
 
-Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Porsche Servis Hizmetlerimiz (Avrupa Yakası)
 
@@ -90,50 +89,50 @@ Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme s
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| PDK valf body arızası | %24 | 18.000–35.000₺ | 80.000–150.000 km |
-| Yağ karteri vidası kaçağı | %38 | 5.500–12.000₺ | 60.000–120.000 km |
-| Turbo soğutma sistemi | %27 | 14.000–28.000₺ | 100.000–180.000 km |
-| Motor yağ tüketimi | %29 | 12.000–24.000₺ | 100.000–180.000 km |
-| PASM hava süspansiyon | %32 | 16.000–32.000₺ | 80.000–150.000 km |
+| PDK valf body arızası | %24 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Yağ karteri vidası kaçağı | %38 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
+| Turbo soğutma sistemi | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Motor yağ tüketimi | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| PASM hava süspansiyon | %32 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Porsche Cayenne – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| PDK şanzıman adaptasyon | %26 | 8.000–16.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör | %32 | 14.000–26.000₺ | 100.000–180.000 km |
-| Turbo geometri/yağlama | %28 | 13.000–25.000₺ | 100.000–180.000 km |
-| Ön salıncak/rotil aşınması | %24 | 7.500–14.000₺ | 80.000–140.000 km |
-| PCM elektronik arızası | %21 | 9.000–18.000₺ | 80.000–150.000 km |
+| PDK şanzıman adaptasyon | %26 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo geometri/yağlama | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Ön salıncak/rotil aşınması | %24 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| PCM elektronik arızası | %21 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Porsche Macan – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| PDK mekatronik arızası | %28 | 16.000–30.000₺ | 80.000–150.000 km |
-| Timing zincir gerginliği | %25 | 10.000–20.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme | %23 | 11.000–22.000₺ | 100.000–180.000 km |
-| Hava süspansiyon körük | %27 | 12.000–24.000₺ | 80.000–150.000 km |
+| PDK mekatronik arızası | %28 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Timing zincir gerginliği | %25 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme | %23 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Hava süspansiyon körük | %27 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Porsche Panamera – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| PDK tork konvertör | %22 | 20.000–38.000₺ | 120.000–200.000 km |
-| Hava süspansiyon kompresör | %31 | 15.000–28.000₺ | 100.000–180.000 km |
-| Turbo intercooler | %26 | 13.000–27.000₺ | 100.000–180.000 km |
-| Elektronik kontrol ünitesi | %24 | 10.000–22.000₺ | 80.000–150.000 km |
+| PDK tork konvertör | %22 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Hava süspansiyon kompresör | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo intercooler | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Elektronik kontrol ünitesi | %24 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
-## Porsche Periyodik Bakım Fiyatları 2025
+## Porsche Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 5.500–11.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 9.500–16.000₺ | 30.000 km | Aynı gün |
-| PDK yağ değişimi | 7.500–14.000₺ | 60.000 km | Aynı gün |
-| PASM hava süspansiyon kontrolü | 3.500–6.500₺ | 30.000 km | Aynı gün |
-| Fren balata (ön/arka) | 10.000–20.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 4.500–8.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| PDK yağ değişimi | 📞 Fiyat Sorunuz | 60.000 km | Aynı gün |
+| PASM hava süspansiyon kontrolü | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Avrupa Yakası'ndan Ulaşım
 
@@ -241,5 +240,6 @@ Evet, metrobüs ile Beylikdüzü istasyonundan veya otobüs ile Büyükçekmece 
 ### Avrupa Yakası bölgelerinden servisinize ödeme seçenekleri nelerdir?
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
+
 
 

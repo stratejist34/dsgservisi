@@ -1,13 +1,13 @@
 ---
 title: "Balata Değişimi Ne Kadar?"
-description: "Balata değişimi fiyatları 2025: Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde ön ve arka balata değişimi fiyatları, işçilik ücretleri."
+description: "Balata değişimi hizmetleri: Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde ön ve arka balata değişimi hizmetleri, işçilik ücretleri."
 category: "Genel Bakım"
-tags: ["balata değişimi", "fren balata", "balata fiyatı", "fren tamiri", "bakım", "servis"]
+tags: ["balata değişimi", "fren balata", "fren tamiri", "bakım", "servis"]
 slug: "balata-degisimi-ne-kadar"
 publishDate: "2025-11-19T15:25:00+03:00"
 updatedDate: "2025-11-19T15:25:00+03:00"
 featuredImage: "/images/blog/balata-degisimi-ne-kadar.jpg"
-imageAlt: "Balata değişimi fiyatları - Yıldızlar Grup Servis"
+imageAlt: "Balata değişimi hizmetleri - Yıldızlar Grup Servis"
 ogImage: "/images/blog/balata-degisimi-ne-kadar.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Balata Değişimi"
 serviceType: "Fren Sistemi Bakımı"
 serviceDescription: "Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde ön ve arka balata değişimi hizmeti."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 1800
-highPrice: 8500
-priceCurrency: "TRY"
-offerUrl: "/balata-degisimi-ne-kadar"
 
 ---
 
@@ -44,93 +40,93 @@ Balata değişimi, fren sisteminin en kritik bakım işlemidir. Aşınan balatal
 
 :::
 
-## Balata Değişimi Fiyatları 2025 (Marka Bazlı)
+## Balata Değişimi Hizmetleri (Marka Bazlı)
 
-### Audi Balata Değişimi Fiyatları
-
-| Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
-| --- | ---: | ---: | ---: | ---: |
-| Audi A3 | 3.500–4.500₺ | 1.800–2.500₺ | 2.800–3.800₺ | 1.500–2.200₺ |
-| Audi A4 | 4.000–5.000₺ | 2.000–2.800₺ | 3.200–4.200₺ | 1.800–2.500₺ |
-| Audi A5 | 4.200–5.200₺ | 2.200–3.000₺ | 3.400–4.400₺ | 1.900–2.600₺ |
-| Audi A6 | 4.500–5.800₺ | 2.400–3.200₺ | 3.600–4.800₺ | 2.000–2.800₺ |
-| Audi Q3 | 4.000–5.200₺ | 2.100–2.900₺ | 3.300–4.300₺ | 1.900–2.600₺ |
-| Audi Q5 | 4.500–5.800₺ | 2.400–3.200₺ | 3.700–4.900₺ | 2.100–2.900₺ |
-| Audi Q7 | 5.500–7.000₺ | 3.000–4.000₺ | 4.500–6.000₺ | 2.500–3.500₺ |
-
-### BMW Balata Değişimi Fiyatları
+### Audi Balata Değişimi Hizmetleri
 
 | Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
 | --- | ---: | ---: | ---: | ---: |
-| BMW 1 Serisi | 3.800–4.800₺ | 2.000–2.700₺ | 3.000–4.000₺ | 1.700–2.400₺ |
-| BMW 3 Serisi | 4.200–5.500₺ | 2.200–3.000₺ | 3.400–4.600₺ | 1.900–2.700₺ |
-| BMW 5 Serisi | 4.800–6.200₺ | 2.500–3.400₺ | 3.800–5.200₺ | 2.200–3.000₺ |
-| BMW X1 | 4.200–5.400₺ | 2.300–3.100₺ | 3.500–4.700₺ | 2.000–2.800₺ |
-| BMW X3 | 4.800–6.000₺ | 2.600–3.500₺ | 3.900–5.200₺ | 2.300–3.100₺ |
-| BMW X5 | 5.800–7.500₺ | 3.200–4.200₺ | 4.800–6.500₺ | 2.800–3.800₺ |
+| Audi A3 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Audi A4 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Audi A5 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Audi A6 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Audi Q3 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Audi Q5 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Audi Q7 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
-### Mercedes Balata Değişimi Fiyatları
-
-| Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
-| --- | ---: | ---: | ---: | ---: |
-| Mercedes A Serisi | 3.800–4.800₺ | 2.000–2.700₺ | 3.000–4.000₺ | 1.700–2.400₺ |
-| Mercedes C Serisi | 4.500–5.800₺ | 2.400–3.200₺ | 3.600–4.800₺ | 2.000–2.800₺ |
-| Mercedes E Serisi | 5.200–6.800₺ | 2.800–3.800₺ | 4.200–5.800₺ | 2.400–3.400₺ |
-| Mercedes GLA | 4.200–5.500₺ | 2.300–3.100₺ | 3.500–4.700₺ | 2.000–2.800₺ |
-| Mercedes GLC | 5.000–6.500₺ | 2.700–3.700₺ | 4.000–5.500₺ | 2.300–3.200₺ |
-| Mercedes GLE | 6.200–8.000₺ | 3.500–4.500₺ | 5.000–7.000₺ | 3.000–4.000₺ |
-
-### Volkswagen Balata Değişimi Fiyatları
+### BMW Balata Değişimi Hizmetleri
 
 | Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
 | --- | ---: | ---: | ---: | ---: |
-| VW Polo | 2.800–3.500₺ | 1.500–2.000₺ | 2.200–2.800₺ | 1.200–1.700₺ |
-| VW Golf | 3.200–4.000₺ | 1.700–2.300₺ | 2.600–3.400₺ | 1.400–2.000₺ |
-| VW Passat | 3.800–4.800₺ | 2.000–2.700₺ | 3.000–4.000₺ | 1.700–2.400₺ |
-| VW Tiguan | 4.000–5.200₺ | 2.200–3.000₺ | 3.300–4.500₺ | 1.900–2.600₺ |
-| VW Touareg | 5.500–7.000₺ | 3.000–4.000₺ | 4.500–6.000₺ | 2.500–3.500₺ |
+| BMW 1 Serisi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| BMW 3 Serisi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| BMW 5 Serisi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| BMW X1 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| BMW X3 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| BMW X5 | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
-### Porsche Balata Değişimi Fiyatları
-
-| Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
-| --- | ---: | ---: | ---: | ---: |
-| Porsche Macan | 6.500–8.500₺ | 3.500–4.500₺ | 5.200–7.000₺ | 3.000–4.000₺ |
-| Porsche Cayenne | 7.500–9.500₺ | 4.000–5.500₺ | 6.000–8.000₺ | 3.500–4.800₺ |
-| Porsche Panamera | 8.000–10.000₺ | 4.500–6.000₺ | 6.500–8.500₺ | 3.800–5.200₺ |
-
-### Land Rover Balata Değişimi Fiyatları
+### Mercedes Balata Değişimi Hizmetleri
 
 | Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
 | --- | ---: | ---: | ---: | ---: |
-| Range Rover Evoque | 5.000–6.500₺ | 2.700–3.700₺ | 4.000–5.500₺ | 2.300–3.200₺ |
-| Range Rover Sport | 6.500–8.500₺ | 3.500–4.800₺ | 5.200–7.000₺ | 3.000–4.200₺ |
-| Range Rover Vogue | 7.500–9.500₺ | 4.000–5.500₺ | 6.000–8.000₺ | 3.500–4.800₺ |
-| Discovery | 6.000–7.800₺ | 3.200–4.400₺ | 4.800–6.500₺ | 2.800–3.900₺ |
+| Mercedes A Serisi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Mercedes C Serisi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Mercedes E Serisi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Mercedes GLA | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Mercedes GLC | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Mercedes GLE | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
-### Seat Balata Değişimi Fiyatları
-
-| Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
-| --- | ---: | ---: | ---: | ---: |
-| Seat Ibiza | 2.800–3.500₺ | 1.500–2.000₺ | 2.200–2.800₺ | 1.200–1.700₺ |
-| Seat Leon | 3.200–4.000₺ | 1.700–2.300₺ | 2.600–3.400₺ | 1.400–2.000₺ |
-| Seat Ateca | 3.800–4.800₺ | 2.000–2.700₺ | 3.000–4.000₺ | 1.700–2.400₺ |
-
-### Skoda Balata Değişimi Fiyatları
+### Volkswagen Balata Değişimi Hizmetleri
 
 | Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
 | --- | ---: | ---: | ---: | ---: |
-| Skoda Fabia | 2.800–3.500₺ | 1.500–2.000₺ | 2.200–2.800₺ | 1.200–1.700₺ |
-| Skoda Octavia | 3.200–4.000₺ | 1.700–2.300₺ | 2.600–3.400₺ | 1.400–2.000₺ |
-| Skoda Superb | 3.800–4.800₺ | 2.000–2.700₺ | 3.000–4.000₺ | 1.700–2.400₺ |
-| Skoda Kodiaq | 4.200–5.400₺ | 2.300–3.100₺ | 3.500–4.700₺ | 2.000–2.800₺ |
+| VW Polo | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| VW Golf | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| VW Passat | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| VW Tiguan | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| VW Touareg | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+
+### Porsche Balata Değişimi Hizmetleri
+
+| Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
+| --- | ---: | ---: | ---: | ---: |
+| Porsche Macan | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Porsche Cayenne | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Porsche Panamera | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+
+### Land Rover Balata Değişimi Hizmetleri
+
+| Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
+| --- | ---: | ---: | ---: | ---: |
+| Range Rover Evoque | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Range Rover Sport | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Range Rover Vogue | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Discovery | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+
+### Seat Balata Değişimi Hizmetleri
+
+| Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
+| --- | ---: | ---: | ---: | ---: |
+| Seat Ibiza | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Seat Leon | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Seat Ateca | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+
+### Skoda Balata Değişimi Hizmetleri
+
+| Model | Ön Balata (Orijinal) | Ön Balata (Muadil) | Arka Balata (Orijinal) | Arka Balata (Muadil) |
+| --- | ---: | ---: | ---: | ---: |
+| Skoda Fabia | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Skoda Octavia | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Skoda Superb | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Skoda Kodiaq | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
 ## Balata Değişimi İşçilik Ücretleri
 
 | İşlem | İşçilik Ücreti | Süre |
 | --- | ---: | --- |
-| Ön balata değişimi | 800–1.200₺ | 1-2 saat |
-| Arka balata değişimi | 800–1.200₺ | 1-2 saat |
-| Ön + arka balata değişimi | 1.400–2.000₺ | 2-3 saat |
+| Ön balata değişimi | 800–uygun fiyat | 1-2 saat |
+| Arka balata değişimi | 800–uygun fiyat | 1-2 saat |
+| Ön + arka balata değişimi | 📞 Fiyat Sorunuz | 2-3 saat |
 | Disk taşlama (takoz başı) | 400–600₺ | 30 dk |
 | Disk değişimi (takoz başı) | 500–800₺ | 1 saat |
 
@@ -229,7 +225,7 @@ Balata değişimi, fren sisteminin en kritik bakım işlemidir. Aşınan balatal
 
 - **15+ Yıl Deneyim:** Tüm premium markalarda uzman ekip
 - **Orijinal ve Muadil Seçenekler:** Bütçenize uygun çözümler
-- **Şeffaf Fiyatlandırma:** Ücretsiz kontrol, net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ücretsiz kontrol, net servis teklifi
 - **Hızlı Hizmet:** 1-3 saat içinde teslimat
 - **Garanti:** Tüm işçiliklerde 6 ay, parçalarda 1 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un güvenilir servisi
@@ -302,7 +298,7 @@ Balata değişimi, fren sisteminin en kritik bakım işlemidir. Aşınan balatal
 
 ### Balata değişimi ne kadar tutar?
 
-Balata değişimi fiyatı markaya ve modele göre değişir. Muadil balata ile ön takım 1.800-4.500₺, orijinal balata ile 3.500-10.000₺ arasındadır. İşçilik ücreti 800-1.200₺'dir.
+Balata değişimi fiyatı markaya ve modele göre değişir. Muadil balata ile ön takım uygun maliyetler, orijinal balata ile uygun maliyetler için servisimizden net fiyat alabilirsiniz. İşçilik ücreti 800-uygun fiyat'dir.
 
 ### Balata ne zaman değiştirilmeli?
 
@@ -327,3 +323,4 @@ Evet, ön balatalar arka balatalara göre 2 kat daha hızlı aşındığı için
 ### Balata değişiminden sonra rodaj gerekli mi?
 
 Evet, yeni balatalar 200-300 km rodaj gerektirir. Bu sürede ani frenlemelerden kaçınılmalı, yumuşak fren yapılmalıdır. Rodaj sonrası balatalar tam performansa ulaşır.
+

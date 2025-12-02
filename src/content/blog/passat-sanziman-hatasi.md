@@ -20,7 +20,6 @@ serviceName: "Passat Şanzıman Arızası Teşhisi"
 serviceType: "Passat Şanzıman Arızası Tamiri"
 serviceDescription: "Passat şanzıman hatası teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/passat-sanziman-hatasi"
 
 ---
 
@@ -136,7 +135,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** DSG yağı ve filtre değişimi
 
-**Maliyet:** 3.500–6.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 saat
 
@@ -146,7 +145,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Solenoid valf set değişimi
 
-**Maliyet:** 9.500–16.500₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 1-2 gün
 
@@ -156,7 +155,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Komple mekatronik revizyonu
 
-**Maliyet:** 14.500–27.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -166,7 +165,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Kavrama seti değişimi
 
-**Maliyet:** 15.000–29.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -176,7 +175,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Komple mekatronik değişimi
 
-**Maliyet:** 19.000–35.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -238,7 +237,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 - **Hızlı Çözüm:** Basit arızalar 1-2 gün içinde tamamlanır
 - **Orijinal Parça:** Tüm parçalar orijinal veya OEM kalitede
 - **Garanti:** Tüm tamirlerde 6-12 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 
 ## Sık Sorulan Sorular
 
@@ -248,7 +247,7 @@ Vites geçişlerinde gecikme, kalkışta titreme, emniyet moduna geçme, OBD hat
 
 ### Passat şanzıman hatası maliyeti ne kadar?
 
-Arıza kapsamına göre değişir. Basit yağ değişimi 3.500–6.000₺, solenoid değişimi 9.500–16.500₺, mekatronik revizyonu 14.500–27.000₺ aralığındadır.
+Arıza kapsamına göre değişir. Basit yağ değişimi uygun maliyetler, solenoid değişimi uygun maliyetler, mekatronik revizyonu uygun maliyetler aralığındadır.
 
 ### Passat şanzıman hatası önlenebilir mi?
 
@@ -267,4 +266,5 @@ Passat şanzıman hatası, erken teşhis ve müdahale ile çözülebilir. Yıld�
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 

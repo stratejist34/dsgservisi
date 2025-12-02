@@ -1,13 +1,13 @@
 ---
-title: "BMW Şanzıman Tamiri Fiyatları"
-description: "BMW şanzıman tamiri fiyatları: ZF 8HP/9HP şanzıman tamiri fiyatları. 1, 3, 5, 7 Serisi ve X1, X3, X5, X6 modellerinde mekatronik, valf body, tork konvertör tamiri fiyatları."
+title: "BMW Şanzıman Tamiri Hizmetleri"
+description: "BMW şanzıman tamiri hizmetleri: ZF 8HP/9HP şanzıman tamiri hizmetleri. 1, 3, 5, 7 Serisi ve X1, X3, X5, X6 modellerinde mekatronik, valf body, tork konvertör tamiri hizmetleri."
 category: "BMW"
-tags: ["bmw", "şanzıman", "şanzıman tamiri", "zf", "8hp", "9hp", "fiyat"]
+tags: ["bmw", "şanzıman", "şanzıman tamiri", "zf", "8hp", "9hp"]
 slug: "bmw-sanziman-tamiri-fiyatlari"
 publishDate: "2025-11-13T13:00:00+03:00"
 updatedDate: "2025-11-13T13:00:00+03:00"
 featuredImage: "/images/blog/bmw-sanziman-tamiri-fiyatlari.jpg"
-imageAlt: "BMW şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "BMW şanzıman tamiri hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/bmw-sanziman-tamiri-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "BMW Şanzıman Tamiri"
 serviceType: "Şanzıman Onarımı"
 serviceDescription: "BMW araçlarında ZF 8HP/9HP şanzıman tamiri hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 10000
-highPrice: 35000
-priceCurrency: "TRY"
-offerUrl: "/bmw-sanziman-tamiri-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ BMW araçlarında şanzıman arızaları motor performansını ve güvenliği do
 
 :::tip
 
-**UZMAN TAVSİYESİ:** BMW şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. ZF 8HP yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Yağ değişimi 5.400-9.900₺; değişmezse valf body arızası 12.000-22.000₺, tork konvertör arızası 18.000-35.000₺. Şehir içi sık dur-kalkta yağ eskimesi hızlanır.
+**UZMAN TAVSİYESİ:** BMW şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. ZF 8HP yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler, tork konvertör arızası uygun maliyetler. Şehir içi sık dur-kalkta yağ eskimesi hızlanır.
 
 :::
 
@@ -44,15 +40,15 @@ BMW araçlarında şanzıman arızaları motor performansını ve güvenliği do
 
 :::
 
-## BMW Şanzıman Tamiri Fiyatları 2025 (Genel)
+## BMW Şanzıman Tamiri Hizmetleri (Genel)
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | --- | ---: | --- |
-| ZF 8HP (8 vites) | 1, 3, 5, 7 Serisi, X1, X3, X5, X6 | Valf body, tork konvertör | 10.000–35.000₺ | 2-5 gün |
-| ZF 9HP (9 vites) | Yeni 3, 5, 7 Serisi, X3, X5 | Valf body, tork konvertör | 12.000–38.000₺ | 2-5 gün |
-| ZF 6HP (6 vites) | Eski modeller | Valf body, tork konvertör | 9.000–32.000₺ | 2-5 gün |
+| ZF 8HP (8 vites) | 1, 3, 5, 7 Serisi, X1, X3, X5, X6 | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-5 gün |
+| ZF 9HP (9 vites) | Yeni 3, 5, 7 Serisi, X3, X5 | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-5 gün |
+| ZF 6HP (6 vites) | Eski modeller | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-5 gün |
 
-## Şanzıman Tipine Göre Tamir Fiyatları
+## Şanzıman Tipine Göre Tamir Hizmetleri
 
 ### ZF 8HP Şanzıman Tamiri
 
@@ -60,11 +56,11 @@ ZF 8HP 8 vites tork konvertörlü otomatik şanzımandır. Valf body ve tork kon
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Valf body revizyonu | 12.000–22.000₺ | 2-4 gün | %28 |
-| Tork konvertör tamiri | 18.000–35.000₺ | 3-5 gün | %24 |
-| Yağ kaçağı tamiri | 6.000–11.000₺ | 1-2 gün | %21 |
-| Elektronik modül değişimi | 8.000–14.000₺ | 1-2 gün | %19 |
-| Tam revizyon | 25.000–45.000₺ | 5-7 gün | %18 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %28 |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 3-5 gün | %24 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %21 |
+| Elektronik modül değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %19 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 5-7 gün | %18 |
 
 **ZF 8HP Arıza Belirtileri:**
 - Soğukta vites geçişinde gecikme/sarsıntı
@@ -79,11 +75,11 @@ ZF 9HP 9 vites tork konvertörlü otomatik şanzımandır. Yeni BMW modellerinde
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Valf body revizyonu | 13.000–24.000₺ | 2-4 gün | %26 |
-| Tork konvertör tamiri | 20.000–38.000₺ | 3-5 gün | %22 |
-| Yağ kaçağı tamiri | 6.500–12.000₺ | 1-2 gün | %20 |
-| Elektronik modül değişimi | 9.000–15.000₺ | 1-2 gün | %18 |
-| Tam revizyon | 28.000–50.000₺ | 5-7 gün | %16 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %26 |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 3-5 gün | %22 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %20 |
+| Elektronik modül değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %18 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 5-7 gün | %16 |
 
 ### ZF 6HP Şanzıman Tamiri
 
@@ -91,67 +87,67 @@ ZF 6HP 6 vites tork konvertörlü otomatik şanzımandır. Eski BMW modellerinde
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Valf body revizyonu | 10.000–20.000₺ | 2-4 gün | %30 |
-| Tork konvertör tamiri | 16.000–32.000₺ | 3-5 gün | %25 |
-| Yağ kaçağı tamiri | 5.500–10.000₺ | 1-2 gün | %22 |
-| Elektronik modül değişimi | 7.500–13.000₺ | 1-2 gün | %20 |
-| Tam revizyon | 22.000–40.000₺ | 5-7 gün | %19 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %30 |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 3-5 gün | %25 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %22 |
+| Elektronik modül değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %20 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 5-7 gün | %19 |
 
-## Model Bazlı Şanzıman Tamiri Fiyatları
+## Model Bazlı Şanzıman Tamiri Hizmetleri
 
 ### BMW 1 Serisi (F20, F40) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 10.000–22.000₺ | 2-4 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### BMW 3 Serisi (F30, G20) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 12.000–22.000₺ | 2-4 gün |
-| ZF 9HP | Valf body, tork konvertör | 13.000–24.000₺ | 2-4 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
+| ZF 9HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### BMW 5 Serisi (F10, G30) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 11.000–22.000₺ | 2-4 gün |
-| ZF 9HP | Valf body, tork konvertör | 13.000–24.000₺ | 2-4 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
+| ZF 9HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### BMW 7 Serisi (F01, G11) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 13.000–28.000₺ | 2-4 gün |
-| ZF 9HP | Valf body, tork konvertör | 15.000–30.000₺ | 2-4 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
+| ZF 9HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### BMW X1 (F48, U11) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 10.000–22.000₺ | 2-4 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### BMW X3 (F25, G01) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 11.000–24.000₺ | 2-4 gün |
-| ZF 9HP | Valf body, tork konvertör | 13.000–26.000₺ | 2-4 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
+| ZF 9HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### BMW X5 (F15, G05) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 12.000–28.000₺ | 2-4 gün |
-| ZF 9HP | Valf body, tork konvertör | 14.000–30.000₺ | 2-4 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
+| ZF 9HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### BMW X6 (F16, G06) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 13.000–30.000₺ | 2-4 gün |
-| ZF 9HP | Valf body, tork konvertör | 15.000–32.000₺ | 2-4 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
+| ZF 9HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ## Şanzıman Arıza Türleri ve Çözümleri
 
@@ -161,10 +157,10 @@ Valf body, şanzımanın hidrolik kontrol ünitesidir. Yağ eskimesi ve solenoid
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Valf body revizyonu | 12.000–24.000₺ | 2-4 gün |
-| Valf body değişimi | 18.000–30.000₺ | 3-5 gün |
-| Solenoid değişimi | 6.000–12.000₺ | 1-2 gün |
-| Valf body temizliği | 4.000–8.000₺ | 1 gün |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 3-5 gün |
+| Solenoid değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Valf body temizliği | 📞 Fiyat Sorunuz | 1 gün |
 
 ### Tork Konvertör Arızası
 
@@ -172,9 +168,9 @@ Tork konvertör, motor ve şanzıman arasındaki güç aktarımını sağlar. Ka
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Tork konvertör tamiri | 18.000–38.000₺ | 3-5 gün |
-| Tork konvertör değişimi | 25.000–45.000₺ | 4-6 gün |
-| Tork konvertör revizyonu | 15.000–30.000₺ | 3-5 gün |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 3-5 gün |
+| Tork konvertör değişimi | 📞 Fiyat Sorunuz | 4-6 gün |
+| Tork konvertör revizyonu | 📞 Fiyat Sorunuz | 3-5 gün |
 
 ### Yağ Kaçağı Tamiri
 
@@ -182,16 +178,16 @@ Tork konvertör, motor ve şanzıman arasındaki güç aktarımını sağlar. Ka
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Keçe değişimi | 5.500–10.000₺ | Aynı gün |
-| Conta değişimi | 6.000–11.000₺ | 1 gün |
-| Gövde tamiri | 8.000–15.000₺ | 2-3 gün |
+| Keçe değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Conta değişimi | 📞 Fiyat Sorunuz | 1 gün |
+| Gövde tamiri | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ## Şanzıman Bakım Önerileri
 
 :::note
 
 - ZF 8HP/9HP yağ değişimi 80.000 km'de mutlaka yapılmalı
-- Yağ değişimi 5.400-9.900₺; değişmezse valf body arızası 12.000-22.000₺
+- Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler
 - Tork konvertör kontrolü 150.000 km'de yapılmalı
 - Şehir içi sık dur-kalkta yağ eskimesi hızlanır
 - Erken teşhis %50'ye varan maliyet tasarrufu sağlar
@@ -212,7 +208,7 @@ Tork konvertör, motor ve şanzıman arasındaki güç aktarımını sağlar. Ka
 
 - **15+ Yıl Deneyim:** BMW şanzıman tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-7 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir BMW servisi
@@ -285,7 +281,7 @@ Tork konvertör, motor ve şanzıman arasındaki güç aktarımını sağlar. Ka
 
 ### BMW şanzıman tamiri fiyatı ne kadar?
 
-BMW şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. ZF 8HP valf body revizyonu 12.000-22.000₺, tork konvertör tamiri 18.000-35.000₺, tam revizyon 25.000-45.000₺ arasındadır.
+BMW şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. ZF 8HP valf body revizyonu uygun maliyetler, tork konvertör tamiri uygun maliyetler, tam revizyon uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### BMW ZF şanzıman arızası belirtileri nelerdir?
 
@@ -293,7 +289,7 @@ ZF şanzıman arızası belirtileri: soğukta vites geçişinde gecikme/sarsınt
 
 ### BMW ZF şanzıman yağı ne zaman değiştirilmeli?
 
-ZF 8HP/9HP şanzıman yağı 80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, valf body arızası riski %40 artar. Yağ değişimi 5.400-9.900₺; değişmezse valf body arızası 12.000-22.000₺.
+ZF 8HP/9HP şanzıman yağı 80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, valf body arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler.
 
 ### BMW şanzıman tamiri ne kadar sürer?
 
@@ -317,9 +313,10 @@ Yıldızlar Grup'ta BMW şanzıman tamiri fiyatları yetkili servise göre %50-7
 
 ### BMW ZF tork konvertör arızası ne kadar?
 
-ZF tork konvertör tamiri 18.000-38.000₺ arasındadır. 150.000-250.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Tork konvertör kaydırma ve titreşim yaygın arızalardır.
+ZF tork konvertör tamiri uygun maliyetler arasındadır. 150.000-250.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Tork konvertör kaydırma ve titreşim yaygın arızalardır.
 
 ### BMW ZF valf body tamiri ne kadar?
 
-ZF valf body revizyonu 12.000-24.000₺ arasındadır. Yağ eskimesi ve solenoid arızaları yaygındır. Erken teşhis ve yağ değişimi valf body arızasını önler.
+ZF valf body revizyonu uygun maliyetler arasındadır. Yağ eskimesi ve solenoid arızaları yaygındır. Erken teşhis ve yağ değişimi valf body arızasını önler.
+
 

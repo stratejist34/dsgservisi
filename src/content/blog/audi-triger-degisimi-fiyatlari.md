@@ -1,13 +1,13 @@
 ---
-title: "Audi Triger Değişimi Fiyatları"
-description: "Audi triger değişimi fiyatları: A3, A4, A5, A6, Q3, Q5, Q7, Q8 modellerinde timing belt ve timing chain değişimi fiyatları. Detaylı fiyat tablosu ve değişim periyotları."
+title: "Audi Triger Değişimi Hizmetleri"
+description: "Audi triger değişimi hizmetleri: A3, A4, A5, A6, Q3, Q5, Q7, Q8 modellerinde timing belt ve timing chain değişimi hizmetleri. Detaylı hizmet tablosu ve değişim periyotları."
 category: "Audi"
-tags: ["audi", "triger", "triger değişimi", "timing belt", "timing chain", "fiyat", "bakım"]
+tags: ["audi", "triger", "triger değişimi", "timing belt", "timing chain", "bakım"]
 slug: "audi-triger-degisimi-fiyatlari"
 publishDate: "2025-11-12T09:00:00+03:00"
 updatedDate: "2025-11-12T09:00:00+03:00"
 featuredImage: "/images/blog/audi-triger-degisimi-fiyatlari.jpg"
-imageAlt: "Audi triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Audi triger değişimi hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/audi-triger-degisimi-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Audi Triger Değişimi"
 serviceType: "Motor Bakımı"
 serviceDescription: "Audi araçlarında triger kayışı ve triger zinciri değişimi hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 3500
-highPrice: 18000
-priceCurrency: "TRY"
-offerUrl: "/audi-triger-degisimi-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Audi araçlarında triger değişimi motorun en kritik bakım işlemlerinden bir
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Triger kayışı değişimi 90.000-120.000 km'de, triger zinciri kontrolü 100.000-180.000 km'de yapılmalıdır. Triger kayışı koparsa motor hasarı 15.000-35.000₺ arasında maliyet oluşturur. Erken değişim maliyeti 3.500-8.500₺; koparsa tamir 15.000-35.000₺.
+**UZMAN TAVSİYESİ:** Triger kayışı değişimi 90.000-120.000 km'de, triger zinciri kontrolü 100.000-180.000 km'de yapılmalıdır. Triger kayışı koparsa motor hasarı çok yüksek maliyetler oluşturur. Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::
 
@@ -44,23 +40,23 @@ Audi araçlarında triger değişimi motorun en kritik bakım işlemlerinden bir
 
 :::
 
-## Audi Triger Değişimi Fiyatları 2025 (Genel)
+## Audi Triger Değişimi Hizmetleri (Genel)
 
 | Model | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | --- | ---: | --- | --- |
-| A3 (8V, 8Y) | 1.4 TSI, 1.8 TSI | Zincir | 6.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| A3 (8V, 8Y) | 2.0 TDI | Zincir | 7.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
-| A4 (B8, B9) | 2.0 TFSI | Zincir | 7.000–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| A4 (B8, B9) | 2.0 TDI | Zincir | 8.000–14.000₺ | 100.000–180.000 km | 2-3 gün |
-| A5 (F5) | 2.0 TFSI, 3.0 TFSI | Zincir | 7.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
-| A6 (C7, C8) | 2.0 TFSI, 3.0 TFSI | Zincir | 8.500–15.000₺ | 100.000–180.000 km | 2-3 gün |
-| A6 (C7, C8) | 2.0 TDI, 3.0 TDI | Zincir | 9.500–16.000₺ | 100.000–180.000 km | 2-3 gün |
-| Q3 (8U, F3) | 2.0 TFSI, 2.0 TDI | Zincir | 7.000–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| Q5 (8R, FY) | 2.0 TFSI, 2.0 TDI | Zincir | 8.000–14.000₺ | 100.000–180.000 km | 2-3 gün |
-| Q7 (4L, 4M) | 3.0 TFSI, 3.0 TDI | Zincir | 10.000–18.000₺ | 100.000–180.000 km | 3-4 gün |
-| Q8 (4M) | 3.0 TFSI, 3.0 TDI | Zincir | 11.000–18.000₺ | 100.000–180.000 km | 3-4 gün |
+| A3 (8V, 8Y) | 1.4 TSI, 1.8 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| A3 (8V, 8Y) | 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| A4 (B8, B9) | 2.0 TFSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| A4 (B8, B9) | 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| A5 (F5) | 2.0 TFSI, 3.0 TFSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| A6 (C7, C8) | 2.0 TFSI, 3.0 TFSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| A6 (C7, C8) | 2.0 TDI, 3.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Q3 (8U, F3) | 2.0 TFSI, 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Q5 (8R, FY) | 2.0 TFSI, 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Q7 (4L, 4M) | 3.0 TFSI, 3.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
+| Q8 (4M) | 3.0 TFSI, 3.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
 
-## Model Bazlı Triger Değişimi Fiyatları
+## Model Bazlı Triger Değişimi Hizmetleri
 
 ### Audi A3 (8V, 8Y) Triger Değişimi
 
@@ -68,9 +64,9 @@ Audi A3 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 1.4 TSI (EA211) | Zincir | 6.500–10.000₺ | 100.000–180.000 km | 2-3 gün |
-| 1.8 TSI (EA888) | Zincir | 7.000–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 7.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| 1.4 TSI (EA211) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 1.8 TSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 **A3 Triger Değişimi İçeriği:**
 - Timing chain (triger zinciri)
@@ -85,9 +81,9 @@ Audi A4 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TFSI (EA888) | Zincir | 7.000–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 8.000–14.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 TDI (EA897) | Zincir | 9.500–16.000₺ | 100.000–180.000 km | 3-4 gün |
+| 2.0 TFSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 TDI (EA897) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
 
 **A4 Triger Değişimi İçeriği:**
 - Timing chain (triger zinciri)
@@ -102,8 +98,8 @@ Audi A5 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TFSI (EA888) | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 TFSI (EA837) | Zincir | 8.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 TFSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 TFSI (EA837) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Audi A6 (C7, C8) Triger Değişimi
 
@@ -111,10 +107,10 @@ Audi A6 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TFSI (EA888) | Zincir | 8.500–14.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 TFSI (EA837) | Zincir | 9.500–15.000₺ | 100.000–180.000 km | 3-4 gün |
-| 2.0 TDI (EA288) | Zincir | 9.500–16.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 TDI (EA897) | Zincir | 10.500–18.000₺ | 100.000–180.000 km | 3-4 gün |
+| 2.0 TFSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 TFSI (EA837) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 TDI (EA897) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
 
 ### Audi Q3 (8U, F3) Triger Değişimi
 
@@ -122,8 +118,8 @@ Audi Q3 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TFSI (EA888) | Zincir | 7.000–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 8.000–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 TFSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Audi Q5 (8R, FY) Triger Değişimi
 
@@ -131,9 +127,9 @@ Audi Q5 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TFSI (EA888) | Zincir | 8.000–13.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 8.500–14.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 TDI (EA897) | Zincir | 9.500–16.000₺ | 100.000–180.000 km | 3-4 gün |
+| 2.0 TFSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 TDI (EA897) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
 
 ### Audi Q7 (4L, 4M) Triger Değişimi
 
@@ -141,8 +137,8 @@ Audi Q7 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 TFSI (EA837) | Zincir | 10.000–16.000₺ | 100.000–180.000 km | 3-4 gün |
-| 3.0 TDI (EA897) | Zincir | 11.000–18.000₺ | 100.000–180.000 km | 3-4 gün |
+| 3.0 TFSI (EA837) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
+| 3.0 TDI (EA897) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
 
 ### Audi Q8 (4M) Triger Değişimi
 
@@ -150,8 +146,8 @@ Audi Q8 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 TFSI (EA837) | Zincir | 11.000–17.000₺ | 100.000–180.000 km | 3-4 gün |
-| 3.0 TDI (EA897) | Zincir | 11.500–18.000₺ | 100.000–180.000 km | 3-4 gün |
+| 3.0 TFSI (EA837) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
+| 3.0 TDI (EA897) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 3-4 gün |
 
 ## Triger Zinciri vs Triger Kayışı
 
@@ -160,9 +156,9 @@ Audi araçlarında modern modellerde timing chain (triger zinciri) kullanılır.
 | Özellik | Triger Zinciri | Triger Kayışı |
 | --- | --- | --- |
 | Dayanıklılık | 100.000-180.000 km | 90.000-120.000 km |
-| Değişim Maliyeti | 6.500-18.000₺ | 3.500-8.500₺ |
+| Değişim Maliyeti | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 | Kopma Riski | Düşük | Yüksek |
-| Motor Hasarı (Koparsa) | 15.000-35.000₺ | 15.000-35.000₺ |
+| Motor Hasarı (Koparsa) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 | Kontrol Periyodu | 100.000 km | 60.000 km |
 
 ## Triger Değişimi Neden Önemli?
@@ -172,9 +168,9 @@ Triger (timing belt/chain) motorun en kritik parçalarından biridir. Supap zama
 - Supap ve piston çarpışması
 - Motor bloğu hasarı
 - Silindir kapağı hasarı
-- Tam motor revizyonu gerekir (15.000-35.000₺)
+- Tam motor revizyonu gerekir (Fiyat Sorunuz)
 
-Erken değişim maliyeti 3.500-18.000₺; koparsa tamir 15.000-35.000₺.
+Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::note
 
@@ -199,7 +195,7 @@ Erken değişim maliyeti 3.500-18.000₺; koparsa tamir 15.000-35.000₺.
 
 - **15+ Yıl Deneyim:** Audi triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-4 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Audi servisi
@@ -264,7 +260,7 @@ Audi araçlarında triger zinciri kontrolü 100.000 km'de yapılmalı, değişim
 
 ### Audi triger değişimi fiyatı ne kadar?
 
-Audi triger değişimi fiyatı modele ve motora göre değişir. A3 için 6.500-11.000₺, A4 için 7.000-14.000₺, A6 için 8.500-16.000₺, Q7/Q8 için 10.000-18.000₺ arasındadır.
+Audi triger değişimi fiyatı modele ve motora göre değişir. A3 modeli, A4 modeli, A6 modeli, Q7/Q8 modeli için servisimizden net fiyat alabilirsiniz.
 
 ### Audi triger zinciri mi kayışı mı?
 
@@ -272,7 +268,7 @@ Modern Audi modellerinde (2010 sonrası) timing chain (triger zinciri) kullanıl
 
 ### Audi triger koparsa ne olur?
 
-Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (15.000-35.000₺). Erken değişim maliyeti 3.500-18.000₺; koparsa tamir 15.000-35.000₺.
+Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (Fiyat Sorunuz). Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 ### Audi triger değişimi ne kadar sürer?
 
@@ -297,4 +293,5 @@ Audi triger değişimi için randevu almak için telefon (0533 262 34 51) veya W
 ### Audi triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 
 Yıldızlar Grup'ta Audi triger değişimi fiyatları yetkili servise göre %50-70 daha ekonomiktir. Aynı kalitede orijinal parça ve işçilikle hizmet sunuyoruz.
+
 

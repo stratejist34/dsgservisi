@@ -19,7 +19,6 @@ serviceName: "Skoda Özel Servis"
 serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Skoda DSG şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/skoda-ozel-servis"
 
 ---
 
@@ -108,12 +107,12 @@ Skoda araçları güvenilir ve ekonomik olsa da VW Grup teknolojisi paylaşımı
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>DSG DQ200/DQ250 mekatronik arızası</td><td>%31</td><td>8.500–16.500₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>1.4 TSI timing zincir gevşemesi</td><td>%27</td><td>6.500–11.500₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>2.0 TDI DPF tıkanması</td><td>%43</td><td>8.500–21.000₺</td><td>80.000-140.000 km</td></tr>
-    <tr><td>Turbo geometri/yağ besleme</td><td>%21</td><td>8.000–17.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>Su pompası/termostat arızası</td><td>%23</td><td>2.500–4.800₺</td><td>80.000-120.000 km</td></tr>
-    <tr><td>Klima kompresör arızası</td><td>%18</td><td>6.500–11.500₺</td><td>100.000-180.000 km</td></tr>
+    <tr><td>DSG DQ200/DQ250 mekatronik arızası</td><td>%31</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>1.4 TSI timing zincir gevşemesi</td><td>%27</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>2.0 TDI DPF tıkanması</td><td>%43</td><td>uygun maliyetler</td><td>80.000-140.000 km</td></tr>
+    <tr><td>Turbo geometri/yağ besleme</td><td>%21</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>Su pompası/termostat arızası</td><td>%23</td><td>uygun maliyetler</td><td>80.000-120.000 km</td></tr>
+    <tr><td>Klima kompresör arızası</td><td>%18</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
   </tbody>
 </table>
 
@@ -125,12 +124,12 @@ Skoda araçları güvenilir ve ekonomik olsa da VW Grup teknolojisi paylaşımı
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>DSG DQ250/DQ381 mekatronik valf</td><td>%28</td><td>9.500–17.500₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>2.0 TDI DPF/EGR tıkanması</td><td>%44</td><td>9.500–22.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>1.8 TSI/2.0 TSI timing zincir</td><td>%24</td><td>7.500–13.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Turbo waste gate/geometri</td><td>%22</td><td>9.000–18.500₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>AdBlue sistemi sensör/pompa</td><td>%36</td><td>4.200–10.500₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Elektronik park freni arızası</td><td>%19</td><td>3.500–7.500₺</td><td>100.000-180.000 km</td></tr>
+    <tr><td>DSG DQ250/DQ381 mekatronik valf</td><td>%28</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>2.0 TDI DPF/EGR tıkanması</td><td>%44</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>1.8 TSI/2.0 TSI timing zincir</td><td>%24</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Turbo waste gate/geometri</td><td>%22</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>AdBlue sistemi sensör/pompa</td><td>%36</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Elektronik park freni arızası</td><td>%19</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
   </tbody>
 </table>
 
@@ -142,12 +141,12 @@ Skoda araçları güvenilir ve ekonomik olsa da VW Grup teknolojisi paylaşımı
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>DSG şanzıman mekatronik/kavrama</td><td>%33</td><td>10.500–18.500₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>2.0 TDI turbo/DPF arızası</td><td>%39</td><td>10.000–23.500₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>1.5 TSI timing zincir gerginliği</td><td>%26</td><td>7.000–12.500₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>4x4 Haldex pompa/conta kaçağı</td><td>%21</td><td>5.500–11.500₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Süspansiyon amortisör/salıncak</td><td>%24</td><td>6.500–13.500₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Klima kompresör/besleme</td><td>%19</td><td>7.500–13.000₺</td><td>100.000-180.000 km</td></tr>
+    <tr><td>DSG şanzıman mekatronik/kavrama</td><td>%33</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>2.0 TDI turbo/DPF arızası</td><td>%39</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>1.5 TSI timing zincir gerginliği</td><td>%26</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>4x4 Haldex pompa/conta kaçağı</td><td>%21</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Süspansiyon amortisör/salıncak</td><td>%24</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Klima kompresör/besleme</td><td>%19</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
   </tbody>
 </table>
 
@@ -168,12 +167,12 @@ Skoda araçları güvenilir ve ekonomik olsa da VW Grup teknolojisi paylaşımı
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>DSG DQ381 mekatronik/yağ kaçağı</td><td>%29</td><td>9.500–17.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>1.5 TSI timing zincir/ACT sistemi</td><td>%28</td><td>6.500–12.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>2.0 TDI DPF tıkanması</td><td>%41</td><td>8.500–20.500₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Turbo geometri arızası</td><td>%23</td><td>8.500–18.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>Haldex 4x4 pompa arızası</td><td>%22</td><td>5.200–10.500₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Infotainment ekran/yazılım</td><td>%17</td><td>4.500–11.000₺</td><td>80.000-150.000 km</td></tr>
+    <tr><td>DSG DQ381 mekatronik/yağ kaçağı</td><td>%29</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>1.5 TSI timing zincir/ACT sistemi</td><td>%28</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>2.0 TDI DPF tıkanması</td><td>%41</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Turbo geometri arızası</td><td>%23</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>Haldex 4x4 pompa arızası</td><td>%22</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Infotainment ekran/yazılım</td><td>%17</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
   </tbody>
 </table>
 
@@ -190,9 +189,9 @@ Skoda araçlarda kullanılan DSG şanzımanlar VW Grup teknolojisidir. DQ200 (7 
     <tr><th>DSG Şanzıman Tipi</th><th>Kullanıldığı Modeller</th><th>Yaygın Arıza</th><th>Tamir Maliyeti</th></tr>
   </thead>
   <tbody>
-    <tr><td>DQ200 (7 vites kuru)</td><td>Octavia, Fabia, Scala</td><td>Mekatronik, kavrama aşınması</td><td>8.500–16.500₺</td></tr>
-    <tr><td>DQ250 (6 vites yaş)</td><td>Octavia RS, Superb</td><td>Mekatronik, valf body</td><td>9.500–17.500₺</td></tr>
-    <tr><td>DQ381 (7 vites yaş)</td><td>Kodiaq, Karoq, Superb 4x4</td><td>Çift kavrama, yağ kaçağı</td><td>10.500–18.500₺</td></tr>
+    <tr><td>DQ200 (7 vites kuru)</td><td>Octavia, Fabia, Scala</td><td>Mekatronik, kavrama aşınması</td><td>uygun maliyetler</td></tr>
+    <tr><td>DQ250 (6 vites yaş)</td><td>Octavia RS, Superb</td><td>Mekatronik, valf body</td><td>uygun maliyetler</td></tr>
+    <tr><td>DQ381 (7 vites yaş)</td><td>Kodiaq, Karoq, Superb 4x4</td><td>Çift kavrama, yağ kaçağı</td><td>uygun maliyetler</td></tr>
   </tbody>
 </table>
 
@@ -218,35 +217,35 @@ Skoda motorları VW Grup EA serisidir. 1.4 TSI, 1.5 TSI, 1.8 TSI, 2.0 TSI (benzi
     <tr><th>Motor Tipi</th><th>Kullanıldığı Modeller</th><th>Kronik Arıza</th><th>Tamir Maliyeti</th></tr>
   </thead>
   <tbody>
-    <tr><td>1.4 TSI (EA211)</td><td>Octavia, Fabia, Scala</td><td>Timing zincir gerginliği</td><td>6.500–11.500₺</td></tr>
-    <tr><td>1.5 TSI (EA211 evo)</td><td>Octavia, Karoq, Kodiaq</td><td>ACT sistemi, zincir</td><td>6.500–12.000₺</td></tr>
-    <tr><td>1.8 TSI (EA888)</td><td>Superb, Octavia</td><td>Turbo, karbon birikimi</td><td>8.500–17.500₺</td></tr>
-    <tr><td>2.0 TDI (EA288)</td><td>Tüm modeller</td><td>DPF, EGR, timing zincir</td><td>8.000–22.000₺</td></tr>
+    <tr><td>1.4 TSI (EA211)</td><td>Octavia, Fabia, Scala</td><td>Timing zincir gerginliği</td><td>uygun maliyetler</td></tr>
+    <tr><td>1.5 TSI (EA211 evo)</td><td>Octavia, Karoq, Kodiaq</td><td>ACT sistemi, zincir</td><td>uygun maliyetler</td></tr>
+    <tr><td>1.8 TSI (EA888)</td><td>Superb, Octavia</td><td>Turbo, karbon birikimi</td><td>uygun maliyetler</td></tr>
+    <tr><td>2.0 TDI (EA288)</td><td>Tüm modeller</td><td>DPF, EGR, timing zincir</td><td>uygun maliyetler</td></tr>
   </tbody>
 </table>
 
 <h2>Sıkça Sorulan Sorular (SSS)</h2>
 
 <p><strong>Skoda DSG mekatronik arızası belirtileri nelerdir?</strong></p>
-<p>DSG mekatronik arızası belirtileri: vites atarken sarsıntı, vites geçişlerinde gecikme, F veya N vitese takılma, gösterge panelinde dişli sembolu ikaz lambası, vites geçişte yüksek sesli şarıltı. Arıza nedeni genellikle yağ eskimesi, basınç sensörü veya valf arızasıdır. Tamir maliyeti 8.500-17.500₺ arasındadır. Octavia, Superb, Kodiaq modellerinde %28-33 yaygınlık gösterir.</p>
+<p>DSG mekatronik arızası belirtileri: vites atarken sarsıntı, vites geçişlerinde gecikme, F veya N vitese takılma, gösterge panelinde dişli sembolu ikaz lambası, vites geçişte yüksek sesli şarıltı. Arıza nedeni genellikle yağ eskimesi, basınç sensörü veya valf arızasıdır. Tamir maliyeti uygun maliyetler arasındadır. Octavia, Superb, Kodiaq modellerinde %28-33 yaygınlık gösterir.</p>
 
 <p><strong>Skoda 2.0 TDI DPF tıkanması nasıl önlenir?</strong></p>
-<p>DPF tıkanması şehir içi kısa mesafe kullanımda rejenerasyon yetersizliği nedeniyle oluşur (%41-44 yaygınlık). Önlemek için: haftada en az 1 kez 20-30 km otoyol sürüşü yapın (120+ km/h hız), motor ısındıktan sonra min. 15 dakika sürekli sürüş, düşük kalite mazot kullanmayın, motor yağı düzenli değiştirin. DPF temizliği 80.000 km'de yapılmalı. Tıkanma durumunda temizlik 4.200-7.500₺, değişim 14.000-21.000₺.</p>
+<p>DPF tıkanması şehir içi kısa mesafe kullanımda rejenerasyon yetersizliği nedeniyle oluşur (%41-44 yaygınlık). Önlemek için: haftada en az 1 kez 20-30 km otoyol sürüşü yapın (120+ km/h hız), motor ısındıktan sonra min. 15 dakika sürekli sürüş, düşük kalite mazot kullanmayın, motor yağı düzenli değiştirin. DPF temizliği 80.000 km'de yapılmalı. Tıkanma durumunda temizlik uygun maliyetler, değişim uygun maliyetler.</p>
 
 <p><strong>Skoda 1.4 TSI timing zincir arızası nasıl anlaşılır?</strong></p>
-<p>Timing zincir gerginliği belirtileri: motor çalışırken şarıltı sesi (özellikle soğukta), devir dalgalanması, kontrol lambası yanması, motor gücünde düşüş. Nedeni yağ pompası düşük basınç ve zincir gerginlik mekanizması aşınmasıdır. 100.000 km sonrası risk %27. Erken teşhiste sadece zincir değişimi 6.500-8.500₺, geç kalınırsa supap hasar eklenince 11.500₺+. EA211 motorlarda yaygın sorun.</p>
+<p>Timing zincir gerginliği belirtileri: motor çalışırken şarıltı sesi (özellikle soğukta), devir dalgalanması, kontrol lambası yanması, motor gücünde düşüş. Nedeni yağ pompası düşük basınç ve zincir gerginlik mekanizması aşınmasıdır. 100.000 km sonrası risk %27. Erken teşhiste sadece zincir değişimi uygun maliyetler, geç kalınırsa supap hasar eklenince uygun fiyat+. EA211 motorlarda yaygın sorun.</p>
 
 <p><strong>Skoda Haldex 4x4 sistemi arızası nasıl çözülür?</strong></p>
-<p>Haldex 4x4 sistemi (Kodiaq, Karoq, Superb 4x4) elektronik kontrollü arka teker itişli sistem. Yaygın arızalar: pompa arızası, yağ kaçağı, elektromekanik kavrama aşınması. Tamir maliyeti pompa 5.200-9.500₺, conta/yağ kaçağı 2.500-5.500₺, kavrama 8.500-14.500₺. Yağ değişimi 60.000 km'de yapılmalı. Arıza yaygınlığı %21-22. Haldex arızasında arka tekerlere güç gitmez, sadece önden çeker araç olur.</p>
+<p>Haldex 4x4 sistemi (Kodiaq, Karoq, Superb 4x4) elektronik kontrollü arka teker itişli sistem. Yaygın arızalar: pompa arızası, yağ kaçağı, elektromekanik kavrama aşınması. Tamir maliyeti pompa uygun maliyetler, conta/yağ kaçağı uygun maliyetler, kavrama uygun maliyetler. Yağ değişimi 60.000 km'de yapılmalı. Arıza yaygınlığı %21-22. Haldex arızasında arka tekerlere güç gitmez, sadece önden çeker araç olur.</p>
 
 <p><strong>Skoda turbo arızası belirtileri ve maliyeti nedir?</strong></p>
-<p>Turbo arızası belirtileri: güç kaybı, siyah duman, turbo ıslık sesi, motor kontrol lambası. Nedenleri: yağ besleme yetersizliği, waste gate diyafram çatlağı, turbo geometri sıkışması. Tamir seçenekleri: geometri temizliği 2.200-4.500₺, turbo yenileme 7.500-13.500₺, orijinal turbo değişimi 14.000-23.500₺. 2.0 TDI motorlarda turbo arızası %21-23 yaygınlık gösterir. Octavia, Superb, Kodiaq modellerinde yaygın.</p>
+<p>Turbo arızası belirtileri: güç kaybı, siyah duman, turbo ıslık sesi, motor kontrol lambası. Nedenleri: yağ besleme yetersizliği, waste gate diyafram çatlağı, turbo geometri sıkışması. Tamir seçenekleri: geometri temizliği uygun maliyetler, turbo yenileme uygun maliyetler, orijinal turbo değişimi uygun maliyetler. 2.0 TDI motorlarda turbo arızası %21-23 yaygınlık gösterir. Octavia, Superb, Kodiaq modellerinde yaygın.</p>
 
 <p><strong>Skoda AdBlue sistemi arızası nasıl çözülür?</strong></p>
-<p>AdBlue sistemi arızası (2.0 TDI dizel modeller) sensör donması, kristalizasyon, pompa arızası olarak görülür. Belirtileri: "AdBlue Empty" ikaz lambası, motor gücü düşüşü, 1000 km sonra motor start vermez uyarısı. Nedeni AdBlue donma/kristalizasyon, sensör arızası, pompa tıkanması. Tamir maliyeti sensör 2.200-5.500₺, pompa 4.200-8.500₺, tank temizliği 1.500-3.500₺. %36 yaygınlık (Superb). Kış aylarında donma riski yüksek.</p>
+<p>AdBlue sistemi arızası (2.0 TDI dizel modeller) sensör donması, kristalizasyon, pompa arızası olarak görülür. Belirtileri: "AdBlue Empty" ikaz lambası, motor gücü düşüşü, 1000 km sonra motor start vermez uyarısı. Nedeni AdBlue donma/kristalizasyon, sensör arızası, pompa tıkanması. Tamir maliyeti sensör uygun maliyetler, pompa uygun maliyetler, tank temizliği uygun maliyetler. %36 yaygınlık (Superb). Kış aylarında donma riski yüksek.</p>
 
 <p><strong>Skoda periyodik bakım maliyeti nedir?</strong></p>
-<p>Skoda periyodik bakım (15.000 km) maliyeti: motor yağı (5W-30 sentetik) + filtre 1.800-3.500₺, fren hidroliği değişimi (2 yıl) 1.200-2.500₺, klima bakımı 850-1.800₺, DSG yağı (80.000 km) 3.500-5.500₺. Yıllık ortalama bakım maliyeti (15.000 km/yıl) 3.500-6.500₺. Yetkili servis %50-70 daha pahalı. Skoda bakım maliyeti VW'den %15-20 daha ekonomik.</p>
+<p>Skoda periyodik bakım (15.000 km) maliyeti: motor yağı (5W-30 sentetik) + filtre uygun maliyetler, fren hidroliği değişimi (2 yıl) uygun maliyetler, klima bakımı 850-uygun fiyat, DSG yağı (80.000 km) uygun maliyetler. Yıllık ortalama bakım maliyeti (15.000 km/yıl) uygun maliyetler. Yetkili servis %50-70 daha pahalı. Skoda bakım maliyeti VW'den %15-20 daha ekonomik.</p>
 
 <h2>Müşteri Yorumları</h2>
 
@@ -258,7 +257,7 @@ Skoda motorları VW Grup EA serisidir. 1.4 TSI, 1.5 TSI, 1.8 TSI, 2.0 TSI (benzi
       <span class="review-stars">★★★★★</span>
       <span class="review-date">2 hafta önce</span>
     </div>
-    <p class="review-text">2017 Skoda Octavia 1.6 TDI - DSG şanzıman mekatronik arızası. Yetkili servis 17.000₺ istedi, Yıldızlar Grup 9.200₺'ye hallettiler. Araç mükemmel çalışıyor, kesinlikle tavsiye ederim.</p>
+    <p class="review-text">2017 Skoda Octavia 1.6 TDI - DSG şanzıman mekatronik arızası. Yetkili servis uygun fiyat istedi, Yıldızlar Grup uygun fiyat'ye hallettiler. Araç mükemmel çalışıyor, kesinlikle tavsiye ederim.</p>
   </div>
 </div>
 
@@ -270,7 +269,7 @@ Skoda motorları VW Grup EA serisidir. 1.4 TSI, 1.5 TSI, 1.8 TSI, 2.0 TSI (benzi
       <span class="review-stars">★★★★★</span>
       <span class="review-date">3 hafta önce</span>
     </div>
-    <p class="review-text">Skoda Superb 2.0 TDI - DPF tıkanması sorunu vardı. Yetkili servis 21.000₺ dedi, burada 10.500₺'ye temizlik ve bakımını yaptılar. Profesyonel işçilik.</p>
+    <p class="review-text">Skoda Superb 2.0 TDI - DPF tıkanması sorunu vardı. Yetkili servis uygun fiyat dedi, burada uygun fiyat'ye temizlik ve bakımını yaptılar. Profesyonel işçilik.</p>
   </div>
 </div>
 
@@ -294,7 +293,7 @@ Skoda motorları VW Grup EA serisidir. 1.4 TSI, 1.5 TSI, 1.8 TSI, 2.0 TSI (benzi
       <span class="review-stars">★★★★★</span>
       <span class="review-date">2 hafta önce</span>
     </div>
-    <p class="review-text">Skoda Karoq 2.0 TDI - Turbo ve DPF arızası. Yetkili servis 24.000₺ istedi, burada 13.500₺'ye hem turbo hem DPF değişti. Hızlı, ekonomik, profesyonel.</p>
+    <p class="review-text">Skoda Karoq 2.0 TDI - Turbo ve DPF arızası. Yetkili servis uygun fiyat istedi, burada uygun fiyat'ye hem turbo hem DPF değişti. Hızlı, ekonomik, profesyonel.</p>
   </div>
 </div>
 
@@ -323,3 +322,4 @@ Skoda motorları VW Grup EA serisidir. 1.4 TSI, 1.5 TSI, 1.8 TSI, 2.0 TSI (benzi
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00 - 18:00, Cumartesi 09:00 - 14:00</p>
+

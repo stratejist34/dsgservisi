@@ -1,13 +1,13 @@
 ---
-title: "Porsche Şanzıman Tamiri Fiyatları"
-description: "Porsche şanzıman tamiri fiyatları: PDK şanzıman tamiri fiyatları. 911, Cayenne, Macan, Panamera modellerinde valf body, çift kavrama, mekatronik tamiri fiyatları."
+title: "Porsche Şanzıman Tamiri Hizmetleri"
+description: "Porsche şanzıman tamiri hizmetleri: PDK şanzıman tamiri hizmetleri. 911, Cayenne, Macan, Panamera modellerinde valf body, çift kavrama, mekatronik tamiri hizmetleri."
 category: "Porsche"
-tags: ["porsche", "şanzıman", "şanzıman tamiri", "pdk", "fiyat"]
+tags: ["porsche", "şanzıman", "şanzıman tamiri", "pdk"]
 slug: "porsche-sanziman-tamiri-fiyatlari"
 publishDate: "2025-11-14T09:00:00+03:00"
 updatedDate: "2025-11-14T09:00:00+03:00"
 featuredImage: "/images/blog/porsche-sanziman-tamiri-fiyatlari.jpg"
-imageAlt: "Porsche şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Porsche şanzıman tamiri hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/porsche-sanziman-tamiri-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Porsche Şanzıman Tamiri"
 serviceType: "Şanzıman Onarımı"
 serviceDescription: "Porsche araçlarında PDK şanzıman tamiri hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 15000
-highPrice: 35000
-priceCurrency: "TRY"
-offerUrl: "/porsche-sanziman-tamiri-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Porsche araçlarında şanzıman arızaları motor performansını ve güvenliğ
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Porsche şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. PDK yağ değişimi 60.000 km'de mutlaka yapılmalıdır (diğer markalardan daha kısa periyot). Yağ değişimi 7.500-14.000₺; değişmezse valf body arızası 15.000-32.000₺, çift kavrama arızası 18.000-35.000₺. Yüksek performans kullanımda bakım periyodu kısalır.
+**UZMAN TAVSİYESİ:** Porsche şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. PDK yağ değişimi 60.000 km'de mutlaka yapılmalıdır (diğer markalardan daha kısa periyot). Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler, çift kavrama arızası uygun maliyetler. Yüksek performans kullanımda bakım periyodu kısalır.
 
 :::
 
@@ -44,14 +40,14 @@ Porsche araçlarında şanzıman arızaları motor performansını ve güvenliğ
 
 :::
 
-## Porsche Şanzıman Tamiri Fiyatları 2025 (Genel)
+## Porsche Şanzıman Tamiri Hizmetleri (Genel)
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | --- | ---: | --- |
-| PDK 7-Speed (DL501) | 911, Cayenne, Macan, Panamera | Valf body, çift kavrama | 15.000–32.000₺ | 2-5 gün |
-| PDK 8-Speed (PDK-2) | 992 911, Panamera G2 | Mekatronik, kavrama aşınması | 17.000–35.000₺ | 2-5 gün |
+| PDK 7-Speed (DL501) | 911, Cayenne, Macan, Panamera | Valf body, çift kavrama | 📞 Fiyat Sorunuz | 2-5 gün |
+| PDK 8-Speed (PDK-2) | 992 911, Panamera G2 | Mekatronik, kavrama aşınması | 📞 Fiyat Sorunuz | 2-5 gün |
 
-## Şanzıman Tipine Göre Tamir Fiyatları
+## Şanzıman Tipine Göre Tamir Hizmetleri
 
 ### PDK 7-Speed (DL501) Şanzıman Tamiri
 
@@ -59,11 +55,11 @@ PDK 7-Speed (DL501) 7 vites çift kavramalı şanzımandır. ZF ile ortak geliş
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Valf body revizyonu | 15.000–26.000₺ | 2-4 gün | %24 |
-| Çift kavrama değişimi | 18.000–32.000₺ | 3-5 gün | %22 |
-| Mekatronik revizyonu | 16.000–28.000₺ | 2-4 gün | %20 |
-| Yağ kaçağı tamiri | 7.000–13.000₺ | 1-2 gün | %19 |
-| Tam revizyon | 28.000–45.000₺ | 4-6 gün | %18 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %24 |
+| Çift kavrama değişimi | 📞 Fiyat Sorunuz | 3-5 gün | %22 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %20 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %19 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-6 gün | %18 |
 
 **PDK 7-Speed Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -78,11 +74,11 @@ PDK 8-Speed (PDK-2) 8 vites çift kavramalı şanzımandır. Yeni 992 911 ve Pan
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 17.000–28.000₺ | 2-4 gün | %26 |
-| Kavrama aşınması tamiri | 20.000–35.000₺ | 3-5 gün | %24 |
-| Valf body revizyonu | 16.000–27.000₺ | 2-4 gün | %22 |
-| Yağ kaçağı tamiri | 7.500–13.500₺ | 1-2 gün | %20 |
-| Tam revizyon | 30.000–48.000₺ | 4-6 gün | %18 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %26 |
+| Kavrama aşınması tamiri | 📞 Fiyat Sorunuz | 3-5 gün | %24 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %22 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %20 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-6 gün | %18 |
 
 **PDK 8-Speed Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -91,33 +87,33 @@ PDK 8-Speed (PDK-2) 8 vites çift kavramalı şanzımandır. Yeni 992 911 ve Pan
 - Kontrol panelinde ikaz lambası
 - Performans düşüşü
 
-## Model Bazlı Şanzıman Tamiri Fiyatları
+## Model Bazlı Şanzıman Tamiri Hizmetleri
 
 ### Porsche 911 (991, 992) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| PDK 7-Speed | Valf body, çift kavrama | 16.000–32.000₺ | 2-5 gün |
-| PDK 8-Speed | Mekatronik, kavrama aşınması | 17.000–35.000₺ | 2-5 gün |
+| PDK 7-Speed | Valf body, çift kavrama | 📞 Fiyat Sorunuz | 2-5 gün |
+| PDK 8-Speed | Mekatronik, kavrama aşınması | 📞 Fiyat Sorunuz | 2-5 gün |
 
 ### Porsche Cayenne (958, 9YA) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| PDK 7-Speed | Valf body, çift kavrama | 15.000–28.000₺ | 2-5 gün |
+| PDK 7-Speed | Valf body, çift kavrama | 📞 Fiyat Sorunuz | 2-5 gün |
 
 ### Porsche Macan (95B) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| PDK 7-Speed | Mekatronik, valf body | 16.000–30.000₺ | 2-4 gün |
+| PDK 7-Speed | Mekatronik, valf body | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Porsche Panamera (970, 971) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| PDK 7-Speed | Tork konvertör, valf body | 18.000–32.000₺ | 3-5 gün |
-| PDK 8-Speed | Mekatronik, kavrama aşınması | 17.000–35.000₺ | 2-5 gün |
+| PDK 7-Speed | Tork konvertör, valf body | 📞 Fiyat Sorunuz | 3-5 gün |
+| PDK 8-Speed | Mekatronik, kavrama aşınması | 📞 Fiyat Sorunuz | 2-5 gün |
 
 ## Şanzıman Arıza Türleri ve Çözümleri
 
@@ -127,10 +123,10 @@ Valf body, PDK şanzımanın hidrolik kontrol ünitesidir. Yağ eskimesi ve sole
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Valf body revizyonu | 15.000–27.000₺ | 2-4 gün |
-| Valf body değişimi | 22.000–35.000₺ | 3-5 gün |
-| Solenoid değişimi | 8.000–14.000₺ | 1-2 gün |
-| Valf body temizliği | 5.000–10.000₺ | 1-2 gün |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 3-5 gün |
+| Solenoid değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Valf body temizliği | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Çift Kavrama Arızası
 
@@ -138,9 +134,9 @@ PDK şanzıman çift kavramalıdır. Aşınma ve yıpranma yaygındır.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Çift kavrama değişimi | 18.000–35.000₺ | 3-5 gün |
-| Kavrama revizyonu | 14.000–28.000₺ | 2-4 gün |
-| Kavrama aşınması tamiri | 12.000–24.000₺ | 2-4 gün |
+| Çift kavrama değişimi | 📞 Fiyat Sorunuz | 3-5 gün |
+| Kavrama revizyonu | 📞 Fiyat Sorunuz | 2-4 gün |
+| Kavrama aşınması tamiri | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Mekatronik Arızası
 
@@ -148,9 +144,9 @@ Mekatronik, PDK şanzımanın elektronik kontrol ünitesidir. Özellikle PDK 8-S
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Mekatronik revizyonu | 16.000–28.000₺ | 2-4 gün |
-| Mekatronik değişimi | 20.000–32.000₺ | 3-5 gün |
-| Elektronik modül değişimi | 9.000–16.000₺ | 1-2 gün |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-4 gün |
+| Mekatronik değişimi | 📞 Fiyat Sorunuz | 3-5 gün |
+| Elektronik modül değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Yağ Kaçağı Tamiri
 
@@ -158,16 +154,16 @@ Mekatronik, PDK şanzımanın elektronik kontrol ünitesidir. Özellikle PDK 8-S
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Keçe değişimi | 7.000–13.000₺ | Aynı gün |
-| Conta değişimi | 7.500–13.500₺ | 1 gün |
-| Gövde tamiri | 11.000–20.000₺ | 2-3 gün |
+| Keçe değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Conta değişimi | 📞 Fiyat Sorunuz | 1 gün |
+| Gövde tamiri | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ## Şanzıman Bakım Önerileri
 
 :::note
 
 - PDK yağ değişimi 60.000 km'de mutlaka yapılmalı (diğer markalardan daha kısa)
-- Yağ değişimi 7.500-14.000₺; değişmezse valf body arızası 15.000-32.000₺
+- Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler
 - Çift kavrama kontrolü 100.000 km'de yapılmalı
 - Yüksek performans kullanımda bakım periyodu kısalır
 - Erken teşhis %50'ye varan maliyet tasarrufu sağlar
@@ -188,7 +184,7 @@ Mekatronik, PDK şanzımanın elektronik kontrol ünitesidir. Özellikle PDK 8-S
 
 - **15+ Yıl Deneyim:** Porsche şanzıman tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-6 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Porsche servisi
@@ -261,7 +257,7 @@ Mekatronik, PDK şanzımanın elektronik kontrol ünitesidir. Özellikle PDK 8-S
 
 ### Porsche şanzıman tamiri fiyatı ne kadar?
 
-Porsche şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. PDK 7-Speed valf body revizyonu 15.000-26.000₺, çift kavrama değişimi 18.000-32.000₺, PDK 8-Speed mekatronik revizyonu 17.000-28.000₺, kavrama aşınması tamiri 20.000-35.000₺ arasındadır.
+Porsche şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. PDK 7-Speed valf body revizyonu uygun maliyetler, çift kavrama değişimi uygun maliyetler, PDK 8-Speed mekatronik revizyonu uygun maliyetler, kavrama aşınması tamiri uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Porsche PDK şanzıman arızası belirtileri nelerdir?
 
@@ -269,7 +265,7 @@ PDK şanzıman arızası belirtileri: vites geçişlerinde sarsıntı, vites ata
 
 ### Porsche PDK şanzıman yağı ne zaman değiştirilmeli?
 
-PDK şanzıman yağı 60.000 km'de değiştirilmelidir (diğer markalardan daha kısa periyot). Üretici "ömür boyu yağ" iddiasında bulunsa da pratikte 60.000 km sonrası yağ eskir, valf body arızası riski %40 artar. Yağ değişimi 7.500-14.000₺; değişmezse valf body arızası 15.000-32.000₺.
+PDK şanzıman yağı 60.000 km'de değiştirilmelidir (diğer markalardan daha kısa periyot). Üretici "ömür boyu yağ" iddiasında bulunsa da pratikte 60.000 km sonrası yağ eskir, valf body arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler.
 
 ### Porsche şanzıman tamiri ne kadar sürer?
 
@@ -293,9 +289,10 @@ Yıldızlar Grup'ta Porsche şanzıman tamiri fiyatları yetkili servise göre %
 
 ### Porsche PDK çift kavrama arızası ne kadar?
 
-PDK çift kavrama değişimi 18.000-35.000₺ arasındadır. 100.000-150.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Çift kavrama aşınması yüksek performans kullanımda hızlanır.
+PDK çift kavrama değişimi uygun maliyetler arasındadır. 100.000-150.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Çift kavrama aşınması yüksek performans kullanımda hızlanır.
 
 ### Porsche PDK valf body tamiri ne kadar?
 
-PDK valf body revizyonu 15.000-27.000₺ arasındadır. Yağ eskimesi ve solenoid arızaları yaygındır. Erken teşhis ve yağ değişimi valf body arızasını önler.
+PDK valf body revizyonu uygun maliyetler arasındadır. Yağ eskimesi ve solenoid arızaları yaygındır. Erken teşhis ve yağ değişimi valf body arızasını önler.
+
 

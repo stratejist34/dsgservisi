@@ -18,7 +18,6 @@ serviceName: "Range Rover Servis Avrupa Yakası"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "İstanbul Avrupa Yakası bölgelerine Range Rover ZF şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar", "Bahçeşehir", "Küçükçekmece", "Başakşehir"]
-offerUrl: "/range-rover-servis-avrupa-yakasi"
 
 ---
 
@@ -71,7 +70,7 @@ Merkezi konumumuz sayesinde Avrupa Yakası'ndan gelen müşteriler için aynı g
 
 ### Şeffaf Fiyatlandırma
 
-Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Range Rover Servis Hizmetlerimiz (Avrupa Yakası)
 
@@ -90,41 +89,41 @@ Avrupa Yakası bölgelerinden gelen tüm müşterilerimiz için ön görüşme s
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| Hava süspansiyon kompresör/körük | %44 | 16.000–34.000₺ | 80.000–150.000 km |
-| ZF 8HP şanzıman valf‑body | %36 | 18.000–38.000₺ | 120.000–200.000 km |
-| 3.0 TDV6 timing zincir gerginliği | %32 | 12.000–24.000₺ | 100.000–180.000 km |
-| Turbo intercooler sızıntısı | %34 | 14.000–28.000₺ | 100.000–180.000 km |
-| Elektronik kontrol ünitesi (ECU/TCM) | %41 | 9.000–22.000₺ | 80.000–150.000 km |
+| Hava süspansiyon kompresör/körük | %44 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| ZF 8HP şanzıman valf‑body | %36 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| 3.0 TDV6 timing zincir gerginliği | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo intercooler sızıntısı | %34 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Elektronik kontrol ünitesi (ECU/TCM) | %41 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Range Rover Sport (L494) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| Hava süspansiyon arızası | %43 | 15.000–32.000₺ | 80.000–150.000 km |
-| ZF 8HP şanzıman problemi | %38 | 17.000–36.000₺ | 120.000–200.000 km |
-| 3.0 TDV6 timing zincir | %35 | 11.000–23.000₺ | 100.000–180.000 km |
-| Turbo arızası | %33 | 13.000–27.000₺ | 100.000–180.000 km |
-| InControl Touch sistem arızası | %39 | 8.000–20.000₺ | 80.000–150.000 km |
+| Hava süspansiyon arızası | %43 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| ZF 8HP şanzıman problemi | %38 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| 3.0 TDV6 timing zincir | %35 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo arızası | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| InControl Touch sistem arızası | %39 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Range Rover Evoque – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| Haldex 4x4 sistemi | %37 | 10.000–22.000₺ | 80.000–140.000 km |
-| 2.0 TDI timing zincir | %34 | 9.000–18.000₺ | 90.000–160.000 km |
-| Turbo arızası | %31 | 11.000–25.000₺ | 90.000–160.000 km |
-| Elektronik arızalar | %36 | 7.000–16.000₺ | 70.000–130.000 km |
+| Haldex 4x4 sistemi | %37 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| 2.0 TDI timing zincir | %34 | 📞 Fiyat Sorunuz | 90.000–160.000 km |
+| Turbo arızası | %31 | 📞 Fiyat Sorunuz | 90.000–160.000 km |
+| Elektronik arızalar | %36 | 📞 Fiyat Sorunuz | 70.000–130.000 km |
 
-## Range Rover Periyodik Bakım Fiyatları 2025
+## Range Rover Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 4.500–9.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 8.000–14.000₺ | 30.000 km | Aynı gün |
-| ZF 8HP yağ değişimi | 6.500–12.000₺ | 80.000 km | Aynı gün |
-| Hava süspansiyon kontrolü | 2.500–4.500₺ | 30.000 km | Aynı gün |
-| Fren balata (ön/arka) | 8.000–16.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 3.500–6.500₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| ZF 8HP yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Hava süspansiyon kontrolü | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Avrupa Yakası'ndan Ulaşım
 
@@ -232,4 +231,5 @@ Evet, metrobüs ile Beylikdüzü istasyonundan veya otobüs ile Büyükçekmece 
 ### Avrupa Yakası bölgelerinden servisinize ödeme seçenekleri nelerdir?
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
+
 

@@ -20,7 +20,6 @@ serviceName: "Mercedes Özel Servis"
 serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Mercedes 7G-Tronic şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/mercedes-ozel-servis"
 
 ---
 
@@ -109,12 +108,12 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>7G-Tronic valf body/conductor plate</td><td>%34</td><td>14.000–28.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>OM651 2.2 CDI timing zincir gerginliği</td><td>%36</td><td>9.000–18.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Turbo yağ besleme/geometri</td><td>%29</td><td>11.000–24.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>AdBlue sensör/pompa arızası</td><td>%41</td><td>4.500–12.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Ön salıncak/rotil aşınması</td><td>%24</td><td>6.500–13.000₺</td><td>80.000-140.000 km</td></tr>
-    <tr><td>Klima kompresör/besleme</td><td>%19</td><td>7.500–14.000₺</td><td>100.000-180.000 km</td></tr>
+    <tr><td>7G-Tronic valf body/conductor plate</td><td>%34</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>OM651 2.2 CDI timing zincir gerginliği</td><td>%36</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Turbo yağ besleme/geometri</td><td>%29</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>AdBlue sensör/pompa arızası</td><td>%41</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Ön salıncak/rotil aşınması</td><td>%24</td><td>uygun maliyetler</td><td>80.000-140.000 km</td></tr>
+    <tr><td>Klima kompresör/besleme</td><td>%19</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
   </tbody>
 </table>
 
@@ -134,11 +133,11 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>7G-Tronic tork konvertör titreşimi</td><td>%28</td><td>20.000–38.000₺</td><td>150.000-250.000 km</td></tr>
-    <tr><td>Hava süspansiyon (Airmatic) kompresör</td><td>%27</td><td>14.000–26.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>OM642 3.0 V6 DPF tıkanması</td><td>%39</td><td>15.000–32.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Turbo geometri/yağlama</td><td>%26</td><td>12.000–25.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>Elektronik valf (EGR) arızası</td><td>%31</td><td>5.500–11.000₺</td><td>100.000-180.000 km</td></tr>
+    <tr><td>7G-Tronic tork konvertör titreşimi</td><td>%28</td><td>uygun maliyetler</td><td>150.000-250.000 km</td></tr>
+    <tr><td>Hava süspansiyon (Airmatic) kompresör</td><td>%27</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>OM642 3.0 V6 DPF tıkanması</td><td>%39</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Turbo geometri/yağlama</td><td>%26</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>Elektronik valf (EGR) arızası</td><td>%31</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
   </tbody>
 </table>
 
@@ -150,10 +149,10 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>7-Speed DCT (DSG) mekatronik</td><td>%31</td><td>10.000–18.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>M270/M274 motor timing zincir</td><td>%33</td><td>8.000–15.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Turbo yağ tüketimi/besleme</td><td>%24</td><td>9.000–18.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Ön salıncak burç aşınması</td><td>%28</td><td>5.500–10.000₺</td><td>60.000-120.000 km</td></tr>
+    <tr><td>7-Speed DCT (DSG) mekatronik</td><td>%31</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>M270/M274 motor timing zincir</td><td>%33</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Turbo yağ tüketimi/besleme</td><td>%24</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Ön salıncak burç aşınması</td><td>%28</td><td>uygun maliyetler</td><td>60.000-120.000 km</td></tr>
   </tbody>
 </table>
 
@@ -175,10 +174,10 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>9G-Tronic şanzıman adaptasyon</td><td>%22</td><td>3.500–7.500₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Hava süspansiyon körük çatlama</td><td>%29</td><td>8.000–16.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Turbo yağ besleme (OM656)</td><td>%21</td><td>11.000–22.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>DPF/AdBlue kombine arıza</td><td>%38</td><td>18.000–35.000₺</td><td>100.000-180.000 km</td></tr>
+    <tr><td>9G-Tronic şanzıman adaptasyon</td><td>%22</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Hava süspansiyon körük çatlama</td><td>%29</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Turbo yağ besleme (OM656)</td><td>%21</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>DPF/AdBlue kombine arıza</td><td>%38</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
   </tbody>
 </table>
 
@@ -212,11 +211,11 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
     <tr><th>Arıza/Bakım</th><th>Maliyet</th><th>Süre</th><th>Garanti</th></tr>
   </thead>
   <tbody>
-    <tr><td>Şanzıman yağ + filtre değişimi</td><td>6.500–11.000₺</td><td>Aynı gün</td><td>1 yıl</td></tr>
-    <tr><td>Conductor plate değişimi</td><td>8.000–16.000₺</td><td>1-2 gün</td><td>2 yıl</td></tr>
-    <tr><td>Valf body tamiri/yenileme</td><td>14.000–28.000₺</td><td>2-4 gün</td><td>2 yıl</td></tr>
-    <tr><td>Tork konvertör değişimi</td><td>20.000–38.000₺</td><td>3-5 gün</td><td>2 yıl</td></tr>
-    <tr><td>Şanzıman revizyonu (komple)</td><td>28.000–50.000₺</td><td>5-7 gün</td><td>2 yıl</td></tr>
+    <tr><td>Şanzıman yağ + filtre değişimi</td><td>uygun maliyetler</td><td>Aynı gün</td><td>1 yıl</td></tr>
+    <tr><td>Conductor plate değişimi</td><td>uygun maliyetler</td><td>1-2 gün</td><td>2 yıl</td></tr>
+    <tr><td>Valf body tamiri/yenileme</td><td>uygun maliyetler</td><td>2-4 gün</td><td>2 yıl</td></tr>
+    <tr><td>Tork konvertör değişimi</td><td>uygun maliyetler</td><td>3-5 gün</td><td>2 yıl</td></tr>
+    <tr><td>Şanzıman revizyonu (komple)</td><td>uygun maliyetler</td><td>5-7 gün</td><td>2 yıl</td></tr>
   </tbody>
 </table>
 
@@ -225,17 +224,17 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
 <h3>OM651 2.2 CDI Timing Zincir Gerginliği</h3>
 <p>2009-2018 arası OM651 2.2 CDI dizel motorlarda timing zincir gerginliği fabrikasyon kusur. Zincir gevşemesi supap zamanlamasını bozar; motor titremeye başlar, güç kaybı yaşanır, arıza lambası yanar. İhmal edilirse supap-piston çarpışması riski %22'dir.</p>
 <p><strong>Belirtiler:</strong> Soğuk çalıştırmada zincir sesi, motor titremesi, arıza lambası (P0016, P0017 kodları).</p>
-<p><strong>Çözüm:</strong> Timing zincir, gergi, rehber, zincir kasnak değişimi. Maliyet: 9.000-18.000₺.</p>
+<p><strong>Çözüm:</strong> Timing zincir, gergi, rehber, zincir kasnak değişimi. Maliyet: uygun maliyetler.</p>
 
 <h3>M270/M274 Turbo Motor Timing Zincir ve Yağ Tüketimi</h3>
 <p>2012-2018 M270 (1.6T) ve M274 (2.0T) motorlarda timing zincir gerginliği (%33) ve turbo yağ tüketimi (%24) yaygındır. Segman elastikiyeti kaybı yağ tüketimine, zincir gerginliği motor hasarına yol açar.</p>
 <p><strong>Belirtiler:</strong> Motor titremesi, yağ tüketimi, turbo ıslık sesi, arıza lambası.</p>
-<p><strong>Çözüm:</strong> Timing zincir seti + turbo revizyon. Maliyet: 12.000-24.000₺.</p>
+<p><strong>Çözüm:</strong> Timing zincir seti + turbo revizyon. Maliyet: uygun maliyetler.</p>
 
 <h3>OM642 3.0 V6 DPF Tıkanması ve EGR Arızası</h3>
 <p>OM642 3.0 V6 dizel motorlarda DPF tıkanması (%39) ve EGR valfi karbon birikimi (%31) yaygındır. Şehir içi kısa mesafe kullanımda rejenerasyon yetersizliği DPF'i tıkar.</p>
 <p><strong>Belirtiler:</strong> Motor gücü düşüşü, arıza lambası, DPF ikaz lambası, yüksek yakıt tüketimi.</p>
-<p><strong>Çözüm:</strong> DPF temizliği (12.000-18.000₺) veya yeni DPF (20.000-32.000₺) + EGR temizliği.</p>
+<p><strong>Çözüm:</strong> DPF temizliği (Fiyat Sorunuz) veya yeni DPF (Fiyat Sorunuz) + EGR temizliği.</p>
 
 <div class="cta-box">
   <strong>Motor arızası teşhisi:</strong>
@@ -252,10 +251,10 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
     <tr><th>AdBlue Arıza</th><th>Maliyet</th><th>Süre</th></tr>
   </thead>
   <tbody>
-    <tr><td>AdBlue sensör değişimi</td><td>3.500–7.500₺</td><td>Aynı gün</td></tr>
-    <tr><td>AdBlue pompası değişimi</td><td>6.500–12.000₺</td><td>1-2 gün</td></tr>
-    <tr><td>AdBlue tank temizliği/kristal giderme</td><td>4.500–9.000₺</td><td>1 gün</td></tr>
-    <tr><td>SCR katalizör değişimi</td><td>18.000–32.000₺</td><td>2-3 gün</td></tr>
+    <tr><td>AdBlue sensör değişimi</td><td>uygun maliyetler</td><td>Aynı gün</td></tr>
+    <tr><td>AdBlue pompası değişimi</td><td>uygun maliyetler</td><td>1-2 gün</td></tr>
+    <tr><td>AdBlue tank temizliği/kristal giderme</td><td>uygun maliyetler</td><td>1 gün</td></tr>
+    <tr><td>SCR katalizör değişimi</td><td>uygun maliyetler</td><td>2-3 gün</td></tr>
   </tbody>
 </table>
 
@@ -266,10 +265,10 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
     <tr><th>Airmatic Arıza</th><th>Maliyet</th><th>Süre</th></tr>
   </thead>
   <tbody>
-    <tr><td>Hava kompresör yenileme</td><td>12.000–22.000₺</td><td>1-2 gün</td></tr>
-    <tr><td>Hava körüğü (1 adet)</td><td>4.000–8.000₺</td><td>Aynı gün</td></tr>
-    <tr><td>Hava valf/selenoid</td><td>3.500–7.000₺</td><td>Aynı gün</td></tr>
-    <tr><td>Komple sistem revizyonu</td><td>20.000–38.000₺</td><td>2-4 gün</td></tr>
+    <tr><td>Hava kompresör yenileme</td><td>uygun maliyetler</td><td>1-2 gün</td></tr>
+    <tr><td>Hava körüğü (1 adet)</td><td>uygun maliyetler</td><td>Aynı gün</td></tr>
+    <tr><td>Hava valf/selenoid</td><td>uygun maliyetler</td><td>Aynı gün</td></tr>
+    <tr><td>Komple sistem revizyonu</td><td>uygun maliyetler</td><td>2-4 gün</td></tr>
   </tbody>
 </table>
 
@@ -279,11 +278,11 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
     <tr><th>Bakım Türü</th><th>Maliyet</th><th>Periyot</th></tr>
   </thead>
   <tbody>
-    <tr><td>Küçük bakım (yağ + filtre)</td><td>3.200–6.500₺</td><td>15.000 km</td></tr>
-    <tr><td>Büyük bakım (yağ, filtre, hava, polen, yakıt)</td><td>5.500–10.000₺</td><td>30.000 km</td></tr>
-    <tr><td>Fren balata (ön/arka)</td><td>5.500–11.000₺</td><td>40.000-60.000 km</td></tr>
-    <tr><td>Klima bakım (gaz, temizlik)</td><td>2.500–5.000₺</td><td>Yıllık</td></tr>
-    <tr><td>7G-Tronic şanzıman yağ</td><td>6.500–11.000₺</td><td>80.000 km</td></tr>
+    <tr><td>Küçük bakım (yağ + filtre)</td><td>uygun maliyetler</td><td>15.000 km</td></tr>
+    <tr><td>Büyük bakım (yağ, filtre, hava, polen, yakıt)</td><td>uygun maliyetler</td><td>30.000 km</td></tr>
+    <tr><td>Fren balata (ön/arka)</td><td>uygun maliyetler</td><td>40.000-60.000 km</td></tr>
+    <tr><td>Klima bakım (gaz, temizlik)</td><td>uygun maliyetler</td><td>Yıllık</td></tr>
+    <tr><td>7G-Tronic şanzıman yağ</td><td>uygun maliyetler</td><td>80.000 km</td></tr>
   </tbody>
 </table>
 
@@ -326,7 +325,7 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
 <p>Soğuk çalıştırmada zincir sesi, motor titremesi, arıza lambası (P0016, P0017) belirtileri vardır. Erken müdahale motor hasarını önler.</p>
 
 <h3>Mercedes AdBlue arızası nasıl çözülür?</h3>
-<p>Sensör veya pompa değişimi gerekir. Kristalizasyon varsa tank temizliği yapılır. Maliyet: 3.500-12.000₺.</p>
+<p>Sensör veya pompa değişimi gerekir. Kristalizasyon varsa tank temizliği yapılır. Maliyet: uygun maliyetler.</p>
 
 <h2>Google Harita ve Yorumlar</h2>
 <div class="map-embed">
@@ -339,3 +338,4 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi-Cumartesi 08:30-18:30, Pazar kapalı</p>
+

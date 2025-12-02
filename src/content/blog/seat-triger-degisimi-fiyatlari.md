@@ -1,13 +1,13 @@
 ---
-title: "Seat Triger Değişimi Fiyatları"
-description: "Seat triger değişimi fiyatları: Leon, Ibiza, Arona, Ateca, Tarraco modellerinde timing chain değişimi fiyatları. Detaylı fiyat tablosu ve değişim periyotları."
+title: "Seat Triger Değişimi Hizmetleri"
+description: "Seat triger değişimi hizmetleri: Leon, Ibiza, Arona, Ateca, Tarraco modellerinde timing chain değişimi hizmetleri. Detaylı hizmet tablosu ve değişim periyotları."
 category: "Seat"
-tags: ["seat", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
+tags: ["seat", "triger", "triger değişimi", "timing chain", "bakım"]
 slug: "seat-triger-degisimi-fiyatlari"
 publishDate: "2025-11-12T14:00:00+03:00"
 updatedDate: "2025-11-12T14:00:00+03:00"
 featuredImage: "/images/blog/seat-triger-degisimi-fiyatlari.jpg"
-imageAlt: "Seat triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Seat triger değişimi hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/seat-triger-degisimi-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Seat Triger Değişimi"
 serviceType: "Motor Bakımı"
 serviceDescription: "Seat araçlarında triger zinciri değişimi hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 5500
-highPrice: 11500
-priceCurrency: "TRY"
-offerUrl: "/seat-triger-degisimi-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Seat araçlarında triger değişimi motorun en kritik bakım işlemlerinden bir
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Seat'te triger zinciri kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Triger zinciri koparsa motor hasarı 15.000-30.000₺ arasında maliyet oluşturur. Erken değişim maliyeti 5.500-11.500₺; koparsa tamir 15.000-30.000₺.
+**UZMAN TAVSİYESİ:** Seat'te triger zinciri kontrolü 100.000 km'de yapılmalı, değişim gerekiyorsa 100.000-180.000 km arasında yapılır. Triger zinciri koparsa motor hasarı çok yüksek maliyetler oluşturur. Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::
 
@@ -44,21 +40,21 @@ Seat araçlarında triger değişimi motorun en kritik bakım işlemlerinden bir
 
 :::
 
-## Seat Triger Değişimi Fiyatları 2025 (Genel)
+## Seat Triger Değişimi Hizmetleri (Genel)
 
 | Model | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | --- | ---: | --- | --- |
-| Leon (5F, KL) | 1.4/1.5/2.0 TSI | Zincir | 6.500–11.500₺ | 100.000–180.000 km | 2-3 gün |
-| Leon (5F, KL) | 2.0 TDI | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| Ibiza (6F) | 1.0/1.4 TSI | Zincir | 5.500–10.000₺ | 100.000–180.000 km | 2-3 gün |
-| Ibiza (6F) | 1.6 TDI | Zincir | 6.000–10.500₺ | 100.000–180.000 km | 2-3 gün |
-| Ateca (KH7) | 1.5/2.0 TSI | Zincir | 6.500–11.500₺ | 100.000–180.000 km | 2-3 gün |
-| Ateca (KH7) | 2.0 TDI | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| Arona (KH7) | 1.0/1.5 TSI | Zincir | 5.500–10.500₺ | 100.000–180.000 km | 2-3 gün |
-| Tarraco (KN1) | 2.0 TSI | Zincir | 7.000–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| Tarraco (KN1) | 2.0 TDI | Zincir | 8.000–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| Leon (5F, KL) | 1.4/1.5/2.0 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Leon (5F, KL) | 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Ibiza (6F) | 1.0/1.4 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Ibiza (6F) | 1.6 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Ateca (KH7) | 1.5/2.0 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Ateca (KH7) | 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Arona (KH7) | 1.0/1.5 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Tarraco (KN1) | 2.0 TSI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Tarraco (KN1) | 2.0 TDI | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
-## Model Bazlı Triger Değişimi Fiyatları
+## Model Bazlı Triger Değişimi Hizmetleri
 
 ### Seat Leon (5F, KL) Triger Değişimi
 
@@ -66,10 +62,10 @@ Seat Leon modellerinde timing chain (triger zinciri) kullanılır. Zincir gergin
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 1.4 TSI (EA211) | Zincir | 6.500–10.000₺ | 100.000–180.000 km | 2-3 gün |
-| 1.5 TSI (EA211 evo) | Zincir | 6.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TSI (EA888) | Zincir | 8.500–11.500₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
+| 1.4 TSI (EA211) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 1.5 TSI (EA211 evo) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 **Leon Triger Değişimi İçeriği:**
 - Timing chain (triger zinciri)
@@ -84,9 +80,9 @@ Seat Ibiza modellerinde timing chain (triger zinciri) kullanılır. Zincir gergi
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 1.0 TSI (EA211 evo) | Zincir | 5.500–9.000₺ | 100.000–180.000 km | 2-3 gün |
-| 1.4 TSI (EA211) | Zincir | 6.000–10.000₺ | 100.000–180.000 km | 2-3 gün |
-| 1.6 TDI (EA288) | Zincir | 6.000–10.500₺ | 100.000–180.000 km | 2-3 gün |
+| 1.0 TSI (EA211 evo) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 1.4 TSI (EA211) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 1.6 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Seat Ateca (KH7) Triger Değişimi
 
@@ -94,9 +90,9 @@ Seat Ateca modellerinde timing chain (triger zinciri) kullanılır. Zincir gergi
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 1.5 TSI (EA211 evo) | Zincir | 6.500–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TSI (EA888) | Zincir | 7.500–11.500₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
+| 1.5 TSI (EA211 evo) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Seat Arona (KH7) Triger Değişimi
 
@@ -104,8 +100,8 @@ Seat Arona modellerinde timing chain (triger zinciri) kullanılır. Zincir gergi
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 1.0 TSI (EA211 evo) | Zincir | 5.500–9.500₺ | 100.000–180.000 km | 2-3 gün |
-| 1.5 TSI (EA211 evo) | Zincir | 6.000–10.500₺ | 100.000–180.000 km | 2-3 gün |
+| 1.0 TSI (EA211 evo) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 1.5 TSI (EA211 evo) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Seat Tarraco (KN1) Triger Değişimi
 
@@ -113,8 +109,8 @@ Seat Tarraco modellerinde timing chain (triger zinciri) kullanılır. Zincir ger
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TSI (EA888) | Zincir | 7.000–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 TDI (EA288) | Zincir | 8.000–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 TSI (EA888) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 TDI (EA288) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ## Seat Triger Zinciri Özellikleri
 
@@ -123,9 +119,9 @@ Seat araçlarında modern modellerde timing chain (triger zinciri) kullanılır.
 | Özellik | Seat Triger Zinciri |
 | --- | --- |
 | Dayanıklılık | 100.000-180.000 km |
-| Değişim Maliyeti | 5.500-11.500₺ |
+| Değişim Maliyeti | 📞 Fiyat Sorunuz |
 | Kopma Riski | Düşük (gerginlik kontrolü önemli) |
-| Motor Hasarı (Koparsa) | 15.000-30.000₺ |
+| Motor Hasarı (Koparsa) | 📞 Fiyat Sorunuz |
 | Kontrol Periyodu | 100.000 km |
 
 ## Triger Değişimi Neden Önemli?
@@ -135,9 +131,9 @@ Triger (timing chain) motorun en kritik parçalarından biridir. Supap zamanlama
 - Supap ve piston çarpışması
 - Motor bloğu hasarı
 - Silindir kapağı hasarı
-- Tam motor revizyonu gerekir (15.000-30.000₺)
+- Tam motor revizyonu gerekir (Fiyat Sorunuz)
 
-Erken değişim maliyeti 5.500-11.500₺; koparsa tamir 15.000-30.000₺.
+Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::note
 
@@ -185,7 +181,7 @@ Seat'in dizel motorlarıdır. Triger zinciri gerginliği kontrolü önemlidir.
 
 - **15+ Yıl Deneyim:** Seat triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-3 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Seat servisi
@@ -262,7 +258,7 @@ Seat araçlarında triger zinciri kontrolü 100.000 km'de yapılmalı, değişim
 
 ### Seat triger değişimi fiyatı ne kadar?
 
-Seat triger değişimi fiyatı modele ve motora göre değişir. Ibiza için 5.500-10.000₺, Leon için 6.500-11.500₺, Ateca için 6.500-11.500₺, Tarraco için 7.000-13.000₺ arasındadır.
+Seat triger değişimi fiyatı modele ve motora göre değişir. Ibiza modeli, Leon modeli, Ateca modeli, Tarraco modeli için servisimizden net fiyat alabilirsiniz.
 
 ### Seat triger zinciri mi kayışı mı?
 
@@ -270,7 +266,7 @@ Seat araçlarında modern modellerde (2000 sonrası) timing chain (triger zincir
 
 ### Seat triger koparsa ne olur?
 
-Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (15.000-30.000₺). Erken değişim maliyeti 5.500-11.500₺; koparsa tamir 15.000-30.000₺.
+Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (Fiyat Sorunuz). Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 ### Seat triger değişimi ne kadar sürer?
 
@@ -299,4 +295,5 @@ Seat triger değişimi için randevu almak için telefon (0533 262 34 51) veya W
 ### Seat triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 
 Yıldızlar Grup'ta Seat triger değişimi fiyatları yetkili servise göre %50-70 daha ekonomiktir. Aynı kalitede orijinal parça ve işçilikle hizmet sunuyoruz.
+
 

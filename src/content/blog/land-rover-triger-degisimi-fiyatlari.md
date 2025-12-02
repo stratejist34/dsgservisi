@@ -1,13 +1,13 @@
 ---
-title: "Land Rover Triger Değişimi Fiyatları"
-description: "Land Rover triger değişimi fiyatları: Range Rover, Discovery, Evoque, Defender modellerinde timing chain değişimi fiyatları. Detaylı fiyat tablosu ve değişim periyotları."
+title: "Land Rover Triger Değişimi Hizmetleri"
+description: "Land Rover triger değişimi hizmetleri: Range Rover, Discovery, Evoque, Defender modellerinde timing chain değişimi hizmetleri. Detaylı hizmet tablosu ve değişim periyotları."
 category: "Land Rover"
-tags: ["land rover", "triger", "triger değişimi", "timing chain", "fiyat", "bakım", "range rover"]
+tags: ["land rover", "triger", "triger değişimi", "timing chain", "bakım", "range rover"]
 slug: "land-rover-triger-degisimi-fiyatlari"
 publishDate: "2025-11-12T10:16:00+03:00"
 updatedDate: "2025-11-12T10:16:00+03:00"
 featuredImage: "/images/blog/land-rover-triger-degisimi-fiyatlari.jpg"
-imageAlt: "Land Rover triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Land Rover triger değişimi hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/land-rover-triger-degisimi-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Land Rover Triger Değişimi"
 serviceType: "Motor Bakımı"
 serviceDescription: "Land Rover araçlarında triger zinciri değişimi hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 6000
-highPrice: 22000
-priceCurrency: "TRY"
-offerUrl: "/land-rover-triger-degisimi-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Land Rover araçlarında triger değişimi motorun en kritik bakım işlemlerind
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Land Rover'da triger zinciri kontrolü 100.000-120.000 km'de yapılmalı, değişim gerekiyorsa 100.000-200.000 km arasında yapılır. Triger zinciri koparsa motor hasarı 25.000-45.000₺ arasında maliyet oluşturur. Erken değişim maliyeti 6.000-22.000₺; koparsa tamir 25.000-45.000₺.
+**UZMAN TAVSİYESİ:** Land Rover'da triger zinciri kontrolü 100.000-120.000 km'de yapılmalı, değişim gerekiyorsa 100.000-200.000 km arasında yapılır. Triger zinciri koparsa motor hasarı çok yüksek maliyetler oluşturur. Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::
 
@@ -44,18 +40,18 @@ Land Rover araçlarında triger değişimi motorun en kritik bakım işlemlerind
 
 :::
 
-## Land Rover Triger Değişimi Fiyatları 2025 (Genel)
+## Land Rover Triger Değişimi Hizmetleri (Genel)
 
 | Model | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | --- | ---: | --- | --- |
-| Range Rover (L322, L405) | 3.0/4.4/5.0 | Zincir | 12.000–22.000₺ | 100.000–200.000 km | 3-4 gün |
-| Range Rover Sport (L320, L494) | 3.0/5.0 | Zincir | 11.000–20.000₺ | 100.000–200.000 km | 3-4 gün |
-| Discovery (L319, L462) | 3.0/5.0 | Zincir | 10.000–18.000₺ | 100.000–200.000 km | 3-4 gün |
-| Evoque (L538, L551) | 2.0/2.2 | Zincir | 7.000–13.000₺ | 100.000–180.000 km | 2-3 gün |
-| Defender (L663) | 2.0/3.0 | Zincir | 8.000–15.000₺ | 100.000–180.000 km | 2-3 gün |
-| Discovery Sport (L550) | 2.0/2.2 | Zincir | 7.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| Range Rover (L322, L405) | 3.0/4.4/5.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| Range Rover Sport (L320, L494) | 3.0/5.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| Discovery (L319, L462) | 3.0/5.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| Evoque (L538, L551) | 2.0/2.2 | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Defender (L663) | 2.0/3.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Discovery Sport (L550) | 2.0/2.2 | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
-## Model Bazlı Triger Değişimi Fiyatları
+## Model Bazlı Triger Değişimi Hizmetleri
 
 ### Range Rover (L322, L405) Triger Değişimi
 
@@ -63,10 +59,10 @@ Range Rover modellerinde timing chain (triger zinciri) kullanılır. Zincir gerg
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 TDV6 (Dizel) | Zincir | 12.000–18.000₺ | 100.000–200.000 km | 3-4 gün |
-| 4.4 TDV8 (Dizel) | Zincir | 14.000–20.000₺ | 100.000–200.000 km | 3-4 gün |
-| 5.0 V8 (Benzin) | Zincir | 15.000–22.000₺ | 100.000–200.000 km | 3-4 gün |
-| 3.0 SDV6 (Dizel) | Zincir | 12.500–19.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 TDV6 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 4.4 TDV8 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 5.0 V8 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 3.0 SDV6 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 **Range Rover Triger Değişimi İçeriği:**
 - Timing chain (triger zinciri)
@@ -81,9 +77,9 @@ Range Rover Sport modellerinde timing chain (triger zinciri) kullanılır. Zinci
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 TDV6 (Dizel) | Zincir | 11.000–17.000₺ | 100.000–200.000 km | 3-4 gün |
-| 5.0 V8 (Benzin) | Zincir | 14.000–20.000₺ | 100.000–200.000 km | 3-4 gün |
-| 3.0 SDV6 (Dizel) | Zincir | 11.500–18.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 TDV6 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 5.0 V8 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 3.0 SDV6 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 ### Discovery (L319, L462) Triger Değişimi
 
@@ -91,9 +87,9 @@ Discovery modellerinde timing chain (triger zinciri) kullanılır. Zincir gergin
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 TDV6 (Dizel) | Zincir | 10.000–16.000₺ | 100.000–200.000 km | 3-4 gün |
-| 5.0 V8 (Benzin) | Zincir | 13.000–18.000₺ | 100.000–200.000 km | 3-4 gün |
-| 3.0 SDV6 (Dizel) | Zincir | 10.500–17.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 TDV6 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 5.0 V8 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 3.0 SDV6 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 ### Evoque (L538, L551) Triger Değişimi
 
@@ -101,8 +97,8 @@ Evoque modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginli�
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 Si4 (Benzin) | Zincir | 7.000–11.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.2 TD4 (Dizel) | Zincir | 7.500–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 Si4 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.2 TD4 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Defender (L663) Triger Değişimi
 
@@ -110,9 +106,9 @@ Defender modellerinde timing chain (triger zinciri) kullanılır. Zincir gerginl
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 P300 (Benzin) | Zincir | 8.000–13.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 P400 (Benzin) | Zincir | 9.500–15.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.0 D200 (Dizel) | Zincir | 8.500–14.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 P300 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 P400 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.0 D200 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Discovery Sport (L550) Triger Değişimi
 
@@ -120,8 +116,8 @@ Discovery Sport modellerinde timing chain (triger zinciri) kullanılır. Zincir 
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 Si4 (Benzin) | Zincir | 7.500–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| 2.2 TD4 (Dizel) | Zincir | 8.000–13.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 Si4 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 2.2 TD4 (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ## Land Rover Triger Zinciri Özellikleri
 
@@ -130,9 +126,9 @@ Land Rover araçlarında modern modellerde timing chain (triger zinciri) kullan�
 | Özellik | Land Rover Triger Zinciri |
 | --- | --- |
 | Dayanıklılık | 100.000-200.000 km |
-| Değişim Maliyeti | 6.000-22.000₺ |
+| Değişim Maliyeti | 📞 Fiyat Sorunuz |
 | Kopma Riski | Düşük (gerginlik kontrolü önemli) |
-| Motor Hasarı (Koparsa) | 25.000-45.000₺ |
+| Motor Hasarı (Koparsa) | 📞 Fiyat Sorunuz |
 | Kontrol Periyodu | 100.000 km |
 
 ## Triger Değişimi Neden Önemli?
@@ -142,9 +138,9 @@ Triger (timing chain) motorun en kritik parçalarından biridir. Supap zamanlama
 - Supap ve piston çarpışması
 - Motor bloğu hasarı
 - Silindir kapağı hasarı
-- Tam motor revizyonu gerekir (25.000-45.000₺)
+- Tam motor revizyonu gerekir (Fiyat Sorunuz)
 
-Erken değişim maliyeti 6.000-22.000₺; koparsa tamir 25.000-45.000₺.
+Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::note
 
@@ -191,7 +187,7 @@ Evoque, Discovery Sport ve Defender'da kullanılan motorlardır.
 
 - **15+ Yıl Deneyim:** Land Rover triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-4 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Land Rover servisi
@@ -256,7 +252,7 @@ Land Rover araçlarında triger zinciri kontrolü 100.000 km'de yapılmalı, de�
 
 ### Land Rover triger değişimi fiyatı ne kadar?
 
-Land Rover triger değişimi fiyatı modele ve motora göre değişir. Evoque için 7.000-13.000₺, Discovery için 10.000-18.000₺, Range Rover için 12.000-22.000₺ arasındadır.
+Land Rover triger değişimi fiyatı modele ve motora göre değişir. Evoque modeli, Discovery modeli, Range Rover modeli için servisimizden net fiyat alabilirsiniz.
 
 ### Land Rover triger zinciri mi kayışı mı?
 
@@ -264,7 +260,7 @@ Land Rover araçlarında modern modellerde (2000 sonrası) timing chain (triger 
 
 ### Land Rover triger koparsa ne olur?
 
-Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (25.000-45.000₺). Erken değişim maliyeti 6.000-22.000₺; koparsa tamir 25.000-45.000₺.
+Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (Fiyat Sorunuz). Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 ### Land Rover triger değişimi ne kadar sürer?
 
@@ -293,4 +289,5 @@ Land Rover triger değişimi için randevu almak için telefon (0533 262 34 51) 
 ### Land Rover triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 
 Yıldızlar Grup'ta Land Rover triger değişimi fiyatları yetkili servise göre %50-70 daha ekonomiktir. Aynı kalitede orijinal parça ve işçilikle hizmet sunuyoruz.
+
 

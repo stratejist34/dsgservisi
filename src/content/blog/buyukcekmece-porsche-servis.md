@@ -17,7 +17,6 @@ serviceName: "Büyükçekmece Porsche Servis"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Büyükçekmece bölgesine Porsche PDK şanzıman, hava süspansiyon, motor, turbo ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Büyükçekmece", "İstanbul", "Avrupa Yakası"]
-offerUrl: "/buyukcekmece-porsche-servis"
 
 ---
 
@@ -70,7 +69,7 @@ Merkezi konumumuz sayesinde Büyükçekmece'den gelen müşteriler için aynı g
 
 ### Şeffaf Fiyatlandırma
 
-Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Porsche Servis Hizmetlerimiz (Büyükçekmece)
 
@@ -89,39 +88,39 @@ Büyükçekmece'den gelen tüm müşterilerimiz için ön görüşme sonrası ne
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| PDK valf body arızası | %24 | 18.000–35.000₺ | 80.000–150.000 km |
-| Yağ karteri vidası kaçağı | %38 | 5.500–12.000₺ | 60.000–120.000 km |
-| Turbo soğutma sistemi | %27 | 14.000–28.000₺ | 100.000–180.000 km |
-| Motor yağ tüketimi | %29 | 12.000–24.000₺ | 100.000–180.000 km |
-| PASM hava süspansiyon | %32 | 16.000–32.000₺ | 80.000–150.000 km |
+| PDK valf body arızası | %24 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Yağ karteri vidası kaçağı | %38 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
+| Turbo soğutma sistemi | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Motor yağ tüketimi | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| PASM hava süspansiyon | %32 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Porsche Cayenne – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| PDK şanzıman adaptasyon | %26 | 8.000–16.000₺ | 80.000–150.000 km |
-| Hava süspansiyon kompresör | %32 | 14.000–26.000₺ | 100.000–180.000 km |
-| Turbo geometri/yağlama | %28 | 13.000–25.000₺ | 100.000–180.000 km |
-| Ön salıncak/rotil aşınması | %24 | 7.500–14.000₺ | 80.000–140.000 km |
-| PCM elektronik arızası | %21 | 9.000–18.000₺ | 80.000–150.000 km |
+| PDK şanzıman adaptasyon | %26 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Hava süspansiyon kompresör | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo geometri/yağlama | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Ön salıncak/rotil aşınması | %24 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| PCM elektronik arızası | %21 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Porsche Macan – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| PDK mekatronik arızası | %28 | 16.000–30.000₺ | 80.000–150.000 km |
-| Timing zincir gerginliği | %25 | 10.000–20.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme | %23 | 11.000–22.000₺ | 100.000–180.000 km |
-| Hava süspansiyon körük | %27 | 12.000–24.000₺ | 80.000–150.000 km |
+| PDK mekatronik arızası | %28 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Timing zincir gerginliği | %25 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme | %23 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Hava süspansiyon körük | %27 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Porsche Panamera – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| PDK tork konvertör | %22 | 20.000–38.000₺ | 120.000–200.000 km |
-| Hava süspansiyon kompresör | %31 | 15.000–28.000₺ | 100.000–180.000 km |
-| Turbo intercooler | %26 | 13.000–27.000₺ | 100.000–180.000 km |
-| Elektronik kontrol ünitesi | %24 | 10.000–22.000₺ | 80.000–150.000 km |
+| PDK tork konvertör | %22 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Hava süspansiyon kompresör | %31 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo intercooler | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Elektronik kontrol ünitesi | %24 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ## Porsche PDK Şanzıman Arızaları
 
@@ -129,8 +128,8 @@ Porsche PDK (Porsche Doppelkupplung - Çift Kavrama) şanzıman ZF ile ortak gel
 
 | PDK Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| PDK 7-Speed (DL501) | 911, Cayenne, Macan, Panamera | Valf body, çift kavrama | 15.000–32.000₺ |
-| PDK 8-Speed (PDK-2) | 992 911, Panamera G2 | Mekatronik, kavrama aşınması | 17.000–35.000₺ |
+| PDK 7-Speed (DL501) | 911, Cayenne, Macan, Panamera | Valf body, çift kavrama | 📞 Fiyat Sorunuz |
+| PDK 8-Speed (PDK-2) | 992 911, Panamera G2 | Mekatronik, kavrama aşınması | 📞 Fiyat Sorunuz |
 
 ### PDK Şanzıman Bakım Önerileri
 
@@ -152,11 +151,11 @@ Motor yağ karteri vida yuvası plastik/magnezyum alaşımlı olduğundan tekrar
 
 | Motor Tipi | Kullanıldığı Modeller | Kronik Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| 3.6/3.8 Flat-6 (991.1) | 911 Carrera, Carrera S | Yağ tüketimi (piston halka) | 8.500–22.000₺ |
-| 3.0 Turbo Flat-6 (991.2/992) | 911 Carrera, Turbo | Turbo soğutma, yağ kaçağı | 12.000–28.000₺ |
-| 2.0 Turbo I4 | Macan 2.0 | Yağ tüketimi, timing zincir | 7.500–18.000₺ |
-| 3.0 TDI V6 | Cayenne Diesel, Macan Diesel | DPF, enjektör, turbo | 10.000–26.000₺ |
-| 4.8 V8 Twin-Turbo | Cayenne Turbo, Panamera Turbo | Turbo yağ besleme, soğutma | 16.000–38.000₺ |
+| 3.6/3.8 Flat-6 (991.1) | 911 Carrera, Carrera S | Yağ tüketimi (piston halka) | 📞 Fiyat Sorunuz |
+| 3.0 Turbo Flat-6 (991.2/992) | 911 Carrera, Turbo | Turbo soğutma, yağ kaçağı | 📞 Fiyat Sorunuz |
+| 2.0 Turbo I4 | Macan 2.0 | Yağ tüketimi, timing zincir | 📞 Fiyat Sorunuz |
+| 3.0 TDI V6 | Cayenne Diesel, Macan Diesel | DPF, enjektör, turbo | 📞 Fiyat Sorunuz |
+| 4.8 V8 Twin-Turbo | Cayenne Turbo, Panamera Turbo | Turbo yağ besleme, soğutma | 📞 Fiyat Sorunuz |
 
 ## Porsche Hava Süspansiyon (PASM) Arızaları
 
@@ -164,10 +163,10 @@ Cayenne, Panamera, 911 Turbo gibi üst segment Porsche araçlarda PASM (Porsche 
 
 | PASM Arıza | Maliyet | Süre |
 | --- | ---: | --- |
-| Hava kompresör yenileme | 12.000–22.000₺ | 1-2 gün |
-| Hava körüğü (1 adet) | 6.500–12.000₺ | Aynı gün |
-| Hava valf/selenoid | 3.500–7.000₺ | Aynı gün |
-| Komple sistem revizyonu | 20.000–38.000₺ | 2-4 gün |
+| Hava kompresör yenileme | 📞 Fiyat Sorunuz | 1-2 gün |
+| Hava körüğü (1 adet) | 📞 Fiyat Sorunuz | Aynı gün |
+| Hava valf/selenoid | 📞 Fiyat Sorunuz | Aynı gün |
+| Komple sistem revizyonu | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Hava Süspansiyon Bakım Önerileri
 
@@ -177,20 +176,20 @@ Cayenne, Panamera, 911 Turbo gibi üst segment Porsche araçlarda PASM (Porsche 
 - Körük 80.000–120.000 km'de çatlak kontrolü yapılmalı
 - Valf temizliği 80.000 km'de önerilir
 - Şehir içi kullanım kompresör ömrünü %30 azaltır
-- Alternatif: çelik süspansiyon dönüşümü 15.000–28.000₺
+- Alternatif: çelik süspansiyon dönüşümü uygun maliyetler
 
 :::
 
-## Porsche Periyodik Bakım Fiyatları 2025
+## Porsche Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 5.500–11.000₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 9.500–16.000₺ | 30.000 km | Aynı gün |
-| PDK yağ değişimi | 7.500–14.000₺ | 60.000 km | Aynı gün |
-| PASM hava süspansiyon kontrolü | 3.500–6.500₺ | 30.000 km | Aynı gün |
-| Fren balata (ön/arka) | 10.000–20.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 4.500–8.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| PDK yağ değişimi | 📞 Fiyat Sorunuz | 60.000 km | Aynı gün |
+| PASM hava süspansiyon kontrolü | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Büyükçekmece'den Ulaşım
 
@@ -217,7 +216,7 @@ Büyükçekmece'nin tüm mahallelerinden arızalı Porsche araçlarınız için 
 
 - **15+ Yıl Deneyim:** Porsche servisinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teşhis, 1-3 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Porsche servisi
@@ -315,11 +314,11 @@ PASM hava süspansiyon arızasına bağlı olarak 1-2 gün içinde tamamlanır. 
 
 ### Porsche PDK yağı ne zaman değiştirilmeli?
 
-PDK şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. Porsche "ömür boyu yağ" iddiasında bulunsa da gerçekte yağ eskir ve valf body arızası riski 80.000 km sonrası %24'e çıkar. Yağ değişimi 7.500–14.000₺; değişmezse valf body tamiri 15.000–32.000₺.
+PDK şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. Porsche "ömür boyu yağ" iddiasında bulunsa da gerçekte yağ eskir ve valf body arızası riski 80.000 km sonrası %24'e çıkar. Yağ değişimi uygun maliyetler; değişmezse valf body tamiri uygun maliyetler.
 
 ### Porsche motor yağ karteri vidası kaçağı nasıl çözülür?
 
-Motor yağ karteri vida yuvası plastik/magnezyum alaşımlı olduğundan tekrarlanan yağ değişimlerinde vida yuvası eskir. Kaçak riski %38-42. Çözüm: vida yuvası helicoil (dişli manşon) ile onarılır veya yağ karteri değişimi yapılır. Helicoil onarım 2.500-5.000₺, yağ karteri değişimi 5.500-12.000₺.
+Motor yağ karteri vida yuvası plastik/magnezyum alaşımlı olduğundan tekrarlanan yağ değişimlerinde vida yuvası eskir. Kaçak riski %38-42. Çözüm: vida yuvası helicoil (dişli manşon) ile onarılır veya yağ karteri değişimi yapılır. Helicoil onarım uygun maliyetler, yağ karteri değişimi uygun maliyetler.
 
 ### Büyükçekmece'den servisinize ulaşım için toplu taşıma seçeneği var mı?
 
@@ -331,5 +330,6 @@ Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büy�
 
 ### Porsche periyodik bakım fiyatları ne kadar?
 
-Porsche periyodik bakım fiyatları bakım türüne göre değişir. Küçük bakım (yağ + filtre) 5.500–11.000₺, büyük bakım 9.500–16.000₺ arasındadır. Kesin fiyat teklifi için ön teşhis gereklidir.
+Porsche periyodik bakım fiyatları bakım türüne göre değişir. Küçük bakım (yağ + filtre) uygun maliyetler, büyük bakım uygun maliyetler için servisimizden net fiyat alabilirsiniz. Kesin servis teklifi için ön teşhis gereklidir.
+
 

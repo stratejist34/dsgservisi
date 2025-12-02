@@ -1,13 +1,13 @@
 ---
-title: "Porsche Triger Değişimi Fiyatları"
-description: "Porsche triger değişimi fiyatları: 911, Cayenne, Macan, Panamera modellerinde timing chain değişimi fiyatları. Detaylı fiyat tablosu ve değişim periyotları."
+title: "Porsche Triger Değişimi Hizmetleri"
+description: "Porsche triger değişimi hizmetleri: 911, Cayenne, Macan, Panamera modellerinde timing chain değişimi hizmetleri. Detaylı hizmet tablosu ve değişim periyotları."
 category: "Porsche"
-tags: ["porsche", "triger", "triger değişimi", "timing chain", "fiyat", "bakım"]
+tags: ["porsche", "triger", "triger değişimi", "timing chain", "bakım"]
 slug: "porsche-triger-degisimi-fiyatlari"
 publishDate: "2025-11-12T11:00:00+03:00"
 updatedDate: "2025-11-12T11:00:00+03:00"
 featuredImage: "/images/blog/porsche-triger-degisimi-fiyatlari.jpg"
-imageAlt: "Porsche triger değişimi fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Porsche triger değişimi hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/porsche-triger-degisimi-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Porsche Triger Değişimi"
 serviceType: "Motor Bakımı"
 serviceDescription: "Porsche araçlarında triger zinciri değişimi hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 7000
-highPrice: 25000
-priceCurrency: "TRY"
-offerUrl: "/porsche-triger-degisimi-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Porsche araçlarında triger değişimi motorun en kritik bakım işlemlerinden 
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Porsche'de triger zinciri kontrolü 100.000-120.000 km'de yapılmalı, değişim gerekiyorsa 100.000-200.000 km arasında yapılır. Triger zinciri koparsa motor hasarı 30.000-50.000₺ arasında maliyet oluşturur. Erken değişim maliyeti 7.000-25.000₺; koparsa tamir 30.000-50.000₺.
+**UZMAN TAVSİYESİ:** Porsche'de triger zinciri kontrolü 100.000-120.000 km'de yapılmalı, değişim gerekiyorsa 100.000-200.000 km arasında yapılır. Triger zinciri koparsa motor hasarı çok yüksek maliyetler oluşturur. Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::
 
@@ -44,16 +40,16 @@ Porsche araçlarında triger değişimi motorun en kritik bakım işlemlerinden 
 
 :::
 
-## Porsche Triger Değişimi Fiyatları 2025 (Genel)
+## Porsche Triger Değişimi Hizmetleri (Genel)
 
 | Model | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | --- | ---: | --- | --- |
-| 911 (991, 992) | 3.0/3.8/4.0 | Zincir | 10.000–20.000₺ | 100.000–200.000 km | 3-4 gün |
-| Cayenne (958, 9YA) | 3.0/4.8 | Zincir | 9.000–18.000₺ | 100.000–200.000 km | 3-4 gün |
-| Macan (95B) | 2.0/3.0/3.6 | Zincir | 8.000–16.000₺ | 100.000–180.000 km | 2-3 gün |
-| Panamera (970, 971) | 3.0/4.0/4.8 | Zincir | 11.000–25.000₺ | 100.000–200.000 km | 3-4 gün |
+| 911 (991, 992) | 3.0/3.8/4.0 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| Cayenne (958, 9YA) | 3.0/4.8 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| Macan (95B) | 2.0/3.0/3.6 | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| Panamera (970, 971) | 3.0/4.0/4.8 | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
-## Model Bazlı Triger Değişimi Fiyatları
+## Model Bazlı Triger Değişimi Hizmetleri
 
 ### Porsche 911 (991, 992) Triger Değişimi
 
@@ -61,9 +57,9 @@ Porsche 911 modellerinde timing chain (triger zinciri) kullanılır. Zincir gerg
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 Flat-6 (991.2) | Zincir | 10.000–16.000₺ | 100.000–200.000 km | 3-4 gün |
-| 3.8 Flat-6 (991.1) | Zincir | 11.000–18.000₺ | 100.000–200.000 km | 3-4 gün |
-| 4.0 Flat-6 (992 GT3) | Zincir | 14.000–20.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 Flat-6 (991.2) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 3.8 Flat-6 (991.1) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 4.0 Flat-6 (992 GT3) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 **911 Triger Değişimi İçeriği:**
 - Timing chain (triger zinciri)
@@ -78,9 +74,9 @@ Porsche Cayenne modellerinde timing chain (triger zinciri) kullanılır. Zincir 
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 V6 (Benzin) | Zincir | 9.000–14.000₺ | 100.000–200.000 km | 3-4 gün |
-| 3.0 TDI (Dizel) | Zincir | 9.500–15.000₺ | 100.000–200.000 km | 3-4 gün |
-| 4.8 V8 (Benzin) | Zincir | 12.000–18.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 V6 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 3.0 TDI (Dizel) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 4.8 V8 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 ### Porsche Macan (95B) Triger Değişimi
 
@@ -88,9 +84,9 @@ Porsche Macan modellerinde timing chain (triger zinciri) kullanılır. Zincir ge
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 2.0 TSI (Benzin) | Zincir | 8.000–12.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.0 V6 (Benzin) | Zincir | 9.500–15.000₺ | 100.000–180.000 km | 2-3 gün |
-| 3.6 V6 (Benzin) | Zincir | 10.500–16.000₺ | 100.000–180.000 km | 2-3 gün |
+| 2.0 TSI (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.0 V6 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
+| 3.6 V6 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–180.000 km | 2-3 gün |
 
 ### Porsche Panamera (970, 971) Triger Değişimi
 
@@ -98,9 +94,9 @@ Porsche Panamera modellerinde timing chain (triger zinciri) kullanılır. Zincir
 
 | Motor | Triger Tipi | Değişim Fiyatı | Periyot | Süre |
 | --- | --- | ---: | --- | --- |
-| 3.0 V6 (Benzin) | Zincir | 11.000–17.000₺ | 100.000–200.000 km | 3-4 gün |
-| 4.0 V8 (Benzin) | Zincir | 14.000–22.000₺ | 100.000–200.000 km | 3-4 gün |
-| 4.8 V8 (Benzin) | Zincir | 16.000–25.000₺ | 100.000–200.000 km | 3-4 gün |
+| 3.0 V6 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 4.0 V8 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
+| 4.8 V8 (Benzin) | Zincir | 📞 Fiyat Sorunuz | 100.000–200.000 km | 3-4 gün |
 
 ## Porsche Triger Zinciri Özellikleri
 
@@ -109,9 +105,9 @@ Porsche araçlarında modern modellerde timing chain (triger zinciri) kullanıl�
 | Özellik | Porsche Triger Zinciri |
 | --- | --- |
 | Dayanıklılık | 100.000-200.000 km |
-| Değişim Maliyeti | 7.000-25.000₺ |
+| Değişim Maliyeti | 📞 Fiyat Sorunuz |
 | Kopma Riski | Düşük (gerginlik kontrolü önemli) |
-| Motor Hasarı (Koparsa) | 30.000-50.000₺ |
+| Motor Hasarı (Koparsa) | 📞 Fiyat Sorunuz |
 | Kontrol Periyodu | 100.000 km |
 
 ## Triger Değişimi Neden Önemli?
@@ -121,9 +117,9 @@ Triger (timing chain) motorun en kritik parçalarından biridir. Supap zamanlama
 - Supap ve piston çarpışması
 - Motor bloğu hasarı
 - Silindir kapağı hasarı
-- Tam motor revizyonu gerekir (30.000-50.000₺)
+- Tam motor revizyonu gerekir (Fiyat Sorunuz)
 
-Erken değişim maliyeti 7.000-25.000₺; koparsa tamir 30.000-50.000₺.
+Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 :::note
 
@@ -170,7 +166,7 @@ Porsche'nin üst segment modellerinde kullanılan motorlardır.
 
 - **15+ Yıl Deneyim:** Porsche triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-4 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Porsche servisi
@@ -235,7 +231,7 @@ Porsche araçlarında triger zinciri kontrolü 100.000 km'de yapılmalı, deği�
 
 ### Porsche triger değişimi fiyatı ne kadar?
 
-Porsche triger değişimi fiyatı modele ve motora göre değişir. Macan için 8.000-16.000₺, Cayenne için 9.000-18.000₺, 911 için 10.000-20.000₺, Panamera için 11.000-25.000₺ arasındadır.
+Porsche triger değişimi fiyatı modele ve motora göre değişir. Macan modeli, Cayenne modeli, 911 modeli, Panamera modeli için servisimizden net fiyat alabilirsiniz.
 
 ### Porsche triger zinciri mi kayışı mı?
 
@@ -243,7 +239,7 @@ Porsche araçlarında modern modellerde (2000 sonrası) timing chain (triger zin
 
 ### Porsche triger koparsa ne olur?
 
-Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (30.000-50.000₺). Erken değişim maliyeti 7.000-25.000₺; koparsa tamir 30.000-50.000₺.
+Triger koparsa veya atlarsa supap ve piston çarpışması olur. Motor bloğu ve silindir kapağı hasar görür. Tam motor revizyonu gerekir (Fiyat Sorunuz). Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonomiktir.
 
 ### Porsche triger değişimi ne kadar sürer?
 
@@ -272,4 +268,5 @@ Porsche triger değişimi için randevu almak için telefon (0533 262 34 51) vey
 ### Porsche triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 
 Yıldızlar Grup'ta Porsche triger değişimi fiyatları yetkili servise göre %50-70 daha ekonomiktir. Aynı kalitede orijinal parça ve işçilikle hizmet sunuyoruz.
+
 

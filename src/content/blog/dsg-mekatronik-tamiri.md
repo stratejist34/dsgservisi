@@ -1,7 +1,7 @@
 ---
 
 title: "DSG Mekatronik Tamiri"
-description: "DSG mekatronik arızası ve fiyatları 2026: mekatronik tamiri, solenoid/valf onarımı, adaptasyon ve kalibrasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
+description: "DSG mekatronik arızası ve hizmetleri: mekatronik tamiri, solenoid/valf onarımı, adaptasyon ve kalibrasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
 publishDate: "2025-11-03T10:00:00+03:00"
 updatedDate: "2025-11-03T10:00:00+03:00"
 category: "DSG"
@@ -10,7 +10,7 @@ tags: ["dsg", "mekatronik", "tamir", "arıza", "şanzıman"]
 author: "DSG Servisi"
 draft: false
 seoTitle: "DSG Mekatronik Tamiri Fiyatları 2026 – Yıldızlar Grup DSG Servisi"
-seoDescription: "DSG mekatronik arızası ve fiyatları 2026: mekatronik tamiri, solenoid/valf onarımı, adaptasyon ve kalibrasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
+seoDescription: "DSG mekatronik arızası ve hizmetleri: mekatronik tamiri, solenoid/valf onarımı, adaptasyon ve kalibrasyon. Büyükçekmece Yıldızlar Grup DSG Servisi."
 ogImage: "/images/blog/dsg-mekatronik-tamiri.jpg"
 featuredImage: "/images/blog/dsg-mekatronik-tamiri.jpg"
 imageAlt: "DSG şanzıman değişimi işlemi"
@@ -20,7 +20,6 @@ serviceName: "DSG Mekatronik Tamiri"
 serviceType: "DSG Mekatronik Tamiri"
 serviceDescription: "DSG mekatronik arızası tamiri, solenoid/valf onarımı ve adaptasyon hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-mekatronik-tamiri"
 
 ---
 
@@ -73,10 +72,10 @@ DSG mekatronik arızası; **vites geçişinde gecikme**, **vuruntu/titreme**, **
 
 | İşlem | Parça | İşçilik | Toplam | Garanti |
 |-------|-------|---------|--------|---------|
-| Mekatronik revizyonu | 9.500–19.500₺ | 4.500–7.500₺ | 14.000–27.000₺ | 6-12 ay |
-| Solenoid set değişimi | 6.500–12.500₺ | 2.500–4.000₺ | 9.000–16.500₺ | 6 ay |
-| Adaptasyon/kalibrasyon | – | 1.500–3.000₺ | 1.500–3.000₺ | İşçilik garantisi |
-| Mekatronik + kavrama kombi | 18.000–38.000₺ | 7.000–12.000₺ | 25.000–50.000₺ | 12 ay |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-12 ay |
+| Solenoid set değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6 ay |
+| Adaptasyon/kalibrasyon | – | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik garantisi |
+| Mekatronik + kavrama kombi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay |
 
 *Not:* **DSG mekatronik arızası fiyatı 2025** ve **2026** karşılaştırmasında, parça tedarik koşulları ve kur etkisi önemlidir. Kesin teklif için arayın.
 
@@ -113,7 +112,7 @@ DSG mekatronik arızası; **vites geçişinde gecikme**, **vuruntu/titreme**, **
 
 | Kriter | Mekatronik Tamiri | Tam Değişim |
 |--------|-------------------|-------------|
-| Maliyet | 9.000–16.500₺ | 25.000–45.000₺ |
+| Maliyet | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 | Süre | 2-3 gün | 3-7 gün (tedarik süresine göre) |
 | Garanti | 6-12 ay | 12-24 ay |
 | Uygun Durum | Solenoid/valf arızası, elektronik sorun | Ağır mekanik hasar, yaygın iç arıza |
@@ -204,3 +203,4 @@ Elektronik kartlarda yaygın hasar, mekanik kasa çatlağı veya su girişi vars
 <p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
 <p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
 <p><strong>Çalışma Saatleri:</strong> Pazartesi-Cumartesi 08:30-18:30, Pazar kapalı</p>
+

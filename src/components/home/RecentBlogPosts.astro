@@ -14,210 +14,90 @@ const getPostUrl = (slug: string) => {
 };
 ---
 
-<section class="blog-section">
-  <div class="container">
-    <div class="section-header">
-      <h2>DSG Bilgi Merkezi</h2>
-      <p>DSG şanzıman, bakım ve onarım hakkında güncel bilgiler</p>
+<section class="relative py-24 bg-[#0f172a] border-t border-white/5 overflow-hidden">
+  {/* Background Elements */}
+  <div class="absolute inset-0 pointer-events-none">
+    <div class="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-amber-500/20 to-transparent"></div>
+    <div class="absolute inset-0 opacity-[0.02]" 
+         style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 30px 30px;">
     </div>
-    <div class="blog-grid">
+  </div>
+
+  <div class="container relative z-10">
+    {/* Section Header - Tech Style */}
+    <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6" data-reveal>
+      <div>
+        <div class="flex items-center gap-3 mb-3">
+          <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+          <span class="text-amber-500 font-mono text-xs tracking-widest uppercase">System Knowledge Base</span>
+        </div>
+        <h2 class="text-3xl md:text-4xl font-display font-bold text-white">
+          DSG BİLGİ MERKEZİ
+        </h2>
+      </div>
+      
+      <a href="/blog" class="group flex items-center gap-2 text-sm font-mono text-slate-400 hover:text-amber-500 transition-colors">
+        <span>VIEW_ALL_LOGS</span>
+        <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
+      </a>
+    </div>
+
+    {/* Blog Grid - Technical Cards */}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       {recentPosts.map((post, index) => {
         const postUrl = getPostUrl(post.slug);
         const featuredImage = post.data.featuredImage || `/images/blog/${post.slug}.jpg`;
         const description = post.data.description || '';
-        const truncatedTitle =
-          post.data.title.length > 26 ? `${post.data.title.slice(0, 26).trimEnd()}…` : post.data.title;
+        const date = new Date(post.data.pubDate).toLocaleDateString('tr-TR', { year: 'numeric', month: '2-digit', day: '2-digit' });
         
         return (
-          <article class="blog-card" data-index={index}>
-            <a href={postUrl} class="card-link">
-              {featuredImage && (
-                <div class="card-image">
-                  <picture>
-                    <source
-                      type="image/avif"
-                      srcset={`${featuredImage.replace('.jpg', '-400.avif')} 400w, ${featuredImage.replace('.jpg', '-650.avif')} 650w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
-                    />
-                    <source
-                      type="image/webp"
-                      srcset={`${featuredImage.replace('.jpg', '-400.webp')} 400w, ${featuredImage.replace('.jpg', '-650.webp')} 650w`}
-                      sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 400px"
-                    />
-                    <img 
-                      src={featuredImage} 
-                      alt={post.data.imageAlt || post.data.title}
-                      loading={index < 2 ? 'eager' : 'lazy'}
-                      width="400"
-                      height="250"
-                      decoding="async"
-                    />
-                  </picture>
+          <a 
+            href={postUrl} 
+            class="group relative h-full"
+            data-reveal 
+            data-stagger-index={index}
+          >
+            <div class="relative h-full bg-slate-800/30 border border-white/10 rounded-lg overflow-hidden transition-all duration-300 hover:border-amber-500/30 hover:bg-slate-800/50 group-hover:shadow-[0_0_30px_-10px_rgba(245,158,11,0.1)]">
+              
+              {/* Image Container */}
+              <div class="relative h-40 overflow-hidden border-b border-white/5">
+                <div class="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+                <img 
+                  src={featuredImage} 
+                  alt={post.data.imageAlt || post.data.title}
+                  class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110 filter grayscale-[30%] group-hover:grayscale-0"
+                  loading="lazy"
+                />
+                
+                {/* Date Badge */}
+                <div class="absolute top-2 right-2 z-20 bg-black/60 backdrop-blur-md border border-white/10 px-2 py-1 rounded text-[10px] font-mono text-amber-500">
+                  {date}
                 </div>
-              )}
-              <div class="card-content">
-                <h3 class="card-title">{truncatedTitle}</h3>
-                <p class="card-excerpt">
-                  {description || 'DSG şanzıman ve bakım hizmetleri hakkında detaylı bilgi...'}
-                </p>
-                <span class="read-more">Devamını Oku →</span>
               </div>
-            </a>
-          </article>
+
+              {/* Content */}
+              <div class="p-5">
+                <div class="text-[10px] font-mono text-slate-500 mb-2 uppercase tracking-wider">
+                  ID: LOG_{String(index + 1).padStart(3, '0')}
+                </div>
+                
+                <h3 class="text-lg font-display font-bold text-white mb-3 line-clamp-2 group-hover:text-amber-500 transition-colors leading-snug">
+                  {post.data.title}
+                </h3>
+                
+                <p class="text-sm text-slate-400 line-clamp-2 mb-4 leading-relaxed">
+                  {description}
+                </p>
+                
+                <div class="flex items-center text-amber-500/70 text-xs font-mono uppercase tracking-wider group-hover:text-amber-500 transition-colors">
+                  <span class="mr-2">Read_Entry</span>
+                  <div class="h-px w-4 bg-amber-500/50 group-hover:w-8 transition-all"></div>
+                </div>
+              </div>
+            </div>
+          </a>
         );
       })}
     </div>
-    <div class="blog-footer">
-      <a href="/blog" class="view-all-btn">Tüm Blog Yazıları</a>
-    </div>
   </div>
 </section>
-
-<style>
-  .blog-section {
-    padding: 60px 0;
-    background: linear-gradient(135deg, rgba(30, 58, 138, 0.95) 0%, rgba(29, 78, 216, 0.98) 50%, rgba(30, 58, 138, 0.95) 100%);
-  }
-  
-  .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
-  }
-  
-  .section-header {
-    text-align: center;
-    margin-bottom: 40px;
-  }
-  
-  .section-header h2 {
-    font-size: 2rem;
-    color: #ffffff;
-    margin-bottom: 10px;
-  }
-  
-  .section-header p {
-    color: #e0f4f8;
-    font-size: 1rem;
-  }
-  
-  .blog-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 24px;
-    margin-bottom: 40px;
-  }
-  
-  .blog-card {
-    background: white;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-    transition: transform 0.2s, box-shadow 0.2s;
-  }
-  
-  .blog-card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 4px 16px rgba(0,0,0,0.15);
-  }
-  
-  .card-link {
-    text-decoration: none;
-    color: inherit;
-    display: block;
-  }
-  
-  .card-image {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    overflow: hidden;
-    background: #e9ecef;
-  }
-  
-  .card-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s;
-    display: block;
-  }
-  
-  .blog-card:hover .card-image img {
-    transform: scale(1.05);
-  }
-  
-  .card-content {
-    padding: 20px 20px 12px;
-  }
-  
-  .card-title {
-    font-size: 1.25rem;
-    color: #1a1a1a;
-    margin-bottom: 12px;
-    line-height: 1.4;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
-  
-  .card-excerpt {
-    font-size: 0.95rem;
-    color: #555;
-    line-height: 1.6;
-    margin-bottom: 16px;
-    display: -webkit-box;
-    -webkit-line-clamp: 3;
-    -webkit-box-orient: vertical;
-    overflow: hidden;
-  }
-  
-  .read-more {
-    color: #1e3a8a;
-    font-weight: 600;
-    font-size: 0.9rem;
-  }
-  
-  .blog-footer {
-    text-align: center;
-  }
-  
-  .view-all-btn {
-    display: inline-block;
-    padding: 12px 32px;
-    background: rgba(255, 255, 255, 0.2);
-    color: white;
-    text-decoration: none;
-    border-radius: 6px;
-    font-weight: 500;
-    transition: background 0.2s;
-    border: 2px solid rgba(255, 255, 255, 0.3);
-  }
-  
-  .view-all-btn:hover {
-    background: rgba(255, 255, 255, 0.3);
-    border-color: rgba(255, 255, 255, 0.5);
-  }
-  
-  @media (max-width: 1024px) {
-    .blog-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-  
-  @media (max-width: 768px) {
-    .blog-section {
-      padding: 40px 0;
-    }
-    
-    .section-header h2 {
-      font-size: 1.5rem;
-    }
-    
-    .blog-grid {
-      grid-template-columns: 1fr;
-      gap: 20px;
-    }
-    
-  }
-</style>
-

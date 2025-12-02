@@ -1,13 +1,13 @@
 ---
-title: "Debriyaj Baskı Balata Değişimi Fiyatı 2025"
-description: "Debriyaj baskı balata değişimi fiyatları 2025: Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde debriyaj seti fiyatları ve işçilik ücretleri."
+title: "Debriyaj Baskı Balata Değişimi Tamiri ve Servisi"
+description: "Debriyaj baskı balata değişimi hizmetleri: Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde debriyaj seti hizmetleri ve işçilik ücretleri."
 category: "Genel Bakım"
-tags: ["debriyaj", "baskı balata", "debriyaj değişimi", "debriyaj fiyatı", "2025", "servis"]
+tags: ["debriyaj", "baskı balata", "debriyaj değişimi", "servis"]
 slug: "debriyaj-baski-balata-degisimi-fiyati-2025"
 publishDate: "2025-11-23T09:00:00+03:00"
 updatedDate: "2025-11-23T09:00:00+03:00"
 featuredImage: "/images/blog/debriyaj-baski-balata-degisimi-fiyati-2025.jpg"
-imageAlt: "Debriyaj baskı balata değişimi fiyatları 2025 - Yıldızlar Grup Servis"
+imageAlt: "Debriyaj baskı balata değişimi hizmetleri - Yıldızlar Grup Servis"
 ogImage: "/images/blog/debriyaj-baski-balata-degisimi-fiyati-2025.jpg"
 author: "DSG Servisi"
 draft: false
@@ -16,10 +16,6 @@ serviceName: "Debriyaj Baskı Balata Değişimi"
 serviceType: "Debriyaj Sistemi Onarımı"
 serviceDescription: "Tüm premium markalarda debriyaj baskı balata değişimi. Orijinal ve muadil parça seçenekleri, uzman montaj."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 6000
-highPrice: 18000
-priceCurrency: "TRY"
-offerUrl: "/debriyaj-baski-balata-degisimi-fiyati-2025"
 
 ---
 
@@ -43,76 +39,76 @@ Debriyaj baskı balata (debriyaj diski), motor gücünü şanzımana aktaran kri
 
 :::
 
-## Debriyaj Baskı Balata Değişimi Fiyatları 2025
+## Debriyaj Baskı Balata Değişimi Hizmetleri
 
-### Volkswagen Debriyaj Fiyatları
-
-| Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
-| --- | --- | ---: | ---: | ---: | ---: |
-| Polo 1.2 TSI | 1.2 TSI | 6.500–8.000₺ | 3.500–4.500₺ | 2.500–3.000₺ | 6.000–7.500₺ |
-| Polo 1.4 TDI | 1.4 TDI | 7.000–8.500₺ | 3.800–5.000₺ | 2.500–3.000₺ | 6.300–8.000₺ |
-| Golf 1.6 TDI | 1.6 TDI | 7.500–9.000₺ | 4.000–5.500₺ | 2.500–3.000₺ | 6.500–8.500₺ |
-| Passat 2.0 TDI | 2.0 TDI | 8.500–10.000₺ | 4.500–6.000₺ | 2.800–3.200₺ | 7.300–9.200₺ |
-| Tiguan 2.0 TDI | 2.0 TDI | 9.000–10.500₺ | 4.800–6.500₺ | 2.800–3.200₺ | 7.600–9.700₺ |
-
-### Audi Debriyaj Fiyatları
+### Volkswagen Debriyaj Hizmetleri
 
 | Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
 | --- | --- | ---: | ---: | ---: | ---: |
-| A3 1.6 TDI | 1.6 TDI | 8.000–9.500₺ | 4.200–5.500₺ | 2.800–3.200₺ | 7.000–8.700₺ |
-| A4 2.0 TDI | 2.0 TDI | 9.000–11.000₺ | 4.800–6.500₺ | 3.000–3.500₺ | 7.800–10.000₺ |
-| A5 2.0 TDI | 2.0 TDI | 9.500–11.500₺ | 5.000–7.000₺ | 3.000–3.500₺ | 8.000–10.500₺ |
-| A6 2.0 TDI | 2.0 TDI | 10.500–13.000₺ | 5.800–7.500₺ | 3.200–3.800₺ | 9.000–11.300₺ |
-| Q5 2.0 TDI | 2.0 TDI | 11.000–13.500₺ | 6.000–8.000₺ | 3.200–3.800₺ | 9.200–11.800₺ |
+| Polo 1.2 TSI | 1.2 TSI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Polo 1.4 TDI | 1.4 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Golf 1.6 TDI | 1.6 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Passat 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Tiguan 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
-### BMW Debriyaj Fiyatları
-
-| Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
-| --- | --- | ---: | ---: | ---: | ---: |
-| 1 Serisi 116d | 1.6 TDI | 8.500–10.000₺ | 4.500–6.000₺ | 2.800–3.200₺ | 7.300–9.200₺ |
-| 3 Serisi 320d | 2.0 TDI | 9.500–11.500₺ | 5.000–7.000₺ | 3.000–3.500₺ | 8.000–10.500₺ |
-| 5 Serisi 520d | 2.0 TDI | 11.000–13.500₺ | 6.000–8.000₺ | 3.200–3.800₺ | 9.200–11.800₺ |
-| X3 20d | 2.0 TDI | 10.500–13.000₺ | 5.800–7.500₺ | 3.200–3.800₺ | 9.000–11.300₺ |
-
-### Mercedes Debriyaj Fiyatları
+### Audi Debriyaj Hizmetleri
 
 | Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
 | --- | --- | ---: | ---: | ---: | ---: |
-| A 180 CDI | 1.5 CDI | 9.000–10.500₺ | 4.800–6.500₺ | 2.800–3.200₺ | 7.600–9.700₺ |
-| C 200 CDI | 2.1 CDI | 10.000–12.500₺ | 5.500–7.500₺ | 3.000–3.500₺ | 8.500–11.000₺ |
-| E 220 CDI | 2.1 CDI | 11.500–14.500₺ | 6.500–8.500₺ | 3.500–4.000₺ | 10.000–12.500₺ |
-| GLC 220d | 2.1 CDI | 11.000–13.500₺ | 6.000–8.000₺ | 3.200–3.800₺ | 9.200–11.800₺ |
+| A3 1.6 TDI | 1.6 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| A4 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| A5 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| A6 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Q5 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
-### Porsche Debriyaj Fiyatları
-
-| Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
-| --- | --- | ---: | ---: | ---: | ---: |
-| Macan 2.0 | 2.0 TSI | 12.000–15.000₺ | 7.000–9.000₺ | 3.500–4.000₺ | 10.500–13.000₺ |
-| Cayenne 3.0 | 3.0 TDI | 14.000–18.000₺ | 8.500–11.000₺ | 4.000–4.500₺ | 12.500–15.500₺ |
-
-### Land Rover Debriyaj Fiyatları
+### BMW Debriyaj Hizmetleri
 
 | Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Evoque 2.0 | 2.0 TDI | 10.500–13.000₺ | 5.800–7.500₺ | 3.200–3.800₺ | 9.000–11.300₺ |
-| Discovery Sport | 2.0 TDI | 11.500–14.000₺ | 6.500–8.500₺ | 3.500–4.000₺ | 10.000–12.500₺ |
+| 1 Serisi 116d | 1.6 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| 3 Serisi 320d | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| 5 Serisi 520d | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| X3 20d | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
-### Seat Debriyaj Fiyatları
-
-| Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
-| --- | --- | ---: | ---: | ---: | ---: |
-| Ibiza 1.2 TSI | 1.2 TSI | 6.500–8.000₺ | 3.500–4.500₺ | 2.500–3.000₺ | 6.000–7.500₺ |
-| Leon 1.6 TDI | 1.6 TDI | 7.500–9.000₺ | 4.000–5.500₺ | 2.500–3.000₺ | 6.500–8.500₺ |
-| Ateca 2.0 TDI | 2.0 TDI | 8.500–10.000₺ | 4.500–6.000₺ | 2.800–3.200₺ | 7.300–9.200₺ |
-
-### Skoda Debriyaj Fiyatları
+### Mercedes Debriyaj Hizmetleri
 
 | Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
 | --- | --- | ---: | ---: | ---: | ---: |
-| Fabia 1.2 TSI | 1.2 TSI | 6.500–8.000₺ | 3.500–4.500₺ | 2.500–3.000₺ | 6.000–7.500₺ |
-| Octavia 1.6 TDI | 1.6 TDI | 7.500–9.000₺ | 4.000–5.500₺ | 2.500–3.000₺ | 6.500–8.500₺ |
-| Superb 2.0 TDI | 2.0 TDI | 9.000–10.500₺ | 4.800–6.500₺ | 2.800–3.200₺ | 7.600–9.700₺ |
-| Kodiaq 2.0 TDI | 2.0 TDI | 9.500–11.000₺ | 5.000–7.000₺ | 2.800–3.200₺ | 7.800–10.200₺ |
+| A 180 CDI | 1.5 CDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| C 200 CDI | 2.1 CDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| E 220 CDI | 2.1 CDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| GLC 220d | 2.1 CDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+
+### Porsche Debriyaj Hizmetleri
+
+| Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Macan 2.0 | 2.0 TSI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Cayenne 3.0 | 3.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+
+### Land Rover Debriyaj Hizmetleri
+
+| Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Evoque 2.0 | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Discovery Sport | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+
+### Seat Debriyaj Hizmetleri
+
+| Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Ibiza 1.2 TSI | 1.2 TSI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Leon 1.6 TDI | 1.6 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Ateca 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+
+### Skoda Debriyaj Hizmetleri
+
+| Model | Motor | Orijinal Set | Muadil Set (LUK/Sachs) | İşçilik | Toplam (Muadil) |
+| --- | --- | ---: | ---: | ---: | ---: |
+| Fabia 1.2 TSI | 1.2 TSI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Octavia 1.6 TDI | 1.6 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Superb 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Kodiaq 2.0 TDI | 2.0 TDI | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
 
 ## Debriyaj Seti Nedir?
 
@@ -215,7 +211,7 @@ Debriyaj seti 3 ana parçadan oluşur:
 - **15+ Yıl Deneyim:** Tüm premium markalarda uzman ekip
 - **Kaliteli Muadil Markalar:** LUK, Sachs, Valeo (OEM üreticiler)
 - **Orijinal Parça Seçeneği:** İsteğe göre orijinal parça tedariki
-- **Şeffaf Fiyatlandırma:** Ücretsiz kontrol, net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ücretsiz kontrol, net servis teklifi
 - **Hızlı Hizmet:** Aynı gün teslimat
 - **Garanti:** 12 ay işçilik, 24 ay parça garantisi
 - **Volant Taşlama:** Kendi atölyemizde volant taşlama hizmeti
@@ -275,7 +271,7 @@ Debriyaj seti 3 ana parçadan oluşur:
 
 ### Debriyaj baskı balata değişimi ne kadar tutar?
 
-Debriyaj baskı balata değişimi (tam set) muadil parça ile 6.000-13.000₺, orijinal parça ile 9.000-18.000₺ arasındadır. Fiyat markaya, modele ve motora göre değişir.
+Debriyaj baskı balata değişimi (tam set) muadil parça ile uygun maliyetler, orijinal parça ile uygun maliyetler için servisimizden net fiyat alabilirsiniz. Fiyat markaya, modele ve motora göre değişir.
 
 ### Debriyaj ne zaman değiştirilmeli?
 
@@ -296,3 +292,4 @@ Günlük kullanım için LUK, Sachs, Valeo gibi kaliteli muadil setler yeterlidi
 ### Volant taşlama gerekli mi?
 
 Debriyaj değişiminde volant yüzeyi kontrol edilmelidir. Çizikli, yanıklı veya düz değilse mutlaka taşlanmalıdır. Aksi halde yeni debriyaj erken aşınır.
+

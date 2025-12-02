@@ -20,7 +20,6 @@ serviceName: "DSG Şanzıman Arızası Teşhisi"
 serviceType: "DSG Vites Geçiş Arızası Teşhisi"
 serviceDescription: "DSG 2 den 3 e geçerken vuruntu sorunu teşhisi, belirtileri ve çözüm önerileri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/dsg-2-den-3-e-gecerken-vuruntu"
 
 ---
 
@@ -119,7 +118,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Mekatronik adaptasyon sıfırlama ve kalibrasyon
 
-**Maliyet:** 1.500–3.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 1-2 saat
 
@@ -129,7 +128,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** DSG yağı ve filtre değişimi + adaptasyon
 
-**Maliyet:** 3.500–7.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 saat
 
@@ -139,7 +138,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Birinci kavrama kontrol solenoid valfi değişimi
 
-**Maliyet:** 4.500–12.500₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 1-2 gün
 
@@ -149,7 +148,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Birinci kavrama seti değişimi
 
-**Maliyet:** 13.000–25.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -159,7 +158,7 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Komple mekatronik revizyonu (birinci kavrama kontrolü dahil)
 
-**Maliyet:** 14.000–27.000₺
+**Maliyet:** uygun maliyetler
 
 **Süre:** 2-3 gün
 
@@ -207,7 +206,7 @@ Vuruntu, kavrama geçiş zamanlaması bozulduğunda veya kavrama aşınması ned
 - **Hızlı Çözüm:** Basit arızalar 1-2 saat içinde tamamlanır
 - **Orijinal Parça:** Tüm parçalar orijinal veya OEM kalitede
 - **Garanti:** Tüm tamirlerde 6-12 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 
 ## Sık Sorulan Sorular
 
@@ -217,7 +216,7 @@ Vuruntu, kavrama geçiş zamanlaması bozulduğunda veya kavrama aşınması ned
 
 ### 2 den 3 e geçerken vuruntu maliyeti ne kadar?
 
-Arıza kapsamına göre değişir. Adaptasyon sıfırlama 1.500–3.000₺, solenoid valf değişimi 4.500–12.500₺, kavrama değişimi 13.000–25.000₺ aralığındadır.
+Arıza kapsamına göre değişir. Adaptasyon sıfırlama uygun maliyetler, solenoid valf değişimi uygun maliyetler, kavrama değişimi uygun maliyetler aralığındadır.
 
 ### Sadece 2→3 geçişinde vuruntu varsa sorun nedir?
 
@@ -236,4 +235,5 @@ DSG 2 den 3 e geçerken vuruntu sorunu, birinci kavrama kontrol solenoid valfi a
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 

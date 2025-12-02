@@ -1,45 +1,41 @@
 ---
 
-title: "1.4 TSI DSG Kavrama Fiyatı"
-description: "1.4 TSI DSG kavrama fiyatı 2025: DQ200 kuru kavrama değişimi fiyatları. Golf, A3, Octavia, Leon için 1.4 TSI DSG kavrama değişim fiyatları ve volant dahil toplam maliyet."
+title: "1.4 TSI DSG Kavrama Değişimi ve Tamiri"
+description: "1.4 TSI DSG kavrama değişimi ve tamiri: DQ200 kuru kavrama değişimi ve arıza tespiti. Golf, A3, Octavia, Leon için 1.4 TSI DSG kavrama değişim hizmeti ve volant kontrolü."
 category: "DSG"
-tags: ["dsg", "1.4 tsi", "kavrama", "fiyat", "dq200", "kuru kavrama", "2025"]
+tags: ["dsg", "1.4 tsi", "kavrama", "tamir", "dq200", "kuru kavrama", "servis"]
 slug: "1-4-tsi-dsg-kavrama-fiyati"
 publishDate: "2025-11-10T08:35:00+03:00"
 updatedDate: "2025-11-10T08:35:00+03:00"
 featuredImage: "/images/blog/1-4-tsi-dsg-kavrama-fiyati.jpg"
-imageAlt: "1.4 TSI DSG kavrama fiyatı - Yıldızlar Grup DSG Servisi"
+imageAlt: "1.4 TSI DSG kavrama tamiri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/1-4-tsi-dsg-kavrama-fiyati.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "1.4 TSI DSG Kavrama Fiyatı 2025 | DQ200 Kavrama Değişimi | DSG Servisi"
-seoDescription: "1.4 TSI DSG kavrama fiyatı 2025: DQ200 kuru kavrama değişimi fiyatları. Golf, A3, Octavia, Leon için 1.4 TSI DSG kavrama değişim fiyatları ve volant dahil toplam maliyet."
+seoTitle: "1.4 TSI DSG Kavrama Değişimi | DQ200 Kavrama Tamiri | DSG Servisi"
+seoDescription: "1.4 TSI DSG kavrama değişimi ve tamiri hizmetleri. Golf, A3, Octavia, Leon için garantili DQ200 kavrama değişimi ve volant kontrolü hakkında detaylı bilgi alın."
 
 # Hizmet Şeması
 serviceName: "1.4 TSI DSG Kavrama Değişimi"
 serviceType: "DSG Kavrama Değişimi"
-serviceDescription: "1.4 TSI DSG kavrama değişimi, volant kontrolü ve adaptasyon hizmetleri. DQ200 kuru kavrama fiyatları."
+serviceDescription: "1.4 TSI DSG kavrama değişimi, volant kontrolü ve adaptasyon hizmetleri. DQ200 kuru kavrama tamiri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 12000
-highPrice: 25000
-priceCurrency: "TRY"
-offerUrl: "/1-4-tsi-dsg-kavrama-fiyati"
 
 ---
 
-1.4 TSI DSG kavrama fiyatı, **DQ200 (7 ileri kuru kavrama) şanzıman tipine göre değişir**. 1.4 TSI motor, Golf, A3, Octavia ve Leon gibi modellerde yaygın olarak kullanılır ve DQ200 şanzıman ile eşleştirilir. DQ200, kuru kavrama sistemi olarak kompakt yapısıyla dikkat çeker ancak kavrama aşınması zamanla meydana gelebilir.
+1.4 TSI DSG kavrama değişimi ve tamiri, **DQ200 (7 ileri kuru kavrama) şanzıman tipine göre uzmanlık gerektirir**. 1.4 TSI motor, Golf, A3, Octavia ve Leon gibi modellerde yaygın olarak kullanılır ve DQ200 şanzıman ile eşleştirilir. DQ200, kuru kavrama sistemi olarak kompakt yapısıyla dikkat çeker ancak kavrama aşınması zamanla meydana gelebilir.
 
-2025 yılı için *1.4 TSI DSG kavrama fiyatları*, kavrama tipine ve volant durumuna göre değişir. Kavrama değişimi 12.000–22.000₺, volant dahil kombi değişim 18.000–28.000₺ aralığındadır. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile 1.4 TSI DSG kavrama değişimi hizmeti sunuyoruz.
+1.4 TSI DSG kavrama değişimi maliyetleri, kavrama tipine, kullanılacak yedek parçanın güncel kur durumuna ve volantın hasar durumuna göre değişkenlik gösterebilir. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf bilgilendirme** ve **ekonomik çözümler** ile 1.4 TSI DSG kavrama değişimi hizmeti sunuyoruz.
 
 :::tip
 
-**UZMAN TAVSİYESİ:** 1.4 TSI DSG kavrama değişiminde volant kontrolü mutlaka yapılmalıdır. Hasarlı volant yeni kavramayı 20.000 km'de bitirebilir. Birlikte değişim uzun vadede ekonomiktir.
+**UZMAN TAVSİYESİ:** 1.4 TSI DSG kavrama değişiminde volant kontrolü mutlaka yapılmalıdır. Hasarlı volant yeni kavramayı kısa sürede bitirebilir. Birlikte değişim uzun vadede şanzıman sağlığı için kritiktir.
 
 :::
 
 :::cta
 
-**1.4 TSI DSG kavrama değişimi için:**
+**1.4 TSI DSG kavrama değişimi ve ücretsiz arıza tespiti için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -58,65 +54,66 @@ offerUrl: "/1-4-tsi-dsg-kavrama-fiyati"
 
 1.4 TSI motor, DQ200 şanzıman ile eşleştirilir ve kavrama aşınması zamanla meydana gelebilir. Turbo motorun yüksek torku, kavrama üzerinde ekstra yük oluşturabilir.
 
-## 1.4 TSI DSG Kavrama Fiyatları 2025
+## 1.4 TSI DSG Kavrama Değişimi Hizmetlerimiz
 
-| İşlem | Parça Fiyatı | İşçilik | Toplam Fiyat | Garanti | Süre |
-| --- | ---: | ---: | ---: | --- | --- |
-| Kavrama değişimi | 9.000–18.000₺ | 3.000–4.000₺ | 12.000–22.000₺ | 12 ay | 1-2 gün |
-| Volant değişimi | 6.000–12.000₺ | 2.000–3.000₺ | 8.000–15.000₺ | 12 ay | 1-2 gün |
-| Kavrama + volant kombi | 15.000–24.000₺ | 3.000–4.000₺ | 18.000–28.000₺ | 12 ay | 1-2 gün |
-| Adaptasyon/kalibrasyon | – | 1.500–3.000₺ | 1.500–3.000₺ | İşçilik garantisi | Aynı gün |
+| İşlem | Açıklama | Garanti | Süre |
+| --- | --- | --- | --- |
+| Kavrama değişimi | Ücretsiz teşhis + Net teklif | 12 ay | 1-2 gün |
+| Volant değişimi | Ücretsiz teşhis + Net teklif | 12 ay | 1-2 gün |
+| Kavrama + volant kombi | Ücretsiz teşhis + Net teklif | 12 ay | 1-2 gün |
+| Adaptasyon/kalibrasyon | Profesyonel cihazlarla işlem | İşçilik garantisi | Aynı gün |
 
 :::note
 
-- Fiyatlar araç modeli, kavrama tipi ve volant durumuna göre değişir
-- Volant dahil kombi değişim, uzun vadede daha ekonomiktir
-- Adaptasyon/kalibrasyon, tüm kavrama işlemlerinde gereklidir
-- Garanti süresi, işlem türüne göre değişir
+- Maliyetler araç modeli, kavrama tipi ve volant durumuna göre değişir.
+- Net fiyat bilgisi için şase numaranızla iletişime geçiniz.
+- Volant dahil kombi değişim, uzun vadede daha ekonomiktir.
+- Adaptasyon/kalibrasyon, tüm kavrama işlemlerinde gereklidir.
+- Garanti süresi, işlem türüne göre değişir.
 
 :::
 
-## Model Bazında 1.4 TSI DSG Kavrama Fiyatları
+## Model Bazında 1.4 TSI DSG Kavrama Hizmetleri
 
 ### Volkswagen Golf (7. Nesil)
 
 **Motor:** 1.4 TSI
 **Şanzıman:** DQ200 (7 ileri kuru kavrama)
 
-| İşlem | Fiyat | Süre |
-| --- | ---: | --- |
-| Kavrama değişimi | 12.000–22.000₺ | 1-2 gün |
-| Volant dahil kombi | 18.000–28.000₺ | 1-2 gün |
+| İşlem | Açıklama | Süre |
+| --- | --- | --- |
+| Kavrama değişimi | Arıza tespiti sonrası net bilgi | 1-2 gün |
+| Volant dahil kombi | Arıza tespiti sonrası net bilgi | 1-2 gün |
 
 ### Audi A3 (8V)
 
 **Motor:** 1.4 TSI
 **Şanzıman:** DQ200 (7 ileri kuru kavrama)
 
-| İşlem | Fiyat | Süre |
-| --- | ---: | --- |
-| Kavrama değişimi | 12.500–22.500₺ | 1-2 gün |
-| Volant dahil kombi | 18.500–28.500₺ | 1-2 gün |
+| İşlem | Açıklama | Süre |
+| --- | --- | --- |
+| Kavrama değişimi | Arıza tespiti sonrası net bilgi | 1-2 gün |
+| Volant dahil kombi | Arıza tespiti sonrası net bilgi | 1-2 gün |
 
 ### Skoda Octavia (5E)
 
 **Motor:** 1.4 TSI
 **Şanzıman:** DQ200 (7 ileri kuru kavrama)
 
-| İşlem | Fiyat | Süre |
-| --- | ---: | --- |
-| Kavrama değişimi | 12.000–22.000₺ | 1-2 gün |
-| Volant dahil kombi | 18.000–28.000₺ | 1-2 gün |
+| İşlem | Açıklama | Süre |
+| --- | --- | --- |
+| Kavrama değişimi | Arıza tespiti sonrası net bilgi | 1-2 gün |
+| Volant dahil kombi | Arıza tespiti sonrası net bilgi | 1-2 gün |
 
 ### Seat Leon (5F)
 
 **Motor:** 1.4 TSI
 **Şanzıman:** DQ200 (7 ileri kuru kavrama)
 
-| İşlem | Fiyat | Süre |
-| --- | ---: | --- |
-| Kavrama değişimi | 12.000–22.000₺ | 1-2 gün |
-| Volant dahil kombi | 18.000–28.000₺ | 1-2 gün |
+| İşlem | Açıklama | Süre |
+| --- | --- | --- |
+| Kavrama değişimi | Arıza tespiti sonrası net bilgi | 1-2 gün |
+| Volant dahil kombi | Arıza tespiti sonrası net bilgi | 1-2 gün |
 
 ## 1.4 TSI DSG Kavrama Arıza Belirtileri
 
@@ -208,7 +205,7 @@ offerUrl: "/1-4-tsi-dsg-kavrama-fiyati"
 - **Yüksek kilometre:** 150.000+ km
 - **Birlikte değişim:** Uzun vadeli çözüm
 
-**Volant Değişimi Fiyatı:** 8.000–15.000₺
+**Volant Değişimi Hakkında:** Volant durumu servisimizde detaylıca kontrol edilir.
 
 **Avantajlar:**
 - Yeni kavramanın ömrü uzar
@@ -224,8 +221,6 @@ offerUrl: "/1-4-tsi-dsg-kavrama-fiyati"
 - Düşük kilometre
 - Bütçe kısıtlı
 
-**Fiyat:** 12.000–22.000₺
-
 **Dezavantajlar:**
 - Volant hasarlıysa kısa sürede tekrar arıza
 - Daha yüksek risk
@@ -236,8 +231,6 @@ offerUrl: "/1-4-tsi-dsg-kavrama-fiyati"
 - Volant hasarlı veya şüpheli
 - Yüksek kilometre
 - Uzun vadeli çözüm isteniyor
-
-**Fiyat:** 18.000–28.000₺
 
 **Avantajlar:**
 - Uzun vadeli çözüm
@@ -264,7 +257,7 @@ offerUrl: "/1-4-tsi-dsg-kavrama-fiyati"
 
 - **15+ Yıl Deneyim:** 1.4 TSI DSG kavrama değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Bilgilendirme:** Ön teşhis ücretsiz, yapılacak işlemler hakkında net bilgi
 - **Hızlı Çözüm:** Aynı gün teşhis, 1-2 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi
@@ -286,7 +279,6 @@ Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis
 ### Volant değişimi zorunlu mu?
 
 Volant sağlam ise zorunlu değildir ancak hasarlı veya şüpheli ise mutlaka değiştirilmelidir.
-
 
 
 **1.4 TSI DSG kavrama sorununuz mu var?** Hemen [randevu alın](tel:05332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz sorununuzu çözmek için hazır!

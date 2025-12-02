@@ -19,7 +19,6 @@ serviceName: "Porsche Özel Servis"
 serviceType: "Periyodik Bakım ve Onarım"
 serviceDescription: "Porsche PDK şanzıman, motor, turbo ve elektronik arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/porsche-ozel-servis"
 
 ---
 
@@ -108,12 +107,12 @@ Porsche araçları yüksek performans ve mühendislik harikası olsa da belirli 
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>PDK şanzıman valf body arızası</td><td>%24</td><td>15.000–28.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>Hava süspansiyon kompresör/körük</td><td>%35</td><td>12.000–24.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>3.0 TDI/V6 turbo yağ besleme</td><td>%28</td><td>13.000–26.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Motor yağ karteri vidası kaçağı</td><td>%42</td><td>4.500–9.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Diferansiyel/Transfer case yağ kaçağı</td><td>%26</td><td>6.500–14.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>PCM/Elektronik sistem arızası</td><td>%19</td><td>7.500–16.000₺</td><td>80.000-150.000 km</td></tr>
+    <tr><td>PDK şanzıman valf body arızası</td><td>%24</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>Hava süspansiyon kompresör/körük</td><td>%35</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>3.0 TDI/V6 turbo yağ besleme</td><td>%28</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Motor yağ karteri vidası kaçağı</td><td>%42</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Diferansiyel/Transfer case yağ kaçağı</td><td>%26</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>PCM/Elektronik sistem arızası</td><td>%19</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
   </tbody>
 </table>
 
@@ -125,12 +124,12 @@ Porsche araçları yüksek performans ve mühendislik harikası olsa da belirli 
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>PDK şanzıman yağ değişimi ihmali</td><td>%22</td><td>14.000–26.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>2.0 Turbo motor yağ tüketimi</td><td>%31</td><td>8.500–18.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Turbo wastegate/geometri</td><td>%26</td><td>11.000–22.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Motor yağ karteri kaçağı</td><td>%38</td><td>4.000–8.500₺</td><td>80.000-140.000 km</td></tr>
-    <tr><td>PASM süspansiyon sensör/amortisör</td><td>%24</td><td>9.000–18.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Klima kompresör arızası</td><td>%17</td><td>8.500–16.000₺</td><td>100.000-180.000 km</td></tr>
+    <tr><td>PDK şanzıman yağ değişimi ihmali</td><td>%22</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>2.0 Turbo motor yağ tüketimi</td><td>%31</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Turbo wastegate/geometri</td><td>%26</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Motor yağ karteri kaçağı</td><td>%38</td><td>uygun maliyetler</td><td>80.000-140.000 km</td></tr>
+    <tr><td>PASM süspansiyon sensör/amortisör</td><td>%24</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Klima kompresör arızası</td><td>%17</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
   </tbody>
 </table>
 
@@ -142,12 +141,12 @@ Porsche araçları yüksek performans ve mühendislik harikası olsa da belirli 
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>PDK şanzıman valf body/kavrama</td><td>%21</td><td>16.000–32.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Motor yağ tüketimi (Turbo/S modeller)</td><td>%28</td><td>9.500–22.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Turbo intercooler/soğutma sızıntısı</td><td>%24</td><td>12.000–24.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Arka motor askısı/yatakları</td><td>%19</td><td>8.500–16.000₺</td><td>100.000-200.000 km</td></tr>
-    <tr><td>Yağ karteri/perde kaçağı</td><td>%35</td><td>5.500–11.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Fren kaliper/PCCB seramik disk</td><td>%16</td><td>18.000–45.000₺</td><td>80.000-140.000 km</td></tr>
+    <tr><td>PDK şanzıman valf body/kavrama</td><td>%21</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Motor yağ tüketimi (Turbo/S modeller)</td><td>%28</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Turbo intercooler/soğutma sızıntısı</td><td>%24</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Arka motor askısı/yatakları</td><td>%19</td><td>uygun maliyetler</td><td>100.000-200.000 km</td></tr>
+    <tr><td>Yağ karteri/perde kaçağı</td><td>%35</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Fren kaliper/PCCB seramik disk</td><td>%16</td><td>uygun maliyetler</td><td>80.000-140.000 km</td></tr>
   </tbody>
 </table>
 
@@ -168,12 +167,12 @@ Porsche araçları yüksek performans ve mühendislik harikası olsa da belirli 
     <tr><th>Arıza Türü</th><th>Yaygınlık</th><th>Ortalama Maliyet</th><th>Kilometre</th></tr>
   </thead>
   <tbody>
-    <tr><td>PDK şanzıman valf body/mekatronik</td><td>%26</td><td>17.000–34.000₺</td><td>120.000-200.000 km</td></tr>
-    <tr><td>V6/V8 motor yağ tüketimi</td><td>%32</td><td>10.500–24.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>Hava süspansiyon kompresör/valf</td><td>%38</td><td>14.000–28.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Turbo yağ besleme/soğutma</td><td>%29</td><td>15.000–32.000₺</td><td>100.000-180.000 km</td></tr>
-    <tr><td>Motor yağ karteri/conta kaçağı</td><td>%41</td><td>6.500–13.000₺</td><td>80.000-150.000 km</td></tr>
-    <tr><td>PCM ekran/elektronik arızası</td><td>%22</td><td>9.000–21.000₺</td><td>80.000-150.000 km</td></tr>
+    <tr><td>PDK şanzıman valf body/mekatronik</td><td>%26</td><td>uygun maliyetler</td><td>120.000-200.000 km</td></tr>
+    <tr><td>V6/V8 motor yağ tüketimi</td><td>%32</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>Hava süspansiyon kompresör/valf</td><td>%38</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Turbo yağ besleme/soğutma</td><td>%29</td><td>uygun maliyetler</td><td>100.000-180.000 km</td></tr>
+    <tr><td>Motor yağ karteri/conta kaçağı</td><td>%41</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
+    <tr><td>PCM ekran/elektronik arızası</td><td>%22</td><td>uygun maliyetler</td><td>80.000-150.000 km</td></tr>
   </tbody>
 </table>
 
@@ -190,9 +189,9 @@ Porsche PDK (Porsche Doppelkupplung - Çift Kavrama) şanzıman ZF ile ortak gel
     <tr><th>PDK Şanzıman Tipi</th><th>Kullanıldığı Modeller</th><th>Yaygın Arıza</th><th>Tamir Maliyeti</th></tr>
   </thead>
   <tbody>
-    <tr><td>PDK 7-Speed (DL501)</td><td>911, Cayenne, Macan, Panamera</td><td>Valf body, çift kavrama</td><td>15.000–32.000₺</td></tr>
-    <tr><td>PDK 8-Speed (PDK-2)</td><td>992 911, Panamera G2</td><td>Mekatronik, kavrama aşınması</td><td>17.000–35.000₺</td></tr>
-    <tr><td>Tiptronic (5/6 vites)</td><td>Eski Cayenne, Panamera</td><td>Tork konvertör, valf body</td><td>12.000–26.000₺</td></tr>
+    <tr><td>PDK 7-Speed (DL501)</td><td>911, Cayenne, Macan, Panamera</td><td>Valf body, çift kavrama</td><td>uygun maliyetler</td></tr>
+    <tr><td>PDK 8-Speed (PDK-2)</td><td>992 911, Panamera G2</td><td>Mekatronik, kavrama aşınması</td><td>uygun maliyetler</td></tr>
+    <tr><td>Tiptronic (5/6 vites)</td><td>Eski Cayenne, Panamera</td><td>Tork konvertör, valf body</td><td>uygun maliyetler</td></tr>
   </tbody>
 </table>
 
@@ -218,39 +217,39 @@ Porsche motorları (flat-6 boxer, V6, V8, turbo) yüksek performans sunar ancak 
     <tr><th>Motor Tipi</th><th>Kullanıldığı Modeller</th><th>Kronik Arıza</th><th>Tamir Maliyeti</th></tr>
   </thead>
   <tbody>
-    <tr><td>3.6/3.8 Flat-6 (991.1)</td><td>911 Carrera, Carrera S</td><td>Yağ tüketimi (piston halka)</td><td>8.500–22.000₺</td></tr>
-    <tr><td>3.0 Turbo Flat-6 (991.2/992)</td><td>911 Carrera, Turbo</td><td>Turbo soğutma, yağ kaçağı</td><td>12.000–28.000₺</td></tr>
-    <tr><td>2.0 Turbo I4</td><td>Macan 2.0</td><td>Yağ tüketimi, timing zincir</td><td>7.500–18.000₺</td></tr>
-    <tr><td>3.0 TDI V6</td><td>Cayenne Diesel, Macan Diesel</td><td>DPF, enjektör, turbo</td><td>10.000–26.000₺</td></tr>
-    <tr><td>4.8 V8 Twin-Turbo</td><td>Cayenne Turbo, Panamera Turbo</td><td>Turbo yağ besleme, soğutma</td><td>16.000–38.000₺</td></tr>
+    <tr><td>3.6/3.8 Flat-6 (991.1)</td><td>911 Carrera, Carrera S</td><td>Yağ tüketimi (piston halka)</td><td>uygun maliyetler</td></tr>
+    <tr><td>3.0 Turbo Flat-6 (991.2/992)</td><td>911 Carrera, Turbo</td><td>Turbo soğutma, yağ kaçağı</td><td>uygun maliyetler</td></tr>
+    <tr><td>2.0 Turbo I4</td><td>Macan 2.0</td><td>Yağ tüketimi, timing zincir</td><td>uygun maliyetler</td></tr>
+    <tr><td>3.0 TDI V6</td><td>Cayenne Diesel, Macan Diesel</td><td>DPF, enjektör, turbo</td><td>uygun maliyetler</td></tr>
+    <tr><td>4.8 V8 Twin-Turbo</td><td>Cayenne Turbo, Panamera Turbo</td><td>Turbo yağ besleme, soğutma</td><td>uygun maliyetler</td></tr>
   </tbody>
 </table>
 
 <h2>Sıkça Sorulan Sorular (SSS)</h2>
 
 <p><strong>Porsche PDK şanzıman yağı ne zaman değiştirilmeli?</strong></p>
-<p>PDK şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. Porsche "ömür boyu yağ" iddiasında bulunsa da gerçekte yağ eskir ve valf body arızası riski 80.000 km sonrası %24'e çıkar. Yağ değişimi maliyeti 5.500-9.000₺, değişmezse valf body tamiri 15.000-28.000₺ olur. Özellikle Cayenne, Macan, Panamera gibi ağır araçlarda yağ değişimi kritiktir.</p>
+<p>PDK şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. Porsche "ömür boyu yağ" iddiasında bulunsa da gerçekte yağ eskir ve valf body arızası riski 80.000 km sonrası %24'e çıkar. Yağ değişimi maliyeti uygun maliyetler, değişmezse valf body tamiri uygun maliyetler olur. Özellikle Cayenne, Macan, Panamera gibi ağır araçlarda yağ değişimi kritiktir.</p>
 
 <p><strong>Porsche motor yağ karteri vidası kaçağı nedir ve nasıl çözülür?</strong></p>
-<p>Motor yağ karteri vida yuvası plastik/magnezyum alaşımlı olduğundan tekrarlanan yağ değişimlerinde vida yuvası eskir, sıyrılır. Kaçak riski %38-42 (en yaygın arıza). Çözüm: vida yuvası helicoil (dişli manşon) ile onarılır veya yağ karteri değişimi yapılır. Helicoil onarım 2.500-5.000₺, yağ karteri değişimi 5.500-11.000₺. Erken teşhiste ekonomik onarım yapılır.</p>
+<p>Motor yağ karteri vida yuvası plastik/magnezyum alaşımlı olduğundan tekrarlanan yağ değişimlerinde vida yuvası eskir, sıyrılır. Kaçak riski %38-42 (en yaygın arıza). Çözüm: vida yuvası helicoil (dişli manşon) ile onarılır veya yağ karteri değişimi yapılır. Helicoil onarım uygun maliyetler, yağ karteri değişimi uygun maliyetler. Erken teşhiste ekonomik onarım yapılır.</p>
 
 <p><strong>Porsche 911 yağ tüketimi sorunu normal mi?</strong></p>
-<p>991.1 (2012-2015) Carrera motor yağ tüketimi sorunu TSB (Technical Service Bulletin) ile bilinen fabrikasyon kusurudur. Piston halka tasarımı nedeniyle 1000 km'de 1-2 litre yağ tüketimi olabilir (Porsche 1000 km'de 1 litre tüketime "normal" der). Çözüm: piston halka değişimi 8.500-18.000₺. 991.2 (2016+) sonrası modellerde sorun düzeltildi.</p>
+<p>991.1 (2012-2015) Carrera motor yağ tüketimi sorunu TSB (Technical Service Bulletin) ile bilinen fabrikasyon kusurudur. Piston halka tasarımı nedeniyle 1000 km'de 1-2 litre yağ tüketimi olabilir (Porsche 1000 km'de 1 litre tüketime "normal" der). Çözüm: piston halka değişimi uygun maliyetler. 991.2 (2016+) sonrası modellerde sorun düzeltildi.</p>
 
 <p><strong>Porsche Cayenne hava süspansiyon arızası belirtileri nelerdir?</strong></p>
-<p>Hava süspansiyon arızası belirtileri: araç yere çökmesi, sürüş yüksekliği ayarlanamıyor, kompresör sürekli çalışma, "PASM Failure" ikaz lambası. Nedeni kompresör aşınması, körük delinmesi, valf arızasıdır. Arıza yaygınlığı %35-38 (en yüksek oranlardan). Tamir maliyeti körük 6.500-12.000₺ (adet), kompresör 12.000-22.000₺, valf bloğu 8.500-16.000₺.</p>
+<p>Hava süspansiyon arızası belirtileri: araç yere çökmesi, sürüş yüksekliği ayarlanamıyor, kompresör sürekli çalışma, "PASM Failure" ikaz lambası. Nedeni kompresör aşınması, körük delinmesi, valf arızasıdır. Arıza yaygınlığı %35-38 (en yüksek oranlardan). Tamir maliyeti körük uygun maliyetler (adet), kompresör uygun maliyetler, valf bloğu uygun maliyetler.</p>
 
 <p><strong>Porsche turbo arızası nasıl anlaşılır ve maliyeti nedir?</strong></p>
-<p>Turbo arızası belirtileri: güç kaybı, siyah/beyaz duman, turbo ıslık sesi, "Check Engine" lambası. Nedenleri: yağ besleme yetersizliği, intercooler sızıntısı, wastegate arızası. Porsche turbo değişimi çok yüksek maliyet: orijinal turbo 22.000-45.000₺. Alternatif yenileme 11.000-24.000₺. 911 Turbo, Cayenne Turbo, Panamera Turbo modellerinde turbo arızası %24-29 yaygınlık gösterir.</p>
+<p>Turbo arızası belirtileri: güç kaybı, siyah/beyaz duman, turbo ıslık sesi, "Check Engine" lambası. Nedenleri: yağ besleme yetersizliği, intercooler sızıntısı, wastegate arızası. Porsche turbo değişimi çok yüksek maliyet: orijinal turbo uygun maliyetler. Alternatif yenileme uygun maliyetler. 911 Turbo, Cayenne Turbo, Panamera Turbo modellerinde turbo arızası %24-29 yaygınlık gösterir.</p>
 
 <p><strong>Porsche PCCB seramik fren değişimi neden pahalı?</strong></p>
-<p>PCCB (Porsche Ceramic Composite Brake) karbon-seramik fren diskleridir. Hafif ve yüksek performanslı ancak çok pahalı. Seramik disk değişimi (ön aksam): 35.000-65.000₺, (arka aksam): 28.000-55.000₺. Normal fren diskine (PSCB) geçiş alternatif: ön+arka 12.000-22.000₺. PCCB balata değişimi de pahalı: 6.500-12.000₺. PCCB sadece pist kullanımında mantıklı, günlük sürüşte gereksiz.</p>
+<p>PCCB (Porsche Ceramic Composite Brake) karbon-seramik fren diskleridir. Hafif ve yüksek performanslı ancak çok pahalı. Seramik disk değişimi (ön aksam): uygun maliyetler, (arka aksam): uygun maliyetler. Normal fren diskine (PSCB) geçiş alternatif: ön+arka uygun maliyetler. PCCB balata değişimi de pahalı: uygun maliyetler. PCCB sadece pist kullanımında mantıklı, günlük sürüşte gereksiz.</p>
 
 <p><strong>Porsche PCM ekran arızası nasıl çözülür?</strong></p>
-<p>PCM (Porsche Communication Management) ekran arızası donma, dokunmatik çalışmaması, piksel hatası olarak görülür. Nedeni elektronik kart ısınması, yazılım hatasıdır. Çözüm: yazılım güncellemesi 1.500-3.500₺, elektronik kart tamiri 5.500-11.000₺, ekran değişimi 12.000-26.000₺. Cayenne, Panamera, Macan modellerinde PCM arızası %19-22 yaygınlık gösterir.</p>
+<p>PCM (Porsche Communication Management) ekran arızası donma, dokunmatik çalışmaması, piksel hatası olarak görülür. Nedeni elektronik kart ısınması, yazılım hatasıdır. Çözüm: yazılım güncellemesi uygun maliyetler, elektronik kart tamiri uygun maliyetler, ekran değişimi uygun maliyetler. Cayenne, Panamera, Macan modellerinde PCM arızası %19-22 yaygınlık gösterir.</p>
 
 <p><strong>Porsche periyodik bakım maliyeti nedir?</strong></p>
-<p>Porsche periyodik bakım (15.000 km) maliyeti: motor yağı (0W-40 sentetik) + filtre 3.500-6.500₺, fren hidroliği değişimi (2 yıl) 2.500-4.500₺, klima bakımı 1.500-3.000₺, PDK yağı (60.000 km) 5.500-9.000₺. Yıllık ortalama bakım maliyeti (15.000 km/yıl) 8.000-15.000₺. Yetkili servis %60-80 daha pahalı.</p>
+<p>Porsche periyodik bakım (15.000 km) maliyeti: motor yağı (0W-40 sentetik) + filtre uygun maliyetler, fren hidroliği değişimi (2 yıl) uygun maliyetler, klima bakımı uygun maliyetler, PDK yağı (60.000 km) uygun maliyetler. Yıllık ortalama bakım maliyeti (15.000 km/yıl) uygun maliyetler. Yetkili servis %60-80 daha pahalı.</p>
 
 <h2>Müşteri Yorumları</h2>
 
@@ -262,7 +261,7 @@ Porsche motorları (flat-6 boxer, V6, V8, turbo) yüksek performans sunar ancak 
       <span class="review-stars">★★★★★</span>
       <span class="review-date">3 hafta önce</span>
     </div>
-    <p class="review-text">2015 Porsche Cayenne S - Hava süspansiyon kompresör arızası. Yetkili servis 28.000₺ istedi, Yıldızlar Grup 14.500₺'ye yaptı. Kaliteli işçilik, orijinal yedek parça. Kesinlikle tavsiye ederim.</p>
+    <p class="review-text">2015 Porsche Cayenne S - Hava süspansiyon kompresör arızası. Yetkili servis uygun fiyat istedi, Yıldızlar Grup uygun fiyat'ye yaptı. Kaliteli işçilik, orijinal yedek parça. Kesinlikle tavsiye ederim.</p>
   </div>
 </div>
 
@@ -274,7 +273,7 @@ Porsche motorları (flat-6 boxer, V6, V8, turbo) yüksek performans sunar ancak 
       <span class="review-stars">★★★★★</span>
       <span class="review-date">2 hafta önce</span>
     </div>
-    <p class="review-text">Porsche 911 Carrera - PDK şanzıman valf body arızası. Yetkili servis 32.000₺ dedi, burada 17.500₺'ye hallettiler. Araç mükemmel çalışıyor. Gerçek Porsche uzmanları.</p>
+    <p class="review-text">Porsche 911 Carrera - PDK şanzıman valf body arızası. Yetkili servis uygun fiyat dedi, burada uygun fiyat'ye hallettiler. Araç mükemmel çalışıyor. Gerçek Porsche uzmanları.</p>
   </div>
 </div>
 
@@ -298,7 +297,7 @@ Porsche motorları (flat-6 boxer, V6, V8, turbo) yüksek performans sunar ancak 
       <span class="review-stars">★★★★★</span>
       <span class="review-date">2 ay önce</span>
     </div>
-    <p class="review-text">Porsche Panamera 3.0 TDI - Turbo ve DPF arızası. Yetkili servis 35.000₺ istedi, burada 19.500₺'ye hem turbo hem DPF değişti. Garantili işçilik, müthiş hizmet.</p>
+    <p class="review-text">Porsche Panamera 3.0 TDI - Turbo ve DPF arızası. Yetkili servis uygun fiyat istedi, burada uygun fiyat'ye hem turbo hem DPF değişti. Garantili işçilik, müthiş hizmet.</p>
   </div>
 </div>
 
@@ -340,3 +339,4 @@ Yıldızlar Grup Porsche Özel Servis, Büyükçekmece Beykent Sanayi Sitesi'nde
     <a class="cta-map" href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Konum Tarifi</a>
   </div>
 </div>
+

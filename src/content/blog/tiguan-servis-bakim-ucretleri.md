@@ -1,8 +1,8 @@
 ---
 title: "Tiguan Servis Bakım Ücretleri"
-description: "Volkswagen Tiguan servis bakım ücretleri: Periyodik bakım, ağır bakım, DSG bakımı, Haldex 4x4 bakımı, DPF temizleme fiyatları. Tiguan 5N, AD1 modellerinde tüm bakım hizmetleri."
+description: "Volkswagen Tiguan servis bakım ücretleri: Periyodik bakım, ağır bakım, DSG bakımı, Haldex 4x4 bakımı, DPF temizleme hizmetleri. Tiguan 5N, AD1 modellerinde tüm bakım hizmetleri."
 category: "Volkswagen"
-tags: ["volkswagen", "tiguan", "servis", "bakım", "periyodik bakım", "dsg bakımı", "haldex", "fiyat"]
+tags: ["volkswagen", "tiguan", "servis", "bakım", "periyodik bakım", "dsg bakımı", "haldex"]
 slug: "tiguan-servis-bakim-ucretleri"
 publishDate: "2025-11-17T09:00:00+03:00"
 updatedDate: "2025-11-17T09:00:00+03:00"
@@ -17,10 +17,6 @@ serviceName: "Volkswagen Tiguan Servis Bakım Hizmetleri"
 serviceType: "Araç Bakımı"
 serviceDescription: "Volkswagen Tiguan araçlarında periyodik bakım, ağır bakım, DSG bakımı, Haldex 4x4 bakımı hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 4000
-highPrice: 24000
-priceCurrency: "TRY"
-offerUrl: "/tiguan-servis-bakim-ucretleri"
 
 ---
 
@@ -30,7 +26,7 @@ Volkswagen Tiguan servis bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Tiguan bakımında erken müdahale %50'ye varan maliyet tasarrufu sağlar. DSG DQ381/DQ500 yağ değişimi 80.000 km'de mutlaka yapılmalıdır (6.000-9.500₺). Değişmezse mekatronik arızası 9.500-17.000₺. 2.0 TDI DPF temizleme 100.000 km'de yapılmalıdır (8.000-19.000₺). Haldex 4x4 pompa bakımı 100.000 km'de yapılmalıdır (5.000-10.000₺). Hava süspansiyon kompresör bakımı 100.000 km'de yapılmalıdır (12.000-24.000₺). SUV modellerde kavrama aşınması %33 hızlanır.
+**UZMAN TAVSİYESİ:** Tiguan bakımında erken müdahale %50'ye varan maliyet tasarrufu sağlar. DSG DQ381/DQ500 yağ değişimi 80.000 km'de mutlaka yapılmalıdır (Fiyat Sorunuz). Değişmezse mekatronik arızası uygun maliyetler. 2.0 TDI DPF temizleme 100.000 km'de yapılmalıdır (Fiyat Sorunuz). Haldex 4x4 pompa bakımı 100.000 km'de yapılmalıdır (Fiyat Sorunuz). Hava süspansiyon kompresör bakımı 100.000 km'de yapılmalıdır (Fiyat Sorunuz). SUV modellerde kavrama aşınması %33 hızlanır.
 
 :::
 
@@ -48,15 +44,15 @@ Volkswagen Tiguan servis bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | Bakım Türü | Maliyet | Periyot | Süre | Model |
 | --- | ---: | --- | --- | --- |
-| Küçük bakım (yağ + filtre) | 4.000–6.500₺ | 15.000 km | Aynı gün | Tiguan 5N, AD1 |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.500–10.000₺ | 30.000 km | Aynı gün | Tiguan 5N, AD1 |
-| DSG DQ381 yağ değişimi | 6.000–9.000₺ | 80.000 km | Aynı gün | Tiguan 2WD |
-| DSG DQ500 yağ değişimi | 6.500–9.500₺ | 80.000 km | Aynı gün | Tiguan 4Motion |
-| Fren balata (ön/arka) | 6.000–12.000₺ | 50.000–70.000 km | Aynı gün | Tüm modeller |
-| DPF temizleme (2.0 TDI) | 8.000–19.000₺ | 100.000 km | 1-2 gün | Dizel modeller |
-| Haldex 4x4 bakımı | 3.500–6.000₺ | 30.000 km | Aynı gün | 4Motion modeller |
-| Hava süspansiyon bakımı | 12.000–24.000₺ | 100.000 km | 1-2 gün | R-Line modeller |
-| Klima bakım (gaz, temizlik) | 3.000–5.000₺ | Yıllık | Aynı gün | Tüm modeller |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün | Tiguan 5N, AD1 |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün | Tiguan 5N, AD1 |
+| DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün | Tiguan 2WD |
+| DSG DQ500 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün | Tiguan 4Motion |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün | Tüm modeller |
+| DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | 100.000 km | 1-2 gün | Dizel modeller |
+| Haldex 4x4 bakımı | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün | 4Motion modeller |
+| Hava süspansiyon bakımı | 📞 Fiyat Sorunuz | 100.000 km | 1-2 gün | R-Line modeller |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün | Tüm modeller |
 
 ## Motor Tipine Göre Bakım Ücretleri
 
@@ -64,13 +60,13 @@ Volkswagen Tiguan servis bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 4.000–6.500₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.500–10.000₺ | 30.000 km | Aynı gün |
-| DSG DQ381 yağ değişimi | 6.000–9.000₺ | 80.000 km | Aynı gün |
-| DSG DQ500 yağ değişimi (4Motion) | 6.500–9.500₺ | 80.000 km | Aynı gün |
-| Fren balata (ön/arka) | 6.000–12.000₺ | 50.000–70.000 km | Aynı gün |
-| Haldex 4x4 bakımı (4Motion) | 3.500–6.000₺ | 30.000 km | Aynı gün |
-| Klima bakım | 3.000–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| DSG DQ500 yağ değişimi (4Motion) | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Haldex 4x4 bakımı (4Motion) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| Klima bakım | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 **2.0 TSI Özel Notlar:**
 - DSG DQ381/DQ500 yağ değişimi 80.000 km'de mutlaka yapılmalı
@@ -81,20 +77,20 @@ Volkswagen Tiguan servis bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 4.000–6.500₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 6.500–10.000₺ | 30.000 km | Aynı gün |
-| DSG DQ381 yağ değişimi | 6.000–9.000₺ | 80.000 km | Aynı gün |
-| DSG DQ500 yağ değişimi (4Motion) | 6.500–9.500₺ | 80.000 km | Aynı gün |
-| Fren balata (ön/arka) | 6.000–12.000₺ | 50.000–70.000 km | Aynı gün |
-| DPF temizleme (2.0 TDI) | 8.000–19.000₺ | 100.000 km | 1-2 gün |
-| AdBlue sistemi bakımı | 4.500–11.000₺ | 80.000 km | Aynı gün |
-| Haldex 4x4 bakımı (4Motion) | 3.500–6.000₺ | 30.000 km | Aynı gün |
-| Klima bakım | 3.000–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| DSG DQ500 yağ değişimi (4Motion) | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | 100.000 km | 1-2 gün |
+| AdBlue sistemi bakımı | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| Haldex 4x4 bakımı (4Motion) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| Klima bakım | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 **2.0 TDI Özel Notlar:**
 - DPF temizleme 100.000 km'de mutlaka yapılmalı
 - DPF tıkanırsa motor performansı düşer, yakıt tüketimi artar
-- DPF değişimi 18.000-28.000₺ (temizleme 8.000-19.000₺)
+- DPF değişimi uygun maliyetler (temizleme uygun maliyetler)
 - AdBlue sistemi bakımı 80.000 km'de yapılmalı
 
 ## Kilometre Bazlı Ağır Bakım Paketleri
@@ -105,14 +101,14 @@ Volkswagen Tiguan servis bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| Motor yağı ve filtre | 4.000–6.500₺ | Orijinal motor yağı ve filtre |
+| Motor yağı ve filtre | 📞 Fiyat Sorunuz | Orijinal motor yağı ve filtre |
 | Hava filtresi değişimi | 500–900₺ | Motor hava filtresi |
 | Polen filtresi değişimi | 400–700₺ | Kabin hava filtresi |
 | Fren balata kontrolü | Ücretsiz | Ön/arka fren balata kontrolü |
-| Fren balata değişimi (gerekirse) | 6.000–12.000₺ | Ön/arka fren balata değişimi |
-| Klima bakımı | 3.000–5.000₺ | Klima gazı ve temizlik |
+| Fren balata değişimi (gerekirse) | 📞 Fiyat Sorunuz | Ön/arka fren balata değişimi |
+| Klima bakımı | 📞 Fiyat Sorunuz | Klima gazı ve temizlik |
 | Akü kontrolü | Ücretsiz | Akü voltaj ve şarj kontrolü |
-| **TOPLAM** | **9.500–14.000₺** | **Tüm işlemler dahil** |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **60.000 km Bakım Önemi:**
 - Filtre değişimi motor performansını korur
@@ -125,15 +121,15 @@ Volkswagen Tiguan servis bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| 60.000 km bakım paketi | 9.500–14.000₺ | Yukarıdaki tüm işlemler |
-| DSG DQ381/DQ500 yağ değişimi | 6.000–9.500₺ | Şanzıman yağı ve filtre değişimi |
-| DPF temizleme (2.0 TDI) | 8.000–19.000₺ | Dizel partikül filtresi temizleme |
+| 60.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
+| DSG DQ381/DQ500 yağ değişimi | 📞 Fiyat Sorunuz | Şanzıman yağı ve filtre değişimi |
+| DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | Dizel partikül filtresi temizleme |
 | Turbo kontrolü | Ücretsiz | Turbo basınç ve yağ kontrolü |
-| Turbo temizleme (gerekirse) | 4.500–9.500₺ | Turbo geometri temizleme |
-| Yakıt filtresi değişimi | 700–1.400₺ | Dizel yakıt filtresi |
-| AdBlue sistemi bakımı (2.0 TDI) | 4.500–11.000₺ | AdBlue seviye, kalite ve pompa kontrolü |
-| Haldex 4x4 bakımı (4Motion) | 3.500–6.000₺ | Haldex yağ değişimi ve pompa kontrolü |
-| **TOPLAM** | **13.500–21.000₺** | **Tüm işlemler dahil** |
+| Turbo temizleme (gerekirse) | 📞 Fiyat Sorunuz | Turbo geometri temizleme |
+| Yakıt filtresi değişimi | 700–uygun fiyat | Dizel yakıt filtresi |
+| AdBlue sistemi bakımı (2.0 TDI) | 📞 Fiyat Sorunuz | AdBlue seviye, kalite ve pompa kontrolü |
+| Haldex 4x4 bakımı (4Motion) | 📞 Fiyat Sorunuz | Haldex yağ değişimi ve pompa kontrolü |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **90.000 km Bakım Önemi:**
 - DSG yağ değişimi mekatronik arızasını önler
@@ -147,16 +143,16 @@ Volkswagen Tiguan servis bakımı, aracın ömrünü uzatan ve büyük arızalar
 
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
-| 90.000 km bakım paketi | 13.500–21.000₺ | Yukarıdaki tüm işlemler |
+| 90.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
 | DSG kavrama kontrolü | Ücretsiz | DQ381/DQ500 kavrama aşınma kontrolü |
-| DSG kavrama değişimi (gerekirse) | 10.000–18.000₺ | DQ381/DQ500 kavrama değişimi |
+| DSG kavrama değişimi (gerekirse) | 📞 Fiyat Sorunuz | DQ381/DQ500 kavrama değişimi |
 | Haldex pompa kontrolü | Ücretsiz | Haldex 4x4 pompa kontrolü |
-| Haldex pompa değişimi (gerekirse) | 5.000–10.000₺ | Haldex pompa değişimi |
+| Haldex pompa değişimi (gerekirse) | 📞 Fiyat Sorunuz | Haldex pompa değişimi |
 | Hava süspansiyon kontrolü | Ücretsiz | Hava süspansiyon kompresör kontrolü |
-| Hava süspansiyon bakımı (gerekirse) | 12.000–24.000₺ | Kompresör ve valf bakımı |
+| Hava süspansiyon bakımı (gerekirse) | 📞 Fiyat Sorunuz | Kompresör ve valf bakımı |
 | Su pompası kontrolü | Ücretsiz | Su pompası ve termostat kontrolü |
-| Su pompası değişimi (gerekirse) | 2.800–5.500₺ | Su pompası ve termostat değişimi |
-| **TOPLAM** | **17.000–26.000₺** | **Tüm işlemler dahil** |
+| Su pompası değişimi (gerekirse) | 📞 Fiyat Sorunuz | Su pompası ve termostat değişimi |
+| **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **120.000 km Bakım Önemi:**
 - DSG kavrama kontrolü şanzıman arızasını önler
@@ -171,15 +167,15 @@ DSG DQ381/DQ500 yağ değişimi, Tiguan'ın en kritik bakım işlemlerinden biri
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DSG DQ381 yağ değişimi | 6.000–9.000₺ | 1-2 saat |
-| DSG DQ500 yağ değişimi | 6.500–9.500₺ | 1-2 saat |
+| DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
+| DSG DQ500 yağ değişimi | 📞 Fiyat Sorunuz | 1-2 saat |
 | DSG filtre değişimi | Dahil | Dahil |
 | Mekatronik adaptasyonu | Dahil | Dahil |
 
 **DSG Yağ Değişimi Önemi:**
 - Yağ eskirse mekatronik arızası riski %40 artar
-- Mekatronik arızası 9.500-17.000₺
-- Erken yağ değişimi maliyeti 6.000-9.500₺
+- Mekatronik arızası uygun maliyetler
+- Erken yağ değişimi maliyeti uygun maliyetler
 
 ### Haldex 4x4 Bakımı (30.000 km)
 
@@ -187,14 +183,14 @@ DSG DQ381/DQ500 yağ değişimi, Tiguan'ın en kritik bakım işlemlerinden biri
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Haldex yağ değişimi | 2.500–5.000₺ | Aynı gün |
+| Haldex yağ değişimi | 📞 Fiyat Sorunuz | Aynı gün |
 | Haldex pompa kontrolü | Ücretsiz | 30 dakika |
-| Haldex pompa değişimi (gerekirse) | 5.000–10.000₺ | Aynı gün |
-| Haldex filtre değişimi | 800–1.500₺ | Aynı gün |
+| Haldex pompa değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
+| Haldex filtre değişimi | 800–uygun fiyat | Aynı gün |
 
 **Haldex 4x4 Önemi:**
 - Haldex pompa arızası çekiş kaybına neden olur
-- Pompa arızası 5.000-10.000₺
+- Pompa arızası uygun maliyetler
 - Düzenli bakım çekiş performansını korur
 
 ### DPF Temizleme (90.000 km - Dizel)
@@ -203,14 +199,14 @@ DSG DQ381/DQ500 yağ değişimi, Tiguan'ın en kritik bakım işlemlerinden biri
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| DPF temizleme | 8.000–19.000₺ | 1-2 gün |
-| DPF değişimi (gerekirse) | 18.000–28.000₺ | 2-3 gün |
-| EGR temizleme | 2.500–5.500₺ | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 1-2 gün |
+| DPF değişimi (gerekirse) | 📞 Fiyat Sorunuz | 2-3 gün |
+| EGR temizleme | 📞 Fiyat Sorunuz | Aynı gün |
 
 **DPF Temizleme Önemi:**
 - DPF tıkanırsa motor performansı düşer
 - Yakıt tüketimi %20-30 artar
-- Erken temizleme maliyeti 8.000-19.000₺
+- Erken temizleme maliyeti uygun maliyetler
 
 ### Hava Süspansiyon Bakımı (120.000 km)
 
@@ -219,13 +215,13 @@ R-Line modellerde hava süspansiyon bakımı kritiktir.
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
 | Hava süspansiyon kontrolü | Ücretsiz | 30 dakika |
-| Kompresör bakımı | 8.000–15.000₺ | 1-2 gün |
-| Valf bakımı | 4.000–9.000₺ | Aynı gün |
-| Tam bakım (kompresör + valf) | 12.000–24.000₺ | 1-2 gün |
+| Kompresör bakımı | 📞 Fiyat Sorunuz | 1-2 gün |
+| Valf bakımı | 📞 Fiyat Sorunuz | Aynı gün |
+| Tam bakım (kompresör + valf) | 📞 Fiyat Sorunuz | 1-2 gün |
 
 **Hava Süspansiyon Önemi:**
 - Kompresör arızası süspansiyon çökmesine neden olur
-- Kompresör arızası 12.000-24.000₺
+- Kompresör arızası uygun maliyetler
 - Düzenli bakım konforu korur
 
 ### Fren Balata Değişimi
@@ -234,10 +230,10 @@ Fren balata değişimi güvenlik için kritiktir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Ön fren balata | 3.500–7.000₺ | Aynı gün |
-| Arka fren balata | 2.500–5.000₺ | Aynı gün |
-| Fren diski değişimi (gerekirse) | 4.500–9.000₺ | Aynı gün |
-| Fren hidroliği değişimi | 1.000–2.000₺ | Aynı gün |
+| Ön fren balata | 📞 Fiyat Sorunuz | Aynı gün |
+| Arka fren balata | 📞 Fiyat Sorunuz | Aynı gün |
+| Fren diski değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
+| Fren hidroliği değişimi | 📞 Fiyat Sorunuz | Aynı gün |
 
 ## Tiguan Servis Bakım Süreci
 
@@ -252,7 +248,7 @@ Fren balata değişimi güvenlik için kritiktir.
 
 - **15+ Yıl Deneyim:** Tiguan bakımında uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-3 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -325,27 +321,27 @@ Fren balata değişimi güvenlik için kritiktir.
 
 ### Tiguan servis bakım ücreti ne kadar?
 
-Tiguan servis bakım ücreti bakım türüne göre değişir. Küçük bakım (yağ + filtre) 4.000-6.500₺, büyük bakım 6.500-10.000₺, DSG yağ değişimi 6.000-9.500₺, DPF temizleme 8.000-19.000₺, Haldex 4x4 bakımı 3.500-6.000₺ arasındadır.
+Tiguan servis bakım ücreti bakım türüne göre değişir. Küçük bakım (yağ + filtre) uygun maliyetler, büyük bakım uygun maliyetler, DSG yağ değişimi uygun maliyetler, DPF temizleme uygun maliyetler, Haldex 4x4 bakımı uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Tiguan 60.000 km bakımı ne içerir?
 
-60.000 km bakımı: Motor yağı ve filtre (4.000-6.500₺), hava filtresi (500-900₺), polen filtresi (400-700₺), fren balata kontrolü, klima bakımı (3.000-5.000₺) içerir. Toplam 9.500-14.000₺.
+60.000 km bakımı: Motor yağı ve filtre (Fiyat Sorunuz), hava filtresi (500-900₺), polen filtresi (400-700₺), fren balata kontrolü, klima bakımı (Fiyat Sorunuz) içerir. Toplam uygun maliyetler.
 
 ### Tiguan DSG yağ değişimi ne zaman yapılmalı?
 
-Tiguan DSG DQ381/DQ500 yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi 6.000-9.500₺; değişmezse mekatronik arızası 9.500-17.000₺.
+Tiguan DSG DQ381/DQ500 yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, mekatronik arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler.
 
 ### Tiguan Haldex 4x4 bakımı ne zaman yapılmalı?
 
-Tiguan Haldex 4x4 bakımı 30.000 km'de yapılmalıdır. Haldex yağ değişimi 2.500-5.000₺, pompa kontrolü ücretsiz, pompa değişimi (gerekirse) 5.000-10.000₺. Haldex pompa arızası çekiş kaybına neden olur.
+Tiguan Haldex 4x4 bakımı 30.000 km'de yapılmalıdır. Haldex yağ değişimi uygun maliyetler, pompa kontrolü ücretsiz, pompa değişimi (gerekirse) uygun maliyetler. Haldex pompa arızası çekiş kaybına neden olur.
 
 ### Tiguan 2.0 TDI DPF temizleme ne zaman yapılmalı?
 
-2.0 TDI DPF temizleme 100.000 km'de mutlaka yapılmalıdır. DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar. DPF temizleme 8.000-19.000₺; değişim 18.000-28.000₺.
+2.0 TDI DPF temizleme 100.000 km'de mutlaka yapılmalıdır. DPF tıkanırsa motor performansı düşer, yakıt tüketimi %20-30 artar. DPF temizleme uygun maliyetler; değişim uygun maliyetler.
 
 ### Tiguan hava süspansiyon bakımı ne zaman yapılmalı?
 
-Tiguan hava süspansiyon bakımı 100.000 km'de yapılmalıdır. Kompresör bakımı 8.000-15.000₺, valf bakımı 4.000-9.000₺, tam bakım 12.000-24.000₺. Kompresör arızası süspansiyon çökmesine neden olur.
+Tiguan hava süspansiyon bakımı 100.000 km'de yapılmalıdır. Kompresör bakımı uygun maliyetler, valf bakımı uygun maliyetler, tam bakım uygun maliyetler. Kompresör arızası süspansiyon çökmesine neden olur.
 
 ### Tiguan bakım ne kadar sürer?
 
@@ -365,5 +361,6 @@ Yıldızlar Grup'ta Tiguan bakım ücretleri yetkili servise göre %50-70 daha e
 
 ### Tiguan fren balata değişimi ne zaman yapılmalı?
 
-Tiguan fren balata değişimi 50.000-70.000 km arasında yapılmalıdır. Ön fren balata 3.500-7.000₺, arka fren balata 2.500-5.000₺. Fren diski değişimi gerekirse 4.500-9.000₺ eklenir.
+Tiguan fren balata değişimi 50.000-70.000 km arasında yapılmalıdır. Ön fren balata uygun maliyetler, arka fren balata uygun maliyetler. Fren diski değişimi gerekirse uygun maliyetler eklenir.
+
 

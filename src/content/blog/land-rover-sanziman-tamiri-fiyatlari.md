@@ -1,13 +1,13 @@
 ---
-title: "Land Rover Şanzıman Tamiri Fiyatları"
-description: "Land Rover şanzıman tamiri fiyatları: ZF 8HP/9HP şanzıman tamiri fiyatları. Range Rover, Discovery, Evoque, Defender modellerinde valf body, tork konvertör, mekatronik tamiri fiyatları."
+title: "Land Rover Şanzıman Tamiri Hizmetleri"
+description: "Land Rover şanzıman tamiri hizmetleri: ZF 8HP/9HP şanzıman tamiri hizmetleri. Range Rover, Discovery, Evoque, Defender modellerinde valf body, tork konvertör, mekatronik tamiri hizmetleri."
 category: "Land Rover"
-tags: ["land rover", "şanzıman", "şanzıman tamiri", "zf", "8hp", "9hp", "fiyat"]
+tags: ["land rover", "şanzıman", "şanzıman tamiri", "zf", "8hp", "9hp"]
 slug: "land-rover-sanziman-tamiri-fiyatlari"
 publishDate: "2025-11-13T14:00:00+03:00"
 updatedDate: "2025-11-13T14:00:00+03:00"
 featuredImage: "/images/blog/land-rover-sanziman-tamiri-fiyatlari.jpg"
-imageAlt: "Land Rover şanzıman tamiri fiyatları - Yıldızlar Grup DSG Servisi"
+imageAlt: "Land Rover şanzıman tamiri hizmetleri - Yıldızlar Grup DSG Servisi"
 ogImage: "/images/blog/land-rover-sanziman-tamiri-fiyatlari.jpg"
 author: "DSG Servisi"
 draft: false
@@ -17,10 +17,6 @@ serviceName: "Land Rover Şanzıman Tamiri"
 serviceType: "Şanzıman Onarımı"
 serviceDescription: "Land Rover araçlarında ZF 8HP/9HP şanzıman tamiri hizmeti. Tüm modeller için ekonomik fiyatlar."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-lowPrice: 13500
-highPrice: 38000
-priceCurrency: "TRY"
-offerUrl: "/land-rover-sanziman-tamiri-fiyatlari"
 
 ---
 
@@ -30,7 +26,7 @@ Land Rover araçlarında şanzıman arızaları motor performansını ve güvenl
 
 :::tip
 
-**UZMAN TAVSİYESİ:** Land Rover şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. ZF 8HP/9HP yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Yağ değişimi 5.500-9.500₺; değişmezse valf body arızası 18.000-38.000₺, tork konvertör arızası 22.000-42.000₺. Ağır gövde nedeniyle şanzıman yükü artar, bakım önemlidir.
+**UZMAN TAVSİYESİ:** Land Rover şanzıman arızalarında erken teşhis %50'ye varan maliyet tasarrufu sağlar. ZF 8HP/9HP yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler, tork konvertör arızası uygun maliyetler. Ağır gövde nedeniyle şanzıman yükü artar, bakım önemlidir.
 
 :::
 
@@ -44,14 +40,14 @@ Land Rover araçlarında şanzıman arızaları motor performansını ve güvenl
 
 :::
 
-## Land Rover Şanzıman Tamiri Fiyatları 2025 (Genel)
+## Land Rover Şanzıman Tamiri Hizmetleri (Genel)
 
 | Şanzıman Tipi | Kullanıldığı Modeller | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | --- | ---: | --- |
-| ZF 8HP (8 vites) | Range Rover, RR Sport, Discovery | Valf body, tork konvertör | 18.000–38.000₺ | 3-5 gün |
-| ZF 9HP (9 vites) | Evoque, Discovery Sport | Vites sarsıntı, mekatronik | 13.500–26.000₺ | 2-4 gün |
+| ZF 8HP (8 vites) | Range Rover, RR Sport, Discovery | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 3-5 gün |
+| ZF 9HP (9 vites) | Evoque, Discovery Sport | Vites sarsıntı, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
 
-## Şanzıman Tipine Göre Tamir Fiyatları
+## Şanzıman Tipine Göre Tamir Hizmetleri
 
 ### ZF 8HP Şanzıman Tamiri
 
@@ -59,11 +55,11 @@ ZF 8HP 8 vites tork konvertörlü otomatik şanzımandır. Range Rover, Range Ro
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Valf body revizyonu | 18.000–32.000₺ | 3-5 gün | %36 |
-| Tork konvertör tamiri | 22.000–38.000₺ | 4-6 gün | %28 |
-| Yağ kaçağı tamiri | 7.000–13.000₺ | 1-2 gün | %24 |
-| Elektronik modül değişimi | 9.000–16.000₺ | 1-2 gün | %22 |
-| Tam revizyon | 30.000–50.000₺ | 5-7 gün | %20 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 3-5 gün | %36 |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 4-6 gün | %28 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %24 |
+| Elektronik modül değişimi | 📞 Fiyat Sorunuz | 1-2 gün | %22 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 5-7 gün | %20 |
 
 **ZF 8HP Arıza Belirtileri:**
 - Soğukta vites geçişinde gecikme/sarsıntı
@@ -78,11 +74,11 @@ ZF 9HP 9 vites tork konvertörlü otomatik şanzımandır. Evoque ve Discovery S
 
 | Arıza Türü | Tamir Fiyatı | Süre | Yaygınlık |
 | --- | ---: | --- | ---: |
-| Mekatronik revizyonu | 13.500–22.000₺ | 2-4 gün | %31 |
-| Vites sarsıntı tamiri | 15.000–26.000₺ | 3-5 gün | %28 |
-| Valf body revizyonu | 14.000–24.000₺ | 2-4 gün | %25 |
-| Yağ kaçağı tamiri | 6.500–12.000₺ | 1-2 gün | %23 |
-| Tam revizyon | 25.000–42.000₺ | 4-6 gün | %19 |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %31 |
+| Vites sarsıntı tamiri | 📞 Fiyat Sorunuz | 3-5 gün | %28 |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 2-4 gün | %25 |
+| Yağ kaçağı tamiri | 📞 Fiyat Sorunuz | 1-2 gün | %23 |
+| Tam revizyon | 📞 Fiyat Sorunuz | 4-6 gün | %19 |
 
 **ZF 9HP Arıza Belirtileri:**
 - Vites geçişlerinde sarsıntı
@@ -91,43 +87,43 @@ ZF 9HP 9 vites tork konvertörlü otomatik şanzımandır. Evoque ve Discovery S
 - Kontrol panelinde ikaz lambası
 - Performans düşüşü
 
-## Model Bazlı Şanzıman Tamiri Fiyatları
+## Model Bazlı Şanzıman Tamiri Hizmetleri
 
 ### Range Rover (L405, L460) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 18.000–38.000₺ | 3-5 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 3-5 gün |
 
 ### Range Rover Sport (L494) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, mekatronik | 17.000–36.000₺ | 3-5 gün |
+| ZF 8HP | Valf body, mekatronik | 📞 Fiyat Sorunuz | 3-5 gün |
 
 ### Range Rover Evoque (L538, L551) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 9HP | Vites sarsıntı, mekatronik | 14.000–26.000₺ | 2-4 gün |
+| ZF 9HP | Vites sarsıntı, mekatronik | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Discovery (L319, L462) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 18.000–38.000₺ | 3-5 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 3-5 gün |
 
 ### Discovery Sport (L550) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 9HP | Vites geçiş sorunları | 13.500–25.000₺ | 2-4 gün |
+| ZF 9HP | Vites geçiş sorunları | 📞 Fiyat Sorunuz | 2-4 gün |
 
 ### Defender (L663) Şanzıman Tamiri
 
 | Şanzıman Tipi | Arıza Türü | Tamir Fiyatı | Süre |
 | --- | --- | ---: | --- |
-| ZF 8HP | Valf body, tork konvertör | 19.000–40.000₺ | 3-5 gün |
+| ZF 8HP | Valf body, tork konvertör | 📞 Fiyat Sorunuz | 3-5 gün |
 
 ## Şanzıman Arıza Türleri ve Çözümleri
 
@@ -137,10 +133,10 @@ Valf body, şanzımanın hidrolik kontrol ünitesidir. Yağ eskimesi ve solenoid
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Valf body revizyonu | 18.000–32.000₺ | 3-5 gün |
-| Valf body değişimi | 25.000–40.000₺ | 4-6 gün |
-| Solenoid değişimi | 8.000–14.000₺ | 1-2 gün |
-| Valf body temizliği | 5.000–10.000₺ | 1-2 gün |
+| Valf body revizyonu | 📞 Fiyat Sorunuz | 3-5 gün |
+| Valf body değişimi | 📞 Fiyat Sorunuz | 4-6 gün |
+| Solenoid değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Valf body temizliği | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Tork Konvertör Arızası
 
@@ -148,9 +144,9 @@ Tork konvertör, motor ve şanzıman arasındaki güç aktarımını sağlar. Ka
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Tork konvertör tamiri | 22.000–38.000₺ | 4-6 gün |
-| Tork konvertör değişimi | 30.000–48.000₺ | 5-7 gün |
-| Tork konvertör revizyonu | 20.000–35.000₺ | 4-6 gün |
+| Tork konvertör tamiri | 📞 Fiyat Sorunuz | 4-6 gün |
+| Tork konvertör değişimi | 📞 Fiyat Sorunuz | 5-7 gün |
+| Tork konvertör revizyonu | 📞 Fiyat Sorunuz | 4-6 gün |
 
 ### Mekatronik Arızası
 
@@ -158,9 +154,9 @@ Mekatronik, şanzımanın elektronik kontrol ünitesidir. Özellikle ZF 9HP'de y
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Mekatronik revizyonu | 13.500–22.000₺ | 2-4 gün |
-| Mekatronik değişimi | 18.000–28.000₺ | 3-5 gün |
-| Elektronik modül değişimi | 9.000–16.000₺ | 1-2 gün |
+| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-4 gün |
+| Mekatronik değişimi | 📞 Fiyat Sorunuz | 3-5 gün |
+| Elektronik modül değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
 
 ### Yağ Kaçağı Tamiri
 
@@ -168,16 +164,16 @@ Mekatronik, şanzımanın elektronik kontrol ünitesidir. Özellikle ZF 9HP'de y
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Keçe değişimi | 6.500–12.000₺ | Aynı gün |
-| Conta değişimi | 7.000–13.000₺ | 1 gün |
-| Gövde tamiri | 10.000–18.000₺ | 2-3 gün |
+| Keçe değişimi | 📞 Fiyat Sorunuz | Aynı gün |
+| Conta değişimi | 📞 Fiyat Sorunuz | 1 gün |
+| Gövde tamiri | 📞 Fiyat Sorunuz | 2-3 gün |
 
 ## Şanzıman Bakım Önerileri
 
 :::note
 
 - ZF 8HP/9HP yağ değişimi 80.000 km'de mutlaka yapılmalı
-- Yağ değişimi 5.500-9.500₺; değişmezse valf body arızası 18.000-38.000₺
+- Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler
 - Tork konvertör kontrolü 150.000 km'de yapılmalı
 - Ağır gövde nedeniyle şanzıman yükü artar, bakım önemlidir
 - Erken teşhis %50'ye varan maliyet tasarrufu sağlar
@@ -198,7 +194,7 @@ Mekatronik, şanzımanın elektronik kontrol ünitesidir. Özellikle ZF 9HP'de y
 
 - **15+ Yıl Deneyim:** Land Rover şanzıman tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, fiyat teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-7 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Land Rover servisi
@@ -271,7 +267,7 @@ Mekatronik, şanzımanın elektronik kontrol ünitesidir. Özellikle ZF 9HP'de y
 
 ### Land Rover şanzıman tamiri fiyatı ne kadar?
 
-Land Rover şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. ZF 8HP valf body revizyonu 18.000-32.000₺, tork konvertör tamiri 22.000-38.000₺, ZF 9HP mekatronik revizyonu 13.500-22.000₺ arasındadır.
+Land Rover şanzıman tamiri fiyatı şanzıman tipine ve arıza türüne göre değişir. ZF 8HP valf body revizyonu uygun maliyetler, tork konvertör tamiri uygun maliyetler, ZF 9HP mekatronik revizyonu uygun maliyetler için servisimizden net fiyat alabilirsiniz.
 
 ### Land Rover ZF şanzıman arızası belirtileri nelerdir?
 
@@ -279,7 +275,7 @@ ZF şanzıman arızası belirtileri: soğukta vites geçişinde gecikme/sarsınt
 
 ### Land Rover ZF şanzıman yağı ne zaman değiştirilmeli?
 
-ZF 8HP/9HP şanzıman yağı 80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, valf body arızası riski %40 artar. Yağ değişimi 5.500-9.500₺; değişmezse valf body arızası 18.000-38.000₺.
+ZF 8HP/9HP şanzıman yağı 80.000 km'de değiştirilmelidir. Üretici "ömür boyu yağ" dese de pratikte 80.000 km sonrası yağ eskir, valf body arızası riski %40 artar. Yağ değişimi uygun maliyetler; değişmezse valf body arızası uygun maliyetler.
 
 ### Land Rover şanzıman tamiri ne kadar sürer?
 
@@ -303,9 +299,10 @@ Yıldızlar Grup'ta Land Rover şanzıman tamiri fiyatları yetkili servise gör
 
 ### Land Rover ZF tork konvertör arızası ne kadar?
 
-ZF tork konvertör tamiri 22.000-38.000₺ arasındadır. 150.000-200.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Tork konvertör kaydırma ve titreşim yaygın arızalardır.
+ZF tork konvertör tamiri uygun maliyetler arasındadır. 150.000-200.000 km arasında kontrol edilmeli, gerekirse değiştirilmelidir. Tork konvertör kaydırma ve titreşim yaygın arızalardır.
 
 ### Land Rover ZF valf body tamiri ne kadar?
 
-ZF valf body revizyonu 18.000-32.000₺ arasındadır. Yağ eskimesi ve solenoid arızaları yaygındır. Erken teşhis ve yağ değişimi valf body arızasını önler.
+ZF valf body revizyonu uygun maliyetler arasındadır. Yağ eskimesi ve solenoid arızaları yaygındır. Erken teşhis ve yağ değişimi valf body arızasını önler.
+
 

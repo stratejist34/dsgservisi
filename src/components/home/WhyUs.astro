@@ -14,47 +14,57 @@ const ICONS = {
 const DEFAULT_ICON = 'lucide:sparkles';
 ---
 
-<section class="section relative bg-gradient-to-br from-[#0f172a] via-[#1e3a8a] to-[#0f172a] overflow-hidden">
-  {/* Subtle static pattern */}
-  <div class="absolute inset-0 opacity-10">
-    <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231e40af\' fill-opacity=\'0.35\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
+<section class="relative py-24 bg-[#0f172a] overflow-hidden">
+  {/* Technical Background Pattern */}
+  <div class="absolute inset-0 pointer-events-none">
+    <div class="absolute inset-0 opacity-[0.03]" 
+         style="background-image: radial-gradient(circle at 2px 2px, rgba(255,255,255,0.15) 1px, transparent 0); background-size: 40px 40px;">
+    </div>
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-amber-500/5 rounded-full blur-[120px]"></div>
   </div>
 
-  {/* Glass effect overlay */}
-  <div class="absolute inset-0 bg-gradient-to-b from-white/5 via-transparent to-white/5"></div>
-
-  {/* Single lightweight orb */}
-  <div class="absolute top-20 left-10 w-72 h-72 rounded-full blur-xl" style="background: rgba(59, 130, 246, 0.25);"></div>
-  <div class="absolute bottom-20 right-10 w-96 h-96 rounded-full blur-2xl" style="background: rgba(14, 116, 144, 0.25);"></div>
-
-  {/* Stars removed for performance */}
-
   <div class="container relative z-10">
-    <div class="section-title" data-reveal>
-      <h2 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold text-white mb-4">
-        Neden Bizi Seçmelisiniz?
+    {/* Section Header */}
+    <div class="text-center mb-16" data-reveal>
+      <span class="text-amber-500 font-mono text-xs tracking-widest uppercase mb-2 block">Sistem Avantajları</span>
+      <h2 class="text-3xl md:text-5xl font-display font-bold text-white mb-6">
+        NEDEN <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">BİZİ SEÇMELİSİNİZ?</span>
       </h2>
-      <p class="text-xl text-white/90 max-w-3xl mx-auto">
-        15 yıllık tecrübemiz ve uzman kadromuzla aracınız güvende
+      <p class="text-lg text-slate-400 max-w-2xl mx-auto leading-relaxed">
+        Standart servislerin ötesinde, mühendislik tabanlı yaklaşım ve şeffaf süreç yönetimi ile fark yaratıyoruz.
       </p>
     </div>
 
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-      {WHY_US.map((item) => {
+    {/* Features Grid */}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {WHY_US.map((item, index) => {
         const iconName = ICONS[item.icon] ?? DEFAULT_ICON;
 
         return (
-          <div class="group relative" data-reveal>
-            <div class="relative bg-white/10 backdrop-blur-md border-2 border-white/20 rounded-2xl p-8 h-full transition-all duration-500 hover:-translate-y-2 hover:shadow-2xl hover:border-white/40 hover:bg-white/15 overflow-hidden premium-shine">
-              <div class="mb-6 relative z-10">
-                <div class="w-16 h-16 rounded-lg bg-gradient-to-br from-[#1e40af] to-[#14b8a6] flex items-center justify-center transform transition-transform duration-300 group-hover:scale-110 group-hover:rotate-6">
-                  <Icon name={iconName} class="w-10 h-10 text-white" />
-                </div>
+          <div 
+            class="group relative h-full" 
+            data-reveal 
+            data-stagger-index={index}
+          >
+            {/* Card */}
+            <div class="relative h-full bg-slate-800/30 border border-white/10 rounded-xl p-8 transition-all duration-500 hover:bg-slate-800/50 hover:border-amber-500/30 hover:shadow-[0_0_30px_-10px_rgba(245,158,11,0.15)] overflow-hidden">
+              
+              {/* Tech Decoration Lines */}
+              <div class="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-amber-500/0 to-transparent group-hover:via-amber-500/50 transition-all duration-500"></div>
+              <div class="absolute top-4 right-4 text-[10px] font-mono text-slate-600 group-hover:text-amber-500/50 transition-colors">
+                SYS_FEAT_0{index + 1}
               </div>
-              <h3 class="text-2xl font-display font-bold text-white mb-4 group-hover:text-white transition-colors relative z-10">
+
+              {/* Icon Container */}
+              <div class="w-14 h-14 rounded-lg bg-slate-900 border border-white/10 flex items-center justify-center mb-6 group-hover:border-amber-500/50 group-hover:shadow-[0_0_15px_rgba(245,158,11,0.2)] transition-all duration-300">
+                <Icon name={iconName} class="w-7 h-7 text-slate-400 group-hover:text-amber-500 transition-colors duration-300" />
+              </div>
+
+              <h3 class="text-xl font-display font-bold text-white mb-3 group-hover:text-amber-500 transition-colors">
                 {item.title}
               </h3>
-              <p class="text-white/80 leading-relaxed relative z-10">
+              
+              <p class="text-sm text-slate-400 leading-relaxed border-l-2 border-white/5 pl-4 group-hover:border-amber-500/30 transition-all duration-300">
                 {item.description}
               </p>
             </div>
@@ -64,8 +74,3 @@ const DEFAULT_ICON = 'lucide:sparkles';
     </div>
   </div>
 </section>
-
-<style>
-  /* Removed star and slide animations per performance guidelines */
-</style>
-

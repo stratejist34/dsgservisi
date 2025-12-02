@@ -18,7 +18,6 @@ serviceName: "Beylikdüzü Skoda Servis"
 serviceType: "Bölgesel Servis Hizmeti"
 serviceDescription: "Beylikdüzü bölgesine Skoda DSG şanzıman, motor, turbo, DPF ve elektronik arıza tamiri. Merkezi konum, hızlı ulaşım."
 areaServed: ["Beylikdüzü", "İstanbul", "Avrupa Yakası"]
-offerUrl: "/beylikduzu-skoda-servis"
 
 ---
 
@@ -71,7 +70,7 @@ Merkezi konumumuz sayesinde Beylikdüzü'nden gelen müşteriler için aynı gü
 
 ### Şeffaf Fiyatlandırma
 
-Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net fiyat teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
+Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net servis teklifi sunuyoruz. Fiyat değişikliği yapmadan, şeffaf maliyet yapısıyla hizmet veriyoruz.
 
 ## Skoda Servis Hizmetlerimiz (Beylikdüzü)
 
@@ -90,40 +89,40 @@ Beylikdüzü'nden gelen tüm müşterilerimiz için ön görüşme sonrası net 
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200/DQ250 mekatronik arızası | %31 | 8.500–16.000₺ | 80.000–150.000 km |
-| 1.4 TSI timing zincir gevşemesi | %27 | 6.500–11.000₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %43 | 8.000–20.000₺ | 80.000–140.000 km |
-| Turbo geometri/yağ besleme | %21 | 7.500–16.500₺ | 120.000–200.000 km |
-| Su pompası/termostat arızası | %20 | 2.200–4.500₺ | 80.000–120.000 km |
+| DSG DQ200/DQ250 mekatronik arızası | %31 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 1.4 TSI timing zincir gevşemesi | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %43 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Turbo geometri/yağ besleme | %21 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Su pompası/termostat arızası | %20 | 📞 Fiyat Sorunuz | 80.000–120.000 km |
 
 ### Skoda Superb (3V, 3T) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ250/DQ381 mekatronik | %29 | 12.000–22.000₺ | 100.000–180.000 km |
-| 2.0 TDI timing zincir gerginliği | %28 | 8.500–16.000₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %41 | 8.500–19.500₺ | 80.000–150.000 km |
-| Turbo wastegate arızası | %23 | 10.000–20.000₺ | 120.000–200.000 km |
-| AdBlue sistemi sensör/pompa | %35 | 4.500–11.000₺ | 80.000–150.000 km |
+| DSG DQ250/DQ381 mekatronik | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI timing zincir gerginliği | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %41 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Turbo wastegate arızası | %23 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| AdBlue sistemi sensör/pompa | %35 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
 
 ### Skoda Kodiaq (NS) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ381 mekatronik/yağ kaçağı | %30 | 9.500–17.000₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %40 | 8.000–19.000₺ | 80.000–150.000 km |
-| Haldex 4x4 pompa arızası | %22 | 5.000–10.000₺ | 100.000–180.000 km |
-| Turbo yağ besleme | %21 | 9.000–18.000₺ | 120.000–200.000 km |
-| Hava süspansiyon kompresör | %19 | 12.000–24.000₺ | 100.000–180.000 km |
+| DSG DQ381 mekatronik/yağ kaçağı | %30 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %40 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| Haldex 4x4 pompa arızası | %22 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| Turbo yağ besleme | %21 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
+| Hava süspansiyon kompresör | %19 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
 
 ### Skoda Karoq (NU) – En Yaygın Arızalar
 
 | Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
 | --- | ---: | ---: | --- |
-| DSG DQ200/DQ381 mekatronik | %28 | 8.500–16.000₺ | 80.000–150.000 km |
-| 1.5 TSI ACT timing zincir | %26 | 6.500–11.500₺ | 100.000–180.000 km |
-| 2.0 TDI DPF tıkanması | %39 | 7.500–18.500₺ | 80.000–140.000 km |
-| Turbo wastegate arızası | %22 | 8.000–17.000₺ | 120.000–200.000 km |
+| DSG DQ200/DQ381 mekatronik | %28 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
+| 1.5 TSI ACT timing zincir | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
+| 2.0 TDI DPF tıkanması | %39 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
+| Turbo wastegate arızası | %22 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
 
 ## Skoda DSG Şanzıman Arızaları
 
@@ -131,9 +130,9 @@ Skoda araçlarda kullanılan DSG şanzımanlar VW Grup teknolojisidir. DQ200 (7 
 
 | DSG Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| DQ200 (7 vites kuru) | Octavia, Fabia, Scala | Mekatronik, kavrama aşınması | 8.500–16.500₺ |
-| DQ250 (6 vites yaş) | Octavia RS, Superb | Mekatronik, valf body | 9.500–17.500₺ |
-| DQ381 (7 vites yaş) | Kodiaq, Karoq, Superb 4x4 | Çift kavrama, yağ kaçağı | 10.500–18.500₺ |
+| DQ200 (7 vites kuru) | Octavia, Fabia, Scala | Mekatronik, kavrama aşınması | 📞 Fiyat Sorunuz |
+| DQ250 (6 vites yaş) | Octavia RS, Superb | Mekatronik, valf body | 📞 Fiyat Sorunuz |
+| DQ381 (7 vites yaş) | Kodiaq, Karoq, Superb 4x4 | Çift kavrama, yağ kaçağı | 📞 Fiyat Sorunuz |
 
 ### DSG Şanzıman Bakım Önerileri
 
@@ -153,10 +152,10 @@ Skoda motorları VW Grup EA serisidir. 1.4 TSI, 1.5 TSI, 1.8 TSI, 2.0 TSI (benzi
 
 | Motor Tipi | Kullanıldığı Modeller | Kronik Arıza | Tahmini Tamir Maliyeti |
 | --- | --- | --- | ---: |
-| 1.4 TSI (EA211) | Octavia, Fabia, Scala | Timing zincir gerginliği | 6.500–11.500₺ |
-| 1.5 TSI (EA211 evo) | Octavia, Karoq, Kodiaq | ACT sistemi, zincir | 6.500–12.000₺ |
-| 1.8 TSI (EA888) | Superb, Octavia | Turbo, karbon birikimi | 8.500–17.500₺ |
-| 2.0 TDI (EA288) | Tüm modeller | DPF, EGR, timing zincir | 8.000–22.000₺ |
+| 1.4 TSI (EA211) | Octavia, Fabia, Scala | Timing zincir gerginliği | 📞 Fiyat Sorunuz |
+| 1.5 TSI (EA211 evo) | Octavia, Karoq, Kodiaq | ACT sistemi, zincir | 📞 Fiyat Sorunuz |
+| 1.8 TSI (EA888) | Superb, Octavia | Turbo, karbon birikimi | 📞 Fiyat Sorunuz |
+| 2.0 TDI (EA288) | Tüm modeller | DPF, EGR, timing zincir | 📞 Fiyat Sorunuz |
 
 ## Skoda DPF Tıkanması ve Çözümleri
 
@@ -164,9 +163,9 @@ Skoda dizel motorlarda DPF (Diesel Particulate Filter) tıkanması en yaygın so
 
 | DPF İşlemi | Maliyet | Süre |
 | --- | ---: | --- |
-| DPF temizleme | 3.500–7.500₺ | 1 gün |
-| DPF değişimi | 8.000–20.000₺ | 1-2 gün |
-| DPF bypass (yasal değil) | 2.500–5.000₺ | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 1 gün |
+| DPF değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| DPF bypass (yasal değil) | 📞 Fiyat Sorunuz | Aynı gün |
 
 ### DPF Bakım Önerileri
 
@@ -186,10 +185,10 @@ Kodiaq, Karoq, Superb 4x4 modellerinde Haldex 4x4 sistemi kullanılır. Elektron
 
 | Haldex Arıza | Maliyet | Süre |
 | --- | ---: | --- |
-| Haldex pompa değişimi | 5.200–9.500₺ | 1-2 gün |
-| Haldex conta/yağ kaçağı | 2.500–5.500₺ | Aynı gün |
-| Haldex kavrama değişimi | 8.500–14.500₺ | 1-2 gün |
-| Haldex yağ değişimi | 1.500–3.000₺ | Aynı gün |
+| Haldex pompa değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Haldex conta/yağ kaçağı | 📞 Fiyat Sorunuz | Aynı gün |
+| Haldex kavrama değişimi | 📞 Fiyat Sorunuz | 1-2 gün |
+| Haldex yağ değişimi | 📞 Fiyat Sorunuz | Aynı gün |
 
 ### Haldex Bakım Önerileri
 
@@ -202,16 +201,16 @@ Kodiaq, Karoq, Superb 4x4 modellerinde Haldex 4x4 sistemi kullanılır. Elektron
 
 :::
 
-## Skoda Periyodik Bakım Fiyatları 2025
+## Skoda Periyodik Bakım Hizmetleri
 
 | Bakım Türü | Maliyet | Periyot | Süre |
 | --- | ---: | --- | --- |
-| Küçük bakım (yağ + filtre) | 3.000–6.500₺ | 15.000 km | Aynı gün |
-| Büyük bakım (yağ, filtre, hava, polen) | 5.500–10.000₺ | 30.000 km | Aynı gün |
-| DSG yağ değişimi | 4.500–8.500₺ | 80.000 km | Aynı gün |
-| DPF temizleme | 3.500–7.500₺ | 100.000 km | Aynı gün |
-| Fren balata (ön/arka) | 5.000–12.000₺ | 50.000–70.000 km | Aynı gün |
-| Klima bakım (gaz, temizlik) | 2.500–5.000₺ | Yıllık | Aynı gün |
+| Küçük bakım (yağ + filtre) | 📞 Fiyat Sorunuz | 15.000 km | Aynı gün |
+| Büyük bakım (yağ, filtre, hava, polen) | 📞 Fiyat Sorunuz | 30.000 km | Aynı gün |
+| DSG yağ değişimi | 📞 Fiyat Sorunuz | 80.000 km | Aynı gün |
+| DPF temizleme | 📞 Fiyat Sorunuz | 100.000 km | Aynı gün |
+| Fren balata (ön/arka) | 📞 Fiyat Sorunuz | 50.000–70.000 km | Aynı gün |
+| Klima bakım (gaz, temizlik) | 📞 Fiyat Sorunuz | Yıllık | Aynı gün |
 
 ## Beylikdüzü'nden Ulaşım
 
@@ -315,7 +314,7 @@ DPF tıkanmasına bağlı olarak 1-2 gün içinde tamamlanır. Temizleme işlemi
 
 ### Skoda DSG yağı ne zaman değiştirilmeli?
 
-DSG şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. DQ200 kuru kavrama 100.000-150.000 km'de değişmeli. Yağ değişimi 4.500–8.500₺; değişmezse mekatronik arızası 8.500–17.500₺.
+DSG şanzıman yağı 60.000-80.000 km'de değiştirilmelidir. DQ200 kuru kavrama 100.000-150.000 km'de değişmeli. Yağ değişimi uygun maliyetler; değişmezse mekatronik arızası uygun maliyetler.
 
 ### Skoda 2.0 TDI DPF tıkanması nasıl önlenir?
 
@@ -323,7 +322,7 @@ DPF tıkanması şehir içi kısa mesafe kullanımda rejenerasyon yetersizliği 
 
 ### Skoda Haldex 4x4 sistemi arızası nasıl çözülür?
 
-Haldex 4x4 sistemi (Kodiaq, Karoq, Superb 4x4) elektronik kontrollü arka teker itişli sistem. Yaygın arızalar: pompa arızası, yağ kaçağı, elektromekanik kavrama aşınması. Tamir maliyeti pompa 5.200-9.500₺, conta/yağ kaçağı 2.500-5.500₺. Yağ değişimi 60.000 km'de yapılmalı.
+Haldex 4x4 sistemi (Kodiaq, Karoq, Superb 4x4) elektronik kontrollü arka teker itişli sistem. Yaygın arızalar: pompa arızası, yağ kaçağı, elektromekanik kavrama aşınması. Tamir maliyeti pompa uygun maliyetler, conta/yağ kaçağı uygun maliyetler. Yağ değişimi 60.000 km'de yapılmalı.
 
 ### Beylikdüzü'nden servisinize ulaşım için toplu taşıma seçeneği var mı?
 
@@ -332,4 +331,5 @@ Evet, metrobüs ile Beylikdüzü istasyonundan veya otobüs ile Beylikdüzü mer
 ### Beylikdüzü'nden servisinize ödeme seçenekleri nelerdir?
 
 Nakit, kredi kartı, banka kartı ve havale/EFT ile ödeme yapabilirsiniz. Büyük işlemlerde taksit imkanı da mevcuttur.
+
 

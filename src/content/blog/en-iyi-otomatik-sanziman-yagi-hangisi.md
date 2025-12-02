@@ -1,8 +1,8 @@
 ---
 title: "En İyi Otomatik Şanzıman Yağı Hangisi"
-description: "En iyi otomatik şanzıman yağı hangisi? DSG, ZF, konvansiyonel otomatik şanzımanlar için doğru yağ seçimi, spesifikasyonlar, markalar ve öneriler 2026."
+description: "En iyi otomatik şanzıman yağı hangisi? DSG, ZF, konvansiyonel otomatik şanzımanlar için doğru yağ seçimi, spesifikasyonlar, markalar ve öneriler."
 category: "DSG"
-tags: ["otomatik şanzıman yağı", "en iyi yağ", "dsg yağı", "zf yağı", "yağ seçimi", "spesifikasyon", "2026"]
+tags: ["otomatik şanzıman yağı", "en iyi yağ", "dsg yağı", "zf yağı", "yağ seçimi", "spesifikasyon"]
 slug: "en-iyi-otomatik-sanziman-yagi-hangisi"
 publishDate: "2025-11-07T09:30:00+03:00"
 updatedDate: "2025-11-07T09:30:00+03:00"
@@ -11,15 +11,14 @@ imageAlt: "En iyi otomatik şanzıman yağı seçimi - Yıldızlar Grup DSG Serv
 ogImage: "/images/blog/en-iyi-otomatik-sanziman-yagi.jpg"
 author: "DSG Servisi"
 draft: false
-seoTitle: "En İyi Otomatik Şanzıman Yağı Hangisi 2026 | DSG, ZF Yağ Seçimi"
-seoDescription: "En iyi otomatik şanzıman yağı hangisi? DSG, ZF, konvansiyonel otomatik şanzımanlar için doğru yağ seçimi, spesifikasyonlar, markalar ve öneriler 2026."
+seoTitle: "En İyi Otomatik Şanzıman Yağı Hangisi Tamiri ve Değişimi DSG, ZF Yağ Seçimi"
+seoDescription: "En iyi otomatik şanzıman yağı hangisi? DSG, ZF, konvansiyonel otomatik şanzımanlar için doğru yağ seçimi, spesifikasyonlar, markalar ve öneriler."
 
 # Hizmet Şeması
 serviceName: "Otomatik Şanzıman Yağı Seçimi ve Değişimi"
 serviceType: "Otomatik Şanzıman Bakımı"
 serviceDescription: "DSG, ZF ve konvansiyonel otomatik şanzımanlar için doğru yağ seçimi, yağ değişimi ve bakım hizmetleri."
 areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcılar"]
-offerUrl: "/en-iyi-otomatik-sanziman-yagi-hangisi"
 ---
 
 En iyi otomatik şanzıman yağı hangisi? Bu soru, **DSG, ZF ve konvansiyonel otomatik şanzıman** sahipleri için kritik öneme sahiptir. Doğru yağ seçimi; şanzıman ömrünü uzatır, vites geçiş kalitesini iyileştirir ve maliyetli arızaları önler. Yanlış yağ kullanımı; mekatronik arızası, kavrama hasarı ve komple şanzıman değişimine yol açabilir.
@@ -57,7 +56,7 @@ DSG (Direct-Shift Gearbox) çift kavramalı şanzımanlar, özel yağ spesifikas
 **Önerilen Markalar:**
 - **Orijinal:** Volkswagen Genuine Parts
 - **Onaylı:** Castrol, Motul, Liqui Moly (VW onaylı)
-- **Fiyat:** 2.200–4.800₺ (yağ + filtre)
+- **Fiyat:** Lütfen iletişime geçiniz (yağ + filtre)
 
 **Özellikler:**
 - Yüksek sıcaklık dayanımı
@@ -77,7 +76,7 @@ ZF 8HP otomatik şanzımanlar, BMW, Mercedes, Land Rover ve Audi modellerinde ku
 **Önerilen Markalar:**
 - **Orijinal:** ZF Lifeguard
 - **Onaylı:** Castrol, Motul, Pentosin (ZF onaylı)
-- **Fiyat:** 3.500–7.000₺ (yağ + filtre)
+- **Fiyat:** Lütfen iletişime geçiniz (yağ + filtre)
 
 **Özellikler:**
 - Uzun ömür (100.000+ km)
@@ -98,7 +97,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 **Önerilen Markalar:**
 - **Orijinal:** Üretici onaylı yağlar
 - **Onaylı:** Castrol, Mobil, Valvoline
-- **Fiyat:** 1.500–3.500₺ (yağ + filtre)
+- **Fiyat:** Lütfen iletişime geçiniz (yağ + filtre)
 
 ## Otomatik Şanzıman Yağı Seçiminde Dikkat Edilmesi Gerekenler
 
@@ -139,19 +138,19 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 | Marka | DSG | ZF | Konvansiyonel | Fiyat Aralığı |
 | --- | --- | --- | --- | --- |
-| Volkswagen Genuine | ✅ | ❌ | ❌ | 2.500–4.500₺ |
-| ZF Lifeguard | ❌ | ✅ | ❌ | 3.500–7.000₺ |
-| Mopar ATF+4 | ❌ | ❌ | ✅ | 1.500–3.000₺ |
+| Volkswagen Genuine | ✅ | ❌ | ❌ | 📞 Fiyat Sorunuz |
+| ZF Lifeguard | ❌ | ✅ | ❌ | 📞 Fiyat Sorunuz |
+| Mopar ATF+4 | ❌ | ❌ | ✅ | 📞 Fiyat Sorunuz |
 
 ### Onaylı Markalar
 
 | Marka | DSG | ZF | Konvansiyonel | Fiyat Aralığı |
 | --- | --- | --- | --- | --- |
-| Castrol | ✅ | ✅ | ✅ | 2.000–5.000₺ |
-| Motul | ✅ | ✅ | ✅ | 2.200–5.500₺ |
-| Liqui Moly | ✅ | ✅ | ✅ | 2.000–4.800₺ |
-| Pentosin | ✅ | ✅ | ✅ | 2.500–6.000₺ |
-| Mobil | ❌ | ❌ | ✅ | 1.500–3.500₺ |
+| Castrol | ✅ | ✅ | ✅ | 📞 Fiyat Sorunuz |
+| Motul | ✅ | ✅ | ✅ | 📞 Fiyat Sorunuz |
+| Liqui Moly | ✅ | ✅ | ✅ | 📞 Fiyat Sorunuz |
+| Pentosin | ✅ | ✅ | ✅ | 📞 Fiyat Sorunuz |
+| Mobil | ❌ | ❌ | ✅ | 📞 Fiyat Sorunuz |
 
 ## Otomatik Şanzıman Yağı Seçiminde Yapılan Hatalar
 
@@ -159,31 +158,31 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 - **Hata:** Motor yağı ile otomatik şanzıman yağı karıştırılması
 - **Sonuç:** Mekatronik arızası, kavrama hasarı
-- **Maliyet:** 12.500–27.000₺ tamir
+- **Maliyet:** uygun maliyetler tamir
 
 ### 2. Manuel Şanzıman Yağı Kullanımı
 
 - **Hata:** Manuel şanzıman yağı ile otomatik şanzıman yağı karıştırılması
 - **Sonuç:** Vites geçiş sorunları, arıza lambası
-- **Maliyet:** 4.500–16.500₺ tamir
+- **Maliyet:** uygun maliyetler tamir
 
 ### 3. Yanlış Spesifikasyon
 
 - **Hata:** DQ200 yağı ile DQ250 yağının karıştırılması
 - **Sonuç:** Mekatronik basınç hatası, kavrama aşınması
-- **Maliyet:** 14.000–27.000₺ tamir
+- **Maliyet:** uygun maliyetler tamir
 
 ### 4. Düşük Kaliteli Yağ
 
 - **Hata:** Ucuz, onaylanmamış yağ kullanımı
 - **Sonuç:** Erken yaşlanma, arıza riski
-- **Maliyet:** Komple şanzıman değişimi (24.000–104.000₺)
+- **Maliyet:** Komple şanzıman değişimi (Fiyat Sorunuz)
 
 ### 5. Yağ Karıştırma
 
 - **Hata:** Farklı marka veya spesifikasyon yağların karıştırılması
 - **Sonuç:** Yağ özellik kaybı, arıza riski
-- **Maliyet:** Yağ değişimi + tamir (3.500–27.000₺)
+- **Maliyet:** Yağ değişimi + tamir (Fiyat Sorunuz)
 
 ## Model Bazında En İyi Otomatik Şanzıman Yağı
 
@@ -192,33 +191,33 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - **DSG DQ200:** VW G 052 182 A2 (1.7 litre)
 - **DSG DQ381:** VW G 052 529 A2 (7.0 litre)
 - **Önerilen Marka:** Castrol, Motul (VW onaylı)
-- **Fiyat:** 2.200–4.800₺
+- **Fiyat:** Lütfen iletişime geçiniz
 
 ### Volkswagen Passat (B7, B8)
 
 - **DSG DQ250:** VW G 052 182 A2 (5.5 litre)
 - **DSG DQ381:** VW G 052 529 A2 (7.0 litre)
 - **Önerilen Marka:** Castrol, Liqui Moly (VW onaylı)
-- **Fiyat:** 2.400–4.800₺
+- **Fiyat:** Lütfen iletişime geçiniz
 
 ### Audi A3, A4, A5
 
 - **S-tronic:** VW G 052 529 A2 (7.0 litre)
 - **ZF 8HP (Q7/Q8):** ZF Lifeguard 8 (7.0–9.0 litre)
 - **Önerilen Marka:** Castrol, Pentosin
-- **Fiyat:** 3.500–7.000₺
+- **Fiyat:** Lütfen iletişime geçiniz
 
 ### BMW 3/5/7 Serisi
 
 - **ZF 8HP:** ZF Lifeguard 8 (7.0–9.0 litre)
 - **Önerilen Marka:** ZF Lifeguard, Castrol (ZF onaylı)
-- **Fiyat:** 3.500–7.000₺
+- **Fiyat:** Lütfen iletişime geçiniz
 
 ### Mercedes C/E/S Serisi
 
 - **ZF 8HP:** ZF Lifeguard 8 (7.0–9.0 litre)
 - **Önerilen Marka:** ZF Lifeguard, Motul (ZF onaylı)
-- **Fiyat:** 3.500–7.000₺
+- **Fiyat:** Lütfen iletişime geçiniz
 
 ## Otomatik Şanzıman Yağı Değişim Periyotları
 
@@ -236,20 +235,20 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - Yüksek hız, yüksek yük
 - Sıcak iklim, aşırı ısınma
 
-## Otomatik Şanzıman Yağı Fiyatları 2026
+## Otomatik Şanzıman Yağı Hizmetleri 2026
 
 | Yağ Tipi | Marka | Fiyat (Litre) | Toplam (Yağ + Filtre) |
 | --- | --- | ---: | ---: |
-| DSG DQ200 | Orijinal | 1.200–2.000₺ | 2.200–4.000₺ |
-| DSG DQ250 | Orijinal | 1.400–2.200₺ | 2.400–4.200₺ |
-| DSG DQ381/DQ500 | Orijinal | 1.600–2.600₺ | 2.800–4.800₺ |
-| ZF 8HP | Orijinal | 2.000–3.500₺ | 3.500–7.000₺ |
-| Konvansiyonel ATF | Orijinal | 800–1.500₺ | 1.500–3.500₺ |
+| DSG DQ200 | Orijinal | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| DSG DQ250 | Orijinal | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| DSG DQ381/DQ500 | Orijinal | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| ZF 8HP | Orijinal | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
+| Konvansiyonel ATF | Orijinal | 800–uygun fiyat | 📞 Fiyat Sorunuz |
 
 **Onaylı Markalar (Castrol, Motul, Liqui Moly):**
-- DSG: 1.000–2.200₺/litre
-- ZF: 1.800–3.200₺/litre
-- Konvansiyonel: 700–1.300₺/litre
+- DSG: uygun maliyetler/litre
+- ZF: uygun maliyetler/litre
+- Konvansiyonel: 700–uygun fiyat/litre
 
 ## Neden Yıldızlar Grup?
 
@@ -259,7 +258,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 - **Ekonomik Fiyatlar:** Yetkili servise göre %30-40 daha ekonomik
 - **Hızlı Çözüm:** Yağ değişimi 2-3 saat içinde tamamlanır
 - **Garanti:** Tüm yağ değişimlerinde 6 ay garanti
-- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net fiyat teklifi
+- **Şeffaf Fiyatlandırma:** Ön teşhis sonrası net servis teklifi
 - **Gereksiz İşlem Yok:** Sadece gerekli işlemler yapılır
 
 ## Müşteri Yorumları
@@ -331,7 +330,7 @@ ZF şanzımanlar için ZF Lifeguard veya ZF onaylı eşdeğer yağ kullanılmal�
 
 ### Motor yağı otomatik şanzıman yağı olarak kullanılabilir mi?
 
-Hayır, motor yağı otomatik şanzıman yağı olarak kullanılamaz. Motor yağı kullanımı, mekatronik arızası ve kavrama hasarına yol açar. Tamir maliyeti 12.500–27.000₺ olabilir.
+Hayır, motor yağı otomatik şanzıman yağı olarak kullanılamaz. Motor yağı kullanımı, mekatronik arızası ve kavrama hasarına yol açar. Tamir maliyeti uygun maliyetler olabilir.
 
 ### Otomatik şanzıman yağı ne kadar sürede değişmeli?
 
@@ -339,7 +338,7 @@ DSG DQ200 için 60.000 km (ağır kullanımda 40.000 km), DSG DQ250/DQ381 için 
 
 ### Otomatik şanzıman yağı fiyatı ne kadar?
 
-DSG yağı 2.200–4.800₺ (yağ + filtre), ZF yağı 3.500–7.000₺ (yağ + filtre), konvansiyonel ATF 1.500–3.500₺ (yağ + filtre) arasında değişir.
+DSG yağı uygun maliyetler (yağ + filtre), ZF yağı uygun maliyetler (yağ + filtre), konvansiyonel ATF uygun maliyetler (yağ + filtre) arasında değişir.
 
 ### Yan sanayi otomatik şanzıman yağı kullanılabilir mi?
 
@@ -348,4 +347,5 @@ Yan sanayi, onaylanmamış yağ kullanımı risklidir. Erken yaşlanma, arıza r
 ### Otomatik şanzıman yağı değişimi için randevu nasıl alınır?
 
 Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ücretsiz ön teşhis için randevu almanız önerilir.
+
 
