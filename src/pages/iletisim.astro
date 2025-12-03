@@ -7,90 +7,60 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
 ---
 
 <BaseLayout title={title} description={description}>
-  <!-- Hero Section - Modern Premium -->
-  <section class="relative flex items-start justify-center overflow-hidden" style="padding-top: 5rem; margin-top: -5rem; min-height: calc(35vh * 1.3);">
-    {/* Background Image */}
-    <div class="absolute inset-0" style="top: 0;">
-      <picture>
-        {/* AVIF - En iyi sıkıştırma */}
-        <source 
-          type="image/avif"
-          sizes="100vw"
-          srcset="/images/hero-bg-480.avif?v=5 480w, /images/hero-bg-768.avif?v=5 768w, /images/hero-bg-1280.avif?v=5 1280w, /images/hero-bg-1920.avif?v=5 1920w"
-        />
-        {/* WebP - Fallback */}
-        <img 
-          src="/images/hero-bg.webp?v=5" 
-          alt="DSG Servisi İletişim" 
-          class="w-full h-full object-cover"
-          style="object-position: center top;"
-          fetchpriority="high"
-          loading="eager"
-          width="1920"
-          height="1080"
-          decoding="async"
-          srcset="/images/hero-bg-480.webp?v=5 480w, /images/hero-bg-768.webp?v=5 768w, /images/hero-bg-1280.webp?v=5 1280w, /images/hero-bg-1920.webp?v=5 1920w"
-          sizes="100vw"
-        />
-      </picture>
-      {/* Gradient Mask - Üstten alta doğru koyulaşan */}
-      <div class="absolute inset-0" style="background: linear-gradient(to bottom, rgba(15, 23, 42, 0.85) 0%, rgba(15, 23, 42, 0.75) 30%, rgba(15, 23, 42, 0.80) 70%, rgba(15, 23, 42, 0.90) 100%);"></div>
+  <!-- Hero Section -->
+  <section class="relative py-32 overflow-hidden">
+    <div class="absolute inset-0 bg-[#0f172a]">
+      <div class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
+      <div class="absolute top-0 right-0 -translate-y-12 translate-x-12 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl"></div>
+      <div class="absolute bottom-0 left-0 translate-y-12 -translate-x-12 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl"></div>
     </div>
-
-    {/* Pattern Overlay */}
-    <div class="absolute inset-0 opacity-10" style="top: 0;">
-      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%231a9cb0\' fill-opacity=\'0.4\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
-    </div>
-
    
-    <div class="container relative z-10 py-12">
-      <div class="max-w-4xl mx-auto text-center" data-animate style="margin-top: 7.5rem;">
-        {/* Badge */}
-        <div class="inline-flex items-center gap-2 bg-white/10 backdrop-blur-sm text-white px-6 py-2 rounded-full mb-4 animate-[fade-in-up_0.6s_ease-out]">
-          <svg class="w-5 h-5 text-primary" fill="currentColor" viewBox="0 0 20 20">
-            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
-          </svg>
-          <span class="font-semibold">7/24 İletişimde</span>
+    <div class="container relative z-10">
+      <div class="max-w-4xl mx-auto text-center" data-animate>
+        <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-xs font-bold tracking-wider uppercase mb-6">
+          <span class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+          7/24 İletişim
         </div>
 
-        <h1 class="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-display font-bold text-white mb-4">
-          Bize <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary via-urgent to-primary">Ulaşın</span>
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-display font-bold mb-8 text-white tracking-tight">
+          Bize <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">Ulaşın</span>
         </h1>
         
-        <p class="text-base md:text-lg text-gray-300 leading-relaxed max-w-2xl mx-auto" data-animate>
-          Randevu almak, soru sormak veya fiyat teklifi almak için bize ulaşın
+        <p class="text-xl text-slate-400 leading-relaxed max-w-2xl mx-auto border-l-2 border-amber-500/50 pl-6 text-left md:text-center md:border-l-0 md:pl-0">
+          Randevu almak, soru sormak veya fiyat teklifi almak için iletişim kanallarımızdan bize ulaşın.
         </p>
       </div>
     </div>
   </section>
 
   <!-- Contact Section -->
-  <section class="bg-white" style="padding-top: 2rem; padding-bottom: 4rem;">
+  <section class="section bg-[#0f172a] border-t border-white/5">
     <div class="container">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-12" data-stagger-children data-stagger-step="90">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16" data-stagger-children data-stagger-step="90">
         <!-- Contact Info -->
         <div data-animate>
-          <h2 class="text-3xl md:text-4xl font-display font-bold text-navy mb-8">
-            İletişim <span class="text-primary">Bilgileri</span>
+          <h2 class="font-display font-bold text-white text-3xl mb-8 flex items-center gap-3">
+            <span class="w-8 h-1 bg-amber-500 rounded-full"></span>
+            İletişim Bilgileri
           </h2>
 
-          <div class="space-y-4" data-stagger-children data-stagger-step="80">
+          <div class="space-y-6" data-stagger-children data-stagger-step="80">
             <!-- Phone -->
             <a 
               href={`tel:${SITE_CONFIG.phoneTel}`}
-              class="group block bg-gradient-to-br from-primary/10 to-urgent/10 hover:from-primary/20 hover:to-urgent/20 rounded-2xl p-6 border-2 border-primary/40 hover:border-primary/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              class="group block bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 hover:-translate-y-1"
               data-animate
             >
-              <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-primary to-urgent rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
-                  <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div class="flex items-start gap-6">
+                <div class="w-14 h-14 bg-amber-500/10 rounded-xl border border-amber-500/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <svg class="w-6 h-6 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
                   </svg>
                 </div>
                 <div class="flex-1">
-                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-primary transition-colors">Telefon</h3>
-                  <p class="text-2xl font-bold text-primary mb-1">{SITE_CONFIG.phone}</p>
-                  <p class="text-sm text-gray-600">{SITE_CONFIG.workingHours.weekdays}</p>
+                  <h3 class="font-bold text-lg text-white mb-1 group-hover:text-amber-500 transition-colors">Telefon</h3>
+                  <p class="text-2xl font-display font-bold text-amber-500 mb-1">{SITE_CONFIG.phone}</p>
+                  <p class="text-sm text-slate-400 font-mono">{SITE_CONFIG.workingHours.weekdays}</p>
                 </div>
               </div>
             </a>
@@ -98,19 +68,19 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
             <!-- Email -->
             <a 
               href={`mailto:${SITE_CONFIG.email}`}
-              class="group block bg-gradient-to-br from-urgent/10 to-primary/10 hover:from-urgent/20 hover:to-primary/20 rounded-2xl p-6 border-2 border-urgent/40 hover:border-urgent/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              class="group block bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 hover:-translate-y-1"
               data-animate
             >
-              <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-urgent to-primary rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
-                  <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div class="flex items-start gap-6">
+                <div class="w-14 h-14 bg-amber-500/10 rounded-xl border border-amber-500/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <svg class="w-6 h-6 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
                     <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
                     <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
                   </svg>
                 </div>
                 <div class="flex-1">
-                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-urgent transition-colors">E-posta</h3>
-                  <p class="text-lg font-semibold text-urgent break-all">{SITE_CONFIG.email}</p>
+                  <h3 class="font-bold text-lg text-white mb-1 group-hover:text-amber-500 transition-colors">E-posta</h3>
+                  <p class="text-lg font-medium text-slate-300 break-all">{SITE_CONFIG.email}</p>
                 </div>
               </div>
             </a>
@@ -120,23 +90,23 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
               href={SITE_CONFIG.google.mapUrl}
               target="_blank"
               rel="noopener noreferrer"
-              class="group block bg-gradient-to-br from-primary/10 to-urgent/10 hover:from-primary/20 hover:to-urgent/20 rounded-2xl p-6 border-2 border-primary/40 hover:border-primary/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1"
+              class="group block bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 hover:-translate-y-1"
               data-animate
             >
-              <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-primary to-urgent rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
-                  <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+              <div class="flex items-start gap-6">
+                <div class="w-14 h-14 bg-amber-500/10 rounded-xl border border-amber-500/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <svg class="w-6 h-6 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
                   </svg>
                 </div>
                 <div class="flex-1">
-                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-primary transition-colors">Adres</h3>
-                  <p class="text-base text-gray-700 leading-relaxed mb-3">
+                  <h3 class="font-bold text-lg text-white mb-1 group-hover:text-amber-500 transition-colors">Adres</h3>
+                  <p class="text-base text-slate-300 leading-relaxed mb-3">
                     {SITE_CONFIG.address.street}<br />
                     {SITE_CONFIG.address.city} / {SITE_CONFIG.address.state}
                   </p>
-                  <div class="inline-flex items-center gap-2 text-primary group-hover:text-navy font-semibold transition-colors">
-                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                  <div class="inline-flex items-center gap-2 text-amber-500 font-bold text-sm uppercase tracking-wider transition-colors">
+                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
                       <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
                     </svg>
                     Yol Tarifi Al
@@ -149,23 +119,23 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
             </a>
 
             <!-- Working Hours -->
-            <div class="group bg-gradient-to-br from-urgent/10 to-primary/10 hover:from-urgent/20 hover:to-primary/20 rounded-2xl p-6 border-2 border-urgent/40 hover:border-urgent/60 transition-all duration-300 hover:shadow-xl hover:-translate-y-1" data-animate>
-              <div class="flex items-start gap-4">
-                <div class="w-14 h-14 bg-gradient-to-br from-urgent to-primary rounded-xl flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform shadow-lg">
-                  <svg class="w-7 h-7 text-white" fill="currentColor" viewBox="0 0 20 20">
+            <div class="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-all duration-300" data-animate>
+              <div class="flex items-start gap-6">
+                <div class="w-14 h-14 bg-amber-500/10 rounded-xl border border-amber-500/20 flex items-center justify-center flex-shrink-0 group-hover:scale-110 transition-transform">
+                  <svg class="w-6 h-6 text-amber-500" fill="currentColor" viewBox="0 0 20 20">
                     <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00.293.707l2.828 2.829a1 1 0 101.415-1.415L11 9.586V6z" clip-rule="evenodd"></path>
                   </svg>
                 </div>
                 <div class="flex-1">
-                  <h3 class="font-bold text-lg text-navy mb-1 group-hover:text-urgent transition-colors">Çalışma Saatleri</h3>
+                  <h3 class="font-bold text-lg text-white mb-1 group-hover:text-amber-500 transition-colors">Çalışma Saatleri</h3>
                   <div class="space-y-2">
-                    <div class="flex items-center justify-between">
-                      <span class="text-gray-600">Hafta İçi:</span>
-                      <span class="font-semibold text-navy">{SITE_CONFIG.workingHours.weekdays}</span>
+                    <div class="flex items-center justify-between border-b border-white/5 pb-2">
+                      <span class="text-slate-400">Hafta İçi:</span>
+                      <span class="font-mono text-amber-500">{SITE_CONFIG.workingHours.weekdays}</span>
                     </div>
-                    <div class="flex items-center justify-between">
-                      <span class="text-gray-600">Hafta Sonu:</span>
-                      <span class="font-semibold text-red-500">{SITE_CONFIG.workingHours.weekend}</span>
+                    <div class="flex items-center justify-between pt-1">
+                      <span class="text-slate-400">Hafta Sonu:</span>
+                      <span class="font-mono text-red-400">{SITE_CONFIG.workingHours.weekend}</span>
                     </div>
                   </div>
                 </div>
@@ -176,27 +146,37 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
 
         <!-- Google Maps -->
         <div data-animate>
-          <h2 class="text-3xl md:text-4xl font-display font-bold text-navy mb-8">
-            <span class="text-primary">Bizi</span> Ziyaret Edin
+          <h2 class="font-display font-bold text-white text-3xl mb-8 flex items-center gap-3">
+            <span class="w-8 h-1 bg-amber-500 rounded-full"></span>
+            <span class="text-amber-500">Bizi</span> Ziyaret Edin
           </h2>
-          <div class="rounded-2xl overflow-hidden shadow-2xl h-[400px] md:h-[500px] border-4 border-primary/10" data-animate>
+          
+          <div class="rounded-2xl overflow-hidden shadow-2xl h-[500px] border border-white/10 relative group" data-animate>
+            <!-- Tech corners -->
+            <div class="absolute top-0 left-0 w-8 h-8 border-l-2 border-t-2 border-amber-500 z-10"></div>
+            <div class="absolute top-0 right-0 w-8 h-8 border-r-2 border-t-2 border-amber-500 z-10"></div>
+            <div class="absolute bottom-0 left-0 w-8 h-8 border-l-2 border-b-2 border-amber-500 z-10"></div>
+            <div class="absolute bottom-0 right-0 w-8 h-8 border-r-2 border-b-2 border-amber-500 z-10"></div>
+            
             <iframe
               src={SITE_CONFIG.google.embedUrl}
               width="100%"
               height="100%"
-              style="border:0;"
+              style="border:0; filter: grayscale(100%) invert(90%) contrast(80%);"
               allowfullscreen=""
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
               title="Yıldızlar Grup DSG Servisi Konum"
+              class="opacity-80 group-hover:opacity-100 group-hover:filter-none transition-all duration-700"
             ></iframe>
           </div>
-          <div class="mt-6" data-animate>
+          
+          <div class="mt-8" data-animate>
             <a
               href={`https://www.google.com/maps/dir/?api=1&destination_place_id=${SITE_CONFIG.google.placeId}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="group w-full inline-flex items-center justify-center gap-3 bg-gradient-to-r from-primary to-urgent text-white px-8 py-4 rounded-xl font-bold text-lg hover:shadow-2xl hover:scale-105 transition-all duration-300"
+              class="group w-full inline-flex items-center justify-center gap-3 bg-amber-500 hover:bg-amber-400 text-white px-8 py-5 rounded-xl font-bold text-xl shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)] hover:-translate-y-1 transition-all duration-300"
             >
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                 <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
@@ -213,29 +193,29 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
   </section>
 
   <!-- CTA Section -->
-  <section class="relative section overflow-hidden">
-    {/* Gradient Background */}
-    <div class="absolute inset-0 bg-gradient-to-br from-primary via-urgent to-primary opacity-95"></div>
-    
-    {/* Animated Pattern */}
-    <div class="absolute inset-0 opacity-10">
-      <div class="absolute inset-0" style="background-image: url('data:image/svg+xml,%3Csvg width=\'60\' height=\'60\' viewBox=\'0 0 60 60\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cg fill=\'none\' fill-rule=\'evenodd\'%3E%3Cg fill=\'%23ffffff\' fill-opacity=\'1\'%3E%3Cpath d=\'M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z\'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E');"></div>
-    </div>
+  <section class="section relative overflow-hidden py-24 border-t border-white/5">
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-900 to-black pointer-events-none"></div>
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:40px_40px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-20"></div>
 
     <div class="container relative z-10">
-      <div class="max-w-4xl mx-auto text-center text-white">
-        <h2 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-4">
-          Hemen <span class="text-navy">Randevu</span> Alın
+      <div class="max-w-3xl mx-auto text-center text-white" data-animate>
+        <div class="inline-block p-3 rounded-full bg-amber-500/10 mb-6 border border-amber-500/20">
+            <svg class="w-8 h-8 text-amber-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+        </div>
+
+        <h2 class="text-3xl md:text-4xl lg:text-5xl font-display font-bold mb-6">
+          Hemen <span class="text-amber-500">Randevu</span> Alın
         </h2>
-        <p class="text-lg md:text-xl mb-10 leading-relaxed text-white/90">
+        <p class="text-lg md:text-xl mb-10 leading-relaxed text-slate-400">
           Aracınız için en iyi hizmeti almak üzere bizi arayın veya WhatsApp'tan mesaj gönderin
         </p>
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 max-w-2xl mx-auto">
+        
+        <div class="flex flex-col sm:flex-row gap-6 justify-center w-full max-w-2xl mx-auto sm:max-w-none items-center">
           <a
             href={`tel:${SITE_CONFIG.phoneTel}`}
-            class="group bg-white text-primary hover:bg-navy hover:text-white px-8 py-5 rounded-xl font-bold text-lg shadow-2xl hover:shadow-navy/50 hover:scale-105 transition-all duration-300 inline-flex items-center justify-center gap-3"
+            class="w-full sm:w-64 inline-flex items-center justify-center px-8 py-5 rounded-xl bg-amber-500 text-white text-xl font-bold shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)] hover:bg-amber-400 hover:-translate-y-1 transition-all duration-300 border-none whitespace-nowrap gap-3"
           >
-            <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 20 20">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
               <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
             </svg>
             <span>Hemen Ara</span>
@@ -244,9 +224,9 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
             href={`https://wa.me/${SITE_CONFIG.phoneTel}?text=${encodeURIComponent('Merhaba, DSG servisi hakkında bilgi almak istiyorum.')}`}
             target="_blank"
             rel="noopener noreferrer"
-            class="group bg-green-500 hover:bg-green-600 text-white px-8 py-5 rounded-xl font-bold text-lg shadow-2xl hover:shadow-green-600/50 hover:scale-105 transition-all duration-300 inline-flex items-center justify-center gap-3"
+            class="w-full sm:w-64 inline-flex items-center justify-center px-8 py-5 rounded-xl bg-[#25D366] text-white text-xl font-bold shadow-[0_0_20px_rgba(37,211,102,0.3)] hover:shadow-[0_0_30px_rgba(37,211,102,0.5)] hover:bg-[#20bd5a] hover:-translate-y-1 transition-all duration-300 border-none whitespace-nowrap gap-3"
           >
-            <svg class="w-6 h-6 group-hover:scale-110 transition-transform" fill="currentColor" viewBox="0 0 24 24">
+            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.150-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.150-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.130-.606.134-.133.298-.347.446-.520.149-.174.198-.298.298-.497.099-.198.050-.371-.025-.520-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.500-.669-.510-.173-.008-.371-.010-.570-.010-.198 0-.520.074-.792.372-.272.297-1.040 1.016-1.040 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.200 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.360.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.570-.347m-5.421 7.403h-.004a9.870 9.870 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.860 9.860 0 01-1.510-5.260c.001-5.450 4.436-9.884 9.888-9.884 2.640 0 5.122 1.030 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.450-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.050 0C5.495 0 .160 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.890-5.335 11.893-11.893a11.821 11.821 0 00-3.480-8.413Z"/>
             </svg>
             <span>WhatsApp Mesaj</span>
@@ -256,4 +236,3 @@ const description = 'Bize ulaşın, randevu alın. İstanbul Büyükçekmece\'de
     </div>
   </section>
 </BaseLayout>
-

@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 interface TocItem {
   id: string;
@@ -13,46 +13,29 @@ interface TableOfContentsProps {
 export default function TableOfContents({ contentId = 'article-content' }: TableOfContentsProps) {
   const [headings, setHeadings] = useState<TocItem[]>([]);
   const [activeId, setActiveId] = useState<string>('');
-  const [isInitialized, setIsInitialized] = useState(false);
-  const asideEl = useRef<HTMLElement | null>(null);
+  const [isPinned, setIsPinned] = useState(false);
+  const [width, setWidth] = useState('auto');
+  const containerRef = useRef<HTMLDivElement>(null);
+  const placeholderRef = useRef<HTMLDivElement>(null);
 
+  // Başlıkları topla
   useEffect(() => {
-    let observer: IntersectionObserver | null = null;
-    let retryTimeout: ReturnType<typeof setTimeout> | null = null;
-
-    // DOM'un hazır olmasını bekle
     const initTOC = () => {
       const content = document.getElementById(contentId);
-      if (!content) {
-        // Retry after a short delay if content not found
-        retryTimeout = setTimeout(initTOC, 100);
-        return;
-      }
+      if (!content) return;
 
       const h2Elements = content.querySelectorAll('h2');
       const tocItems: TocItem[] = [];
 
       h2Elements.forEach((h2) => {
-        // rehype-slug zaten ID eklemiş olmalı, yoksa oluştur
         let id = h2.id;
-        
         if (!id && h2.textContent) {
           id = h2.textContent
             .toLowerCase()
-            .replace(/ğ/g, 'g')
-            .replace(/ü/g, 'u')
-            .replace(/ş/g, 's')
-            .replace(/ı/g, 'i')
-            .replace(/ö/g, 'o')
-            .replace(/ç/g, 'c')
             .replace(/[^a-z0-9\s-]/g, '')
             .replace(/\s+/g, '-')
-            .replace(/-+/g, '-')
             .trim();
-          
-          if (id) {
-            h2.id = id;
-          }
+          h2.id = id;
         }
 
         if (id) {
@@ -65,225 +48,113 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
       });
 
       setHeadings(tocItems);
-      setIsInitialized(true);
+      if (tocItems.length > 0) setActiveId(tocItems[0].id);
 
-      // İlk başlığı varsayılan olarak aktif yap
-      if (tocItems.length > 0) {
-        setActiveId(tocItems[0].id);
-      }
+      // Scrollspy
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              setActiveId(entry.target.id);
+            }
+          });
+        },
+        { rootMargin: '-100px 0px -66%', threshold: 0 }
+      );
 
-      // Scroll tracking için IntersectionObserver
-      const observerOptions = {
-        rootMargin: '-120px 0px -66%',
-        threshold: 0,
-      };
-
-      observer = new IntersectionObserver((entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            setActiveId(entry.target.id);
-          }
-        });
-      }, observerOptions);
-
-      // Tüm başlıkları gözlemle
       h2Elements.forEach((h2) => {
-        if (h2.id) {
-          observer?.observe(h2);
-        }
+        if (h2.id) observer.observe(h2);
       });
+
+      return () => observer.disconnect();
     };
 
-    // DOMContentLoaded veya hemen çalıştır
-    const handleDOMReady = () => {
-      initTOC();
-    };
-
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', handleDOMReady);
-    } else {
-      // DOM zaten hazır, hemen çalıştır
-      setTimeout(initTOC, 0);
-    }
-
-    // Cleanup
-    return () => {
-      if (retryTimeout) {
-        clearTimeout(retryTimeout);
-      }
-      if (observer) {
-        observer.disconnect();
-      }
-      document.removeEventListener('DOMContentLoaded', handleDOMReady);
-    };
+    initTOC();
+    // View Transitions desteği
+    document.addEventListener('astro:page-load', initTOC);
+    return () => document.removeEventListener('astro:page-load', initTOC);
   }, [contentId]);
 
-  // Masaüstünde sticky sorunlarına karşı sabit (fixed) fallback + alt sınır pinleme
+  // Sticky Logic (JS Based - The One That Worked)
   useEffect(() => {
-    // Başlıklar yüklenene kadar bekle
-    if (headings.length === 0) return;
+    const handleScroll = () => {
+      if (!placeholderRef.current || !containerRef.current) return;
 
-    const aside = document.querySelector('aside.toc-sticky') as HTMLElement | null;
-    if (!aside) return;
-
-    const TOP_OFFSET_PX = 80; // 5rem
-    const getGridContainer = () => aside.closest('.grid') as HTMLElement | null;
-
-    // Başlangıçta grid içindeki konuma göre left/width'i ölç
-    let initialLeft = 0;
-    let initialWidth = aside.offsetWidth;
-    const recalcInitial = () => {
-      const container = getGridContainer();
-      if (!container) return;
-      initialLeft = aside.offsetLeft;
-      initialWidth = aside.offsetWidth;
-    };
-    recalcInitial();
-
-    const applyLayout = () => {
-      // Önce tüm okumaları yap (batch read)
-      const windowWidth = window.innerWidth;
-      const container = getGridContainer();
-      const containerRect = container ? container.getBoundingClientRect() : null;
-      const asideRect = aside.getBoundingClientRect();
-      const asideHeight = aside.offsetHeight;
-      const asideWidth = aside.offsetWidth;
+      const placeholderRect = placeholderRef.current.getBoundingClientRect();
+      const footer = document.querySelector('footer');
+      const footerRect = footer?.getBoundingClientRect();
+      const containerHeight = containerRef.current.offsetHeight;
       
-      // Sonra tüm yazmaları yap (batch write)
-      // Mobilde de sticky kullanıyoruz, sadece fixed positioning'i kaldırıyoruz
-      if (windowWidth < 1024) {
-        aside.classList.remove('toc-force-fixed');
-        aside.style.removeProperty('left');
-        aside.style.removeProperty('width');
-        aside.style.removeProperty('position');
-        aside.style.removeProperty('transform');
-        // Mobilde sticky CSS ile çalışacak, bu yüzden opacity ve visibility'yi koruyoruz
-        return;
+      // 120px offset for header
+      const shouldPin = placeholderRect.top <= 120;
+      
+      // Stop at footer
+      let footerCollision = false;
+      if (footerRect) {
+        // Eğer footer ekranın içine girdiyse (veya yaklaştiysa)
+        // container'ın alt kısmı footer'a değiyor mu?
+        // 120 (top) + height
+        if (footerRect.top < 120 + containerHeight + 40) {
+           footerCollision = true;
+        }
       }
 
-      if (!container || !containerRect) {
-        // Klasik fixed - cache'lenmiş değerleri kullan
-        aside.classList.add('toc-force-fixed');
-        aside.style.removeProperty('position');
-        aside.style.top = `${TOP_OFFSET_PX}px`;
-        aside.style.left = `${asideRect.left}px`;
-        aside.style.width = `${asideWidth}px`;
-        aside.style.zIndex = '30';
-        aside.style.opacity = '1';
-        aside.style.visibility = 'visible';
-        aside.style.display = 'block';
-        return;
-      }
-
-      // Container altının viewport'taki konumu
-      const containerBottomVp = containerRect.bottom;
-      // Fixed durumunda aside'ın altının viewport'taki konumu
-      const asideBottomIfFixedVp = TOP_OFFSET_PX + asideHeight;
-
-      if (containerBottomVp <= asideBottomIfFixedVp) {
-        // Container altına çarptı; container içinde absolute'a pinle
-        aside.classList.remove('toc-force-fixed');
-        aside.style.position = 'absolute';
-        aside.style.top = `${Math.max(0, container.scrollHeight - asideHeight)}px`;
-        aside.style.left = `${initialLeft}px`;
-        aside.style.width = `${initialWidth}px`;
-        aside.style.zIndex = '30';
-        aside.style.transform = 'none';
-        aside.style.opacity = '1';
-        aside.style.visibility = 'visible';
-        aside.style.display = 'block';
+      if (shouldPin && !footerCollision) {
+        setIsPinned(true);
+        setWidth(`${placeholderRect.width}px`);
       } else {
-        // Normal: fixed
-        aside.classList.add('toc-force-fixed');
-        aside.style.removeProperty('position');
-        aside.style.top = `${TOP_OFFSET_PX}px`;
-        aside.style.left = `${Math.round(containerRect.left + initialLeft)}px`;
-        aside.style.width = `${initialWidth}px`;
-        aside.style.zIndex = '30';
-        aside.style.opacity = '1';
-        aside.style.visibility = 'visible';
-        aside.style.display = 'block';
+        setIsPinned(false);
+        setWidth('auto');
       }
     };
 
-    // İlk yüklemede hizala - biraz gecikme ile
-    setTimeout(() => {
-      requestAnimationFrame(applyLayout);
-    }, 100);
-
-    // Scroll/Resize/Orientation
-    const onResize = () => { recalcInitial(); requestAnimationFrame(applyLayout); };
-    const onScroll = () => requestAnimationFrame(applyLayout);
-    window.addEventListener('resize', onResize);
-    window.addEventListener('orientationchange', onResize);
-    window.addEventListener('scroll', onScroll, { passive: true });
+    window.addEventListener('scroll', handleScroll);
+    window.addEventListener('resize', handleScroll);
+    
+    // Initial check
+    handleScroll();
 
     return () => {
-      window.removeEventListener('resize', onResize);
-      window.removeEventListener('orientationchange', onResize);
-      window.removeEventListener('scroll', onScroll as any);
+      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener('resize', handleScroll);
     };
-  }, [headings.length]);
+  }, [headings.length]); // headings değişince yeniden hesapla
 
   const scrollToHeading = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      // Önce okuma
-      const headerOffset = 100;
-      const elementRect = element.getBoundingClientRect();
-      const elementPosition = elementRect.top;
-      const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
-
-      // Sonra yazma
-      window.scrollTo({
-        top: offsetPosition,
-        behavior: 'smooth',
-      });
+      const offset = 120;
+      const elementPosition = element.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.pageYOffset - offset;
+      window.scrollTo({ top: offsetPosition, behavior: 'smooth' });
     }
   };
 
-  // Not: Başlıklar henüz toplanmamış olsa da kabı render etmeye devam et
-
   return (
     <>
-      {/* Desktop & Mobile TOC - her zaman görünür */}
-      {headings.length > 0 && (
-        <div
-          className="w-full bg-white border border-gray-100 rounded-xl p-6 shadow-md"
-          ref={(el) => {
-            if (el) {
-              asideEl.current = el as any;
-            }
-          }}
-          style={{
-            maxHeight: 'calc(100vh - 8rem)',
-            overflowY: 'auto',
-            display: 'block',
-            visibility: 'visible',
-            opacity: 1,
-          }}
-          role="navigation"
-          aria-label="İçindekiler"
-        >
-          <div className="flex items-center justify-between mb-4">
-            <h3 className="text-lg font-bold text-gray-800 flex items-center gap-2 font-heading">
-              <svg
-                className="w-5 h-5 text-primary"
-                fill="none"
-                stroke="currentColor"
-                viewBox="0 0 24 24"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4 6h16M4 10h16M4 14h16M4 18h16"
-                />
-              </svg>
-              İçindekiler
-            </h3>
-          </div>
-          <nav className="space-y-2">
+      {/* Placeholder yer tutucu */}
+      <div ref={placeholderRef} style={{ height: isPinned ? '1px' : 'auto', minHeight: '1px' }}></div>
+
+      <aside 
+        ref={containerRef}
+        className={`
+          w-full bg-[#0f172a] border border-white/10 rounded-xl p-5 shadow-xl transition-all duration-300
+          ${isPinned ? 'fixed top-[120px] z-30' : 'relative'}
+        `}
+        style={{ 
+          width: isPinned ? width : '100%',
+          // Eğer pinned değilse normal akışta
+        }}
+      >
+        <div className="flex items-center justify-between mb-4 pb-4 border-b border-white/10">
+          <h3 className="text-sm font-bold text-white flex items-center gap-2 font-mono tracking-wider uppercase">
+            <span className="w-1.5 h-1.5 bg-amber-500 rounded-full animate-pulse"></span>
+            İçerik Paneli
+          </h3>
+        </div>
+        
+        {headings.length > 0 ? (
+          <nav className="space-y-1 max-h-[calc(100vh-200px)] overflow-y-auto pr-2 custom-scrollbar">
             {headings.map((heading) => (
               <a
                 key={heading.id}
@@ -293,11 +164,11 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
                   scrollToHeading(heading.id);
                 }}
                 className={`
-                  text-primary hover:text-primary transition-colors text-sm font-medium block cursor-pointer py-1 px-2 rounded border-l-2 border-transparent hover:bg-primary/5 hover:border-primary
+                  text-xs font-medium block cursor-pointer py-2.5 px-3 rounded-lg transition-all duration-200
                   ${
                     activeId === heading.id
-                      ? 'bg-primary/10 border-primary text-primary font-semibold toc-active'
-                      : ''
+                      ? 'bg-amber-500 text-white shadow-lg shadow-amber-500/20 translate-x-1'
+                      : 'text-slate-400 hover:text-white hover:bg-white/5'
                   }
                 `}
               >
@@ -305,8 +176,19 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
               </a>
             ))}
           </nav>
+        ) : (
+          <div className="space-y-3 animate-pulse">
+            <div className="h-4 bg-white/5 rounded w-3/4"></div>
+            <div className="h-4 bg-white/5 rounded w-1/2"></div>
+            <div className="h-4 bg-white/5 rounded w-2/3"></div>
+          </div>
+        )}
+
+        <div className="mt-4 pt-4 border-t border-white/5 flex justify-between text-[10px] text-slate-600 font-mono">
+          <span>STATUS: ONLINE</span>
+          <span>{headings.length} SECTIONS</span>
         </div>
-      )}
+      </aside>
     </>
   );
 }

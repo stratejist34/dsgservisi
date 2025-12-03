@@ -15,29 +15,25 @@ interface Props {
 const { post, extractedService, extractedFaqs, isPublished = true } = Astro.props;
 const es = extractedService || {};
 const data = post.data;
-const d = data as any; // geniş tip: opsiyonel alanlar için güvenli erişim
+const d = data as any;
 
-// Site URL (Astro.site kullan, fallback ekle)
+// Site URL
 const SITE_URL = Astro.site?.href.replace(/\/$/, '') || 'https://dsgservisi.com';
 
-// BaseLayout için doğru props formatı
+// BaseLayout props
 const title = data.seoTitle || data.title;
 const description = data.seoDescription || data.description || '';
 const image = data.ogImage || getBlogFeaturedImage(post);
 
-// Tarihleri formatla
-const publishDate = data.publishDate instanceof Date 
-  ? data.publishDate 
-  : new Date(data.publishDate);
+// Dates
+const publishDate = data.publishDate instanceof Date ? data.publishDate : new Date(data.publishDate);
 const updatedDate = data.updatedDate 
   ? (data.updatedDate instanceof Date ? data.updatedDate : new Date(data.updatedDate))
   : publishDate;
 
-// Yayınlanmamış yazılar için noindex (gelecek tarihli veya draft)
-// Build zamanında kontrol edilir, yayın tarihi geldiğinde otomatik olarak indexlenebilir hale gelir
 const shouldNoIndex = !isPublished || publishDate > new Date();
 
-// Article Schema
+// Schemas...
 const articleSchema = {
   title: data.title,
   description: description,
@@ -47,7 +43,6 @@ const articleSchema = {
   author: data.author || SITE_CONFIG.name,
 };
 
-// Service Schema (conditional - frontmatter ile tetiklenir)
 const hasService = !!(d.service || d.serviceName || d.serviceType);
 const serviceSchemaData = hasService || es ? {
   name: d.service?.name || d.serviceName || data.title,
@@ -62,26 +57,9 @@ const serviceSchemaData = hasService || es ? {
   offers: (() => {
     const currency = d.service?.priceCurrency || d.priceCurrency || es.priceCurrency;
     const offerUrl = d.service?.offerUrl || d.offerUrl || `${SITE_URL}/${post.slug}`;
-    const hasRange = (d.service?.lowPrice ?? d.lowPrice ?? es.lowPrice) != null || (d.service?.highPrice ?? d.highPrice ?? es.highPrice) != null;
-    const low = (d.service?.lowPrice ?? d.lowPrice ?? es.lowPrice);
-    const high = (d.service?.highPrice ?? d.highPrice ?? es.highPrice);
     const singlePrice = (d.service?.price ?? d.price ?? es.price);
-    if (hasRange && currency) {
-      return {
-        '@type': 'AggregateOffer',
-        lowPrice: String(low ?? ''),
-        highPrice: String(high ?? ''),
-        priceCurrency: currency,
-        url: offerUrl,
-      };
-    }
     if (singlePrice != null && currency) {
-      return {
-        '@type': 'Offer',
-        price: String(singlePrice),
-        priceCurrency: currency,
-        url: offerUrl,
-      };
+      return { '@type': 'Offer', price: String(singlePrice), priceCurrency: currency, url: offerUrl };
     }
     return undefined;
   })(),
@@ -94,31 +72,14 @@ const serviceSchemaData = hasService || es ? {
   } : undefined,
 } : null;
 
-// Breadcrumb Schema
 const breadcrumbData = {
   itemListElement: [
-    {
-      '@type': 'ListItem',
-      position: 1,
-      name: 'Ana Sayfa',
-      item: SITE_URL,
-    },
-    {
-      '@type': 'ListItem',
-      position: 2,
-      name: 'Blog',
-      item: `${SITE_URL}/blog`,
-    },
-    {
-      '@type': 'ListItem',
-      position: 3,
-      name: data.title,
-      item: `${SITE_URL}/${post.slug}`,
-    },
+    { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: SITE_URL },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
+    { '@type': 'ListItem', position: 3, name: data.title, item: `${SITE_URL}/${post.slug}` },
   ],
 };
 
-// LocalBusiness Schema with Reviews
 const localServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
@@ -128,8 +89,6 @@ const localServiceSchema = {
   description: description,
   url: `${SITE_URL}/${post.slug}`,
   telephone: SITE_CONFIG.phoneFormatted,
-  email: SITE_CONFIG.email,
-  priceRange: '$$',
   address: {
     '@type': 'PostalAddress',
     streetAddress: SITE_CONFIG.address.street,
@@ -138,163 +97,31 @@ const localServiceSchema = {
     postalCode: SITE_CONFIG.address.postalCode,
     addressCountry: 'TR',
   },
-  geo: {
-    '@type': 'GeoCoordinates',
-    latitude: SITE_CONFIG.coordinates.latitude,
-    longitude: SITE_CONFIG.coordinates.longitude,
-  },
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: SITE_CONFIG.google.rating.toString(),
-    bestRating: '5',
-    worstRating: '1',
-    reviewCount: SITE_CONFIG.google.reviewCount.toString(),
-  },
-  review: [
-    {
-      '@type': 'Review',
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: '5',
-        bestRating: '5',
-      },
-      author: {
-        '@type': 'Person',
-        name: 'Furkan Kaplan',
-      },
-      reviewBody: 'DSG şanzıman arızasını çok kısa sürede ve uygun fiyata hallettiler. Kesinlikle tavsiye ederim.',
-    },
-    {
-      '@type': 'Review',
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: '5',
-        bestRating: '5',
-      },
-      author: {
-        '@type': 'Person',
-        name: 'İsmail Susam',
-      },
-      reviewBody: 'Audi A4\'ümün DSG mekatronik tamirini yaptırdım. İşlerinde çok titizler ve uzman kadroları var.',
-    },
-    {
-      '@type': 'Review',
-      reviewRating: {
-        '@type': 'Rating',
-        ratingValue: '4',
-        bestRating: '5',
-      },
-      author: {
-        '@type': 'Person',
-        name: 'Ahmet Yılmaz',
-      },
-      reviewBody: 'VW Passat DSG yağ değişimi için gittim. Fiyatlar makul ve işçilik kaliteli.',
-    },
-  ],
-  openingHoursSpecification: [
-    {
-      '@type': 'OpeningHoursSpecification',
-      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
-      opens: '09:00',
-      closes: '18:00',
-    },
-  ],
-  areaServed: [
-    {
-      '@type': 'City',
-      name: 'Büyükçekmece',
-    },
-    {
-      '@type': 'City',
-      name: 'Beylikdüzü',
-    },
-    {
-      '@type': 'City',
-      name: 'Esenyurt',
-    },
-    {
-      '@type': 'City',
-      name: 'Avcılar',
-    },
-  ],
-  hasOfferCatalog: {
-    '@type': 'OfferCatalog',
-    name: 'Otomotiv Servis Hizmetleri',
-    itemListElement: [
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Service',
-          name: 'DSG Şanzıman Tamiri',
-          description: 'DSG şanzıman ve mekatronik onarımı',
-        },
-      },
-      {
-        '@type': 'Offer',
-        itemOffered: {
-          '@type': 'Service',
-          name: 'Periyodik Bakım',
-          description: 'Düzenli araç bakım hizmetleri',
-        },
-      },
-    ],
-  },
+  priceRange: '$$',
 };
 ---
 
 <BaseLayout title={title} description={description} image={image} noindex={shouldNoIndex}>
   <Fragment slot="head">
-    {/* Article Schema */}
     <Schema type="article" article={articleSchema} />
-    
-    {/* LocalBusiness Schema with Reviews */}
     <script is:inline type="application/ld+json" set:html={JSON.stringify(localServiceSchema)} />
-    
-    {/* Breadcrumb Schema */}
     <Schema type="BreadcrumbList" data={breadcrumbData} />
-
-    {/* Service Schema (opsiyonel) */}
-    {serviceSchemaData && (
-      <Schema type="Service" data={serviceSchemaData} />
-    )}
-
-    {/* FAQ Schema (opsiyonel, frontmatter'da faqs varsa ya da içerikten çıkarıldıysa) */}
-    {(() => {
-      const faqs = Array.isArray((data as any).faqs) && (data as any).faqs.length > 0
-        ? (data as any).faqs
-        : (Array.isArray(extractedFaqs) && extractedFaqs.length > 0 ? extractedFaqs : null);
-      if (!faqs) return null;
-      return (
-      <Schema
-        type="FAQPage"
-        data={{
-          mainEntity: faqs.map((f: any) => ({
-            '@type': 'Question',
-            name: f.question || f.q,
-            acceptedAnswer: {
-              '@type': 'Answer',
-              text: f.answer || f.a,
-            },
-          })),
-        }}
-      />
-      );
-    })()}
+    {serviceSchemaData && <Schema type="Service" data={serviceSchemaData} />}
     
     {/* Open Graph */}
     <meta property="og:type" content="article" />
     <meta property="og:image" content={image} />
     
-    {/* TOC Sticky Fix CSS */}
     <style is:inline>
-      /* Ensure blog layout doesn't interfere with sticky */
-      article, article > div {
-        overflow: visible !important;
-      }
+      /* Sticky Fix - Critical */
+      html, body { overflow-x: hidden; overflow-y: auto; background-color: #0f172a !important; }
+      main { overflow: visible !important; background-color: #0f172a !important; }
+      article { overflow: visible !important; }
     </style>
   </Fragment>
   
-  <div style="position: relative; overflow: visible;">
+  {/* Main Blog Container - Dark Mode Background FORCE */}
+  <div class="bg-[#0f172a] min-h-screen text-gray-300 relative z-0" style="background-color: #0f172a !important; color: #e2e8f0 !important;">
     <slot />
   </div>
 </BaseLayout>

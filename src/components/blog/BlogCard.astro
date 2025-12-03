@@ -1,6 +1,6 @@
 ---
 import type { CollectionEntry } from 'astro:content';
-import { getBlogFeaturedImage, getBlogExcerpt, getBlogCategory, getCategoryLogo, getCategoryLink } from '@utils/content';
+import { getBlogFeaturedImage, getBlogCategory, getCategoryLogo } from '@utils/content';
 
 interface Props {
   post: CollectionEntry<'blog'>;
@@ -10,10 +10,8 @@ interface Props {
 
 const { post, index = 0, size = 'rect-regular' } = Astro.props;
 const featuredImage = getBlogFeaturedImage(post);
-const excerpt = getBlogExcerpt(post);
 const categoryName = getBlogCategory(post);
 const categoryLogo = getCategoryLogo(categoryName);
-const categoryLink = getCategoryLink(categoryName);
 const postTitle = post.data.title;
 const postSlug = post.slug;
 
@@ -23,49 +21,42 @@ const sizeConfig = {
     height: 'h-full', // 3 rows x 200px = 600px
     padding: 'p-6 md:p-8',
     titleSize: 'text-2xl md:text-[32px]',
-    showExcerpt: false,
     bandClass: 'band-bold',
   },
   'featured-small': {
     height: 'h-full', // 1 row x 200px = 200px
     padding: 'p-4 md:p-5',
     titleSize: 'text-sm md:text-base',
-    showExcerpt: false,
     bandClass: 'band-soft',
   },
   'square-left': {
     height: 'h-full', // 2 rows x 200px = 400px
     padding: 'p-5 md:p-6',
     titleSize: 'text-lg md:text-[22px]',
-    showExcerpt: false,
     bandClass: 'band-medium',
   },
   'rect-right': {
     height: 'h-full', // 2 rows x 200px = 400px
     padding: 'p-5 md:p-6',
     titleSize: 'text-xl md:text-[26px]',
-    showExcerpt: false,
     bandClass: 'band-medium',
   },
   'rect-wide': {
     height: 'h-full', // 2 rows x 200px = 400px
     padding: 'p-5 md:p-6',
     titleSize: 'text-xl md:text-[26px]',
-    showExcerpt: false,
     bandClass: 'band-medium',
   },
   'square-stack': {
     height: 'h-full', // 1 row x 200px = 200px
     padding: 'p-4 md:p-5',
     titleSize: 'text-sm md:text-base',
-    showExcerpt: false,
     bandClass: 'band-soft',
   },
   'rect-regular': {
     height: 'h-full', // 2 rows x 200px = 400px
     padding: 'p-5 md:p-6',
     titleSize: 'text-base md:text-xl',
-    showExcerpt: false,
     bandClass: 'band-medium',
   },
 };
@@ -73,9 +64,12 @@ const sizeConfig = {
 const config = sizeConfig[size] || sizeConfig['rect-regular'];
 ---
 
-<article
-  class="netflix-card premium-card group relative rounded-[1.6rem] overflow-hidden shadow-lg w-full h-full min-h-[200px] transition-transform duration-500 ease-out group-hover:-translate-y-1 group-hover:shadow-xl"
+<!-- EN DIŞ KAPSAYICI LİNK OLDU - ARTIK TIKLANMAMASI İMKANSIZ -->
+<a 
+  href={`/${postSlug}`}
+  class="netflix-card premium-card group relative block rounded-[1.6rem] overflow-hidden shadow-lg w-full h-full min-h-[200px] transition-transform duration-500 ease-out group-hover:-translate-y-1 group-hover:shadow-xl cursor-pointer no-underline"
   style={`animation: fade-in-up 0.8s ease-out ${index * 0.1}s both;`}
+  aria-label={postTitle}
 >
   <!-- Background Image (Full Card Height) - Responsive with AVIF/WebP -->
   {featuredImage ? (
@@ -106,39 +100,33 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
     </div>
   )}
   
-  {/* Refined Turkuaz Overlay - Daha hafif, koyu odak sağ üst */}
+  {/* Refined Turkuaz Overlay */}
   <div class="card-overlay absolute inset-0 transition-all duration-500 z-10"></div>
   
-  {/* Category Badge - Sağ Üst Köşe - Büyük Logo */}
+  {/* Category Badge */}
   {categoryName && categoryLogo && (
-    <a 
-      href={categoryLink}
-      class="absolute top-4 right-4 z-30 opacity-[.62] hover:opacity-100 transition-opacity duration-300 group/badge"
-      title={categoryName}
-    >
+    <div class="absolute top-4 right-4 z-20 opacity-[.62] hover:opacity-100 transition-opacity duration-300 group/badge">
       <img 
         src={categoryLogo} 
         alt={categoryName}
         class="w-20 h-20 object-contain filter brightness-0 invert transition-[filter] duration-300 ease-out group-hover:brightness-100 group-hover:invert-0 hover:brightness-100 hover:invert-0"
         loading="lazy"
       />
-    </a>
+    </div>
   )}
   
   {/* Content Overlay container kept for stacking context */}
   <div class={`relative z-20 w-full h-full ${config.padding}`}></div>
 
   {/* Full-width glass band with title (edge-to-edge) */}
-  <div class="absolute inset-x-0 bottom-0 z-30">
+  <div class="absolute inset-x-0 bottom-0 z-20">
     <div class={`title-band ${config.bandClass}`}>
-      <a href={`/${postSlug}`} class="block focus:outline-none focus:ring-2 focus:ring-cyan/60">
+      <div class="block">
         <h3 class={`font-display text-white ${config.titleSize} uppercase tracking-[0.06em] font-extrabold leading-tight px-5 py-4`}>{postTitle}</h3>
-      </a>
+      </div>
     </div>
   </div>
-
-  
-</article>
+</a>
 
 <style>
   .netflix-card {
@@ -179,6 +167,7 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
     opacity: 0;
     filter: drop-shadow(0 8px 24px rgba(246, 206, 120, 0.12));
     transition: opacity 400ms ease, filter 600ms ease;
+    z-index: 30; /* Border en üstte */
   }
 
   .premium-card:hover::before {
@@ -201,6 +190,7 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
     transform: translateX(-140%);
     opacity: 0;
     transition: transform 800ms ease, opacity 400ms ease;
+    z-index: 30;
   }
 
   .premium-card:hover::after {

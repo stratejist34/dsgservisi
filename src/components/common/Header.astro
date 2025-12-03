@@ -14,11 +14,19 @@ const navLinks = [
 
 <header class="fixed top-0 left-0 right-0 z-40 transition-all duration-300 border-b border-white/5" id="header" style="background: rgba(15, 23, 42, 0.8); backdrop-filter: blur(12px);">
   
-  <div class="header-ticker">
-    <div class="ticker-track">
-      <span id="ticker-message" class="ticker-message"></span>
+  {/* Matrix/Tech Ticker for Mobile */}
+  <div class="header-ticker lg:hidden bg-black border-b border-white/10 h-[30px] flex items-center justify-center overflow-hidden relative">
+    <div class="absolute inset-0 bg-black z-0"></div>
+    {/* Scanline effect */}
+    <div class="absolute inset-0 z-10 pointer-events-none opacity-10 bg-[linear-gradient(to_bottom,transparent_50%,rgba(0,0,0,0.5)_50%)] bg-[size:100%_4px]"></div>
+    
+    <div class="ticker-content relative z-20 flex items-center gap-2 font-mono text-xs font-bold tracking-wider">
+      <span class="text-green-500 opacity-70 mr-1">&gt;</span>
+      <span id="typewriter-text" class="text-green-400 text-shadow-neon"></span>
+      <span class="cursor-blink w-2 h-4 bg-green-500 inline-block ml-1"></span>
     </div>
   </div>
+
   <div class="container relative">
     <div class="flex items-center justify-between h-16 lg:h-[68px]">
       {/* Logo */}
@@ -98,6 +106,7 @@ const navLinks = [
 </header>
 
 <script>
+  // @ts-nocheck
   // Mobile menu toggle
   const mobileMenuBtn = document.getElementById('mobile-menu-btn');
   const mobileMenu = document.getElementById('mobile-menu');
@@ -110,28 +119,79 @@ const navLinks = [
   let ticking = false;
   const header = document.getElementById('header');
 
-  const tickerMessageEl = document.getElementById('ticker-message');
-  const tickerMessages = [
-    { text: 'İstanbul Avrupa Yakası', color: '#fbbf24' },
-    { text: 'Beytepe Sanayi Sitesi', color: '#38bdf8' },
-    { text: 'DSG & Mekatronik Tamiri', color: '#f472b6' },
+  // Matrix Typewriter Logic
+  const textElement = document.getElementById('typewriter-text');
+  const messages = [
+    'İSTANBUL AVRUPA YAKASINDAYIZ',
+    'ADRESİMİZ BÜYÜKÇEKMECE, BEYLİKDÜZÜ TEM\' e YAKIN',
+    'FİYAT & PERFORMANS OLARAK PİYASANIN EN İYİSİYİZ',
+    'ORJİNAL PARÇALAR ve 1. SINIF İŞÇİLİK SUNUYORUZ',
+    'LÜTFEN PAZARLIK ZORLAMAYINIZ'
   ];
-  let tickerIndex = 0;
+  
+  let msgIndex = 0;
+  let charIndex = 0;
+  let isDeleting = false;
+  let typeSpeed = 100;
 
-  const playTicker = () => {
-    if (!tickerMessageEl) return;
-    const { text, color } = tickerMessages[tickerIndex];
-    tickerMessageEl.textContent = text;
-    tickerMessageEl.style.color = color; // Basit renk değişimi
-    tickerMessageEl.classList.remove('ticker-animate');
-    void tickerMessageEl.offsetWidth;
-    tickerMessageEl.classList.add('ticker-animate');
-    tickerIndex = (tickerIndex + 1) % tickerMessages.length;
-  };
+  // Rastgelelik ve Glitch
+  const glitchChars = '!<>-_\\/[]{}—=+*^?#';
 
-  if (tickerMessageEl) {
-    playTicker();
-    setInterval(playTicker, 4500);
+  function type() {
+    if (!textElement) return;
+
+    const currentMsg = messages[msgIndex];
+    
+    if (isDeleting) {
+      // Silerken daha hızlı ve sabit
+      textElement.textContent = currentMsg.substring(0, charIndex - 1);
+      charIndex--;
+      typeSpeed = 30 + Math.random() * 20; 
+    } else {
+      // Yazarken rastgele hız ve duraksamalar
+      textElement.textContent = currentMsg.substring(0, charIndex + 1);
+      
+      // Glitch efekti (rastgele karakter gösterip düzeltme) - Sadece yazarken
+      if (Math.random() < 0.1 && charIndex < currentMsg.length) {
+         const originalChar = textElement.textContent.slice(-1);
+         const randomGlitch = glitchChars[Math.floor(Math.random() * glitchChars.length)];
+         textElement.textContent = textElement.textContent.slice(0, -1) + randomGlitch;
+         
+         // Hemen düzelt
+         setTimeout(() => {
+            if (textElement) textElement.textContent = textElement.textContent.slice(0, -1) + originalChar;
+         }, 50);
+      }
+
+      charIndex++;
+      
+      // %15 daha hızlı İnsan gibi yazma hızı (rastgele)
+      // Eski Baz: 100 + random(150) = 100..250ms
+      // Yeni Baz (%15 Hızlı): 85 + random(120) = 85..205ms
+      typeSpeed = 85 + Math.random() * 120;
+      
+      // Her 6-9 karakterde bir belirgin duraksama (kelime/hece arası gibi)
+      // Veya rastgele %15 ihtimalle duraksama
+      if (charIndex % (Math.floor(Math.random() * 4) + 6) === 0 || Math.random() < 0.05) {
+         typeSpeed += 600 + Math.random() * 400; // 600-1000ms duraksama
+      }
+    }
+
+    if (!isDeleting && charIndex === currentMsg.length) {
+      isDeleting = true;
+      typeSpeed = 2500; // Mesajı okumak için bekle
+    } else if (isDeleting && charIndex === 0) {
+      isDeleting = false;
+      msgIndex = (msgIndex + 1) % messages.length;
+      typeSpeed = 500;
+    }
+
+    setTimeout(type, typeSpeed);
+  }
+
+  // Başlat
+  if (textElement) {
+    setTimeout(type, 1000);
   }
 
   window.addEventListener('scroll', () => {
@@ -153,40 +213,16 @@ const navLinks = [
 </script>
 
 <style is:inline>
-  .header-ticker {
-    width: 100%;
-    overflow: hidden;
-    background: rgba(15, 23, 42, 0.95);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  .cursor-blink {
+    animation: blink 1s step-end infinite;
+  }
+  
+  .text-shadow-neon {
+    text-shadow: 0 0 5px rgba(74, 222, 128, 0.5), 0 0 10px rgba(74, 222, 128, 0.3);
   }
 
-  .ticker-track {
-    padding: 4px 16px;
-    display: flex;
-    justify-content: center;
-  }
-
-  .ticker-message {
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    font-weight: 600;
-    font-family: monospace;
-    opacity: 0;
-  }
-
-  .ticker-animate {
-    animation: fadeInOut 4.5s ease-in-out forwards;
-  }
-
-  @keyframes fadeInOut {
-    0%, 100% { opacity: 0; transform: translateY(2px); }
-    10%, 90% { opacity: 1; transform: translateY(0); }
-  }
-
-  @media (min-width: 1024px) {
-    .header-ticker {
-      display: none;
-    }
+  @keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
   }
 </style>

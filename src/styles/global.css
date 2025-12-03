@@ -3,964 +3,171 @@
 @tailwind utilities;
 
 @layer base {
-  * {
-    @apply box-border;
-  }
+  * { @apply box-border; }
   
   html {
     -webkit-overflow-scrolling: touch;
-    overflow-x: hidden;
+    /* Overflow-x: hidden/clip sticky'yi bozabilir eğer height %100 ise. visible en güvenlisi */
+    overflow-x: hidden; 
     overflow-y: auto;
+    background-color: #0f172a !important;
   }
   
   body {
-    @apply bg-[#0f172a] text-slate-300 antialiased;
-    font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    overflow-x: hidden;
-    overflow-y: auto;
-    width: 100%;
-    min-width: 320px;
+    @apply bg-[#0f172a] text-slate-200 antialiased;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    /* Body overflow-x: hidden sticky için genelde sorun olmaz ama emin olmak için unset */
+    overflow-x: hidden; 
+    background-color: #0f172a !important;
   }
-  
-  /* Tech Background Grid */
+
+  /* Tech Background */
   body::before {
     content: "";
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    top: 0; left: 0; width: 100%; height: 100%;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
     background-size: 40px 40px;
     pointer-events: none;
     z-index: -1;
   }
   
-  /* Mobil için smooth animations */
-  @media (prefers-reduced-motion: no-preference) {
-    * {
-      scroll-behavior: smooth;
-    }
-    html {
-      scroll-behavior: smooth;
-    }
-    body {
-      scroll-behavior: smooth;
-    }
-  }
-  
-  /* Touch cihazlar için optimize hover */
-  @media (hover: none) and (pointer: coarse) {
-    .group:hover,
-    .group-hover {
-      transition-duration: 0.2s;
-    }
-  }
-  
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Titillium Web', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    @apply font-semibold;
+    font-family: 'Rajdhani', 'Titillium Web', sans-serif;
+    @apply font-bold tracking-tight;
   }
-  
-  /* Başlık stilleri artık Tailwind Typography config'inde tanımlı */
-  /* Sadece prose dışındaki başlıklar için genel stiller (prose içindekiler typography config'inden gelir) */
-  /* Eğer prose dışında başlık kullanıyorsanız, burada özelleştirebilirsiniz */
+
+  /* Başlık Rengi */
+  body h1, main h1, article h1 {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    background: none !important;
+  }
 }
 
 @layer components {
-  .container {
-    @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl;
+  .container { @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl; width: 100%; }
+  .section { @apply py-16 md:py-24; }
+  
+  /* Card Backgrounds */
+  .card, .bg-white {
+    @apply bg-slate-800/50 border border-white/10 !important;
+    background-color: rgba(30, 41, 59, 0.5) !important;
+  }
+
+  /* --- BLOG CONTENT STYLES --- */
+  
+  #article-content {
+    color: #e2e8f0 !important; 
+    max-width: none !important;
+    font-size: 1.125rem !important;
+    line-height: 1.8 !important;
+  }
+  
+  #article-content strong, #article-content b { color: #ffffff !important; font-weight: 700 !important; }
+  
+  #article-content a:not(.btn):not(.button) {
+    color: #fbbf24 !important;
+    text-decoration: none !important;
+    border-bottom: 1px solid rgba(251, 191, 36, 0.4) !important;
+  }
+  
+  #article-content h1, #article-content h2, #article-content h3, #article-content h4 {
+    color: #ffffff !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    margin-top: 2em !important;
+    margin-bottom: 0.8em !important;
+  }
+
+  #article-content h2 {
+    font-size: 2rem !important;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    padding-bottom: 0.5rem;
+  }
+  
+  #article-content h3 { font-size: 1.5rem !important; color: #fbbf24 !important; }
+
+  #article-content p, #article-content ul, #article-content ol {
+    color: #e2e8f0 !important;
+    margin-bottom: 1.5rem !important;
+  }
+
+  #article-content li::marker { color: #fbbf24 !important; }
+
+  #article-content blockquote {
+    border-left: 4px solid #fbbf24 !important;
+    background: rgba(255,255,255,0.05) !important;
+    color: #f1f5f9 !important;
+    padding: 1rem 1.5rem !important;
+    border-radius: 0 8px 8px 0;
+  }
+  
+  #article-content code {
+    color: #fbbf24 !important;
+    background: rgba(15, 23, 42, 0.8) !important;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Tablo Stilleri */
+  #article-content table {
     width: 100%;
-  }
-  
-  .btn {
-    @apply inline-flex items-center justify-center px-6 py-3 rounded-lg font-semibold focus:outline-none focus:ring-2 focus:ring-offset-2;
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .btn-primary {
-    @apply bg-primary text-white hover:bg-primary-600 font-bold tracking-wide border border-transparent hover:border-white/20;
-    transition: all 0.3s ease;
-    box-shadow: 0 0 0 0 rgba(249, 115, 22, 0.7);
-  }
-  
-  .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 10px 20px -10px rgba(249, 115, 22, 0.5);
-  }
-  
-  .btn-secondary {
-    @apply bg-navy text-white hover:bg-navy-600;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .section {
-    @apply py-16 md:py-24 lg:py-32;
-  }
-  
-  .section-title {
-    @apply text-center mb-12 md:mb-16;
-  }
-  
-  .card {
-    @apply bg-slate-800/50 backdrop-blur-sm border border-white/10 rounded-xl overflow-hidden;
-    transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .card-hover {
-    @apply hover:border-primary/50 hover:bg-slate-800/80;
-    transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  
-  .card-hover:hover {
-    transform: translateY(-8px);
-  }
-
-  /* Blog Content Styles */
-  /* Paragraf aralarındaki boşluğu azalt */
-  .prose p {
-    @apply mb-2 leading-normal;
-  }
-  
-  .prose p:last-child {
-    @apply mb-0;
-  }
-  
-  /* prose-lg için de aynı ayarlar */
-  .prose-lg p {
-    @apply mb-2 leading-normal;
-  }
-  
-  .prose-lg p:last-child {
-    @apply mb-0;
-  }
-  
-  /* Liste öğeleri için de dengeli boşluk */
-  .prose ul,
-  .prose ol {
-    @apply mb-4;
-    line-height: 1.5 !important;
-  }
-  
-  .prose-lg ul,
-  .prose-lg ol {
-    @apply mb-4;
-    line-height: 1.5 !important;
-  }
-  
-  /* Maddeli liste öğeleri için satır arası yüksekliğini azalt - daha spesifik selector */
-  .prose ul li,
-  .prose ol li,
-  .prose-lg ul li,
-  .prose-lg ol li {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    line-height: 1.5 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  
-  /* Liste içindeki paragraflar için de satır arası ayarı */
-  .prose ul li p,
-  .prose ol li p,
-  .prose-lg ul li p,
-  .prose-lg ol li p {
-    margin-top: 0 !important;
-    margin-bottom: 0 !important;
-    line-height: 1.5 !important;
-    padding-top: 0 !important;
-    padding-bottom: 0 !important;
-  }
-  
-  /* Liste öğelerinin son öğesi için margin sıfırla */
-  .prose ul li:last-child,
-  .prose ol li:last-child,
-  .prose-lg ul li:last-child,
-  .prose-lg ol li:last-child {
-    margin-bottom: 0 !important;
-  }
-  
-  /* Liste öğelerinin ilk öğesi için margin sıfırla */
-  .prose ul li:first-child,
-  .prose ol li:first-child,
-  .prose-lg ul li:first-child,
-  .prose-lg ol li:first-child {
-    margin-top: 0 !important;
-  }
-  
-  /* Tailwind Typography başlık boyutlarını override et ve margin ekle */
-  .prose h1 {
-    font-size: 2.0625rem !important; /* 33px */
-    font-weight: 600 !important;
-    line-height: 2.5rem !important;
-    @apply mb-4 mt-6;
-  }
-  
-  .prose h2 {
-    font-size: 1.5rem !important; /* 24px */
-    font-weight: 600 !important;
-    line-height: 2rem !important;
-    @apply mb-3 mt-6;
-  }
-  
-  .prose h3 {
-    font-size: 1.25rem !important; /* 20px */
-    font-weight: 600 !important;
-    line-height: 1.75rem !important;
-    @apply mb-2 mt-4;
-  }
-  
-  .prose-lg h1 {
-    font-size: 2.0625rem !important; /* 33px */
-    font-weight: 600 !important;
-    line-height: 2.5rem !important;
-    @apply mb-4 mt-6;
-  }
-  
-  .prose-lg h2 {
-    font-size: 1.5rem !important; /* 24px */
-    font-weight: 600 !important;
-    line-height: 2rem !important;
-    @apply mb-3 mt-6;
-  }
-  
-  .prose-lg h3 {
-    font-size: 1.25rem !important; /* 20px */
-    font-weight: 600 !important;
-    line-height: 1.75rem !important;
-    @apply mb-2 mt-4;
-  }
-  
-  /* CTA Box Styles */
-  .cta-box {
-    @apply bg-blue-50 border border-blue-200 p-5 rounded-lg my-5 text-center;
-  }
-  
-  .cta-box strong {
-    @apply block mb-3 text-lg text-gray-800 font-semibold;
-  }
-  
-  .cta-actions {
-    @apply flex gap-3 justify-center flex-wrap;
-  }
-  
-  .cta-actions a {
-    @apply inline-flex items-center gap-2 px-5 py-3 rounded-lg no-underline font-semibold transition-all duration-300;
-  }
-  
-  .cta-call {
-    @apply bg-green-600 text-white;
-  }
-  
-  .cta-call:hover {
-    @apply bg-green-700 transform -translate-y-0.5 shadow-lg;
-    box-shadow: 0 4px 12px rgba(34, 197, 94, 0.4);
-  }
-  
-  .cta-whatsapp {
-    @apply bg-[#25d366] text-white;
-  }
-  
-  .cta-whatsapp:hover {
-    @apply bg-[#1ebd58] transform -translate-y-0.5 shadow-lg;
-    box-shadow: 0 4px 12px rgba(37, 211, 102, 0.4);
-  }
-  
-  .cta-map {
-    @apply bg-blue-600 text-white;
-  }
-  
-  .cta-map:hover {
-    @apply bg-blue-700 transform -translate-y-0.5 shadow-lg;
-    box-shadow: 0 4px 12px rgba(37, 99, 235, 0.4);
-  }
-  
-  /* Map Embed */
-  .map-embed {
-    @apply my-5 border border-gray-200 rounded-lg overflow-hidden;
-    width: 100% !important;
-    height: 360px !important;
-    border: 0 !important;
-  }
-  
-  /* Note/Info Box */
-  .note {
-    background: #fffbea;
-    border: 1px solid #ffe58f;
-    padding: 12px;
-    border-radius: 6px;
-    margin: 16px 0;
-  }
-  
-  /* Uzman Tavsiyesi - Turuncu/Sıcak görünüm */
-  .uzman-tavsiyesi {
-    background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
-    border-left: 5px solid #F97316;
-    padding: 15px;
-    margin: 20px 0;
-    font-size: 0.95rem;
-    line-height: 1.6;
-    color: #7C2D12;
-    font-weight: 500;
-  }
-
-  /* Cam efektli CTA kutusu - Turuncu/Sıcak görünüm */
-  .glass-cta {
-    background: linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%);
-    border: 3px solid #F97316;
-    padding: 20px;
+    border-collapse: collapse;
+    margin: 2rem 0;
+    border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 8px;
-    margin: 20px 0;
-    text-align: center;
-    box-shadow: 0 4px 12px rgba(249, 115, 22, 0.2);
+    overflow: hidden;
   }
-
-  .glass-cta strong {
-    display: block;
-    margin-bottom: 12px;
-    font-size: 1.1rem;
-    color: #9A3412;
+  
+  #article-content th {
+    background: rgba(255, 255, 255, 0.08) !important;
+    color: #ffffff !important;
     font-weight: 700;
+    text-align: left;
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  }
+  
+  #article-content td {
+    padding: 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    color: #e2e8f0 !important;
+  }
+  
+  /* Sticky TOC Fix - Global Class */
+  /* [slug].astro'da sticky class'ı verdim, buraya gerek yok ama yedek */
+  .toc-sticky {
+    position: sticky;
+    top: 120px;
+    z-index: 30;
   }
 
-  .glass-cta ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    gap: 12px;
-    justify-content: center;
-    flex-wrap: wrap;
+  /* CTA Box */
+  .glass-cta {
+    background: rgba(15, 23, 42, 0.9) !important;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    padding: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 3rem 0;
   }
-
-  .glass-cta li { margin: 0; }
-
-  /* CTA link button styles (pure markdown links) */
-  .glass-cta a {
-    display: inline-flex;
-    align-items: center;
-    gap: 6px;
-    padding: 12px 20px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: 600;
-    transition: all 0.3s;
-  }
+  .glass-cta strong { font-size: 1.4rem; color: white !important; display: block; margin-bottom: 1rem; }
   
-  .glass-cta a[href^="tel:"] {
-    background: linear-gradient(135deg, #F97316 0%, #DC2626 100%);
-    color: #fff;
-    border: 2px solid #F97316;
-  }
-  
-  .glass-cta a[href^="tel:"]:hover {
-    background: linear-gradient(135deg, #DC2626 0%, #B91C1C 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(249, 115, 22, 0.5);
-  }
-  
-  .glass-cta a[href*="wa.me"] {
-    background: linear-gradient(135deg, #25d366 0%, #1ebd58 100%);
-    color: #fff;
-    border: 2px solid #25d366;
-  }
-  
-  .glass-cta a[href*="wa.me"]:hover {
-    background: linear-gradient(135deg, #1ebd58 0%, #25d366 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(37,211,102,0.4);
-  }
-  
-  .glass-cta a[href*="maps"], .glass-cta a[href*="goo.gl"] {
-    background: linear-gradient(135deg, #3B82F6 0%, #1E3A8A 100%);
-    color: #fff;
-    border: 2px solid #3B82F6;
-  }
-  
-  .glass-cta a[href*="maps"]:hover, .glass-cta a[href*="goo.gl"]:hover {
-    background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
-  }
-  
-  /* Review Cards */
-  .review-card {
-    @apply flex items-start bg-white border border-gray-200 rounded-lg p-4 my-4 shadow-sm;
-  }
-  
-  .review-avatar {
-    @apply bg-blue-600 text-white rounded-full w-10 h-10 flex items-center justify-center font-bold mr-3 flex-shrink-0;
-  }
-  
-  .review-content {
-    @apply flex-1;
-  }
-  
-  .review-meta {
-    @apply flex items-center mb-1;
-  }
-  
-  .review-meta strong {
-    @apply mr-2;
-  }
-  
-  .review-stars {
-    @apply text-yellow-400 mr-2;
-  }
-  
-  .review-date {
-    @apply text-gray-500 text-xs;
-  }
-  
-  .review-text {
-    @apply m-0 text-gray-700 leading-relaxed;
-  }
-  
-  /* Check List */
-  .check-list {
-    @apply list-none p-5 my-5 bg-green-50 border border-green-200 rounded-lg;
-  }
-  
-  .check-list li {
-    @apply py-2 pl-8 relative leading-relaxed;
-  }
-  
-  .check-list li::before {
-    content: "✅";
-    @apply absolute left-0 text-xl;
-  }
-  
-  /* Table Styles for Markdown */
-  .prose table {
-    @apply w-full border-collapse my-5 border border-gray-300;
-  }
-  
-  .prose thead tr {
-    @apply bg-gray-50;
-  }
-  
-  .prose th {
-    @apply border border-gray-300 px-3 py-3 text-left font-semibold bg-gray-50;
-  }
-  
-  .prose td {
-    @apply border border-gray-300 px-3 py-3 text-left align-top;
-  }
-  
-  .prose tbody tr:nth-child(even) {
-    @apply bg-gray-50;
-  }
-  
-  .prose tbody tr:hover {
-    @apply bg-blue-50;
-  }
-  
-  /* Responsive Tables */
-  @media (max-width: 768px) {
-    .prose table {
-      @apply block overflow-x-auto whitespace-nowrap;
-    }
-    
-    .review-card {
-      @apply flex-col text-center;
-    }
-    
-    .review-avatar {
-      @apply mx-auto mb-3;
-    }
-    
-    .cta-actions {
-      @apply flex-col;
-    }
-    
-    .cta-actions a {
-      @apply w-full justify-center;
-    }
-  }
-
-  /* Blog article header - KESINLIKLE sticky OLMAYACAK */
-  article header.blog-article-header,
-  article > header.blog-article-header,
-  .blog-article-header {
-    position: static !important;
-    top: auto !important;
-  }
-  
-  /* Sadece navigation header sticky olacak */
-  body > header:not(.blog-article-header),
-  body > main > header:not(.blog-article-header) {
-    /* Bu zaten Header component'inde fixed */
-  }
-  
-  /* Table of Contents Container - simplify (grid düzenine karışma) */
-  .toc-container {
-    position: relative !important;
-    overflow: visible !important;
-  }
-  
-  /* TOC Sticky - Mobil ve Desktop için */
-  aside.toc-sticky {
-    position: -webkit-sticky !important;
-    position: sticky !important;
-    top: 5rem !important;
-    align-self: flex-start !important;
-    z-index: 30 !important;
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-    width: 100% !important;
-    max-width: 320px !important;
-    max-height: calc(100vh - 5rem) !important;
-    overflow-y: auto !important;
-    /* Remove any transform that could break sticky */
-    transform: none !important;
-    will-change: auto !important;
-    contain: none !important;
-    /* Smooth scrolling for TOC content */
-    -webkit-overflow-scrolling: touch;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(26, 156, 176, 0.3) transparent;
-    /* Extra guarantee */
-    flex-shrink: 0 !important;
-  }
-  
-  @media (min-width: 1024px) {
-    aside.toc-sticky {
-      max-width: 320px !important;
-    }
-  }
-  
-  /* TOC içindeki div'in görünürlüğünü garanti et */
-  aside.toc-sticky > div {
-    display: block !important;
-    visibility: visible !important;
-    opacity: 1 !important;
-  }
-
-  /* Force fixed positioning when requested (overrides sticky) */
-  @media (min-width: 1024px) {
-    aside.toc-sticky.toc-force-fixed {
-      position: fixed !important;
-    }
-  }
-  
-  /* Force all parent containers to support sticky */
-  @media (min-width: 1024px) {
-    aside.toc-sticky,
-    aside.toc-sticky * {
-      backface-visibility: visible !important;
-      perspective: none !important;
-    }
-  }
-  
-  /* Custom scrollbar for TOC */
-  aside.toc-sticky::-webkit-scrollbar {
-    width: 6px;
-  }
-  
-  aside.toc-sticky::-webkit-scrollbar-track {
-    background: transparent;
-  }
-  
-  aside.toc-sticky::-webkit-scrollbar-thumb {
-    background: rgba(26, 156, 176, 0.3);
-    border-radius: 3px;
-  }
-  
-  aside.toc-sticky::-webkit-scrollbar-thumb:hover {
-    background: rgba(26, 156, 176, 0.5);
-  }
-  
-  /* Desktop layout for blog content with TOC */
-  @media (min-width: 1024px) {
-    /* Ensure parent containers don't interfere */
-    .toc-container,
-    .toc-container > div,
-    .toc-container > aside {
-      position: relative !important;
-      overflow: visible !important;
-      transform: none !important;
-      contain: none !important;
-      backface-visibility: visible !important;
-      perspective: none !important;
-    }
+  .glass-cta a { 
+    background: #f59e0b !important; 
+    color: white !important; 
+    padding: 0.8rem 1.5rem; 
+    border-radius: 0.5rem; 
+    display: inline-block; 
+    font-weight: bold; 
+    border-bottom: none !important;
   }
 }
 
 @layer utilities {
-  .text-gradient {
-    @apply bg-gradient-to-r from-primary via-urgent to-primary-600 bg-clip-text text-transparent bg-300% animate-gradient;
-  }
-  .nowrap {
-    white-space: nowrap;
-  }
-  
-  .glow-text {
-    text-shadow: 0 0 20px rgba(249, 115, 22, 0.5);
-  }
-  
-  .smooth-scroll {
-    scroll-behavior: smooth;
-  }
-  /* Özel Premium Shine Effect - Yavaş, yumuşak ve dağınık */
-  .premium-shine {
-    position: relative;
-    overflow: hidden;
-  }
-  
-  /* Ana parlama efekti - Daha geniş ve yavaş */
-  .premium-shine::before {
-    content: "";
-    position: absolute;
-    top: -80%;
-    left: -150%;
-    width: 100%;
-    height: 260%;
-    background: linear-gradient(
-      120deg,
-      transparent 0%,
-      transparent 20%,
-      rgba(255, 255, 255, 0.01) 30%,
-      rgba(255, 255, 255, 0.03) 38%,
-      rgba(251, 146, 60, 0.08) 45%,
-      rgba(255, 255, 255, 0.12) 50%,
-      rgba(251, 146, 60, 0.08) 55%,
-      rgba(255, 255, 255, 0.03) 62%,
-      rgba(255, 255, 255, 0.01) 70%,
-      transparent 80%,
-      transparent 100%
-    );
-    transform: rotate(-20deg) translateX(-120%) translateZ(0);
-    transition: transform 2800ms cubic-bezier(0.16, 0.84, 0.44, 1);
-    pointer-events: none;
-    filter: blur(12px);
-    backface-visibility: hidden;
-  }
-  
-  .premium-shine:hover::before, 
-  .group:hover .premium-shine::before {
-    transform: rotate(-20deg) translateX(350%) translateZ(0);
-  }
-  
-  /* İkinci katman - yumuşak ve geniş */
-  .premium-shine::after {
-    content: "";
-    position: absolute;
-    top: -50%;
-    left: -120%;
-    width: 80%;
-    height: 200%;
-    background: radial-gradient(
-      ellipse at center,
-      rgba(255, 255, 255, 0.06) 0%,
-      rgba(251, 146, 60, 0.04) 30%,
-      transparent 70%
-    );
-    transform: translateX(-150%) scale(0.8) translateZ(0);
-    transition: transform 2400ms cubic-bezier(0.16, 0.84, 0.44, 1) 200ms;
-    pointer-events: none;
-    filter: blur(20px);
-    backface-visibility: hidden;
-  }
-  
-  .premium-shine:hover::after,
-  .group:hover .premium-shine::after {
-    transform: translateX(400%) scale(1.2) translateZ(0);
-  }
-  
-  /* Animate on reveal (mobil için) - Daha yavaş */
-  .reveal--in .premium-shine::before {
-    animation: shine-reveal 3200ms cubic-bezier(0.16, 0.84, 0.44, 1) 400ms forwards;
-  }
-  
-  @keyframes shine-reveal {
-    0% {
-      transform: rotate(-20deg) translateX(-120%) translateZ(0);
-    }
-    100% {
-      transform: rotate(-20deg) translateX(350%) translateZ(0);
-    }
-  }
-  
-  /* Reduced motion desteği - Erişilebilirlik */
-  @media (prefers-reduced-motion: reduce) {
-    .premium-shine::before,
-    .premium-shine::after {
-      animation: none !important;
-      transition: none !important;
-    }
-    .reveal--in .premium-shine::before {
-      animation: none !important;
-    }
-  }
+  .font-display { font-family: 'Rajdhani', sans-serif; }
+  .text-gradient { @apply bg-clip-text text-transparent bg-gradient-to-r from-amber-400 to-amber-600; }
 }
-
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-
-::-webkit-scrollbar-thumb {
-  background: linear-gradient(180deg, #F97316, #EA580C);
-  border-radius: 5px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: linear-gradient(180deg, #EA580C, #DC2626);
-}
-
-/* ========== ANIMATIONS FROM animations.css ========== */
-
-/* Premium Phone Button Animations - SMOOTH */
-@keyframes bounce-spring {
-  0%, 100% {
-    transform: translateY(0) scale(1);
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-  50% {
-    transform: translateY(-15%) scale(1.02);
-    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  }
-}
-
-@keyframes ring-rotate {
-  0% {
-    transform: rotate(-8deg);
-  }
-  15% {
-    transform: rotate(8deg);
-  }
-  30% {
-    transform: rotate(-8deg);
-  }
-  45% {
-    transform: rotate(8deg);
-  }
-  60%, 100% {
-    transform: rotate(0deg);
-  }
-}
-
-@keyframes glow-pulse {
-  0%, 100% {
-    box-shadow: 
-      0 0 20px rgba(249, 115, 22, 0.4),
-      0 0 40px rgba(249, 115, 22, 0.2),
-      inset 0 0 20px rgba(249, 115, 22, 0.1);
-  }
-  50% {
-    box-shadow: 
-      0 0 40px rgba(220, 38, 38, 0.8),
-      0 0 80px rgba(220, 38, 38, 0.4),
-      inset 0 0 30px rgba(220, 38, 38, 0.2);
-  }
-}
-
-@keyframes ripple-expand {
-  0% {
-    transform: scale(0);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(4);
-    opacity: 0;
-  }
-}
-
-@keyframes gradient-shift {
-  0%, 100% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-}
-
-/* Brand Logo Animations */
-@keyframes rotate-continuous {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes float-smooth {
-  0%, 100% {
-    transform: translateY(0px) translateX(0px);
-  }
-  33% {
-    transform: translateY(-8px) translateX(3px);
-  }
-  66% {
-    transform: translateY(-4px) translateX(-3px);
-  }
-}
-
-/* Counter animation */
-@keyframes count-up {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Card entrance animations */
-@keyframes fade-in-up {
-  from {
-    opacity: 0;
-    transform: translateY(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes fade-in-left {
-  from {
-    opacity: 0;
-    transform: translateX(-30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes fade-in-right {
-  from {
-    opacity: 0;
-    transform: translateX(30px);
-  }
-  to {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInFromBottom {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-/* Shimmer effect for loading */
-@keyframes shimmer {
-  0% {
-    background-position: -1000px 0;
-  }
-  100% {
-    background-position: 1000px 0;
-  }
-}
-
-.shimmer {
-  background: linear-gradient(
-    to right,
-    #f6f7f8 0%,
-    #edeef1 20%,
-    #f6f7f8 40%,
-    #f6f7f8 100%
-  );
-  background-size: 1000px 100%;
-  animation: shimmer 2s infinite linear;
-}
-
-/* Loading animation */
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.loading {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-  border: 3px solid rgba(249, 115, 22, 0.3);
-  border-radius: 50%;
-  border-top-color: #F97316;
-  animation: spin 1s ease-in-out infinite;
-}
-
-/* Hover scale effect - SMOOTH */
-.hover-scale {
-  transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.hover-scale:hover {
-  transform: scale(1.03);
-}
-
-/* Magnetic button effect - SMOOTH */
-.magnetic-btn {
-  transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
-}
-
-.magnetic-btn:hover {
-  transform: translateY(-4px);
-}
-
-.magnetic-btn:active {
-  transform: translateY(-1px);
-}
-
-/* Performance optimizations */
-/* Reduced motion: disable animations and transitions */
-@media (prefers-reduced-motion: reduce) {
-  *,
-  *::before,
-  *::after {
-    animation: none !important;
-    transition: none !important;
-    scroll-behavior: auto !important;
-  }
-}
-
-/* GPU acceleration for animations - will-change sadece animasyon sırasında JS ile eklenecek */
-.animate-float,
-.animate-bounce,
-.animate-gradient {
-  transform: translateZ(0);
-  backface-visibility: hidden;
-}
-
-.animate-pulse {
-  transform: translateZ(0);
-}
-
-/* İç Linkleme Stilleri */
-.prose .internal-link {
-  @apply text-primary no-underline font-medium border-b border-primary/30 transition-all duration-200;
-}
-
-.prose .internal-link:hover {
-  @apply text-primary border-b border-primary bg-primary/5 rounded px-1 py-0.5;
-}
-
-.prose .internal-link:active {
-  @apply text-primary/80;
-}
-
