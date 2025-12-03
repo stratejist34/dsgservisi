@@ -190,7 +190,7 @@ const navLinks = [
     'ADRESİMİZ BÜYÜKÇEKMECE, BEYLİKDÜZÜ TEM\' e YAKIN',
     'FİYAT & PERFORMANS OLARAK PİYASANIN EN İYİSİYİZ',
     'ORJİNAL PARÇALAR ve 1. SINIF İŞÇİLİK SUNUYORUZ',
-    'LÜTFEN PAZARLIK İÇİN ZORLAMAYINIZ'
+    'LÜTFEN PAZARLIK ZORLAMAYINIZ'
   ];
   
   let msgIndex = 0;
@@ -230,9 +230,12 @@ const navLinks = [
       charIndex++;
       
       // %15 daha hızlı İnsan gibi yazma hızı (rastgele)
+      // Eski Baz: 100 + random(150) = 100..250ms
+      // Yeni Baz (%15 Hızlı): 85 + random(120) = 85..205ms
       typeSpeed = 85 + Math.random() * 120;
       
       // Her 6-9 karakterde bir belirgin duraksama (kelime/hece arası gibi)
+      // Veya rastgele %15 ihtimalle duraksama
       if (charIndex % (Math.floor(Math.random() * 4) + 6) === 0 || Math.random() < 0.05) {
          typeSpeed += 600 + Math.random() * 400; // 600-1000ms duraksama
       }
