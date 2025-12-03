@@ -161,7 +161,8 @@ const getPostUrl = (slug: string) => {
               <a 
                 href={postUrl} 
                 class="group relative flex-shrink-0 w-[320px]"
-                aria-hidden="true"
+                tabindex="-1"
+                aria-label={`${post.data.title} - tekrarlanan kart`}
               >
                 <div class="relative h-full bg-gradient-to-b from-slate-800/50 to-slate-900/50 border border-white/10 rounded-xl overflow-hidden transition-all duration-500 hover:border-amber-500/50 hover:shadow-[0_0_40px_-10px_rgba(245,158,11,0.3)] hover:scale-[1.02]">
                   
