@@ -467,48 +467,54 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
         });
 
         // İlk yüklemede viewport'ta olanları anında aç, diğerlerini gözlemle
-        // Batch olarak tüm okumaları yap, sonra yazmaları yap (forced reflow önleme)
+        // Forced reflow önleme: Render tamamlandıktan sonra çalıştır
         // Cache viewport dimensions
         let cachedVh = window.innerHeight || document.documentElement.clientHeight;
         let cachedVw = window.innerWidth || document.documentElement.clientWidth;
         
-        requestAnimationFrame(() => {
-          // Önce tüm rect'leri oku (batch read) - tek seferde
-          const rects = Array.from(allAnimateTargets).map(el => ({
-            el,
-            rect: el.getBoundingClientRect()
-          }));
-          
-          // Sonra tüm yazmaları yap (batch write)
-          rects.forEach(({ el, rect }) => {
-            const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
-            const inViewport = rect.top < cachedVh && rect.bottom > 0 && rect.left < cachedVw && rect.right > 0;
-            
-            if (!inViewport) {
-              io.observe(el);
-              return;
-            }
-            
-            // Hero ve üst içeriklerin kaybolmaması için: viewport içindekileri (logo hariç) anında göster
-            if (!isLogo) {
-              if (el.hasAttribute('data-animate')) {
-                el.classList.add('animate-in');
-              }
-              if (el.hasAttribute('data-reveal')) {
-                el.classList.add('reveal--in');
-              }
-              return;
-            }
-            
-            // Logolar viewport'taysa, dataset tabanlı gecikmeyle tetikle
-            const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
-            const idx = Number(el.dataset && el.dataset.staggerIndex ? el.dataset.staggerIndex : 0);
-            const delay = idx * step;
-            setTimeout(() => {
-              el.classList.add('animate-in');
-            }, delay);
+        // Render tamamlandıktan sonra çalıştır (forced reflow önleme)
+        setTimeout(() => {
+          requestAnimationFrame(() => {
+            // İkinci frame'de işlemleri yap - ilk paint tamamlandıktan sonra
+            requestAnimationFrame(() => {
+              // Önce tüm rect'leri oku (batch read) - tek seferde
+              const rects = Array.from(allAnimateTargets).map(el => ({
+                el,
+                rect: el.getBoundingClientRect()
+              }));
+              
+              // Sonra tüm yazmaları yap (batch write)
+              rects.forEach(({ el, rect }) => {
+                const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
+                const inViewport = rect.top < cachedVh && rect.bottom > 0 && rect.left < cachedVw && rect.right > 0;
+                
+                if (!inViewport) {
+                  io.observe(el);
+                  return;
+                }
+                
+                // Hero ve üst içeriklerin kaybolmaması için: viewport içindekileri (logo hariç) anında göster
+                if (!isLogo) {
+                  if (el.hasAttribute('data-animate')) {
+                    el.classList.add('animate-in');
+                  }
+                  if (el.hasAttribute('data-reveal')) {
+                    el.classList.add('reveal--in');
+                  }
+                  return;
+                }
+                
+                // Logolar viewport'taysa, dataset tabanlı gecikmeyle tetikle
+                const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
+                const idx = Number(el.dataset && el.dataset.staggerIndex ? el.dataset.staggerIndex : 0);
+                const delay = idx * step;
+                setTimeout(() => {
+                  el.classList.add('animate-in');
+                }, delay);
+              });
+            });
           });
-        });
+        }, 0);
 
         // Dinamik eklenen öğeler (basit): sadece işaretli hedefleri gözlemle
         const mo = new MutationObserver((mutations) => {
