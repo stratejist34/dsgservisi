@@ -2,7 +2,7 @@
 import { SITE_CONFIG } from '@utils/constants';
 ---
 
-<footer class="bg-[#020617] text-slate-400 border-t border-white/10 relative overflow-hidden z-50">
+<footer class="bg-[#020617] text-slate-300 border-t border-white/10 relative overflow-hidden z-50">
   {/* Background Glow */}
   <div class="absolute bottom-0 left-1/2 -translate-x-1/2 w-[1000px] h-[300px] bg-amber-500/5 rounded-full blur-[150px] pointer-events-none"></div>
 
@@ -20,12 +20,12 @@ import { SITE_CONFIG } from '@utils/constants';
             width="120"
             height="42"
           />
-          <div class="flex items-center gap-2 text-xs font-mono text-amber-500/80">
+          <div class="flex items-center gap-2 text-xs font-mono text-amber-400">
             <span class="w-1.5 h-1.5 bg-amber-500 rounded-full animate-pulse"></span>
             AUTHORIZED SERVICE CENTER
           </div>
         </div>
-        <p class="text-sm leading-relaxed mb-8 text-slate-500">
+        <p class="text-sm leading-relaxed mb-8 text-slate-400">
           {SITE_CONFIG.stats.experience}+ yıllık mühendislik tecrübesi ile DSG şanzıman ve mekatronik sistemlerinde Türkiye'nin lider onarım merkezi.
         </p>
         <div class="flex gap-4">
@@ -105,11 +105,11 @@ import { SITE_CONFIG } from '@utils/constants';
     </div>
 
     {/* Footer Bottom */}
-    <div class="border-t border-white/10 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono text-slate-600">
+    <div class="border-t border-white/10 mt-16 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs font-mono text-slate-400">
       <p>© {new Date().getFullYear()} {SITE_CONFIG.name}. TÜM HAKLARI SAKLIDIR.</p>
       <div class="flex gap-6">
-        <a href="/gizlilik-politikasi" class="hover:text-amber-500 transition-colors">GİZLİLİK_POLİTİKASI</a>
-        <a href="/kullanim-kosullari" class="hover:text-amber-500 transition-colors">KULLANIM_KOŞULLARI</a>
+        <a href="/gizlilik-politikasi" class="text-slate-400 hover:text-amber-500 transition-colors">GİZLİLİK_POLİTİKASI</a>
+        <a href="/kullanim-kosullari" class="text-slate-400 hover:text-amber-500 transition-colors">KULLANIM_KOŞULLARI</a>
       </div>
     </div>
   </div>
