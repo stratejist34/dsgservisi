@@ -3,17 +3,13 @@ import { SITE_CONFIG } from '@utils/constants';
 import BrandLogos from './BrandLogos';
 ---
 
-<section class="relative min-h-[90vh] flex items-center overflow-hidden pt-20 pb-24 lg:pt-0 bg-[#0f172a]">
-  {/* Tech Background Elements - CLS optimized with contain and fixed positioning */}
-  <div class="absolute inset-0 pointer-events-none overflow-hidden" style="contain: layout style paint;">
+<section class="hero-section relative min-h-[90vh] flex items-center overflow-hidden pt-20 pb-24 lg:pt-0 bg-[#0f172a]">
+  {/* Tech Background - Grid Only (Orbs moved to CSS pseudo-elements to prevent CLS) */}
+  <div class="absolute inset-0 pointer-events-none overflow-hidden">
     {/* Grid Overlay */}
     <div class="absolute inset-0 opacity-[0.03]" 
          style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 50px 50px;">
     </div>
-    
-    {/* Glowing Orbs - Fixed size and position to prevent CLS */}
-    <div class="absolute w-[500px] h-[500px] bg-amber-500/10 rounded-full blur-[120px] opacity-40" style="top: -10%; right: -5%; transform: translateZ(0); will-change: opacity;"></div>
-    <div class="absolute w-[600px] h-[600px] bg-blue-900/20 rounded-full blur-[100px] opacity-30" style="bottom: -10%; left: -10%; transform: translateZ(0); will-change: opacity;"></div>
   </div>
 
   <div class="container mx-auto px-4 relative z-10">
@@ -215,6 +211,36 @@ import BrandLogos from './BrandLogos';
 </section>
 
 <style>
+  /* Glow Orbs as pseudo-elements - prevents CLS */
+  .hero-section::before,
+  .hero-section::after {
+    content: '';
+    position: fixed;
+    border-radius: 50%;
+    pointer-events: none;
+    z-index: 0;
+  }
+  
+  .hero-section::before {
+    top: -10%;
+    right: -5%;
+    width: 500px;
+    height: 500px;
+    background: rgba(245, 158, 11, 0.1);
+    filter: blur(120px);
+    opacity: 0.4;
+  }
+  
+  .hero-section::after {
+    bottom: -10%;
+    left: -10%;
+    width: 600px;
+    height: 600px;
+    background: rgba(30, 58, 138, 0.2);
+    filter: blur(100px);
+    opacity: 0.3;
+  }
+
   @keyframes marquee {
     0% { transform: translateX(0); }
     100% { transform: translateX(-50%); }
