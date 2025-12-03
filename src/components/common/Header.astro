@@ -75,7 +75,7 @@ const navLinks = [
       {/* Mobile Menu Button */}
       <button 
         id="mobile-menu-btn"
-        class="lg:hidden text-white/90 p-2 relative z-50 hover:text-white transition-all duration-200"
+        class="lg:hidden text-white/90 p-2 relative z-[101] hover:text-white transition-all duration-200"
         aria-label="Menüyü Aç"
       >
         <svg id="menu-icon" class="w-8 h-8 transition-transform duration-300" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -88,63 +88,61 @@ const navLinks = [
     </div>
   </div>
 
-  {/* Mobile Menu Overlay */}
-  <div id="mobile-menu-overlay" class="fixed inset-0 bg-slate-900/80 backdrop-blur-md z-40 hidden opacity-0 transition-opacity duration-300 lg:hidden"></div>
+</header>
 
-  {/* Mobile Menu Panel (Right Slide-in) */}
-  <div id="mobile-menu-panel" class="fixed top-0 right-0 h-full w-full max-w-md z-50 transform translate-x-full transition-transform duration-300 ease-out border-l border-white/10 shadow-2xl lg:hidden flex flex-col overflow-hidden">
-    {/* Arka Plan: Hakkımızda Hero Bölümü ile Birebir Aynı (Sıfır Opaklık - Tam Örtücülük) */}
-    <div class="absolute inset-0 bg-[#0f172a] z-0">
-      <div class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] pointer-events-none"></div>
-      <div class="absolute top-0 right-0 -translate-y-12 translate-x-12 w-96 h-96 bg-amber-500/20 rounded-full blur-3xl pointer-events-none"></div>
-      <div class="absolute bottom-0 left-0 translate-y-12 -translate-x-12 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
-    </div>
-    
-    <div class="p-6 pt-24 flex-1 relative z-10 flex flex-col">
-      <div class="space-y-2">
-        {navLinks.map((link, index) => (
-          <a
-            href={link.href}
-            class={`block py-4 px-4 text-lg font-bold tracking-wide rounded-xl transition-all duration-300 ${
-              currentPath === link.href 
-                ? 'bg-amber-500/10 text-amber-500 border border-amber-500/20 pl-6' 
-                : 'text-slate-300 hover:text-white hover:bg-white/5 hover:pl-6'
-            }`}
-            style={`transition-delay: ${index * 50}ms`}
-          >
-            {link.label}
-          </a>
-        ))}
-      </div>
-
-      <div class="mt-auto pt-8 border-t border-white/10">
-        <a 
-          href={`tel:${SITE_CONFIG.phoneTel}`} 
-          class="flex items-center justify-center gap-3 w-full py-4 rounded-xl font-bold text-white bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 shadow-lg hover:shadow-amber-500/20 transition-all active:scale-95"
+{/* Mobile Menu - Header DIŞINDA, tam ekran kaplayacak */}
+<div id="mobile-menu-panel" class="fixed inset-0 z-[9999] hidden lg:hidden flex flex-col" style="background-color: #0f172a;">
+  {/* Arka Plan Desenleri */}
+  <div class="absolute inset-0 overflow-hidden pointer-events-none" style="background-color: #0f172a;">
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#ffffff08_1px,transparent_1px),linear-gradient(to_bottom,#ffffff08_1px,transparent_1px)] bg-[size:14px_24px]"></div>
+    <div class="absolute top-0 right-0 -translate-y-12 translate-x-12 w-96 h-96 bg-amber-500/15 rounded-full blur-3xl"></div>
+    <div class="absolute bottom-0 left-0 translate-y-12 -translate-x-12 w-96 h-96 bg-blue-600/15 rounded-full blur-3xl"></div>
+  </div>
+  
+  {/* Menü İçeriği */}
+  <div class="p-6 pt-24 flex-1 relative z-10 flex flex-col">
+    <div class="space-y-2">
+      {navLinks.map((link, index) => (
+        <a
+          href={link.href}
+          class={`block py-4 px-4 text-lg font-bold tracking-wide rounded-xl transition-all duration-300 ${
+            currentPath === link.href 
+              ? 'bg-amber-500/10 text-amber-500 border border-amber-500/20 pl-6' 
+              : 'text-slate-300 hover:text-white hover:bg-white/5 hover:pl-6'
+          }`}
+          style={`transition-delay: ${index * 50}ms`}
         >
-          <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
-          HEMEN ARA
+          {link.label}
         </a>
-        <div class="mt-6 text-center">
-           <p class="text-xs font-mono text-slate-500">YILDIZLAR GRUP TEKNOLOJİ</p>
-           <div class="flex items-center justify-center gap-2 mt-1">
-             <span class="relative flex h-2 w-2">
-               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
-               <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
-             </span>
-             <p class="text-[10px] text-slate-600">SYSTEM STATUS: ONLINE</p>
-           </div>
-        </div>
+      ))}
+    </div>
+
+    <div class="mt-auto pt-8 border-t border-white/10">
+      <a 
+        href={`tel:${SITE_CONFIG.phoneTel}`} 
+        class="flex items-center justify-center gap-3 w-full py-4 rounded-xl font-bold text-white bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 shadow-lg hover:shadow-amber-500/20 transition-all active:scale-95"
+      >
+        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"><path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path></svg>
+        HEMEN ARA
+      </a>
+      <div class="mt-6 text-center">
+         <p class="text-xs font-mono text-slate-500">YILDIZLAR GRUP TEKNOLOJİ</p>
+         <div class="flex items-center justify-center gap-2 mt-1">
+           <span class="relative flex h-2 w-2">
+             <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+             <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+           </span>
+           <p class="text-[10px] text-slate-600">SYSTEM STATUS: ONLINE</p>
+         </div>
       </div>
     </div>
   </div>
-</header>
+</div>
 
 <script>
   // @ts-nocheck
   // Mobile menu toggle logic
   const btn = document.getElementById('mobile-menu-btn');
-  const overlay = document.getElementById('mobile-menu-overlay');
   const panel = document.getElementById('mobile-menu-panel');
   const menuIcon = document.getElementById('menu-icon');
   const closeIcon = document.getElementById('close-icon');
@@ -154,30 +152,23 @@ const navLinks = [
     isMenuOpen = !isMenuOpen;
     
     if (isMenuOpen) {
-      // Open
-      panel?.classList.remove('translate-x-full');
-      overlay?.classList.remove('hidden');
-      setTimeout(() => overlay?.classList.remove('opacity-0'), 10); // fade in
-      document.body.style.overflow = 'hidden'; // prevent scroll
+      // Menüyü AÇ - Basit ve kesin
+      panel?.classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
       
       menuIcon?.classList.add('hidden');
       closeIcon?.classList.remove('hidden');
-      closeIcon?.classList.add('rotate-90');
     } else {
-      // Close
-      panel?.classList.add('translate-x-full');
-      overlay?.classList.add('opacity-0');
-      setTimeout(() => overlay?.classList.add('hidden'), 300); // wait for fade out
+      // Menüyü KAPAT
+      panel?.classList.add('hidden');
       document.body.style.overflow = '';
       
       menuIcon?.classList.remove('hidden');
       closeIcon?.classList.add('hidden');
-      closeIcon?.classList.remove('rotate-90');
     }
   }
 
   btn?.addEventListener('click', toggleMenu);
-  overlay?.addEventListener('click', toggleMenu);
 
   // Sticky header logic
   let ticking = false;
@@ -275,6 +266,7 @@ const navLinks = [
     }
   }, { passive: true });
 </script>
+
 <style is:inline>
   .cursor-blink {
     animation: blink 1s step-end infinite;

@@ -50,9 +50,9 @@ export default {
         },
       },
       fontFamily: {
-        sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-        display: ['Titillium Web', 'Montserrat', 'Barlow', 'sans-serif'],
-        tech: ['Rajdhani', 'Montserrat', 'monospace'],
+        sans: ['"Plus Jakarta Sans"', 'Inter', 'system-ui', 'sans-serif'],
+        display: ['Oswald', 'sans-serif'],
+        tech: ['Rajdhani', 'monospace'],
       },
       // Typography ayarlarını kaldırdım, global.css kontrol edecek.
     },

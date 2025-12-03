@@ -23,29 +23,29 @@ export default function BrandLogos() {
           data-stagger-index={String(staggerIndex)}
           data-stagger-step="240"
         >
-          {/* Dönen Border Dairesi - 2px kalınlık */}
+          {/* Dönen Border Dairesi - 1px kalınlık (Normalde sönük) */}
           <div 
-            className="absolute inset-0 rounded-full z-0 group-hover:opacity-0 transition-opacity duration-300"
+            className="absolute inset-0 rounded-full z-0 transition-all duration-300 opacity-30 group-hover:opacity-0"
             style={{
-              background: `conic-gradient(from 0deg, #FB923C, #F97316, #EA580C, #FB923C)`,
+              background: `conic-gradient(from 0deg, #475569, #1e293b, #475569)`,
             }}
           />
 
-          {/* Hover - Border Kalınlaşır (3px) */}
+          {/* Hover - Border Parlar ve Kalınlaşır */}
           <div 
-            className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-0"
+            className="absolute inset-0 rounded-full opacity-0 group-hover:opacity-100 transition-all duration-300 z-0 blur-[2px] group-hover:blur-none"
             style={{
-              background: `conic-gradient(from 0deg, #FB923C, #F97316, #EA580C, #FB923C)`,
+              background: `conic-gradient(from 0deg, #F59E0B, #D97706, #F59E0B)`,
             }}
           />
 
-          {/* Logo Container ÜSTTE - Normal 2px, Hover 3px border */}
-          <div className="absolute inset-[2px] group-hover:inset-[3px] flex items-center justify-center rounded-full bg-navy cursor-pointer transition-all duration-300 z-10">
-            {/* Logo Image - Hover'da scale */}
+          {/* Logo Container ÜSTTE */}
+          <div className="absolute inset-[1px] group-hover:inset-[2px] flex items-center justify-center rounded-full bg-[#0f172a] cursor-pointer transition-all duration-300 z-10 border border-white/5 group-hover:border-transparent">
+            {/* Logo Image */}
             <img
               src={`${brand.logo}?v=8`}
               alt={`${brand.name} Servisi`}
-              className={`object-contain filter brightness-0 invert opacity-80 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300 ${largerBrands.has(brand.name) ? 'w-[50px] h-[50px] md:w-[60px] md:h-[60px]' : 'w-[44px] h-[44px] md:w-[52px] md:h-[52px]'}`}
+              className={`object-contain filter brightness-0 invert opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300 ${largerBrands.has(brand.name) ? 'w-[50px] h-[50px] md:w-[60px] md:h-[60px]' : 'w-[44px] h-[44px] md:w-[52px] md:h-[52px]'}`}
               loading="lazy"
               width={largerBrands.has(brand.name) ? 60 : 52}
               height={largerBrands.has(brand.name) ? 60 : 52}

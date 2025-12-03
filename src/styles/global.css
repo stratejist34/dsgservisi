@@ -34,7 +34,7 @@
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Rajdhani', 'Titillium Web', sans-serif;
+    font-family: 'Oswald', 'Titillium Web', sans-serif !important;
     @apply font-bold tracking-tight;
   }
 
@@ -47,6 +47,17 @@
 }
 
 @layer components {
+  /* ... existing components ... */
+  .text-stroke {
+    -webkit-text-stroke: 1px rgba(255, 255, 255, 0.3);
+    color: transparent !important;
+    -webkit-text-fill-color: transparent !important;
+  }
+  
+  .text-stroke:hover {
+      -webkit-text-stroke: 1px #ffffff;
+      color: transparent;
+  }
   .container { @apply mx-auto px-4 sm:px-6 lg:px-8 max-w-7xl; width: 100%; }
   .section { @apply py-16 md:py-24; }
   
@@ -54,6 +65,15 @@
   .card, .bg-white {
     @apply bg-slate-800/50 border border-white/10 !important;
     background-color: rgba(30, 41, 59, 0.5) !important;
+  }
+
+  /* --- MOBILE MENU FIX (NUCLEAR OPTION) --- */
+  #mobile-menu-panel {
+    background-color: #0f172a !important;
+    opacity: 1 !important;
+    background-image: none !important; /* Reset gradients if any on parent */
+    backdrop-filter: none !important;
+    -webkit-backdrop-filter: none !important;
   }
 
   /* --- BLOG CONTENT STYLES --- */
