@@ -81,12 +81,27 @@ const getPostUrl = (slug: string) => {
                   {/* Image Container */}
                   <div class="relative h-44 overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent z-10"></div>
-                    <img 
-                      src={featuredImage} 
-                      alt={post.data.imageAlt || post.data.title}
-                      class="w-full h-full object-cover transform transition-all duration-700 group-hover:scale-110 filter saturate-[0.8] group-hover:saturate-100"
-                      loading="lazy"
-                    />
+                    <picture>
+                      <source
+                        type="image/avif"
+                        srcset={`${featuredImage.replace('.jpg', '-400.avif')} 400w, ${featuredImage.replace('.jpg', '-650.avif')} 650w`}
+                        sizes="320px"
+                      />
+                      <source
+                        type="image/webp"
+                        srcset={`${featuredImage.replace('.jpg', '-400.webp')} 400w, ${featuredImage.replace('.jpg', '-650.webp')} 650w`}
+                        sizes="320px"
+                      />
+                      <img 
+                        src={featuredImage} 
+                        alt={post.data.imageAlt || post.data.title}
+                        class="w-full h-full object-cover transform transition-all duration-700 group-hover:scale-110 filter saturate-[0.8] group-hover:saturate-100"
+                        loading="lazy"
+                        width="320"
+                        height="176"
+                        decoding="async"
+                      />
+                    </picture>
                     
                     {/* Index Badge */}
                     <div class="absolute top-3 left-3 z-20 flex items-center gap-2">
@@ -156,12 +171,27 @@ const getPostUrl = (slug: string) => {
                   
                   <div class="relative h-44 overflow-hidden">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent z-10"></div>
-                    <img 
-                      src={featuredImage} 
-                      alt={post.data.imageAlt || post.data.title}
-                      class="w-full h-full object-cover transform transition-all duration-700 group-hover:scale-110 filter saturate-[0.8] group-hover:saturate-100"
-                      loading="lazy"
-                    />
+                    <picture>
+                      <source
+                        type="image/avif"
+                        srcset={`${featuredImage.replace('.jpg', '-400.avif')} 400w, ${featuredImage.replace('.jpg', '-650.avif')} 650w`}
+                        sizes="320px"
+                      />
+                      <source
+                        type="image/webp"
+                        srcset={`${featuredImage.replace('.jpg', '-400.webp')} 400w, ${featuredImage.replace('.jpg', '-650.webp')} 650w`}
+                        sizes="320px"
+                      />
+                      <img 
+                        src={featuredImage} 
+                        alt={post.data.imageAlt || post.data.title}
+                        class="w-full h-full object-cover transform transition-all duration-700 group-hover:scale-110 filter saturate-[0.8] group-hover:saturate-100"
+                        loading="lazy"
+                        width="320"
+                        height="176"
+                        decoding="async"
+                      />
+                    </picture>
                     
                     <div class="absolute top-3 left-3 z-20 flex items-center gap-2">
                       <span class="bg-amber-500 text-black font-mono text-xs font-bold px-2 py-1 rounded">
