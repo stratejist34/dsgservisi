@@ -69,10 +69,63 @@ import BrandLogos from './BrandLogos';
           </a>
         </div>
 
-        {/* Brand Logos Removed from here */}
+        {/* Mobile Brand Logos - Sadece mobilde görünür */}
+        <div class="lg:hidden mb-8" data-reveal>
+          <div class="transform scale-[0.75] origin-left">
+            <BrandLogos client:idle />
+          </div>
+        </div>
+        
+        {/* Mobile Diagnostic Panel - Sadece mobilde görünür */}
+        <div class="lg:hidden relative w-full max-w-sm mx-auto" data-reveal>
+          <div class="relative border border-white/10 rounded-xl bg-white/[0.02] backdrop-blur-sm overflow-hidden">
+            {/* Top Bar */}
+            <div class="h-7 bg-white/5 border-b border-white/10 flex items-center px-3 justify-between">
+              <div class="flex gap-1.5">
+                <div class="w-2 h-2 rounded-full bg-red-500/50"></div>
+                <div class="w-2 h-2 rounded-full bg-yellow-500/50"></div>
+                <div class="w-2 h-2 rounded-full bg-green-500/50"></div>
+              </div>
+              <div class="text-[9px] text-slate-500 font-mono">SYS.DIAGNOSTIC.V2</div>
+            </div>
+            
+            {/* Image */}
+            <div class="relative h-56 overflow-hidden">
+              <img 
+                src="/images/hero-bg-768.avif" 
+                alt="DSG Şanzıman Teknik Görünüm" 
+                class="w-full h-full object-cover opacity-80"
+                loading="eager"
+              />
+              <div class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:15px_15px] opacity-20"></div>
+              <div class="absolute top-0 left-0 w-full h-1 bg-primary/50 shadow-[0_0_15px_rgba(249,115,22,0.5)] animate-[scan_3s_ease-in-out_infinite]"></div>
+              <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-transparent"></div>
+            </div>
+
+            {/* Bottom Data Panel */}
+            <div class="bg-white/5 border-t border-white/10 p-3 font-mono text-[10px] text-primary/80">
+              <div class="flex justify-between items-center gap-4">
+                <div class="flex items-center gap-2">
+                  <span class="text-slate-500">STATUS:</span>
+                  <span class="text-green-400 flex items-center gap-1">
+                    <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+                    ONLINE
+                  </span>
+                </div>
+                <div class="flex items-center gap-2">
+                  <span class="text-slate-500">DIAG:</span>
+                  <span class="animate-pulse">RUNNING</span>
+                </div>
+              </div>
+              <div class="w-full bg-white/10 h-1 rounded-full overflow-hidden mt-2">
+                <div class="bg-primary h-full w-2/3 animate-pulse"></div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
 
-      {/* Right Content - Technical Visual */}
+      {/* Right Content - Technical Visual (Desktop Only) */}
       <div class="lg:col-span-5 relative hidden lg:block" data-reveal>
         {/* Logolar Görselin Üzerinde - Ölçeklendirilmiş ve Ortalı */}
         <div class="mb-6 flex justify-center">

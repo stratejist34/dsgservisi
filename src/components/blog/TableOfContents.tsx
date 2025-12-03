@@ -81,25 +81,40 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
       if (!placeholderRef.current || !containerRef.current) return;
 
       const placeholderRect = placeholderRef.current.getBoundingClientRect();
+      const containerHeight = containerRef.current.offsetHeight;
+      
+      // İçerik sütununun sınırını kontrol et
+      const contentColumn = document.getElementById('blog-content-column');
+      const contentRect = contentColumn?.getBoundingClientRect();
+      
+      // Footer kontrolü
       const footer = document.querySelector('footer');
       const footerRect = footer?.getBoundingClientRect();
-      const containerHeight = containerRef.current.offsetHeight;
       
       // 120px offset for header
       const shouldPin = placeholderRect.top <= 120;
       
-      // Stop at footer
+      // İçerik sütununun sonuna geldiğinde dur
+      let contentEndCollision = false;
+      if (contentRect) {
+        // İçerik sütununun alt sınırı - TOC'un yüksekliği - biraz margin
+        const contentBottom = contentRect.bottom;
+        const tocBottom = 120 + containerHeight + 20; // top offset + height + margin
+        if (contentBottom < tocBottom) {
+          contentEndCollision = true;
+        }
+      }
+      
+      // Footer kontrolü (yedek)
       let footerCollision = false;
       if (footerRect) {
-        // Eğer footer ekranın içine girdiyse (veya yaklaştiysa)
-        // container'ın alt kısmı footer'a değiyor mu?
-        // 120 (top) + height
         if (footerRect.top < 120 + containerHeight + 40) {
            footerCollision = true;
         }
       }
 
-      if (shouldPin && !footerCollision) {
+      // İçerik sütunu veya footer'a çarptıysa dur
+      if (shouldPin && !contentEndCollision && !footerCollision) {
         setIsPinned(true);
         setWidth(`${placeholderRect.width}px`);
       } else {

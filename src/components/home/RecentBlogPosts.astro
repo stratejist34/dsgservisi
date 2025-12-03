@@ -1,12 +1,13 @@
 ---
 import { getCollection } from 'astro:content';
-import { isPublishedPost, sortPostsByDate } from '@utils/content';
+import { isPublishedPost, sortPostsByDate, filterPostsByCategory } from '@utils/content';
 
 // Blog yazılarını Content Collections'dan çekiyoruz
 const allPosts = await getCollection('blog', ({ data }) => isPublishedPost(data));
+const sortedPosts = sortPostsByDate(allPosts);
 
-// Son 4 yazıyı tarih sırasına göre al
-const recentPosts = sortPostsByDate(allPosts).slice(0, 4);
+// Sadece DSG kategorisinden yazıları filtrele
+const dsgPosts = filterPostsByCategory(sortedPosts, 'DSG').slice(0, 8);
 
 // URL oluşturma fonksiyonu
 const getPostUrl = (slug: string) => {
@@ -21,83 +22,244 @@ const getPostUrl = (slug: string) => {
     <div class="absolute inset-0 opacity-[0.02]" 
          style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 30px 30px;">
     </div>
+    {/* Animated Glow */}
+    <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-amber-500/5 rounded-full blur-[150px] animate-pulse"></div>
   </div>
 
   <div class="container relative z-10">
     {/* Section Header - Tech Style */}
-    <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-6" data-reveal>
+    <div class="flex flex-col md:flex-row justify-between items-end mb-10 gap-6" data-reveal>
       <div>
         <div class="flex items-center gap-3 mb-3">
-          <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
+          <span class="relative flex h-3 w-3">
+            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-amber-400 opacity-75"></span>
+            <span class="relative inline-flex rounded-full h-3 w-3 bg-amber-500"></span>
+          </span>
           <span class="text-amber-500 font-mono text-xs tracking-widest uppercase">SİSTEM BİLGİ BANKASI</span>
+          <span class="text-slate-600 font-mono text-xs">|</span>
+          <span class="text-slate-500 font-mono text-xs">{dsgPosts.length} KAYIT</span>
         </div>
         <h2 class="text-3xl md:text-4xl font-display font-bold text-white">
-          DSG BİLGİ MERKEZİ
+          DSG <span class="text-amber-500">BİLGİ MERKEZİ</span>
         </h2>
       </div>
       
-      <a href="/blog" class="group flex items-center gap-2 text-sm font-mono text-slate-400 hover:text-amber-500 transition-colors">
-        <span>TÜM_KAYITLARI_GÖR</span>
+      <a href="/dsg" class="group flex items-center gap-2 px-4 py-2 rounded-lg bg-amber-500/10 border border-amber-500/20 text-sm font-mono text-amber-500 hover:bg-amber-500/20 transition-all">
+        <span>TÜM_DSG_KAYITLARI</span>
         <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
       </a>
     </div>
 
-    {/* Blog Grid - Technical Cards */}
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      {recentPosts.map((post, index) => {
-        const postUrl = getPostUrl(post.slug);
-        const featuredImage = post.data.featuredImage || `/images/blog/${post.slug}.jpg`;
-        const description = post.data.description || '';
-        const date = new Date(post.data.publishDate).toLocaleDateString('tr-TR', { year: 'numeric', month: '2-digit', day: '2-digit' });
-        
-        return (
-          <a 
-            href={postUrl} 
-            class="group relative h-full"
-            data-reveal 
-            data-stagger-index={index}
-          >
-            <div class="relative h-full bg-slate-800/30 border border-white/10 rounded-lg overflow-hidden transition-all duration-300 hover:border-amber-500/30 hover:bg-slate-800/50 group-hover:shadow-[0_0_30px_-10px_rgba(245,158,11,0.1)]">
-              
-              {/* Image Container */}
-              <div class="relative h-40 overflow-hidden border-b border-white/5">
-                <div class="absolute inset-0 bg-slate-900/20 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
-                <img 
-                  src={featuredImage} 
-                  alt={post.data.imageAlt || post.data.title}
-                  class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-110 filter grayscale-[30%] group-hover:grayscale-0"
-                  loading="lazy"
-                />
-                
-                {/* Date Badge */}
-                <div class="absolute top-2 right-2 z-20 bg-black/60 backdrop-blur-md border border-white/10 px-2 py-1 rounded text-[10px] font-mono text-amber-500">
-                  {date}
-                </div>
-              </div>
+    {/* Scrolling Cards Container */}
+    <div class="relative">
+      {/* Edge Fades */}
+      <div class="absolute left-0 top-0 bottom-0 w-20 bg-gradient-to-r from-[#0f172a] to-transparent pointer-events-none z-20"></div>
+      <div class="absolute right-0 top-0 bottom-0 w-20 bg-gradient-to-l from-[#0f172a] to-transparent pointer-events-none z-20"></div>
+      
+      {/* Scrolling Track */}
+      <div class="dsg-scroll-wrapper overflow-hidden py-4">
+        <div class="dsg-scroll-track flex gap-6">
+          {/* First Set */}
+          {dsgPosts.map((post, index) => {
+            const postUrl = getPostUrl(post.slug);
+            const featuredImage = post.data.featuredImage || `/images/blog/${post.slug}.jpg`;
+            const description = post.data.description || '';
+            const date = new Date(post.data.publishDate).toLocaleDateString('tr-TR', { year: 'numeric', month: 'short', day: 'numeric' });
+            
+            return (
+              <a 
+                href={postUrl} 
+                class="group relative flex-shrink-0 w-[320px]"
+              >
+                <div class="relative h-full bg-gradient-to-b from-slate-800/50 to-slate-900/50 border border-white/10 rounded-xl overflow-hidden transition-all duration-500 hover:border-amber-500/50 hover:shadow-[0_0_40px_-10px_rgba(245,158,11,0.3)] hover:scale-[1.02]">
+                  
+                  {/* Glowing Border Effect on Hover */}
+                  <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    <div class="absolute inset-[-1px] bg-gradient-to-r from-amber-500/20 via-transparent to-amber-500/20 rounded-xl"></div>
+                  </div>
+                  
+                  {/* Image Container */}
+                  <div class="relative h-44 overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent z-10"></div>
+                    <img 
+                      src={featuredImage} 
+                      alt={post.data.imageAlt || post.data.title}
+                      class="w-full h-full object-cover transform transition-all duration-700 group-hover:scale-110 filter saturate-[0.8] group-hover:saturate-100"
+                      loading="lazy"
+                    />
+                    
+                    {/* Index Badge */}
+                    <div class="absolute top-3 left-3 z-20 flex items-center gap-2">
+                      <span class="bg-amber-500 text-black font-mono text-xs font-bold px-2 py-1 rounded">
+                        #{String(index + 1).padStart(2, '0')}
+                      </span>
+                    </div>
+                    
+                    {/* Date Badge */}
+                    <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur-md border border-white/10 px-2 py-1 rounded text-[10px] font-mono text-slate-300">
+                      {date}
+                    </div>
+                    
+                    {/* Category Tag */}
+                    <div class="absolute bottom-3 left-3 z-20 flex items-center gap-1.5 bg-slate-900/80 backdrop-blur-md border border-amber-500/30 px-2 py-1 rounded text-[10px] font-mono text-amber-500">
+                      <span class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+                      DSG
+                    </div>
+                  </div>
 
-              {/* Content */}
-              <div class="p-5">
-                <div class="text-[10px] font-mono text-slate-500 mb-2 uppercase tracking-wider">
-                  ID: LOG_{String(index + 1).padStart(3, '0')}
+                  {/* Content */}
+                  <div class="relative p-5">
+                    <h3 class="text-base font-display font-bold text-white mb-2 line-clamp-2 group-hover:text-amber-400 transition-colors leading-snug min-h-[48px]">
+                      {post.data.title}
+                    </h3>
+                    
+                    <p class="text-xs text-slate-500 line-clamp-2 mb-4 leading-relaxed">
+                      {description}
+                    </p>
+                    
+                    <div class="flex items-center justify-between">
+                      <div class="flex items-center text-amber-500/70 text-[10px] font-mono uppercase tracking-wider group-hover:text-amber-400 transition-colors">
+                        <span>DETAY</span>
+                        <svg class="w-3 h-3 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                      </div>
+                      
+                      <div class="flex gap-1">
+                        <span class="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-amber-500 transition-colors"></span>
+                        <span class="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-amber-500 transition-colors delay-75"></span>
+                        <span class="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-amber-500 transition-colors delay-150"></span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-                
-                <h3 class="text-lg font-display font-bold text-white mb-3 line-clamp-2 group-hover:text-amber-500 transition-colors leading-snug">
-                  {post.data.title}
-                </h3>
-                
-                <p class="text-sm text-slate-400 line-clamp-2 mb-4 leading-relaxed">
-                  {description}
-                </p>
-                
-                <div class="flex items-center text-amber-500/70 text-xs font-mono uppercase tracking-wider group-hover:text-amber-500 transition-colors">
-                  <span class="mr-2">KAYDI_İNCELE</span>
-                  <div class="h-px w-4 bg-amber-500/50 group-hover:w-8 transition-all"></div>
+              </a>
+            );
+          })}
+          
+          {/* Duplicate Set for Seamless Loop */}
+          {dsgPosts.map((post, index) => {
+            const postUrl = getPostUrl(post.slug);
+            const featuredImage = post.data.featuredImage || `/images/blog/${post.slug}.jpg`;
+            const description = post.data.description || '';
+            const date = new Date(post.data.publishDate).toLocaleDateString('tr-TR', { year: 'numeric', month: 'short', day: 'numeric' });
+            
+            return (
+              <a 
+                href={postUrl} 
+                class="group relative flex-shrink-0 w-[320px]"
+                aria-hidden="true"
+              >
+                <div class="relative h-full bg-gradient-to-b from-slate-800/50 to-slate-900/50 border border-white/10 rounded-xl overflow-hidden transition-all duration-500 hover:border-amber-500/50 hover:shadow-[0_0_40px_-10px_rgba(245,158,11,0.3)] hover:scale-[1.02]">
+                  
+                  <div class="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+                    <div class="absolute inset-[-1px] bg-gradient-to-r from-amber-500/20 via-transparent to-amber-500/20 rounded-xl"></div>
+                  </div>
+                  
+                  <div class="relative h-44 overflow-hidden">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent z-10"></div>
+                    <img 
+                      src={featuredImage} 
+                      alt={post.data.imageAlt || post.data.title}
+                      class="w-full h-full object-cover transform transition-all duration-700 group-hover:scale-110 filter saturate-[0.8] group-hover:saturate-100"
+                      loading="lazy"
+                    />
+                    
+                    <div class="absolute top-3 left-3 z-20 flex items-center gap-2">
+                      <span class="bg-amber-500 text-black font-mono text-xs font-bold px-2 py-1 rounded">
+                        #{String(index + 1).padStart(2, '0')}
+                      </span>
+                    </div>
+                    
+                    <div class="absolute top-3 right-3 z-20 bg-black/70 backdrop-blur-md border border-white/10 px-2 py-1 rounded text-[10px] font-mono text-slate-300">
+                      {date}
+                    </div>
+                    
+                    <div class="absolute bottom-3 left-3 z-20 flex items-center gap-1.5 bg-slate-900/80 backdrop-blur-md border border-amber-500/30 px-2 py-1 rounded text-[10px] font-mono text-amber-500">
+                      <span class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+                      DSG
+                    </div>
+                  </div>
+
+                  <div class="relative p-5">
+                    <h3 class="text-base font-display font-bold text-white mb-2 line-clamp-2 group-hover:text-amber-400 transition-colors leading-snug min-h-[48px]">
+                      {post.data.title}
+                    </h3>
+                    
+                    <p class="text-xs text-slate-500 line-clamp-2 mb-4 leading-relaxed">
+                      {description}
+                    </p>
+                    
+                    <div class="flex items-center justify-between">
+                      <div class="flex items-center text-amber-500/70 text-[10px] font-mono uppercase tracking-wider group-hover:text-amber-400 transition-colors">
+                        <span>DETAY</span>
+                        <svg class="w-3 h-3 ml-1 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path></svg>
+                      </div>
+                      
+                      <div class="flex gap-1">
+                        <span class="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-amber-500 transition-colors"></span>
+                        <span class="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-amber-500 transition-colors delay-75"></span>
+                        <span class="w-1 h-1 rounded-full bg-slate-600 group-hover:bg-amber-500 transition-colors delay-150"></span>
+                      </div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </a>
-        );
-      })}
+              </a>
+            );
+          })}
+        </div>
+      </div>
+    </div>
+    
+    {/* Bottom Stats Bar */}
+    <div class="mt-8 flex flex-wrap justify-center gap-6 md:gap-12 text-center">
+      <div class="px-6 py-3 bg-slate-800/30 border border-white/5 rounded-lg">
+        <div class="text-2xl font-display font-bold text-amber-500">{dsgPosts.length}+</div>
+        <div class="text-[10px] font-mono text-slate-500 uppercase tracking-wider">DSG Makalesi</div>
+      </div>
+      <div class="px-6 py-3 bg-slate-800/30 border border-white/5 rounded-lg">
+        <div class="text-2xl font-display font-bold text-white">7</div>
+        <div class="text-[10px] font-mono text-slate-500 uppercase tracking-wider">Vites Tipi</div>
+      </div>
+      <div class="px-6 py-3 bg-slate-800/30 border border-white/5 rounded-lg">
+        <div class="text-2xl font-display font-bold text-white">DQ200</div>
+        <div class="text-[10px] font-mono text-slate-500 uppercase tracking-wider">En Popüler</div>
+      </div>
     </div>
   </div>
 </section>
+
+<style>
+  .dsg-scroll-wrapper {
+    -webkit-mask-image: linear-gradient(to right, transparent, black 80px, black calc(100% - 80px), transparent);
+    mask-image: linear-gradient(to right, transparent, black 80px, black calc(100% - 80px), transparent);
+  }
+  
+  .dsg-scroll-track {
+    animation: dsg-scroll 8s linear infinite;
+    will-change: transform;
+  }
+  
+  /* Mobil için daha hızlı */
+  @media (max-width: 1024px) {
+    .dsg-scroll-track {
+      animation-duration: 6s !important;
+    }
+  }
+  
+  .dsg-scroll-track:hover {
+    animation-play-state: paused;
+  }
+  
+  @keyframes dsg-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  /* Smooth card hover lift */
+  .dsg-scroll-track a:hover {
+    z-index: 10;
+  }
+</style>
