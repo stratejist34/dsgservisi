@@ -87,12 +87,26 @@ import BrandLogos from './BrandLogos';
             
             {/* Image */}
             <div class="relative h-56 overflow-hidden">
-              <img 
-                src="/images/hero-bg-768.avif" 
-                alt="DSG Şanzıman Teknik Görünüm" 
-                class="w-full h-full object-cover opacity-80"
-                loading="eager"
-              />
+              <picture>
+                <source 
+                  type="image/avif" 
+                  srcset="/images/hero-bg-480.avif 480w, /images/hero-bg-768.avif 768w"
+                  sizes="(max-width: 480px) 480px, 768px"
+                />
+                <source 
+                  type="image/webp" 
+                  srcset="/images/hero-bg-480.webp 480w, /images/hero-bg-768.webp 768w"
+                  sizes="(max-width: 480px) 480px, 768px"
+                />
+                <img 
+                  src="/images/hero-bg-480.avif" 
+                  alt="DSG Şanzıman Teknik Görünüm" 
+                  class="w-full h-full object-cover opacity-80"
+                  loading="eager"
+                  width="480"
+                  height="284"
+                />
+              </picture>
               <div class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:15px_15px] opacity-20"></div>
               <div class="absolute top-0 left-0 w-full h-1 bg-primary/50 shadow-[0_0_15px_rgba(249,115,22,0.5)] animate-[scan_3s_ease-in-out_infinite]"></div>
               <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-transparent"></div>
@@ -145,11 +159,25 @@ import BrandLogos from './BrandLogos';
             
             {/* Main Image Masked */}
             <div class="absolute inset-4 top-12 bottom-24 rounded-lg overflow-hidden border border-white/5">
-               <img 
-                 src="/images/hero-bg-768.avif" 
-                 alt="DSG Şanzıman Teknik Görünüm" 
-                 class="w-full h-full object-cover opacity-80 hover:scale-110 transition-transform duration-[2s]"
-               />
+              <picture>
+                <source 
+                  type="image/avif" 
+                  srcset="/images/hero-bg-768.avif 768w, /images/hero-bg-1280.avif 1280w"
+                  sizes="(max-width: 1024px) 768px, 1280px"
+                />
+                <source 
+                  type="image/webp" 
+                  srcset="/images/hero-bg-768.webp 768w, /images/hero-bg-1280.webp 1280w"
+                  sizes="(max-width: 1024px) 768px, 1280px"
+                />
+                <img 
+                  src="/images/hero-bg-768.avif" 
+                  alt="DSG Şanzıman Teknik Görünüm" 
+                  class="w-full h-full object-cover opacity-80 hover:scale-110 transition-transform duration-[2s]"
+                  width="768"
+                  height="454"
+                />
+              </picture>
                {/* Overlay Grid */}
                <div class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:20px_20px] opacity-20"></div>
                {/* Scanning Line Animation */}

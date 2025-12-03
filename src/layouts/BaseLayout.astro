@@ -466,55 +466,45 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site);
           allAnimateTargets.add(el);
         });
 
-        // İlk yüklemede viewport'ta olanları anında aç, diğerlerini gözlemle
-        // Forced reflow önleme: Render tamamlandıktan sonra çalıştır
-        // Cache viewport dimensions
-        let cachedVh = window.innerHeight || document.documentElement.clientHeight;
-        let cachedVw = window.innerWidth || document.documentElement.clientWidth;
+        // İlk yüklemede TÜM elementleri IntersectionObserver'a ekle
+        // getBoundingClientRect() KULLANMA - forced reflow yaratır!
+        // IntersectionObserver zaten viewport kontrolü yapıyor
         
-        // Render tamamlandıktan sonra çalıştır (forced reflow önleme)
-        setTimeout(() => {
-          requestAnimationFrame(() => {
-            // İkinci frame'de işlemleri yap - ilk paint tamamlandıktan sonra
-            requestAnimationFrame(() => {
-              // Önce tüm rect'leri oku (batch read) - tek seferde
-              const rects = Array.from(allAnimateTargets).map(el => ({
-                el,
-                rect: el.getBoundingClientRect()
-              }));
-              
-              // Sonra tüm yazmaları yap (batch write)
-              rects.forEach(({ el, rect }) => {
-                const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
-                const inViewport = rect.top < cachedVh && rect.bottom > 0 && rect.left < cachedVw && rect.right > 0;
-                
-                if (!inViewport) {
-                  io.observe(el);
-                  return;
-                }
-                
-                // Hero ve üst içeriklerin kaybolmaması için: viewport içindekileri (logo hariç) anında göster
-                if (!isLogo) {
-                  if (el.hasAttribute('data-animate')) {
-                    el.classList.add('animate-in');
-                  }
-                  if (el.hasAttribute('data-reveal')) {
-                    el.classList.add('reveal--in');
-                  }
-                  return;
-                }
-                
-                // Logolar viewport'taysa, dataset tabanlı gecikmeyle tetikle
-                const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
-                const idx = Number(el.dataset && el.dataset.staggerIndex ? el.dataset.staggerIndex : 0);
-                const delay = idx * step;
-                setTimeout(() => {
-                  el.classList.add('animate-in');
-                }, delay);
-              });
-            });
+        // Immediate IO - above-the-fold elementleri hemen göster
+        const immediateIO = new IntersectionObserver((entries) => {
+          entries.forEach((entry) => {
+            if (!entry.isIntersecting) return;
+            const el = entry.target;
+            const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
+            
+            // Logo olmayan elementleri hemen göster
+            if (!isLogo) {
+              if (el.hasAttribute('data-animate')) {
+                el.classList.add('animate-in');
+              }
+              if (el.hasAttribute('data-reveal')) {
+                el.classList.add('reveal--in');
+              }
+              immediateIO.unobserve(el);
+              return;
+            }
+            
+            // Logolar için stagger delay
+            const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
+            const idx = Number(el.dataset && el.dataset.staggerIndex ? el.dataset.staggerIndex : 0);
+            const delay = idx * step;
+            setTimeout(() => {
+              el.classList.add('animate-in');
+            }, delay);
+            immediateIO.unobserve(el);
           });
-        }, 0);
+        }, { threshold: 0, rootMargin: '50px' });
+        
+        // Tüm elementleri gözlemle - forced reflow YOK
+        allAnimateTargets.forEach(el => {
+          immediateIO.observe(el);
+          io.observe(el); // Scroll ile tekrar gözlem için
+        });
 
         // Dinamik eklenen öğeler (basit): sadece işaretli hedefleri gözlemle
         const mo = new MutationObserver((mutations) => {
