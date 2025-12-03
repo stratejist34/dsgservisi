@@ -1,6 +1,6 @@
 ---
-title: "Fren Balata Değişim İşçilik Ücreti 2025"
-description: "Fren balata değişim işçilik ücretleri: Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde ön ve arka balata değişimi işçilik hizmetleri."
+title: "Fren Balata Değişim İşçilik & Yedek Parça"
+description: "Fren balata değişim işçilik ve yedek parça: Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde ön ve arka balata değişimi işçilik hizmetleri."
 category: "Genel Bakım"
 tags: ["balata işçilik", "fren balata", "balata değişimi"]
 slug: "fren-balata-degisim-iscilik-ucreti-2025"

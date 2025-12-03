@@ -1,5 +1,5 @@
 ---
-title: "Baskı Balata Değişimi Ne Kadar 2025"
+title: "Baskı Balata Değişim ve Yenileme"
 description: "Debriyaj baskı balata değişimi hizmetleri: Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde debriyaj baskı balata değişimi hizmetleri."
 category: "Genel Bakım"
 tags: ["baskı balata", "debriyaj", "debriyaj balata", "debriyaj değişimi"]

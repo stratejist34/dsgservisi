@@ -1,5 +1,5 @@
 ---
-title: "Debriyaj Baskı Balata Değişimi Tamiri ve Servisi"
+title: "Debriyaj Baskı Balata Değişim ve Tamiri"
 description: "Debriyaj baskı balata değişimi hizmetleri: Audi, BMW, Mercedes, Volkswagen, Porsche, Land Rover, Seat, Skoda modellerinde debriyaj seti hizmetleri ve işçilik ücretleri."
 category: "Genel Bakım"
 tags: ["debriyaj", "baskı balata", "debriyaj değişimi", "servis"]
