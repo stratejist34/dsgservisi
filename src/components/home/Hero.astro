@@ -4,16 +4,16 @@ import BrandLogos from './BrandLogos';
 ---
 
 <section class="relative min-h-[90vh] flex items-center overflow-hidden pt-20 pb-24 lg:pt-0 bg-[#0f172a]">
-  {/* Tech Background Elements */}
-  <div class="absolute inset-0 pointer-events-none overflow-hidden">
+  {/* Tech Background Elements - CLS optimized with contain and fixed positioning */}
+  <div class="absolute inset-0 pointer-events-none overflow-hidden" style="contain: layout style paint;">
     {/* Grid Overlay */}
     <div class="absolute inset-0 opacity-[0.03]" 
          style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 50px 50px;">
     </div>
     
-    {/* Glowing Orbs */}
-    <div class="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-amber-500/10 rounded-full blur-[120px] opacity-40"></div>
-    <div class="absolute bottom-[-10%] left-[-10%] w-[600px] h-[600px] bg-blue-900/20 rounded-full blur-[100px] opacity-30"></div>
+    {/* Glowing Orbs - Fixed size and position to prevent CLS */}
+    <div class="absolute w-[500px] h-[500px] bg-amber-500/10 rounded-full blur-[120px] opacity-40" style="top: -10%; right: -5%; transform: translateZ(0); will-change: opacity;"></div>
+    <div class="absolute w-[600px] h-[600px] bg-blue-900/20 rounded-full blur-[100px] opacity-30" style="bottom: -10%; left: -10%; transform: translateZ(0); will-change: opacity;"></div>
   </div>
 
   <div class="container mx-auto px-4 relative z-10">
