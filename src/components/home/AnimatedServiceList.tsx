@@ -20,13 +20,13 @@ interface ServiceItemProps {
 function ServiceItem({ name }: ServiceItemProps) {
   return (
     <div className="w-full group relative">
-      <div className="flex items-center gap-3 p-4 rounded-lg border-2 border-gray-200 hover:border-primary transition-all duration-300 hover:shadow-lg cursor-pointer bg-white">
-        <div className="w-2 h-2 rounded-full bg-primary group-hover:scale-150 transition-transform duration-300"></div>
-        <span className="text-gray-800 font-semibold group-hover:text-primary transition-colors">
+      <div className="flex items-center gap-3 p-4 rounded-xl border border-white/10 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 cursor-pointer bg-slate-800/50 backdrop-blur-sm">
+        <div className="w-2 h-2 rounded-full bg-amber-500 group-hover:scale-150 group-hover:shadow-[0_0_10px_#f59e0b] transition-all duration-300"></div>
+        <span className="text-slate-300 font-medium group-hover:text-white transition-colors">
           {name}
         </span>
         <svg 
-          className="w-5 h-5 ml-auto text-gray-400 group-hover:text-primary group-hover:translate-x-2 transition-all" 
+          className="w-5 h-5 ml-auto text-slate-600 group-hover:text-amber-500 group-hover:translate-x-1 transition-all" 
           fill="none" 
           stroke="currentColor" 
           viewBox="0 0 24 24"
@@ -52,10 +52,9 @@ export default function AnimatedServiceList() {
         ))}
       </AnimatedList>
       
-      {/* Fade Gradients */}
-      <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-white to-transparent pointer-events-none z-10"></div>
-      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-white to-transparent pointer-events-none z-10"></div>
+      {/* Fade Gradients - Dark Mode */}
+      <div className="absolute top-0 left-0 right-0 h-20 bg-gradient-to-b from-[#0f172a] to-transparent pointer-events-none z-10"></div>
+      <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-[#0f172a] to-transparent pointer-events-none z-10"></div>
     </div>
   );
 }
-
