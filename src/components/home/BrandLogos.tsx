@@ -6,7 +6,7 @@ export default function BrandLogos() {
   const largerBrands = new Set(['Mercedes', 'Porsche', 'Seat', 'Skoda']);
 
   return (
-    <div className="grid grid-cols-4 md:grid-cols-8 gap-4 md:gap-6 mt-4 md:mt-6 max-w-5xl mx-auto">
+    <div className="grid grid-cols-4 gap-6 md:gap-x-8 md:gap-y-6 mt-4 md:mt-6 max-w-xs md:max-w-md mx-auto">
       {brands.map((brand, i) => {
         // Masaüstünde tek satır (8 kolon): merkez EN HIZLI, kenarlar EN YAVAŞ
         const dir = i < 4 ? 'ltr' : 'rtl';
