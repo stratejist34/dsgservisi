@@ -280,16 +280,28 @@ const navLinks = [
     setTimeout(type, 1000);
   }
 
+  // Scroll değerini cache'le - forced reflow önleme
+  let lastScrollY = 0;
+  let isScrolled = false;
+  
   window.addEventListener('scroll', () => {
     if (!ticking) {
+      // Scroll değerini hemen oku (scroll event'inde zaten hesaplanmış)
+      lastScrollY = window.scrollY;
+      
       requestAnimationFrame(() => {
-        const isScrolled = window.pageYOffset > 20;
-        if (isScrolled) {
-           header?.classList.add('bg-[#0f172a]/90', 'shadow-lg');
-           header?.style.setProperty('backdrop-filter', 'blur(16px)');
-        } else {
-           header?.classList.remove('shadow-lg');
-           header?.style.setProperty('background', 'rgba(15, 23, 42, 0.8)');
+        const shouldBeScrolled = lastScrollY > 20;
+        
+        // Sadece durum değiştiğinde DOM'u güncelle
+        if (shouldBeScrolled !== isScrolled) {
+          isScrolled = shouldBeScrolled;
+          if (isScrolled) {
+            header?.classList.add('bg-[#0f172a]/90', 'shadow-lg');
+            header?.style.setProperty('backdrop-filter', 'blur(16px)');
+          } else {
+            header?.classList.remove('shadow-lg');
+            header?.style.setProperty('background', 'rgba(15, 23, 42, 0.8)');
+          }
         }
         ticking = false;
       });
