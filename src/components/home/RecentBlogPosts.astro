@@ -29,7 +29,7 @@ const getPostUrl = (slug: string) => {
       <div>
         <div class="flex items-center gap-3 mb-3">
           <span class="w-2 h-2 rounded-full bg-amber-500 animate-pulse"></span>
-          <span class="text-amber-500 font-mono text-xs tracking-widest uppercase">System Knowledge Base</span>
+          <span class="text-amber-500 font-mono text-xs tracking-widest uppercase">SİSTEM BİLGİ BANKASI</span>
         </div>
         <h2 class="text-3xl md:text-4xl font-display font-bold text-white">
           DSG BİLGİ MERKEZİ
@@ -37,7 +37,7 @@ const getPostUrl = (slug: string) => {
       </div>
       
       <a href="/blog" class="group flex items-center gap-2 text-sm font-mono text-slate-400 hover:text-amber-500 transition-colors">
-        <span>VIEW_ALL_LOGS</span>
+        <span>TÜM_KAYITLARI_GÖR</span>
         <svg class="w-4 h-4 transform group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg>
       </a>
     </div>
@@ -48,7 +48,7 @@ const getPostUrl = (slug: string) => {
         const postUrl = getPostUrl(post.slug);
         const featuredImage = post.data.featuredImage || `/images/blog/${post.slug}.jpg`;
         const description = post.data.description || '';
-        const date = new Date(post.data.pubDate).toLocaleDateString('tr-TR', { year: 'numeric', month: '2-digit', day: '2-digit' });
+        const date = new Date(post.data.publishDate).toLocaleDateString('tr-TR', { year: 'numeric', month: '2-digit', day: '2-digit' });
         
         return (
           <a 
@@ -90,7 +90,7 @@ const getPostUrl = (slug: string) => {
                 </p>
                 
                 <div class="flex items-center text-amber-500/70 text-xs font-mono uppercase tracking-wider group-hover:text-amber-500 transition-colors">
-                  <span class="mr-2">Read_Entry</span>
+                  <span class="mr-2">KAYDI_İNCELE</span>
                   <div class="h-px w-4 bg-amber-500/50 group-hover:w-8 transition-all"></div>
                 </div>
               </div>
