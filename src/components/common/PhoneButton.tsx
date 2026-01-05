@@ -3,204 +3,138 @@ import { useState, useEffect } from 'react';
 interface PhoneButtonProps {
   phone?: string;
   className?: string;
-}
-
-// SSR-safe çalışma saatleri kontrolü
-function checkWorkingHours(): boolean {
-  if (typeof window === 'undefined') return false; // SSR'da false döndür
-  const now = new Date();
-  const day = now.getDay(); // 0=Sun,1=Mon,...6=Sat
-  if (day === 0) return false; // Pazar kapalı
-  const hour = now.getHours();
-  const minute = now.getMinutes();
-  const time = hour + minute / 60;
-  return time >= 9 && time < 18;
+  pageId?: string;
 }
 
 export default function PhoneButton({
   phone = '0533 262 34 51',
-  className = ''
+  className = '',
+  pageId = 'diger_sayfalar'
 }: PhoneButtonProps) {
   const [ripples, setRipples] = useState<Array<{ x: number; y: number; id: number }>>([]);
   const [mounted, setMounted] = useState(false);
-  const [showButton, setShowButton] = useState(false);
-  // SSR-safe initial state - client-side'da hemen kontrol et
-  const [isWorkingHours, setIsWorkingHours] = useState(false);
+  const [showTooltip, setShowTooltip] = useState(false);
 
-  // Mount olduğunda hemen kontrol et
   useEffect(() => {
     setMounted(true);
-    setIsWorkingHours(checkWorkingHours());
+
+    // 3 saniye sonra "Hemen Ara" balonunu göster (1 kereye mahsus)
+    const tooltipTimer = setTimeout(() => {
+      setShowTooltip(true);
+      // 8 saniye sonra balonu kapat
+      setTimeout(() => setShowTooltip(false), 5000);
+    }, 3000);
+
+    return () => clearTimeout(tooltipTimer);
   }, []);
-
-  // Çalışma saatleri kontrolü - Optimize edilmiş (sadece kritik saatlerde: 09:00 ve 18:00)
-  useEffect(() => {
-    if (!mounted) return;
-    
-    function updateWorkingHours() {
-      setIsWorkingHours(checkWorkingHours());
-    }
-    
-    // Sadece kritik saatlerde kontrol et (09:00 ve 18:00)
-    function scheduleNextCheck() {
-      const now = new Date();
-      const currentHour = now.getHours();
-      
-      let targetHour: number;
-      
-      // Şu anki saat 09:00-18:00 arasındaysa, 18:00'ı bekle
-      // Değilse, 09:00'ı bekle
-      if (currentHour >= 9 && currentHour < 18) {
-        targetHour = 18;
-      } else if (currentHour < 9) {
-        targetHour = 9;
-      } else {
-        // 18:00 sonrası, yarın 09:00'ı bekle
-        targetHour = 9;
-      }
-      
-      const targetTime = new Date();
-      targetTime.setHours(targetHour, 0, 0, 0);
-      
-      // Eğer hedef saat geçmişse, yarınki saatini hesapla
-      if (targetTime.getTime() <= now.getTime()) {
-        targetTime.setDate(targetTime.getDate() + 1);
-        targetTime.setHours(9, 0, 0, 0);
-      }
-      
-      const msUntilTarget = targetTime.getTime() - now.getTime();
-      
-      return setTimeout(() => {
-        updateWorkingHours();
-        scheduleNextCheck(); // Bir sonraki kontrolü planla
-      }, msUntilTarget);
-    }
-    
-    const timeout = scheduleNextCheck();
-
-    return () => {
-      clearTimeout(timeout);
-    };
-  }, [mounted]);
-
-  useEffect(() => {
-    // Mount olmamışsa veya çalışma saatleri dışındaysa butonu gösterme
-    if (!mounted || !isWorkingHours) {
-      setShowButton(false);
-      return;
-    }
-    
-    // Butonu hemen göster
-    setShowButton(true);
-
-    // Visibility ölçümleme (aramaya başladı mı?)
-    const onVisibility = () => {
-      const anyWin: any = window as any;
-      if (document.hidden && anyWin.__callIntentAt) {
-        const delta = Date.now() - anyWin.__callIntentAt;
-        if (delta < 5000) {
-          // 5 sn içinde sekme gizlendiyse arama başlatılmış olabilir
-          if ((window as any).gtag) {
-            (window as any).gtag('event', 'primary_tel_butonu_olasi_arama', { 
-              delta_ms: delta,
-              location: 'floating_button'
-            });
-          }
-        }
-      }
-    };
-    document.addEventListener('visibilitychange', onVisibility, { passive: true } as any);
-
-    return () => {
-      document.removeEventListener('visibilitychange', onVisibility as any);
-    };
-  }, [isWorkingHours, mounted]);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    
+
     const newRipple = { x, y, id: Date.now() };
     setRipples([...ripples, newRipple]);
-    
+
     setTimeout(() => {
       setRipples((prev) => prev.filter((r) => r.id !== newRipple.id));
     }, 600);
+    setShowTooltip(false);
   };
 
   const phoneNumber = phone.replace(/\s/g, '');
   const phoneHref = `tel:${phoneNumber}`;
 
-  // Çalışma saatleri dışındaysa veya buton henüz gösterilmeyecekse null döndür
-  if (!isWorkingHours || !showButton) {
-    return null;
-  }
+  if (!mounted) return null;
 
   return (
-    <a
-      id="floating-call"
-      href={phoneHref}
-      onClick={handleClick}
-      className={`
-        group fixed bottom-6 right-6 z-[55]
-        flex items-center justify-center gap-3
-        w-16 h-16 md:w-20 md:h-20
-        rounded-full
-        bg-primary
-        text-white
-        shadow-lg
-        cursor-pointer
-        transform transition-all duration-200 ease-out
-        hover:bg-primary-600 hover:scale-105
-        active:scale-95
-        ${className}
-      `}
-      style={{
-        boxShadow: '0 4px 14px 0 rgba(249, 115, 22, 0.39)',
-      }}
-      aria-label={`Bizi arayın: ${phone}`}
-      onMouseDown={() => {
-        // gtag click event (varsa)
-        // @ts-ignore
-        if (window.gtag) {
+    <div className="fixed bottom-6 left-6 z-[55] flex flex-col items-center">
+      {/* Tooltip / Balon */}
+      {showTooltip && (
+        <div
+          className="absolute bottom-full mb-4 px-4 py-2 bg-amber-500 text-white text-sm font-bold rounded-xl shadow-[0_10px_25px_rgba(245,158,11,0.4)] whitespace-nowrap pointer-events-none"
+          style={{ animation: 'bounce-subtle 2s infinite ease-in-out' }}
+        >
+          <div className="relative text-center">
+            Hemen Ara
+            <div className="absolute top-full left-1/2 -translate-x-1/2 w-3 h-3 bg-amber-500 rotate-45 mt-[-6px]"></div>
+          </div>
+        </div>
+      )}
+
+      <a
+        id="floating-call"
+        href={phoneHref}
+        onClick={handleClick}
+        className={`
+          group relative
+          flex items-center justify-center
+          w-16 h-16 md:w-20 md:h-20
+          rounded-full
+          bg-gradient-to-br from-amber-500 to-orange-600
+          text-white
+          shadow-2xl
+          cursor-pointer
+          transform transition-all duration-300 ease-out
+          hover:scale-110 active:scale-95
+          ${className}
+        `}
+        style={{
+          boxShadow: '0 10px 25px rgba(249, 115, 22, 0.4)',
+        }}
+        aria-label={`Bizi arayın: ${phone}`}
+        onMouseDown={() => {
           // @ts-ignore
-          window.gtag('event', 'primary_tel_butonu', { location: 'floating_button' });
-        }
-        // visibility ölçümleme için işaretle
-        (window as any).__callIntentAt = Date.now();
-      }}
-    >
-      {/* Basit pulse efekti - sadece hover'da */}
-      <div 
-        className="absolute inset-0 rounded-full bg-white/10 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-      />
-
-      {/* Phone Icon */}
-      <svg
-        className="relative w-8 h-8 md:w-10 md:h-10 z-10 transform group-hover:rotate-12 transition-transform duration-300"
-        fill="currentColor"
-        viewBox="0 0 24 24"
+          if (window.gtag) {
+            // @ts-ignore
+            window.gtag('event', `${pageId}_sticky_tel_arama_butonu_tiklamasi`, { location: 'floating_button' });
+          }
+        }}
       >
-        <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
-      </svg>
+        {/* Pulse Rings */}
+        <div className="absolute inset-0 rounded-full bg-amber-500 animate-ping opacity-20" />
+        <div className="absolute -inset-2 rounded-full border-2 border-amber-500/30 animate-pulse opacity-40" />
 
-      {/* Ripple Effects */}
-      {ripples.map((ripple) => (
-        <span
-          key={ripple.id}
-          className="absolute rounded-full bg-white pointer-events-none"
-          style={{
-            left: ripple.x,
-            top: ripple.y,
-            width: '10px',
-            height: '10px',
-            transform: 'translate(-50%, -50%)',
-            animation: 'ripple-expand 0.6s ease-out',
-          }}
-        />
-      ))}
+        {/* Phone Icon */}
+        <svg
+          className="relative w-8 h-8 md:w-10 md:h-10 z-10 transform group-hover:rotate-12 transition-transform duration-300"
+          fill="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path d="M20.01 15.38c-1.23 0-2.42-.2-3.53-.56a.977.977 0 00-1.01.24l-1.57 1.97c-2.83-1.35-5.48-3.9-6.89-6.83l1.95-1.66c.27-.28.35-.67.24-1.02-.37-1.11-.56-2.3-.56-3.53 0-.54-.45-.99-.99-.99H4.19C3.65 3 3 3.24 3 3.99 3 13.28 10.73 21 20.01 21c.71 0 .99-.63.99-1.18v-3.45c0-.54-.45-.99-.99-.99z" />
+        </svg>
 
-    </a>
+        {/* Ripple Effects */}
+        {ripples.map((ripple) => (
+          <span
+            key={ripple.id}
+            className="absolute rounded-full bg-white pointer-events-none"
+            style={{
+              left: ripple.x,
+              top: ripple.y,
+              width: '10px',
+              height: '10px',
+              transform: 'translate(-50%, -50%)',
+              animation: 'ripple-expand 0.6s ease-out',
+            }}
+          />
+        ))}
+      </a>
+
+      <style dangerouslySetInnerHTML={{
+        __html: `
+        @keyframes ripple-expand {
+          from { width: 0; height: 0; opacity: 0.5; }
+          to { width: 100px; height: 100px; opacity: 0; }
+        }
+        @keyframes bounce-subtle {
+          0%, 100% { transform: translateY(0); }
+          50% { transform: translateY(-5px); }
+        }
+        .animate-bounce-subtle {
+          animation: bounce-subtle 2s infinite ease-in-out;
+        }
+      `}} />
+    </div>
   );
 }

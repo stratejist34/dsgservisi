@@ -40,7 +40,7 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     sitemap({
-      filter: (page) => !page.includes('/api/') && !page.includes('/blog/preview'),
+      filter: (page) => !page.includes('/api/'),
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),
@@ -122,9 +122,6 @@ export default defineConfig({
     ssr: {
       noExternal: ['react-icons'],
     },
-    env: {
-      PUBLIC_WORDPRESS_API_URL: process.env.PUBLIC_WORDPRESS_API_URL || 'https://api.dsgservisi.com/wp-json/wp/v2'
-    }
   },
 });
 

@@ -21,6 +21,18 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+:::cta
+# DSG Volant Değişimi  
+## 2025 Güncel Fiyat Bilgisi  
+
+✓ İşlem öncesi net maliyet  
+✓ Onaysız işlem yapılmaz  
+✓ Aynı gün servis imkânı  
+
+[📞 Hemen Ara](tel:05332623451)   [💬 WhatsApp’tan Fiyat Al](https://api.whatsapp.com/send?phone=905332623451)  
+*Telefonda konuşulan fiyat aralığı, servis sürecinde korunur.*
+:::
+
 DSG volant (flywheel) motor ile şanzıman arasında titreşim sönümleyici görevi görür. Volant arızası; motor titreşimi, vites atarken tak‑tak sesi, kavrama kayması ve mekatronik baskı sorunlarına yol açar. Kuru kavramalı DSG'lerde (DQ200) daha hızlı yıpranır.
 
 Yıldızlar Grup DSG Servisi; volant sökme, yüzey kontrolü, işleme veya değişim hizmetleri sunar. Değişimde kavrama seti ve ilgili kontroller birlikte yapılır. Tek kütleli volanta geçiş bazı modellerde mümkün olsa da titreşimi artırdığı için tavsiye edilmez.
@@ -30,7 +42,7 @@ Volant değişimi sırasında kavrama seti mutlaka yenilenmelidir. Eski kavrama 
 :::
 
 :::cta
-Volant kontrolü için: [📞 0533 262 34 51](tel:05332623451) [WhatsApp Randevu](https://api.whatsapp.com/send?phone=905332623451) [Konum Tarifi](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
+Volant kontrolü ve net fiyat bilgisi
 :::
 
 ## Volant Arıza Belirtileri
@@ -56,11 +68,11 @@ Volant kontrolü için: [📞 0533 262 34 51](tel:05332623451) [WhatsApp Randevu
 
 | İşlem | Parça (Volant + Kavrama Seti) | İşçilik | Toplam |
 | --- | --- | --- | --- |
-| Çift Kütleli Volant + Kavrama (DQ200 Kuru) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
-| Çift Kütleli Volant + Kavrama (DQ250 Islak) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz |
-| Volant Yüzey İşleme (taşlama) | 📞 Fiyat Sorunuz | 800–uygun fiyat | 📞 Fiyat Sorunuz |
+| Çift Kütleli Volant + Kavrama (DQ200 Kuru) | Net Maliyet | Net Maliyet | Net Maliyet |
+| Çift Kütleli Volant + Kavrama (DQ250 Islak) | Net Maliyet | Net Maliyet | Net Maliyet |
+| Volant Yüzey İşleme (taşlama) | Net Maliyet | 800–uygun fiyat | Net Maliyet |
 
-_Not: Tek kütleli volanta geçiş bazı modellerde uygulanabilir; ancak titreşim riski artar, tavsiye edilmez._
+*Net fiyat, kontrol sonrası işlem başlamadan önce bildirilir.*
 
 **✅ VOLANT DEĞİŞİMİ AVANTAJLARI:**
 
@@ -74,7 +86,7 @@ _Not: Tek kütleli volanta geçiş bazı modellerde uygulanabilir; ancak titreş
 </ul>
 
 :::cta
-Ücretsiz volant kontrolü: [📞 0533 262 34 51](tel:05332623451) [WhatsApp Yaz](https://api.whatsapp.com/send?phone=905332623451)
+Volant kontrolü ve net fiyat bilgisi
 :::
 
 ## Orijinal vs Yan Sanayi Volant

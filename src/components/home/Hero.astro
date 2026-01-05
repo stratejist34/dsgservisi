@@ -1,46 +1,78 @@
 ---
-import { SITE_CONFIG } from '@utils/constants';
-import BrandLogos from './BrandLogos';
+import { SITE_CONFIG } from "@utils/constants";
+import BrandLogos from "./BrandLogos";
 ---
 
-<section class="hero-section relative min-h-[90vh] flex items-center overflow-hidden pt-20 pb-24 lg:pt-0 bg-[#0f172a]">
-  {/* Tech Background - Grid Only (Orbs moved to CSS pseudo-elements to prevent CLS) */}
+<section
+  class="hero-section relative min-h-[90vh] flex items-center overflow-hidden pt-20 pb-24 lg:pt-0 bg-[#0f172a]"
+>
+  {
+    /* Tech Background - Grid Only (Orbs moved to CSS pseudo-elements to prevent CLS) */
+  }
   <div class="absolute inset-0 pointer-events-none overflow-hidden">
     {/* Grid Overlay */}
-    <div class="absolute inset-0 opacity-[0.03]" 
-         style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 50px 50px;">
+    <div
+      class="absolute inset-0 opacity-[0.03]"
+      style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 50px 50px;"
+    >
     </div>
   </div>
 
   <div class="container mx-auto px-4 relative z-10">
     <div class="grid lg:grid-cols-12 gap-12 items-center">
-      
       {/* Left Content - Text */}
       <div class="lg:col-span-7 text-left">
         {/* Badge */}
-        <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-8" data-reveal>
-          <span class="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span>
-          <span class="text-primary text-xs font-bold tracking-widest uppercase font-tech">İstanbul Avrupa Yakası</span>
-          <span class="text-slate-400 text-xs uppercase tracking-widest border-l border-white/10 pl-2 ml-2">Beylikdüzü • Beytepe</span>
+        <div
+          class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-8"
+          data-reveal
+        >
+          <span class="flex h-2 w-2 rounded-full bg-primary animate-pulse"
+          ></span>
+          <span
+            class="text-primary text-xs font-bold tracking-widest uppercase font-tech"
+            >İstanbul Avrupa Yakası</span
+          >
+          <span
+            class="text-slate-400 text-xs uppercase tracking-widest border-l border-white/10 pl-2 ml-2"
+            >Beylikdüzü • Beytepe</span
+          >
         </div>
 
         {/* Main Title - Modern Typography */}
-        <h1 class="font-display font-bold text-6xl sm:text-7xl lg:text-9xl mb-8 text-white" data-reveal>
+        <h1
+          class="font-display font-bold text-6xl sm:text-7xl lg:text-9xl mb-8 text-white"
+          data-reveal
+        >
           <div class="overflow-hidden py-2">
-            <span class="block tracking-tighter text-white leading-none">DSG &</span>
+            <span class="block tracking-tighter text-white leading-none"
+              >DSG &</span
+            >
           </div>
           <div class="overflow-hidden py-4 -my-2">
-            <span class="block tracking-tighter text-stroke text-transparent hover:text-white transition-colors duration-500 cursor-default leading-none pt-2">MEKATRONİK</span>
+            <span
+              class="block tracking-tighter text-stroke text-transparent hover:text-white transition-colors duration-500 cursor-default leading-none pt-2"
+              >MEKATRONİK</span
+            >
           </div>
           <div class="overflow-hidden py-4 -my-2">
-            <span class="block tracking-tighter text-primary leading-none pt-2" style="color: #f59e0b;">SERVİSİ</span>
+            <span
+              class="block tracking-tighter text-primary leading-none pt-2"
+              style="color: #f59e0b;">SERVİSİ</span
+            >
           </div>
         </h1>
 
         {/* Description */}
-        <p class="text-lg text-slate-400 mb-10 max-w-2xl leading-relaxed border-l-2 border-primary/50 pl-6" data-reveal>
-          <span class="text-white font-semibold">{SITE_CONFIG.stats.experience} yıllık</span> kurumsal tecrübe ile VW, Audi, Seat, Skoda ve Porsche araçlarınız için 
-          <span class="text-primary"> fabrika standartlarında</span> şanzıman onarım, bakım ve yazılım çözümleri.
+        <p
+          class="text-lg text-slate-400 mb-10 max-w-2xl leading-relaxed border-l-2 border-primary/50 pl-6"
+          data-reveal
+        >
+          <span class="text-white font-semibold"
+            >{SITE_CONFIG.stats.experience} yıllık</span
+          > kurumsal tecrübe ile VW, Audi, Seat, Skoda ve Porsche araçlarınız için
+          <span class="text-primary"> fabrika standartlarında</span> şanzıman onarım,
+          bakım ve yazılım çözümleri.
         </p>
 
         {/* CTA Buttons */}
@@ -48,20 +80,45 @@ import BrandLogos from './BrandLogos';
           <a
             href={`tel:${SITE_CONFIG.phoneTel}`}
             class="group relative inline-flex items-center justify-center px-8 py-4 bg-primary-700 text-white font-bold rounded-lg overflow-hidden transition-all hover:bg-primary-600"
+            onmousedown="if(window.gtag){window.gtag('event','anasayfa_hero_tel_arama_butonu_tiklamasi',{location:'hero'});}"
           >
             <span class="relative z-10 flex items-center gap-3">
-              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+              <svg
+                class="w-5 h-5"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                ><path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                ></path></svg
+              >
               HEMEN RANDEVU AL
             </span>
-            <div class="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white/10 transition-transform duration-300"></div>
+            <div
+              class="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white/10 transition-transform duration-300"
+            >
+            </div>
           </a>
-          
+
           <a
             href="/hizmetlerimiz"
             class="group inline-flex items-center justify-center px-8 py-4 bg-white/5 border border-white/10 text-white font-semibold rounded-lg hover:bg-white/10 transition-all"
           >
             <span class="mr-2">Hizmetleri İncele</span>
-            <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3"/></svg>
+            <svg
+              class="w-4 h-4 group-hover:translate-x-1 transition-transform"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+              ><path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="M17 8l4 4m0 0l-4 4m4-4H3"></path></svg
+            >
           </a>
         </div>
 
@@ -71,36 +128,42 @@ import BrandLogos from './BrandLogos';
             <BrandLogos client:idle />
           </div>
         </div>
-        
+
         {/* Mobile Diagnostic Panel - Sadece mobilde görünür */}
         <div class="lg:hidden relative w-full max-w-sm mx-auto" data-reveal>
-          <div class="relative border border-white/10 rounded-xl bg-white/[0.02] backdrop-blur-sm overflow-hidden">
+          <div
+            class="relative border border-white/10 rounded-xl bg-white/[0.02] backdrop-blur-sm overflow-hidden"
+          >
             {/* Top Bar */}
-            <div class="h-7 bg-white/5 border-b border-white/10 flex items-center px-3 justify-between">
+            <div
+              class="h-7 bg-white/5 border-b border-white/10 flex items-center px-3 justify-between"
+            >
               <div class="flex gap-1.5">
                 <div class="w-2 h-2 rounded-full bg-red-500/50"></div>
                 <div class="w-2 h-2 rounded-full bg-yellow-500/50"></div>
                 <div class="w-2 h-2 rounded-full bg-green-500/50"></div>
               </div>
-              <div class="text-[9px] text-slate-500 font-mono">SYS.DIAGNOSTIC.V2</div>
+              <div class="text-[9px] text-slate-500 font-mono">
+                SYS.DIAGNOSTIC.V2
+              </div>
             </div>
-            
+
             {/* Image */}
             <div class="relative h-56 overflow-hidden">
               <picture>
-                <source 
-                  type="image/avif" 
+                <source
+                  type="image/avif"
                   srcset="/images/hero-bg-480.avif 480w, /images/hero-bg-768.avif 768w"
                   sizes="(max-width: 480px) 480px, 768px"
                 />
-                <source 
-                  type="image/webp" 
+                <source
+                  type="image/webp"
                   srcset="/images/hero-bg-480.webp 480w, /images/hero-bg-768.webp 768w"
                   sizes="(max-width: 480px) 480px, 768px"
                 />
-                <img 
-                  src="/images/hero-bg-480.avif" 
-                  alt="DSG Şanzıman Teknik Görünüm" 
+                <img
+                  src="/images/hero-bg-480.avif"
+                  alt="DSG Şanzıman Teknik Görünüm"
                   class="w-full h-full object-cover opacity-80"
                   loading="eager"
                   fetchpriority="high"
@@ -108,18 +171,31 @@ import BrandLogos from './BrandLogos';
                   height="284"
                 />
               </picture>
-              <div class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:15px_15px] opacity-20"></div>
-              <div class="absolute top-0 left-0 w-full h-1 bg-primary/50 shadow-[0_0_15px_rgba(249,115,22,0.5)] animate-[scan_3s_ease-in-out_infinite]"></div>
-              <div class="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-transparent"></div>
+              <div
+                class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:15px_15px] opacity-20"
+              >
+              </div>
+              <div
+                class="absolute top-0 left-0 w-full h-1 bg-primary/50 shadow-[0_0_15px_rgba(249,115,22,0.5)] animate-[scan_3s_ease-in-out_infinite]"
+              >
+              </div>
+              <div
+                class="absolute inset-0 bg-gradient-to-t from-[#0f172a] via-transparent to-transparent"
+              >
+              </div>
             </div>
 
             {/* Bottom Data Panel */}
-            <div class="bg-white/5 border-t border-white/10 p-3 font-mono text-[10px] text-primary/80">
+            <div
+              class="bg-white/5 border-t border-white/10 p-3 font-mono text-[10px] text-primary/80"
+            >
               <div class="flex justify-between items-center gap-4">
                 <div class="flex items-center gap-2">
                   <span class="text-slate-500">STATUS:</span>
                   <span class="text-green-400 flex items-center gap-1">
-                    <span class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"></span>
+                    <span
+                      class="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse"
+                    ></span>
                     ONLINE
                   </span>
                 </div>
@@ -128,7 +204,9 @@ import BrandLogos from './BrandLogos';
                   <span class="animate-pulse">RUNNING</span>
                 </div>
               </div>
-              <div class="w-full bg-white/10 h-1 rounded-full overflow-hidden mt-2">
+              <div
+                class="w-full bg-white/10 h-1 rounded-full overflow-hidden mt-2"
+              >
                 <div class="bg-primary h-full w-2/3 animate-pulse"></div>
               </div>
             </div>
@@ -140,40 +218,48 @@ import BrandLogos from './BrandLogos';
       <div class="lg:col-span-5 relative hidden lg:block" data-reveal>
         {/* Logolar Görselin Üzerinde - Ölçeklendirilmiş ve Ortalı */}
         <div class="mb-6 flex justify-center">
-            <div class="transform scale-[0.85] origin-bottom">
-                <BrandLogos client:idle />
-            </div>
+          <div class="transform scale-[0.85] origin-bottom">
+            <BrandLogos client:idle />
+          </div>
         </div>
 
         <div class="relative w-full aspect-[4/5] max-w-md mx-auto">
           {/* Tech Frame */}
-          <div class="absolute inset-0 border border-white/10 rounded-2xl bg-white/[0.02] backdrop-blur-sm overflow-hidden">
+          <div
+            class="absolute inset-0 border border-white/10 rounded-2xl bg-white/[0.02] backdrop-blur-sm overflow-hidden"
+          >
             {/* Top Bar */}
-            <div class="absolute top-0 left-0 right-0 h-8 bg-white/5 border-b border-white/10 flex items-center px-4 justify-between">
-               <div class="flex gap-2">
-                 <div class="w-2 h-2 rounded-full bg-red-500/50"></div>
-                 <div class="w-2 h-2 rounded-full bg-yellow-500/50"></div>
-                 <div class="w-2 h-2 rounded-full bg-green-500/50"></div>
-               </div>
-               <div class="text-[10px] text-slate-500 font-mono">SYS.DIAGNOSTIC.V2</div>
+            <div
+              class="absolute top-0 left-0 right-0 h-8 bg-white/5 border-b border-white/10 flex items-center px-4 justify-between"
+            >
+              <div class="flex gap-2">
+                <div class="w-2 h-2 rounded-full bg-red-500/50"></div>
+                <div class="w-2 h-2 rounded-full bg-yellow-500/50"></div>
+                <div class="w-2 h-2 rounded-full bg-green-500/50"></div>
+              </div>
+              <div class="text-[10px] text-slate-500 font-mono">
+                SYS.DIAGNOSTIC.V2
+              </div>
             </div>
-            
+
             {/* Main Image Masked */}
-            <div class="absolute inset-4 top-12 bottom-24 rounded-lg overflow-hidden border border-white/5">
+            <div
+              class="absolute inset-4 top-12 bottom-24 rounded-lg overflow-hidden border border-white/5"
+            >
               <picture>
-                <source 
-                  type="image/avif" 
+                <source
+                  type="image/avif"
                   srcset="/images/hero-bg-768.avif 768w, /images/hero-bg-1280.avif 1280w"
                   sizes="(max-width: 1024px) 768px, 1280px"
                 />
-                <source 
-                  type="image/webp" 
+                <source
+                  type="image/webp"
                   srcset="/images/hero-bg-768.webp 768w, /images/hero-bg-1280.webp 1280w"
                   sizes="(max-width: 1024px) 768px, 1280px"
                 />
-                <img 
-                  src="/images/hero-bg-768.avif" 
-                  alt="DSG Şanzıman Teknik Görünüm" 
+                <img
+                  src="/images/hero-bg-768.avif"
+                  alt="DSG Şanzıman Teknik Görünüm"
                   class="w-full h-full object-cover opacity-80 hover:scale-110 transition-transform duration-[2s]"
                   loading="eager"
                   fetchpriority="high"
@@ -181,14 +267,22 @@ import BrandLogos from './BrandLogos';
                   height="454"
                 />
               </picture>
-               {/* Overlay Grid */}
-               <div class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:20px_20px] opacity-20"></div>
-               {/* Scanning Line Animation */}
-               <div class="absolute top-0 left-0 w-full h-1 bg-primary/50 shadow-[0_0_15px_rgba(249,115,22,0.5)] animate-[scan_3s_ease-in-out_infinite]"></div>
+              {/* Overlay Grid */}
+              <div
+                class="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:20px_20px] opacity-20"
+              >
+              </div>
+              {/* Scanning Line Animation */}
+              <div
+                class="absolute top-0 left-0 w-full h-1 bg-primary/50 shadow-[0_0_15px_rgba(249,115,22,0.5)] animate-[scan_3s_ease-in-out_infinite]"
+              >
+              </div>
             </div>
 
             {/* Bottom Data Panel */}
-            <div class="absolute bottom-0 left-0 right-0 h-24 bg-white/5 border-t border-white/10 p-4 font-mono text-xs text-primary/80">
+            <div
+              class="absolute bottom-0 left-0 right-0 h-24 bg-white/5 border-t border-white/10 p-4 font-mono text-xs text-primary/80"
+            >
               <div class="flex justify-between mb-2">
                 <span>STATUS:</span>
                 <span class="text-green-400">ONLINE</span>
@@ -197,61 +291,80 @@ import BrandLogos from './BrandLogos';
                 <span>DIAGNOSTIC:</span>
                 <span class="animate-pulse">RUNNING...</span>
               </div>
-              <div class="w-full bg-white/10 h-1 rounded-full overflow-hidden mt-3">
+              <div
+                class="w-full bg-white/10 h-1 rounded-full overflow-hidden mt-3"
+              >
                 <div class="bg-primary h-full w-2/3"></div>
               </div>
             </div>
           </div>
-          
+
           {/* Decorative Elements around frame */}
-          <div class="absolute -top-4 -right-4 w-24 h-24 border-t-2 border-r-2 border-primary/30 rounded-tr-3xl"></div>
-          <div class="absolute -bottom-4 -left-4 w-24 h-24 border-b-2 border-l-2 border-primary/30 rounded-bl-3xl"></div>
+          <div
+            class="absolute -top-4 -right-4 w-24 h-24 border-t-2 border-r-2 border-primary/30 rounded-tr-3xl"
+          >
+          </div>
+          <div
+            class="absolute -bottom-4 -left-4 w-24 h-24 border-b-2 border-l-2 border-primary/30 rounded-bl-3xl"
+          >
+          </div>
         </div>
       </div>
     </div>
   </div>
   {/* System Status / Marquee Bar - Cyberpunk Style */}
-  <div class="absolute bottom-0 left-0 right-0 h-12 bg-black/40 border-t border-white/10 backdrop-blur-sm z-20 flex items-center overflow-hidden">
-    <div class="flex items-center gap-8 animate-marquee whitespace-nowrap font-mono text-xs text-slate-400 tracking-widest select-none opacity-70">
+  <div
+    class="absolute bottom-0 left-0 right-0 h-12 bg-black/40 border-t border-white/10 backdrop-blur-sm z-20 flex items-center overflow-hidden"
+  >
+    <div
+      class="flex items-center gap-8 animate-marquee whitespace-nowrap font-mono text-xs text-slate-400 tracking-widest select-none opacity-70"
+    >
       {/* Content duplicated for seamless loop */}
-      {[...Array(4)].map(() => (
-        <>
-          <span class="text-primary">///</span>
-          <span>SYSTEM STATUS: ONLINE</span>
-          <span class="text-primary">///</span>
-          <span>OPEL DIAGNOSTIC READY</span>
-          <span class="text-primary">///</span>
-          <span>AUDI MECHATRONIC SYNC</span>
-          <span class="text-primary">///</span>
-          <span>VW TRANSMISSION OK</span>
-          <span class="text-primary">///</span>
-          <span>PORSCHE SERVICE MODE</span>
-          <span class="text-primary">///</span>
-          <span>SEAT ADAPTATION ACTIVE</span>
-          <span class="text-primary">///</span>
-          <span>SKODA LOGGING ENABLED</span>
-        </>
-      ))}
+      {
+        [...Array(4)].map(() => (
+          <>
+            <span class="text-primary">///</span>
+            <span>SYSTEM STATUS: ONLINE</span>
+            <span class="text-primary">///</span>
+            <span>OPEL DIAGNOSTIC READY</span>
+            <span class="text-primary">///</span>
+            <span>AUDI MECHATRONIC SYNC</span>
+            <span class="text-primary">///</span>
+            <span>VW TRANSMISSION OK</span>
+            <span class="text-primary">///</span>
+            <span>PORSCHE SERVICE MODE</span>
+            <span class="text-primary">///</span>
+            <span>SEAT ADAPTATION ACTIVE</span>
+            <span class="text-primary">///</span>
+            <span>SKODA LOGGING ENABLED</span>
+          </>
+        ))
+      }
     </div>
-    
-    {/* Gradient Fade for Marquee Edges */}
-    <div class="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#0f172a] to-transparent pointer-events-none"></div>
-    <div class="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[#0f172a] to-transparent pointer-events-none"></div>
-  </div>
 
+    {/* Gradient Fade for Marquee Edges */}
+    <div
+      class="absolute inset-y-0 left-0 w-32 bg-gradient-to-r from-[#0f172a] to-transparent pointer-events-none"
+    >
+    </div>
+    <div
+      class="absolute inset-y-0 right-0 w-32 bg-gradient-to-l from-[#0f172a] to-transparent pointer-events-none"
+    >
+    </div>
+  </div>
 </section>
 
 <style>
   /* Glow Orbs as pseudo-elements - prevents CLS */
   .hero-section::before,
   .hero-section::after {
-    content: '';
+    content: "";
     position: fixed;
     border-radius: 50%;
     pointer-events: none;
     z-index: 0;
   }
-  
+
   .hero-section::before {
     top: -10%;
     right: -5%;
@@ -261,7 +374,7 @@ import BrandLogos from './BrandLogos';
     filter: blur(120px);
     opacity: 0.4;
   }
-  
+
   .hero-section::after {
     bottom: -10%;
     left: -10%;
@@ -273,22 +386,36 @@ import BrandLogos from './BrandLogos';
   }
 
   @keyframes marquee {
-    0% { transform: translateX(0); }
-    100% { transform: translateX(-50%); }
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
   }
-  
+
   .animate-marquee {
     animation: marquee 40s linear infinite;
   }
 
   @keyframes scan {
-    0%, 100% { transform: translateY(0); opacity: 0; }
-    10% { opacity: 1; }
-    90% { opacity: 1; }
-    50% { transform: translateY(300px); }
+    0%,
+    100% {
+      transform: translateY(0);
+      opacity: 0;
+    }
+    10% {
+      opacity: 1;
+    }
+    90% {
+      opacity: 1;
+    }
+    50% {
+      transform: translateY(300px);
+    }
   }
-  
+
   .font-tech {
-    font-family: 'Monaco', 'Consolas', monospace;
+    font-family: "Monaco", "Consolas", monospace;
   }
 </style>
