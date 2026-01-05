@@ -23,25 +23,21 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
-DSG P yanıp sönüyor araba çalışmıyor sorunu, **DSG şanzımanlarda vites konumu algılama hatasını gösteren ciddi bir arızadır**. Vites göstergesinde P (Park) konumunun yanıp sönmesi ve aracın çalışmaması, şanzıman kontrol ünitesinin (TCU) vites konumunu algılayamadığını veya mekatronik modülde bir sorun olduğunu işaret eder. Bu durum, güvenlik nedeniyle motorun çalışmasını engeller.
-
-DSG P yanıp sönüyor araba çalışmıyor sorunu, genellikle vites konum sensörü arızası, mekatronik modül sorunu veya elektronik kart hatasından kaynaklanır. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile DSG P yanıp sönüyor sorununu çözüyoruz.
-
-:::tip
-
-**UZMAN TAVSİYESİ:** DSG P yanıp sönüyor ve araba çalışmıyor durumunda aracı zorlamayın ve hemen bir DSG uzmanına başvurun. Bu sorun, güvenlik nedeniyle motorun çalışmasını engeller ve acil müdahale gerektirir.
-
-:::
-
 :::cta
+# DSG P Yanıp Sönüyor, Araç Çalışmıyor mu?  
+## Hemen Destek Alın: [📞 0533 262 34 51](tel:05332623451)  
 
-**DSG P yanıp sönüyor sorunu için:**
+**Çoğu zaman mekatronik • Telefonda ilk yönlendirme • Hızlı Teşhis**
 
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+✓ Aracınızı zorlamayın  
+✓ Ekranda anahtar işareti veya P yanıp sönmesi tipik mekatronik belirtisidir  
+✓ Yerinde destek ve çekici yönlendirme için arayın  
 
+[📞 Hemen Ara](tel:05332623451)   [💬 WhatsApp’tan Durum Bildir](https://api.whatsapp.com/send?phone=905332623451)  
 :::
+
+> [!CAUTION]
+> **Önemli Uyarı:** Vites göstergesinde P yanıp sönüyorsa şanzıman kendini korumaya almış demektir. Kontağı defalarca açıp kapatmak mekatronik karta daha fazla zarar verebilir. Sakin olun ve uzman desteği isteyin.
 
 ## DSG P Yanıp Sönüyor Araba Çalışmıyor Belirtileri
 

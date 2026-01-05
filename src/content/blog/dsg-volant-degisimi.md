@@ -22,8 +22,10 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 ---
 
 :::cta
-# DSG Volant Değişimi  
-## 2025 Güncel Fiyat Bilgisi  
+# DSG Volant Değişimi 2025  
+## Net Fiyat Aralığı – Net Süre  
+
+**Araca göre değişir • Telefonda net bilgi • Sürpriz yok**
 
 ✓ İşlem öncesi net maliyet  
 ✓ Onaysız işlem yapılmaz  
@@ -33,6 +35,9 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 [📞 Hemen Ara](tel:05332623451)   [💬 WhatsApp’tan Fiyat Al](https://api.whatsapp.com/send?phone=905332623451)  
 *Telefonda konuşulan fiyat aralığı, servis sürecinde korunur.*
 :::
+
+> [!NOTE]
+> **Ortalama Fiyat Aralığı:** Kesin fiyat; aracın şase numarası, model yılı ve takılacak parçanın markasına (LUK, Sachs, Orijinal) göre araç başında netleştirilir. Sürpriz maliyetlerle karşılaşmazsınız.
 
 DSG araçlarda volant arızası, sürüş konforunu bozan ama çoğu zaman geç fark edilen bir problemdir. 
 Bu sayfada, değişim süreci ve maliyetin nasıl belirlendiğini net şekilde bulabilirsiniz.

@@ -23,25 +23,22 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
-DSG vites göstergesinde anahtar işareti, **DSG şanzıman sisteminde bir sorun olduğunu gösteren önemli bir uyarıdır**. Vites göstergesinde (PRND göstergesi) yanıp sönen anahtar işareti veya kilit sembolü, şanzıman kontrol ünitesinin (TCU) bir arıza tespit ettiğini gösterir. Bu uyarı, mekatronik modül arızası, elektronik kart sorunu, sensör hatası veya kavrama problemi gibi ciddi sorunların belirtisi olabilir.
-
-DSG anahtar işareti görüldüğünde, araç genellikle emniyet moduna geçer ve tek viteste kalır. Bu durum, sürüş güvenliğini etkileyebilir ve acil müdahale gerektirebilir. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile DSG anahtar işareti sorununu çözüyoruz.
-
-:::tip
-
-**UZMAN TAVSİYESİ:** DSG vites göstergesinde anahtar işareti görüldüğünde aracı zorlamayın ve hemen bir DSG uzmanına başvurun. Erken müdahale, tamir maliyetini %60 azaltır ve şanzıman değişiminden %80 tasarruf sağlar.
-
-:::
-
 :::cta
+# DSG Anahtar İşareti Ne Anlama Gelir?  
+## Hemen Destek Alın: [📞 0533 262 34 51](tel:05332623451)  
 
-**DSG anahtar işareti teşhisi için:**
+**Sürüşe devam etmeyin • Hızlı teşhis önemli • Garantili Çözüm**
 
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+✓ Şanzıman kendini korumaya almış olabilir  
+✓ Yanlış müdahale mekatronik maliyetini artırır  
+✓ Aynı gün bilgisayarlı arıza tespiti  
+✓ Kavrama veya mekatronik bazlı sorun analizi  
 
+[📞 Hemen Ara](tel:05332623451)   [💬 WhatsApp’tan Bilgi Al](https://api.whatsapp.com/send?phone=905332623451)  
 :::
+
+> [!WARNING]
+> **Kritik Bilgi:** Ekranda yanıp sönen anahtar işareti, sistemin "tolerans dışı" bir durum saptadığının uyarısıdır. Bu halde uzun yol yapmak veya aracı zorlamak, basit bir solenoid temizliğiyle çözülecek sorunu komple beyin değişimine kadar götürebilir.
 
 ## DSG Anahtar İşareti Nedir?
 

@@ -23,25 +23,23 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
-DSG şanzıman fiyatları, **şanzıman tipine (DQ200, DQ250, DQ381/DQ500)**, **ünite kalitesine (yenilenmiş, çıkma, sıfır)** ve **model** bazında değişir. DSG şanzıman değişimi, revizyonla çözülemeyen ağır arızalarda gerekli olan komple değişim işlemidir. Kod uyumluluğu kritiktir; yanlış kod seçimi araç çalışmayabilir veya sürekli arıza verebilir.
-
-2025 yılı için *DSG şanzıman fiyatları*, şanzıman tipine, model, ünite kalitesine ve işçilik maliyetine göre değişir. Yenilenmiş ünite uygun maliyetler, çıkma ünite uygun maliyetler, sıfır ünite uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **kod uyumluluğu kontrolü**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile DSG şanzıman değişimi hizmeti sunuyoruz.
-
-:::tip
-
-**UZMAN TAVSİYESİ:** DSG şanzıman değişiminden önce mutlaka revizyon opsiyonunu değerlendirin. Çoğu arıza mekatronik veya kavrama değişimi ile çözülebilir; tam değişim maliyetini %50-60 düşürür. Kod uyumluluğu kontrolü zorunludur.
-
-:::
-
 :::cta
+# DSG Şanzıman Fiyatları 2025  
+## Onarım mı Değişim mi?  
 
-**Ücretsiz ön teşhis ve servis teklifi için:**
+**Gereksiz değişim yok • Önce arıza tespiti • Net Maliyet**
 
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+✓ Şanzıman revizyonu ile %60 tasarruf  
+✓ Kod uyumlu garantili üniteler  
+✓ Aynı gün arıza tespiti  
+✓ Yazılım ve adaptasyon dahil  
 
+[📞 Hemen Ara](tel:05332623451)   [💬 WhatsApp’tan Fiyat Al](https://api.whatsapp.com/send?phone=905332623451)  
+*Önce tamir opsiyonunu zorluyoruz, değişim son çaredir.*
 :::
+
+> [!IMPORTANT]
+> **Neden Önce Teşhis?** Her sarsıntı veya arıza lambası komple şanzıman değişimi gerektirmez. Çoğu durumda mekatronik kart tamiri veya kavrama yenileme ile sorunu çok daha ekonomik çözüyoruz.
 
 ## DSG Şanzıman Hizmetleri (Genel)
 
