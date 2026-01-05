@@ -28,12 +28,17 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 ✓ İşlem öncesi net maliyet  
 ✓ Onaysız işlem yapılmaz  
 ✓ Aynı gün servis imkânı  
+✓ Fiyat, araç başında değişmez  
 
 [📞 Hemen Ara](tel:05332623451)   [💬 WhatsApp’tan Fiyat Al](https://api.whatsapp.com/send?phone=905332623451)  
 *Telefonda konuşulan fiyat aralığı, servis sürecinde korunur.*
 :::
 
-DSG volant (flywheel) motor ile şanzıman arasında titreşim sönümleyici görevi görür. Volant arızası; motor titreşimi, vites atarken tak‑tak sesi, kavrama kayması ve mekatronik baskı sorunlarına yol açar. Kuru kavramalı DSG'lerde (DQ200) daha hızlı yıpranır.
+DSG araçlarda volant arızası, sürüş konforunu bozan ama çoğu zaman geç fark edilen bir problemdir. 
+Bu sayfada, değişim süreci ve maliyetin nasıl belirlendiğini net şekilde bulabilirsiniz.
+
+DSG volant (flywheel) motor ile şanzıman arasında titreşim sönümleyici görevi görür. 
+Volant arızası; motor titreşimi, vites atarken tak‑tak sesi, kavrama kayması ve mekatronik baskı sorunlarına yol açar. Kuru kavramalı DSG'lerde (DQ200) daha hızlı yıpranır.
 
 Yıldızlar Grup DSG Servisi; volant sökme, yüzey kontrolü, işleme veya değişim hizmetleri sunar. Değişimde kavrama seti ve ilgili kontroller birlikte yapılır. Tek kütleli volanta geçiş bazı modellerde mümkün olsa da titreşimi artırdığı için tavsiye edilmez.
 
@@ -42,7 +47,8 @@ Volant değişimi sırasında kavrama seti mutlaka yenilenmelidir. Eski kavrama 
 :::
 
 :::cta
-Volant kontrolü ve net fiyat bilgisi
+# Volant Kontrolü + Net Fiyat Onayı
+İşlem başlamadan önce toplam maliyet netleştirilir.
 :::
 
 ## Volant Arıza Belirtileri
@@ -66,11 +72,11 @@ Volant kontrolü ve net fiyat bilgisi
 
 ## 2025 DSG Volant Değişimi Fiyat Listesi
 
-| İşlem | Parça (Volant + Kavrama Seti) | İşçilik | Toplam |
-| --- | --- | --- | --- |
-| Çift Kütleli Volant + Kavrama (DQ200 Kuru) | Net Maliyet | Net Maliyet | Net Maliyet |
-| Çift Kütleli Volant + Kavrama (DQ250 Islak) | Net Maliyet | Net Maliyet | Net Maliyet |
-| Volant Yüzey İşleme (taşlama) | Net Maliyet | 800–uygun fiyat | Net Maliyet |
+| İşlem | Maliyet Yaklaşımı |
+| --- | --- |
+| DQ200 Kuru Kavrama Volant + Set | Araç ve parça durumuna göre netleştirilir |
+| DQ250 Islak Kavrama Volant + Set | İşlem öncesi toplam fiyat onayı |
+| Volant Yüzey İşleme | Çoğu durumda değişime göre daha ekonomiktir |
 
 *Net fiyat, kontrol sonrası işlem başlamadan önce bildirilir.*
 
@@ -86,7 +92,8 @@ Volant kontrolü ve net fiyat bilgisi
 </ul>
 
 :::cta
-Volant kontrolü ve net fiyat bilgisi
+# Volant Kontrolü + Net Fiyat Onayı
+İşlem başlamadan önce toplam maliyet netleştirilir.
 :::
 
 ## Orijinal vs Yan Sanayi Volant
