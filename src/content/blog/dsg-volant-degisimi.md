@@ -7,8 +7,8 @@ tags: ["volant", "kavrama", "dsg", "şanzıman"]
 slug: "dsg-volant-degisimi"
 publishDate: "2025-11-04T11:00:00+03:00"
 updatedDate: "2025-11-04T11:00:00+03:00"
-featuredImage: "/wp-cache/images/dsg-volant-degisimi.jpg"
-ogImage: "/wp-cache/images/dsg-volant-degisimi.jpg"
+featuredImage: "/images/blog/dsg-volant-degisimi.jpg"
+ogImage: "/images/blog/dsg-volant-degisimi.jpg"
 imageAlt: "DSG çift kütleli volant ve kavrama değişimi"
 author: "Yıldızlar Grup DSG Servisi"
 draft: false
