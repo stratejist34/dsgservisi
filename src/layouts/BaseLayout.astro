@@ -649,6 +649,20 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
         window.addEventListener(event, loadGA, { once: true, passive: true });
       });
       setTimeout(loadGA, 3000);
+
+      // Map Tracking & Attribution Leak Detection
+      document.addEventListener('click', function(e) {
+        const link = e.target.closest('a');
+        if (link && link.href && (link.href.includes('maps.google') || link.href.includes('maps.app.goo.gl'))) {
+          if (window.gtag) {
+            window.gtag('event', 'konum_linki_tiklandi', {
+              'event_category': 'engagement',
+              'event_label': link.href,
+              'page_path': window.location.pathname
+            });
+          }
+        }
+      }, true);
     </script>
   )}
 </body>
