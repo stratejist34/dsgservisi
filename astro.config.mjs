@@ -40,7 +40,7 @@ export default defineConfig({
       applyBaseStyles: false,
     }),
     sitemap({
-      filter: (page) => !page.includes('/api/'),
+      filter: (page) => !page.includes('/api/') && !page.includes('/blog/preview'),
       changefreq: 'weekly',
       priority: 0.7,
       lastmod: new Date(),

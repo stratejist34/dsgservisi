@@ -1,21 +1,30 @@
 ---
-import BaseLayout from '@layouts/BaseLayout.astro';
-import { SITE_CONFIG } from '@utils/constants';
+import BaseLayout from "@layouts/BaseLayout.astro";
+import { SITE_CONFIG } from "@utils/constants";
 
-const title = 'Kullanım Koşulları | DSG Servisi';
-const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları. Hizmet kullanım koşullarımız.';
+const title = "Kullanım Koşulları | DSG Servisi";
+const description =
+  "DSG Servisi web sitesi kullanım koşulları ve şartları. Hizmet kullanım koşullarımız.";
 ---
 
-<BaseLayout title={title} description={description} noindex={true}>
+<BaseLayout title={title} description={description}>
   <!-- Hero Section -->
-  <section class="relative min-h-[30vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-navy-700 to-navy">
+  <section
+    class="relative min-h-[30vh] flex items-center justify-center overflow-hidden bg-gradient-to-br from-navy via-navy-700 to-navy"
+  >
     <div class="container relative z-10 py-12">
       <div class="max-w-4xl mx-auto text-center">
         <h1 class="text-4xl md:text-5xl font-display font-bold text-white mb-4">
           Kullanım <span class="text-cyan">Koşulları</span>
         </h1>
         <p class="text-base md:text-lg text-gray-300">
-          Son güncelleme: {new Date().toLocaleDateString('tr-TR', { year: 'numeric', month: 'long', day: 'numeric' })}
+          Son güncelleme: {
+            new Date().toLocaleDateString("tr-TR", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            })
+          }
         </p>
       </div>
     </div>
@@ -27,58 +36,106 @@ const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları.
       <div class="max-w-4xl mx-auto prose prose-lg">
         <div class="bg-cyan/5 border-l-4 border-cyan p-6 rounded-r-xl mb-8">
           <p class="text-gray-700 leading-relaxed mb-0">
-            {SITE_CONFIG.name} web sitesini kullanarak aşağıdaki kullanım koşullarını kabul etmiş sayılırsınız. 
-            Bu koşulları kabul etmiyorsanız, lütfen web sitemizi kullanmayınız.
+            {SITE_CONFIG.name} web sitesini kullanarak aşağıdaki kullanım koşullarını
+            kabul etmiş sayılırsınız. Bu koşulları kabul etmiyorsanız, lütfen web
+            sitemizi kullanmayınız.
           </p>
         </div>
 
         <div class="space-y-8">
           <!-- Bölüm 1 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">1</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >1</span
+              >
               Genel Hükümler
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
               <ul class="list-disc pl-6 space-y-2">
-                <li>Bu web sitesi {SITE_CONFIG.name} tarafından işletilmektedir.</li>
-                <li>Web sitesi üzerinden sunulan bilgiler genel amaçlıdır ve profesyonel tavsiye yerine geçmez.</li>
-                <li>Web sitesini kullanırken yürürlükteki tüm yasalara ve düzenlemelere uymayı kabul edersiniz.</li>
-                <li>18 yaşından küçükseniz, web sitesini ancak ebeveyn veya vasi gözetiminde kullanabilirsiniz.</li>
-                <li>Kullanım koşullarını herhangi bir zamanda güncelleme hakkımız saklıdır.</li>
+                <li>
+                  Bu web sitesi {SITE_CONFIG.name} tarafından işletilmektedir.
+                </li>
+                <li>
+                  Web sitesi üzerinden sunulan bilgiler genel amaçlıdır ve
+                  profesyonel tavsiye yerine geçmez.
+                </li>
+                <li>
+                  Web sitesini kullanırken yürürlükteki tüm yasalara ve
+                  düzenlemelere uymayı kabul edersiniz.
+                </li>
+                <li>
+                  18 yaşından küçükseniz, web sitesini ancak ebeveyn veya vasi
+                  gözetiminde kullanabilirsiniz.
+                </li>
+                <li>
+                  Kullanım koşullarını herhangi bir zamanda güncelleme hakkımız
+                  saklıdır.
+                </li>
               </ul>
             </div>
           </div>
 
           <!-- Bölüm 2 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">2</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >2</span
+              >
               Hizmet Kapsamı
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
               <p>Web sitemiz aracılığıyla sunduğumuz hizmetler:</p>
               <ul class="list-disc pl-6 space-y-2">
-                <li><strong>Bilgi Sağlama:</strong> DSG şanzıman ve mekatronik servisleri hakkında bilgi</li>
-                <li><strong>Randevu Sistemi:</strong> Telefon ve WhatsApp üzerinden randevu alma</li>
-                <li><strong>Fiyat Teklifi:</strong> Hizmetlerimiz için fiyat bilgisi alma</li>
-                <li><strong>Blog İçeriği:</strong> Otomotiv ve bakım hakkında eğitici içerikler</li>
-                <li><strong>İletişim:</strong> Soru ve talepleriniz için iletişim kanalları</li>
+                <li>
+                  <strong>Bilgi Sağlama:</strong> DSG şanzıman ve mekatronik servisleri
+                  hakkında bilgi
+                </li>
+                <li>
+                  <strong>Randevu Sistemi:</strong> Telefon ve WhatsApp üzerinden
+                  randevu alma
+                </li>
+                <li>
+                  <strong>Fiyat Teklifi:</strong> Hizmetlerimiz için fiyat bilgisi
+                  alma
+                </li>
+                <li>
+                  <strong>Blog İçeriği:</strong> Otomotiv ve bakım hakkında eğitici
+                  içerikler
+                </li>
+                <li>
+                  <strong>İletişim:</strong> Soru ve talepleriniz için iletişim kanalları
+                </li>
               </ul>
               <p class="mt-4 font-semibold">
-                Not: Nihai hizmet kapsamı ve fiyatlandırma, aracınızın fiziksel muayenesi sonrası belirlenecektir.
+                Not: Nihai hizmet kapsamı ve fiyatlandırma, aracınızın fiziksel
+                muayenesi sonrası belirlenecektir.
               </p>
             </div>
           </div>
 
           <!-- Bölüm 3 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">3</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >3</span
+              >
               Kullanıcı Sorumlulukları
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
-              <p>Web sitesini kullanırken aşağıdaki kurallara uymanız gerekmektedir:</p>
+              <p>
+                Web sitesini kullanırken aşağıdaki kurallara uymanız
+                gerekmektedir:
+              </p>
               <ul class="list-disc pl-6 space-y-2">
                 <li>Doğru ve güncel bilgiler sağlamak</li>
                 <li>Yanıltıcı veya sahte bilgi vermemek</li>
@@ -94,12 +151,20 @@ const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları.
 
           <!-- Bölüm 4 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">4</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >4</span
+              >
               Fikri Mülkiyet Hakları
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
-              <p>Web sitesindeki tüm içerikler {SITE_CONFIG.name} veya lisans sahiplerine aittir:</p>
+              <p>
+                Web sitesindeki tüm içerikler {SITE_CONFIG.name} veya lisans sahiplerine
+                aittir:
+              </p>
               <ul class="list-disc pl-6 space-y-2">
                 <li>Logolar, markalar ve ticari markalar</li>
                 <li>Yazılı içerikler, makaleler, blog yazıları</li>
@@ -108,25 +173,39 @@ const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları.
                 <li>Kod ve yazılım</li>
               </ul>
               <p class="mt-4">
-                Bu içeriklerin izinsiz kopyalanması, çoğaltılması, dağıtılması veya değiştirilmesi yasaktır. 
-                Ticari amaçlı kullanım için yazılı izin alınması gerekmektedir.
+                Bu içeriklerin izinsiz kopyalanması, çoğaltılması, dağıtılması
+                veya değiştirilmesi yasaktır. Ticari amaçlı kullanım için yazılı
+                izin alınması gerekmektedir.
               </p>
             </div>
           </div>
 
           <!-- Bölüm 5 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">5</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >5</span
+              >
               Fiyatlandırma ve Ödeme
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
               <ul class="list-disc pl-6 space-y-2">
-                <li>Web sitesinde belirtilen fiyatlar bilgilendirme amaçlıdır ve değişebilir.</li>
-                <li>Nihai fiyat, aracınızın muayenesi sonrası tarafınıza bildirilecektir.</li>
+                <li>
+                  Web sitesinde belirtilen fiyatlar bilgilendirme amaçlıdır ve
+                  değişebilir.
+                </li>
+                <li>
+                  Nihai fiyat, aracınızın muayenesi sonrası tarafınıza
+                  bildirilecektir.
+                </li>
                 <li>Fiyatlara KDV dahildir (aksi belirtilmedikçe).</li>
                 <li>Ödeme işlemleri servisimizde yüz yüze gerçekleştirilir.</li>
-                <li>Nakit, kredi kartı ve banka kartı ile ödeme kabul edilir.</li>
+                <li>
+                  Nakit, kredi kartı ve banka kartı ile ödeme kabul edilir.
+                </li>
                 <li>Fatura veya dekont mutlaka istenmelidir.</li>
               </ul>
             </div>
@@ -134,47 +213,74 @@ const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları.
 
           <!-- Bölüm 6 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">6</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >6</span
+              >
               Randevu ve İptal Politikası
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
               <p><strong>Randevu Alma:</strong></p>
               <ul class="list-disc pl-6 space-y-2 mb-4">
                 <li>Randevular telefon veya WhatsApp üzerinden alınır.</li>
-                <li>Randevu onayı için servisimizden doğrulama almanız gerekmektedir.</li>
+                <li>
+                  Randevu onayı için servisimizden doğrulama almanız
+                  gerekmektedir.
+                </li>
                 <li>Randevu saatine 15 dakika tolerans uygulanır.</li>
               </ul>
-              
+
               <p><strong>İptal ve Değişiklik:</strong></p>
               <ul class="list-disc pl-6 space-y-2">
-                <li>Randevu iptalleri en az 24 saat önceden bildirilmelidir.</li>
-                <li>Geç kalma veya gelememe durumunda bizi bilgilendirmeniz önemlidir.</li>
-                <li>Tekrarlayan geç kalma veya gelmeme durumlarında randevu alamama riski vardır.</li>
+                <li>
+                  Randevu iptalleri en az 24 saat önceden bildirilmelidir.
+                </li>
+                <li>
+                  Geç kalma veya gelememe durumunda bizi bilgilendirmeniz
+                  önemlidir.
+                </li>
+                <li>
+                  Tekrarlayan geç kalma veya gelmeme durumlarında randevu
+                  alamama riski vardır.
+                </li>
               </ul>
             </div>
           </div>
 
           <!-- Bölüm 7 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">7</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >7</span
+              >
               Garanti ve Sorumluluk
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
               <p><strong>Hizmet Garantisi:</strong></p>
               <ul class="list-disc pl-6 space-y-2 mb-4">
                 <li>Yaptığımız işçilik için garanti süresi sunulmaktadır.</li>
-                <li>Kullandığımız yedek parçalar için üretici garantisi geçerlidir.</li>
+                <li>
+                  Kullandığımız yedek parçalar için üretici garantisi
+                  geçerlidir.
+                </li>
                 <li>Garanti koşulları hizmet sözleşmesinde belirtilir.</li>
               </ul>
-              
+
               <p><strong>Sorumluluk Sınırları:</strong></p>
               <ul class="list-disc pl-6 space-y-2">
                 <li>Web sitesi "olduğu gibi" sunulmaktadır.</li>
                 <li>Teknik aksaklıklar veya kesintiler yaşanabilir.</li>
                 <li>Üçüncü taraf bağlantılardan sorumlu değiliz.</li>
-                <li>Web sitesindeki bilgilerin doğruluğu için çaba gösterilir ancak garanti verilmez.</li>
+                <li>
+                  Web sitesindeki bilgilerin doğruluğu için çaba gösterilir
+                  ancak garanti verilmez.
+                </li>
                 <li>Dolaylı veya özel zararlardan sorumlu tutulamayız.</li>
               </ul>
             </div>
@@ -182,28 +288,43 @@ const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları.
 
           <!-- Bölüm 8 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">8</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >8</span
+              >
               Üçüncü Taraf Bağlantıları
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
               <p>
-                Web sitemiz, üçüncü taraf web sitelerine bağlantılar içerebilir. Bu bağlantılar yalnızca 
-                kolaylık sağlamak amacıyla sunulmaktadır. Bu sitelerin içeriğinden veya gizlilik 
-                uygulamalarından sorumlu değiliz. Üçüncü taraf sitelerini kullanmadan önce kendi 
-                kullanım koşullarını ve gizlilik politikalarını incelemenizi öneririz.
+                Web sitemiz, üçüncü taraf web sitelerine bağlantılar içerebilir.
+                Bu bağlantılar yalnızca kolaylık sağlamak amacıyla
+                sunulmaktadır. Bu sitelerin içeriğinden veya gizlilik
+                uygulamalarından sorumlu değiliz. Üçüncü taraf sitelerini
+                kullanmadan önce kendi kullanım koşullarını ve gizlilik
+                politikalarını incelemenizi öneririz.
               </p>
             </div>
           </div>
 
           <!-- Bölüm 9 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">9</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >9</span
+              >
               Hesap Feshi
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
-              <p>Aşağıdaki durumlarda erişiminizi sonlandırma hakkımızı saklı tutarız:</p>
+              <p>
+                Aşağıdaki durumlarda erişiminizi sonlandırma hakkımızı saklı
+                tutarız:
+              </p>
               <ul class="list-disc pl-6 space-y-2">
                 <li>Kullanım koşullarını ihlal etmeniz</li>
                 <li>Yasa dışı faaliyetlerde bulunmanız</li>
@@ -216,57 +337,86 @@ const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları.
 
           <!-- Bölüm 10 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">10</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >10</span
+              >
               Uyuşmazlık Çözümü
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
               <p>
-                Bu kullanım koşullarından kaynaklanan tüm uyuşmazlıklar Türkiye Cumhuriyeti yasalarına 
-                tabidir. İstanbul (Türkiye) mahkemeleri ve icra daireleri yetkilidir.
+                Bu kullanım koşullarından kaynaklanan tüm uyuşmazlıklar Türkiye
+                Cumhuriyeti yasalarına tabidir. İstanbul (Türkiye) mahkemeleri
+                ve icra daireleri yetkilidir.
               </p>
               <p class="mt-4">
-                Uyuşmazlık durumunda öncelikle dostane çözüm yolları denenmeli, gerekirse 
-                <strong>Tüketici Hakem Heyetleri</strong> ve <strong>Tüketici Mahkemeleri</strong>'ne başvurulabilir.
+                Uyuşmazlık durumunda öncelikle dostane çözüm yolları denenmeli,
+                gerekirse
+                <strong>Tüketici Hakem Heyetleri</strong> ve <strong
+                  >Tüketici Mahkemeleri</strong
+                >'ne başvurulabilir.
               </p>
             </div>
           </div>
 
           <!-- Bölüm 11 -->
           <div>
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3">
-              <span class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold">11</span>
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4 flex items-center gap-3"
+            >
+              <span
+                class="w-10 h-10 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center text-white font-bold"
+                >11</span
+              >
               Değişiklikler ve Güncellemeler
             </h2>
             <div class="pl-13 space-y-4 text-gray-700">
               <p>
-                Bu kullanım koşullarını herhangi bir zamanda, önceden bildirimde bulunmaksızın 
-                güncelleme ve değiştirme hakkımızı saklı tutarız. Önemli değişiklikler yapıldığında 
-                web sitemizde duyuru yapılacaktır.
+                Bu kullanım koşullarını herhangi bir zamanda, önceden bildirimde
+                bulunmaksızın güncelleme ve değiştirme hakkımızı saklı tutarız.
+                Önemli değişiklikler yapıldığında web sitemizde duyuru
+                yapılacaktır.
               </p>
               <p class="mt-4">
-                Web sitesini kullanmaya devam etmeniz, güncellenmiş koşulları kabul ettiğiniz 
-                anlamına gelir. Bu nedenle kullanım koşullarını düzenli olarak kontrol etmenizi öneririz.
+                Web sitesini kullanmaya devam etmeniz, güncellenmiş koşulları
+                kabul ettiğiniz anlamına gelir. Bu nedenle kullanım koşullarını
+                düzenli olarak kontrol etmenizi öneririz.
               </p>
             </div>
           </div>
 
           <!-- İletişim -->
-          <div class="bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl p-8 border-2 border-primary/20">
-            <h2 class="text-2xl md:text-3xl font-display font-bold text-navy mb-4">
+          <div
+            class="bg-gradient-to-br from-primary/10 to-cyan/10 rounded-2xl p-8 border-2 border-primary/20"
+          >
+            <h2
+              class="text-2xl md:text-3xl font-display font-bold text-navy mb-4"
+            >
               Sorularınız mı Var?
             </h2>
             <p class="text-gray-700 mb-6">
-              Kullanım koşullarımız hakkında sorularınız veya önerileriniz için bizimle iletişime geçin:
+              Kullanım koşullarımız hakkında sorularınız veya önerileriniz için
+              bizimle iletişime geçin:
             </p>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <a 
+              <a
                 href={`tel:${SITE_CONFIG.phoneTel}`}
                 class="flex items-center gap-3 p-4 bg-white rounded-xl hover:shadow-lg transition-shadow"
               >
-                <div class="w-12 h-12 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"></path>
+                <div
+                  class="w-12 h-12 bg-gradient-to-br from-primary to-cyan rounded-lg flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
+                    ></path>
                   </svg>
                 </div>
                 <div>
@@ -274,28 +424,49 @@ const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları.
                   <p class="font-semibold text-primary">{SITE_CONFIG.phone}</p>
                 </div>
               </a>
-              <a 
+              <a
                 href={`mailto:${SITE_CONFIG.email}`}
                 class="flex items-center gap-3 p-4 bg-white rounded-xl hover:shadow-lg transition-shadow"
               >
-                <div class="w-12 h-12 bg-gradient-to-br from-cyan to-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"></path>
-                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"></path>
+                <div
+                  class="w-12 h-12 bg-gradient-to-br from-cyan to-primary rounded-lg flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"
+                    ></path>
+                    <path
+                      d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"
+                    ></path>
                   </svg>
                 </div>
                 <div class="flex-1 min-w-0">
                   <p class="text-xs text-gray-600">E-posta</p>
-                  <p class="font-semibold text-cyan text-sm truncate">{SITE_CONFIG.email}</p>
+                  <p class="font-semibold text-cyan text-sm truncate">
+                    {SITE_CONFIG.email}
+                  </p>
                 </div>
               </a>
-              <a 
+              <a
                 href="/iletisim"
                 class="flex items-center gap-3 p-4 bg-white rounded-xl hover:shadow-lg transition-shadow"
               >
-                <div class="w-12 h-12 bg-gradient-to-br from-navy to-primary rounded-lg flex items-center justify-center flex-shrink-0">
-                  <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z" clip-rule="evenodd"></path>
+                <div
+                  class="w-12 h-12 bg-gradient-to-br from-navy to-primary rounded-lg flex items-center justify-center flex-shrink-0"
+                >
+                  <svg
+                    class="w-6 h-6 text-white"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+                      clip-rule="evenodd"></path>
                   </svg>
                 </div>
                 <div>
@@ -310,4 +481,3 @@ const description = 'DSG Servisi web sitesi kullanım koşulları ve şartları.
     </div>
   </section>
 </BaseLayout>
-
