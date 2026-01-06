@@ -43,7 +43,6 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
   <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   
   <link rel="icon" type="image/webp" href="/images/icon.webp" />
@@ -71,12 +70,17 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
-  {/* Google Fonts - Standard high-performance loading with display=swap */}
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet" />
+  {/* Google Fonts - Async loading to prevent render blocking (Removed unused Plus Jakarta Sans) */}
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" media="print" onload="this.media='all'" />
+  <noscript>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet" />
+  </noscript>
   
-  {/* Preload Critical Resources - Responsive image preload (Optimized with correctly sized AVIFs) */}
+  {/* Preload Critical Resources - Responsive LCP image preload (Fixing 3.4s LCP) */}
   <link rel="preload" href="/images/hero-bg-480.avif" as="image" type="image/avif" media="(max-width: 480px)" fetchpriority="high">
-  <link rel="preload" href="/images/hero-bg-1920.avif" as="image" type="image/avif" media="(min-width: 481px)" fetchpriority="high">
+  <link rel="preload" href="/images/hero-bg-768.avif" as="image" type="image/avif" media="(min-width: 481px) and (max-width: 1024px)" fetchpriority="high">
+  <link rel="preload" href="/images/hero-bg-1920.avif" as="image" type="image/avif" media="(min-width: 1025px)" fetchpriority="high">
   
   {/* Critical CSS - Genişletilmiş */}
   <style is:inline>
@@ -534,13 +538,17 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
         let scrollHeight = 0;
         let windowHeight = 0;
         
-        // İlk yüklemede değerleri ertele - forced reflow önleme
+        // İlk yüklemede değerleri ertele - forced reflow önleme (Deffered by 2s + Idle)
         function cacheDimensions() {
-          // scrollHeight okuması layout trigger eder, bu yüzden DOM yerleşene kadar ertele
-          requestIdleCallback(() => {
+          const run = () => {
             scrollHeight = document.documentElement.scrollHeight;
             windowHeight = window.innerHeight;
-          });
+          };
+          if ('requestIdleCallback' in window) {
+            setTimeout(() => requestIdleCallback(run), 2000);
+          } else {
+            setTimeout(run, 3000);
+          }
         }
         cacheDimensions();
         window.addEventListener('resize', cacheDimensions, { passive: true });

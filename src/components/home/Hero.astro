@@ -157,12 +157,17 @@ import BrandLogos from "./BrandLogos";
                 />
                 <source
                   type="image/avif"
+                  srcset="/images/hero-bg-768.avif"
+                  media="(min-width: 481px) and (max-width: 1024px)"
+                />
+                <source
+                  type="image/avif"
                   srcset="/images/hero-bg-1920.avif"
-                  media="(min-width: 481px)"
+                  media="(min-width: 1025px)"
                 />
                 <source
                   type="image/webp"
-                  srcset="/images/hero-bg-480.webp 480w, /images/hero-bg-1280.webp 1280w"
+                  srcset="/images/hero-bg-480.webp 480w, /images/hero-bg-768.webp 768w, /images/hero-bg-1280.webp 1280w"
                   sizes="(max-width: 480px) 100vw, 768px"
                 />
                 <img
