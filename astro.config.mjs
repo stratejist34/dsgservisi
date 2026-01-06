@@ -83,6 +83,7 @@ export default defineConfig({
     assets: '_assets',
   },
   compressHTML: true,
+  trailingSlash: 'ignore', // GSC Case 3: Fix slash/non-slash 404 issues
   server: {
     headers: {
       'Cache-Control': 'public, max-age=31536000, immutable',
@@ -124,17 +125,32 @@ export default defineConfig({
     },
   },
   redirects: {
-    // GSC Duplicate URL Fix: /blog/slug -> /slug
-    // Catch-all for blog posts
+    // GSC Case 1: /blog/slug -> /slug (Duplicate Content Fix)
     '/blog/[...slug]': {
       status: 301,
       destination: '/[slug]'
     },
-    // Fix for pagination links that might still point to /blog/1, /blog/2 etc.
-    '/blog/[page]': {
-      status: 301,
-      destination: '/blog/[page]'
-    }
+
+    // GSC Case 3: WordPress Legacy Redirects (404 Fix)
+    '/category/[...slug]': { status: 301, destination: '/blog' },
+    '/sepet': { status: 301, destination: '/blog' },
+    '/checkout': { status: 301, destination: '/blog' },
+    '/shop': { status: 301, destination: '/blog' },
+    '/odeme': { status: 301, destination: '/blog' },
+    '/contact': { status: 301, destination: '/iletisim' },
+    '/about': { status: 301, destination: '/' },
+    '/training': { status: 301, destination: '/blog' },
+    '/home-2': { status: 301, destination: '/' },
+
+    // GSC Case 3: Major Slug Mismatches & Current Site 404s
+    '/zf-sanziman-yag-degisimi': { status: 301, destination: '/zf-sanziman-yagi-degisimi' },
+    '/dsg-sanziman-yag-degisimi': { status: 301, destination: '/dsg-sanziman-yagi-degisimi' },
+    '/istanbul-avrupa-yakasi-volkswagen-servis': { status: 301, destination: '/volkswagen-servis-avrupa-yakasi' },
+    '/istanbul-avrupa-yakasi-bmw-servis': { status: 301, destination: '/bmw-servis-avrupa-yakasi' },
+    '/sanziman-revizyonu': { status: 301, destination: '/dsg-sanziman-tamiri' },
+    '/buyukcekmece-mercedes-servis': { status: 301, destination: '/mercedes-servis-avrupa-yakasi' },
+    '/buyukcekmece-bmw-servis': { status: 301, destination: '/bmw-servis-avrupa-yakasi' },
+    '/beylikduzu-volkswagen-servis': { status: 301, destination: '/volkswagen-servis-avrupa-yakasi' }
   }
 });
 
