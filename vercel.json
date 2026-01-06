@@ -1,4 +1,16 @@
 {
+  "redirects": [
+    {
+      "source": "/blog/(?!page|preview)(.*)",
+      "destination": "/$1",
+      "permanent": true
+    },
+    {
+      "source": "/category/(.*)",
+      "destination": "/blog",
+      "permanent": true
+    }
+  ],
   "buildCommand": "astro build",
   "framework": "astro",
   "build": {
@@ -7,8 +19,17 @@
     }
   },
   "images": {
-    "sizes": [480, 768, 1280, 1920, 2560],
-    "formats": ["image/avif", "image/webp"],
+    "sizes": [
+      480,
+      768,
+      1280,
+      1920,
+      2560
+    ],
+    "formats": [
+      "image/avif",
+      "image/webp"
+    ],
     "minimumCacheTTL": 31536000
   },
   "headers": [

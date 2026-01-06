@@ -125,14 +125,7 @@ export default defineConfig({
     },
   },
   redirects: {
-    // GSC Case 1: /blog/slug -> /slug (Duplicate Content Fix)
-    '/blog/[...slug]': {
-      status: 301,
-      destination: '/[slug]'
-    },
-
     // GSC Case 3: WordPress Legacy Redirects (404 Fix)
-    '/category/[...slug]': { status: 301, destination: '/blog' },
     '/sepet': { status: 301, destination: '/blog' },
     '/checkout': { status: 301, destination: '/blog' },
     '/shop': { status: 301, destination: '/blog' },
