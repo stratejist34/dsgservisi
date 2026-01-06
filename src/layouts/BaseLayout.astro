@@ -247,10 +247,10 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
       <Footer />
   
       {/* Floating Buttons - Optimize lazy loading */}
-      {/* Floating Buttons - Defer further with client:visible to reduce initial JS chain */}
-      <PhoneButton client:visible pageId={pageId} />
+      {/* Floating Buttons - Use client:idle for fixed elements to ensure visibility while staying fast */}
+      <PhoneButton client:idle pageId={pageId} />
       <WhatsAppButton
-        client:visible
+        client:idle
         pageId={pageId}
         message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
       />
