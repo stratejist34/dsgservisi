@@ -74,10 +74,8 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
   <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
   <noscript><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet"></noscript>
   
-  {/* Preload Critical Resources - Responsive image preload */}
-  <link rel="preload" href="/images/hero-bg-480.avif" as="image" type="image/avif" media="(max-width: 480px)" fetchpriority="high">
-  <link rel="preload" href="/images/hero-bg-768.avif" as="image" type="image/avif" media="(min-width: 481px) and (max-width: 1024px)" fetchpriority="high">
-  <link rel="preload" href="/images/hero-bg-1280.avif" as="image" type="image/avif" media="(min-width: 1025px)" fetchpriority="high">
+  {/* Preload Critical Resources - Responsive image preload (Optimized with 1920.avif which is the smallest 125KB version) */}
+  <link rel="preload" href="/images/hero-bg-1920.avif" as="image" type="image/avif" fetchpriority="high">
   
   {/* Critical CSS - Genişletilmiş */}
   <style is:inline>

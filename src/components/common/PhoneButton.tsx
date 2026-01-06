@@ -71,18 +71,14 @@ export default function PhoneButton({
           flex items-center justify-center
           w-16 h-16 md:w-20 md:h-20
           rounded-full
-          bg-gradient-to-br from-amber-500 to-orange-600
-          hover:from-amber-400 hover:to-amber-500
-          text-white hover:text-slate-950
-          shadow-2xl
+          bg-gradient-to-br from-amber-400 to-amber-500
+          text-slate-950
+          shadow-[0_10px_30px_rgba(245,158,11,0.4)]
           cursor-pointer
           transform transition-all duration-300 ease-out
           hover:scale-110 active:scale-95
           ${className}
         `}
-        style={{
-          boxShadow: '0 10px 25px rgba(249, 115, 22, 0.4)',
-        }}
         aria-label={`Bizi arayın: ${phone}`}
         onMouseDown={() => {
           // @ts-ignore
@@ -93,8 +89,8 @@ export default function PhoneButton({
         }}
       >
         {/* Pulse Rings */}
-        <div className="absolute inset-0 rounded-full bg-amber-500 animate-ping opacity-20" />
-        <div className="absolute -inset-2 rounded-full border-2 border-amber-500/30 animate-pulse opacity-40" />
+        <div className="absolute inset-0 rounded-full bg-amber-500 animate-ping opacity-25" />
+        <div className="absolute -inset-2 rounded-full border-2 border-amber-500/20 animate-pulse opacity-30" />
 
         {/* Phone Icon */}
         <svg

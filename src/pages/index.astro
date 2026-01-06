@@ -1,15 +1,15 @@
 ---
-import BaseLayout from '@layouts/BaseLayout.astro';
-import Hero from '@components/home/Hero.astro';
-import Services from '@components/home/Services.astro';
-import Stats from '@components/home/Stats';
-import CTA from '@components/home/CTA.astro';
-import WhyUs from '@components/home/WhyUs.astro';
-import Reviews from '@components/home/Reviews';
-import RecentBlogPosts from '@components/home/RecentBlogPosts.astro';
-import InstagramFeed from '@components/home/InstagramFeed.astro';
-import Schema from '@components/seo/Schema.astro';
-import { SITE_CONFIG } from '@utils/constants';
+import BaseLayout from "@layouts/BaseLayout.astro";
+import Hero from "@components/home/Hero.astro";
+import Services from "@components/home/Services.astro";
+import Stats from "@components/home/Stats";
+import CTA from "@components/home/CTA.astro";
+import WhyUs from "@components/home/WhyUs.astro";
+import Reviews from "@components/home/Reviews";
+import RecentBlogPosts from "@components/home/RecentBlogPosts.astro";
+import InstagramFeed from "@components/home/InstagramFeed.astro";
+import Schema from "@components/seo/Schema.astro";
+import { SITE_CONFIG } from "@utils/constants";
 
 const title = `${SITE_CONFIG.name} | VW, Audi, Skoda, Seat DSG Servisi İstanbul`;
 const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, Skoda, BMW, Mercedes, Porsche ve Land Rover araçlarında uzman DSG şanzıman ve mekatronik tamiri. İstanbul Büyükçekmece'de güvenilir servis.`;
@@ -21,58 +21,94 @@ const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, S
   </Fragment>
 
   <Hero />
-  
+
   <!-- Story Section -->
   <section class="section relative overflow-hidden">
     {/* Background Elements */}
-    <div class="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/50 to-transparent pointer-events-none"></div>
-    
+    <div
+      class="absolute inset-0 bg-gradient-to-b from-transparent via-slate-900/50 to-transparent pointer-events-none"
+    >
+    </div>
+
     <div class="container relative z-10">
-      <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center" data-stagger-children data-stagger-step="90">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center"
+        data-stagger-children
+        data-stagger-step="90"
+      >
         <div data-animate>
-          <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-xs font-bold tracking-widest uppercase mb-6">
-            <span class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"></span>
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-amber-500/10 border border-amber-500/20 text-amber-500 text-xs font-bold tracking-widest uppercase mb-6"
+          >
+            <span class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse"
+            ></span>
             Kurumsal
           </div>
-          <h2 class="font-display font-bold text-white text-4xl lg:text-5xl mb-8 leading-tight">
-            DSG Şanzıman <br/>
-            <span class="text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-500">Uzmanlık Merkezi</span>
+          <h2
+            class="font-display font-bold text-white text-4xl lg:text-5xl mb-8 leading-tight"
+          >
+            DSG Şanzıman <br />
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-r from-white to-slate-500"
+              >Uzmanlık Merkezi</span
+            >
           </h2>
-          <div class="space-y-6 text-slate-400 leading-relaxed text-lg border-l border-white/10 pl-6">
+          <div
+            class="space-y-6 text-slate-400 leading-relaxed text-lg border-l border-white/10 pl-6"
+          >
             <p>
-              <span class="font-bold text-white">Yıldızlar Grup</span> olarak 
-              {SITE_CONFIG.stats.experience} yıldır sadece tek bir şeye odaklandık: <span class="text-amber-500">Mükemmellik.</span>
+              <span class="font-bold text-white">Yıldızlar Grup</span> olarak
+              {SITE_CONFIG.stats.experience} yıldır sadece tek bir şeye odaklandık:
+              <span class="text-amber-500">Mükemmellik.</span>
             </p>
             <p>
-              VW grubu araçların kalbi olan <strong>DSG şanzıman ve mekatronik sistemleri</strong>, sıradan bir servisin ötesinde, mühendislik düzeyinde bir uzmanlık gerektirir. Biz, bu teknolojiyi en ince ayrıntısına kadar biliyoruz.
+              VW grubu araçların kalbi olan <strong
+                >DSG şanzıman ve mekatronik sistemleri</strong
+              >, sıradan bir servisin ötesinde, mühendislik düzeyinde bir
+              uzmanlık gerektirir. Biz, bu teknolojiyi en ince ayrıntısına kadar
+              biliyoruz.
             </p>
             <p>
-              Fabrika standartlarında <strong>diagnostik altyapımız</strong> ve sertifikalı teknisyenlerimizle, aracınızın performansını ilk günkü haline getiriyoruz.
+              Fabrika standartlarında <strong>diagnostik altyapımız</strong> ve sertifikalı
+              teknisyenlerimizle, aracınızın performansını ilk günkü haline getiriyoruz.
             </p>
           </div>
-          
+
           <div class="mt-10 grid grid-cols-2 gap-6">
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
-              <div class="text-2xl font-bold text-white mb-1">{SITE_CONFIG.stats.customers.toLocaleString()}+</div>
+            <div
+              class="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
+            >
+              <div class="text-2xl font-bold text-white mb-1">
+                {SITE_CONFIG.stats.customers.toLocaleString()}+
+              </div>
               <div class="text-sm text-slate-500">Mutlu Müşteri</div>
             </div>
-            <div class="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm">
-              <div class="text-2xl font-bold text-white mb-1">{SITE_CONFIG.google.rating}/5</div>
+            <div
+              class="p-4 rounded-xl bg-white/5 border border-white/10 backdrop-blur-sm"
+            >
+              <div class="text-2xl font-bold text-white mb-1">
+                {SITE_CONFIG.google.rating}/5
+              </div>
               <div class="text-sm text-slate-500">Google Puanı</div>
             </div>
           </div>
         </div>
 
         <div class="relative group" data-animate>
-          <div class="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-blue-600/20 rounded-2xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"></div>
-          <div class="relative rounded-2xl overflow-hidden border border-white/10 bg-slate-800/50 shadow-2xl">
+          <div
+            class="absolute -inset-4 bg-gradient-to-r from-amber-500/20 to-blue-600/20 rounded-2xl blur-2xl opacity-50 group-hover:opacity-75 transition-opacity duration-500"
+          >
+          </div>
+          <div
+            class="relative rounded-2xl overflow-hidden border border-white/10 bg-slate-800/50 shadow-2xl"
+          >
             <picture>
-              <source 
+              <source
                 type="image/avif"
                 srcset="/images/workshop-320.avif 320w, /images/workshop-480.avif 480w, /images/workshop-768.avif 768w, /images/workshop-1280.avif 1280w"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 665px"
               />
-              <source 
+              <source
                 type="image/webp"
                 srcset="/images/workshop-320.webp 320w, /images/workshop-480.webp 480w, /images/workshop-768.webp 768w, /images/workshop-1280.webp 1280w"
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 665px"
@@ -88,9 +124,14 @@ const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, S
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 665px"
               />
             </picture>
-            <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80"></div>
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-slate-900 via-transparent to-transparent opacity-80"
+            >
+            </div>
             <div class="absolute bottom-6 left-6 right-6">
-              <div class="inline-flex items-center gap-2 text-white font-mono text-xs mb-2 bg-black/50 px-2 py-1 rounded backdrop-blur-md border border-white/10">
+              <div
+                class="inline-flex items-center gap-2 text-white font-mono text-xs mb-2 bg-black/50 px-2 py-1 rounded backdrop-blur-md border border-white/10"
+              >
                 <span class="w-2 h-2 bg-green-500 rounded-full"></span>
                 LIVE_VIEW: WORKSHOP_CAM_01
               </div>
@@ -102,12 +143,11 @@ const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, S
   </section>
 
   <RecentBlogPosts />
-  
+
   <Services />
   <Stats client:visible />
-  <Reviews client:load />
+  <Reviews client:visible />
   <CTA />
   <WhyUs />
   <InstagramFeed />
 </BaseLayout>
-

@@ -79,7 +79,7 @@ import BrandLogos from "./BrandLogos";
         <div class="flex flex-col sm:flex-row gap-5 mb-16" data-reveal>
           <a
             href={`tel:${SITE_CONFIG.phoneTel}`}
-            class="group relative inline-flex items-center justify-center px-8 py-4 bg-primary-700 text-white font-bold rounded-lg overflow-hidden transition-all hover:bg-amber-500 hover:text-slate-950"
+            class="group relative inline-flex items-center justify-center px-8 py-4 bg-amber-500 text-slate-950 font-bold rounded-lg overflow-hidden transition-all hover:bg-amber-400 shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.6)]"
             onmousedown="if(window.gtag){window.gtag('event','anasayfa_hero_tel_arama_butonu_tiklamasi',{location:'hero'});}"
           >
             <span class="relative z-10 flex items-center gap-3">
@@ -98,7 +98,7 @@ import BrandLogos from "./BrandLogos";
               HEMEN RANDEVU AL
             </span>
             <div
-              class="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white/10 transition-transform duration-300"
+              class="absolute inset-0 -translate-x-full group-hover:translate-x-0 bg-white/20 transition-transform duration-300"
             >
             </div>
           </a>
@@ -153,16 +153,16 @@ import BrandLogos from "./BrandLogos";
               <picture>
                 <source
                   type="image/avif"
-                  srcset="/images/hero-bg-480.avif 480w, /images/hero-bg-768.avif 768w"
+                  srcset="/images/hero-bg-1920.avif"
                   sizes="(max-width: 480px) 480px, 768px"
                 />
                 <source
                   type="image/webp"
-                  srcset="/images/hero-bg-480.webp 480w, /images/hero-bg-768.webp 768w"
+                  srcset="/images/hero-bg-480.webp 480w, /images/hero-bg-1280.webp 1280w"
                   sizes="(max-width: 480px) 480px, 768px"
                 />
                 <img
-                  src="/images/hero-bg-480.avif"
+                  src="/images/hero-bg-1920.avif"
                   alt="DSG Şanzıman Teknik Görünüm"
                   class="w-full h-full object-cover opacity-80"
                   loading="eager"
@@ -249,16 +249,16 @@ import BrandLogos from "./BrandLogos";
               <picture>
                 <source
                   type="image/avif"
-                  srcset="/images/hero-bg-768.avif 768w, /images/hero-bg-1280.avif 1280w"
+                  srcset="/images/hero-bg-1920.avif"
                   sizes="(max-width: 1024px) 768px, 1280px"
                 />
                 <source
                   type="image/webp"
-                  srcset="/images/hero-bg-768.webp 768w, /images/hero-bg-1280.webp 1280w"
+                  srcset="/images/hero-bg-1280.webp"
                   sizes="(max-width: 1024px) 768px, 1280px"
                 />
                 <img
-                  src="/images/hero-bg-768.avif"
+                  src="/images/hero-bg-1920.avif"
                   alt="DSG Şanzıman Teknik Görünüm"
                   class="w-full h-full object-cover opacity-80 hover:scale-110 transition-transform duration-[2s]"
                   loading="eager"
