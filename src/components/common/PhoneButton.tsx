@@ -52,12 +52,12 @@ export default function PhoneButton({
       {/* Tooltip / Balon */}
       {showTooltip && (
         <div
-          className="absolute bottom-full mb-4 px-4 py-2 bg-amber-500 text-white text-sm font-bold rounded-xl shadow-[0_10px_25px_rgba(245,158,11,0.4)] whitespace-nowrap pointer-events-none"
+          className="absolute bottom-full mb-4 px-4 py-2 bg-amber-400 text-slate-950 text-sm font-bold rounded-xl shadow-[0_10px_25px_rgba(245,158,11,0.5)] whitespace-nowrap pointer-events-none"
           style={{ animation: 'bounce-subtle 2s infinite ease-in-out' }}
         >
           <div className="relative text-center">
             Hemen Ara
-            <div className="absolute top-full left-1/2 -translate-x-1/2 w-3 h-3 bg-amber-500 rotate-45 mt-[-6px]"></div>
+            <div className="absolute top-full left-1/2 -translate-x-1/2 w-3 h-3 bg-amber-400 rotate-45 mt-[-6px]"></div>
           </div>
         </div>
       )}
@@ -72,7 +72,8 @@ export default function PhoneButton({
           w-16 h-16 md:w-20 md:h-20
           rounded-full
           bg-gradient-to-br from-amber-500 to-orange-600
-          text-white
+          hover:from-amber-400 hover:to-amber-500
+          text-white hover:text-slate-950
           shadow-2xl
           cursor-pointer
           transform transition-all duration-300 ease-out

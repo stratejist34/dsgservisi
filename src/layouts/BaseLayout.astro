@@ -644,11 +644,11 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
         document.head.appendChild(script);
       }
       
-      // Load on user interaction or after 3 seconds
+      // Load on user interaction or after 6 seconds
       ['mousedown', 'touchstart', 'scroll', 'keydown'].forEach(event => {
         window.addEventListener(event, loadGA, { once: true, passive: true });
       });
-      setTimeout(loadGA, 3000);
+      setTimeout(loadGA, 6000);
 
       // Map Tracking & Attribution Leak Detection
       document.addEventListener('click', function(e) {
