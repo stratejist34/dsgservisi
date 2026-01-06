@@ -123,5 +123,18 @@ export default defineConfig({
       noExternal: ['react-icons'],
     },
   },
+  redirects: {
+    // GSC Duplicate URL Fix: /blog/slug -> /slug
+    // Catch-all for blog posts
+    '/blog/[...slug]': {
+      status: 301,
+      destination: '/[slug]'
+    },
+    // Fix for pagination links that might still point to /blog/1, /blog/2 etc.
+    '/blog/[page]': {
+      status: 301,
+      destination: '/blog/[page]'
+    }
+  }
 });
 
