@@ -122,10 +122,9 @@ import BrandLogos from "./BrandLogos";
           </a>
         </div>
 
-        {/* Mobile Brand Logos - Sadece mobilde görünür */}
         <div class="lg:hidden mb-8" data-reveal>
           <div class="transform scale-[0.75] origin-left">
-            <BrandLogos client:idle />
+            <BrandLogos client:visible />
           </div>
         </div>
 
@@ -153,16 +152,21 @@ import BrandLogos from "./BrandLogos";
               <picture>
                 <source
                   type="image/avif"
+                  srcset="/images/hero-bg-480.avif"
+                  media="(max-width: 480px)"
+                />
+                <source
+                  type="image/avif"
                   srcset="/images/hero-bg-1920.avif"
-                  sizes="(max-width: 480px) 480px, 768px"
+                  media="(min-width: 481px)"
                 />
                 <source
                   type="image/webp"
                   srcset="/images/hero-bg-480.webp 480w, /images/hero-bg-1280.webp 1280w"
-                  sizes="(max-width: 480px) 480px, 768px"
+                  sizes="(max-width: 480px) 100vw, 768px"
                 />
                 <img
-                  src="/images/hero-bg-1920.avif"
+                  src="/images/hero-bg-480.avif"
                   alt="DSG Şanzıman Teknik Görünüm"
                   class="w-full h-full object-cover opacity-80"
                   loading="eager"
@@ -247,16 +251,8 @@ import BrandLogos from "./BrandLogos";
               class="absolute inset-4 top-12 bottom-24 rounded-lg overflow-hidden border border-white/5"
             >
               <picture>
-                <source
-                  type="image/avif"
-                  srcset="/images/hero-bg-1920.avif"
-                  sizes="(max-width: 1024px) 768px, 1280px"
-                />
-                <source
-                  type="image/webp"
-                  srcset="/images/hero-bg-1280.webp"
-                  sizes="(max-width: 1024px) 768px, 1280px"
-                />
+                <source type="image/avif" srcset="/images/hero-bg-1920.avif" />
+                <source type="image/webp" srcset="/images/hero-bg-1280.webp" />
                 <img
                   src="/images/hero-bg-1920.avif"
                   alt="DSG Şanzıman Teknik Görünüm"

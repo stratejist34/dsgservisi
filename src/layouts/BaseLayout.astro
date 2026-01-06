@@ -39,11 +39,12 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
   {/* Resource Hints - EN ÜSTTE, meta tag'lerden ÖNCE */}
-  <link rel="dns-prefetch" href="https://dsgservisi.com" />
-  <link rel="preconnect" href="https://dsgservisi.com" crossorigin />
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+
+  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   
   <link rel="icon" type="image/webp" href="/images/icon.webp" />
   <link rel="icon" type="image/avif" href="/images/icon.avif" />
@@ -70,12 +71,12 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={new URL(image, Astro.site)} />
   
-  {/* Google Fonts - Optimize edilmiş preload */}
-  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
-  <noscript><link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet"></noscript>
+  {/* Google Fonts - Standard high-performance loading with display=swap */}
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet" />
   
-  {/* Preload Critical Resources - Responsive image preload (Optimized with 1920.avif which is the smallest 125KB version) */}
-  <link rel="preload" href="/images/hero-bg-1920.avif" as="image" type="image/avif" fetchpriority="high">
+  {/* Preload Critical Resources - Responsive image preload (Optimized with correctly sized AVIFs) */}
+  <link rel="preload" href="/images/hero-bg-480.avif" as="image" type="image/avif" media="(max-width: 480px)" fetchpriority="high">
+  <link rel="preload" href="/images/hero-bg-1920.avif" as="image" type="image/avif" media="(min-width: 481px)" fetchpriority="high">
   
   {/* Critical CSS - Genişletilmiş */}
   <style is:inline>
@@ -246,9 +247,10 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
       <Footer />
   
       {/* Floating Buttons - Optimize lazy loading */}
-      <PhoneButton client:idle pageId={pageId} />
+      {/* Floating Buttons - Defer further with client:visible to reduce initial JS chain */}
+      <PhoneButton client:visible pageId={pageId} />
       <WhatsAppButton
-        client:idle
+        client:visible
         pageId={pageId}
         message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
       />
@@ -532,10 +534,13 @@ else if (path.includes('/blog')) pageId = 'blog_sayfasi';
         let scrollHeight = 0;
         let windowHeight = 0;
         
-        // İlk yüklemede değerleri cache'le
+        // İlk yüklemede değerleri ertele - forced reflow önleme
         function cacheDimensions() {
-          scrollHeight = document.documentElement.scrollHeight;
-          windowHeight = window.innerHeight;
+          // scrollHeight okuması layout trigger eder, bu yüzden DOM yerleşene kadar ertele
+          requestIdleCallback(() => {
+            scrollHeight = document.documentElement.scrollHeight;
+            windowHeight = window.innerHeight;
+          });
         }
         cacheDimensions();
         window.addEventListener('resize', cacheDimensions, { passive: true });
