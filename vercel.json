@@ -1,12 +1,12 @@
 {
   "redirects": [
     {
-      "source": "/blog/(?!page|preview)(.*)",
-      "destination": "/$1",
+      "source": "/blog/:slug((?!page|preview).*)",
+      "destination": "/:slug",
       "permanent": true
     },
     {
-      "source": "/category/(.*)",
+      "source": "/category/:slug(.*)",
       "destination": "/blog",
       "permanent": true
     }
