@@ -888,7 +888,7 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
         }
 
         // 5. Blog "Gerçek Yorumları Gör" Tracking
-        if (link && (link.innerText.includes('Yorumları gör') || link.innerText.includes('Görçek Yorumlar'))) {
+        if (link && (link.innerText.includes('Yorumları gör') || link.innerText.includes('Gerçek Yorumlar'))) {
            gtag('event', 'blog_yorumlar_linki_tiklandi', { 'page_path': window.location.pathname });
         }
 
@@ -901,7 +901,7 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
         }
 
         // 7. Reviews Section Tracking
-        if (link && link.innerText.includes('GOOGLE\'DA İNCELE')) {
+        if (link && link.innerText.includes("GOOGLE'DA İNCELE")) {
            gtag('event', 'home_reviews_google_tiklandi');
         }
 
