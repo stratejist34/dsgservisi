@@ -98,7 +98,6 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
       rel="preload"
       href="/images/hero-bg-480.avif"
       as="image"
-      type="image/avif"
       media="(max-width: 480px)"
       fetchpriority="high"
     />
@@ -106,7 +105,6 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
       rel="preload"
       href="/images/hero-bg-768.avif"
       as="image"
-      type="image/avif"
       media="(min-width: 481px) and (max-width: 1024px)"
       fetchpriority="high"
     />
@@ -114,7 +112,6 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
       rel="preload"
       href="/images/hero-bg-1920.avif"
       as="image"
-      type="image/avif"
       media="(min-width: 1025px)"
       fetchpriority="high"
     />
@@ -375,11 +372,15 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
 
     {/* Floating Buttons - Optimize lazy loading */}
     {
-      /* Floating Buttons - Use client:idle for fixed elements to ensure visibility while staying fast */
+      /* Floating Buttons - client:visible ensure they are not preloaded until close to being seen */
     }
-    <PhoneButton client:idle pageId={pageId} />
+    <PhoneButton
+      client:visible={{ rootMargin: "200px" }}
+      pageId={pageId}
+      phone={SITE_CONFIG.phone}
+    />
     <WhatsAppButton
-      client:idle
+      client:visible={{ rootMargin: "200px" }}
       pageId={pageId}
       message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
     />
