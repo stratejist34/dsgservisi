@@ -76,9 +76,10 @@ const navLinks = [
 
       {/* CTA Button - Solid Tech Look */}
       <a
+        id="header-cta-btn"
         href={`tel:${SITE_CONFIG.phoneTel}`}
         class="hidden md:inline-flex items-center justify-center px-5 py-2.5 rounded text-sm font-bold text-white transition-all duration-300 relative z-10 overflow-hidden group border border-primary/50 bg-primary/10 hover:bg-primary"
-        onmousedown={`const path = window.location.pathname; let pId = 'diger_sayfalar'; if (path === '/') pId = 'anasayfa'; else if (path.includes('/iletisim')) pId = 'iletisim_sayfasi'; else if (path.includes('/hizmetler')) pId = 'hizmetler_sayfasi'; if(window.gtag){window.gtag('event', pId + '_navbar_tel_arama_butonu_tiklamasi',{location:'header_nav'});}`}
+        onmousedown="if(window.gtag){window.gtag('event', 'header_fiyat_iste_tiklandi',{location:'navbar'});}"
       >
         <span class="relative z-10 flex items-center gap-2">
           <svg
@@ -217,9 +218,10 @@ const navLinks = [
 
     <div class="mt-auto pt-8 border-t border-white/10">
       <a
+        id="mobile-menu-call-btn"
         href={`tel:${SITE_CONFIG.phoneTel}`}
         class="flex items-center justify-center gap-3 w-full py-4 rounded-xl font-bold text-white bg-gradient-to-r from-amber-500 to-amber-600 hover:from-amber-400 hover:to-amber-500 shadow-lg hover:shadow-amber-500/20 transition-all active:scale-95"
-        onmousedown="if(window.gtag){window.gtag('event','mobil_menu_navbar_tel_arama_butonu_tiklamasi',{location:'mobile_menu'});}"
+        onmousedown="if(window.gtag){window.gtag('event','mobil_menu_hemen_ara_tiklandi',{location:'mobile_menu'});}"
       >
         <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
           ><path

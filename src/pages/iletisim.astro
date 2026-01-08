@@ -154,7 +154,7 @@ const description =
               rel="noopener noreferrer"
               class="group block bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 hover:-translate-y-1"
               data-animate
-              onmousedown="if(window.gtag){window.gtag('event','iletisim_sayfasi_adres_butonu_tiklamasi',{location:'contact_card'});}"
+              onmousedown="if(window.gtag){window.gtag('event','iletisim_adres_kart_tiklandi',{location:'contact_card'});}"
             >
               <div class="flex items-start gap-6">
                 <div
@@ -183,7 +183,7 @@ const description =
                   </p>
                   <div
                     class="inline-flex items-center gap-2 text-amber-500 font-bold text-sm uppercase tracking-wider transition-colors"
-                    onmousedown="event.stopPropagation(); if(window.gtag){window.gtag('event','iletisim_sayfasi_konum_yol_tarifi_butonu_tiklamasi',{location:'contact_card_link'});}"
+                    onmousedown="event.stopPropagation(); if(window.gtag){window.gtag('event','iletisim_sol_yol_tarifi_tiklandi',{location:'contact_card_link'});}"
                   >
                     <svg
                       class="w-4 h-4"
@@ -272,7 +272,7 @@ const description =
           </h2>
 
           <div
-            class="rounded-2xl overflow-hidden shadow-2xl h-[500px] border border-white/10 relative group"
+            class="rounded-2xl overflow-hidden shadow-2xl h-[500px] border border-white/10 relative group map-embed"
             data-animate
           >
             <!-- Tech corners -->
@@ -312,7 +312,7 @@ const description =
               target="_blank"
               rel="noopener noreferrer"
               class="group w-full inline-flex items-center justify-center gap-3 bg-amber-500 hover:bg-amber-400 text-white px-8 py-5 rounded-xl font-bold text-xl shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)] hover:-translate-y-1 transition-all duration-300"
-              onmousedown="if(window.gtag){window.gtag('event','iletisim_sayfasi_konum_yol_tarifi_butonu_tiklamasi',{location:'map_button'});}"
+              onmousedown="if(window.gtag){window.gtag('event','iletisim_alt_yol_tarifi_tiklandi',{location:'map_button'});}"
             >
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                 <path
