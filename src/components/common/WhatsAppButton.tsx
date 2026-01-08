@@ -38,7 +38,7 @@ export default function WhatsAppButton({
         >
           <div className="relative text-center">
             Randevu Al
-            <div className="absolute top-full left-1/2 -translate-x-1/2 w-3 h-3 bg-[#25D366] rotate-45 mt-[-6px]"></div>
+            <div className="absolute top-[calc(100%-1px)] left-1/2 -translate-x-1/2 border-l-[6px] border-r-[6px] border-t-[8px] border-l-transparent border-r-transparent border-t-[#25D366]"></div>
           </div>
         </div>
       )}

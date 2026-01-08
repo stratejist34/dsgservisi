@@ -55,9 +55,9 @@ export default function PhoneButton({
           className="absolute bottom-full mb-4 px-4 py-2 bg-amber-400 text-slate-950 text-sm font-bold rounded-xl shadow-[0_10px_25px_rgba(245,158,11,0.5)] whitespace-nowrap pointer-events-none"
           style={{ animation: 'bounce-subtle 2s infinite ease-in-out' }}
         >
-          <div className="relative text-center">
+          <div className="relative">
             Hemen Ara
-            <div className="absolute top-full left-1/2 -translate-x-1/2 w-3 h-3 bg-amber-400 rotate-45 mt-[-6px]"></div>
+            <div className="absolute top-[calc(100%-1px)] left-1/2 -translate-x-1/2 border-l-[6px] border-r-[6px] border-t-[8px] border-l-transparent border-r-transparent border-t-amber-400"></div>
           </div>
         </div>
       )}
