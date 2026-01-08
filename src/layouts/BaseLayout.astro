@@ -1,8 +1,7 @@
 ---
 import Header from "@components/common/Header.astro";
 import Footer from "@components/common/Footer.astro";
-import PhoneButton from "@components/common/PhoneButton";
-import WhatsAppButton from "@components/common/WhatsAppButton";
+import LazyFloatingWidgets from "@components/common/LazyFloatingWidgets";
 import { SITE_CONFIG } from "@utils/constants";
 import "@styles/global.css";
 import "@styles/reveal.css";
@@ -372,14 +371,38 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
 
     {/* Floating Buttons - Optimize lazy loading */}
     {
-      /* Floating Buttons - client:idle ensures they load after the main content is ready, maintaining high Performance score while ensuring visibility */
+      /*
+         NUCLEAR PERFORMANCE OPTIMIZATION:
+         Floating Buttons are entirely removed from Astro's critical hydration path.
+         They are managed by LazyFloatingWidgets which only triggers after LCP is complete.
+      */
     }
-    <PhoneButton client:idle pageId={pageId} phone={SITE_CONFIG.phone} />
-    <WhatsAppButton
-      client:idle
+    <LazyFloatingWidgets
+      client:only="react"
       pageId={pageId}
-      message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
+      phone={SITE_CONFIG.phone}
+      title={title}
+      canonicalURL={canonicalURL.toString()}
     />
+
+    <script is:inline>
+      (function () {
+        let loaded = false;
+        function triggerWidgets() {
+          if (loaded) return;
+          loaded = true;
+          window.dispatchEvent(new CustomEvent("load-floating-widgets"));
+        }
+
+        ["touchstart", "mousedown", "scroll", "keydown"].forEach((e) => {
+          window.addEventListener(e, triggerWidgets, {
+            once: true,
+            passive: true,
+          });
+        });
+        setTimeout(triggerWidgets, 6000);
+      })();
+    </script>
 
     <div id="global-call-modal" class="call-modal hidden" inert>
       <div class="call-modal__backdrop" data-close-modal></div>
@@ -744,7 +767,7 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
                   // Sonra tüm yazmaları yap
                   header?.classList.toggle("scrolled", scrollY > 20);
 
-                  if (progress) {
+                  if (progress && scrollHeight > 0) {
                     const maxScroll = scrollHeight - windowHeight;
                     const percent =
                       maxScroll > 0 ? (scrollY / maxScroll) * 100 : 0;
