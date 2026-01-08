@@ -372,15 +372,11 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
 
     {/* Floating Buttons - Optimize lazy loading */}
     {
-      /* Floating Buttons - client:visible ensure they are not preloaded until close to being seen */
+      /* Floating Buttons - client:idle ensures they load after the main content is ready, maintaining high Performance score while ensuring visibility */
     }
-    <PhoneButton
-      client:visible={{ rootMargin: "200px" }}
-      pageId={pageId}
-      phone={SITE_CONFIG.phone}
-    />
+    <PhoneButton client:idle pageId={pageId} phone={SITE_CONFIG.phone} />
     <WhatsAppButton
-      client:visible={{ rootMargin: "200px" }}
+      client:idle
       pageId={pageId}
       message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
     />
