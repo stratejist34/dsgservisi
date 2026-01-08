@@ -1,11 +1,11 @@
 ---
-import Header from '@components/common/Header.astro';
-import Footer from '@components/common/Footer.astro';
-import PhoneButton from '@components/common/PhoneButton';
-import WhatsAppButton from '@components/common/WhatsAppButton';
-import { SITE_CONFIG } from '@utils/constants';
-import '@styles/global.css';
-import '@styles/reveal.css';
+import Header from "@components/common/Header.astro";
+import Footer from "@components/common/Footer.astro";
+import PhoneButton from "@components/common/PhoneButton";
+import WhatsAppButton from "@components/common/WhatsAppButton";
+import { SITE_CONFIG } from "@utils/constants";
+import "@styles/global.css";
+import "@styles/reveal.css";
 
 interface Props {
   title: string;
@@ -14,668 +14,881 @@ interface Props {
   noindex?: boolean;
 }
 
-const { 
-  title, 
-  description, 
-  image = '/images/og-image.jpg',
-  noindex = false 
+const {
+  title,
+  description,
+  image = "/images/og-image.jpg",
+  noindex = false,
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
 
 // Sayfa kimliğini belirle (gtag etkinlikleri için)
 const path = Astro.url.pathname;
-let pageId = 'diger_sayfalar';
-if (path === '/') pageId = 'anasayfa';
-else if (path.includes('/iletisim')) pageId = 'iletisim_sayfasi';
-else if (path.includes('/hizmetler')) pageId = 'hizmetler_sayfasi';
-else if (path.includes('/blog')) pageId = 'blog_sayfasi';
+let pageId = "diger_sayfalar";
+if (path === "/") pageId = "anasayfa";
+else if (path.includes("/iletisim")) pageId = "iletisim_sayfasi";
+else if (path.includes("/hizmetler")) pageId = "hizmetler_sayfasi";
+else if (path.includes("/blog")) pageId = "blog_sayfasi";
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  
-  {/* Resource Hints - EN ÜSTTE, meta tag'lerden ÖNCE */}
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
-  <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-  <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
-  
-  <link rel="icon" type="image/webp" href="/images/icon.webp" />
-  <link rel="icon" type="image/avif" href="/images/icon.avif" />
-  <link rel="icon" type="image/png" href="/images/icon.png" />
-  <link rel="canonical" href={canonicalURL} />
-  
-  {/* SEO Meta Tags */}
-  <title>{title}</title>
-  <meta name="description" content={description} />
-  {noindex && <meta name="robots" content="noindex, nofollow" />}
-  <meta name="robots" content="max-image-preview:large" />
-  
-  {/* Open Graph */}
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content={canonicalURL} />
-  <meta property="og:title" content={title} />
-  <meta property="og:description" content={description} />
-  <meta property="og:image" content={new URL(image, Astro.site)} />
-  
-  {/* Twitter Card */}
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:url" content={canonicalURL} />
-  <meta name="twitter:title" content={title} />
-  <meta name="twitter:description" content={description} />
-  <meta name="twitter:image" content={new URL(image, Astro.site)} />
-  
-  {/* Google Fonts - Async loading to prevent render blocking (Removed unused Plus Jakarta Sans) */}
-  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" media="print" onload="this.media='all'" />
-  <noscript>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap" rel="stylesheet" />
-  </noscript>
-  
-  {/* Preload Critical Resources - Responsive LCP image preload (Fixing 3.4s LCP) */}
-  <link rel="preload" href="/images/hero-bg-480.avif" as="image" type="image/avif" media="(max-width: 480px)" fetchpriority="high">
-  <link rel="preload" href="/images/hero-bg-768.avif" as="image" type="image/avif" media="(min-width: 481px) and (max-width: 1024px)" fetchpriority="high">
-  <link rel="preload" href="/images/hero-bg-1920.avif" as="image" type="image/avif" media="(min-width: 1025px)" fetchpriority="high">
-  
-  {/* Critical CSS - Genişletilmiş */}
-  <style is:inline>
-    /* Above-the-fold critical styles */
-    body {
-      font-family: 'Inter', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      background-color: #ffffff;
-      color: #1a202c;
-      -webkit-font-smoothing: antialiased;
-      -moz-osx-font-smoothing: grayscale;
-      text-rendering: optimizeLegibility;
-      overflow-x: hidden;
-      width: 100%;
-      min-width: 320px;
-      margin: 0;
-      padding: 0;
-    }
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 80px;
-    }
-    .container {
-      margin-left: auto;
-      margin-right: auto;
-      padding-left: 1rem;
-      padding-right: 1rem;
-      max-width: 1280px;
-      width: 100%;
-    }
-    h1, h2, h3, h4, h5, h6 {
-      font-family: 'Titillium Web', system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-      font-weight: 600;
-      margin: 0;
-    }
-    h1 {
-      font-size: 1.875rem;
-      line-height: 2.25rem;
-      font-weight: 600;
-    }
-    @media (min-width: 768px) {
-      .container {
-        padding-left: 1.5rem;
-        padding-right: 1.5rem;
-      }
-      h1 {
-        font-size: 2.25rem;
-        line-height: 2.5rem;
-      }
-    }
-    @media (min-width: 1024px) {
-      .container {
-        padding-left: 2rem;
-        padding-right: 2rem;
-      }
-      h1 {
-        font-size: 2.25rem;
-        line-height: 2.5rem;
-      }
-    }
-    /* Prevent layout shift */
-    img {
-      max-width: 100%;
-      height: auto;
-      display: block;
-    }
-    /* Hero section critical styles */
-    section {
-      position: relative;
-    }
-  </style>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  {/* Optimize edilmiş Scroll ve Reveal Sistemi */}
-  <style is:global>
-    /* 1. Smooth scroll */
-    html {
-      scroll-behavior: smooth;
-      scroll-padding-top: 80px;
-    }
+    {/* Resource Hints - EN ÜSTTE, meta tag'lerden ÖNCE */}
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
-    /* 2. Reveal (klasik fade-up) */
-    [data-reveal] {
-      opacity: 0;
-      transform: translateY(20px);
-      transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    .reveal--in {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    <link rel="icon" type="image/webp" href="/images/icon.webp" />
+    <link rel="icon" type="image/avif" href="/images/icon.avif" />
+    <link rel="icon" type="image/png" href="/images/icon.png" />
+    <link rel="canonical" href={canonicalURL} />
 
-    /* 2b. Animate (fade-up) */
-    [data-animate] {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1), transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    [data-animate].animate-in {
-      opacity: 1;
-      transform: translateY(0);
-    }
+    {/* SEO Meta Tags */}
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    <meta name="robots" content="max-image-preview:large" />
 
-    /* CTA butonları için özel easing */
-    [data-animate].cta-ease-fast { transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1); }
-    [data-animate].cta-ease-soft { transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1); }
+    {/* Open Graph */}
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalURL} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
 
-    /* DSG Rozeti - yukarıdan yumuşak iniş ve hafif parlama */
-    @keyframes badge-drop {
-      0% { opacity: 0; transform: translateY(-16px) scale(0.98); }
-      70% { opacity: 1; transform: translateY(0) scale(1); }
-      100% { opacity: 1; transform: translateY(0) scale(1); }
-    }
-    [data-badge].animate-in { animation: badge-drop 0.8s cubic-bezier(0.16, 1, 0.3, 1) both; }
-    [data-badge].animate-in .premium-shine::before { transition-duration: 1400ms; }
+    {/* Twitter Card */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content={canonicalURL} />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={new URL(image, Astro.site)} />
 
-    /* Marka logoları - masaüstünde karşılıklı akış */
-    @keyframes slide-ltr { from { opacity: 0; transform: translateX(-26px); } to { opacity: 1; transform: translateX(0); } }
-    @keyframes slide-rtl { from { opacity: 0; transform: translateX(26px); } to { opacity: 1; transform: translateX(0); } }
-    /* Varsayılan reveal'ı geçersiz kıl (logolar için X ekseni) */
-    [data-reveal][data-dir] { opacity: 0; transform: translateX(18px); transition: none; }
-    [data-reveal][data-dir="ltr"].animate-in { animation: slide-ltr 1.3s cubic-bezier(0.16, 1, 0.3, 1) both; }
-    [data-reveal][data-dir="rtl"].animate-in { animation: slide-rtl 1.3s cubic-bezier(0.16, 1, 0.3, 1) both; }
-    @media (max-width: 1023px) {
-      [data-reveal][data-dir] { opacity: 1; transform: none; animation: none !important; }
+    {
+      /* Google Fonts - Async loading to prevent render blocking (Removed unused Plus Jakarta Sans) */
     }
-
-    /* 3. Header - SADECE navigation header (site header), article header'ları DEĞİL */
-    body > header:not(.blog-article-header),
-    body > main > header:not(.blog-article-header) {
-      /* Header component zaten fixed, burada sadece geçiş efekti */
-    }
-    
-    /* Article header'ları KESINLIKLE sticky olmasın */
-    article header.blog-article-header {
-      position: static !important;
-      top: auto !important;
-    }
-
-    /* 4. Progress bar */
-    .scroll-progress {
-      position: fixed;
-      top: 0;
-      height: 3px;
-      background: linear-gradient(90deg, cyan, blue);
-      transition: width 0.1s ease;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      html { scroll-behavior: auto; }
-      [data-reveal], [data-animate] { opacity: 1; transform: none; transition: none; }
-    }
-  </style>
-  
-  {/* Google Search Console Verification */}
-  {import.meta.env.PUBLIC_GSC_VERIFICATION && (
-    <meta name="google-site-verification" content={import.meta.env.PUBLIC_GSC_VERIFICATION} />
-  )}
-  
-      
-      <slot name="head" />
-</head>
-<body class="smooth-scroll">
-  <Header />
-  
-  <main class="pt-20" style="position: relative; overflow: visible; contain: none;">
-    <slot />
-  </main>
-  
-      <Footer />
-  
-      {/* Floating Buttons - Optimize lazy loading */}
-      {/* Floating Buttons - Use client:idle for fixed elements to ensure visibility while staying fast */}
-      <PhoneButton client:idle pageId={pageId} />
-      <WhatsAppButton
-        client:idle
-        pageId={pageId}
-        message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
+    <link
+      rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap"
+      media="print"
+      onload="this.media='all'"
+    />
+    <noscript>
+      <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;600;700&family=Rajdhani:wght@500;600;700&family=Titillium+Web:wght@600&display=swap"
+        rel="stylesheet"
       />
+    </noscript>
 
-      <div id="global-call-modal" class="call-modal hidden" inert>
-        <div class="call-modal__backdrop" data-close-modal></div>
-        <div class="call-modal__dialog" role="dialog" aria-modal="true" tabindex="-1">
-          <button class="call-modal__close" type="button" aria-label="Kapat" data-close-modal tabindex="-1">&times;</button>
-          <p class="call-modal__tag">Önemli Bilgilendirme</p>
-          <h3 class="call-modal__title">Servisimiz İstanbul Avrupa Yakasındadır</h3>
-          <p class="call-modal__desc">
-            Konumumuz Beytepe Sanayi Sitesi içerisinde yer alıyor. Konumu doğrulamak isterseniz aşağıdaki bağlantıyı kullanabilirsiniz.
-          </p>
-          <div class="call-modal__actions">
-            <a
-              href={SITE_CONFIG.google.mapUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="call-modal__action call-modal__action--ghost"
-              data-close-modal
-              tabindex="-1"
-            >
-              Konumu Aç
-            </a>
-            <button type="button" class="call-modal__action call-modal__action--primary" data-call-now tabindex="-1">
-              Hemen Ara
-            </button>
-          </div>
-        </div>
-      </div>
+    {
+      /* Preload Critical Resources - Responsive LCP image preload (Fixing 3.4s LCP) */
+    }
+    <link
+      rel="preload"
+      href="/images/hero-bg-480.avif"
+      as="image"
+      type="image/avif"
+      media="(max-width: 480px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      href="/images/hero-bg-768.avif"
+      as="image"
+      type="image/avif"
+      media="(min-width: 481px) and (max-width: 1024px)"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      href="/images/hero-bg-1920.avif"
+      as="image"
+      type="image/avif"
+      media="(min-width: 1025px)"
+      fetchpriority="high"
+    />
 
-      <style is:inline>
-        .call-modal {
-          position: fixed;
-          inset: 0;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          z-index: 60;
-          transition: opacity 0.25s ease;
+    {/* Critical CSS - Genişletilmiş */}
+    <style is:inline>
+      /* Above-the-fold critical styles */
+      body {
+        font-family:
+          "Inter",
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        background-color: #ffffff;
+        color: #1a202c;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+        overflow-x: hidden;
+        width: 100%;
+        min-width: 320px;
+        margin: 0;
+        padding: 0;
+      }
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+      .container {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        max-width: 1280px;
+        width: 100%;
+      }
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        font-family:
+          "Titillium Web",
+          system-ui,
+          -apple-system,
+          "Segoe UI",
+          Roboto,
+          Helvetica,
+          Arial,
+          sans-serif;
+        font-weight: 600;
+        margin: 0;
+      }
+      h1 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        font-weight: 600;
+      }
+      @media (min-width: 768px) {
+        .container {
+          padding-left: 1.5rem;
+          padding-right: 1.5rem;
         }
+        h1 {
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+        }
+      }
+      @media (min-width: 1024px) {
+        .container {
+          padding-left: 2rem;
+          padding-right: 2rem;
+        }
+        h1 {
+          font-size: 2.25rem;
+          line-height: 2.5rem;
+        }
+      }
+      /* Prevent layout shift */
+      img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
+      /* Hero section critical styles */
+      section {
+        position: relative;
+      }
+    </style>
 
-        .call-modal.hidden {
-          pointer-events: none;
+    {/* Optimize edilmiş Scroll ve Reveal Sistemi */}
+    <style is:global>
+      /* 1. Smooth scroll */
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 80px;
+      }
+
+      /* 2. Reveal (klasik fade-up) */
+      [data-reveal] {
+        opacity: 0;
+        transform: translateY(20px);
+        transition:
+          opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+          transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      .reveal--in {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* 2b. Animate (fade-up) */
+      [data-animate] {
+        opacity: 0;
+        transform: translateY(30px);
+        transition:
+          opacity 0.6s cubic-bezier(0.4, 0, 0.2, 1),
+          transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      }
+      [data-animate].animate-in {
+        opacity: 1;
+        transform: translateY(0);
+      }
+
+      /* CTA butonları için özel easing */
+      [data-animate].cta-ease-fast {
+        transition: all 0.7s cubic-bezier(0.22, 1, 0.36, 1);
+      }
+      [data-animate].cta-ease-soft {
+        transition: all 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+      }
+
+      /* DSG Rozeti - yukarıdan yumuşak iniş ve hafif parlama */
+      @keyframes badge-drop {
+        0% {
           opacity: 0;
+          transform: translateY(-16px) scale(0.98);
         }
-
-        body.call-modal-open {
-          overflow: hidden;
-        }
-
-        .call-modal__backdrop {
-          position: absolute;
-          inset: 0;
-          background: rgba(15, 23, 42, 0.75);
-          backdrop-filter: blur(6px);
-        }
-
-        .call-modal__dialog {
-          position: relative;
-          width: min(90%, 420px);
-          background: linear-gradient(135deg, rgba(15,23,42,0.98), rgba(30,64,175,0.98));
-          border: 1px solid rgba(255, 255, 255, 0.2);
-          border-radius: 24px;
-          padding: 32px;
-          box-shadow: 0 20px 60px rgba(15, 23, 42, 0.45);
-          color: white;
-          transform: translateY(16px) scale(0.96);
-          opacity: 0;
-          transition: opacity 0.25s ease, transform 0.25s ease;
-        }
-
-        .call-modal:not(.hidden) .call-modal__dialog {
+        70% {
           opacity: 1;
           transform: translateY(0) scale(1);
         }
-
-        .call-modal__close {
-          position: absolute;
-          top: 14px;
-          right: 14px;
-          background: transparent;
-          border: none;
-          color: rgba(255,255,255,0.7);
-          font-size: 1.5rem;
-          cursor: pointer;
-          line-height: 1;
-          transition: color 0.2s ease;
+        100% {
+          opacity: 1;
+          transform: translateY(0) scale(1);
         }
+      }
+      [data-badge].animate-in {
+        animation: badge-drop 0.8s cubic-bezier(0.16, 1, 0.3, 1) both;
+      }
+      [data-badge].animate-in .premium-shine::before {
+        transition-duration: 1400ms;
+      }
 
-        .call-modal__close:hover {
-          color: white;
+      /* Marka logoları - masaüstünde karşılıklı akış */
+      @keyframes slide-ltr {
+        from {
+          opacity: 0;
+          transform: translateX(-26px);
         }
-
-        .call-modal__tag {
-          font-size: 0.8rem;
-          letter-spacing: 0.18em;
-          text-transform: uppercase;
-          color: #fbbf24;
-          margin-bottom: 0.5rem;
+        to {
+          opacity: 1;
+          transform: translateX(0);
         }
-
-        .call-modal__title {
-          font-size: 1.35rem;
-          font-weight: 700;
-          margin-bottom: 0.75rem;
-          line-height: 1.3;
+      }
+      @keyframes slide-rtl {
+        from {
+          opacity: 0;
+          transform: translateX(26px);
         }
+        to {
+          opacity: 1;
+          transform: translateX(0);
+        }
+      }
+      /* Varsayılan reveal'ı geçersiz kıl (logolar için X ekseni) */
+      [data-reveal][data-dir] {
+        opacity: 0;
+        transform: translateX(18px);
+        transition: none;
+      }
+      [data-reveal][data-dir="ltr"].animate-in {
+        animation: slide-ltr 1.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+      }
+      [data-reveal][data-dir="rtl"].animate-in {
+        animation: slide-rtl 1.3s cubic-bezier(0.16, 1, 0.3, 1) both;
+      }
+      @media (max-width: 1023px) {
+        [data-reveal][data-dir] {
+          opacity: 1;
+          transform: none;
+          animation: none !important;
+        }
+      }
 
-        .call-modal__desc {
-          color: rgba(255,255,255,0.8);
-          font-size: 1rem;
-          line-height: 1.6;
-          margin-bottom: 1.5rem;
+      /* 3. Header - SADECE navigation header (site header), article header'ları DEĞİL */
+      body > header:not(.blog-article-header),
+      body > main > header:not(.blog-article-header) {
+        /* Header component zaten fixed, burada sadece geçiş efekti */
+      }
+
+      /* Article header'ları KESINLIKLE sticky olmasın */
+      article header.blog-article-header {
+        position: static !important;
+        top: auto !important;
+      }
+
+      /* 4. Progress bar */
+      .scroll-progress {
+        position: fixed;
+        top: 0;
+        height: 3px;
+        background: linear-gradient(90deg, cyan, blue);
+        transition: width 0.1s ease;
+      }
+
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        [data-reveal],
+        [data-animate] {
+          opacity: 1;
+          transform: none;
+          transition: none;
+        }
+      }
+    </style>
+
+    {/* Google Search Console Verification */}
+    {
+      import.meta.env.PUBLIC_GSC_VERIFICATION && (
+        <meta
+          name="google-site-verification"
+          content={import.meta.env.PUBLIC_GSC_VERIFICATION}
+        />
+      )
+    }
+
+    <slot name="head" />
+  </head>
+  <body class="smooth-scroll">
+    <Header />
+
+    <main
+      class="pt-20"
+      style="position: relative; overflow: visible; contain: none;"
+    >
+      <slot />
+    </main>
+
+    <Footer />
+
+    {/* Floating Buttons - Optimize lazy loading */}
+    {
+      /* Floating Buttons - Use client:idle for fixed elements to ensure visibility while staying fast */
+    }
+    <PhoneButton client:idle pageId={pageId} />
+    <WhatsAppButton
+      client:idle
+      pageId={pageId}
+      message={`Merhaba, DSG servisi hakkında bilgi almak istiyorum. Bu sayfadan yazıyorum: ${title} - ${canonicalURL}`}
+    />
+
+    <div id="global-call-modal" class="call-modal hidden" inert>
+      <div class="call-modal__backdrop" data-close-modal></div>
+      <div
+        class="call-modal__dialog"
+        role="dialog"
+        aria-modal="true"
+        tabindex="-1"
+      >
+        <button
+          class="call-modal__close"
+          type="button"
+          aria-label="Kapat"
+          data-close-modal
+          tabindex="-1">&times;</button
+        >
+        <p class="call-modal__tag">Önemli Bilgilendirme</p>
+        <h3 class="call-modal__title">
+          Servisimiz İstanbul Avrupa Yakasındadır
+        </h3>
+        <p class="call-modal__desc">
+          Konumumuz Beytepe Sanayi Sitesi içerisinde yer alıyor. Konumu
+          doğrulamak isterseniz aşağıdaki bağlantıyı kullanabilirsiniz.
+        </p>
+        <div class="call-modal__actions">
+          <a
+            href={SITE_CONFIG.google.mapUrl}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="call-modal__action call-modal__action--ghost"
+            data-close-modal
+            tabindex="-1"
+          >
+            Konumu Aç
+          </a>
+          <button
+            type="button"
+            class="call-modal__action call-modal__action--primary"
+            data-call-now
+            tabindex="-1"
+          >
+            Hemen Ara
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <style is:inline>
+      .call-modal {
+        position: fixed;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 60;
+        transition: opacity 0.25s ease;
+      }
+
+      .call-modal.hidden {
+        pointer-events: none;
+        opacity: 0;
+      }
+
+      body.call-modal-open {
+        overflow: hidden;
+      }
+
+      .call-modal__backdrop {
+        position: absolute;
+        inset: 0;
+        background: rgba(15, 23, 42, 0.75);
+        backdrop-filter: blur(6px);
+      }
+
+      .call-modal__dialog {
+        position: relative;
+        width: min(90%, 420px);
+        background: linear-gradient(
+          135deg,
+          rgba(15, 23, 42, 0.98),
+          rgba(30, 64, 175, 0.98)
+        );
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        border-radius: 24px;
+        padding: 32px;
+        box-shadow: 0 20px 60px rgba(15, 23, 42, 0.45);
+        color: white;
+        transform: translateY(16px) scale(0.96);
+        opacity: 0;
+        transition:
+          opacity 0.25s ease,
+          transform 0.25s ease;
+      }
+
+      .call-modal:not(.hidden) .call-modal__dialog {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+      }
+
+      .call-modal__close {
+        position: absolute;
+        top: 14px;
+        right: 14px;
+        background: transparent;
+        border: none;
+        color: rgba(255, 255, 255, 0.7);
+        font-size: 1.5rem;
+        cursor: pointer;
+        line-height: 1;
+        transition: color 0.2s ease;
+      }
+
+      .call-modal__close:hover {
+        color: white;
+      }
+
+      .call-modal__tag {
+        font-size: 0.8rem;
+        letter-spacing: 0.18em;
+        text-transform: uppercase;
+        color: #fbbf24;
+        margin-bottom: 0.5rem;
+      }
+
+      .call-modal__title {
+        font-size: 1.35rem;
+        font-weight: 700;
+        margin-bottom: 0.75rem;
+        line-height: 1.3;
+      }
+
+      .call-modal__desc {
+        color: rgba(255, 255, 255, 0.8);
+        font-size: 1rem;
+        line-height: 1.6;
+        margin-bottom: 1.5rem;
+      }
+
+      .call-modal__actions {
+        display: flex;
+        gap: 12px;
+        flex-wrap: wrap;
+      }
+
+      .call-modal__action {
+        flex: 1;
+        text-align: center;
+        padding: 0.85rem 1rem;
+        border-radius: 12px;
+        font-weight: 600;
+        text-decoration: none;
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .call-modal__action--ghost {
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        color: white;
+        background: rgba(255, 255, 255, 0.08);
+      }
+
+      .call-modal__action--primary {
+        background: linear-gradient(135deg, #16a34a, #22c55e);
+        color: white;
+        box-shadow: 0 8px 20px rgba(34, 197, 94, 0.35);
+      }
+
+      .call-modal__action:hover {
+        transform: translateY(-2px);
+      }
+
+      @media (max-width: 480px) {
+        .call-modal__dialog {
+          padding: 24px;
         }
 
         .call-modal__actions {
-          display: flex;
-          gap: 12px;
-          flex-wrap: wrap;
+          flex-direction: column;
+        }
+      }
+    </style>
+
+    {/* Optimize edilmiş Scroll ve Reveal Script */}
+    <script is:inline>
+      // DOMContentLoaded'da çalıştır - daha erken başlatma
+      (function () {
+        if (document.readyState === "loading") {
+          document.addEventListener("DOMContentLoaded", initScript);
+        } else {
+          // DOM zaten hazır
+          setTimeout(initScript, 0);
         }
 
-        .call-modal__action {
-          flex: 1;
-          text-align: center;
-          padding: 0.85rem 1rem;
-          border-radius: 12px;
-          font-weight: 600;
-          text-decoration: none;
-          transition: transform 0.2s ease, box-shadow 0.2s ease;
-        }
+        function initScript() {
+          let ticking = false;
+          const header = document.querySelector("header");
+          const progress = document.getElementById("progress");
 
-        .call-modal__action--ghost {
-          border: 1px solid rgba(255, 255, 255, 0.3);
-          color: white;
-          background: rgba(255,255,255,0.08);
-        }
+          // Reveal
+          const io = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry, index) => {
+                if (!entry.isIntersecting) return;
+                const el = entry.target;
+                const step = Number(
+                  el.dataset && el.dataset.staggerStep
+                    ? el.dataset.staggerStep
+                    : 80,
+                );
+                const delay = index * step;
+                requestAnimationFrame(() => {
+                  setTimeout(() => {
+                    if (el.hasAttribute("data-animate")) {
+                      el.classList.add("animate-in");
+                    } else if (el.hasAttribute("data-reveal")) {
+                      // Logolar (data-dir) için animate-in, diğer reveal'lar için reveal--in
+                      if (el.dataset && el.dataset.dir) {
+                        el.classList.add("animate-in");
+                      } else {
+                        el.classList.add("reveal--in");
+                      }
+                    }
+                    io.unobserve(el);
+                  }, delay);
+                });
+              });
+            },
+            { threshold: 0.1, rootMargin: "0px 0px -50px 0px" },
+          );
 
-        .call-modal__action--primary {
-          background: linear-gradient(135deg, #16a34a, #22c55e);
-          color: white;
-          box-shadow: 0 8px 20px rgba(34, 197, 94, 0.35);
-        }
+          // Tüm section'ları varsayılan olarak reveal kapsamına al (opt-out: data-reveal="false" veya data-animate="false")
+          // Sadece açıkça işaretli öğeleri işleyelim (görünmeme sorunlarını önler)
+          const allAnimateTargets = new Set();
+          // Grid çocuklarını dahil et (yalnızca işaretli olanları)
+          document.querySelectorAll(".grid").forEach((grid) => {
+            const children = grid.querySelectorAll(
+              ":scope > [data-animate], :scope > [data-reveal]",
+            );
+            children.forEach((node) => allAnimateTargets.add(node));
+          });
 
-        .call-modal__action:hover {
-          transform: translateY(-2px);
-        }
+          // Genel sıralama: data-stagger-children olan container'ların doğrudan çocuklarını işaretli olanlarla sınırla
+          document
+            .querySelectorAll("[data-stagger-children]")
+            .forEach((container) => {
+              const kids = container.querySelectorAll(
+                ":scope > [data-animate], :scope > [data-reveal]",
+              );
+              kids.forEach((kid) => allAnimateTargets.add(kid));
+            });
 
-        @media (max-width: 480px) {
-          .call-modal__dialog {
-            padding: 24px;
-          }
+          // Diğer bağımsız [data-animate] ve [data-reveal] öğeleri ekle
+          document
+            .querySelectorAll("[data-animate], [data-reveal]")
+            .forEach((node) => {
+              const el = node;
+              if (el.dataset) {
+                if (!el.dataset.staggerIndex) el.dataset.staggerIndex = "0";
+                if (!el.dataset.sectionOffset) el.dataset.sectionOffset = "0";
+              }
+              allAnimateTargets.add(el);
+            });
 
-          .call-modal__actions {
-            flex-direction: column;
-          }
-        }
-      </style>
+          // İlk yüklemede TÜM elementleri IntersectionObserver'a ekle
+          // getBoundingClientRect() KULLANMA - forced reflow yaratır!
+          // IntersectionObserver zaten viewport kontrolü yapıyor
 
-      {/* Optimize edilmiş Scroll ve Reveal Script */}
-      <script is:inline>
-        // DOMContentLoaded'da çalıştır - daha erken başlatma
-        (function() {
-          if (document.readyState === 'loading') {
-            document.addEventListener('DOMContentLoaded', initScript);
-          } else {
-            // DOM zaten hazır
-            setTimeout(initScript, 0);
-          }
-          
-          function initScript() {
-            let ticking = false;
-            const header = document.querySelector('header');
-            const progress = document.getElementById('progress');
+          // Immediate IO - above-the-fold elementleri hemen göster
+          const immediateIO = new IntersectionObserver(
+            (entries) => {
+              entries.forEach((entry) => {
+                if (!entry.isIntersecting) return;
+                const el = entry.target;
+                const isLogo =
+                  (el.classList && el.classList.contains("logo-anim")) ||
+                  (el.dataset && el.dataset.dir);
 
-            // Reveal
-            const io = new IntersectionObserver((entries) => {
-          entries.forEach((entry, index) => {
-            if (!entry.isIntersecting) return;
-            const el = entry.target;
-            const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
-            const delay = index * step;
-            requestAnimationFrame(() => {
-              setTimeout(() => {
-                if (el.hasAttribute('data-animate')) {
-                  el.classList.add('animate-in');
-                } else if (el.hasAttribute('data-reveal')) {
-                  // Logolar (data-dir) için animate-in, diğer reveal'lar için reveal--in
-                  if (el.dataset && el.dataset.dir) {
-                    el.classList.add('animate-in');
-                  } else {
-                    el.classList.add('reveal--in');
+                // Logo olmayan elementleri hemen göster
+                if (!isLogo) {
+                  if (el.hasAttribute("data-animate")) {
+                    el.classList.add("animate-in");
                   }
+                  if (el.hasAttribute("data-reveal")) {
+                    el.classList.add("reveal--in");
+                  }
+                  immediateIO.unobserve(el);
+                  return;
                 }
-                io.unobserve(el);
-              }, delay);
+
+                // Logolar için stagger delay
+                const step = Number(
+                  el.dataset && el.dataset.staggerStep
+                    ? el.dataset.staggerStep
+                    : 80,
+                );
+                const idx = Number(
+                  el.dataset && el.dataset.staggerIndex
+                    ? el.dataset.staggerIndex
+                    : 0,
+                );
+                const delay = idx * step;
+                setTimeout(() => {
+                  el.classList.add("animate-in");
+                }, delay);
+                immediateIO.unobserve(el);
+              });
+            },
+            { threshold: 0, rootMargin: "50px" },
+          );
+
+          // Tüm elementleri gözlemle - forced reflow YOK
+          allAnimateTargets.forEach((el) => {
+            immediateIO.observe(el);
+            io.observe(el); // Scroll ile tekrar gözlem için
+          });
+
+          // Dinamik eklenen öğeler (basit): sadece işaretli hedefleri gözlemle
+          const mo = new MutationObserver((mutations) => {
+            mutations.forEach((m) => {
+              m.addedNodes.forEach((node) => {
+                if (!(node instanceof Element)) return;
+                const targets =
+                  node.matches && node.matches("[data-animate], [data-reveal]")
+                    ? [node]
+                    : Array.from(
+                        node.querySelectorAll("[data-animate], [data-reveal]"),
+                      );
+                targets.forEach((el) => io.observe(el));
+              });
             });
           });
-        }, { threshold: 0.1, rootMargin: '0px 0px -50px 0px' });
+          mo.observe(document.body, { childList: true, subtree: true });
 
-        // Tüm section'ları varsayılan olarak reveal kapsamına al (opt-out: data-reveal="false" veya data-animate="false")
-        // Sadece açıkça işaretli öğeleri işleyelim (görünmeme sorunlarını önler)
-        const allAnimateTargets = new Set();
-        // Grid çocuklarını dahil et (yalnızca işaretli olanları)
-        document.querySelectorAll('.grid').forEach((grid) => {
-          const children = grid.querySelectorAll(':scope > [data-animate], :scope > [data-reveal]');
-          children.forEach((node) => allAnimateTargets.add(node));
-        });
+          // Scroll handler (throttled) - Optimize edilmiş (forced reflow önleme)
+          let scrollHeight = 0;
+          let windowHeight = 0;
 
-        // Genel sıralama: data-stagger-children olan container'ların doğrudan çocuklarını işaretli olanlarla sınırla
-        document.querySelectorAll('[data-stagger-children]').forEach((container) => {
-          const kids = container.querySelectorAll(':scope > [data-animate], :scope > [data-reveal]');
-          kids.forEach((kid) => allAnimateTargets.add(kid));
-        });
-
-        // Diğer bağımsız [data-animate] ve [data-reveal] öğeleri ekle
-        document.querySelectorAll('[data-animate], [data-reveal]').forEach((node) => {
-          const el = node;
-          if (el.dataset) {
-            if (!el.dataset.staggerIndex) el.dataset.staggerIndex = '0';
-            if (!el.dataset.sectionOffset) el.dataset.sectionOffset = '0';
-          }
-          allAnimateTargets.add(el);
-        });
-
-        // İlk yüklemede TÜM elementleri IntersectionObserver'a ekle
-        // getBoundingClientRect() KULLANMA - forced reflow yaratır!
-        // IntersectionObserver zaten viewport kontrolü yapıyor
-        
-        // Immediate IO - above-the-fold elementleri hemen göster
-        const immediateIO = new IntersectionObserver((entries) => {
-          entries.forEach((entry) => {
-            if (!entry.isIntersecting) return;
-            const el = entry.target;
-            const isLogo = (el.classList && el.classList.contains('logo-anim')) || (el.dataset && el.dataset.dir);
-            
-            // Logo olmayan elementleri hemen göster
-            if (!isLogo) {
-              if (el.hasAttribute('data-animate')) {
-                el.classList.add('animate-in');
-              }
-              if (el.hasAttribute('data-reveal')) {
-                el.classList.add('reveal--in');
-              }
-              immediateIO.unobserve(el);
-              return;
+          // İlk yüklemede değerleri ertele - forced reflow önleme (Deffered by 2s + Idle)
+          function cacheDimensions() {
+            const run = () => {
+              scrollHeight = document.documentElement.scrollHeight;
+              windowHeight = window.innerHeight;
+            };
+            if ("requestIdleCallback" in window) {
+              setTimeout(() => requestIdleCallback(run), 2000);
+            } else {
+              setTimeout(run, 3000);
             }
-            
-            // Logolar için stagger delay
-            const step = Number(el.dataset && el.dataset.staggerStep ? el.dataset.staggerStep : 80);
-            const idx = Number(el.dataset && el.dataset.staggerIndex ? el.dataset.staggerIndex : 0);
-            const delay = idx * step;
-            setTimeout(() => {
-              el.classList.add('animate-in');
-            }, delay);
-            immediateIO.unobserve(el);
-          });
-        }, { threshold: 0, rootMargin: '50px' });
-        
-        // Tüm elementleri gözlemle - forced reflow YOK
-        allAnimateTargets.forEach(el => {
-          immediateIO.observe(el);
-          io.observe(el); // Scroll ile tekrar gözlem için
-        });
-
-        // Dinamik eklenen öğeler (basit): sadece işaretli hedefleri gözlemle
-        const mo = new MutationObserver((mutations) => {
-          mutations.forEach((m) => {
-            m.addedNodes.forEach((node) => {
-              if (!(node instanceof Element)) return;
-              const targets = node.matches && node.matches('[data-animate], [data-reveal]')
-                ? [node]
-                : Array.from(node.querySelectorAll('[data-animate], [data-reveal]'));
-              targets.forEach((el) => io.observe(el));
-            });
-          });
-        });
-        mo.observe(document.body, { childList: true, subtree: true });
-
-        // Scroll handler (throttled) - Optimize edilmiş (forced reflow önleme)
-        let scrollHeight = 0;
-        let windowHeight = 0;
-        
-        // İlk yüklemede değerleri ertele - forced reflow önleme (Deffered by 2s + Idle)
-        function cacheDimensions() {
-          const run = () => {
-            scrollHeight = document.documentElement.scrollHeight;
-            windowHeight = window.innerHeight;
-          };
-          if ('requestIdleCallback' in window) {
-            setTimeout(() => requestIdleCallback(run), 2000);
-          } else {
-            setTimeout(run, 3000);
           }
-        }
-        cacheDimensions();
-        window.addEventListener('resize', cacheDimensions, { passive: true });
-        
-        window.addEventListener('scroll', () => {
-          if (!ticking) {
-            requestAnimationFrame(() => {
-              // Önce tüm okumaları yap
-              const scrollY = window.scrollY;
-              
-              // Sonra tüm yazmaları yap
-              header?.classList.toggle('scrolled', scrollY > 20);
-              
-              if (progress) {
-                const maxScroll = scrollHeight - windowHeight;
-                const percent = maxScroll > 0 ? (scrollY / maxScroll) * 100 : 0;
-                progress.style.width = `${Math.min(100, Math.max(0, percent))}%`;
+          cacheDimensions();
+          window.addEventListener("resize", cacheDimensions, { passive: true });
+
+          window.addEventListener(
+            "scroll",
+            () => {
+              if (!ticking) {
+                requestAnimationFrame(() => {
+                  // Önce tüm okumaları yap
+                  const scrollY = window.scrollY;
+
+                  // Sonra tüm yazmaları yap
+                  header?.classList.toggle("scrolled", scrollY > 20);
+
+                  if (progress) {
+                    const maxScroll = scrollHeight - windowHeight;
+                    const percent =
+                      maxScroll > 0 ? (scrollY / maxScroll) * 100 : 0;
+                    progress.style.width = `${Math.min(100, Math.max(0, percent))}%`;
+                  }
+
+                  ticking = false;
+                });
+                ticking = true;
               }
-              
-              ticking = false;
-            });
-            ticking = true;
-          }
-        }, { passive: true });
-          }
-        })();
-      </script>
+            },
+            { passive: true },
+          );
+        }
+      })();
+    </script>
 
-      <script is:inline>
-        (function() {
-          const modal = document.getElementById('global-call-modal');
-          if (!modal) return;
-          const dialog = modal.querySelector('.call-modal__dialog');
-          const backdrop = modal.querySelector('.call-modal__backdrop');
-          const closeButtons = modal.querySelectorAll('[data-close-modal]');
-          const callNowBtn = modal.querySelector('[data-call-now]');
-          let pendingHref = null;
+    <script is:inline>
+      (function () {
+        const modal = document.getElementById("global-call-modal");
+        if (!modal) return;
+        const dialog = modal.querySelector(".call-modal__dialog");
+        const backdrop = modal.querySelector(".call-modal__backdrop");
+        const closeButtons = modal.querySelectorAll("[data-close-modal]");
+        const callNowBtn = modal.querySelector("[data-call-now]");
+        let pendingHref = null;
 
-          const openModal = (href) => {
-            pendingHref = href;
-            modal.classList.remove('hidden');
-            modal.removeAttribute('inert');
-            document.body.classList.add('call-modal-open');
-            requestAnimationFrame(() => {
-              dialog?.focus?.();
-            });
-          };
+        const openModal = (href) => {
+          pendingHref = href;
+          modal.classList.remove("hidden");
+          modal.removeAttribute("inert");
+          document.body.classList.add("call-modal-open");
+          requestAnimationFrame(() => {
+            dialog?.focus?.();
+          });
+        };
 
-          const closeModal = () => {
-            modal.classList.add('hidden');
-            modal.setAttribute('inert', '');
-            document.body.classList.remove('call-modal-open');
-            pendingHref = null;
-          };
+        const closeModal = () => {
+          modal.classList.add("hidden");
+          modal.setAttribute("inert", "");
+          document.body.classList.remove("call-modal-open");
+          pendingHref = null;
+        };
 
-          document.addEventListener('click', (event) => {
+        document.addEventListener(
+          "click",
+          (event) => {
             const target = event.target;
             if (!(target instanceof Element)) return;
             const telLink = target.closest('a[href^="tel:"]');
             if (!telLink) return;
-            if (telLink.dataset.skipCallModal === 'true') return;
+            if (telLink.dataset.skipCallModal === "true") return;
             event.preventDefault();
-            const href = telLink.getAttribute('href');
+            const href = telLink.getAttribute("href");
             if (!href) return;
             openModal(href);
-          }, true);
+          },
+          true,
+        );
 
-          closeButtons.forEach((btn) => btn.addEventListener('click', closeModal));
-          backdrop?.addEventListener('click', closeModal);
+        closeButtons.forEach((btn) =>
+          btn.addEventListener("click", closeModal),
+        );
+        backdrop?.addEventListener("click", closeModal);
 
-          callNowBtn?.addEventListener('click', (event) => {
-            event.preventDefault();
-            if (pendingHref) {
-              window.location.href = pendingHref;
-            }
-            closeModal();
-          });
+        callNowBtn?.addEventListener("click", (event) => {
+          event.preventDefault();
+          if (pendingHref) {
+            window.location.href = pendingHref;
+          }
+          closeModal();
+        });
 
-          window.addEventListener('keyup', (event) => {
-            if (event.key === 'Escape') {
+        window.addEventListener(
+          "keyup",
+          (event) => {
+            if (event.key === "Escape") {
               closeModal();
             }
-          }, { passive: true });
-        })();
-      </script>
+          },
+          { passive: true },
+        );
+      })();
+    </script>
 
-  {/* Google Analytics - Lazy loaded after interaction */}
-  {import.meta.env.PUBLIC_GA_ID && (
-    <script is:inline define:vars={{ gaId: import.meta.env.PUBLIC_GA_ID }}>
+    {/* Google Analytics - Robust Implementation */}
+    {
+      import.meta.env.PUBLIC_GA_ID && (
+        <script
+          is:inline
+          set:html={`
       window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
+      window.gtag = function(){ dataLayer.push(arguments); };
       gtag('js', new Date());
-      gtag('config', gaId);
+      gtag('config', '${import.meta.env.PUBLIC_GA_ID}');
       gtag('config', 'AW-17636981832');
       
-      // Lazy load GA script after user interaction
+      // Lazy load GA script
       let gaLoaded = false;
       function loadGA() {
         if (gaLoaded) return;
         gaLoaded = true;
         const script = document.createElement('script');
         script.async = true;
-        script.src = `https://www.googletagmanager.com/gtag/js?id=${gaId}`;
+        script.src = "https://www.googletagmanager.com/gtag/js?id=${import.meta.env.PUBLIC_GA_ID}";
         document.head.appendChild(script);
       }
       
-      // Load on user interaction or after 6 seconds
       ['mousedown', 'touchstart', 'scroll', 'keydown'].forEach(event => {
         window.addEventListener(event, loadGA, { once: true, passive: true });
       });
       setTimeout(loadGA, 6000);
 
-      // Map Tracking & Attribution Leak Detection
+      // Global Event Tracker for Buttons and Links
       document.addEventListener('click', function(e) {
         const link = e.target.closest('a');
+        const button = e.target.closest('button');
+        
+        // 1. Map Link Tracking
         if (link && link.href && (link.href.includes('maps.google') || link.href.includes('maps.app.goo.gl'))) {
-          if (window.gtag) {
-            window.gtag('event', 'konum_linki_tiklandi', {
-              'event_category': 'engagement',
-              'event_label': link.href,
-              'page_path': window.location.pathname
-            });
-          }
+           gtag('event', 'konum_linki_tiklandi', { 'event_category': 'engagement', 'event_label': link.href });
+        }
+        
+        // 2. Telefone click tracking (tel: links)
+        if (link && link.href && link.href.startsWith('tel:')) {
+           gtag('event', 'telefon_numarasi_tiklandi', { 'event_category': 'conversion', 'event_label': link.href });
+        }
+
+        // 3. Modal "Hemen Ara" Button
+        if (button && button.hasAttribute('data-call-now')) {
+           gtag('event', 'modal_hemen_ara_tiklandi', { 'event_category': 'conversion' });
+        }
+
+        // 4. Modal "Konumu Aç" inside modal
+        if (link && link.classList.contains('call-modal__action--ghost') && link.innerText.includes('Konum')) {
+           gtag('event', 'modal_konum_tiklandi', { 'event_category': 'engagement' });
         }
       }, true);
-    </script>
-  )}
-</body>
+    `}
+        />
+      )
+    }
+  </body>
 </html>
-
