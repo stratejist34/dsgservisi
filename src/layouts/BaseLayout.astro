@@ -905,8 +905,11 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
         else if (target.closest('.modal') || target.closest('.call-modal')) clickLocation = 'modal_popup';
         else if (target.closest('.sidebar') || target.closest('aside')) clickLocation = 'sidebar';
         
-        // 1. Map Link Tracking (Global)
+        // 1. Map Link Tracking (Global - Excluding Modal Button to prevent double counting)
         if (link && link.href && (link.href.includes('maps.google') || link.href.includes('maps.app.goo.gl'))) {
+           // Modal içindeki butonu modal_konum_tiklandi yakalayacağı için burayı es geçiyoruz
+           if (link.classList.contains('call-modal__action--ghost')) return;
+
            gtag('event', 'konum_linki_tiklandi', { 
              'device': deviceType,
              'source_page': pagePath,
@@ -985,7 +988,11 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
         // 8. Iframe Maps Interaction
         const mapContainer = target.closest('.map-embed') || target.closest('.iframe-container');
         if (mapContainer) {
-           gtag('event', 'iletisim_harita_iframe_tiklandi', { 'device': deviceType });
+           gtag('event', 'iletisim_harita_iframe_tiklandi', { 
+             'device': deviceType,
+             'source_page': pagePath,
+             'click_location': clickLocation
+            });
         }
       }, true);
     `}
