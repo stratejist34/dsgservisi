@@ -887,34 +887,62 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
         const button = e.target.closest('button');
         const target = e.target;
         const deviceType = window.innerWidth < 768 ? 'mobile' : 'desktop';
+        const pagePath = window.location.pathname;
+        const linkText = link ? (link.innerText || link.getAttribute('aria-label') || 'no-text').trim().substring(0, 40) : 'no-text';
+
+        // Smart Location Detection (Contextual)
+        let clickLocation = 'other';
+        if (target.closest('header')) clickLocation = 'header';
+        else if (target.closest('footer')) clickLocation = 'footer';
+        else if (target.closest('.cta') || target.closest('[class*="cta"]')) clickLocation = 'cta_block';
+        else if (target.closest('article') || target.closest('.blog-content') || target.closest('.prose')) {
+           // Blog içinde daha detaylı konum tespiti
+           if (target.closest('.cta')) clickLocation = 'blog_cta_section';
+           else if (target.closest('h2')?.innerText.includes('İletişim') || target.closest('p')?.previousElementSibling?.innerText?.includes('İletişim')) clickLocation = 'blog_bottom_contact';
+           else clickLocation = 'blog_content_body';
+        }
+        else if (target.closest('.hero')) clickLocation = 'hero';
+        else if (target.closest('.modal') || target.closest('.call-modal')) clickLocation = 'modal_popup';
+        else if (target.closest('.sidebar') || target.closest('aside')) clickLocation = 'sidebar';
         
         // 1. Map Link Tracking (Global)
         if (link && link.href && (link.href.includes('maps.google') || link.href.includes('maps.app.goo.gl'))) {
            gtag('event', 'konum_linki_tiklandi', { 
-             'event_category': 'engagement', 
-             'event_label': link.href,
              'device': deviceType,
-             'source_page': window.location.pathname
+             'source_page': pagePath,
+             'click_location': clickLocation,
+             'link_text': linkText
            });
         }
         
         // 2. Call Intent Tracking (tel: links)
         if (link && link.href && link.href.startsWith('tel:')) {
-           // Herhangi bir numara tıklandığında (Header, Footer, Content vb.)
            gtag('event', 'call_intent_started', { 
              'event_category': 'funnel', 
-             'event_label': link.href,
              'device': deviceType,
-             'source_page': window.location.pathname
+             'source_page': pagePath,
+             'click_location': clickLocation,
+             'link_text': linkText
            });
         }
 
-        // 3. Call Confirmed (Modal "Hemen Ara" Button)
+        // 3. WhatsApp Tracking (Global)
+        if (link && link.href && (link.href.includes('wa.me') || link.href.includes('whatsapp.com'))) {
+           gtag('event', 'whatsapp_button_click', { 
+             'event_category': 'conversion', 
+             'device': deviceType,
+             'source_page': pagePath,
+             'click_location': clickLocation,
+             'link_text': linkText
+           });
+        }
+
+        // 4. Call Confirmed (Modal "Hemen Ara" Button)
         if (button && button.hasAttribute('data-call-now')) {
            gtag('event', 'call_confirmed', { 
              'event_category': 'conversion',
              'device': deviceType,
-             'source_page': window.location.pathname
+             'source_page': pagePath
            });
         }
 
