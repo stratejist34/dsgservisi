@@ -947,10 +947,11 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
         }
 
         // 4. Modal "Konumu Aç" inside modal
-        if (link && link.classList.contains('call-modal__action--ghost') && link.innerText.includes('Konum')) {
+        if (link && link.classList.contains('call-modal__action--ghost') && (link.innerText.toLowerCase().includes('konum') || link.innerText.toLowerCase().includes('aç'))) {
            gtag('event', 'modal_konum_tiklandi', { 
              'event_category': 'engagement',
-             'device': deviceType
+             'device': deviceType,
+             'source_page': pagePath
            });
         }
 
