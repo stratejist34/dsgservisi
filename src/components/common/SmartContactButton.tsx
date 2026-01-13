@@ -44,19 +44,19 @@ export default function SmartContactButton({
   // Çalışma saatleri kontrolü - Optimize edilmiş
   useEffect(() => {
     if (!mounted) return;
-    
+
     function updateStatus() {
       const now = new Date();
       setCurrentHour(now.getHours());
       setIsWorkingHours(checkWorkingHours());
     }
-    
+
     function scheduleNextCheck() {
       const now = new Date();
       const currentHour = now.getHours();
-      
+
       let targetHour: number;
-      
+
       if (currentHour >= 9 && currentHour < 18) {
         targetHour = 18;
       } else if (currentHour < 9) {
@@ -64,23 +64,23 @@ export default function SmartContactButton({
       } else {
         targetHour = 9;
       }
-      
+
       const targetTime = new Date();
       targetTime.setHours(targetHour, 0, 0, 0);
-      
+
       if (targetTime.getTime() <= now.getTime()) {
         targetTime.setDate(targetTime.getDate() + 1);
         targetTime.setHours(9, 0, 0, 0);
       }
-      
+
       const msUntilTarget = targetTime.getTime() - now.getTime();
-      
+
       return setTimeout(() => {
         updateStatus();
         scheduleNextCheck();
       }, msUntilTarget);
     }
-    
+
     const timeout = scheduleNextCheck();
     return () => clearTimeout(timeout);
   }, [mounted]);
@@ -90,7 +90,7 @@ export default function SmartContactButton({
       setShowButton(false);
       return;
     }
-    
+
     // Butonu hemen göster
     setShowButton(true);
 
@@ -106,17 +106,17 @@ export default function SmartContactButton({
             const now = new Date();
             const currentHourNow = now.getHours();
             const isWorkingHoursNow = checkWorkingHours();
-            
+
             if (isWorkingHoursNow) {
               // Telefon butonu için
-              (window as any).gtag('event', 'smart_tel_butonu_olasi_arama', { 
+              (window as any).gtag('event', 'smart_call_intent_likely', {
                 delta_ms: delta,
                 location: 'smart_floating_button',
                 hour: currentHourNow
               });
             } else {
               // WhatsApp butonu için
-              (window as any).gtag('event', 'smart_whatsapp_butonu_olasi_acilis', { 
+              (window as any).gtag('event', 'smart_whatsapp_click_likely', {
                 delta_ms: delta,
                 location: 'smart_floating_button',
                 hour: currentHourNow
@@ -137,10 +137,10 @@ export default function SmartContactButton({
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
-    
+
     const newRipple = { x, y, id: Date.now() };
     setRipples([...ripples, newRipple]);
-    
+
     setTimeout(() => {
       setRipples((prev) => prev.filter((r) => r.id !== newRipple.id));
     }, 600);
@@ -155,10 +155,10 @@ export default function SmartContactButton({
   const defaultWhatsAppMessage = 'Merhaba, DSG servisi hakkında bilgi almak istiyorum.';
   const finalWhatsAppMessage = whatsappMessage || defaultWhatsAppMessage;
   const whatsappUrl = `https://wa.me/${whatsappPhone}?text=${encodeURIComponent(finalWhatsAppMessage)}`;
-  
+
   const isPhone = isWorkingHours;
   const href = isPhone ? phoneHref : whatsappUrl;
-  
+
   // Position classes
   const positionClasses = {
     'bottom-right': 'bottom-6 right-6',
@@ -177,8 +177,8 @@ export default function SmartContactButton({
         flex items-center justify-center gap-3
         w-16 h-16 md:w-20 md:h-20
         rounded-full
-        ${isPhone 
-          ? 'bg-gradient-to-br from-primary via-urgent to-primary-600' 
+        ${isPhone
+          ? 'bg-gradient-to-br from-primary via-urgent to-primary-600'
           : 'bg-[#25D366]'
         }
         text-white
@@ -192,13 +192,13 @@ export default function SmartContactButton({
       `}
       style={{
         backgroundSize: isPhone ? '300% 300%' : '100%',
-        animation: mounted 
-          ? (isPhone 
-              ? 'gradient-shift 6s ease infinite, bounce-spring 2.2s cubic-bezier(0.22, 1, 0.36, 1) 1' 
-              : 'glow-pulse 3s ease-in-out 2')
+        animation: mounted
+          ? (isPhone
+            ? 'gradient-shift 6s ease infinite, bounce-spring 2.2s cubic-bezier(0.22, 1, 0.36, 1) 1'
+            : 'glow-pulse 3s ease-in-out 2')
           : 'none',
         animationDelay: '0.1s, 0.25s',
-        boxShadow: isPhone 
+        boxShadow: isPhone
           ? '0 10px 40px rgba(249, 115, 22, 0.45), 0 0 80px rgba(220, 38, 38, 0.35), 0 0 120px rgba(220, 38, 38, 0.18)'
           : '0 10px 40px rgba(37, 211, 102, 0.45), 0 0 80px rgba(37, 211, 102, 0.35)',
       }}
@@ -206,20 +206,13 @@ export default function SmartContactButton({
       target={isPhone ? undefined : '_blank'}
       rel={isPhone ? undefined : 'noopener noreferrer'}
       onMouseDown={() => {
-        // gtag click event (varsa)
-        if ((window as any).gtag) {
-          (window as any).gtag('event', isPhone ? 'smart_tel_butonu' : 'smart_whatsapp_butonu', { 
-            location: 'smart_floating_button',
-            hour: currentHour
-          });
-        }
         // visibility ölçümleme için işaretle
         (window as any).__contactIntentAt = Date.now();
       }}
     >
       {/* Glow Layer - Sadece telefon için */}
       {isPhone && (
-        <div 
+        <div
           className="absolute inset-0 rounded-full opacity-75"
           style={{
             animation: mounted ? 'glow-pulse 3.4s ease-in-out 2' : 'none',
@@ -227,7 +220,7 @@ export default function SmartContactButton({
           }}
         />
       )}
-      
+
       {/* Icon */}
       {isPhone ? (
         <svg

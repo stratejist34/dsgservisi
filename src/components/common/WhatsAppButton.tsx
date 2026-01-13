@@ -66,11 +66,6 @@ export default function WhatsAppButton({
         }}
         aria-label="WhatsApp ile İletişim"
         onMouseDown={() => {
-          // @ts-ignore
-          if (window.gtag) {
-            // @ts-ignore
-            window.gtag('event', `${pageId}_sticky_whatsapp_butonu_tiklamasi`, { location: 'floating_button' });
-          }
           setShowTooltip(false);
         }}
       >

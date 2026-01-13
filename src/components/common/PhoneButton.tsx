@@ -80,17 +80,7 @@ export default function PhoneButton({
           ${className}
         `}
         aria-label={`Bizi arayın: ${phone}`}
-        onMouseDown={() => {
-          // @ts-ignore
-          if (window.gtag) {
-            // @ts-ignore
-            window.gtag('event', 'call_intent_started', {
-              'location': 'floating_sticky_button',
-              'source_page': pageId,
-              'device': window.innerWidth < 768 ? 'mobile' : 'desktop'
-            });
-          }
-        }}
+        onMouseDown={() => { }}
       >
         {/* Pulse Rings */}
         <div className="absolute inset-0 rounded-full bg-amber-500 animate-ping opacity-25" />

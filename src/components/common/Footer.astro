@@ -78,24 +78,29 @@ import { SITE_CONFIG } from "@utils/constants";
               class="hover:text-amber-500 transition-colors flex items-center gap-2"
               ><span
                 class="w-1 h-1 bg-amber-500 rounded-full opacity-0 group-hover:opacity-100"
-              ></span>Anasayfa</a>
+              ></span>Anasayfa</a
+            >
           </li>
           <li>
             <a
               href="/hizmetlerimiz"
-              class="hover:text-amber-500 transition-colors">Hizmetlerimiz</a>
+              class="hover:text-amber-500 transition-colors">Hizmetlerimiz</a
+            >
           </li>
           <li>
             <a href="/hakkimizda" class="hover:text-amber-500 transition-colors"
-              >Hakkımızda</a>
+              >Hakkımızda</a
+            >
           </li>
           <li>
             <a href="/blog" class="hover:text-amber-500 transition-colors"
-              >Blog / Arşiv</a>
+              >Blog / Arşiv</a
+            >
           </li>
           <li>
             <a href="/iletisim" class="hover:text-amber-500 transition-colors"
-              >İletişim</a>
+              >İletişim</a
+            >
           </li>
         </ul>
       </div>
@@ -176,7 +181,6 @@ import { SITE_CONFIG } from "@utils/constants";
             <a
               href={`tel:${SITE_CONFIG.phoneTel}`}
               class="hover:text-amber-500 transition-colors font-mono text-lg"
-              onmousedown="if(window.gtag){window.gtag('event','footer_tel_arama_butonu_tiklamasi',{location:'footer'});}"
             >
               {SITE_CONFIG.phone}
             </a>
