@@ -84,7 +84,11 @@ export default function PhoneButton({
           // @ts-ignore
           if (window.gtag) {
             // @ts-ignore
-            window.gtag('event', `${pageId}_sticky_tel_arama_butonu_tiklamasi`, { location: 'floating_button' });
+            window.gtag('event', 'call_intent_started', {
+              'location': 'floating_sticky_button',
+              'source_page': pageId,
+              'device': window.innerWidth < 768 ? 'mobile' : 'desktop'
+            });
           }
         }}
       >

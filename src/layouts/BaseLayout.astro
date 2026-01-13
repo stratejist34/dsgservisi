@@ -881,54 +881,82 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
       });
       setTimeout(loadGA, 6000);
 
-      // Global Event Tracker for Buttons and Links
+      // Global Event Tracker for Buttons and Links - Funnel Logic Implementation
       document.addEventListener('click', function(e) {
         const link = e.target.closest('a');
         const button = e.target.closest('button');
         const target = e.target;
+        const deviceType = window.innerWidth < 768 ? 'mobile' : 'desktop';
         
         // 1. Map Link Tracking (Global)
         if (link && link.href && (link.href.includes('maps.google') || link.href.includes('maps.app.goo.gl'))) {
-           gtag('event', 'konum_linki_tiklandi', { 'event_category': 'engagement', 'event_label': link.href });
+           gtag('event', 'konum_linki_tiklandi', { 
+             'event_category': 'engagement', 
+             'event_label': link.href,
+             'device': deviceType,
+             'source_page': window.location.pathname
+           });
         }
         
-        // 2. Telefone click tracking (tel: links)
+        // 2. Call Intent Tracking (tel: links)
         if (link && link.href && link.href.startsWith('tel:')) {
-           gtag('event', 'telefon_numarasi_tiklandi', { 'event_category': 'conversion', 'event_label': link.href });
+           // Herhangi bir numara tıklandığında (Header, Footer, Content vb.)
+           gtag('event', 'call_intent_started', { 
+             'event_category': 'funnel', 
+             'event_label': link.href,
+             'device': deviceType,
+             'source_page': window.location.pathname
+           });
         }
 
-        // 3. Modal "Hemen Ara" Button
+        // 3. Call Confirmed (Modal "Hemen Ara" Button)
         if (button && button.hasAttribute('data-call-now')) {
-           gtag('event', 'modal_hemen_ara_tiklandi', { 'event_category': 'conversion' });
+           gtag('event', 'call_confirmed', { 
+             'event_category': 'conversion',
+             'device': deviceType,
+             'source_page': window.location.pathname
+           });
         }
 
         // 4. Modal "Konumu Aç" inside modal
         if (link && link.classList.contains('call-modal__action--ghost') && link.innerText.includes('Konum')) {
-           gtag('event', 'modal_konum_tiklandi', { 'event_category': 'engagement' });
+           gtag('event', 'modal_konum_tiklandi', { 
+             'event_category': 'engagement',
+             'device': deviceType
+           });
         }
 
         // 5. Blog "Gerçek Yorumları Gör" Tracking
         if (link && (link.innerText.includes('Yorumları gör') || link.innerText.includes('Gerçek Yorumlar'))) {
-           gtag('event', 'blog_yorumlar_linki_tiklandi', { 'page_path': window.location.pathname });
+           gtag('event', 'blog_yorumlar_linki_tiklandi', { 
+             'source_page': window.location.pathname,
+             'device': deviceType
+           });
         }
 
-        // 6. Header/Navbar Special Tracking
+        // 6. Header/Navbar Intent Tracking
         if (link && link.id === 'header-cta-btn') {
-           gtag('event', 'header_fiyat_iste_tiklandi', { 'location': 'navbar' });
+           gtag('event', 'header_fiyat_iste_intent', { 
+             'location': 'navbar',
+             'device': deviceType
+           });
         }
         if (link && link.id === 'mobile-menu-call-btn') {
-           gtag('event', 'mobil_menu_hemen_ara_tiklandi', { 'location': 'mobile_nav' });
+           gtag('event', 'mobil_menu_hemen_ara_intent', { 
+             'location': 'mobile_nav',
+             'device': 'mobile'
+           });
         }
 
         // 7. Reviews Section Tracking
         if (link && link.innerText.includes("GOOGLE'DA İNCELE")) {
-           gtag('event', 'home_reviews_google_tiklandi');
+           gtag('event', 'home_reviews_google_tiklandi', { 'device': deviceType });
         }
 
-        // 8. Iframe Maps Interaction fallback (Check if parent is map container)
+        // 8. Iframe Maps Interaction
         const mapContainer = target.closest('.map-embed') || target.closest('.iframe-container');
         if (mapContainer) {
-           gtag('event', 'iletisim_harita_iframe_tiklandi');
+           gtag('event', 'iletisim_harita_iframe_tiklandi', { 'device': deviceType });
         }
       }, true);
     `}

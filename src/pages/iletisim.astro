@@ -77,7 +77,7 @@ const description =
               href={`tel:${SITE_CONFIG.phoneTel}`}
               class="group block bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 hover:-translate-y-1"
               data-animate
-              onmousedown="if(window.gtag){window.gtag('event','iletisim_sayfasi_hızlı_destek_butonu_tiklamasi',{location:'contact_card'});}"
+              onmousedown="if(window.gtag){window.gtag('event','call_intent_started',{location:'contact_page_phone_card', source_page:'iletisim', device: window.innerWidth < 768 ? 'mobile' : 'desktop'});}"
             >
               <div class="flex items-start gap-6">
                 <div
@@ -154,7 +154,7 @@ const description =
               rel="noopener noreferrer"
               class="group block bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-amber-500/10 hover:-translate-y-1"
               data-animate
-              onmousedown="if(window.gtag){window.gtag('event','iletisim_adres_kart_tiklandi',{location:'contact_card'});}"
+              onmousedown="if(window.gtag){window.gtag('event','iletisim_adres_kart_tiklandi',{location:'contact_page_address_card', device: window.innerWidth < 768 ? 'mobile' : 'desktop'});}"
             >
               <div class="flex items-start gap-6">
                 <div
@@ -183,7 +183,7 @@ const description =
                   </p>
                   <div
                     class="inline-flex items-center gap-2 text-amber-500 font-bold text-sm uppercase tracking-wider transition-colors"
-                    onmousedown="event.stopPropagation(); if(window.gtag){window.gtag('event','iletisim_sol_yol_tarifi_tiklandi',{location:'contact_card_link'});}"
+                    onmousedown="event.stopPropagation(); if(window.gtag){window.gtag('event','konum_linki_tiklandi',{location:'contact_page_sidebar_map_link', device: window.innerWidth < 768 ? 'mobile' : 'desktop'});}"
                   >
                     <svg
                       class="w-4 h-4"
@@ -217,7 +217,7 @@ const description =
             <div
               class="group bg-slate-800/50 backdrop-blur-sm rounded-2xl p-6 border border-white/10 hover:border-amber-500/50 transition-all duration-300"
               data-animate
-              onmousedown="if(window.gtag){window.gtag('event','iletisim_sayfasi_çalışma_saatleri_butonu_tiklamasi',{location:'contact_card'});}"
+              onmousedown="if(window.gtag){window.gtag('event','iletisim_calisma_saatleri_etkilesim',{location:'contact_page_working_hours', device: window.innerWidth < 768 ? 'mobile' : 'desktop'});}"
             >
               <div class="flex items-start gap-6">
                 <div
@@ -312,7 +312,7 @@ const description =
               target="_blank"
               rel="noopener noreferrer"
               class="group w-full inline-flex items-center justify-center gap-3 bg-amber-500 hover:bg-amber-400 text-white px-8 py-5 rounded-xl font-bold text-xl shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)] hover:-translate-y-1 transition-all duration-300"
-              onmousedown="if(window.gtag){window.gtag('event','iletisim_alt_yol_tarifi_tiklandi',{location:'map_button'});}"
+              onmousedown="if(window.gtag){window.gtag('event','call_intent_started',{location:'contact_page_map_bottom_button', source_page:'iletisim', device: window.innerWidth < 768 ? 'mobile' : 'desktop'});}"
             >
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
                 <path
@@ -387,7 +387,7 @@ const description =
           <a
             href={`tel:${SITE_CONFIG.phoneTel}`}
             class="w-full sm:w-64 inline-flex items-center justify-center px-8 py-5 rounded-xl bg-amber-500 text-white text-xl font-bold shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_30px_rgba(245,158,11,0.5)] hover:bg-amber-400 hover:-translate-y-1 transition-all duration-300 border-none whitespace-nowrap gap-3"
-            onmousedown="if(window.gtag){window.gtag('event','iletisim_sayfasi_randevu_al_butonu_tiklamasi',{location:'bottom_cta'});}"
+            onmousedown="if(window.gtag){window.gtag('event','call_intent_started',{location:'contact_page_bottom_cta_phone', source_page:'iletisim', device: window.innerWidth < 768 ? 'mobile' : 'desktop'});}"
           >
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20">
               <path
@@ -401,7 +401,7 @@ const description =
             target="_blank"
             rel="noopener noreferrer"
             class="w-full sm:w-64 inline-flex items-center justify-center px-8 py-5 rounded-xl bg-[#25D366] text-white text-xl font-bold shadow-[0_0_20px_rgba(37,211,102,0.3)] hover:shadow-[0_0_30px_rgba(37,211,102,0.5)] hover:bg-[#20bd5a] hover:-translate-y-1 transition-all duration-300 border-none whitespace-nowrap gap-3"
-            onmousedown="if(window.gtag){window.gtag('event','iletisim_sayfasi_whatsapp_butonu_tiklamasi',{location:'bottom_cta'});}"
+            onmousedown="if(window.gtag){window.gtag('event','whatsapp_button_click',{location:'contact_page_bottom_cta_whatsapp', source_page:'iletisim', device: window.innerWidth < 768 ? 'mobile' : 'desktop'});}"
           >
             <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
               <path
