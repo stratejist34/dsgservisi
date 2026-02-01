@@ -49,8 +49,11 @@ Volant değişimi sırasında kavrama seti mutlaka yenilenmelidir. Eski kavrama 
 :::
 
 :::cta
-# Volant Kontrolü + Net Fiyat Onayı
-İşlem başlamadan önce toplam maliyet netleştirilir.
+
+**SADECE  İSTANBUL AVRUPA YAKASI' na HİZMET VERİYORUZ**
+
+**⚠️ Atölyemiz sadece İstanbul Avrupa Yakası'ndaki araçlara hizmet vermektedir. Şehir dışından gelen aramalarda teknik danışmanlık veya fiyat bilgisi verilmemektedir.**
+
 :::
 
 ## Volant Arıza Belirtileri
@@ -94,8 +97,11 @@ Volant değişimi sırasında kavrama seti mutlaka yenilenmelidir. Eski kavrama 
 </ul>
 
 :::cta
-# Volant Kontrolü + Net Fiyat Onayı
-İşlem başlamadan önce toplam maliyet netleştirilir.
+
+**İSTANBUL DIŞI ARAMALAR için DANIŞMANLIK HİZMETİMİZ YOKTUR**
+
+**⚠️ Servisimiz bölgeseldir. İstanbul dışından yapılan teknik destek ve danışmanlık talepleri yoğunluk nedeniyle yanıtlanamayacaktır.**
+
 :::
 
 ## Orijinal vs Yan Sanayi Volant

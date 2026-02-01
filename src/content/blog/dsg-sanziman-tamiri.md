@@ -87,9 +87,9 @@ Yıldızlar Grup DSG Servisi olarak, **mekatronik tamiri**, **DSG volant değiş
 
 :::cta
 
-**DSG ŞANZIMAN TAMİRİ VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
+**İSTANBUL DIŞI ARAMALAR için DANIŞMANLIK HİZMETİMİZ YOKTUR**
 
-**⚠️ SADECE İSTANBUL AVRUPA YAKASI İÇİN HİZMET VERMEKTEYİZ. ŞEHİR DIŞINDAN YAPILAN ARAMALARA DANIŞMANLIK HİZMETİMİZ YOKTUR.**
+**⚠️ Servisimiz sadece İstanbul Avrupa Yakası bölgesine özeldir. Şehir dışı danışmanlık ve fiyat talepleri yoğunluk nedeniyle yanıtlanamayacaktır. Lütfen sadece atölyemize gelebilecek araçlar için iletişime geçiniz.**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

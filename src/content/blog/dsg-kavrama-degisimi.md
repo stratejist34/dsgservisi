@@ -78,13 +78,16 @@ Not: Golf 7 DSG kavrama değişimi fiyatı ve Polo DSG kavrama değişimi model 
   <li>Adaptasyon ve yol testi dahil</li>
 </ul>
 
-<div class="cta-box">
-  <strong>Araç başında ön kontrol için:</strong>
-  <div class="cta-actions">
-    <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
-    <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Randevu</a>
-  </div>
-</div>
+:::cta
+
+**SADECE  İSTANBUL AVRUPA YAKASI' na HİZMET VERİYORUZ**
+
+**⚠️ Atölyemiz sadece İstanbul Avrupa Yakası bölgesindeki araçlara hizmet vermektedir. Şehir dışından gelen talepler yoğunluk nedeniyle karşılanamamaktadır.**
+
+- [📞 0533 262 34 51](tel:05332623451)
+- [WhatsApp Randevu](https://wa.me/905332623451)
+
+:::
 
 | İşlem | Parça | İşçilik | Toplam | Garanti |
 | --- | ---: | ---: | ---: | --- |
