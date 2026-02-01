@@ -35,7 +35,9 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 :::cta
 
-**1.4 TSI DSG kavrama değişimi ve araç başında arıza tespiti için:**
+**1.4 TSI DSG KAVRAMA DEĞİŞİMİ VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
+
+**⚠️ SADECE İSTANBUL AVRUPA YAKASI İÇİN HİZMET VERMEKTEYİZ. ŞEHİR DIŞINDAN YAPILAN ARAMALARA DANIŞMANLIK HİZMETİMİZ YOKTUR.**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

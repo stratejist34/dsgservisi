@@ -204,16 +204,54 @@
   /* 
      TECHNICAL LUXURY CTA BUTONLARI (Inter Font & Shine Effect)
   */
+  /* 
+     AGGRESSIVE REGIONAL CTA (Warning Theme)
+  */
   .glass-cta {
-    background: rgba(15, 23, 42, 0.96) !important;
-    border: 1px solid rgba(245, 158, 11, 0.2);
-    padding: 3.5rem 2rem;
-    border-radius: 2rem;
+    background: #020617 !important;
+    border: 2px solid #ef4444; /* Urgent Red */
+    padding: 4rem 2rem 3rem 2rem;
+    border-radius: 1.5rem;
     text-align: center;
-    margin: 4.5rem 0;
-    box-shadow: 0 30px 60px -12px rgba(0, 0, 0, 0.6);
+    margin: 5rem 0;
+    box-shadow: 0 0 40px rgba(239, 68, 68, 0.15);
     position: relative;
-    overflow: hidden;
+    overflow: visible; /* To allow warning tag to pop out */
+  }
+
+  /* Warning Label at the top */
+  .glass-cta::before {
+    content: "⚠️ BÖLGESEL SERVİS UYARISI" !important;
+    position: absolute !important;
+    top: -18px !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    background: #ef4444 !important;
+    color: white !important;
+    padding: 6px 24px !important;
+    border-radius: 20px !important;
+    font-size: 0.9rem !important;
+    font-weight: 900 !important;
+    letter-spacing: 1px !important;
+    white-space: nowrap !important;
+    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4) !important;
+    z-index: 20 !important;
+    font-family: 'Rajdhani', sans-serif !important;
+    filter: none !important; /* Override icon filter */
+    width: auto !important;
+    height: auto !important;
+    margin-right: 0 !important;
+  }
+
+  /* Pulsing border effect */
+  @keyframes cta-pulse {
+    0% { border-color: rgba(239, 68, 68, 1); box-shadow: 0 0 20px rgba(239, 68, 68, 0.2); }
+    50% { border-color: rgba(239, 68, 68, 0.4); box-shadow: 0 0 40px rgba(239, 68, 68, 0.4); }
+    100% { border-color: rgba(239, 68, 68, 1); box-shadow: 0 0 20px rgba(239, 68, 68, 0.2); }
+  }
+
+  .glass-cta {
+    animation: cta-pulse 3s infinite ease-in-out;
   }
 
   /* Markdown liste noktalarını temizle */
@@ -230,106 +268,78 @@
   }
 
   .glass-cta strong {
-    font-size: 1.8rem !important;
-    color: white !important;
+    font-size: 1.6rem !important;
+    color: #f8fafc !important;
     display: block;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2rem;
     font-family: 'Rajdhani', sans-serif !important;
     text-transform: uppercase;
-    letter-spacing: 3px;
+    letter-spacing: 1px;
     font-weight: 800;
-    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+    line-height: 1.3;
+  }
+
+  /* Highlight only certain keywords if needed, but here we want the whole title visible */
+  .glass-cta strong span.regional {
+    color: #ef4444 !important;
+    display: block;
+    font-size: 1.8rem;
+    margin-top: 0.5rem;
   }
 
   /* PREMIUM BUTTON BASE - REFINED */
   div#article-content.prose .glass-cta a.cta-btn {
     position: relative !important;
-    background: #f59e0b !important;
-    /* Amber 500 */
-    color: #020617 !important;
-    /* Slate 950 */
-    padding: 0.9rem 1.8rem !important;
+    background: #ef4444 !important; /* Red for high visibility */
+    color: white !important;
+    padding: 1.1rem 2rem !important;
     border-radius: 12px !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
     font-family: 'Inter', sans-serif !important;
-    font-weight: 700 !important;
-    font-size: 1.1rem !important;
+    font-weight: 800 !important;
+    font-size: 1.2rem !important;
     text-decoration: none !important;
-    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    border: none !important;
     transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1) !important;
-    box-shadow:
-      0 8px 15px -4px rgba(245, 158, 11, 0.3),
-      inset 0 1px 0 rgba(255, 255, 255, 0.2) !important;
-    margin: 0.6rem !important;
-    text-transform: none !important;
-    letter-spacing: -0.01em !important;
-    min-width: 240px !important;
+    box-shadow: 0 8px 25px rgba(239, 68, 68, 0.3) !important;
+    margin: 0.8rem !important;
+    min-width: 280px !important;
     overflow: hidden !important;
     cursor: pointer !important;
+    text-transform: uppercase !important;
+    letter-spacing: 0.5px !important;
   }
 
-  /* SHINE EFFECT (Işık Süpürme) */
-  div#article-content.prose .glass-cta a.cta-btn::after {
-    content: "" !important;
-    position: absolute !important;
-    top: -50% !important;
-    left: -100% !important;
-    width: 50% !important;
-    height: 200% !important;
-    background: linear-gradient(to right,
-        transparent,
-        rgba(255, 255, 255, 0.3),
-        transparent) !important;
-    transform: rotate(35deg) !important;
-    transition: none !important;
-    pointer-events: none !important;
-  }
-
-  /* HOVER STATE - Premium Glow & Shine */
-  div#article-content.prose .glass-cta a.cta-btn:hover {
-    background: #fbbf24 !important;
-    /* Amber 400 (Daha Sarı) */
-    transform: translateY(-3px) !important;
-    box-shadow:
-      0 15px 30px -8px rgba(245, 158, 11, 0.6),
-      inset 0 1px 0 rgba(255, 255, 255, 0.4) !important;
-    color: #020617 !important;
-  }
-
-  /* Hover Shine Animation Trigger */
-  div#article-content.prose .glass-cta a.cta-btn:hover::after {
-    left: 150% !important;
-    transition: left 0.6s ease-in-out !important;
-  }
-
-  /* ICONS REFINED - HIGH SPECIFICITY */
+  /* Icons inside CTA buttons */
   div#article-content.prose .glass-cta a.cta-btn::before {
     content: "" !important;
     display: inline-block !important;
-    width: 20px !important;
-    height: 20px !important;
-    margin-right: 12px !important;
+    width: 24px !important;
+    height: 24px !important;
+    margin-right: 14px !important;
     background-size: contain !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
-    flex-shrink: 0 !important;
+    filter: brightness(0) invert(1) !important; /* White icons */
     transition: transform 0.3s ease !important;
-    filter: brightness(0) !important;
+  }
+
+  /* Hover State */
+  div#article-content.prose .glass-cta a.cta-btn:hover {
+    background: #f87171 !important;
+    transform: translateY(-4px) scale(1.02) !important;
+    box-shadow: 0 15px 40px rgba(239, 68, 68, 0.5) !important;
   }
 
   /* Specific Icon Assignment */
   div#article-content.prose .glass-cta a.cta-btn.cta-phone::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'%3E%3C/path%3E%3C/svg%3E") !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'%3E%3C/path%3E%3C/svg%3E") !important;
   }
 
   div#article-content.prose .glass-cta a.cta-btn.cta-whatsapp::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7.9 20A9 9 0 1 0 4 16.1L2 22Z'%3E%3C/path%3E%3C/svg%3E") !important;
-  }
-
-  div#article-content.prose .glass-cta a.cta-btn:hover::before {
-    transform: translateX(-2px) !important;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7.9 20A9 9 0 1 0 4 16.1L2 22Z'%3E%3C/path%3E%3C/svg%3E") !important;
   }
 }
 

@@ -22,18 +22,15 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 ---
 
 :::cta
-# DSG Volant Değişimi 2025  
-## Net Fiyat Aralığı – Net Süre  
 
-**Araca göre değişir • Telefonda net bilgi • Sürpriz yok**
+**DSG VOLANT DEĞİŞİMİ VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
 
-✓ İşlem öncesi net maliyet  
-✓ Onaysız işlem yapılmaz  
-✓ Aynı gün servis imkânı  
-✓ Fiyat, araç başında değişmez  
+**⚠️ SADECE İSTANBUL AVRUPA YAKASI İÇİN HİZMET VERMEKTEYİZ. ŞEHİR DIŞINDAN YAPILAN ARAMALARA DANIŞMANLIK HİZMETİMİZ YOKTUR.**
 
-[📞 Hemen Ara](tel:05332623451)   [💬 WhatsApp’tan Fiyat Al](https://api.whatsapp.com/send?phone=905332623451)  
-*Telefonda konuşulan fiyat aralığı, servis sürecinde korunur.*
+- [📞 0533 262 34 51](tel:05332623451)
+- [WhatsApp Randevu](https://wa.me/905332623451)
+- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
 :::
 
 > [!NOTE]

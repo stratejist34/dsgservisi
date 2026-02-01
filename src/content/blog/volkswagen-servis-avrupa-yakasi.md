@@ -33,7 +33,9 @@ Avrupa Yakası'nda yaşayan Volkswagen sahipleri için merkezi konumumuz sayesin
 
 :::cta
 
-**Avrupa Yakası'ndan araç başında ön kontrol için:**
+**VOLKSWAGEN SERVİS AVRUPA YAKASI VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
+
+**⚠️ SADECE İSTANBUL AVRUPA YAKASI İÇİN HİZMET VERMEKTEYİZ. ŞEHİR DIŞINDAN YAPILAN ARAMALARA DANIŞMANLIK HİZMETİMİZ YOKTUR.**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

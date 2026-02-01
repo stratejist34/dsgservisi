@@ -27,14 +27,17 @@ DSG şanzımanlarda kavrama aşınması; kalkışta **titreme**, vites geçişin
 
 <div class="uzman-tavsiyesi">💡 UZMAN TAVSİYESİ: Kavrama değişiminde volant kontrolü mutlaka yapılmalıdır. Hasarlı volant yeni kavramayı 20.000 km'de bitirebilir. Birlikte değişim uzun vadede ekonomiktir.</div>
 
-<div class="cta-box">
-  <strong>Teklif ve randevu için:</strong>
-  <div class="cta-actions">
-    <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
-    <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Yaz</a>
-    <a class="cta-map" href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Konum Tarifi</a>
-  </div>
-</div>
+:::cta
+
+**DSG KAVRAMA DEĞİŞİMİ VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
+
+**⚠️ SADECE İSTANBUL AVRUPA YAKASI İÇİN HİZMET VERMEKTEYİZ. ŞEHİR DIŞINDAN YAPILAN ARAMALARA DANIŞMANLIK HİZMETİMİZ YOKTUR.**
+
+- [📞 0533 262 34 51](tel:05332623451)
+- [WhatsApp Randevu](https://wa.me/905332623451)
+- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::
 
 ## Kavrama Aşınması Belirtileri
 

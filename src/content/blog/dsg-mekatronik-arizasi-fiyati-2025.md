@@ -35,7 +35,9 @@ DSG mekatronik arızası, **DQ200, DQ250 ve DQ381/DQ500** şanzımanlarında sı
 
 :::cta
 
-**araç başında ön teşhis ve servis teklifi için:**
+**DSG MEKATRONİK TAMİRİ VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
+
+**⚠️ SADECE İSTANBUL AVRUPA YAKASI İÇİN HİZMET VERMEKTEYİZ. ŞEHİR DIŞINDAN YAPILAN ARAMALARA DANIŞMANLIK HİZMETİMİZ YOKTUR.**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

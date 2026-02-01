@@ -29,14 +29,17 @@ Yıldızlar Grup DSG Servisi olarak, **mekatronik tamiri**, **DSG volant değiş
 
 <div class="uzman-tavsiyesi">💡 UZMAN TAVSİYESİ: DSG arızalarında erken teşhis masrafı ciddi oranda düşürür; titreme ve vuruntu başladıysa aracı zorlamayın, emniyet moduna geçmeden randevu alın. Geç müdahale, mekatronik ve kavrama hasarını artırır.</div>
 
-<div class="cta-box">
-  <strong>Hemen destek alın:</strong>
-  <div class="cta-actions">
-    <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
-    <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Teklif Al</a>
-    <a class="cta-map" href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Konum Tarifi</a>
-  </div>
-</div>
+:::cta
+
+**DSG ŞANZIMAN TAMİRİ VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
+
+**⚠️ SADECE İSTANBUL AVRUPA YAKASI İÇİN HİZMET VERMEKTEYİZ. ŞEHİR DIŞINDAN YAPILAN ARAMALARA DANIŞMANLIK HİZMETİMİZ YOKTUR.**
+
+- [📞 0533 262 34 51](tel:05332623451)
+- [WhatsApp Randevu](https://wa.me/905332623451)
+- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::
 
 ## DSG Arızası Belirtileri
 
@@ -82,13 +85,16 @@ Yıldızlar Grup DSG Servisi olarak, **mekatronik tamiri**, **DSG volant değiş
 
 <p class="note"><em>Not:</em> Fiyatlar araç modeli, parça kalitesi (OEM/Aftermarket) ve arıza kapsamına göre değişir. Kesin teklif için arayın.</p>
 
-<div class="cta-box">
-  <strong>Ustanızla şimdi konuşun:</strong>
-  <div class="cta-actions">
-    <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
-    <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Randevu</a>
-  </div>
-</div>
+:::cta
+
+**DSG ŞANZIMAN TAMİRİ VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
+
+**⚠️ SADECE İSTANBUL AVRUPA YAKASI İÇİN HİZMET VERMEKTEYİZ. ŞEHİR DIŞINDAN YAPILAN ARAMALARA DANIŞMANLIK HİZMETİMİZ YOKTUR.**
+
+- [📞 0533 262 34 51](tel:05332623451)
+- [WhatsApp Randevu](https://wa.me/905332623451)
+
+:::
 
 ## Marka ve Model Bazında DSG Hizmetleri
 
