@@ -35,7 +35,7 @@ Otomatik şanzıman değişimi, **DSG, ZF ve konvansiyonel otomatik şanzımanla
 
 :::cta
 
-**Ücretsiz ön teşhis ve servis teklifi için:**
+**araç başında ön teşhis ve servis teklifi için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -422,7 +422,7 @@ Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ön te�
 
 ### Otomatik şanzıman değişimi sonrası ne yapılmalı?
 
-Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol önerilir. Garanti kapsamında herhangi bir sorun olursa ücretsiz müdahale edilir.
+Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol önerilir. Garanti kapsamında herhangi bir sorun olursa garantili müdahale edilir.
 
 ### Revizyon mu yoksa değişim mi daha iyi?
 

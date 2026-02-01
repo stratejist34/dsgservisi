@@ -26,7 +26,7 @@ BMW araçlarında ZF şanzıman, motor, turbo, elektronik, fren, klima ve süspa
 BMW yüksek performans ve teknoloji sunsa da belirli kilometre ve model yıllarında kronik arızalar görülebilir. ZF 8HP valf body, N47/N57 timing zincir, N20/N26 turbo yağ besleme, Valvetronic gibi başlıklarda hızlı teşhis ve uygun maliyetli onarım sağlıyoruz.
 
 <div class="glass-cta">
-  <strong>BMW aracınız için ücretsiz ön kontrol</strong>
+  <strong>BMW aracınız için araç başında ön kontrol</strong>
   <div class="cta-actions" style="margin-top: 12px;">
     <a href="tel:05332623451" class="btn bg-gradient-to-r from-primary to-cyan text-white">📞 0533 262 34 51</a>
     <a href="https://wa.me/905332623451" class="btn bg-[#25d366] text-white">WhatsApp Randevu</a>
@@ -197,7 +197,7 @@ BMW dizellerde (N47, N57, B47) DPF kısa mesafe şehir içi kullanımda rejenera
 - Orijinal/onaylı parça garantisi
 - 2 yıl parça ve işçilik garantisi
 - Şeffaf fiyatlandırma, ön görüşme
-- Arıza durumunda ücretsiz çekici
+- Arıza durumunda araç başında çekici
 - Basit arızalarda aynı gün teslimat
 - Servis sonrası yol testi ve kontrol
 

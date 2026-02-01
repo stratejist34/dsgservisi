@@ -31,7 +31,7 @@ Baskı balata (debriyaj balatası), motor gücünü şanzımana aktaran kritik p
 
 :::cta
 
-**Debriyaj baskı balata değişimi için ücretsiz kontrol:**
+**Debriyaj baskı balata değişimi için araç başında kontrol:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

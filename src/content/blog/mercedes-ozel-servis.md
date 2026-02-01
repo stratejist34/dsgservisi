@@ -80,7 +80,7 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
 <div class="uzman-tavsiyesi">💡 UZMAN TAVSİYESİ: Mercedes'te erken arıza tespiti tamir maliyetini %70 azaltır. Düzenli periyodik bakım (15.000 km) motor, turbo ve şanzıman ömrünü maksimize eder. 7G-Tronic yağ değişimi 80.000 km'de mutlaka yapılmalı.</div>
 
 <div class="cta-box">
-  <strong>Mercedes aracınız için ücretsiz ön kontrol:</strong>
+  <strong>Mercedes aracınız için araç başında ön kontrol:</strong>
   <div class="cta-actions">
     <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
     <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Randevu</a>
@@ -308,7 +308,7 @@ Mercedes araçları prestij ve konfor sunar ancak belirli kilometrelerde ve mode
   <li>Orjinal ve onaylı yan sanayi parça garantisi</li>
   <li>2 yıl parça ve işçilik garantisi</li>
   <li>Şeffaf fiyatlandırma, ön görüşme</li>
-  <li>Ücretsiz araç çekme (arıza durumunda)</li>
+  <li>Avrupa Yakası içi araç başında çekme (arıza durumunda)</li>
   <li>Aynı gün teslimat (basit arızalarda)</li>
   <li>Servis sonrası yol testi ve kontrol</li>
 </ul>

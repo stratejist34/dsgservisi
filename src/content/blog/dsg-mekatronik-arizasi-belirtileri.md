@@ -332,7 +332,7 @@ OBD tarayıcı ile okunan hata kodları:
 | Mekatronik değişimi | 📞 Fiyat Sorunuz | 2-3 gün |
 | Mekatronik revizyonu | 📞 Fiyat Sorunuz | 2-3 gün |
 | Komple mekatronik değişimi | 📞 Fiyat Sorunuz | 2-3 gün |
-| Ön teşhis | Ücretsiz | 30-60 dakika |
+| Ön teşhis | Servisimizde | 30-60 dakika |
 
 **Not:** Fiyatlar model, şanzıman tipi ve arıza şiddetine göre değişir. Kesin servis teklifi için ön teşhis gereklidir.
 
@@ -383,7 +383,7 @@ OBD tarayıcı ile okunan hata kodları:
 
 - **15+ Yıl Deneyim:** DSG mekatronik arızası teşhisinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis araç başında yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teşhis, 2-3 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi

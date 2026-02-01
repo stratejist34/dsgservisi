@@ -32,7 +32,7 @@ Volkswagen Golf bakımı, aracın ömrünü uzatan ve büyük arızaları önley
 
 :::cta
 
-**Volkswagen Golf bakım hizmetleri için ücretsiz teklif alın:**
+**Volkswagen Golf bakım hizmetleri için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -64,8 +64,8 @@ Küçük bakım, motor yağı ve yağ filtresi değişimini içerir. Golf araçl
 | --- | ---: | --- |
 | Motor yağı değişimi | 📞 Fiyat Sorunuz | Orijinal motor yağı (5W-30, 5W-40) |
 | Yağ filtresi değişimi | 300–600₺ | Orijinal yağ filtresi |
-| Genel kontrol | Ücretsiz | Yağ seviyesi, sıvılar, lastikler |
-| OBD-II hata taraması | Ücretsiz | Elektronik hata kontrolü |
+| Genel kontrol | Servisimizde | Yağ seviyesi, sıvılar, lastikler |
+| OBD-II hata taraması | Servisimizde | Elektronik hata kontrolü |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **Küçük Bakım Önemi:**
@@ -83,7 +83,7 @@ Büyük bakım, küçük bakıma ek olarak hava filtresi, polen filtresi ve yak�
 | Hava filtresi değişimi | 500–uygun fiyat | Motor hava filtresi |
 | Polen filtresi değişimi | 400–800₺ | Kabin hava filtresi |
 | Yakıt filtresi değişimi (TDI) | 600–uygun fiyat | Dizel yakıt filtresi |
-| Genel kontrol ve hata taraması | Ücretsiz | Detaylı kontrol |
+| Genel kontrol ve hata taraması | Servisimizde | Detaylı kontrol |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **Büyük Bakım Önemi:**
@@ -144,10 +144,10 @@ Golf 8 modellerde DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır.
 | --- | ---: | --- |
 | DSG DQ200 yağ değişimi | 📞 Fiyat Sorunuz | Şanzıman yağı ve filtre değişimi |
 | Büyük bakım paketi | 📞 Fiyat Sorunuz | Motor yağı, filtreler |
-| Fren balata kontrolü | Ücretsiz | Ön/arka fren balata kontrolü |
+| Fren balata kontrolü | Servisimizde | Ön/arka fren balata kontrolü |
 | Fren balata değişimi (gerekirse) | 📞 Fiyat Sorunuz | Ön/arka fren balata değişimi |
 | Klima bakımı | 📞 Fiyat Sorunuz | Klima gazı ve temizlik |
-| Akü kontrolü | Ücretsiz | Akü voltaj ve şarj kontrolü |
+| Akü kontrolü | Servisimizde | Akü voltaj ve şarj kontrolü |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 ### 90.000 km Ağır Bakım
@@ -158,10 +158,10 @@ Golf 8 modellerde DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır.
 | --- | ---: | --- |
 | 60.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
 | DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | Dizel partikül filtresi temizleme |
-| Turbo kontrolü | Ücretsiz | Turbo basınç ve yağ kontrolü |
+| Turbo kontrolü | Servisimizde | Turbo basınç ve yağ kontrolü |
 | Turbo temizleme (gerekirse) | 📞 Fiyat Sorunuz | Turbo geometri temizleme |
 | Yakıt filtresi değişimi | 600–uygun fiyat | Dizel yakıt filtresi |
-| AdBlue kontrolü (gerekirse) | Ücretsiz | AdBlue seviye ve kalite kontrolü |
+| AdBlue kontrolü (gerekirse) | Servisimizde | AdBlue seviye ve kalite kontrolü |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 ### 120.000 km Ağır Bakım
@@ -171,11 +171,11 @@ Golf 8 modellerde DQ381 (7 ileri ıslak kavrama) şanzıman kullanılır.
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
 | 90.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
-| Timing zincir kontrolü | Ücretsiz | 1.4 TSI timing zincir gerginlik kontrolü |
+| Timing zincir kontrolü | Servisimizde | 1.4 TSI timing zincir gerginlik kontrolü |
 | Timing zincir değişimi (gerekirse) | 📞 Fiyat Sorunuz | Timing zincir ve gergi değişimi |
-| DSG kavrama kontrolü | Ücretsiz | DQ200/DQ250 kavrama aşınma kontrolü |
+| DSG kavrama kontrolü | Servisimizde | DQ200/DQ250 kavrama aşınma kontrolü |
 | DSG kavrama değişimi (gerekirse) | 📞 Fiyat Sorunuz | DQ200/DQ250 kavrama değişimi |
-| Su pompası kontrolü | Ücretsiz | Su pompası ve termostat kontrolü |
+| Su pompası kontrolü | Servisimizde | Su pompası ve termostat kontrolü |
 | Su pompası değişimi (gerekirse) | 📞 Fiyat Sorunuz | Su pompası ve termostat değişimi |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
@@ -246,7 +246,7 @@ Klima bakımı konfor ve sağlık için önemlidir.
 
 ## Bakım Süreci
 
-1. **Ön Kontrol:** Araç detaylı kontrol edilir (ücretsiz)
+1. **Ön Kontrol:** Araç detaylı kontrol edilir (araç başında)
 2. **Fiyat Teklifi:** Bakım maliyeti yazılı olarak sunulur
 3. **Onay:** Müşteri onayı sonrası bakım başlar
 4. **Bakım:** Tüm işlemler sırayla yapılır
@@ -257,7 +257,7 @@ Klima bakımı konfor ve sağlık için önemlidir.
 
 - **15+ Yıl Deneyim:** Golf bakımında uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön kontrol servisimizde yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün veya 1-3 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -354,7 +354,7 @@ Evet, Yıldızlar Grup'ta yapılan tüm Golf bakımlarında işçilik 12 ay, par
 
 ### Golf bakım için randevu nasıl alınır?
 
-Golf bakım için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön kontrol ücretsizdir.
+Golf bakım için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön kontrol araç başında yapılır.
 
 ### Golf bakım fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 

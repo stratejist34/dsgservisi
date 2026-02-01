@@ -33,7 +33,7 @@ Düzenli periyodik bakım (12.000–15.000 km) motor, turbo ve şanzıman ömrü
 
 :::cta
 
-**BMW periyodik bakım için ücretsiz teklif alın:**
+**BMW periyodik bakım için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

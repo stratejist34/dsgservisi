@@ -327,7 +327,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 ### Şanzıman indirme ücreti garanti kapsamında mı?
 
-Evet, tüm şanzıman söküm ve montaj işçilikleri 6 ay garanti kapsamındadır. İşçilik hatalarından kaynaklanan sorunlar ücretsiz düzeltilir.
+Evet, tüm şanzıman söküm ve montaj işçilikleri 6 ay garanti kapsamındadır. İşçilik hatalarından kaynaklanan sorunlar araç başında düzeltilir.
 
 ### Yetkili servis mi yoksa özel servis mi daha ekonomik?
 

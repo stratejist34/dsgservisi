@@ -35,7 +35,7 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 :::cta
 
-**Ücretsiz ön teşhis ve servis teklifi için:**
+**araç başında ön teşhis ve servis teklifi için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -239,7 +239,7 @@ Basit çıkış mili keçesi değişimi 2-3 saat, giriş mili keçesi değişimi
 
 ### Keçe değişimi sonrası garanti var mı?
 
-Evet, tüm keçe değişimlerinde 12 ay / 20.000 km garanti verilir. Garanti kapsamında kaçak tekrarı durumunda ücretsiz müdahale yapılır.
+Evet, tüm keçe değişimlerinde 12 ay / 20.000 km garanti verilir. Garanti kapsamında kaçak tekrarı durumunda garantili müdahale yapılır.
 
 ### Keçe değişimi şanzıman sökümü gerektirir mi?
 
@@ -257,7 +257,7 @@ Keçe değişimi sırasında yağ kaybı olmuşsa yağ seviyesi ayarlanır. Yağ
 
 Şanzıman keçesi değişimi, yağ kaçağı sorununun en ekonomik ve etkili çözümüdür. Erken teşhis ve müdahale, şanzıman hasarını ve maliyeti önemli ölçüde azaltır. Yıldızlar Grup DSG Servisi olarak; doğru teşhis, profesyonel montaj ve garanti ile şanzıman keçe değişimi hizmeti sunuyoruz.
 
-**Ücretsiz ön teşhis ve servis teklifi için hemen iletişime geçin:**
+**araç başında ön teşhis ve servis teklifi için hemen iletişime geçin:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

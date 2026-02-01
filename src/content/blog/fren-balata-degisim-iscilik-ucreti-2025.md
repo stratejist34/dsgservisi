@@ -32,7 +32,7 @@ Balata değişimi işçilik ücreti, aracın markası, modeli, fren sistemi tipi
 
 :::cta
 
-**Balata değişimi için ücretsiz servis teklifi:**
+**Balata değişimi için araç başında servis teklifi:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -253,7 +253,7 @@ Balata değişimi işçilik ücreti, aracın markası, modeli, fren sistemi tipi
 - **Şeffaf Fiyatlandırma:** İşçilik ücreti net, ek ücret yok
 - **Hızlı Hizmet:** 1-3 saat içinde teslimat
 - **Kaliteli İşçilik:** 15+ yıl deneyimli ustalar
-- **Kapsamlı Kontrol:** Tüm fren sistemi ücretsiz kontrol
+- **Kapsamlı Kontrol:** Tüm fren sistemi araç başında kontrol
 - **Garanti:** İşçilikte 6 ay garanti
 - **Ekonomik:** Yetkili servise göre %30-50 tasarruf
 

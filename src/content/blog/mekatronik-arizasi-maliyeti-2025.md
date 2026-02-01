@@ -35,7 +35,7 @@ Mekatronik arızası maliyeti, **DSG şanzımanlarda en yaygın ve maliyetli ar�
 
 :::cta
 
-**Ücretsiz ön teşhis ve maliyet analizi için:**
+**araç başında ön teşhis ve maliyet analizi için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -287,7 +287,7 @@ Yıldızlar Grup, yetkili servise göre %40-50 daha ekonomik fiyatlar sunar. Ayn
 
 Mekatronik arızası maliyeti, arıza kapsamına ve şanzıman tipine göre değişir. Mekatronik revizyonu, tam değişime göre %40-50 daha ekonomiktir. Yıldızlar Grup DSG Servisi olarak; doğru teşhis, şeffaf fiyatlandırma ve ekonomik çözümler ile mekatronik arızası tamiri hizmeti sunuyoruz.
 
-**Ücretsiz ön teşhis ve maliyet analizi için hemen iletişime geçin:**
+**araç başında ön teşhis ve maliyet analizi için hemen iletişime geçin:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

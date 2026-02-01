@@ -32,7 +32,7 @@ Seat Ateca bakımı, aracın ömrünü uzatan ve büyük arızaları önleyen kr
 
 :::cta
 
-**Seat Ateca bakım için ücretsiz teklif alın:**
+**Seat Ateca bakım için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -102,10 +102,10 @@ Seat Ateca bakımı, aracın ömrünü uzatan ve büyük arızaları önleyen kr
 | Motor yağı ve filtre | 📞 Fiyat Sorunuz | Orijinal motor yağı ve filtre |
 | Hava filtresi değişimi | 500–900₺ | Motor hava filtresi |
 | Polen filtresi değişimi | 400–700₺ | Kabin hava filtresi |
-| Fren balata kontrolü | Ücretsiz | Ön/arka fren balata kontrolü |
+| Fren balata kontrolü | Servisimizde | Ön/arka fren balata kontrolü |
 | Fren balata değişimi (gerekirse) | 📞 Fiyat Sorunuz | Ön/arka fren balata değişimi |
 | Klima bakımı | 📞 Fiyat Sorunuz | Klima gazı ve temizlik |
-| Akü kontrolü | Ücretsiz | Akü voltaj ve şarj kontrolü |
+| Akü kontrolü | Servisimizde | Akü voltaj ve şarj kontrolü |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **60.000 km Bakım Önemi:**
@@ -122,7 +122,7 @@ Seat Ateca bakımı, aracın ömrünü uzatan ve büyük arızaları önleyen kr
 | 60.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
 | DSG DQ381 yağ değişimi | 📞 Fiyat Sorunuz | Şanzıman yağı ve filtre değişimi |
 | DPF temizleme (2.0 TDI) | 📞 Fiyat Sorunuz | Dizel partikül filtresi temizleme |
-| Turbo kontrolü | Ücretsiz | Turbo basınç ve yağ kontrolü |
+| Turbo kontrolü | Servisimizde | Turbo basınç ve yağ kontrolü |
 | Turbo temizleme (gerekirse) | 📞 Fiyat Sorunuz | Turbo geometri temizleme |
 | Yakıt filtresi değişimi | 700–uygun fiyat | Dizel yakıt filtresi |
 | AdBlue sistemi bakımı (2.0 TDI) | 📞 Fiyat Sorunuz | AdBlue seviye, kalite ve pompa kontrolü |
@@ -140,12 +140,12 @@ Seat Ateca bakımı, aracın ömrünü uzatan ve büyük arızaları önleyen kr
 | İşlem | Maliyet | Açıklama |
 | --- | ---: | --- |
 | 90.000 km bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
-| Timing zincir kontrolü | Ücretsiz | 1.5 TSI ACT timing zincir gerginlik kontrolü |
+| Timing zincir kontrolü | Servisimizde | 1.5 TSI ACT timing zincir gerginlik kontrolü |
 | Timing zincir değişimi (gerekirse) | 📞 Fiyat Sorunuz | Timing zincir ve gergi değişimi |
-| DSG kavrama kontrolü | Ücretsiz | DQ381 kavrama aşınma kontrolü |
+| DSG kavrama kontrolü | Servisimizde | DQ381 kavrama aşınma kontrolü |
 | DSG kavrama değişimi (gerekirse) | 📞 Fiyat Sorunuz | DQ381 kavrama değişimi |
 | Haldex 4x4 bakımı | 📞 Fiyat Sorunuz | Haldex yağ değişimi ve pompa kontrolü |
-| Su pompası kontrolü | Ücretsiz | Su pompası ve termostat kontrolü |
+| Su pompası kontrolü | Servisimizde | Su pompası ve termostat kontrolü |
 | Su pompası değişimi (gerekirse) | 📞 Fiyat Sorunuz | Su pompası ve termostat değişimi |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
@@ -177,7 +177,7 @@ DSG DQ381 yağ değişimi, Ateca'nın en kritik bakım işlemlerinden biridir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Timing zincir kontrolü | Ücretsiz | 30 dakika |
+| Timing zincir kontrolü | Servisimizde | 30 dakika |
 | Timing zincir değişimi | 📞 Fiyat Sorunuz | 2-3 gün |
 | Zincir gergi değişimi | Dahil | Dahil |
 | Zincir kılavuzları | Dahil | Dahil |
@@ -209,7 +209,7 @@ DSG DQ381 yağ değişimi, Ateca'nın en kritik bakım işlemlerinden biridir.
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
 | Haldex yağ değişimi | 📞 Fiyat Sorunuz | Aynı gün |
-| Haldex pompa kontrolü | Ücretsiz | 30 dakika |
+| Haldex pompa kontrolü | Servisimizde | 30 dakika |
 | Haldex pompa değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
 | Haldex filtre değişimi | 800–uygun fiyat | Aynı gün |
 
@@ -231,7 +231,7 @@ Fren balata değişimi güvenlik için kritiktir.
 
 ## Ateca Bakım Süreci
 
-1. **Ön Kontrol:** Araç detaylı kontrol edilir (ücretsiz)
+1. **Ön Kontrol:** Araç detaylı kontrol edilir (araç başında)
 2. **Fiyat Teklifi:** Bakım maliyeti yazılı olarak sunulur
 3. **Onay:** Müşteri onayı sonrası bakım başlar
 4. **Bakım:** Tüm işlemler sırayla yapılır
@@ -242,7 +242,7 @@ Fren balata değişimi güvenlik için kritiktir.
 
 - **15+ Yıl Deneyim:** Ateca bakımında uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön kontrol servisimizde yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-3 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Seat servisi
@@ -335,7 +335,7 @@ Ateca DSG DQ381 yağ değişimi 80.000 km'de mutlaka yapılmalıdır. Üretici "
 
 ### Ateca Haldex 4x4 bakımı ne zaman yapılmalı?
 
-Ateca Haldex 4x4 bakımı 100.000 km'de yapılmalıdır. Haldex yağ değişimi uygun maliyetler, pompa kontrolü ücretsiz, pompa değişimi (gerekirse) uygun maliyetler. Haldex pompa arızası çekiş kaybına neden olur.
+Ateca Haldex 4x4 bakımı 100.000 km'de yapılmalıdır. Haldex yağ değişimi uygun maliyetler, pompa kontrolü araç başında, pompa değişimi (gerekirse) uygun maliyetler. Haldex pompa arızası çekiş kaybına neden olur.
 
 ### Ateca bakım ne kadar sürer?
 
@@ -347,7 +347,7 @@ Evet, Yıldızlar Grup'ta yapılan tüm bakımlarda işçilik 12 ay, parçalarda
 
 ### Ateca bakım için randevu nasıl alınır?
 
-Ateca bakım için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön kontrol ücretsizdir.
+Ateca bakım için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön kontrol araç başında yapılır.
 
 ### Ateca bakım fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 

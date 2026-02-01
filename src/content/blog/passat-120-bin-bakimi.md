@@ -32,7 +32,7 @@ Volkswagen Passat 120 bin bakımı, aracın ömrünü uzatan ve büyük arızala
 
 :::cta
 
-**Volkswagen Passat 120 bin bakım için ücretsiz teklif alın:**
+**Volkswagen Passat 120 bin bakım için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -65,15 +65,15 @@ Volkswagen Passat 120 bin bakımı, aracın ömrünü uzatan ve büyük arızala
 
 | İşlem | Maliyet | Açıklama | Zorunluluk |
 | --- | ---: | --- | --- |
-| Timing zincir kontrolü | Ücretsiz | 2.0 TDI timing zincir gerginlik kontrolü | Zorunlu |
+| Timing zincir kontrolü | Servisimizde | 2.0 TDI timing zincir gerginlik kontrolü | Zorunlu |
 | Timing zincir değişimi (gerekirse) | 📞 Fiyat Sorunuz | Timing zincir ve gergi değişimi | Kontrole göre |
-| DSG kavrama kontrolü | Ücretsiz | DQ250/DQ381 kavrama aşınma kontrolü | Zorunlu |
+| DSG kavrama kontrolü | Servisimizde | DQ250/DQ381 kavrama aşınma kontrolü | Zorunlu |
 | DSG kavrama değişimi (gerekirse) | 📞 Fiyat Sorunuz | DQ250/DQ381 kavrama değişimi | Kontrole göre |
-| Su pompası kontrolü | Ücretsiz | Su pompası ve termostat kontrolü | Zorunlu |
+| Su pompası kontrolü | Servisimizde | Su pompası ve termostat kontrolü | Zorunlu |
 | Su pompası değişimi (gerekirse) | 📞 Fiyat Sorunuz | Su pompası ve termostat değişimi | Kontrole göre |
-| Alternatör kontrolü | Ücretsiz | Alternatör şarj kontrolü | Zorunlu |
+| Alternatör kontrolü | Servisimizde | Alternatör şarj kontrolü | Zorunlu |
 | Alternatör değişimi (gerekirse) | 📞 Fiyat Sorunuz | Alternatör değişimi | Kontrole göre |
-| Radyatör kontrolü | Ücretsiz | Radyatör sızıntı kontrolü | Zorunlu |
+| Radyatör kontrolü | Servisimizde | Radyatör sızıntı kontrolü | Zorunlu |
 | Radyatör değişimi (gerekirse) | 📞 Fiyat Sorunuz | Radyatör değişimi | Kontrole göre |
 
 ## Kritik Bakım İşlemleri Detayları
@@ -84,7 +84,7 @@ Volkswagen Passat 120 bin bakımı, aracın ömrünü uzatan ve büyük arızala
 
 | İşlem | Maliyet | Süre | Açıklama |
 | --- | ---: | --- | --- |
-| Timing zincir kontrolü | Ücretsiz | 30 dakika | Gerginlik ve aşınma kontrolü |
+| Timing zincir kontrolü | Servisimizde | 30 dakika | Gerginlik ve aşınma kontrolü |
 | Timing zincir değişimi | 📞 Fiyat Sorunuz | 2-3 gün | Zincir, gergi, kılavuzlar |
 | Motor hasarı (zincir koparsa) | 📞 Fiyat Sorunuz | 5-7 gün | Piston, valf, silindir kapağı |
 
@@ -92,7 +92,7 @@ Volkswagen Passat 120 bin bakımı, aracın ömrünü uzatan ve büyük arızala
 - Zincir koparsa motor hasarı uygun maliyetler
 - Erken değişim maliyeti uygun maliyetler
 - 2010-2015 arası modellerde gerginlik kontrolü önemli
-- Kontrol ücretsiz, değişim gerekiyorsa maliyet uygun maliyetler
+- kontrol servisimizde yapılır, değişim gerekiyorsa maliyet uygun maliyetler
 
 **Timing Zincir Değişim Belirtileri:**
 - Motor çalışırken metalik ses
@@ -106,7 +106,7 @@ DQ250/DQ381 ıslak kavrama kontrolü 120.000 km'de kritiktir.
 
 | İşlem | Maliyet | Süre | Açıklama |
 | --- | ---: | --- | --- |
-| DSG kavrama kontrolü | Ücretsiz | 30 dakika | Kavrama aşınma kontrolü |
+| DSG kavrama kontrolü | Servisimizde | 30 dakika | Kavrama aşınma kontrolü |
 | DSG kavrama değişimi | 📞 Fiyat Sorunuz | 2-3 gün | DQ250/DQ381 kavrama değişimi |
 | Mekatronik hasarı (geç kalınırsa) | 📞 Fiyat Sorunuz | 3-5 gün | Kavrama + mekatronik |
 
@@ -128,7 +128,7 @@ Su pompası kontrolü 120.000 km'de kritiktir.
 
 | İşlem | Maliyet | Süre | Açıklama |
 | --- | ---: | --- | --- |
-| Su pompası kontrolü | Ücretsiz | 15 dakika | Pompa ve termostat kontrolü |
+| Su pompası kontrolü | Servisimizde | 15 dakika | Pompa ve termostat kontrolü |
 | Su pompası değişimi | 📞 Fiyat Sorunuz | Aynı gün | Pompa ve termostat değişimi |
 | Motor hasarı (pompa arızası) | 📞 Fiyat Sorunuz | 2-3 gün | Soğutma sistemi hasarı |
 
@@ -150,7 +150,7 @@ Alternatör kontrolü 120.000 km'de kritiktir.
 
 | İşlem | Maliyet | Süre | Açıklama |
 | --- | ---: | --- | --- |
-| Alternatör kontrolü | Ücretsiz | 15 dakika | Şarj ve voltaj kontrolü |
+| Alternatör kontrolü | Servisimizde | 15 dakika | Şarj ve voltaj kontrolü |
 | Alternatör değişimi | 📞 Fiyat Sorunuz | Aynı gün | Alternatör değişimi |
 | Akü hasarı (alternatör arızası) | 📞 Fiyat Sorunuz | Aynı gün | Akü değişimi gerekebilir |
 
@@ -158,7 +158,7 @@ Alternatör kontrolü 120.000 km'de kritiktir.
 - Alternatör arızası akü şarjını engeller
 - Erken değişim maliyeti uygun maliyetler
 - Akü hasarı durumunda ek maliyet uygun maliyetler
-- Kontrol ücretsiz
+- kontrol servisimizde yapılır
 
 **Alternatör Değişim Belirtileri:**
 - Akü şarj uyarısı
@@ -172,7 +172,7 @@ Radyatör kontrolü 120.000 km'de kritiktir.
 
 | İşlem | Maliyet | Süre | Açıklama |
 | --- | ---: | --- | --- |
-| Radyatör kontrolü | Ücretsiz | 15 dakika | Sızıntı ve tıkanma kontrolü |
+| Radyatör kontrolü | Servisimizde | 15 dakika | Sızıntı ve tıkanma kontrolü |
 | Radyatör değişimi | 📞 Fiyat Sorunuz | Aynı gün | Radyatör değişimi |
 | Motor hasarı (radyatör arızası) | 📞 Fiyat Sorunuz | 2-3 gün | Soğutma sistemi hasarı |
 
@@ -180,7 +180,7 @@ Radyatör kontrolü 120.000 km'de kritiktir.
 - Radyatör arızası motor aşırı ısınmasına neden olur
 - Erken değişim maliyeti uygun maliyetler
 - Motor hasarı durumunda uygun maliyetler
-- Kontrol ücretsiz
+- kontrol servisimizde yapılır
 
 ## Motor Tipine Göre 120 Bin Bakım Hizmetleri
 
@@ -189,11 +189,11 @@ Radyatör kontrolü 120.000 km'de kritiktir.
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
 | 90.000 km bakım paketi | 📞 Fiyat Sorunuz | 1-2 gün |
-| DSG kavrama kontrolü | Ücretsiz | 30 dakika |
+| DSG kavrama kontrolü | Servisimizde | 30 dakika |
 | DSG kavrama değişimi (gerekirse) | 📞 Fiyat Sorunuz | 2-3 gün |
-| Su pompası kontrolü | Ücretsiz | 15 dakika |
+| Su pompası kontrolü | Servisimizde | 15 dakika |
 | Su pompası değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
-| Alternatör kontrolü | Ücretsiz | 15 dakika |
+| Alternatör kontrolü | Servisimizde | 15 dakika |
 | Alternatör değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
 | **TOPLAM** | **güncel fiyatlar** | **2-3 gün** |
 
@@ -207,13 +207,13 @@ Radyatör kontrolü 120.000 km'de kritiktir.
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
 | 90.000 km bakım paketi | 📞 Fiyat Sorunuz | 1-2 gün |
-| Timing zincir kontrolü | Ücretsiz | 30 dakika |
+| Timing zincir kontrolü | Servisimizde | 30 dakika |
 | Timing zincir değişimi (gerekirse) | 📞 Fiyat Sorunuz | 2-3 gün |
-| DSG kavrama kontrolü | Ücretsiz | 30 dakika |
+| DSG kavrama kontrolü | Servisimizde | 30 dakika |
 | DSG kavrama değişimi (gerekirse) | 📞 Fiyat Sorunuz | 2-3 gün |
-| Su pompası kontrolü | Ücretsiz | 15 dakika |
+| Su pompası kontrolü | Servisimizde | 15 dakika |
 | Su pompası değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
-| Alternatör kontrolü | Ücretsiz | 15 dakika |
+| Alternatör kontrolü | Servisimizde | 15 dakika |
 | Alternatör değişimi (gerekirse) | 📞 Fiyat Sorunuz | Aynı gün |
 | **TOPLAM** | **güncel fiyatlar** | **2-3 gün** |
 
@@ -225,7 +225,7 @@ Radyatör kontrolü 120.000 km'de kritiktir.
 
 ## 120 Bin Bakım Süreci
 
-1. **Ön Kontrol:** Araç detaylı kontrol edilir (ücretsiz)
+1. **Ön Kontrol:** Araç detaylı kontrol edilir (araç başında)
 2. **Fiyat Teklifi:** Bakım maliyeti yazılı olarak sunulur
 3. **Onay:** Müşteri onayı sonrası bakım başlar
 4. **Kontroller:** Timing zincir, DSG kavrama, su pompası, alternatör kontrolü
@@ -237,7 +237,7 @@ Radyatör kontrolü 120.000 km'de kritiktir.
 
 - **15+ Yıl Deneyim:** Passat 120 bin bakımında uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön kontrol servisimizde yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-3 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -310,11 +310,11 @@ Radyatör kontrolü 120.000 km'de kritiktir.
 
 ### Passat 120 bin bakımı ne kadar?
 
-Passat 120 bin bakımı uygun maliyetler arasındadır. Bu fiyat 90.000 km bakımını da içerir. Timing zincir, DSG kavrama, su pompası, alternatör kontrolü ücretsizdir. Değişim gerekiyorsa ek maliyet oluşur.
+Passat 120 bin bakımı uygun maliyetler arasındadır. Bu fiyat 90.000 km bakımını da içerir. Timing zincir, DSG kavrama, su pompası, alternatör kontrolü araç başında yapılır. Değişim gerekiyorsa ek maliyet oluşur.
 
 ### Passat 120 bin bakımı ne içerir?
 
-120 bin bakımı: 90.000 km bakımı + timing zincir kontrolü (ücretsiz), DSG kavrama kontrolü (ücretsiz), su pompası kontrolü (ücretsiz), alternatör kontrolü (ücretsiz), radyatör kontrolü (ücretsiz) içerir. Değişim gerekiyorsa ek maliyet oluşur.
+120 bin bakımı: 90.000 km bakımı + timing zincir kontrolü (araç başında), DSG kavrama kontrolü (araç başında), su pompası kontrolü (araç başında), alternatör kontrolü (araç başında), radyatör kontrolü (araç başında) içerir. Değişim gerekiyorsa ek maliyet oluşur.
 
 ### Passat timing zincir değişimi ne zaman yapılmalı?
 
@@ -342,14 +342,14 @@ Evet, Yıldızlar Grup'ta yapılan tüm 120 bin bakımlarda işçilik 12 ay, par
 
 ### Passat 120 bin bakım için randevu nasıl alınır?
 
-Passat 120 bin bakım için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön kontrol ücretsizdir.
+Passat 120 bin bakım için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön kontrol araç başında yapılır.
 
 ### Passat 120 bin bakım fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 
 Yıldızlar Grup'ta Passat 120 bin bakım fiyatları yetkili servise göre %50-70 daha ekonomiktir. Aynı kalitede orijinal parça ve işçilikle hizmet sunuyoruz.
 
-### Passat 120 bin bakımında hangi kontroller ücretsiz?
+### Passat 120 bin bakımında hangi kontroller araç başında?
 
-Passat 120 bin bakımında timing zincir kontrolü, DSG kavrama kontrolü, su pompası kontrolü, alternatör kontrolü ve radyatör kontrolü ücretsizdir. Değişim gerekiyorsa ek maliyet oluşur.
+Passat 120 bin bakımında timing zincir kontrolü, DSG kavrama kontrolü, su pompası kontrolü, alternatör kontrolü ve radyatör kontrolü araç başında yapılır. Değişim gerekiyorsa ek maliyet oluşur.
 
 

@@ -239,7 +239,7 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 - **15+ Yıl Deneyim:** 7 ileri DSG şanzıman yağ değişiminde uzman ekip
 - **Orijinal Yağ:** Tüm yağlar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis araç başında yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün randevu, 1-2 saat içinde tamamlanır
 - **Garanti:** Tüm işçiliklerde garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi

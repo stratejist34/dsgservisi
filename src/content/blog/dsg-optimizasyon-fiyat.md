@@ -208,9 +208,9 @@ DSG optimizasyon, şanzımanın yazılım ve adaptasyon ayarlarını güncelleye
 
 ## Optimizasyon Sonrası Garanti
 
-- **Adaptasyon/Kalibrasyon:** İşçilik garantisi (tekrar gerektiğinde ücretsiz)
-- **Yazılım Güncellemesi:** İşçilik garantisi (tekrar gerektiğinde ücretsiz)
-- **Kapsamlı Optimizasyon:** İşçilik garantisi (tekrar gerektiğinde ücretsiz)
+- **Adaptasyon/Kalibrasyon:** İşçilik garantisi (tekrar gerektiğinde araç başında)
+- **Yazılım Güncellemesi:** İşçilik garantisi (tekrar gerektiğinde araç başında)
+- **Kapsamlı Optimizasyon:** İşçilik garantisi (tekrar gerektiğinde araç başında)
 
 ## Optimizasyon vs. Tamir
 
@@ -255,7 +255,7 @@ Adaptasyon/kalibrasyon 1-2 saat, yazılım güncellemesi 2-3 saat, kapsamlı opt
 
 ### Optimizasyon sonrası garanti var mı?
 
-Evet, tüm optimizasyon işlemlerinde işçilik garantisi verilir. İşlem tekrar gerektiğinde ücretsiz müdahale yapılır.
+Evet, tüm optimizasyon işlemlerinde işçilik garantisi verilir. İşlem tekrar gerektiğinde garantili müdahale yapılır.
 
 ### Optimizasyon yakıt tüketimini azaltır mı?
 

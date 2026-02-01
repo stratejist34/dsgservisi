@@ -79,7 +79,7 @@ Porsche araçları yüksek performans ve mühendislik harikası olsa da belirli 
 <div class="uzman-tavsiyesi">💡 UZMAN TAVSİYESİ: Porsche'de erken arıza tespiti tamir maliyetini %65 azaltır. Düzenli periyodik bakım (15.000 km) motor, turbo ve PDK ömrünü maksimize eder. PDK yağ değişimi 60.000 km'de mutlaka yapılmalı.</div>
 
 <div class="cta-box">
-  <strong>Porsche aracınız için ücretsiz ön kontrol:</strong>
+  <strong>Porsche aracınız için araç başında ön kontrol:</strong>
   <div class="cta-actions">
     <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
     <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Randevu</a>

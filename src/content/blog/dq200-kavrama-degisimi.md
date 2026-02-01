@@ -289,7 +289,7 @@ DQ200 şanzıman, şu modellerde kullanılır:
 
 - **15+ Yıl Deneyim:** DQ200 kavrama değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis araç başında yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teşhis, 1-2 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi

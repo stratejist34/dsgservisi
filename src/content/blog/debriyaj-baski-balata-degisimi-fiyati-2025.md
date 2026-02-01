@@ -31,7 +31,7 @@ Debriyaj baskı balata (debriyaj diski), motor gücünü şanzımana aktaran kri
 
 :::cta
 
-**Debriyaj baskı balata değişimi için ücretsiz kontrol:**
+**Debriyaj baskı balata değişimi için araç başında kontrol:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -211,7 +211,7 @@ Debriyaj seti 3 ana parçadan oluşur:
 - **15+ Yıl Deneyim:** Tüm premium markalarda uzman ekip
 - **Kaliteli Muadil Markalar:** LUK, Sachs, Valeo (OEM üreticiler)
 - **Orijinal Parça Seçeneği:** İsteğe göre orijinal parça tedariki
-- **Şeffaf Fiyatlandırma:** Ücretsiz kontrol, net servis teklifi
+- **Şeffaf Fiyatlandırma:** araç başında kontrol, net servis teklifi
 - **Hızlı Hizmet:** Aynı gün teslimat
 - **Garanti:** 12 ay işçilik, 24 ay parça garantisi
 - **Volant Taşlama:** Kendi atölyemizde volant taşlama hizmeti

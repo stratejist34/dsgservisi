@@ -35,7 +35,7 @@ DSG 6 ileri (DQ250) mekatronik arızası, **Passat, Tiguan, Golf GTI, Octavia RS
 
 :::cta
 
-**Ücretsiz ön teşhis için:**
+**araç başında ön teşhis için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -323,7 +323,7 @@ Vites geçişlerinde gecikme, emniyet moduna geçme, kalkışta titreme ve OBD h
 
 ### DSG 6 ileri mekatronik tamiri için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ücretsiz ön teşhis için randevu almanız önerilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. araç başında ön teşhis için randevu almanız önerilir.
 
 ### DSG 6 ileri mekatronik tamiri sonrası ne yapılmalı?
 

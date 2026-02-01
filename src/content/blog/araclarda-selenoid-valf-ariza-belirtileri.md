@@ -32,7 +32,7 @@ Solenoid valf, DSG ve otomatik şanzımanlarda **hidrolik basıncı kontrol eden
 :::
 
 :::cta
-**Ücretsiz ön teşhis için:**
+**araç başında ön teşhis için:**
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
@@ -345,7 +345,7 @@ Evet. Düzenli yağ değişimi, kaliteli yağ kullanımı, duruşlarda N konumun
 
 ### Solenoid valf tamiri sonrası tekrar arıza yapar mı?
 
-Doğru teşhis ve kaliteli parça kullanımıyla kalıcı çözüm sağlanır. Ancak yağ bakımı ve sürüş tarzı önemlidir. Garanti kapsamında tekrar arıza olursa ücretsiz müdahale edilir.
+Doğru teşhis ve kaliteli parça kullanımıyla kalıcı çözüm sağlanır. Ancak yağ bakımı ve sürüş tarzı önemlidir. Garanti kapsamında tekrar arıza olursa garantili müdahale edilir.
 
 ### Hangi durumlarda solenoid valf tamiri yapılamaz?
 

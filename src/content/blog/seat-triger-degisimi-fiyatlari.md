@@ -32,7 +32,7 @@ Seat araçlarında triger değişimi motorun en kritik bakım işlemlerinden bir
 
 :::cta
 
-**Seat triger değişimi için ücretsiz teklif alın:**
+**Seat triger değişimi için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -181,7 +181,7 @@ Seat'in dizel motorlarıdır. Triger zinciri gerginliği kontrolü önemlidir.
 
 - **15+ Yıl Deneyim:** Seat triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis araç başında yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-3 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Seat servisi
@@ -290,7 +290,7 @@ Evet, Yıldızlar Grup'ta yapılan tüm triger değişimlerinde işçilik 12 ay,
 
 ### Seat triger değişimi için randevu nasıl alınır?
 
-Seat triger değişimi için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön teşhis ücretsizdir.
+Seat triger değişimi için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön teşhis araç başında yapılır.
 
 ### Seat triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 

@@ -32,7 +32,7 @@ Mercedes araçlarında şanzıman arızaları motor performansını ve güvenli�
 
 :::cta
 
-**Mercedes şanzıman tamiri için ücretsiz teklif alın:**
+**Mercedes şanzıman tamiri için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -203,7 +203,7 @@ Mekatronik, 7-Speed DCT şanzımanın elektronik kontrol ünitesidir.
 
 ## Şanzıman Tamiri Süreci
 
-1. **Ön Teşhis:** Şanzıman arızası tespit edilir (ücretsiz)
+1. **Ön Teşhis:** Şanzıman arızası tespit edilir (araç başında)
 2. **Detaylı İnceleme:** Şanzıman sökülerek detaylı kontrol yapılır
 3. **Fiyat Teklifi:** Tamir maliyeti yazılı olarak sunulur
 4. **Onay:** Müşteri onayı sonrası tamir başlar
@@ -215,7 +215,7 @@ Mekatronik, 7-Speed DCT şanzımanın elektronik kontrol ünitesidir.
 
 - **15+ Yıl Deneyim:** Mercedes şanzıman tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis araç başında yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-7 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Mercedes servisi
@@ -312,7 +312,7 @@ Evet, Yıldızlar Grup'ta yapılan tüm şanzıman tamirlerinde işçilik 12 ay,
 
 ### Mercedes şanzıman tamiri için randevu nasıl alınır?
 
-Mercedes şanzıman tamiri için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön teşhis ücretsizdir.
+Mercedes şanzıman tamiri için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön teşhis araç başında yapılır.
 
 ### Mercedes şanzıman tamiri fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 

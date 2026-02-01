@@ -346,6 +346,6 @@ Yan sanayi, onaylanmamış yağ kullanımı risklidir. Erken yaşlanma, arıza r
 
 ### Otomatik şanzıman yağı değişimi için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ücretsiz ön teşhis için randevu almanız önerilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. araç başında ön teşhis için randevu almanız önerilir.
 
 

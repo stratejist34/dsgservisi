@@ -35,7 +35,7 @@ DSG mekatronik arızası, **DQ200, DQ250 ve DQ381/DQ500** şanzımanlarında sı
 
 :::cta
 
-**Ücretsiz ön teşhis ve servis teklifi için:**
+**araç başında ön teşhis ve servis teklifi için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -392,10 +392,10 @@ Yıldızlar Grup özel servis, yetkili servise göre %40-50 daha ekonomik DSG me
 
 ### DSG mekatronik arızası için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ücretsiz ön teşhis için randevu almanız önerilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. araç başında ön teşhis için randevu almanız önerilir.
 
 ### DSG mekatronik arızası sonrası ne yapılmalı?
 
-Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol önerilir. Garanti kapsamında herhangi bir sorun olursa ücretsiz müdahale edilir.
+Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol önerilir. Garanti kapsamında herhangi bir sorun olursa garantili müdahale edilir.
 
 

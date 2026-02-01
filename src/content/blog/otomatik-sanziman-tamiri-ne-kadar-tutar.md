@@ -35,7 +35,7 @@ Otomatik şanzıman tamiri, **DSG, ZF ve konvansiyonel otomatik şanzımanlarda*
 
 :::cta
 
-**Ücretsiz ön teşhis ve servis teklifi için:**
+**araç başında ön teşhis ve servis teklifi için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -232,7 +232,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 ## Otomatik Şanzıman Tamiri Süreci
 
-### 1. Ön Teşhis (Ücretsiz)
+### 1. Ön Teşhis (araç başında)
 
 - Test sürüşü
 - OBD tarama
@@ -360,10 +360,10 @@ Yıldızlar Grup özel servis, yetkili servise göre %50-60 daha ekonomik otomat
 
 ### Otomatik şanzıman tamiri için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ücretsiz ön teşhis için randevu almanız önerilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. araç başında ön teşhis için randevu almanız önerilir.
 
 ### Otomatik şanzıman tamiri sonrası ne yapılmalı?
 
-Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol önerilir. Garanti kapsamında herhangi bir sorun olursa ücretsiz müdahale edilir.
+Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol önerilir. Garanti kapsamında herhangi bir sorun olursa garantili müdahale edilir.
 
 

@@ -22,7 +22,7 @@ areaServed: ["İstanbul", "Büyükçekmece", "Beylikdüzü", "Esenyurt", "Avcıl
 ---
 
 ::::cta
-**Land Rover için ücretsiz ön kontrol**
+**Land Rover için araç başında ön kontrol**
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)

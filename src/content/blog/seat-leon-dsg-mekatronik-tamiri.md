@@ -27,7 +27,7 @@ Seat Leon sahipleri için DSG şanzıman mekatronik arızaları, sürüş konfor
 
 💡 **UZMAN TAVSİYESİ:** DSG mekatronik arızalarında erken teşhis, tamir maliyetini %60'a kadar düşürebilir. Düzenli şanzıman yağı ve filtre değişimleri (özellikle DQ250 için 60.000 km, DQ200 için kontrol) mekatronik ömrünü uzatır ve ciddi arızaların önüne geçer.
 
-**Seat Leon'unuzun DSG mekatronik sorunları için ücretsiz ön kontrol:**
+**Seat Leon'unuzun DSG mekatronik sorunları için araç başında ön kontrol:**
 
 📞 [0533 262 34 51](tel:05332623451)
 

@@ -130,7 +130,7 @@ Yıldızlar Grup DSG Servisi; spesifikasyon uyumlu yağ ve karter‑filtre çöz
 </ul>
 
 <div class="cta-box">
-  <strong>Ücretsiz yağ kontrolü:</strong>
+  <strong>Araç başında yağ kontrolü:</strong>
   <div class="cta-actions">
     <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
     <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Yaz</a>

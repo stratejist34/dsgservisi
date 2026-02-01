@@ -32,7 +32,7 @@ Balata değişimi, fren sisteminin en kritik bakım işlemidir. Aşınan balatal
 
 :::cta
 
-**Balata değişimi için ücretsiz kontrol:**
+**Balata değişimi için araç başında kontrol:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -225,7 +225,7 @@ Balata değişimi, fren sisteminin en kritik bakım işlemidir. Aşınan balatal
 
 - **15+ Yıl Deneyim:** Tüm premium markalarda uzman ekip
 - **Orijinal ve Muadil Seçenekler:** Bütçenize uygun çözümler
-- **Şeffaf Fiyatlandırma:** Ücretsiz kontrol, net servis teklifi
+- **Şeffaf Fiyatlandırma:** araç başında kontrol, net servis teklifi
 - **Hızlı Hizmet:** 1-3 saat içinde teslimat
 - **Garanti:** Tüm işçiliklerde 6 ay, parçalarda 1 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un güvenilir servisi

@@ -93,7 +93,7 @@ Skoda Octavia DSG mekatronik arızası belirtileri genellikle ani başlar ve sü
 </p>
 
 <p>
-Teşhis yöntemleri: İlk adım OBD-II taramasıdır; VCDS cihazı ile hata kodları (P0730 - vites oranı hatası, P0841 - basınç sensörü, P17BF - mekatronik adaptasyon) okunur. Fiziksel muayenede şanzıman yağı seviyesi ve rengi kontrol edilir (siyahlaşmış yağ arızayı işaret eder). İleri teşhiste mekatronik sökülerek valf body testi yapılır; solenoid direnci 5-20 ohm arasında olmalıdır. Hidrolik pompa basıncı 15-25 bar olmalı; düşükse pompa aşınmasıdır. Yıldızlar Grup'ta mobil teşhis aracı ile ev/ofisinizde ön tarama ücretsizdir.
+Teşhis yöntemleri: İlk adım OBD-II taramasıdır; VCDS cihazı ile hata kodları (P0730 - vites oranı hatası, P0841 - basınç sensörü, P17BF - mekatronik adaptasyon) okunur. Fiziksel muayenede şanzıman yağı seviyesi ve rengi kontrol edilir (siyahlaşmış yağ arızayı işaret eder). İleri teşhiste mekatronik sökülerek valf body testi yapılır; solenoid direnci 5-20 ohm arasında olmalıdır. Hidrolik pompa basıncı 15-25 bar olmalı; düşükse pompa aşınmasıdır. Yıldızlar Grup'ta mobil teşhis aracı ile ev/ofisinizde ön tarama araç başında yapılır.
 </p>
 
 <p>
@@ -156,7 +156,7 @@ Yıldızlar Grup, her iki tip için özel test prosedürleri uygular; DQ200'de d
 <h2>Skoda Octavia DSG Mekatronik Tamir Süreci ve Maliyet Analizi</h2>
 
 <p>
-Skoda Octavia DSG mekatronik tamiri, Yıldızlar Grup'ta 5 aşamalı profesyonel bir süreç izler. 1. Aşama: Teşhis (OBD tarama, fiziksel inceleme) - 1 saat, ücretsiz. 2. Aşama: Şanzıman sökümü (mekatronik erişimi) - 2-3 saat. 3. Aşama: Ünite onarımı (valf temizliği, solenoid testi, hidrolik flush) - 3-4 saat. 4. Aşama: Montaj ve adaptasyon (VCDS ile kalibrasyon) - 1-2 saat. 5. Aşama: Yol testi ve raporlama - 30 dakika. Toplam süre 8-12 saat; araç aynı gün teslim edilebilir.
+Skoda Octavia DSG mekatronik tamiri, Yıldızlar Grup'ta 5 aşamalı profesyonel bir süreç izler. 1. Aşama: Teşhis (OBD tarama, fiziksel inceleme) - 1 saat, araç başında. 2. Aşama: Şanzıman sökümü (mekatronik erişimi) - 2-3 saat. 3. Aşama: Ünite onarımı (valf temizliği, solenoid testi, hidrolik flush) - 3-4 saat. 4. Aşama: Montaj ve adaptasyon (VCDS ile kalibrasyon) - 1-2 saat. 5. Aşama: Yol testi ve raporlama - 30 dakika. Toplam süre 8-12 saat; araç aynı gün teslim edilebilir.
 </p>
 
 <p>
@@ -268,12 +268,12 @@ Maliyet etkin bakım: Yıllık uygun maliyetler ile önlenir uygun fiyat'lik tam
 <p>Adaptasyon, VCDS ile debriyaj ve valf kalibrasyonu; hata sıfırlar, geçişi iyileştirir (Fiyat Sorunuz). 60.000 km'de zorunlu; %70 arızayı önler. Yazılım güncellemesi entegre edilebilir (ek uygun fiyat).</p>
 
 <p><strong>Mekatronik tamiri sonrası nelere dikkat edilmeli?</strong></p>
-<p>İlk 500 km yumuşak sürüş, 1.000 km'de kontrol. Yağ seviyesini izleyin, ani yükten kaçının. Garanti ihlali: Modifiye parça kullanımı. Yıldızlar Grup takip SMS'i gönderir; sorun olursa ücretsiz revizyon.</p>
+<p>İlk 500 km yumuşak sürüş, 1.000 km'de kontrol. Yağ seviyesini izleyin, ani yükten kaçının. Garanti ihlali: Modifiye parça kullanımı. Yıldızlar Grup takip SMS'i gönderir; sorun olursa garantili revizyon.</p>
 
 <h2>Konum ve İletişim</h2>
 
 <p>
-Yıldızlar Grup DSG Servisi, Beykent Sanayi Sitesi Meriç Sk. No: 179-180 Büyükçekmece/İstanbul'da Skoda Octavia DSG mekatronik tamiri hizmeti verir. Beylikdüzü, Esenyurt, Avcılar, Küçükçekmece'den 15-20 dakikada ulaşım. Ücretsiz araç çekici (50 km iç), hafta sonu acil servis mevcut.
+Yıldızlar Grup DSG Servisi, Beykent Sanayi Sitesi Meriç Sk. No: 179-180 Büyükçekmece/İstanbul'da Skoda Octavia DSG mekatronik tamiri hizmeti verir. Beylikdüzü, Esenyurt, Avcılar, Küçükçekmece'den 15-20 dakikada ulaşım. araç başında araç çekici (50 km iç), hafta sonu acil servis mevcut.
 </p>
 
 <div class="cta-box">

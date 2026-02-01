@@ -79,7 +79,7 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
 <div class="uzman-tavsiyesi">💡 UZMAN TAVSİYESİ: Volkswagen'de erken arıza tespiti tamir maliyetini %60 azaltır. Düzenli periyodik bakım (15.000-20.000 km) motor, turbo ve şanzıman ömrünü maksimize eder.</div>
 
 <div class="cta-box">
-  <strong>Volkswagen aracınız için ücretsiz ön kontrol:</strong>
+  <strong>Volkswagen aracınız için araç başında ön kontrol:</strong>
   <div class="cta-actions">
     <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
     <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Randevu</a>
@@ -302,7 +302,7 @@ Volkswagen araçları güvenilir olsa da belirli kilometrelerde ve model yıllar
   <li>Orjinal ve onaylı yan sanayi parça garantisi</li>
   <li>2 yıl parça ve işçilik garantisi</li>
   <li>Şeffaf fiyatlandırma, ön görüşme</li>
-  <li>Ücretsiz araç çekme (arıza durumunda)</li>
+  <li>Avrupa Yakası içi araç başında çekme (arıza durumunda)</li>
   <li>Aynı gün teslimat (basit arızalarda)</li>
   <li>Servis sonrası yol testi ve kontrol</li>
 </ul>

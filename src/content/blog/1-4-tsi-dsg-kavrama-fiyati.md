@@ -35,7 +35,7 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 :::cta
 
-**1.4 TSI DSG kavrama değişimi ve ücretsiz arıza tespiti için:**
+**1.4 TSI DSG kavrama değişimi ve araç başında arıza tespiti için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -58,9 +58,9 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 | İşlem | Açıklama | Garanti | Süre |
 | --- | --- | --- | --- |
-| Kavrama değişimi | Ücretsiz teşhis + Net teklif | 12 ay | 1-2 gün |
-| Volant değişimi | Ücretsiz teşhis + Net teklif | 12 ay | 1-2 gün |
-| Kavrama + volant kombi | Ücretsiz teşhis + Net teklif | 12 ay | 1-2 gün |
+| Kavrama değişimi | Araç başında teşhis + Net teklif | 12 ay | 1-2 gün |
+| Volant değişimi | Araç başında teşhis + Net teklif | 12 ay | 1-2 gün |
+| Kavrama + volant kombi | Araç başında teşhis + Net teklif | 12 ay | 1-2 gün |
 | Adaptasyon/kalibrasyon | Profesyonel cihazlarla işlem | İşçilik garantisi | Aynı gün |
 
 :::note
@@ -257,7 +257,7 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 - **15+ Yıl Deneyim:** 1.4 TSI DSG kavrama değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Bilgilendirme:** Ön teşhis ücretsiz, yapılacak işlemler hakkında net bilgi
+- **Şeffaf Bilgilendirme:** Ön teşhis araç başında yapılır, yapılacak işlemler hakkında net bilgi
 - **Hızlı Çözüm:** Aynı gün teşhis, 1-2 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi

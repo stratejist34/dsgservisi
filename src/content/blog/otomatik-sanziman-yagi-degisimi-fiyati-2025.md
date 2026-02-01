@@ -157,7 +157,7 @@ Klasik tork konvertörlü otomatik şanzımanlar, eski model araçlarda kullanı
 
 ## Otomatik Şanzıman Yağı Değişimi Süreci
 
-### 1. Ön Kontrol (Ücretsiz)
+### 1. Ön Kontrol (araç başında)
 
 - Yağ seviyesi kontrolü
 - Yağ renk ve koku analizi
@@ -327,11 +327,11 @@ Yıldızlar Grup özel servis, yetkili servise göre %30-40 daha ekonomik otomat
 
 ### Otomatik şanzıman yağı değişimi için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ücretsiz ön teşhis için randevu almanız önerilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. araç başında ön teşhis için randevu almanız önerilir.
 
 ### Otomatik şanzıman yağı değişimi sonrası ne yapılmalı?
 
-Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol önerilir. Garanti kapsamında herhangi bir sorun olursa ücretsiz müdahale edilir.
+Adaptasyon/kalibrasyon yapılır, yol testi yapılır ve ilk 1.000 km'de kontrol önerilir. Garanti kapsamında herhangi bir sorun olursa garantili müdahale edilir.
 
 ### Otomatik şanzıman yağı değişiminde filtre değişmeli mi?
 

@@ -32,7 +32,7 @@ Multitronic, Audi'nin sürekli değişken transmisyon (CVT) teknolojisidir. Zinc
 
 :::cta
 
-**Audi Multitronic arızası için ücretsiz teşhis:**
+**Audi Multitronic arızası için araç başında teşhis:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -217,7 +217,7 @@ TCU, şanzımanın beyniydir. Yazılım veya donanım arızası şanzımanı dev
 
 ## Multitronic Arıza Teşhis Süreci
 
-1. **Ön Kontrol:** Araç test sürüşü ve hata kodu okuma (ücretsiz)
+1. **Ön Kontrol:** Araç test sürüşü ve hata kodu okuma (araç başında)
 2. **Detaylı Teşhis:** Şanzıman yağı analizi ve basınç testi
 3. **Şanzıman Sökümü:** Detaylı iç kontrol (gerekirse)
 4. **Fiyat Teklifi:** Tamir maliyeti yazılı olarak sunulur
@@ -230,7 +230,7 @@ TCU, şanzımanın beyniydir. Yazılım veya donanım arızası şanzımanı dev
 
 - **15+ Yıl Deneyim:** Audi Multitronic tamirinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis araç başında yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** 1-7 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Audi servisi

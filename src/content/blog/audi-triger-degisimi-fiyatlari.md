@@ -32,7 +32,7 @@ Audi araçlarında triger değişimi motorun en kritik bakım işlemlerinden bir
 
 :::cta
 
-**Audi triger değişimi için ücretsiz teklif alın:**
+**Audi triger değişimi için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -195,7 +195,7 @@ Erken değişim yaptırmak, olası motor hasarı tamirine göre çok daha ekonom
 
 - **15+ Yıl Deneyim:** Audi triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis araç başında yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-4 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Audi servisi
@@ -288,7 +288,7 @@ Evet, Yıldızlar Grup'ta yapılan tüm triger değişimlerinde işçilik 12 ay,
 
 ### Audi triger değişimi için randevu nasıl alınır?
 
-Audi triger değişimi için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön teşhis ücretsizdir.
+Audi triger değişimi için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön teşhis araç başında yapılır.
 
 ### Audi triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 

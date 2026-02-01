@@ -32,7 +32,7 @@ Porsche araçlarında triger değişimi motorun en kritik bakım işlemlerinden 
 
 :::cta
 
-**Porsche triger değişimi için ücretsiz teklif alın:**
+**Porsche triger değişimi için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -166,7 +166,7 @@ Porsche'nin üst segment modellerinde kullanılan motorlardır.
 
 - **15+ Yıl Deneyim:** Porsche triger değişiminde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön teşhis ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön teşhis araç başında yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** 2-4 gün içinde teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Porsche servisi
@@ -263,7 +263,7 @@ Evet, Yıldızlar Grup'ta yapılan tüm triger değişimlerinde işçilik 12 ay,
 
 ### Porsche triger değişimi için randevu nasıl alınır?
 
-Porsche triger değişimi için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön teşhis ücretsizdir.
+Porsche triger değişimi için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön teşhis araç başında yapılır.
 
 ### Porsche triger değişimi fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 

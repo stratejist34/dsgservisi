@@ -76,7 +76,7 @@ Not: Golf 7 DSG kavrama değişimi fiyatı ve Polo DSG kavrama değişimi model 
 </ul>
 
 <div class="cta-box">
-  <strong>Ücretsiz ön kontrol için:</strong>
+  <strong>Araç başında ön kontrol için:</strong>
   <div class="cta-actions">
     <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
     <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Randevu</a>

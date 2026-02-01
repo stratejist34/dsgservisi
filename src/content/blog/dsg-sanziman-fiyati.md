@@ -285,7 +285,7 @@ Evet, değişim sonrası yazılım adaptasyonu ve kalibrasyon mutlaka yapılmal�
 
 DSG şanzıman fiyatları, şanzıman tipine, model ve ünite kalitesine göre değişir. Kod uyumluluğu kritiktir; yanlış kod seçimi araç çalışmayabilir. Yıldızlar Grup DSG Servisi olarak; kod uyumluluğu kontrolü, şeffaf fiyatlandırma ve garanti ile DSG şanzıman değişimi hizmeti sunuyoruz.
 
-**Ücretsiz ön teşhis ve servis teklifi için hemen iletişime geçin:**
+**araç başında ön teşhis ve servis teklifi için hemen iletişime geçin:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)

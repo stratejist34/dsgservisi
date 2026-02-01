@@ -35,7 +35,7 @@ Otomatik şanzıman yağ kaçağı, DSG ve konvansiyonel otomatik şanzımanlard
 
 :::cta
 
-**Ücretsiz ön teşhis için:**
+**araç başında ön teşhis için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -307,7 +307,7 @@ DSG mekatronik conta değişimi uygun maliyetler arasında değişir. DSG tipine
 
 ### Otomatik şanzıman yağ kaçağı tamiri için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ücretsiz ön teşhis için randevu almanız önerilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. araç başında ön teşhis için randevu almanız önerilir.
 
 ### Yağ kaçağı tamiri sonrası ne yapılmalı?
 

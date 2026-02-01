@@ -32,7 +32,7 @@ Volkswagen T-Roc periyodik bakımı, aracın ömrünü uzatan ve büyük arızal
 
 :::cta
 
-**Volkswagen T-Roc periyodik bakım için ücretsiz teklif alın:**
+**Volkswagen T-Roc periyodik bakım için hızlı teklif alın:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -63,8 +63,8 @@ Küçük bakım, motor yağı ve yağ filtresi değişimini içerir. T-Roc araç
 | --- | ---: | --- |
 | Motor yağı değişimi | 📞 Fiyat Sorunuz | Orijinal motor yağı (5W-30, 5W-40) |
 | Yağ filtresi değişimi | 300–600₺ | Orijinal yağ filtresi |
-| Genel kontrol | Ücretsiz | Yağ seviyesi, sıvılar, lastikler |
-| OBD-II hata taraması | Ücretsiz | Elektronik hata kontrolü |
+| Genel kontrol | Servisimizde | Yağ seviyesi, sıvılar, lastikler |
+| OBD-II hata taraması | Servisimizde | Elektronik hata kontrolü |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
 **Küçük Bakım Önemi:**
@@ -81,7 +81,7 @@ Büyük bakım, küçük bakıma ek olarak hava filtresi ve polen filtresi deği
 | Küçük bakım paketi | 📞 Fiyat Sorunuz | Yukarıdaki tüm işlemler |
 | Hava filtresi değişimi | 400–800₺ | Motor hava filtresi |
 | Polen filtresi değişimi | 300–600₺ | Kabin hava filtresi |
-| Fren balata kontrolü | Ücretsiz | Ön/arka fren balata kontrolü |
+| Fren balata kontrolü | Servisimizde | Ön/arka fren balata kontrolü |
 | Fren balata değişimi (gerekirse) | 📞 Fiyat Sorunuz | Ön/arka fren balata değişimi |
 | **TOPLAM** | **güncel fiyatlar** | **Tüm işlemler dahil** |
 
@@ -209,14 +209,14 @@ TSI motorlarda timing zincir kontrolü kritiktir.
 
 | İşlem | Maliyet | Süre |
 | --- | ---: | --- |
-| Timing zincir kontrolü | Ücretsiz | 30 dakika |
+| Timing zincir kontrolü | Servisimizde | 30 dakika |
 | Timing zincir değişimi | 📞 Fiyat Sorunuz | 2-3 gün |
 | Zincir gergi değişimi | Dahil | Dahil |
 
 **Timing Zincir Önemi:**
 - Zincir koparsa motor hasarı uygun maliyetler
 - Erken değişim maliyeti uygun maliyetler
-- Kontrol ücretsiz
+- kontrol servisimizde yapılır
 
 ### Fren Balata Değişimi
 
@@ -231,7 +231,7 @@ Fren balata değişimi güvenlik için kritiktir.
 
 ## T-Roc Periyodik Bakım Süreci
 
-1. **Ön Kontrol:** Araç detaylı kontrol edilir (ücretsiz)
+1. **Ön Kontrol:** Araç detaylı kontrol edilir (araç başında)
 2. **Fiyat Teklifi:** Bakım maliyeti yazılı olarak sunulur
 3. **Onay:** Müşteri onayı sonrası bakım başlar
 4. **Bakım:** Tüm işlemler sırayla yapılır
@@ -242,7 +242,7 @@ Fren balata değişimi güvenlik için kritiktir.
 
 - **15+ Yıl Deneyim:** T-Roc periyodik bakımında uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Fiyatlandırma:** Ön kontrol ücretsiz, servis teklifi yazılı
+- **Şeffaf Fiyatlandırma:** Ön kontrol servisimizde yapılır, servis teklifi yazılı
 - **Hızlı Çözüm:** Aynı gün teslimat
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir Volkswagen servisi
@@ -319,11 +319,11 @@ T-Roc periyodik bakım fiyatı bakım türüne göre değişir. Küçük bakım 
 
 ### T-Roc 15.000 km bakımı ne içerir?
 
-15.000 km bakımı: Motor yağı değişimi (Fiyat Sorunuz), yağ filtresi (300-600₺), genel kontrol (ücretsiz), OBD-II hata taraması (ücretsiz) içerir. Toplam uygun maliyetler.
+15.000 km bakımı: Motor yağı değişimi (Fiyat Sorunuz), yağ filtresi (300-600₺), genel kontrol (araç başında), OBD-II hata taraması (araç başında) içerir. Toplam uygun maliyetler.
 
 ### T-Roc 30.000 km bakımı ne içerir?
 
-30.000 km bakımı: 15.000 km bakımı + hava filtresi (400-800₺), polen filtresi (300-600₺), fren balata kontrolü (ücretsiz) içerir. Toplam uygun maliyetler.
+30.000 km bakımı: 15.000 km bakımı + hava filtresi (400-800₺), polen filtresi (300-600₺), fren balata kontrolü (araç başında) içerir. Toplam uygun maliyetler.
 
 ### T-Roc DSG yağ değişimi ne zaman yapılmalı?
 
@@ -347,7 +347,7 @@ Evet, Yıldızlar Grup'ta yapılan tüm periyodik bakımlarda işçilik 12 ay, p
 
 ### T-Roc periyodik bakım için randevu nasıl alınır?
 
-T-Roc periyodik bakım için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön kontrol ücretsizdir.
+T-Roc periyodik bakım için randevu almak için telefon (0533 262 34 51) veya WhatsApp üzerinden iletişime geçebilirsiniz. Ön kontrol araç başında yapılır.
 
 ### T-Roc periyodik bakım fiyatı yetkili servisle karşılaştırıldığında ne kadar?
 

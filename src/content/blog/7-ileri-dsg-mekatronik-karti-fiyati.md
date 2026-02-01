@@ -13,7 +13,7 @@ ogImage: "/images/blog/7-ileri-dsg-mekatronik-karti-fiyati.jpg"
 author: "DSG Servisi"
 draft: false
 seoTitle: "7 İleri DSG Mekatronik Kartı Tamiri | DQ200, DQ380, DQ381 Servis Hizmeti"
-seoDescription: "7 ileri DSG mekatronik kartı tamiri ve değişim hizmetleri. DQ200, DQ380, DQ381 mekatronik kart arızaları için garantili çözüm ve ücretsiz arıza tespiti."
+seoDescription: "7 ileri DSG mekatronik kartı tamiri ve değişim hizmetleri. DQ200, DQ380, DQ381 mekatronik kart arızaları için garantili çözüm ve araç başında arıza tespiti."
 
 # Hizmet Şeması
 serviceName: "7 İleri DSG Mekatronik Kartı Tamiri"
@@ -35,7 +35,7 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 :::cta
 
-**7 ileri DSG mekatronik kartı ücretsiz arıza tespiti için:**
+**7 ileri DSG mekatronik kartı araç başında arıza tespiti için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -61,9 +61,9 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 | İşlem | Açıklama | Garanti | Süre |
 | --- | --- | --- | --- |
-| Kart tamiri (bileşen değişimi) | Ücretsiz teşhis + Net teklif | 6 ay | 2-3 gün |
-| Kart değişimi (DQ200) | Ücretsiz teşhis + Net teklif | 12 ay | 2-3 gün |
-| Kart değişimi (DQ380/DQ381) | Ücretsiz teşhis + Net teklif | 12 ay | 2-3 gün |
+| Kart tamiri (bileşen değişimi) | Araç başında teşhis + Net teklif | 6 ay | 2-3 gün |
+| Kart değişimi (DQ200) | Araç başında teşhis + Net teklif | 12 ay | 2-3 gün |
+| Kart değişimi (DQ380/DQ381) | Araç başında teşhis + Net teklif | 12 ay | 2-3 gün |
 | Adaptasyon/kalibrasyon | Profesyonel cihazlarla işlem | İşçilik garantisi | Aynı gün |
 
 :::note
@@ -273,7 +273,7 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 - **15+ Yıl Deneyim:** 7 ileri DSG mekatronik kartı teşhisinde uzman ekip
 - **Orijinal Parça:** Tüm parçalar orijinal ve sertifikalı
-- **Şeffaf Bilgilendirme:** Ön teşhis ücretsiz, yapılacak işlemler hakkında net bilgi
+- **Şeffaf Bilgilendirme:** Ön teşhis araç başında yapılır, yapılacak işlemler hakkında net bilgi
 - **Hızlı Çözüm:** Aynı gün teşhis, 2-3 gün içinde tamir
 - **Garanti:** Tüm işçiliklerde 12 ay, parçalarda 2 yıl garanti
 - **6.500+ Mutlu Müşteri:** İstanbul'un en güvenilir DSG servisi

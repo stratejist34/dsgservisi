@@ -32,7 +32,7 @@ S-Tronic, Audi'nin çift kavramalı DSG teknolojisidir. Volkswagen Grubu'nun DQ5
 
 :::cta
 
-**Audi S-Tronic arızası için ücretsiz teşhis:**
+**Audi S-Tronic arızası için araç başında teşhis:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -137,7 +137,7 @@ Mekatronik, şanzımanın elektronik kontrol ünitesidir.
 
 - **15+ Yıl Deneyim:** Audi S-Tronic tamirinde uzman ekip
 - **Orijinal Parça:** Sertifikalı parçalar
-- **Şeffaf Fiyatlandırma:** Ücretsiz ön teşhis
+- **Şeffaf Fiyatlandırma:** araç başında ön teşhis
 - **Hızlı Çözüm:** 1-5 gün teslimat
 - **Garanti:** 12 ay işçilik, 2 yıl parça garantisi
 

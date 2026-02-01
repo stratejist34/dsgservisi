@@ -35,7 +35,7 @@ Otomatik vites solenoid valf arızası, **DSG ve ZF otomatik şanzımanlarda** s
 
 :::cta
 
-**Ücretsiz ön teşhis için:**
+**araç başında ön teşhis için:**
 
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
@@ -459,7 +459,7 @@ Evet, solenoid valf arızası tehlikeli olabilir. Ani güç kesintisi, boşa dü
 
 ### Solenoid valf arızası için randevu nasıl alınır?
 
-Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. Ücretsiz ön teşhis için randevu almanız önerilir.
+Telefon (0533 262 34 51) veya WhatsApp üzerinden randevu alabilirsiniz. araç başında ön teşhis için randevu almanız önerilir.
 
 ### Solenoid valf arızası ne kadar sürer?
 

@@ -32,7 +32,7 @@ Seat araçları sportif tasarım ve ekonomik fiyat sunar ancak VW Grup teknoloji
 <div class="uzman-tavsiyesi">💡 UZMAN TAVSİYESİ: Seat'ta erken arıza tespiti tamir maliyetini %60 azaltır. Düzenli periyodik bakım (15.000 km) motor, turbo ve DSG ömrünü maksimize eder. DSG yağ değişimi 80.000 km'de mutlaka yapılmalı.</div>
 
 <div class="cta-box">
-  <strong>Seat aracınız için ücretsiz ön kontrol:</strong>
+  <strong>Seat aracınız için araç başında ön kontrol:</strong>
   <div class="cta-actions">
     <a class="cta-call" href="tel:05332623451">📞 0533 262 34 51</a>
     <a class="cta-whatsapp" href="https://api.whatsapp.com/send?phone=905332623451">WhatsApp Randevu</a>
