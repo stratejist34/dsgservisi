@@ -56,7 +56,7 @@ export default function PhoneButton({
           style={{ animation: 'bounce-subtle 2s infinite ease-in-out' }}
         >
           <div className="relative">
-            Hemen Ara
+            Avrupa Yakası için Ara
             <div className="absolute top-[calc(100%-1px)] left-1/2 -translate-x-1/2 border-l-[6px] border-r-[6px] border-t-[8px] border-l-transparent border-r-transparent border-t-amber-400"></div>
           </div>
         </div>
@@ -79,7 +79,7 @@ export default function PhoneButton({
           hover:scale-110 active:scale-95
           ${className}
         `}
-        aria-label={`Bizi arayın: ${phone}`}
+        aria-label={`Avrupa Yakası için Ara: ${phone}`}
         onMouseDown={() => { }}
       >
         {/* Pulse Rings */}

@@ -419,32 +419,21 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
           data-close-modal
           tabindex="-1">&times;</button
         >
-        <p class="call-modal__tag">Önemli Bilgilendirme</p>
+        <p class="call-modal__tag">Önemli Uyarı</p>
         <h3 class="call-modal__title">
-          Servisimiz İstanbul Avrupa Yakasındadır
+          ⚠️ Bu numara SADECE İstanbul Avrupa Yakası servis talepleri içindir.
         </h3>
         <p class="call-modal__desc">
-          Konumumuz Beytepe Sanayi Sitesi içerisinde yer alıyor. Konumu
-          doğrulamak isterseniz aşağıdaki bağlantıyı kullanabilirsiniz.
+          Avrupa Yakası dışından aramalar yanıtlanmaz.
         </p>
         <div class="call-modal__actions">
-          <a
-            href={SITE_CONFIG.google.mapUrl}
-            target="_blank"
-            rel="noopener noreferrer"
-            class="call-modal__action call-modal__action--ghost"
-            data-close-modal
-            tabindex="-1"
-          >
-            Konumu Aç
-          </a>
           <button
             type="button"
-            class="call-modal__action call-modal__action--primary"
+            class="call-modal__action call-modal__action--primary w-full"
             data-call-now
             tabindex="-1"
           >
-            Hemen Ara
+            Onaylıyorum – Ara
           </button>
         </div>
       </div>
