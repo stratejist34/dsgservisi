@@ -3,189 +3,66 @@
 title: "Land Rover Özel Servis"
 description: "Land Rover özel servis: ZF şanzıman, motor, turbo, hava süspansiyon, elektronik arıza tamiri. Range Rover, Discovery, Evoque bakım. Büyükçekmece İstanbul."
 category: "Land Rover"
-tags: ["land rover", "range rover", "discovery", "evoque", "defender", "öz el servis", "zf şanzıman", "hava süspansiyon"]
+tags: ["land rover", "range rover", "discovery", "evoque", "defender", "özel servis", "zf şanzıman", "hava süspansiyon"]
 slug: "land-rover-ozel-servis"
 publishDate: "2025-11-04T09:30:00+03:00"
 updatedDate: "2025-11-04T09:30:00+03:00"
 featuredImage: "/images/blog/land-rover-ozel-servis.jpg"
 ogImage: "/images/blog/land-rover-ozel-servis.jpg"
 imageAlt: "Land Rover Defender hareket halinde; Land Rover özel servis görseli"
-author: "DSG Servisi"
+author: "Yıldızlar Grup DSG Servisi"
 draft: false
 
-# Opsiyonel Hizmet Şeması (fiyatlar metinden otomatik çıkarılır)
+# Opsiyonel Hizmet Şeması
 serviceName: "Land Rover Özel Servis"
 serviceType: "Periyodik Bakım ve Onarım"
-serviceDescription: "Land Rover ZF şanzıman, motor, turbo ve hava süspansiyon arızalarında uzman teşhis ve onarım."
+serviceDescription: "Land Rover ZF şanzıman, motor, turbo and hava süspansiyon arızalarında uzman teşhis ve onarım."
 areaServed: ["İstanbul", "Büyükçekmece", "Beylikdüzü", "Esenyurt", "Avcılar"]
 
 ---
 
-::::cta
-**Land Rover için araç başında ön kontrol**
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
-::::
+# Land Rover Özel Servis İstanbul – ZF Şanzıman, Motor ve Hava Süspansiyon Uzmanı
 
 Yıldızlar Grup, Land Rover araçlarında ZF şanzıman, motor, turbo, hava süspansiyon, elektronik, fren ve Terrain Response arızalarında uzmanlaşmış özel servis merkezidir. Range Rover, Range Rover Sport, Range Rover Evoque, Discovery, Discovery Sport ve Defender modellerinde 15+ yıllık deneyimimizle yetkili servise alternatif, ekonomik ve garantili çözümler sunuyoruz.
 
-Land Rover araçları lüks ve arazi performansı sunar; ancak elektronik ve mekanik karmaşıklık nedeniyle yaygın arızalar yaşanır. Hava süspansiyon arızası (%42), ZF şanzıman valf‑body (%34), turbo yağ besleme/intercooler sızıntısı (%31), timing zincir gerginliği (%28), elektronik kontrol ünitesi arızaları (%38) en sık karşılaşılan problemlerdir. Bu başlıklarda hızlı teşhis ve uygun maliyetli tamir sağlıyoruz.
-
-::::tip Uzman Tavsiyesi
+:::tip[Uzman Tavsiyesi]
 Land Rover'da erken arıza tespiti tamir maliyetini %70 azaltır. Düzenli periyodik bakım (15.000 km) motor, turbo ve hava süspansiyon ömrünü uzatır. ZF yağ değişimi 80.000 km’de mutlaka yapılmalı.
-::::
+:::
 
-## Land Rover Servis Hizmetlerimiz
+## Land Rover Kronik Arızalar ve Veriler
 
-- **Şanzıman:** ZF 8HP/9HP yağ değişimi, valf‑body tamiri, tork konvertör
-- **Motor:** Timing zincir, turbo, enjektör, segman, supap tamiri
-- **Turbo:** Turbo yenileme, intercooler sızıntısı, wastegate tamiri
-- **Hava Süspansiyon:** Kompresör, körük, valf, sensör tamiri
-- **Elektronik:** ECU, TCM, InControl, sensör arızaları
-- **Terrain Response:** 4x4, diferansiyel, transfer case
-- **Fren:** Balata, disk, kaliper, fren hidroliği
-- **Periyodik Bakım:** Motor yağı, filtre, fren, klima bakımı
+| Arıza Türü | Yaygınlık | Maliyet | Kilometre |
+| :--- | :--- | :--- | :--- |
+| Hava Süspansiyon (EAS) | %42 | Uygun Maliyetli | 80k-150k km |
+| ZF Şanzıman Valf-Body | %36 | Uygun Maliyetli | 120k-200k km |
+| ECU/TCM Elektronik | %41 | Uygun Maliyetli | 80k-150k km |
 
-## Land Rover Model Bazlı Kronik Arızalar ve Yaygınlık
+## Land Rover Hava Süspansiyon ve ZF Şanzıman Uzmanı
 
-### Range Rover (L405, L460) – En Yaygın Arızalar
-
-| Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
-| --- | ---: | ---: | --- |
-| Hava süspansiyon kompresör/körük | %44 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
-| ZF 8HP şanzıman valf‑body | %36 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
-| 3.0 TDV6 timing zincir gerginliği | %32 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Turbo intercooler sızıntısı | %34 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Elektronik kontrol ünitesi (ECU/TCM) | %41 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
-| Su pompası/termostat elektroniği | %26 | 📞 Fiyat Sorunuz | 80.000–140.000 km |
-
-**Nedenler:** Ağır gövde nedeniyle kompresör aşınması; ZF’de yağ eskimesi sonrası valf‑body kısa devresi; TDV6 zincir gergisi üretim kusuru; plastik intercooler bağlantılarında sızıntı; ECU/TCM donanım/yazılım arızaları.
-
-### Range Rover Sport (L494) – En Yaygın Arızalar
-
-| Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
-| --- | ---: | ---: | --- |
-| Hava süspansiyon arızası | %43 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
-| ZF 8HP valf‑body/mekatronik | %35 | 📞 Fiyat Sorunuz | 120.000–200.000 km |
-| 3.0 SDV6 turbo/intercooler | %33 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Motor timing zincir/gerginlik | %29 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Transfer case/diferansiyel yağ kaçağı | %24 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| InControl/Touch Pro ekran arızası | %38 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
-
-### Range Rover Evoque (L538, L551) – En Yaygın Arızalar
-
-| Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
-| --- | ---: | ---: | --- |
-| 9HP şanzıman sarsıntı/vites geçiş | %31 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
-| 2.0 D motor turbo/DPF arızası | %38 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Timing zincir gerginliği | %27 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Haldex 4x4 pompa arızası | %26 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Panoramik tavan su kaçağı | %34 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
-| Elektronik park freni arızası | %22 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
-
-### Discovery Sport (L550) – En Yaygın Arızalar
-
-| Arıza Türü | Yaygınlık | Ortalama Maliyet | Kilometre |
-| --- | ---: | ---: | --- |
-| 9HP şanzıman vites geçiş sorunları | %32 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
-| 2.0 D Ingenium turbo/enjektör | %36 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Timing zincir gerginliği | %28 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Haldex 4x4 kontrol modülü | %25 | 📞 Fiyat Sorunuz | 100.000–180.000 km |
-| Panoramik tavan su kaçağı | %33 | 📞 Fiyat Sorunuz | 60.000–120.000 km |
-| Elektronik handbrake motor | %21 | 📞 Fiyat Sorunuz | 80.000–150.000 km |
-
-::::cta
-**Detaylı teşhis ve ekonomik tamir**
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
-::::
-
-## Land Rover Hava Süspansiyon Arızaları
-
-Land Rover EAS (Electronic Air Suspension) sisteminde kompresör, körük, valf ve sensörler bulunur. Hava süspansiyon arızası markanın en yaygın ve masraflı kalemidir (%42–44).
-
-| Parça | Arıza Türü | Yaygınlık | Tamir Maliyeti |
-| --- | --- | ---: | ---: |
-| Kompresör | Aşınma, sürekli çalışma | %24 | 📞 Fiyat Sorunuz |
-| Körük (hava yastığı) | Delik, yırtık | %18 | 📞 Fiyat Sorunuz (adet) |
-| Valf bloğu | Sıkışma, hava kaçağı | %15 | 📞 Fiyat Sorunuz |
-| Yükseklik sensörü | Kalibrasyon, arıza | %12 | 📞 Fiyat Sorunuz (adet) |
-| Hava hattı | Çatlak, bağlantı kaçağı | %9 | 📞 Fiyat Sorunuz |
-
-::::note
-- Kompresör 100.000–150.000 km’de kontrol edilmeli
-- Körük 80.000–120.000 km’de yırtık/delik kontrolü yapılmalı
-- Valf bloğu temizliği 80.000 km’de önerilir
-- Yükseklik sensörü kalibrasyonu yılda 1 kez
-- Off‑road kullanım körük ömrünü %40 azaltır
-- Alternatif: çelik süspansiyon dönüşümü uygun maliyetler
-::::
-
-## Land Rover ZF Şanzıman Arızaları
-
-Land Rover’da ZF 8HP (8 ileri) ve ZF 9HP (9 ileri) şanzımanlar kullanılır. Valf‑body arızası en yaygın sorundur.
-
-| ZF Şanzıman Tipi | Kullanıldığı Modeller | Yaygın Arıza | Tahmini Tamir |
-| --- | --- | --- | ---: |
-| ZF 8HP (8 vites) | Range Rover, RR Sport, Discovery | Valf‑body, tork konvertör | 📞 Fiyat Sorunuz |
-| ZF 9HP (9 vites) | Evoque, Discovery Sport | Vites sarsıntı, mekatronik | 📞 Fiyat Sorunuz |
-
-## Land Rover Motor Arızaları
-
-| Motor Tipi | Kullanıldığı Modeller | Kronik Arıza | Tahmini Tamir |
-| --- | --- | --- | ---: |
-| 2.0 D Ingenium | Evoque, Discovery Sport | Turbo, timing zincir, DPF | 📞 Fiyat Sorunuz |
-| 3.0 TDV6 (Ford) | Range Rover, Discovery | Timing zincir, turbo, enjektör | 📞 Fiyat Sorunuz |
-| 3.0 SDV6 (Ford) | Range Rover Sport | Twin‑turbo, intercooler sızıntı | 📞 Fiyat Sorunuz |
-| 5.0 V8 (Jaguar) | Range Rover, RR Sport | Timing zincir, su pompası | 📞 Fiyat Sorunuz |
-
-## Sık Sorulan Sorular
-
-### Land Rover hava süspansiyon arızası belirtileri nelerdir?
-Hava süspansiyon arızası belirtileri: aracın çökmesi, sürüş yüksekliğinin ayarlanmaması, kompresörün sürekli çalışması, uyarı lambası ve bir köşenin çökmesi (körük deliği). Kompresör uygun maliyetler, körük uygun maliyetler (adet), valf bloğu uygun maliyetler. Alternatif çelik süspansiyon: uygun maliyetler.
-
-### ZF şanzıman yağı ne zaman değiştirilmeli?
-ZF 8HP/9HP şanzıman yağı 80.000 km’de değiştirilmelidir. “Ömür boyu yağ” iddiasına rağmen pratikte yağ eskir ve valf‑body arızası riski %34–36’ya çıkar. Yağ değişimi uygun maliyetler; değişmezse valf‑body tamiri uygun maliyetler.
-
-### Timing zincir arızası nasıl anlaşılır?
-Soğukta şarıltı sesi, devir dalgalanması, ikaz lambası ve güç düşüşü. 100.000 km sonrası risk %27–32. Tahmini maliyet: 2.0 D Ingenium uygun maliyetler, 3.0 TDV6 uygun maliyetler, 5.0 V8 uygun maliyetler.
-
-### Panoramik tavan su kaçağı nasıl çözülür?
-Evoque ve Discovery Sport’ta yaygındır (%33–34). Neden: drenaj tıkanması ve conta eskimesi. Çözüm: drenaj temizliği uygun maliyetler, conta değişimi uygun maliyetler, mekanizma uygun maliyetler.
-
-### InControl/Touch Pro ekran arızası nasıl çözülür?
-Donma, dokunmatik çalışmaması, piksel hatası görülebilir. Çözümler: yazılım güncellemesi uygun maliyetler, elektronik kart tamiri uygun maliyetler, ekran değişimi uygun maliyetler.
-
-### Turbo arızası maliyeti nedir?
-Belirtiler: güç kaybı, duman, ıslık sesi, ikaz lambası. Geometri temizliği uygun maliyetler, turbo yenileme uygun maliyetler, orijinal değişim uygun maliyetler. İntercooler sızıntısı ek uygun maliyetler.
-
-### Haldex 4x4 sistemi arızası nedir?
-Evoque ve Discovery Sport’ta elektronik kontrollü arka teker itiş sistemidir. Yaygın arızalar: pompa, kontrol modülü, yağ kaçağı. Maliyet: pompa uygun maliyetler, modül uygun maliyetler, yağ/conta uygun maliyetler. Yağ değişimi 60.000 km’de yapılmalı.
-
-### Periyodik bakım maliyeti nedir?
-15.000 km bakım: uygun maliyetler. Fren hidroliği (2 yıl): uygun maliyetler. Klima: uygun maliyetler. ZF yağ (80.000 km): uygun maliyetler. Yıllık ortalama uygun maliyetler.
-
-## Müşteri Yorumları
-
-- **Ahmet Kaya – 2016 Range Rover Sport:** "Hava süspansiyon kompresörü yetkili serviste uygun fiyat idi, burada uygun fiyat'ye çözüldü."
-- **Serkan Yıldız – Evoque:** "ZF sarsıntı sorunu uygun fiyat'ye düzeldi, araç harika çalışıyor."
-- **Murat Çelik – 2018 Discovery Sport:** "Timing zincir + turbo arızası detaylı teşhisle, yetkili servisten %60 daha ekonomik."
-- **Emre Özdemir – Range Rover 3.0 TDV6:** "Valf‑body + hava süspansiyon toplam uygun fiyat. İşçilik mükemmel."
-- **Burak Koç – 2017 Evoque:** "Panoramik tavan kaçağı ve park freni çözüldü, fiyat uygundu."
+Land Rover araçların en hassas noktası olan hava süspansiyon (EAS) ve ZF şanzıman sistemleri, Yıldızlar Grup'un uzmanlık alanıdır. En güncel teşhis cihazları ve orijinal parça desteği ile hizmet veriyoruz.
 
 ## Google Harita ve Yorumlar
-
 <div class="map-embed">
   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3010.3402005679377!2d28.631132100000002!3d41.0178125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14cabb185ddf5cbb%3A0x6a61d71a45b9906a!2sY%C4%B1ld%C4%B1zlar%20Grup%20Volkswagen%2C%20Audi%2C%20Porsche%2C%20Bmw%20%C3%96zel%20Servis!5e0!3m2!1str!2str!4v1759931064197!5m2!1str!2str" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
-<p>Gerçek yorumlar: <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
+
+[Google Haritalar gerçek yorumlar](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
 
 ## İletişim – Yıldızlar Grup Land Rover Servisi
+- **Adres:** Beykent Sanayi Sitesi Meriç Sk. No.: 179–180 Büyükçekmece / İstanbul
+- **Telefon:** [0533 262 34 51](tel:05332623451)
+- **WhatsApp:** [Hemen Yaz](https://api.whatsapp.com/send?phone=905332623451)
+- **Çalışma Saatleri:** Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı
 
-<p><strong>Adres:</strong> Beykent Sanayi Sitesi Meriç Sk. No.: 179–180 Büyükçekmece / İstanbul</p>
-<p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
-<p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
-<p><strong>Çalışma Saatleri:</strong> Hafta içi 09:00–18:00, Cumartesi 09:00–14:00</p>
+:::cta
 
+**Hizmet Bölgemiz Hakkında Kısa Not**
+
+Bu servis yalnızca <span class="regional">İstanbul Avrupa Yakası</span> içindir.
+Blog içeriği bilgilendirme amaçlıdır.
+
+*Avrupa Yakası dışı talepler için bu kanallar aktif değildir.*
+
+- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::

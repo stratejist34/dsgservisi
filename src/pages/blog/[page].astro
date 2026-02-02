@@ -1,0 +1,248 @@
+---
+import BaseLayout from "@layouts/BaseLayout.astro";
+import BlogCard from "@components/blog/BlogCard.astro";
+import PostGridPattern from "@components/blog/PostGridPattern.astro";
+import { getCollection } from "astro:content";
+import {
+    sortPostsByDate,
+    getCategoriesWithCounts,
+    getCategoryLogo,
+    getCategoryLink,
+    isPublishedPost,
+} from "@utils/content";
+
+export async function getStaticPaths({ paginate }) {
+    const entries = await getCollection("blog", ({ data }) =>
+        isPublishedPost(data),
+    );
+    const posts = sortPostsByDate(entries);
+    return paginate(posts, { pageSize: 16 });
+}
+
+const { page } = Astro.props;
+const posts = page.data;
+const title = `Blog - Sayfa ${page.currentPage} | DSG Servisi`;
+const description = `DSG şanzıman ve araç bakımı hakkında uzman görüşleri. Sayfa ${page.currentPage}.`;
+const image = "/images/workshop.jpg";
+
+// Tüm postları kategoriler için al
+const allEntries = await getCollection("blog", ({ data }) =>
+    isPublishedPost(data),
+);
+const allPosts = sortPostsByDate(allEntries);
+
+// Kategorileri al ve logo/link bilgileriyle eşleştir
+const categoriesWithCounts = getCategoriesWithCounts(allPosts);
+// Öncelikli kategori sırası: Markalar önce, sonra DSG
+const priorityOrder = [
+    "Audi",
+    "BMW",
+    "Mercedes",
+    "Land Rover",
+    "Porsche",
+    "Seat",
+    "Skoda",
+    "Volkswagen",
+    "DSG",
+];
+const categoryLogos = categoriesWithCounts
+    .filter((cat) => getCategoryLogo(cat.name)) // Logo olan kategorileri filtrele
+    .sort((a, b) => {
+        // Öncelikli sıraya göre sırala
+        const indexA = priorityOrder.indexOf(a.name);
+        const indexB = priorityOrder.indexOf(b.name);
+
+        // Eğer her ikisi de öncelikli listede değilse, sayıya göre sırala
+        if (indexA === -1 && indexB === -1) {
+            return b.count - a.count;
+        }
+        // Eğer sadece biri listede değilse, listede olan önce gelsin
+        if (indexA === -1) return 1;
+        if (indexB === -1) return -1;
+        // İkisi de listede ise, öncelik sırasına göre
+        return indexA - indexB;
+    })
+    .map((cat) => ({
+        name: cat.name,
+        logo: getCategoryLogo(cat.name)!,
+        link: getCategoryLink(cat.name),
+        count: cat.count,
+    }))
+    .slice(0, 9); // Max 9 kategori göster (8 marka + DSG)
+---
+
+<BaseLayout title={title} description={description} image={image}>
+    <!-- Hero Section - Cyberpunk Tech Style (Minimized for subpages) -->
+    <section
+        class="relative min-h-[25vh] flex items-center justify-center overflow-hidden bg-[#0f172a] pt-16 pb-6"
+    >
+        <div class="absolute inset-0 pointer-events-none overflow-hidden">
+            <div
+                class="absolute inset-0 opacity-[0.03]"
+                style="background-image: linear-gradient(#fff 1px, transparent 1px), linear-gradient(90deg, #fff 1px, transparent 1px); background-size: 50px 50px;"
+            >
+            </div>
+            <div
+                class="absolute top-[-20%] right-[-10%] w-[600px] h-[600px] bg-amber-500/10 rounded-full blur-[120px] opacity-30"
+            >
+            </div>
+        </div>
+
+        <div class="container relative z-10 text-center">
+            <h1
+                class="font-display font-bold text-4xl md:text-5xl text-white mb-2"
+            >
+                <span class="text-primary">BLOG</span> ARŞİVİ
+            </h1>
+            <p
+                class="text-slate-400 font-mono text-sm tracking-widest uppercase"
+            >
+                SAYFA {page.currentPage} / {page.lastPage}
+            </p>
+        </div>
+    </section>
+
+    <!-- Category Logos Section -->
+    {
+        categoryLogos.length > 0 && (
+            <section class="section bg-[#0f172a] border-b border-white/5 py-8">
+                <div class="container">
+                    <div class="flex flex-nowrap justify-center gap-6 mt-4 md:mt-6 max-w-6xl mx-auto overflow-x-auto px-4 pb-4">
+                        {categoryLogos.map((category, i) => {
+                            const dir = i < 5 ? "ltr" : "rtl";
+                            const distFromEdge = Math.min(i, 8 - i);
+                            const staggerIndex = Math.min(4, 4 - distFromEdge);
+                            return (
+                                <a
+                                    href={category.link}
+                                    class="group relative w-16 h-16 md:w-20 md:h-20 flex-shrink-0 block logo-anim"
+                                    aria-label={`${category.name} Kategorisi`}
+                                    data-reveal
+                                    data-dir={dir}
+                                    data-stagger-index={String(staggerIndex)}
+                                >
+                                    <div class="absolute inset-0 rounded-full bg-primary/20 blur-md opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                                    <div class="absolute inset-0 flex items-center justify-center rounded-full bg-[#1e293b] border border-white/10 group-hover:border-primary/50 transition-all duration-300 z-10 shadow-lg group-hover:shadow-primary/20">
+                                        <img
+                                            src={category.logo}
+                                            alt={`${category.name} Kategorisi`}
+                                            class="w-[32px] h-[32px] md:w-[40px] md:h-[40px] object-contain filter brightness-0 invert opacity-60 group-hover:opacity-100 group-hover:scale-110 transition-all duration-300"
+                                            loading="lazy"
+                                            width="52"
+                                            height="52"
+                                            decoding="async"
+                                        />
+                                    </div>
+                                </a>
+                            );
+                        })}
+                    </div>
+                </div>
+            </section>
+        )
+    }
+
+    <!-- Blog Grid -->
+    <section class="section relative bg-[#0f172a] pt-4 md:pt-6 overflow-hidden">
+        <div class="container relative z-10">
+            <PostGridPattern posts={posts} />
+
+            {/* Pagination */}
+            {
+                page.lastPage > 1 && (
+                    <nav
+                        class="mt-12 flex justify-center items-center gap-2"
+                        aria-label="Sayfalama"
+                    >
+                        {page.url.prev ? (
+                            <a
+                                href={
+                                    page.url.prev === "/blog/1"
+                                        ? "/blog"
+                                        : page.url.prev
+                                }
+                                class="px-4 py-2 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-white/10 transition-all"
+                            >
+                                &lsaquo;
+                            </a>
+                        ) : (
+                            <span class="px-4 py-2 rounded-lg bg-slate-800/20 text-slate-600 border border-white/5 cursor-not-allowed">
+                                &lsaquo;
+                            </span>
+                        )}
+
+                        {Array.from(
+                            { length: page.lastPage },
+                            (_, i) => i + 1,
+                        ).map((p) =>
+                            p === page.currentPage ? (
+                                <span
+                                    class="px-4 py-2 rounded-lg bg-primary text-white font-semibold"
+                                    aria-current="page"
+                                >
+                                    {p}
+                                </span>
+                            ) : (
+                                <a
+                                    href={p === 1 ? "/blog" : `/blog/${p}`}
+                                    class="px-4 py-2 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-white/10 transition-all"
+                                >
+                                    {p}
+                                </a>
+                            ),
+                        )}
+
+                        {page.url.next ? (
+                            <a
+                                href={page.url.next}
+                                class="px-4 py-2 rounded-lg bg-slate-800/80 hover:bg-slate-700 text-slate-300 hover:text-white border border-white/10 transition-all"
+                            >
+                                &rsaquo;
+                            </a>
+                        ) : (
+                            <span class="px-4 py-2 rounded-lg bg-slate-800/20 text-slate-600 border border-white/5 cursor-not-allowed">
+                                &rsaquo;
+                            </span>
+                        )}
+                    </nav>
+                )
+            }
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section
+        class="section relative bg-[#0f172a] overflow-hidden border-t border-white/5"
+    >
+        <div class="container relative z-10">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2
+                    class="text-3xl md:text-4xl font-display font-bold text-white mb-6"
+                >
+                    Aracınız İçin <span class="text-primary"
+                        >Profesyonel Hizmet</span
+                    >
+                </h2>
+                <p class="text-lg text-slate-400 mb-10">
+                    DSG şanzıman ve mekatronik uzmanlarımızla tanışın. Yetkili
+                    servis kalitesinde, özel servis avantajlarıyla hizmet
+                    veriyoruz.
+                </p>
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a
+                        href="/iletisim"
+                        class="bg-gradient-to-r from-primary to-amber-600 text-white px-8 py-4 rounded-xl font-semibold text-lg shadow-xl hover:shadow-primary/30 transition-all"
+                    >
+                        Hemen Ara
+                    </a>
+                    <a
+                        href="/hizmetlerimiz"
+                        class="bg-slate-800/50 text-white border border-white/20 hover:bg-slate-700 px-8 py-4 rounded-xl font-semibold text-lg transition-all"
+                    >
+                        Hizmetlerimiz
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</BaseLayout>

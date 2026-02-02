@@ -207,139 +207,104 @@
   /* 
      AGGRESSIVE REGIONAL CTA (Warning Theme)
   */
-  .glass-cta {
-    background: #020617 !important;
-    border: 2px solid #ef4444; /* Urgent Red */
-    padding: 4rem 2rem 3rem 2rem;
-    border-radius: 1.5rem;
-    text-align: center;
-    margin: 5rem 0;
-    box-shadow: 0 0 40px rgba(239, 68, 68, 0.15);
-    position: relative;
-    overflow: visible; /* To allow warning tag to pop out */
+  /* --- Regional CTA V3 (Yellow/Black Frame) --- */
+  /* --- Blog CTA V3 (Nihai Direktif: Soft but Strict) --- */
+  div#article-content.prose .glass-cta {
+    background: #0f172a !important;
+    /* Dark Lacivert */
+    border: 1px solid #d97706 !important;
+    /* Thin Amber Border */
+    padding: 2.5rem 2rem !important;
+    border-radius: 12px !important;
+    text-align: center !important;
+    margin: 4rem auto !important;
+    width: min(95%, 750px) !important;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4) !important;
+    position: relative !important;
+    color: #cbd5e1 !important;
+    /* Slate Text */
+    overflow: visible !important;
+    display: block !important;
   }
 
-  /* Warning Label at the top */
-  .glass-cta::before {
-    content: "⚠️ BÖLGESEL SERVİS UYARISI" !important;
-    position: absolute !important;
-    top: -18px !important;
-    left: 50% !important;
-    transform: translateX(-50%) !important;
-    background: #ef4444 !important;
-    color: white !important;
-    padding: 6px 24px !important;
-    border-radius: 20px !important;
-    font-size: 0.9rem !important;
-    font-weight: 900 !important;
-    letter-spacing: 1px !important;
-    white-space: nowrap !important;
-    box-shadow: 0 4px 15px rgba(239, 68, 68, 0.4) !important;
-    z-index: 20 !important;
-    font-family: 'Rajdhani', sans-serif !important;
-    filter: none !important; /* Override icon filter */
-    width: auto !important;
-    height: auto !important;
-    margin-right: 0 !important;
-  }
-
-  /* Pulsing border effect */
-  @keyframes cta-pulse {
-    0% { border-color: rgba(239, 68, 68, 1); box-shadow: 0 0 20px rgba(239, 68, 68, 0.2); }
-    50% { border-color: rgba(239, 68, 68, 0.4); box-shadow: 0 0 40px rgba(239, 68, 68, 0.4); }
-    100% { border-color: rgba(239, 68, 68, 1); box-shadow: 0 0 20px rgba(239, 68, 68, 0.2); }
-  }
-
-  .glass-cta {
-    animation: cta-pulse 3s infinite ease-in-out;
-  }
-
-  /* Markdown liste noktalarını temizle */
-  .glass-cta ul,
-  .glass-cta li {
-    list-style: none !important;
-    padding: 0 !important;
-    margin-left: 0 !important;
-    margin-right: 0 !important;
-  }
-
-  .glass-cta li::before {
+  /* Remove centered tag from header */
+  div#article-content.prose .glass-cta::before {
     display: none !important;
   }
 
-  .glass-cta strong {
-    font-size: 1.6rem !important;
-    color: #f8fafc !important;
-    display: block;
-    margin-bottom: 2rem;
-    font-family: 'Rajdhani', sans-serif !important;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-weight: 800;
-    line-height: 1.3;
+  /* Title: Hizmet Bölgemiz Hakkında Kısa Not */
+  div#article-content.prose .glass-cta strong:first-of-type {
+    font-size: 1.5rem !important;
+    color: #ffffff !important;
+    display: block !important;
+    margin-bottom: 1rem !important;
+    font-family: 'Oswald', sans-serif !important;
+    text-transform: none !important;
+    /* Sentence Case */
+    letter-spacing: 0 !important;
+    font-weight: 700 !important;
+    line-height: 1.3 !important;
   }
 
-  /* Highlight only certain keywords if needed, but here we want the whole title visible */
-  .glass-cta strong span.regional {
-    color: #ef4444 !important;
-    display: block;
-    font-size: 1.8rem;
-    margin-top: 0.5rem;
+  /* Special Highlight for "İstanbul Avrupa Yakası" */
+  div#article-content.prose .glass-cta .regional {
+    color: #fbbf24 !important;
+    /* Amber/Yellow Font */
+    background: transparent !important;
+    padding: 0 !important;
+    font-weight: 800 !important;
+    text-transform: none !important;
   }
 
-  /* PREMIUM BUTTON BASE - REFINED */
-  div#article-content.prose .glass-cta a.cta-btn {
+  /* Sub-text (small) */
+  div#article-content.prose .glass-cta em,
+  div#article-content.prose .glass-cta p:last-child {
+    font-size: 0.9rem !important;
+    color: #64748b !important;
+    margin-top: 1rem !important;
+    display: block !important;
+    font-style: normal !important;
+  }
+
+  /* Minimized Single Button */
+  div#article-content.prose .glass-cta ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 1.5rem auto 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  div#article-content.prose .glass-cta a {
     position: relative !important;
-    background: #ef4444 !important; /* Red for high visibility */
-    color: white !important;
-    padding: 1.1rem 2rem !important;
-    border-radius: 12px !important;
+    background: transparent !important;
+    color: #fbbf24 !important;
+    padding: 0.8rem 2rem !important;
+    border-radius: 6px !important;
     display: inline-flex !important;
     align-items: center !important;
     justify-content: center !important;
     font-family: 'Inter', sans-serif !important;
-    font-weight: 800 !important;
-    font-size: 1.2rem !important;
+    font-weight: 700 !important;
+    font-size: 1rem !important;
     text-decoration: none !important;
-    border: none !important;
-    transition: all 0.4s cubic-bezier(0.23, 1, 0.32, 1) !important;
-    box-shadow: 0 8px 25px rgba(239, 68, 68, 0.3) !important;
-    margin: 0.8rem !important;
-    min-width: 280px !important;
-    overflow: hidden !important;
-    cursor: pointer !important;
-    text-transform: uppercase !important;
-    letter-spacing: 0.5px !important;
+    border: 1px solid #d97706 !important;
+    transition: all 0.2s ease !important;
+    box-shadow: none !important;
+    margin: 0 !important;
+    min-width: 220px !important;
+    text-transform: none !important;
   }
 
-  /* Icons inside CTA buttons */
-  div#article-content.prose .glass-cta a.cta-btn::before {
-    content: "" !important;
-    display: inline-block !important;
-    width: 24px !important;
-    height: 24px !important;
-    margin-right: 14px !important;
-    background-size: contain !important;
-    background-repeat: no-repeat !important;
-    background-position: center !important;
-    filter: brightness(0) invert(1) !important; /* White icons */
-    transition: transform 0.3s ease !important;
+  div#article-content.prose .glass-cta a:hover {
+    background: #d97706 !important;
+    color: #000 !important;
+    transform: translateY(-2px) !important;
   }
 
-  /* Hover State */
-  div#article-content.prose .glass-cta a.cta-btn:hover {
-    background: #f87171 !important;
-    transform: translateY(-4px) scale(1.02) !important;
-    box-shadow: 0 15px 40px rgba(239, 68, 68, 0.5) !important;
-  }
-
-  /* Specific Icon Assignment */
-  div#article-content.prose .glass-cta a.cta-btn.cta-phone::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z'%3E%3C/path%3E%3C/svg%3E") !important;
-  }
-
-  div#article-content.prose .glass-cta a.cta-btn.cta-whatsapp::before {
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='none' stroke='white' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7.9 20A9 9 0 1 0 4 16.1L2 22Z'%3E%3C/path%3E%3C/svg%3E") !important;
+  /* Remove Icons if any */
+  div#article-content.prose .glass-cta a::before {
+    display: none !important;
   }
 }
 

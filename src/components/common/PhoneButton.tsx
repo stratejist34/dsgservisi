@@ -14,21 +14,51 @@ export default function PhoneButton({
   const [ripples, setRipples] = useState<Array<{ x: number; y: number; id: number }>>([]);
   const [mounted, setMounted] = useState(false);
   const [showTooltip, setShowTooltip] = useState(false);
+  const [isLocked, setIsLocked] = useState(false);
+  const [isHidden, setIsHidden] = useState(true);
 
   useEffect(() => {
     setMounted(true);
 
-    // 3 saniye sonra "Hemen Ara" balonunu göster (1 kereye mahsus)
+    const checkStatus = () => {
+      const status = localStorage.getItem('user-regional-status');
+      if (status === 'outside') {
+        setIsLocked(true);
+        setIsHidden(true);
+      } else if (status === 'inside') {
+        setIsLocked(false);
+        setIsHidden(false);
+      } else {
+        // Not selected yet, show after delay or on event
+        setIsHidden(false); // We show it initially but it will trigger modal
+      }
+    };
+
+    checkStatus();
+
+    // Listen for confirmation from other components
+    const handleConfirmation = () => checkStatus();
+    window.addEventListener('regional-confirmed', handleConfirmation);
+
+    // 3 saniye sonra balonu göster
     const tooltipTimer = setTimeout(() => {
-      setShowTooltip(true);
-      // 8 saniye sonra balonu kapat
-      setTimeout(() => setShowTooltip(false), 5000);
+      if (!isLocked && !localStorage.getItem('user-regional-status')) {
+        setShowTooltip(true);
+        setTimeout(() => setShowTooltip(false), 5000);
+      }
     }, 3000);
 
-    return () => clearTimeout(tooltipTimer);
-  }, []);
+    return () => {
+      window.removeEventListener('regional-confirmed', handleConfirmation);
+      clearTimeout(tooltipTimer);
+    };
+  }, [isLocked]);
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    if (isLocked) {
+      e.preventDefault();
+      return;
+    }
     const rect = e.currentTarget.getBoundingClientRect();
     const x = e.clientX - rect.left;
     const y = e.clientY - rect.top;
@@ -45,19 +75,19 @@ export default function PhoneButton({
   const phoneNumber = phone.replace(/\s/g, '');
   const phoneHref = `tel:${phoneNumber}`;
 
-  if (!mounted) return null;
+  if (!mounted || isHidden) return null;
 
   return (
     <div className="fixed bottom-6 left-6 z-[55] flex flex-col items-center">
       {/* Tooltip / Balon */}
       {showTooltip && (
         <div
-          className="absolute bottom-full mb-4 px-4 py-2 bg-amber-400 text-slate-950 text-sm font-bold rounded-xl shadow-[0_10px_25px_rgba(245,158,11,0.5)] whitespace-nowrap pointer-events-none"
-          style={{ animation: 'bounce-subtle 2s infinite ease-in-out' }}
+          className="absolute left-full ml-4 top-1/2 -translate-y-1/2 px-4 py-3 bg-amber-400 text-slate-950 text-sm font-bold rounded-xl shadow-[0_10px_25px_rgba(245,158,11,0.5)] whitespace-nowrap pointer-events-none z-[60]"
+          style={{ animation: 'bounce-x-subtle 2s infinite ease-in-out' }}
         >
           <div className="relative">
-            Avrupa Yakası için Ara
-            <div className="absolute top-[calc(100%-1px)] left-1/2 -translate-x-1/2 border-l-[6px] border-r-[6px] border-t-[8px] border-l-transparent border-r-transparent border-t-amber-400"></div>
+            Sadece İstanbul Avrupa Yakası
+            <div className="absolute right-[calc(100%+15px)] top-1/2 -translate-y-1/2 border-t-[6px] border-b-[6px] border-r-[8px] border-t-transparent border-b-transparent border-r-amber-400"></div>
           </div>
         </div>
       )}
@@ -79,12 +109,10 @@ export default function PhoneButton({
           hover:scale-110 active:scale-95
           ${className}
         `}
-        aria-label={`Avrupa Yakası için Ara: ${phone}`}
+        aria-label={`Sadece İstanbul Avrupa Yakası: ${phone}`}
         onMouseDown={() => { }}
       >
-        {/* Pulse Rings */}
-        <div className="absolute inset-0 rounded-full bg-amber-500 animate-ping opacity-25" />
-        <div className="absolute -inset-2 rounded-full border-2 border-amber-500/20 animate-pulse opacity-30" />
+        {/* Pulse Rings - REMOVED for calmer look */}
 
         {/* Phone Icon */}
         <svg
@@ -121,6 +149,10 @@ export default function PhoneButton({
         @keyframes bounce-subtle {
           0%, 100% { transform: translateY(0); }
           50% { transform: translateY(-5px); }
+        }
+        @keyframes bounce-x-subtle {
+          0%, 100% { transform: translateX(0) translateY(-50%); }
+          50% { transform: translateX(5px) translateY(-50%); }
         }
         .animate-bounce-subtle {
           animation: bounce-subtle 2s infinite ease-in-out;
