@@ -123,15 +123,25 @@ export default function TableOfContents({ contentId = 'article-content' }: Table
       }
     };
 
-    window.addEventListener('scroll', handleScroll);
-    window.addEventListener('resize', handleScroll);
-    
+    let rafId: number | null = null;
+    const throttledScroll = () => {
+      if (rafId) return;
+      rafId = requestAnimationFrame(() => {
+        handleScroll();
+        rafId = null;
+      });
+    };
+
+    window.addEventListener('scroll', throttledScroll, { passive: true });
+    window.addEventListener('resize', throttledScroll, { passive: true });
+
     // Initial check
     handleScroll();
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
-      window.removeEventListener('resize', handleScroll);
+      window.removeEventListener('scroll', throttledScroll);
+      window.removeEventListener('resize', throttledScroll);
+      if (rafId) cancelAnimationFrame(rafId);
     };
   }, [headings.length]); // headings değişince yeniden hesapla
 

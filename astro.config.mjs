@@ -79,16 +79,11 @@ export default defineConfig({
     ],
   },
   build: {
-    inlineStylesheets: 'always',
+    inlineStylesheets: 'auto',
     assets: '_assets',
   },
   compressHTML: true,
   trailingSlash: 'ignore', // GSC Case 3: Fix slash/non-slash 404 issues
-  server: {
-    headers: {
-      'Cache-Control': 'public, max-age=31536000, immutable',
-    },
-  },
   vite: {
     build: {
       cssCodeSplit: true,
@@ -124,26 +119,5 @@ export default defineConfig({
       noExternal: ['react-icons'],
     },
   },
-  redirects: {
-    // GSC Case 3: WordPress Legacy Redirects (404 Fix)
-    '/sepet': { status: 301, destination: '/blog' },
-    '/checkout': { status: 301, destination: '/blog' },
-    '/shop': { status: 301, destination: '/blog' },
-    '/odeme': { status: 301, destination: '/blog' },
-    '/contact': { status: 301, destination: '/iletisim' },
-    '/about': { status: 301, destination: '/' },
-    '/training': { status: 301, destination: '/blog' },
-    '/home-2': { status: 301, destination: '/' },
-
-    // GSC Case 3: Major Slug Mismatches & Current Site 404s
-    '/zf-sanziman-yag-degisimi': { status: 301, destination: '/zf-sanziman-yagi-degisimi' },
-    '/dsg-sanziman-yag-degisimi': { status: 301, destination: '/dsg-sanziman-yagi-degisimi' },
-    '/istanbul-avrupa-yakasi-volkswagen-servis': { status: 301, destination: '/volkswagen-servis-avrupa-yakasi' },
-    '/istanbul-avrupa-yakasi-bmw-servis': { status: 301, destination: '/bmw-servis-avrupa-yakasi' },
-    '/sanziman-revizyonu': { status: 301, destination: '/dsg-sanziman-tamiri' },
-    '/buyukcekmece-mercedes-servis': { status: 301, destination: '/mercedes-servis-avrupa-yakasi' },
-    '/buyukcekmece-bmw-servis': { status: 301, destination: '/bmw-servis-avrupa-yakasi' },
-    '/beylikduzu-volkswagen-servis': { status: 301, destination: '/volkswagen-servis-avrupa-yakasi' }
-  }
 });
 

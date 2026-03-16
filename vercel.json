@@ -1,15 +1,23 @@
 {
   "redirects": [
-    {
-      "source": "/blog/:slug((?!page|preview).*)",
-      "destination": "/:slug",
-      "permanent": true
-    },
-    {
-      "source": "/category/:slug(.*)",
-      "destination": "/blog",
-      "permanent": true
-    }
+    { "source": "/blog/:slug((?!page|preview).*)", "destination": "/:slug", "permanent": true },
+    { "source": "/category/:slug(.*)", "destination": "/blog", "permanent": true },
+    { "source": "/sepet", "destination": "/blog", "permanent": true },
+    { "source": "/checkout", "destination": "/blog", "permanent": true },
+    { "source": "/shop", "destination": "/blog", "permanent": true },
+    { "source": "/odeme", "destination": "/blog", "permanent": true },
+    { "source": "/contact", "destination": "/iletisim", "permanent": true },
+    { "source": "/about", "destination": "/", "permanent": true },
+    { "source": "/training", "destination": "/blog", "permanent": true },
+    { "source": "/home-2", "destination": "/", "permanent": true },
+    { "source": "/zf-sanziman-yag-degisimi", "destination": "/zf-sanziman-yagi-degisimi", "permanent": true },
+    { "source": "/dsg-sanziman-yag-degisimi", "destination": "/dsg-sanziman-yagi-degisimi", "permanent": true },
+    { "source": "/istanbul-avrupa-yakasi-volkswagen-servis", "destination": "/volkswagen-servis-avrupa-yakasi", "permanent": true },
+    { "source": "/istanbul-avrupa-yakasi-bmw-servis", "destination": "/bmw-servis-avrupa-yakasi", "permanent": true },
+    { "source": "/sanziman-revizyonu", "destination": "/dsg-sanziman-tamiri", "permanent": true },
+    { "source": "/buyukcekmece-mercedes-servis", "destination": "/mercedes-servis-avrupa-yakasi", "permanent": true },
+    { "source": "/buyukcekmece-bmw-servis", "destination": "/bmw-servis-avrupa-yakasi", "permanent": true },
+    { "source": "/beylikduzu-volkswagen-servis", "destination": "/volkswagen-servis-avrupa-yakasi", "permanent": true }
   ],
   "buildCommand": "astro build",
   "framework": "astro",
@@ -33,6 +41,24 @@
     "minimumCacheTTL": 31536000
   },
   "headers": [
+    {
+      "source": "/_assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/images/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400, stale-while-revalidate=604800"
+        }
+      ]
+    },
     {
       "source": "/(.*)",
       "headers": [
