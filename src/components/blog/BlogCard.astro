@@ -75,17 +75,12 @@ const config = sizeConfig[size] || sizeConfig['rect-regular'];
   {featuredImage ? (
     <picture>
       <source
-        type="image/avif"
-        srcset={`${featuredImage.replace('.jpg', '-400.avif')} 400w, ${featuredImage.replace('.jpg', '-650.avif')} 650w, ${featuredImage.replace('.jpg', '.avif')} 1280w`}
-        sizes="(max-width: 640px) 400px, (max-width: 1024px) 650px, 1280px"
-      />
-      <source
         type="image/webp"
-        srcset={`${featuredImage.replace('.jpg', '-400.webp')} 400w, ${featuredImage.replace('.jpg', '-650.webp')} 650w, ${featuredImage.replace('.jpg', '.webp')} 1280w`}
+        srcset={`${featuredImage.replace('.jpg', '-400.webp')} 400w, ${featuredImage.replace('.jpg', '-650.webp')} 650w, ${featuredImage.replace('.jpg', '-1280.webp')} 1280w`}
         sizes="(max-width: 640px) 400px, (max-width: 1024px) 650px, 1280px"
       />
       <img
-        src={featuredImage}
+        src={featuredImage.replace('.jpg', '-650.webp')}
         alt={post.data.imageAlt || postTitle}
         class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 ease-out group-hover:scale-115 group-hover:brightness-110"
         loading="lazy"

@@ -101,6 +101,7 @@ const formattedDate = publishDate.toLocaleDateString("tr-TR", {
 const html = Content.toString();
 const extractedService = extractPriceRangeFromHtml(html);
 const extractedFaqs = extractFaqsFromHtml(html);
+const heroImage = getBlogFeaturedImage(post);
 ---
 
 <BlogLayout
@@ -150,14 +151,22 @@ const extractedFaqs = extractFaqsFromHtml(html);
             {
               data.featuredImage && (
                 <div class="mb-10 rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-                  <img
-                    src={getBlogFeaturedImage(post)}
-                    alt={data.imageAlt || data.title}
-                    class="w-full h-auto object-cover"
-                    loading="eager"
-                    width="1200"
-                    height="675"
-                  />
+                  <picture>
+                    <source
+                      type="image/webp"
+                      srcset={`${heroImage.replace('.jpg', '-400.webp')} 400w, ${heroImage.replace('.jpg', '-650.webp')} 650w, ${heroImage.replace('.jpg', '-1280.webp')} 1280w`}
+                      sizes="(max-width: 640px) 600px, (max-width: 1024px) 800px, 1280px"
+                    />
+                    <img
+                      src={heroImage.replace('.jpg', '-1280.webp')}
+                      alt={data.imageAlt || data.title}
+                      class="w-full h-auto object-cover"
+                      loading="eager"
+                      width="1200"
+                      height="675"
+                      decoding="async"
+                    />
+                  </picture>
                 </div>
               )
             }

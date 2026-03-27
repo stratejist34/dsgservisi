@@ -71,39 +71,30 @@ async function getAllImageFiles(dir) {
   return files;
 }
 
-async function convertToWebPAndAVIF(inputPath) {
+async function convertToWebP(inputPath) {
+  // Blog görselleri için ana .webp üretilmez — sadece boyutlu versiyonlar kullanılıyor
+  if (inputPath.includes('blog')) return { ok: 0, fail: 0 };
+
   const ext = path.extname(inputPath).toLowerCase();
   const base = inputPath.slice(0, -ext.length);
   const outWebp = `${base}.webp`;
-  const outAvif = `${base}.avif`;
-  
+
   let ok = 0; let fail = 0;
-  
+
   try {
-    // WebP - Blog ve hero resimleri için daha agresif sıkıştırma
-    const isBlogImage = inputPath.includes('blog');
     const isHeroImage = inputPath.includes('hero-bg');
-    const webpQuality = isBlogImage ? 65 : (isHeroImage ? 68 : 72);
-    const avifQuality = isBlogImage ? 50 : (isHeroImage ? 52 : 55);
-    
+    const webpQuality = isHeroImage ? 68 : 72;
+
     if (!(await fileExists(outWebp))) {
       await sharp(inputPath)
         .webp({ quality: webpQuality, effort: 6 })
         .toFile(outWebp);
       ok++;
     }
-    
-    // AVIF
-    if (!(await fileExists(outAvif))) {
-      await sharp(inputPath)
-        .avif({ quality: avifQuality, effort: 9 })
-        .toFile(outAvif);
-      ok++;
-    }
-    
+
     return { ok, fail };
   } catch (e) {
-    return { ok, fail: 2, error: e.message };
+    return { ok, fail: 1, error: e.message };
   }
 }
 
@@ -111,29 +102,12 @@ async function generateResponsiveImages(inputPath, sizes) {
   let ok = 0; let fail = 0;
   const ext = path.extname(inputPath).toLowerCase();
   const base = inputPath.slice(0, -ext.length);
-  
+
   const isBlogImage = inputPath.includes('blog');
   const isHeroImage = inputPath.includes('hero-bg');
   const webpQuality = isBlogImage ? 65 : (isHeroImage ? 68 : 72);
-  const avifQuality = isBlogImage ? 50 : (isHeroImage ? 52 : 55);
-  
+
   for (const w of sizes) {
-    // AVIF
-    const outAvif = `${base}-${w}.avif`;
-    if (!(await fileExists(outAvif))) {
-      try {
-        await sharp(inputPath)
-          .resize(w, null, { withoutEnlargement: true })
-          .avif({ quality: avifQuality, effort: 9 })
-          .toFile(outAvif);
-        ok++;
-      } catch (e) {
-        fail++; 
-        console.warn(`❌ AVIF resize fail (${w}px):`, path.basename(inputPath), e.message);
-      }
-    }
-    
-    // WebP
     const outWebp = `${base}-${w}.webp`;
     if (!(await fileExists(outWebp))) {
       try {
@@ -143,12 +117,12 @@ async function generateResponsiveImages(inputPath, sizes) {
           .toFile(outWebp);
         ok++;
       } catch (e) {
-        fail++; 
+        fail++;
         console.warn(`❌ WebP resize fail (${w}px):`, path.basename(inputPath), e.message);
       }
     }
   }
-  
+
   return { ok, fail };
 }
 
@@ -184,10 +158,10 @@ async function main() {
       const metadata = await sharp(imagePath).metadata();
       const width = metadata.width || 0;
       
-      // Blog images ALWAYS get [400, 650] - check pattern first
+      // Blog images ALWAYS get [400, 650, 1280] - check pattern first
       if (mediumImagePatterns.some(p => p.test(relativePath))) {
         needsResponsive = true;
-        responsiveSizes = [400, 650];
+        responsiveSizes = [400, 650, 1280];
       }
       // Large images (hero, workshop) get full responsive set
       else if (largeImagePatterns.some(p => p.test(relativePath)) || width > 1000) {
@@ -206,7 +180,7 @@ async function main() {
     
     // Convert to WebP and AVIF
     console.log(`🔄 Processing: ${relativePath}`);
-    const convertResult = await convertToWebPAndAVIF(imagePath);
+    const convertResult = await convertToWebP(imagePath);
     totalOk += convertResult.ok;
     totalFail += convertResult.fail;
     

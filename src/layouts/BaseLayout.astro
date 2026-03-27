@@ -16,7 +16,7 @@ interface Props {
 const {
   title,
   description,
-  image = "/images/og-image.jpg",
+  image = "/images/og-image.webp",
   noindex = false,
 } = Astro.props;
 
@@ -41,7 +41,6 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
     <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
 
     <link rel="icon" type="image/webp" href="/images/icon.webp" />
-    <link rel="icon" type="image/avif" href="/images/icon.avif" />
     <link rel="icon" type="image/png" href="/images/icon.png" />
     <link rel="canonical" href={canonicalURL} />
 

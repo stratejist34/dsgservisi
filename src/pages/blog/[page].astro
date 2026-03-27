@@ -23,7 +23,7 @@ const { page } = Astro.props;
 const posts = page.data;
 const title = `Blog - Sayfa ${page.currentPage} | DSG Servisi`;
 const description = `DSG şanzıman ve araç bakımı hakkında uzman görüşleri. Sayfa ${page.currentPage}.`;
-const image = "/images/workshop.jpg";
+const image = "/images/workshop.webp";
 
 // Tüm postları kategoriler için al
 const allEntries = await getCollection("blog", ({ data }) =>
