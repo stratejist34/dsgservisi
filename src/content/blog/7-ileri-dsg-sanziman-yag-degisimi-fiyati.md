@@ -23,9 +23,15 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+7 İleri DSG şanzımanlarda yağ değişimi, aracın DQ200 (Kuru Kavrama) veya DQ380/DQ381 (Islak Kavrama) tipinde olmasına göre değişiklik gösterir. Kuru kavramalarda (Golf, Polo, A3) mekatronik ve dişli kutusu yağı ayrı olup yaklaşık 1.7 litre kullanılırken; ıslak kavramalarda (Passat, Superb) 6-7 litreye kadar özel DSG yağı (G052182) gerekir. Ortalama her 60.000 km'de bir gerçekleştirilmesi gereken DSG yağ değişimi işlemi yaklaşık 1-2 saat sürer ve mekatronik arızalarının %70 oranında önüne geçer.
+
+</div>
+
 7 ileri DSG şanzıman yağ değişimi fiyatı, **DQ200 (kuru kavrama), DQ380 ve DQ381 (ıslak kavrama) şanzıman tiplerine göre değişir**. 7 ileri DSG şanzımanlar, Golf, Passat, A3, A4, Octavia ve Superb gibi modellerde yaygın olarak kullanılır. Şanzıman yağı, şanzımanın ömrünü ve performansını doğrudan etkiler.
 
-2025 yılı için *7 ileri DSG şanzıman yağ değişimi fiyatları*, şanzıman tipine ve işlem kapsamına göre değişir. DQ200 yağ değişimi uygun maliyetler, DQ380/DQ381 yağ değişimi uygun maliyetler aralığındadır. Yıldızlar Grup DSG Servisi olarak; **orijinal yağ**, **şeffaf fiyatlandırma** ve **uzman ekip** ile 7 ileri DSG şanzıman yağ değişimi hizmeti sunuyoruz.
+2026 yılı için *7 ileri DSG şanzıman yağ değişimi fiyatları*, şanzıman tipine ve işlem kapsamına göre değişmektedir. Yıldızlar Grup DSG Servisi olarak; **orijinal yağ (G052182 spesifikasyonu)**, **şeffaf fiyatlandırma** ve bilgisayarlı adaptasyon eşliğinde uzman hizmet sunuyoruz.
 
 :::tip
 
@@ -58,12 +64,16 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ## 7 İleri DSG Şanzıman Yağ Değişimi Hizmetleri
 
-| İşlem | Parça Fiyatı | İşçilik | Toplam Fiyat | Garanti | Süre |
-| --- | ---: | ---: | ---: | --- | --- |
-| DQ200 yağ değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik garantisi | 1-2 saat |
-| DQ380/DQ381 yağ değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik garantisi | 1-2 saat |
-| Filtre değişimi (ek) | 300–600₺ | – | 300–600₺ | Parça garantisi | – |
-| Adaptasyon (ek) | – | 500–uygun fiyat | 500–uygun fiyat | İşçilik garantisi | – |
+<div class="data-table-wrapper">
+
+| İşlem | Parça Seçeneği | İşçilik Durumu | Toplam Fiyat / Bilgi | Garanti | Süre |
+| --- | :--- | :--- | :--- | --- | --- |
+| **DQ200 Yağ Değişimi** | Orijinal OEM | Profesyonel Dolum | 📞 Fiyat Sorunuz | İşçilik Garantisi | 1-2 saat |
+| **DQ380/DQ381 Yağ Değişimi** | Orijinal Özel DSG Yağı | Sistem Basınç Testli | 📞 Fiyat Sorunuz | İşçilik Garantisi | 1-2 saat |
+| **Filtre Değişimi (Ekstra)** | Orijinal Filtre | Uzman Müdahale | Servise Danışın | Parça Garantisi | - |
+| **Mekatronik Adaptasyonu** | Yazılımsal Kalibrasyon | Bilgisayarlı Temel Ayar | Servise Danışın | Sistem Garantisi | +30 DK |
+
+</div>
 
 :::note
 
@@ -262,8 +272,22 @@ Araç garantisi devam ediyorsa kapsamda olabilir. Garanti bitmişse özel servis
 
 Mutlaka orijinal DSG yağı (G 052 182) kullanılmalıdır. Yanlış yağ kullanımı şanzıman arızasına neden olabilir.
 
+## Örnek Vaka (Case Study): 2018 Model Passat B8 DQ381 Yağ Değişimi
 
+**Durum:** 75.000 km'deki Passat B8 (Islak Kavrama) aracın sahibi, vites geçişlerinde hissettiği kararsızlık (boşa düşme hissi) şikayetiyle servisimize başvurdu ve daha önce hiç yağ değişimi yapılmadığını belirtti.
 
-**7 ileri DSG şanzıman yağ değişimi için:** Hemen [randevu alın](tel:05332623451) veya [WhatsApp](https://wa.me/905332623451) üzerinden bize ulaşın. Uzman ekibimiz hizmetiniz için hazır!
+**Teşhis:** Diagnostik testlerde elektronik bir hata koduna rastlanmadı, ancak şanzıman yağı incelendiğinde yoğun partikül (çapaklanma) ve viskozite kaybı gözlemlendi. Islak kavramalarda önerilen 60.000 km geçildiğinde bu durum debriyajın tutunmasını doğrudan etkilemektedir.
 
+**Uygulama:** Orijinal OEM DSG yağı (6 litre) ve iç basınç filtresi değişimi gerçekleştirildi. Ardından bilgisayarlı sistemle **Mekatronik Temel Ayar (Adaptasyon)** prosedürü uygulanıp test sürüşü yapıldı.
 
+**Sonuç:** Sadece 2 saat süren işlem sonrasında aracın vites geçişleri fabrikasyon doğruluk değerlerine döndü, kararsızlık (kararsız kavrama hissi) tamamen ortadan kalktı. Zamanında yapılan bu bakım ile potansiyel bir **yüksek maliyetli kavrama veya mekatronik hasarının** net biçimde önüne geçilmiş oldu.
+
+:::cta
+
+**7 ileri DSG şanzıman yağ değişimi ve ücretsiz ön kontrol için randevu alın:**
+
+- [📞 Bizi Arayın: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp Randevu Hattı](https://wa.me/905332623451)
+- [📍 Servisimize Yol Tarifi Alın](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::

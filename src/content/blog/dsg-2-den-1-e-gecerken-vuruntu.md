@@ -23,6 +23,12 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+DSG şanzımanlarda aracın yavaşlarken veya yokuş aşağı inerken 2. vitesten 1. vitese geçerken hissettirdiği "vuruntu" (sarsıntı, metalik çarpma veya öne yığılma hissi), genellikle mekatronik beynin birinci kavramayı (K1) kontrol eden solenoid valfindeki basınç kaybından veya kavrama balatalarındaki dengesiz aşınmadan kaynaklanır. Sadece 2'den 1'e geçişte vuruntu varsa, kavrama adaptasyonu (yazılımsal kalibrasyon) ile sorun çok yüksek oranda çözülebilir. Ancak durum ihmal edilirse komple mekatronik revizyonuna veya çift kavrama değişimine kadar gidebilir.
+
+</div>
+
 DSG 2 den 1 e geçerken vuruntu sorunu, **DSG şanzımanlarda vites düşürme sırasında (2→1 geçişi) görülen vuruntu ve sarsıntı problemidir**. Bu sorun, çift numaralı viteslerden (2, 4, 6) tek numaralı viteslere (1, 3, 5, 7) geçişte mekatronik modül veya kavrama kontrolünde bir sorun olduğunu gösterir. Vuruntu, kavrama geçiş zamanlaması bozulduğunda veya kavrama aşınması nedeniyle oluşur.
 
 DSG 2 den 1 e geçerken vuruntu sorunu, genellikle birinci kavrama kontrol solenoid valfi arızası, kavrama aşınması veya mekatronik adaptasyon kaybından kaynaklanır. Bu durum, sürüş konforunu etkiler ve zamanla daha ciddi arızalara yol açabilir. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile DSG 2 den 1 e geçerken vuruntu sorununu çözüyoruz.
@@ -112,55 +118,19 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 ## DSG 2 Den 1 E Geçerken Vuruntu Çözümleri
 
-### 1. Adaptasyon Sıfırlama ve Kalibrasyon
+## 2'den 1'e Geçiş Vuruntusu: Çözüm Yolları ve Maliyet Analizi
 
-**Belirtiler:** Hafif vuruntu, adaptasyon kaybı
+<div class="data-table-wrapper">
 
-**Çözüm:** Mekatronik adaptasyon sıfırlama ve kalibrasyon
+| Arıza Türü / Belirti | Çözüm Yöntemi | Tahmini Onarım Süresi | Ortalama Maliyet Durumu |
+| :--- | :--- | :--- | :--- |
+| **Hafif Vuruntu (Zamanlama Hatası)** | Bilgisayarlı Mekatronik Adaptasyonu | 1 - 2 Saat | Çok Ekonomik |
+| **Kalkışta Titreme / Hafif Gecikme** | Şanzıman Yağı ve Filtre Yenilemesi | 2 - 3 Saat | Ekonomik |
+| **Şiddetli Vuruntu (Sadece 2->1)** | K1 Kavrama Solenoid Valf Değişimi | 1 - 2 İş Günü | Orta Düzey |
+| **Genel Titreme ve Vuruntu** | LUK/Sachs Çift Kavrama Seti Değişimi | 1 - 2 İş Günü | Yüksek |
+| **Yaygın Vites Geçiş Sorunları** | Komple Mekatronik Revizyonu | 2 - 3 İş Günü | Yüksek |
 
-**Maliyet:** uygun maliyetler
-
-**Süre:** 1-2 saat
-
-### 2. Yağ Değişimi ve Filtre Değişimi
-
-**Belirtiler:** Hafif vuruntu, vites geçişlerinde hafif gecikme
-
-**Çözüm:** DSG yağı ve filtre değişimi + adaptasyon
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 saat
-
-### 3. Birinci Kavrama Kontrol Solenoid Valf Değişimi
-
-**Belirtiler:** Şiddetli vuruntu, 2→1 geçişinde sorun
-
-**Çözüm:** Birinci kavrama kontrol solenoid valfi değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 1-2 gün
-
-### 4. Birinci Kavrama Değişimi
-
-**Belirtiler:** Şiddetli vuruntu, kavrama aşınması
-
-**Çözüm:** Birinci kavrama seti değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
-
-### 5. Mekatronik Revizyonu
-
-**Belirtiler:** Birden fazla arıza belirtisi, yaygın performans kaybı
-
-**Çözüm:** Komple mekatronik revizyonu (birinci kavrama kontrolü dahil)
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
+</div>
 
 ## DSG 2 Den 1 E Geçerken Vuruntu Teşhis Süreci
 
@@ -226,14 +196,24 @@ Sorun birinci kavrama kontrolü ile sınırlıdır. Diğer vites geçişleri nor
 
 Evet, düzenli yağ değişimi (60.000–80.000 km), düzenli bakım ve erken teşhis ile sorunlar önlenebilir.
 
-## Sonuç
+## Örnek Vaka (Case Study): 2017 Seat Leon DSG Yavaşlarken Vuruntu Şikayeti
 
-DSG 2 den 1 e geçerken vuruntu sorunu, birinci kavrama kontrol solenoid valfi arızası veya kavrama aşınması olduğunu gösterir. Erken teşhis ve müdahale, tamir maliyetini önemli ölçüde azaltır. Yıldızlar Grup DSG Servisi olarak; doğru teşhis, şeffaf fiyatlandırma ve ekonomik çözümler ile DSG 2 den 1 e geçerken vuruntu sorununu çözüyoruz.
+**Durum:** Müşterimiz aracını özellikle trafik ışıklarına yaklaşırken yavaşlattığında ve araç 2. vitesten 1. vitese düşerken arkadan biri çarpmış gibi şiddetli bir sarsıntı (vuruntu) yaşadığını belirterek servisimize geldi. Diğer hiçbir viteste (örneğin 3'ten 2'ye geçerken) sorun bulunmuyordu.
 
-**DSG 2 den 1 e geçerken vuruntu sorunu için hemen iletişime geçin:**
+**Teşhis:** Yapılan test sürüşünde vuruntu doğrulandı. Bilgisayarlı analizde K1 kavrama basınç adaptasyon toleranslarının sınırların dışına çıktığı görüldü. Araçta mekatronik veya şanzıman arıza lambası yanmıyordu. Kavrama diski kalınlığı yeterli seviyedeydi.
 
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+**Uygulama:** Kapsamlı bir tamir yerine; DSG temel ayar programı (Adaptasyon ve Yüksek Kalibrasyon) çalıştırıldı ve şanzıman yağı tamamen yenilenerek valflerin temiz çalışması sağlandı.
+
+**Sonuç:** Sadece 2 saat süren bu işlemin ardından, valf basınçları ve kavrama temas noktaları tekrar senkronize oldu, yavaşlarken meydana gelen vuruntu tamamen yok olarak orijinal fabrikasyon konforuna dönüldü. Müşterimiz çok yüksek çift kavrama değişim maliyetlerinden sadece "yazılımsal bir adaptasyon + sıvı bakımı" ile kurtulmuş oldu.
+
+:::cta
+
+**Vites geçişlerinde vuruntu yaşıyorsanız sorunu büyütmeden uzman incelemesi alın:**
+
+- [📞 Bizi Arayın: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp Hızlı İletişim](https://wa.me/905332623451)
+- [📍 Servisimize Yol Tarifi Alın](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::
 
 

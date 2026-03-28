@@ -51,6 +51,26 @@ const categoryLogo = getCategoryLogo(actualCategory);
 const title = seo.title;
 const description = seo.description;
 const image = categoryLogo || '/images/workshop.webp';
+
+// Hızlı Erişim (Quick Access) Categorization
+const regionPosts = [];
+const pricePosts = [];
+const techPosts = [];
+
+categoryPosts.forEach(post => {
+  const checkStr = (post.slug + " " + post.data.title).toLowerCase();
+  
+  // Eğer başlık/slug içinde "servis" ama araba parçası değilse bölge olabilir
+  // Bizim yapıda 'servis' (Volkswagen Özel Servis vs), veya 'avrupa-yakasi' 
+  if (checkStr.includes('avrupa-yaka') || post.slug.endsWith('-servis') || post.slug.endsWith('-ozel-servis') || checkStr.includes('bolge')) {
+    regionPosts.push(post);
+  } else if (checkStr.includes('fiyat') || checkStr.includes('bakim') || checkStr.includes('ucret')) {
+    pricePosts.push(post);
+  } else {
+    techPosts.push(post);
+  }
+});
+
 ---
 
 <BaseLayout title={title} description={description} image={image}>
@@ -73,14 +93,14 @@ const image = categoryLogo || '/images/workshop.webp';
         {/* Tech Badge */}
         <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 backdrop-blur-md mb-6" data-reveal>
           <span class="flex h-2 w-2 rounded-full bg-primary animate-pulse"></span>
-          <span class="text-primary text-xs font-bold tracking-widest uppercase font-mono">CATEGORY</span>
+          <span class="text-primary text-xs font-bold tracking-widest uppercase font-mono">KATEGORİ</span>
           <span class="text-slate-400 text-xs uppercase tracking-widest border-l border-white/10 pl-2 ml-2">{categoryPosts.length} YAZI</span>
         </div>
 
         {/* Logo + Başlık */}
         <div class="flex items-center justify-center gap-4 mb-6" data-reveal>
           {categoryLogo && (
-            <div class="relative">
+            <div class="relative hidden sm:block">
               <div class="absolute inset-0 bg-primary/20 blur-xl rounded-full"></div>
               <img 
                 src={categoryLogo} 
@@ -89,20 +109,81 @@ const image = categoryLogo || '/images/workshop.webp';
               />
             </div>
           )}
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white">
-            {actualCategory} <span class="text-primary">Yazıları</span>
+          <h1 class="text-4xl md:text-5xl lg:text-6xl font-display font-bold text-white uppercase tracking-tight">
+            {actualCategory}
           </h1>
         </div>
         
-        <p class="text-base md:text-lg text-slate-400 leading-relaxed max-w-3xl mx-auto" data-reveal>
+        <p class="text-base md:text-lg text-slate-400 leading-relaxed max-w-3xl mx-auto mb-2" data-reveal>
           {description}
         </p>
       </div>
     </div>
-    
-    {/* Bottom Tech Line */}
-    <div class="absolute bottom-0 left-0 right-0 h-px bg-gradient-to-r from-transparent via-white/10 to-transparent"></div>
   </section>
+
+  <!-- HIZLI ERİŞİM (QUICK LINKS) YENİ TASARIM -->
+  {categoryPosts.length > 0 && (
+    <section class="bg-[#0b1121] py-12 border-y border-white/5 relative z-20">
+      <div class="container">
+        <h2 class="text-xs font-bold tracking-[0.2em] text-slate-500 uppercase mb-8 ml-4 select-none">HIZLI ERİŞİM</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
+          
+          {/* Servis Bölgeleri */}
+          <div class="flex flex-col">
+            <h3 class="text-primary text-sm font-bold tracking-widest uppercase mb-6 flex items-center gap-2">
+              SERVİS BÖLGELERİ
+            </h3>
+            <ul class="space-y-4">
+              {regionPosts.length > 0 ? regionPosts.slice(0,6).map(p => (
+                <li>
+                  <a href={`/${p.slug}`} class="group flex items-start text-sm text-slate-300 hover:text-white transition-colors">
+                    <span class="text-primary mr-2 opacity-0 group-hover:opacity-100 transition-opacity transform -translate-x-2 group-hover:translate-x-0 relative top-[2px]">→</span>
+                    <span class="-ml-4 group-hover:ml-0 transition-all duration-300">{p.data.title}</span>
+                  </a>
+                </li>
+              )) : <li class="text-slate-500 italic text-sm">Bölge içerikleri henüz eklenmedi.</li>}
+            </ul>
+          </div>
+
+          {/* Bakım ve Fiyat */}
+          <div class="flex flex-col">
+            <h3 class="text-primary text-sm font-bold tracking-widest uppercase mb-6 flex items-center gap-2">
+              BAKIM VE FİYAT
+            </h3>
+            <ul class="space-y-4">
+              {pricePosts.length > 0 ? pricePosts.slice(0,6).map(p => (
+                <li>
+                  <a href={`/${p.slug}`} class="group flex items-start text-sm text-slate-300 hover:text-white transition-colors">
+                    <span class="text-primary mr-2 opacity-0 group-hover:opacity-100 transition-opacity transform -translate-x-2 group-hover:translate-x-0 relative top-[2px]">→</span>
+                    <span class="-ml-4 group-hover:ml-0 transition-all duration-300">{p.data.title}</span>
+                  </a>
+                </li>
+              )) : <li class="text-slate-500 italic text-sm">Fiyat içerikleri henüz eklenmedi.</li>}
+            </ul>
+          </div>
+
+          {/* Teknik Rehberler */}
+          <div class="flex flex-col">
+            <h3 class="text-primary text-sm font-bold tracking-widest uppercase mb-6 flex items-center gap-2">
+              TEKNİK REHBERLER
+            </h3>
+            <ul class="space-y-4">
+              {techPosts.length > 0 ? techPosts.slice(0,6).map(p => (
+                <li>
+                  <a href={`/${p.slug}`} class="group flex items-start text-sm text-slate-300 hover:text-white transition-colors">
+                    <span class="text-primary mr-2 opacity-0 group-hover:opacity-100 transition-opacity transform -translate-x-2 group-hover:translate-x-0 relative top-[2px]">→</span>
+                    <span class="-ml-4 group-hover:ml-0 transition-all duration-300">{p.data.title}</span>
+                  </a>
+                </li>
+              )) : <li class="text-slate-500 italic text-sm">Teknik rehberler henüz eklenmedi.</li>}
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )}
 
   <!-- Blog Grid -->
   <section class="section relative bg-[#0f172a] overflow-hidden">

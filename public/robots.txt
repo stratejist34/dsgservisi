@@ -1,13 +1,31 @@
 User-agent: *
 Allow: /
 
+# Explicitly Allow AI Bots & Answer Engines (LLM Grounding)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Omgilibot
+Allow: /
+
 # İnternal cache ve data klasörleri
 Disallow: /wp-cache/
-
-# API endpoint'leri varsa (gelecekte)
 Disallow: /api/
-
-# Preview sayfası - Google tarafından indexlenmemeli
 Disallow: /blog/preview
 
 Sitemap: https://dsgservisi.com/sitemap-index.xml

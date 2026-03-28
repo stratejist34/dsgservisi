@@ -278,33 +278,48 @@
     font-style: normal !important;
   }
 
-  /* Minimized Single Button */
+  /* CTA Buttons Equal Height & Alignment */
   div#article-content.prose .glass-cta ul {
     list-style: none !important;
     padding: 0 !important;
-    margin: 1.5rem auto 0 !important;
+    margin: 2rem auto 0 !important;
     display: flex !important;
     justify-content: center !important;
+    align-items: stretch !important;
+    gap: 1rem !important;
+    flex-wrap: wrap !important;
+  }
+
+  div#article-content.prose .glass-cta li {
+    display: flex !important;
+    flex: 1 1 0 !important;
+    min-width: 200px !important;
+    margin: 0 !important;
+    padding: 0 !important;
   }
 
   div#article-content.prose .glass-cta a {
     position: relative !important;
     background: transparent !important;
     color: #fbbf24 !important;
-    padding: 0.8rem 2rem !important;
+    padding: 1rem 1.25rem !important;
     border-radius: 6px !important;
-    display: inline-flex !important;
+    display: flex !important;
+    flex-direction: column !important;
     align-items: center !important;
     justify-content: center !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
+    width: 100% !important;
+    height: 100% !important;
     font-family: 'Inter', sans-serif !important;
     font-weight: 700 !important;
-    font-size: 1rem !important;
+    font-size: 0.95rem !important;
     text-decoration: none !important;
-    border: 1px solid #d97706 !important;
+    border: 1px solid rgba(217, 119, 6, 0.6) !important;
     transition: all 0.2s ease !important;
     box-shadow: none !important;
     margin: 0 !important;
-    min-width: 220px !important;
     text-transform: none !important;
   }
 
@@ -317,6 +332,47 @@
   /* Remove Icons if any */
   div#article-content.prose .glass-cta a::before {
     display: none !important;
+  }
+
+  /* --- TL;DR AI SUMMARY BOX --- */
+  div#article-content.prose .tldr-box {
+    background: linear-gradient(145deg, rgba(30, 41, 59, 0.7), rgba(15, 23, 42, 0.9)) !important;
+    border: 1px solid rgba(251, 191, 36, 0.3) !important;
+    border-left: 4px solid #fbbf24 !important;
+    padding: 1.5rem 2rem !important;
+    border-radius: 8px 12px 12px 8px !important;
+    margin: 2.5rem 0 3.5rem 0 !important;
+    box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.3) !important;
+    position: relative !important;
+  }
+
+  div#article-content.prose .tldr-box::before {
+    content: "✨ Hızlı Özet";
+    display: block !important;
+    color: #fbbf24 !important;
+    font-family: 'Oswald', sans-serif !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    letter-spacing: 0.05em !important;
+    margin-bottom: 1rem !important;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1) !important;
+    padding-bottom: 0.5rem !important;
+  }
+
+  div#article-content.prose .tldr-box ul {
+    margin-bottom: 0 !important;
+    margin-top: 0 !important;
+  }
+
+  div#article-content.prose .tldr-box li {
+    font-size: 1.05rem !important;
+    color: #f1f5f9 !important;
+    margin-bottom: 0.75rem !important;
+    line-height: 1.6 !important;
+  }
+
+  div#article-content.prose .tldr-box li:last-child {
+    margin-bottom: 0 !important;
   }
 }
 

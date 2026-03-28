@@ -21,6 +21,12 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+DSG şanzımanlarda kalkışta "gırç-gırç" sesi, yokuşta titreme veya vites geçişlerindeki pürüzler genellikle çift kavrama balatalarının ömrünü tamamladığını gösterir. DQ200 kuru kavramalarda ortalama 60-80 bin KM'de, DQ250/DQ381 ıslak kavramalarda ise 120-150 bin KM'de karşılaşılan bu durum, aracın performansını düşürür ve yakıt tüketimini artırır. Değişim esnasında orijinal LUK / SACHS marka kitlerin kullanılması, mekatronik çatal milimetrik şim ayarı ve bilgisayarlı kalibrasyon ile sürüş konforu %100 sıfır ayarına getirilir.
+
+</div>
+
 DSG şanzımanlarda kavrama aşınması; kalkışta **titreme**, vites geçişinde **vuruntu**, geri viteste **silkeleme** ve rampada **kavrama kokusu** ile kendini gösterir. Çift kavrama sistemleri manuel şanzımana göre daha karmaşıktır; hem mekanik hem elektronik kontrol gerekir. Aşınma zamanla doğaldır; sürüş tarzı ve bakım kalitesi ömrü doğrudan etkiler.
 
 2026 yılı için *DSG kavrama değişimi fiyatı*, model, kavrama tipi (kuru/ıslak) ve işçilik kapsamına göre değişir. Değişimde OEM veya üst segment Aftermarket kavrama seti, volant kontrolü/değişimi ve **adaptasyon‑kalibrasyon** süreçleri kritik önemdedir. Kavrama değişimi sırasında volant durumu da kontrol edilmelidir; hasarlı volant ile takılan yeni kavrama kısa sürede aşınır.
@@ -61,41 +67,20 @@ DSG şanzımanlarda kavrama aşınması; kalkışta **titreme**, vites geçişin
 7. Adaptasyon ve kalibrasyon  
 8. Soğuk/sıcak yol testi ve doğrulama
 
-## 2026 DSG Kavrama Değişimi Fiyat Listesi
+## 2026 DSG Kavrama Grubu Parça ve Değişim Fiyatlandırması
 
-> Tablo değerleri model ve seri numarasına göre netleşir. Kesin teklif için arayın.
+<div class="data-table-wrapper">
 
-Not: Golf 7 DSG kavrama değişimi fiyatı ve Polo DSG kavrama değişimi model ve seri numarasına göre netleşir. Kesin teklif için arayın.
+| Değişim Kapsamı / Türü | Montaj İçeriği | İşlem Süresi | Fiyat Seviyesi |
+| :--- | :--- | :--- | :--- |
+| **Kuru Kavrama Değişimi (DQ200)** | Orijinal LUK Kit + Şim Ayarı + Adaptasyon | 1 İş Günü | Orta/Yüksek |
+| **Islak Kavrama Değişimi (DQ250 / DQ381)** | Fabrikasyon Kit + Yağ/Filtre + Kalibrasyon | 1.5 İş Günü | Yüksek |
+| **Volant Değişimi (Sadece Volant)** | Orijinal Çift Kütleli ZMS | 1 İş Günü | Orta/Yüksek |
+| **Kavrama + Volant Komple Paket** | Tüm Setler + Keçe Bakımı + Kalibrasyon | 2 İş Günü | En Yüksek |
 
-## ✅ DSG KAVRAMA DEĞİŞİMİ AVANTAJLARI
+</div>
 
-<ul class="check-list">
-  <li>İlk günkü performans ve konfor geri gelir</li>
-  <li>Yakıt tüketimi normalize olur (%8–12 düşüş)</li>
-  <li>Mekatronik ve şanzıman ek yük görmez, ömür uzar</li>
-  <li>OEM veya kaliteli Aftermarket seçeneği</li>
-  <li>12–18 ay parça/işçilik garantisi</li>
-  <li>Adaptasyon ve yol testi dahil</li>
-</ul>
-
-:::cta
-
-**SADECE  İSTANBUL AVRUPA YAKASI' na HİZMET VERİYORUZ**
-
-**⚠️ Atölyemiz sadece İstanbul Avrupa Yakası bölgesindeki araçlara hizmet vermektedir. Şehir dışından gelen talepler yoğunluk nedeniyle karşılanamamaktadır.**
-
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-
-:::
-
-| İşlem | Parça | İşçilik | Toplam | Garanti |
-| --- | ---: | ---: | ---: | --- |
-| Çift kavrama seti (kuru – DQ200) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay |
-| Çift kavrama seti (ıslak – DQ250) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay |
-| Volant değişimi (opsiyonel) | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay |
-| Kavrama + Volant kombi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12–18 ay |
-| Adaptasyon/kalibrasyon | – | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik |
+*Not: Aracın şasi numarasındaki OEM referans kodlarına göre nihai rakamlar belirlenir. İşçilik ve parça 1 yıl garantilidir.*
 
 ## Kuru vs Islak Kavrama Karşılaştırması
 
@@ -125,72 +110,22 @@ Not: Golf 7 DSG kavrama değişimi fiyatı ve Polo DSG kavrama değişimi model 
 **SEAT/Škoda:** Leon, Ibiza, Octavia, Superb – Kuru/ıslak seçenekleri ve dayanıklılık testleri  
 **Porsche (PDK), BMW, Mercedes, Land Rover:** Çift kavrama sistemlerinde özel parça/montaj
 
-## Google Harita ve Yorumlar
+## Örnek Vaka (Case Study): 2016 Volkswagen Golf 7 (1.4 TSI DQ200) Kavrama Titremesi
 
-<div class="map-embed">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.234567890123!2d28.85!3d41.01!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAwJzM2LjAiTiAyOMKwNTEnMDAuMCJF!5e0!3m2!1str!2str!4v1234567890" width="100%" height="360" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+**Durum:** Şirinevler'den servisimize başvuran müşterimiz, aracının özellikle trafiğin sıkışık olduğu anlarda 1. vitesten 2. vitese geçerken tüm kasayı sarsacak şekilde "silkelediğini" ve yokuş kalkışlarda güç kaybı yaşadığını bildirdi. Araç 86.000 KM'deydi ve hiç şanzıman bakımı görmemişti.
 
-Gerçek yorumları görün: [Google Haritalar](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
+**Teşhis:** Uyguladığımız cihazlı yol testinde, kavramanın K1 balata kısmının yüzey tolerans sınırlarını aştığı (aşırı ısınma kaynaklı camlaşma) ve mekatronik çatalın kavramayı kapatmakta zorlandığı tespit edildi. DQ200 kuru kavrama için klasik bir periyodik değişim uyarısı olan bu durumda volanta henüz hasar gelmediği görüldü.
 
-## Müşteri Yorumları
+**Uygulama:** Aracın şanzımanı güvenle indirilerek eski kavrama ünitesi üzerindeki tozlar ve çapaklar temizlendi. Kutu içinden çıkan fabrikasyon tolerans şimleri, teknik spektlere (mikrometre ölçümleri) uygun konumlandırılarak "Orijinal LUK DSG Kavrama Kiti" montajlandı. Şanzıman takıldıktan sonra online bilgisayar bağlantısıyla mekatronik kalibrasyon yapıldı. 
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#ea4335;">H</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Hakan Y.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">1 hafta önce</span>
-    </div>
-    <p class="review-text">"Golf 7 DSG'de kavrama kayması başlamıştı. Ustalar kavrama + volant birlikte değiştirdiler. Fiyat uygun, işçilik mükemmel. Adaptasyon sonrası ilk günkü gibi."</p>
-  </div>
-</div>
+**Sonuç:** Aynı gün akşamüstü araç müşterimize teslim edildi. Kalkışlarda ve trafikte dur-kalklarda yaşanan o meşhur titreme ve sarsıldığını hissetme problemi kusursuz şekilde sıfır kilometre ayarına geri döndü. Sadece doğru teşhis sayesinde ekstra volant faturası çıkartılmadan müşteri minimum maliyetle %100 memnuniyet sağladı.
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#4285f4;">K</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Kemal T.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">2 hafta önce</span>
-    </div>
-    <p class="review-text">"Polo DSG'de titreme vardı. Sadece kavrama değiştirdiler, volantı kontrol ettiler sağlam diye değiştirmediler. Dürüst işletme, gereksiz masraf yok."</p>
-  </div>
-</div>
+:::cta
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#fbbc04;">L</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Levent K.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">3 gün önce</span>
-    </div>
-    <p class="review-text">"Audi A3 S-tronic'te kavrama kokusu geliyordu. LUK marka kavrama seti taktılar, garanti verdiler. İşçilik kaliteli, randevu sistemi çalışıyor."</p>
-  </div>
-</div>
+**Trafikte yorucu titremeler çekmek zorunda değilsiniz. Uzun ömürlü DSG kavrama değişimleri için randevunuzu hemen oluşturun:**
 
-## Sık Sorulan Sorular
+- [📞 Ustamızla Görüşün: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp ile Fiyat/Bilgi Alın](https://wa.me/905332623451)
+- [📍 İstanbul Avrupa Yakası Servisimize Gelin](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
-### Kuru ve ıslak kavrama arasındaki fiyat farkı neden?
-Parça yapısı ve dayanım farkları maliyete yansır. Islak tipte yağ‑soğutma sistemi ve toleranslar farklıdır; daha pahalı ama uzun ömürlüdür.
-
-### Volant değişimi zorunlu mu?
-Kontrolde aşınma/tolerans dışı titreşim varsa zorunludur; aksi halde yeni kavrama kısa sürede aşınır. Önce test eder, gerekmedikçe değiştirmeyiz.
-
-### Adaptasyon yapmadan teslim edilir mi?
-Hayır. Değişim sonrası adaptasyon/kalibrasyon uygulanır ve yol testi ile doğrulanır. Bu süreç fiyata dahildir.
-
-### Kavrama ne kadar dayanır?
-Sürüş tarzına bağlıdır. Düzgün kullanımda kuru kavrama 60–100 bin km, ıslak kavrama 100–150 bin km dayanır. Agresif sürüş ömrü kısaltır.
-
-### OEM mi Aftermarket mi kullanmalıyım?
-Garanti kapsamındaysanız OEM önerilir. Kaliteli Aftermarket (LUK, Sachs, Valeo) performansı korur ve daha ekonomiktir.
-
-## İletişim – Yıldızlar Grup DSG Servisi
-
-<p><strong>Adres:</strong> Beykent Sanayi Sitesi Meriç Sk. No.: 179–180 Büyükçekmece / İstanbul</p>
-<p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
-<p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
-<p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
+:::

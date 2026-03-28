@@ -97,13 +97,15 @@ const description = 'DSG şanzıman tamiri, mekatronik onarımı, periyodik bak�
               {/* Image with Overlay - 16:9 format */}
               <div class="relative aspect-video overflow-hidden rounded-t-2xl">
                 <picture>
-                  <source 
-                    type="image/avif"
-                    srcset={`${service.image.replace('.avif', '-320.avif')} 320w, ${service.image.replace('.avif', '-480.avif')} 480w, ${service.image.replace('.avif', '-640.avif')} 640w`}
-                    sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
-                  />
+                  {!service.image.includes("-") ? (
+                    <source 
+                      type="image/webp"
+                      srcset={`${service.image.replace('.webp', '-400.webp')} 400w, ${service.image.replace('.webp', '-480.webp')} 480w, ${service.image.replace('.webp', '-650.webp')} 650w`}
+                      sizes="(min-width: 1024px) 25vw, (min-width: 640px) 50vw, 100vw"
+                    />
+                  ) : null}
                   <img
-                    src={service.image.replace('.avif', '-480.avif')}
+                    src={service.image.includes("-") ? service.image : service.image.replace('.webp', '-480.webp')}
                     alt={service.title}
                     class="w-full h-full object-cover transition-all duration-700 group-hover:scale-110 filter brightness-75 group-hover:brightness-100"
                     loading="lazy"

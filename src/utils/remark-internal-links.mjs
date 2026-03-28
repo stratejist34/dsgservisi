@@ -69,6 +69,12 @@ export default function remarkInternalLinks() {
         paragraphIndex++;
         return;
       }
+
+      // EĞER PARAGRAF İÇİNDE ZATEN BİR LİNK VARSA ATLA
+      // Yoksa CTA butonlarını ve diğer HTML/Markdown linklerini bozuyor/siliyor.
+      let hasLink = false;
+      visit(paragraphNode, 'link', () => { hasLink = true; });
+      if (hasLink) return;
       
       paragraphIndex++;
       

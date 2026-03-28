@@ -38,6 +38,19 @@ export const SITE_CONFIG = {
     weekdays: 'Pazartesi - Cumartesi: 09:00 - 18:00',
     weekend: 'Pazar: Kapalı',
   },
+  guarantee: {
+    duration: '6 Ay',
+    description: '6 ay işçilik ve parça garantisi',
+  },
+  serviceAreas: [
+    'İstanbul Avrupa Yakası',
+    'Büyükçekmece',
+    'Beylikdüzü',
+    'Esenyurt',
+    'Avcılar',
+    'Silivri',
+    'Çatalca'
+  ],
   stats: {
     experience: 15,
     customers: 6500,
@@ -88,49 +101,49 @@ export const SERVICES = [
     title: 'Periyodik Bakımlar',
     description: 'Yağ Değişimi, hava ve yakıt filtreleri gibi 10-15 bin km içinde yenilenmesi gereken parçalar.',
     icon: '🛢️',
-    image: '/images/services/bakim.avif',
+    image: '/images/services/bakim.webp',
   },
   {
     title: 'DSG Şanzıman Tamiri',
     description: 'DSG şanzımanların yağ değişimi, revizyon ve yenileme işlemleri servisimizde yapılır.',
     icon: '⚙️',
-    image: '/images/services/sanziman.avif',
+    image: '/images/services/sanziman.webp',
   },
   {
     title: 'Fren Tamiri',
     description: 'Fren sistemi problemlerinizi hızlı arıza tanları ile hızlı müdahale.',
     icon: '🔧',
-    image: '/images/services/fren.avif',
+    image: '/images/services/fren.webp',
   },
   {
     title: 'Ön Takım & Süspansiyon',
     description: 'Aracınız rot, rut, balans, rotil kolu, rotil gibi parçalardan oluşan süspansiyon sistemi tamiri.',
     icon: '🔩',
-    image: '/images/services/suspansiyon.avif',
+    image: '/images/services/suspansiyon.webp',
   },
   {
     title: 'Triger Değişimi',
     description: 'Motor triger kayışı ve triger seti değişimi ile motorunuzun zamanlamasını koruyun.',
     icon: '⚙️',
-    image: '/images/services/triger.avif',
+    image: '/images/blog/audi-triger-degisimi-fiyatlari-650.webp',
   },
   {
     title: 'Hava Soğutma Sistemi',
     description: 'Aracınızın soğutma sistemi arızaları tanı ve tamir çözümleri.',
     icon: '❄️',
-    image: '/images/services/sogutma.avif',
+    image: '/images/services/sogutma.webp',
   },
   {
     title: 'Elektrik Sistemi',
     description: 'Marş ve Şarj dinamosu arızaları, elektrik hatlarındaki arızalar, müşürler.',
     icon: '⚡',
-    image: '/images/services/elektrik.avif',
+    image: '/images/services/elektrik.webp',
   },
   {
     title: 'Motor Tamiri',
     description: 'Motor arızalarında tamir, yenileme ve bakım servisleri verilir.',
     icon: '🔧',
-    image: '/images/services/motor.avif',
+    image: '/images/services/motor.webp',
   },
 ];
 

@@ -71,8 +71,39 @@ export default function Reviews() {
 
   const widthPctPerCard = 100 / visibleDesktop;
 
+  const schema = {
+    '@context': 'https://schema.org',
+    '@type': 'AutoRepair',
+    name: SITE_CONFIG.shortName,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: SITE_CONFIG.google.rating.toString(),
+      reviewCount: SITE_CONFIG.google.reviewCount.toString(),
+    },
+    review: REVIEWS.map((r) => ({
+      '@type': 'Review',
+      author: {
+        '@type': 'Person',
+        name: r.author,
+      },
+      datePublished: r.date,
+      reviewBody: r.text,
+      reviewRating: {
+        '@type': 'Rating',
+        bestRating: '5',
+        ratingValue: r.rating.toString(),
+        worstRating: '1',
+      },
+    })),
+  };
+
   return (
     <section className="section bg-slate-900 relative overflow-hidden">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(schema) }}
+      />
+
       {/* Background Glow */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-amber-500/5 rounded-full blur-[120px] pointer-events-none"></div>
 

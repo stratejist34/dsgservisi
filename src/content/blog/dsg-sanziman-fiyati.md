@@ -23,6 +23,12 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+2026 yılı DSG şanzıman tamir ve değişim fiyatları; aracın modeline, kavrama tipine (DQ200 Kuru, DQ250/DQ381 Islak) ve arızanın boyutuna göre netleşir. Her arıza komple şanzıman değişimi gerektirmez! Çoğu durumda sorunun kaynağı mekatronik kart tamiri veya kavrama yenileme ile çözülebildiğinden, komple şanzıman değişimine kıyasla **%60'a varan tasarruf** sağlanır. Ağır mekanik hasarlarda ise aracın şase numarasına (VIN) %100 uyumlu "yenilenmiş", "çıkma" veya "sıfır" üniteler garantili olarak entegre edilir.
+
+</div>
+
 :::cta
 # DSG Şanzıman Fiyatları 2025  
 ## Onarım mı Değişim mi?  
@@ -43,11 +49,16 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ## DSG Şanzıman Hizmetleri (Genel)
 
-| Ünite Tipi | Parça | İşçilik | Toplam | Garanti | Süre |
-| --- | ---: | ---: | ---: | --- | --- |
-| Yenilenmiş ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12-18 ay | 3-5 gün |
-| Çıkma ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-12 ay | 3-5 gün |
-| Sıfır ünite | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 24 ay | 5-7 gün |
+<div class="data-table-wrapper">
+
+| Değişim/Onarım Opsiyonu | Mekanik Parça | İşçilik & Yazılım | Tahmini Maliyet | Verilen Garanti Süresi |
+| --- | :--- | :--- | :--- | --- |
+| **Bölgesel Onarım (Tavsiye Edilen)** | Yalnızca Arızalı Parça | Özel Takım & Adaptasyon | Ekonomik Şekilde Çözülür | 12 Ay |
+| **Yenilenmiş Orijinal Ünite** | Fabrikasyon Revizyonlu | Sök-Tak & Kalibrasyon | Yarı Yarıya Tasarruf | 12 - 18 Ay |
+| **Test Edilmiş Çıkma Ünite** | VIN Uyumlu Hatasız | Yazılım Senkronizasyonu | Orta Seviye | 6 - 12 Ay |
+| **Sıfır Sandık Şanzıman** | Kutusunda Komple Yeni | Kurulum & Orijinal Yazılım | En Yüksek Tutar | 24 Ay |
+
+</div>
 
 :::note
 
@@ -281,14 +292,22 @@ Yenilenmiş ünite 12-18 ay, çıkma ünite 6-12 ay, sıfır ünite 24 ay garant
 
 Evet, değişim sonrası yazılım adaptasyonu ve kalibrasyon mutlaka yapılmalıdır. Bu işlemler fiyata dahildir.
 
-## Sonuç
+## Örnek Vaka (Case Study): Komple Değişim İstemiyle Gelen Skoda Superb Arızası
 
-DSG şanzıman fiyatları, şanzıman tipine, model ve ünite kalitesine göre değişir. Kod uyumluluğu kritiktir; yanlış kod seçimi araç çalışmayabilir. Yıldızlar Grup DSG Servisi olarak; kod uyumluluğu kontrolü, şeffaf fiyatlandırma ve garanti ile DSG şanzıman değişimi hizmeti sunuyoruz.
+**Durum:** Şehir dışındaki başka bir serviste "Şanzıman komple dağılmış, sıfır alınması şart" denilerek yüksek bir fatura çıkarılan 2017 model Skoda Superb aracı, çekici ile Yıldızlar Grup atölyesine getirildi.
 
-**araç başında ön teşhis ve servis teklifi için hemen iletişime geçin:**
+**Teşhis:** Yapılan detaylı hidrolik ve elektronik testlerde, şanzıman dişli grubunda (mekanik kısımda) hiçbir aşınma veya kırık olmadığı tespit edildi. Tüm sorun, mekatronik ünitesinin basınç tüpündeki kılcal çatlaktan sızan yağın elektronik devreye zarar vermesinden kaynaklanmaktaydı.
 
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+**Uygulama:** Gereksiz yere şanzımanı komple değiştirmek yerine; sadece mekatronik beyni söküldü. Sızdıran gövde CNC onarım kiti ile güçlendirildi ve elektronik kart profesyonelce lehimlenip yenilendi. Yeni nesil adaptasyon kodlamasıyla işlem tamamlandı.
 
+**Sonuç:** Komple şanzıman değişim maliyeti olan yüzbinlerce liralık rakam yerine, **tam %75 daha düşük bir faturayla** araç ertesi gün müşteriye teslim edildi. İşlem tamamen garantili olarak belgelendirildi.
 
+:::cta
+
+**Komple şanzıman değişimi listesi almadan önce muhakkak ikinci bir görüş (uzman teşhisi) alın. Aracınız bozulduysa bizi arayın:**
+
+- [📞 Bizi Arayın: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp Fiyat Destek Hattı](https://wa.me/905332623451)
+- [📍 Servisimize Yol Tarifi Alın](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::

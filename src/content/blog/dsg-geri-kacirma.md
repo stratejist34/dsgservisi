@@ -23,6 +23,12 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+DSG şanzımanlarda ışıklarda veya yokuşta aracın freni bıraktığınız anda geri kaçırması, genellikle çift kavramanın (özellikle K1 balatasının) aşındığını veya mekatronik basınç tüpündeki hidrolik kayıpları işaret eder. Klasik tam otomatik şanzımanlardan farklı olarak DSG'lerde tork konvertörü (türbün) bulunmadığı için aracı kavramanın "tutma" gücü dengeler. Eğer araç vitesteyken geriye kayıyorsa şanzımanı zorlamamak ve acilen kavrama adaptasyonu veya donanımsal değişimi sağlamak gerekir.
+
+</div>
+
 DSG geri kaçırma sorunu, **DSG şanzımanlarda yokuş yukarı çıkarken veya düşük hızlarda araçın geriye doğru kayması problemidir**. Bu sorun, kavrama aşınması, kavrama kontrol solenoid valfi arızası veya mekatronik modül sorunundan kaynaklanır. Geri kaçırma, kavrama tutuş gücünün yetersiz olduğunu veya kavrama kontrolünün bozulduğunu gösterir.
 
 DSG geri kaçırma sorunu, genellikle kavrama disk aşınması, kavrama kontrol solenoid valfi arızası veya mekatronik adaptasyon kaybından kaynaklanır. Bu durum, sürüş güvenliğini etkileyebilir ve acil müdahale gerektirebilir. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile DSG geri kaçırma sorununu çözüyoruz.
@@ -126,55 +132,19 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 ## DSG Geri Kaçırma Çözümleri
 
-### 1. Adaptasyon Sıfırlama ve Kalibrasyon
+## Geri Kaçırma Sorunu: Çözüm ve Maliyet Analizi
 
-**Belirtiler:** Hafif geri kaçırma, adaptasyon kaybı
+<div class="data-table-wrapper">
 
-**Çözüm:** Mekatronik adaptasyon sıfırlama ve kalibrasyon
+| Arıza Türü / Belirti | Çözüm Yöntemi | Tahmini Onarım Süresi | Ortalama Maliyet Durumu |
+| :--- | :--- | :--- | :--- |
+| **Hafif Geri Kaçırma (Erken Aşama)** | Bilgisayarlı Mekatronik Adaptasyonu | 1 - 2 Saat | Çok Ekonomik |
+| **Vites Geçiş Gecikmesi ve Kaçırma** | Şanzıman Yağı ve Filtre Yenilemesi | 2 - 3 Saat | Ekonomik |
+| **Kalkışta Titreme ile Birlikte** | K1 Kavrama Solenoid Valf Değişimi | 1 - 2 İş Günü | Orta Düzey |
+| **Yokuşlarda Ciddi Kaçırma/Koku** | LUK/Sachs Çift Kavrama Seti Değişimi | 1 - 2 İş Günü | Yüksek |
+| **Volant Sesi ile Birlikte Kaçırma** | Volant ve Kavrama Komple Değişim | 2 - 3 İş Günü | Yüksek |
 
-**Maliyet:** uygun maliyetler
-
-**Süre:** 1-2 saat
-
-### 2. Yağ Değişimi ve Filtre Değişimi
-
-**Belirtiler:** Hafif geri kaçırma, vites geçişlerinde hafif gecikme
-
-**Çözüm:** DSG yağı ve filtre değişimi + adaptasyon
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 saat
-
-### 3. Kavrama Kontrol Solenoid Valf Değişimi
-
-**Belirtiler:** Geri kaçırma, kalkışta titreme
-
-**Çözüm:** Kavrama kontrol solenoid valfi değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 1-2 gün
-
-### 4. Kavrama Değişimi
-
-**Belirtiler:** Şiddetli geri kaçırma, kavrama kokusu
-
-**Çözüm:** Kavrama seti değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
-
-### 5. Volant + Kavrama Değişimi
-
-**Belirtiler:** Geri kaçırma, volant kaynaklı titreşim
-
-**Çözüm:** Volant ve kavrama birlikte değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
+</div>
 
 ## DSG Geri Kaçırma Teşhis Süreci
 
@@ -242,14 +212,22 @@ Evet, özellikle yokuşta tehlikeli olabilir. Arkadaki araçlarla çarpışma ri
 
 Evet, düzenli yağ değişimi (60.000–80.000 km), düzenli bakım ve erken teşhis ile sorunlar önlenebilir.
 
-## Sonuç
+## Örnek Vaka (Case Study): 2016 Model Seat Leon Yokuşta Geri Kayma Şikayeti
 
-DSG geri kaçırma sorunu, kavrama aşınması veya kavrama kontrol solenoid valfi arızası olduğunu gösterir. Erken teşhis ve müdahale, tamir maliyetini önemli ölçüde azaltır ve güvenlik riskini azaltır. Yıldızlar Grup DSG Servisi olarak; doğru teşhis, şeffaf fiyatlandırma ve ekonomik çözümler ile DSG geri kaçırma sorununu çözüyoruz.
+**Durum:** Çekmeköy'de ikamet eden müşterimiz, aracının özellikle dik yokuşlarda freni bıraktığı an D (Drive) konumunda olmasına rağmen 1-2 metre geriye kaçtığını ve kalkışlarda çok ciddi şekilde titrediğini belirterek servisimize başvurdu.
 
-**DSG geri kaçırma sorunu için hemen iletişime geçin:**
+**Teşhis:** Yapılan cihazlı basınç ölçümlerinde mekatronik hidrolik pompasının sağlam olduğu ancak kavrama adaptasyon değerlerinin çok dışında (K1 diski 1 mm aşınma sınırına yaklaşmış) olduğu tespit edildi. Kavramanın tutunma potansiyeli %30'a düşmüştü.
 
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+**Uygulama:** DSG şanzıman araçtan ayrılarak LUK marka orijinal OEM yeni nesil kavrama seti montajı yapıldı. Mekatronik yağı yenilendi ve sökülmüşken çatal yağlamaları yapıldı. Orijinal yazılımla tam adaptasyon sağlandı.
 
+**Sonuç:** Sadece 1.5 iş günü süren işlemin ardından araç yokuş kalkış desteğini (Auto Hold) kusursuz kullanmaya başladı, geri kaçırma ve yarım debriyajda titreme sorunları %100 oranında giderildi. İşleme 1 yıl garanti verildi.
 
+:::cta
+
+**Yokuşlarda geri kaçıran veya koku yapan bir DSG şanzımanı zorlamak büyük hasarlara yol açar. Risk almayın, hemen bize ulaşın:**
+
+- [📞 Bizi Arayın: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp Acil Destek](https://wa.me/905332623451)
+- [📍 Servisimize Yol Tarifi Alın](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::

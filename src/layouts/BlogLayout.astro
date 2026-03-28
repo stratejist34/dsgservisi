@@ -23,7 +23,8 @@ const SITE_URL = Astro.site?.href.replace(/\/$/, '') || 'https://dsgservisi.com'
 // BaseLayout props
 const title = data.seoTitle || data.title;
 const description = data.seoDescription || data.description || '';
-const image = data.ogImage || getBlogFeaturedImage(post);
+const rawImage = data.ogImage || getBlogFeaturedImage(post);
+const image = rawImage && rawImage.endsWith('.jpg') ? rawImage.replace('.jpg', '-1280.webp') : rawImage;
 
 // Dates
 const publishDate = data.publishDate instanceof Date ? data.publishDate : new Date(data.publishDate);
@@ -80,6 +81,17 @@ const breadcrumbData = {
   ],
 };
 
+const faqSchemaData = extractedFaqs && extractedFaqs.length > 0 ? {
+  mainEntity: extractedFaqs.map(faq => ({
+    '@type': 'Question',
+    name: faq.question,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.answer
+    }
+  }))
+} : null;
+
 const localServiceSchema = {
   '@context': 'https://schema.org',
   '@type': 'LocalBusiness',
@@ -107,6 +119,7 @@ const localServiceSchema = {
     <script is:inline type="application/ld+json" set:html={JSON.stringify(localServiceSchema)} />
     <Schema type="BreadcrumbList" data={breadcrumbData} />
     {serviceSchemaData && <Schema type="Service" data={serviceSchemaData} />}
+    {faqSchemaData && <Schema type="FAQPage" data={faqSchemaData} />}
     
     {/* Open Graph */}
     <meta property="og:type" content="article" />

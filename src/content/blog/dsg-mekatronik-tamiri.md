@@ -23,6 +23,12 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+DSG mekatronik tamiri; şanzımanın elektronik ve hidrolik kontrol merkezi olan mekatroniğin, komple devasa ücretlerle değişimi yerine arızalı parçasının onarılarak ekonomik şekilde kurtarılması işlemidir. En yaygın arızalar olan basınç tüpü çatlaması, solenoid valf bozulması ve elektronik kart yanması durumlarında mekatronik laboratuvar ortamında sökülür, yenilenir, bilgisayarlı cihazlarla test edilir ve kalibrasyonu yapılarak araca takılır. Bu sayede komple değişim faturası yerine, %60'a varan oranda daha uygun maliyetle ve 1 yıl garantili olarak sorun kalıcı şekilde çözülebilir.
+
+</div>
+
 DSG mekatronik arızası; **vites geçişinde gecikme**, **vuruntu/titreme**, **emniyet modu** ve **arızaya düşen solenoid/valf** belirtileriyle kendini gösterir. Mekatronik modül, DSG şanzımanın beyni olarak hidrolik basıncı, kavrama açılma-kapanma zamanlamasını ve vites geçiş haritalarını kontrol eder. Elektronik ve mekanik bileşenlerin bir arada bulunduğu karmaşık yapısı, özel teşhis ekipmanı ve deneyim gerektirir.
 
 2026 yılı için *DSG mekatronik tamiri fiyatları*, arıza kapsamına ve parça/işçilik kalitesine göre değişir. Yıldızlar Grup DSG Servisi olarak; mekatronik modül söküm‑test, hidrolik devre onarım, solenoid kontrol/değişim, yazılım adaptasyonu ve **kapsamlı kalibrasyon** süreçlerini üretici standartlarına göre gerçekleştiriyoruz. Mekatronik tamiri, tam değişime göre daha ekonomik bir seçenektir ve doğru teşhisle çoğu arıza onarılabilir.
@@ -68,16 +74,21 @@ DSG mekatronik arızası; **vites geçişinde gecikme**, **vuruntu/titreme**, **
 
 **Aşırı ısınma:** Ağır yük, uzun rampa çıkışları veya yoğun trafik mekatronik sıcaklığını artırır; soğutma yetersiz kalır.
 
-## 2026 DSG Mekatronik Fiyat Listesi
+## 2026 Mekatronik Onarım Fiyatlandırma Çerçevesi
 
-| İşlem | Parça | İşçilik | Toplam | Garanti |
-|-------|-------|---------|--------|---------|
-| Mekatronik revizyonu | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6-12 ay |
-| Solenoid set değişimi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 6 ay |
-| Adaptasyon/kalibrasyon | – | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | İşçilik garantisi |
-| Mekatronik + kavrama kombi | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 📞 Fiyat Sorunuz | 12 ay |
+<div class="data-table-wrapper">
 
-*Not:* **DSG mekatronik arızası fiyatı 2025** ve **2026** karşılaştırmasında, parça tedarik koşulları ve kur etkisi önemlidir. Kesin teklif için arayın.
+| Onarım Kapsamı | Ortalama İşlem Süresi | Fiyat / Maliyet Etkisi | Garanti Kapsamı |
+| :--- | :--- | :--- | :--- |
+| **Mekatronik Valf Temizliği ve Adaptasyon** | 1 İş Günü | Çok Ekonomik | İşçilik Garantisi |
+| **Hidrolik Basınç Tüpü Değişimi (CNC)** | 1 - 2 Gün | Ekonomik | 12 Ay |
+| **Solenoid Valf ve Filtre Değişimleri** | 1 - 2 Gün | Orta Derece | 6-12 Ay |
+| **Mekatronik Elektronik Kart Klonlama / Tamir** | 2 - 3 Gün | Orta/Yüksek | 6 Ay |
+| **Sıfır Komple Mekatronik Montaj ve Yazılım** | 1 - 2 Gün | Lüks Segment (En Yüksek) | 24 Ay |
+
+</div>
+
+*Not:* İşlem detaylarına göre mekatronik revizyonlarında fiyatlar değişmektedir. Doğru maliyeti çıkarmak için cihaza balanıp detaylı arıza taraması yapılmalıdır.
 
 **✅ MEKATRONIK TAMİRİ AVANTAJLARI:**
 
@@ -117,90 +128,23 @@ DSG mekatronik arızası; **vites geçişinde gecikme**, **vuruntu/titreme**, **
 | Garanti | 6-12 ay | 12-24 ay |
 | Uygun Durum | Solenoid/valf arızası, elektronik sorun | Ağır mekanik hasar, yaygın iç arıza |
 
-## Bakım Önerileri
+## Örnek Vaka (Case Study): 2018 Volkswagen Golf (DQ200) Vites Atmama Sorunu
 
-Mekatronik ömrünü uzatmak için DSG yağını üretici tavsiyesine göre zamanında değiştirin. DQ200 kuru kavrama 60.000 km, DQ250 ıslak kavrama 80.000 km aralığında yağ yenilenmeli. Ağır kullanımda (taksi, kurye, yoğun trafik) bu periyot 40.000-50.000 km'ye düşürülmelidir. Yağ kalitesi mekatronik için kritiktir; orijinal spesifikasyondan sapmayın.
+**Durum:** Şişli'den gelen müşterimiz, aracıyla trafikteyken birden "Şanzıman Arızası" uyarısı aldığını ve aracın vites küçültmediğini, 3. viteste takılı kaldığını belirterek servisimize çekici ile ulaştı. Ayrıca kaputun altından belli belirsiz yanık yağ kokusu geliyordu.
 
-## Google Harita ve Yorumlar
+**Teşhis:** Hata kodlarında P189C (Yetersiz hidrolik basınç) tespiti yapıldı. Mekatronik gövde söküldüğünde sentetik şanzıman yağının elektronik mekatronik kart içerisine ince çatlaklardan sızdığı ve kartın voltaj dengesini bozarak solenoidlere kısa devre yaptırdığı anlaşıldı.
 
-<div class="map-embed">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.234567890123!2d28.85!3d41.01!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAwJzM2LjAiTiAyOMKwNTEnMDAuMCJF!5e0!3m2!1str!2str!4v1234567890" width="100%" height="360" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+**Uygulama:** İlk olarak hidrolik kaçak noktaları özel aparatlarla onarıldı, mekatronik tüp sistemi güçlendirildi. Yağdan hasar gören orijinal mekatronik elektronik beyin (kart), özel cihazlarla içerisindeki immobilizer ve vites harita şifreleri kopyalanarak yepyeni bir orijinal VW OEM mekatronik beynine klonlandı. Şanzımana özel mekatronik yağı ve filtre doldurularak araca takıldıktan sonra online kodlaması tamamlandı.
 
-Google yorumlarını inceleyin: [Haritalar sayfası](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
+**Sonuç:** Sadece 2 günlük bir sürede tamamlanan bu mikro-cerrahi tamirat sayesinde, mekatronik ünitesinin tamamını değiştirmek yerine kısmi laboratuvar revizyonuyla sorun aşılmış oldu. Müşterimizin araç değeri korunurken, çıkacak olan yeni mekatronik fatura yükü ortadan kaldırıldı (Yeni DSG beyni fiyatının üçte biri oranında bir onarımla araç teslim edildi).
 
-## Müşteri Yorumları
+:::cta
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#9c27b0;">C</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Cem B.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">2 hafta önce</span>
-    </div>
-    <p class="review-text">"Audi A3'te mekatronik arızası vardı, başka yerde 30 bin dediler. Buraya geldim, sadece solenoid değiştirdiler 12 binde hallettiler. Ustalar çok bilgili, gereksiz iş yapmıyorlar."</p>
-  </div>
-</div>
+**"Şanzıman beyni değişecek" dedilerse hemen panik yapmayın. Mekatronik onarımlarında %100 garantili laboratuvar işlemleri için:**
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#ff9800;">D</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Deniz T.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">1 ay önce</span>
-    </div>
-    <p class="review-text">"Polo DSG emniyet moduna geçiyordu. Mekatronik revizyonu yaptılar, adaptasyon sonrası sorun tamamen çözüldü. Fiyat uygun, işçilik kaliteli. Tavsiye ederim."</p>
-  </div>
-</div>
+- [📞 Uzman Ustamızla Görüşün: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp ile Fiyat ve Bilgi Alın](https://wa.me/905332623451)
+- [📍 İstanbul Avrupa Yakası Servisimize Gelin](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#34a853;">F</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Fatih K.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">3 gün önce</span>
-    </div>
-    <p class="review-text">"Golf 7 DSG'de vites geçişleri sert olmuştu. Ustalar test yaptılar, mekatronik basınç sensörü değiştirdiler. Şimdi ilk günkü gibi yumuşak. Garanti de verdiler."</p>
-  </div>
-</div>
-
-## Sık Sorulan Sorular
-
-### Mekatronik revizyonu mu, değişim mi mantıklı?
-
-Hasar türüne göre değişir. Revizyon; solenoid ve hidrolik devre sorunlarında ekonomik çözümdür. Ağır mekanik hasarda değişim gerekebilir. Biz önce test yapıp en mantıklı seçeneği öneriyoruz.
-
-### Adaptasyon ne kadar sürer?
-
-İşlem sonrası adaptasyon 20–40 dakika arası sürer; ardından sıcak/soğuk testlerle doğrulanır. Toplam 1-2 saat.
-
-### Garanti süresi nedir?
-
-Parça ve işçilik kapsamına göre 6-12 ay garanti sunulur; teklif aşamasında yazılı sunulur.
-
-### Mekatronik tamiri sonrası tekrar arıza yapar mı?
-
-Doğru teşhis ve kaliteli parça kullanımıyla kalıcı çözüm sağlanır. Ancak yağ bakımı ve sürüş tarzı önemlidir.
-
-### Hangi durumlarda mekatronik tamiri yapılamaz?
-
-Elektronik kartlarda yaygın hasar, mekanik kasa çatlağı veya su girişi varsa tam değişim gerekebilir.
-
-## İlgili Hizmetler
-
-- [DSG kavrama değişimi](/dsg-kavrama-degisimi/)
-- [DSG volant değişimi](/dsg-volant-degisimi/)
-- [DSG şanzıman tamiri](/dsg-sanziman-tamiri/)
-- [DSG şanzıman yağı değişimi](/dsg-sanziman-yagi-degisimi/)
-- [DSG şanzıman değişimi](/dsg-sanziman-degisimi/)
-
-## İletişim – Yıldızlar Grup DSG Servisi
-
-<p><strong>Adres:</strong> Beykent Sanayi Sitesi Meriç Sk. No.: 179-180 Büyükçekmece / İSTANBUL</p>
-<p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
-<p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
-<p><strong>Çalışma Saatleri:</strong> Pazartesi-Cumartesi 08:30-18:30, Pazar kapalı</p>
+:::
 

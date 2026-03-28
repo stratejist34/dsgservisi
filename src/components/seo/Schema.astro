@@ -53,6 +53,28 @@ const localBusinessSchema = {
     ratingValue: SITE_CONFIG.google.rating,
     reviewCount: SITE_CONFIG.google.reviewCount,
   },
+  areaServed: SITE_CONFIG.serviceAreas.map(area => ({
+    '@type': 'City',
+    name: area
+  })),
+  makesOffer: [
+    {
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Service',
+        name: 'DSG Şanzıman Tamiri',
+        description: SITE_CONFIG.guarantee.description
+      }
+    },
+    {
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Service',
+        name: 'Mekatronik Onarımı',
+        description: SITE_CONFIG.guarantee.description
+      }
+    }
+  ],
   sameAs: [
     SITE_CONFIG.socialMedia.instagram,
   ].filter(Boolean),  // ← Facebook kaldırıldı + filter eklendi
@@ -68,8 +90,10 @@ const articleSchema = article ? {
   datePublished: article.datePublished,
   dateModified: article.dateModified,
   author: {
-    '@type': 'Organization',
-    name: SITE_CONFIG.name,
+    '@type': 'Person',
+    name: article.author || SITE_CONFIG.name,
+    jobTitle: 'DSG Transmission Specialist',
+    url: new URL('/hakkimizda', Astro.site).toString()
   },
   publisher: {
     '@type': 'Organization',

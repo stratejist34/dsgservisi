@@ -23,6 +23,12 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+Gösterge panelinde P (Park) harfinin yanıp sönmesi ve aracın çalışmaması durumu, DSG şanzıman beyninin (TCU) vites konumunu algılayamadığı zaman devreye soktuğu bir **Güvenlik (Emniyet) Kilidi** işlemidir. Genellikle vites konum sensörü (P0705, P0706) veya mekatronik elektronik kart arızasından kaynaklanır. Kontağı defalarca zorlamak karta kalıcı hasar verebileceğinden araç çekiciyle DSG uzmanına götürülmeli; sorun kart tamiri veya sensör değişimiyle garantili biçimde çözülmelidir.
+
+</div>
+
 :::cta
 # DSG P Yanıp Sönüyor, Araç Çalışmıyor mu?  
 ## Hemen Destek Alın: [📞 0533 262 34 51](tel:05332623451)  
@@ -108,57 +114,19 @@ OBD tarayıcı ile okunan hata kodları:
 
 **Çözüm:** Mekanik parça değişimi veya tamiri
 
-## DSG P Yanıp Sönüyor Araba Çalışmıyor Çözümleri
+## P Yanıp Sönüyor Sorunu Çözüm Yolları ve Maliyet Analizi
 
-### 1. Vites Konum Sensörü Değişimi
+<div class="data-table-wrapper">
 
-**Belirtiler:** P yanıp sönüyor, vites konumu algılanmıyor
+| Arıza Türü / Belirti | Çözüm Yöntemi | Tahmini Onarım Süresi | Ortalama Maliyet Durumu |
+| :--- | :--- | :--- | :--- |
+| **Vites Konumu Algılanmıyor** | Vites Konum Sensörü Değişimi | 2 - 4 Saat | Uygun |
+| **Hafif Yanıp Sönme (Sensör Sapması)** | Yazılımsal Sensör Kalibrasyonu | 1 - 2 Saat | Ekonomik |
+| **Emniyet Modu ve P Arızası** | Elektronik Kart (TCU) Tamiri | 2 - 3 İş Günü | Orta - Yüksek |
+| **P1701 / Ağır Mekatronik Arızası** | Komple Mekatronik Revizyonu | 2 - 3 İş Günü | Yüksek |
+| **Fiziksel Kilitlenme (Mekanik)** | Vites Kolu Mekanizması Tamiri | 1 İş Günü | Orta |
 
-**Çözüm:** Vites konum sensörü değişimi ve kalibrasyonu
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-4 saat
-
-### 2. Vites Konum Sensörü Kalibrasyonu
-
-**Belirtiler:** Hafif P yanıp sönme, vites konumu yanlış algılanıyor
-
-**Çözüm:** Vites konum sensörü kalibrasyonu
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 1-2 saat
-
-### 3. Elektronik Kart Tamiri veya Değişimi
-
-**Belirtiler:** P yanıp sönüyor, emniyet modu, OBD hata kodları
-
-**Çözüm:** Elektronik kart tamiri veya değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
-
-### 4. Mekatronik Revizyonu
-
-**Belirtiler:** Birden fazla arıza belirtisi, yaygın performans kaybı
-
-**Çözüm:** Komple mekatronik revizyonu
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
-
-### 5. Komple Mekatronik Değişimi
-
-**Belirtiler:** Ağır mekanik hasar, yaygın iç arıza, revizyon mümkün değil
-
-**Çözüm:** Komple mekatronik değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
+</div>
 
 ## DSG P Yanıp Sönüyor Araba Çalışmıyor Teşhis Süreci
 
@@ -244,14 +212,22 @@ Arıza kapsamına göre değişir. Vites konum sensörü değişimi uygun maliye
 
 Evet, düzenli bakım, erken teşhis ve vites konum sensörü kontrolü ile sorunlar önlenebilir.
 
-## Sonuç
+## Örnek Vaka (Case Study): 2015 Model Audi A3 "P Yanıp Sönmesi" ve Marş Basmama Sorunu
 
-DSG P yanıp sönüyor araba çalışmıyor sorunu, vites konumu algılama hatasını gösteren ciddi bir arızadır. Erken teşhis ve müdahale, tamir maliyetini önemli ölçüde azaltır. Yıldızlar Grup DSG Servisi olarak; doğru teşhis, şeffaf fiyatlandırma ve ekonomik çözümler ile DSG P yanıp sönüyor sorununu çözüyoruz.
+**Durum:** Müşterimiz aracını park edip 2 saat sonra geri döndüğünde, göstergedeki "P" harfinin sürekli yanıp söndüğünü ve anahtarı çevirmesine rağmen marş motorunun hiç tepki vermediğini belirterek servisimizden acil çekici talep etti. 
 
-**DSG P yanıp sönüyor sorunu için hemen iletişime geçin:**
+**Teşhis:** Araç atölyemize alındıktan sonra orijinal diyagnostik cihazına bağlandı. Şanzıman beyni (TCU) ile motor beyni (ECU) arasında iletişimin koptuğu ve **P0706 (Vites Konum Sensörü Aralık Hatası)** kodunun kaydedildiği görüldü. Mekatronik kart kapağı açıldığında, kartın işlemci bölgesinde hafif yağ sızıntısına bağlı kısa devre saptandı.
 
-- [📞 0533 262 34 51](tel:05332623451)
-- [WhatsApp Randevu](https://wa.me/905332623451)
-- [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+**Uygulama:** Aracın mekatronik elektronik kartı (TCU) atölyemizde sökülerek mikro hassasiyette onarıldı, lehim tazelemesi yapıldı ve vites konum sensörü yenilendi. Kart onarımı sonrasında ünite toplanıp araca özel yeni adaptasyon yazılımı atıldı.
 
+**Sonuç:** İşlem 2 iş günü sürdü. Araç normal şekilde tek marşta çalıştı ve tüm vites pozisyonlarını (P, R, N, D) sorunsuz algıladı. Sadece bozulan elektronik kart kısmı onarıldığı için komple mekatronik değişimine kıyasla **%60 maliyet avantajı** sağlandı ve araca 1 yıl garanti verildi.
 
+:::cta
+
+**Göstergede P harfi yanıp sönüyor ve aracınız çalışmıyorsa aracı zorlamayın. Ücretsiz ön bilgi ve çekici desteği için bizi arayın:**
+
+- [📞 Bizi Arayın: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp Acil Destek Hattı](https://wa.me/905332623451)
+- [📍 Servisimize Yol Tarifi Alın](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::

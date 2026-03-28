@@ -21,6 +21,12 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+DSG şanzımanlı araçlarda "Tak-Tak" veya rölantide şasiyi titreten sarsıntılar, motor ile şanzıman arasındaki torku dengeleyen **Çift Kütleli Volantın (Flywheel)** iç yaylarının kırıldığını veya boşluk yaptığını gösterir. Değişimi sırasında (şanzıman söküleceği için) kavrama balataları ve bilyalarının da mutlaka orijinal LUK / SACHS setlerle yenilenmesi gerekir. Ertelemek, kopan parçaların mekatronik gövdeyi veya krank mili keçesini delmesine neden olarak çıkacak masrafı 3 katına katlayabilir.
+
+</div>
+
 :::cta
 
 **DSG VOLANT DEĞİŞİMİ VE ŞEHİR DIŞI DANIŞMANLIK İÇİN ÖNEMLİ UYARI:**
@@ -75,13 +81,17 @@ Volant değişimi sırasında kavrama seti mutlaka yenilenmelidir. Eski kavrama 
 6. Montaj ve adaptasyon – mekatronik öğrenme
 7. Yol testi – titreşim, ses, geçiş kalitesi
 
-## 2025 DSG Volant Değişimi Fiyat Listesi
+## 2026 DSG Volant Değişimi Maliyet Çerçevesi
 
-| İşlem | Maliyet Yaklaşımı |
-| --- | --- |
-| DQ200 Kuru Kavrama Volant + Set | Araç ve parça durumuna göre netleştirilir |
-| DQ250 Islak Kavrama Volant + Set | İşlem öncesi toplam fiyat onayı |
-| Volant Yüzey İşleme | Çoğu durumda değişime göre daha ekonomiktir |
+<div class="data-table-wrapper">
+
+| Değişim/Onarım Opsiyonu | Parça Kalitesi | İşçilik Kapsamı | Ortalama Maliyet Seviyesi |
+| :--- | :--- | :--- | :--- |
+| **Sadece Volant Değişimi** | LUK/Sachs Orijinal OEM | Sök-Tak & Kalibrasyon | Orta Düzey |
+| **Volant + Kavrama Seti (Tavsiye Edilen)** | Fabrikasyon Yeni Set | Şanzıman İndirme + Adaptasyon | Yüksek Düzey |
+| **Volant Yüzey İşleme (Torna)** | Mevcut Parça İşlemi | Sadece Hasar Hafifse Geçerli | Ekonomik |
+
+</div>
 
 *Net fiyat, kontrol sonrası işlem başlamadan önce bildirilir.*
 
@@ -119,85 +129,23 @@ Orijinal volant LuK, Sachs veya VW parçası olarak gelir. Kaliteli yan sanayi (
 
 Volant kontrolü kavrama değişimi sırasında mutlaka yapılmalıdır. Yüzeyde aşınma/çatlak/parlama varsa yenilenmeli veya taşlanmalıdır. Çift kütleli volant iç yayları 150–200 bin km sonrası yıpranabilir; ses başlarsa değişim gerekir.
 
-## Google Harita ve Yorumlar
+## Örnek Vaka (Case Study): 2019 Skoda Octavia DSG Volant Sesi ve Titreme
 
-<div class="map-embed">
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3015.234567890123!2d28.85!3d41.01!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDHCsDAwJzM2LjAiTiAyOMKwNTEnMDAuMCJF!5e0!3m2!1str!2str!4v1234567890" width="100%" height="360" style="border:0;" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-  </div>
+**Durum:** Müşterimiz aracını özellikle sabah ilk çalıştırdığında (soğuk motorda) kaput altından vuruntulu metalik "çıt-çıt-tak" sesleri geldiğini ve P veya N konumundayken bütün gövdenin titrediğini şikayet ederek servisimize başvurdu. Araç 130.000 KM'deydi.
 
-[Google Haritalar gerçek yorumlar](https://maps.app.goo.gl/gDpUepbcoo6AwpZN7)
+**Teşhis:** Lift üzerinde yapılan inceleme ve steteskop ölçümlerinde sesin doğrudan motorla şanzıman birleşme noktasından geldiği kesinleşti. DSG DQ200 kuru kavramaya ait çift kütleli volantın iç denge yaylarından ikisinin koptuğu ve büyük bir eksantrik boşluk oluşturduğu anlaşıldı.
 
-## Müşteri Yorumları
+**Uygulama:** Şanzıman güvenli şekilde indirilerek volanta ulaşıldı. Dağılmak üzere olan eski volant, orijinal LUK marka çift kütleli yeni set ile değiştirildi. Hazır şanzıman inmişken müşteri onayıyla kavramadaki kronik aşınmalar da sıfır OEM set ile yenilendi. Sistem adaptasyon ve kalibrasyonla fabrikasyon değerlere çekildi.
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#0f9d58;">A</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Ahmet Y.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">1 hafta önce</span>
-    </div>
-    <p class="review-text">"Golf DSG'de tak‑tak sesi vardı. Volant ve kavrama setini değiştirdiler. Ses kesildi, sürüş konforu arttı. Garanti verdiler."</p>
-  </div>
-</div>
+**Sonuç:** Sadece 1.5 günlük kapsamlı işçilik sonucunda araçtaki sabah sarsıntıları, rölanti titremesi ve vuruntu sesi ustalarımızın ellerinden %100 oranında silindi. Erken müdahaleyle motor bloğunun zarar görmesi engellenmiş ve tüm parçalar garantili olarak yenilenmiştir. 
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#ff6d00;">B</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Berk M.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">3 gün önce</span>
-    </div>
-    <p class="review-text">"Polo DSG'de titreşim vardı. Volant kontrolü yaptılar, yüzey işleme yeterli oldu. Fiyat uygun, işçilik kaliteli."</p>
-  </div>
-</div>
+:::cta
 
-<div class="review-card">
-  <div class="review-avatar" style="background:#2196f3;">C</div>
-  <div class="review-content">
-    <div class="review-meta">
-      <strong>Cem S.</strong>
-      <div class="review-stars">★★★★★</div>
-      <span class="review-date">2 hafta önce</span>
-    </div>
-    <p class="review-text">"Passat DSG kavrama değişiminde volant da yenilediler. Orijinal parça, 2 yıl garanti. Titreşim kalmadı."</p>
-  </div>
-</div>
+**Motor çalışırken metalik vuruntu duyuyor veya rölantide direksiyona kadar titreme hissediyorsanız derhal bizi arayın:**
 
-## Sık Sorulan Sorular
+- [📞 Bizi Arayın: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp ile Sesi / Videoyu Bize Gönderin](https://wa.me/905332623451)
+- [📍 Servisimize Yol Tarifi Alın](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
 
-### Volant ne zaman değiştirilir?
-
-Ses, titreşim, yüzey hasarı veya iç yay eskimesi varsa. Genellikle kavrama değişimi sırasında kontrol edilir.
-
-### Volant taşlama yeterli mi?
-
-Yüzey aşınması hafifse ve iç yaylar sağlamsa yeterli. İç ses varsa komple değişim gerekir.
-
-### Tek kütleli volant kullanılabilir mi?
-
-Bazı modellerde uygulanır; fakat motor titreşimi artar. Konfordan ödün verildiği için tavsiye edilmez.
-
-### Volant değişiminde kavrama da yenilenir mi?
-
-Evet. Eski kavrama yeni volantla kullanılırsa erken yıpranma ve tekrarlayan arıza görülebilir.
-
-### Yan sanayi volant kullanılabilir mi?
-
-Kaliteli markalar (LuK, Sachs, Valeo) kullanılabilir; ancak orijinal parça garanti kapsamında tercih edilmelidir.
-
-## İlgili Hizmetler
-
-- [DSG kavrama değişimi](/dsg-kavrama-degisimi/)
-- [DSG şanzıman tamiri](/dsg-sanziman-tamiri/)
-- [DSG mekatronik tamiri](/dsg-mekatronik-tamiri/)
-- [DSG şanzıman değişimi](/dsg-sanziman-degisimi/)
-
-## İletişim – Yıldızlar Grup DSG Servisi
-
-<p><strong>Adres:</strong> Beykent Sanayi Sitesi Meriç Sk. No.: 179-180 Büyükçekmece / İSTANBUL</p>
-<p><strong>Telefon:</strong> <a href="tel:05332623451">0533 262 34 51</a> – <strong>WhatsApp:</strong> <a href="https://api.whatsapp.com/send?phone=905332623451">Hemen Yaz</a></p>
-<p><strong>Konum:</strong> <a href="https://maps.app.goo.gl/gDpUepbcoo6AwpZN7" target="_blank">Google Haritalar</a></p>
-<p><strong>Çalışma Saatleri:</strong> Pazartesi–Cumartesi 08:30–18:30, Pazar kapalı</p>
+:::
 

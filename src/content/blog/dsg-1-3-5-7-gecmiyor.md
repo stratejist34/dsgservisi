@@ -23,6 +23,12 @@ areaServed: ["İstanbul", "Beylikdüzü", "Büyükçekmece", "Esenyurt", "Avcıl
 
 ---
 
+<div class="tldr-box">
+
+DSG şanzımanlarda aracın tek numaralı viteslere (1, 3, 5, 7) geçmemesi, DSG'nin içerisinde bulanan iki farklı kavramadan K1 (Birinci Kavrama) biriminin kontrolünü sağlayan mekatronik valfindeki arızayı veya doğrudan o kavramanın yanarak bittiğini gösterir. Bu durumda diğer vitesler (2, 4, 6) normal çalışmaya devam etmeye çalışsa da araç koruma moduna geçebilir. Eğer sorun sadece hidrolik/elektronik kontrol valfinde ise kavrama değiştirilmeden (şanzıman sökülmeden) sadece dışarıdan mekatronik onarımıyla %60 oranında kârlı bir çözüm üretilebilir.
+
+</div>
+
 DSG 1 3 5 7 geçmiyor sorunu, **DSG şanzımanlarda tek numaralı viteslerin (1, 3, 5, 7) geçmediği veya zor geçtiği ciddi bir arızadır**. DSG şanzımanlar çift kavrama sistemi kullanır; birinci kavrama tek numaralı vitesleri (1, 3, 5, 7), ikinci kavrama çift numaralı vitesleri (2, 4, 6) kontrol eder. Tek numaralı viteslerin geçmemesi, birinci kavrama veya ilgili mekatronik bileşenlerde sorun olduğunu gösterir.
 
 DSG 1 3 5 7 geçmiyor sorunu, genellikle birinci kavrama aşınması, kavrama kontrol solenoid valfi arızası veya mekatronik modül sorunundan kaynaklanır. Bu durum, sürüş konforunu ve güvenliğini etkileyebilir. Yıldızlar Grup DSG Servisi olarak; **doğru teşhis**, **şeffaf fiyatlandırma** ve **ekonomik çözümler** ile DSG 1 3 5 7 geçmiyor sorununu çözüyoruz.
@@ -118,57 +124,19 @@ DSG yağı zamanla kirlenir; metal partiküller mekatronik içinde birikir ve va
 
 **Çözüm:** Volant değişimi (gerekirse kavrama ile birlikte)
 
-## DSG 1 3 5 7 Geçmiyor Çözümleri
+## DSG 1, 3, 5, 7 Geçiş Hatalarının Çözüm Yolları
 
-### 1. Yağ Değişimi ve Filtre Değişimi
+<div class="data-table-wrapper">
 
-**Belirtiler:** Hafif 1 3 5 7 geçiş sorunu, vites geçişlerinde hafif gecikme
+| Arıza Türü / Belirti | Çözüm Yöntemi | Tahmini Onarım Süresi | Ortalama Maliyet Durumu |
+| :--- | :--- | :--- | :--- |
+| **Hafif Geçiş Gecikmesi & Pütürler** | DSG Şanzıman Yağı ve Filtresi Değişimi | 2 - 3 Saat | Çok Ekonomik |
+| **Tek Numaralı Viteslerde Vuruntu** | K1 Kavrama Solenoid Valf Değişimi | 1 - 2 İş Günü | Ekonomik |
+| **Kalkışta (1. Vites) Titreme & Silkeleme** | DSG Kavrama Seti (K1/K2) Komple Değişim | 2 - 3 İş Günü | Yüksek |
+| **Araç Koruma Modu (Tüm Vitesler İptal)** | Mekatronik Elektronik Kart ve Valf Revizyonu | 2 - 3 İş Günü | Lüks Segment |
+| **Geçiş Yok ve Alt Taraftan Metalik Ses** | Volant ve Kavrama Setinin Birlikte Değişimi | 2 - 3 İş Günü | En Yüksek |
 
-**Çözüm:** DSG yağı ve filtre değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 saat
-
-### 2. Birinci Kavrama Kontrol Solenoid Valf Değişimi
-
-**Belirtiler:** 1 3 5 7 geçmiyor, kalkışta titreme
-
-**Çözüm:** Birinci kavrama kontrol solenoid valfi değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 1-2 gün
-
-### 3. Birinci Kavrama Değişimi
-
-**Belirtiler:** 1 3 5 7 geçmiyor, kalkışta titreme, yokuşta geri kaçırma
-
-**Çözüm:** Birinci kavrama seti değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
-
-### 4. Mekatronik Revizyonu
-
-**Belirtiler:** Birden fazla arıza belirtisi, yaygın performans kaybı
-
-**Çözüm:** Komple mekatronik revizyonu (birinci kavrama kontrolü dahil)
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
-
-### 5. Volant + Kavrama Değişimi
-
-**Belirtiler:** 1 3 5 7 geçmiyor, volant kaynaklı titreşim
-
-**Çözüm:** Volant ve birinci kavrama birlikte değişimi
-
-**Maliyet:** uygun maliyetler
-
-**Süre:** 2-3 gün
+</div>
 
 ## DSG 1 3 5 7 Geçmiyor Teşhis Süreci
 
@@ -233,6 +201,26 @@ Sorun birinci kavrama ile sınırlıdır. İkinci kavrama normal çalışıyorsa
 
 Evet, düzenli yağ değişimi (60.000–80.000 km), düzenli bakım ve erken teşhis ile sorunlar önlenebilir.
 
+## Örnek Vaka (Case Study): 2017 Seat Leon (DQ200) Sadece Çift Viteslere Geçme Sorunu
+
+**Durum:** Müşterimiz aracın D (Drive) veya S (Sport) modundayken 1. vitesi atlayarak doğrudan 2. vitesle kalkış yapmaya çalıştığını, 3. vitese hiç girmediğini ve devir yükseldikçe direkt 4. vitese atladığını belirtti. Performans büyük ölçüde düşmüştü ve göstergede arıza lambası yanıyordu.
+
+**Teşhis:** Araç atölyemize çekici ile alındı. OBD II diagnostik kontrolünde P189C kodlu "Solenoid Valf K1 Kısa Devre / Yetersiz Basınç" arızası mevcuttu. Şanzımanın tamamen inmesine veya debriyaj setinin sökülmesine "gerek olmadığı" tespit edildi. Sorunun kalbi mekatronik gövde üzerindeydi.
+
+**Uygulama:** Araç life kaldırılarak mekatronik blok güvenli şekilde dışarı alındı. Sadece tek numaralı viteslerin kavrama çatalını iten yüksek basınçlı solenoid valfin ucuna partikül (çapak) sıkıştığı saptandı. Mekatronik yağı tamamen yenilendi, hat filtreleri temizlendi ve tıkanan orijinal K1 valfi sıfırı ile değiştirildi. Parçalar araca takılıp kalibrasyon yazılımı atıldı.
+
+**Sonuç:** Sadece 4 saat içinde gerçekleştirilen bu mikro-işlem sayesinde, araç orijinal geçiş haritasına geri döndü. Tüm tek haneli viteslere (1, 3, 5 ve 7) geçiş saniyenin onda biri hızında yeniden senkronlandı. Tamamen gereksiz yere çift kavrama baskı-balata değişimi masrafından kurtulan müşteri, üçte bir bedelle aracını %100 sorunsuz teslim aldı. 
+
+:::cta
+
+**Belirli vitesler geçmiyorsa veya araç koruma modundaysa DSG beyni daha fazla yorulmadan bize ulaşın:**
+
+- [📞 Ustamızla Görüşün: 0533 262 34 51](tel:05332623451)
+- [💬 WhatsApp ile Arıza Işığını Bize Atın](https://wa.me/905332623451)
+- [📍 İstanbul Beylikdüzü / Büyükçekmece Servisimize Gelin](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
+
+:::
+
 ## Sonuç
 
 DSG 1 3 5 7 geçmiyor sorunu, birinci kavrama veya ilgili mekatronik bileşenlerde sorun olduğunu gösterir. Erken teşhis ve müdahale, tamir maliyetini önemli ölçüde azaltır. Yıldızlar Grup DSG Servisi olarak; doğru teşhis, şeffaf fiyatlandırma ve ekonomik çözümler ile DSG 1 3 5 7 geçmiyor sorununu çözüyoruz.
@@ -242,5 +230,3 @@ DSG 1 3 5 7 geçmiyor sorunu, birinci kavrama veya ilgili mekatronik bileşenler
 - [📞 0533 262 34 51](tel:05332623451)
 - [WhatsApp Randevu](https://wa.me/905332623451)
 - [Konum Tarifi](https://maps.app.goo.gl/vmZyp6qu3pCgE8vRA)
-
-
