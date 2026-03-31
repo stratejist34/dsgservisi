@@ -2,7 +2,8 @@
 import Header from "@components/common/Header.astro";
 import Footer from "@components/common/Footer.astro";
 import LazyFloatingWidgets from "@components/common/LazyFloatingWidgets";
-import { SITE_CONFIG } from "@utils/constants";
+import { buildBusinessNode, buildWebSite } from "@/lib/schema";
+import { SITE_CONFIG as LEGACY_SITE_CONFIG } from "@utils/constants";
 import "@styles/global.css";
 import "@styles/reveal.css";
 
@@ -21,6 +22,10 @@ const {
 } = Astro.props;
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+const rootSchema = {
+  "@context": "https://schema.org",
+  "@graph": [buildWebSite(), buildBusinessNode()],
+};
 
 // Sayfa kimliğini belirle (gtag etkinlikleri için)
 const path = Astro.url.pathname;
@@ -306,6 +311,7 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
       )
     }
 
+    <script type="application/ld+json" set:html={JSON.stringify(rootSchema)} />
     <slot name="head" />
   </head>
   <body class="smooth-scroll">
@@ -331,7 +337,7 @@ else if (path.includes("/blog")) pageId = "blog_sayfasi";
     <LazyFloatingWidgets
       client:idle
       pageId={pageId}
-      phone={SITE_CONFIG.phone}
+      phone={LEGACY_SITE_CONFIG.phone}
       title={title}
       canonicalURL={canonicalURL.toString()}
     />

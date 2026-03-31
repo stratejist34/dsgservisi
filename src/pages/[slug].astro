@@ -1,42 +1,132 @@
 ---
+import { createMarkdownProcessor } from "@astrojs/markdown-remark";
 import { getCollection } from "astro:content";
-import BlogLayout from "@layouts/BlogLayout.astro";
+import rehypeSlug from "rehype-slug";
+import remarkBreaks from "remark-breaks";
+import remarkDirective from "remark-directive";
 import BlogCard from "@components/blog/BlogCard.astro";
+import ServiceInfoBlocks from "@components/blog/ServiceInfoBlocks.astro";
 import TableOfContents from "@components/blog/TableOfContents.tsx";
+import { HOWTO_PAGES } from "@/lib/howto-pages";
+import { PRICE_RANGES } from "@/lib/service-price-ranges";
+import { buildBlogGraph } from "@/lib/schema";
+import BlogLayout from "@layouts/BlogLayout.astro";
+import remarkCallouts from "@utils/remark-callouts.mjs";
+import remarkInternalLinks from "@utils/remark-internal-links.mjs";
+import { SITE_CONFIG } from "@utils/constants";
 import {
-  findRelatedPosts,
   calculateReadingTime,
-  extractPriceRangeFromHtml,
   extractFaqsFromHtml,
+  findRelatedPosts,
+  getBlogFeaturedImage,
   getCategorySlugs,
   isPublishedPost,
 } from "@utils/content";
-import { getBlogFeaturedImage } from "@utils/content";
-import ServiceInfoBlocks from "@components/blog/ServiceInfoBlocks.astro";
+
+const globalMarkdownProcessor = globalThis as typeof globalThis & {
+  __dsgBlogMarkdownProcessor?: ReturnType<typeof createMarkdownProcessor>;
+};
+
+const markdownProcessorPromise =
+  globalMarkdownProcessor.__dsgBlogMarkdownProcessor ??
+  createMarkdownProcessor({
+    shikiConfig: {
+      theme: "github-dark",
+      wrap: true,
+    },
+    remarkPlugins: [
+      remarkBreaks,
+      remarkDirective,
+      remarkCallouts,
+      remarkInternalLinks,
+    ],
+    rehypePlugins: [rehypeSlug],
+  });
+
+globalMarkdownProcessor.__dsgBlogMarkdownProcessor = markdownProcessorPromise;
+
+function wrapFaqSection(html: string) {
+  if (!html || html.includes('class="faq-section"')) {
+    return html;
+  }
+
+  const h2Regex = /<h2[^>]*>([\s\S]*?)<\/h2>/gi;
+  let faqHeadingMatch: RegExpExecArray | null = null;
+
+  for (const match of html.matchAll(h2Regex)) {
+    const headingText = match[1]
+      .replace(/<[^>]+>/g, " ")
+      .replace(/\s+/g, " ")
+      .trim()
+      .toLowerCase();
+
+    if (/s[ıi]k\s*sorulan\s*sorular/u.test(headingText)) {
+      faqHeadingMatch = match;
+      break;
+    }
+  }
+
+  if (!faqHeadingMatch || faqHeadingMatch.index === undefined) {
+    return html;
+  }
+
+  const sectionStart = faqHeadingMatch.index;
+  const sectionBodyStart = sectionStart + faqHeadingMatch[0].length;
+  const remainingHtml = html.slice(sectionBodyStart);
+  const nextH2Match = remainingHtml.match(/<h2[^>]*>/i);
+  const sectionEnd =
+    nextH2Match?.index !== undefined
+      ? sectionBodyStart + nextH2Match.index
+      : html.length;
+
+  const faqSection = html.slice(sectionStart, sectionEnd);
+
+  return `${html.slice(0, sectionStart)}<div class="faq-section">${faqSection}</div>${html.slice(sectionEnd)}`;
+}
+
+function splitContentHtml(html: string) {
+  const tableEndTag = "</table>";
+  const tableIdx = html.indexOf(tableEndTag);
+  let part1 = html;
+  let part2 = "";
+
+  if (tableIdx !== -1) {
+    part1 = html.substring(0, tableIdx + tableEndTag.length);
+    part2 = html.substring(tableIdx + tableEndTag.length);
+    return { part1, part2 };
+  }
+
+  const h2Matches = [...html.matchAll(/<h2[^>]*>/gi)];
+
+  if (h2Matches.length >= 3) {
+    const splitAt = h2Matches[2].index;
+
+    if (splitAt !== undefined) {
+      part1 = html.substring(0, splitAt);
+      part2 = html.substring(splitAt);
+    }
+  }
+
+  return { part1, part2 };
+}
 
 export async function getStaticPaths() {
-  // Build time'ı logla (debug için)
-  const buildTime = new Date();
-
-  // Yayınlanmış yazılar için route oluştur
   const publishedPosts = await getCollection("blog", ({ data }) =>
     isPublishedPost(data),
   );
 
-  // Gelecek tarihli yazılar için de route oluştur (preview için, noindex ile)
   const allPosts = await getCollection("blog", ({ data }) => !data.draft);
   const scheduledPosts = allPosts.filter((post) => {
     const publishDate =
       post.data.publishDate instanceof Date
         ? post.data.publishDate
         : new Date(post.data.publishDate);
+
     return publishDate > new Date();
   });
 
-  // Kategori slug'larını utility'den al
   const categorySlugs = new Set(getCategorySlugs());
 
-  // Yayınlanmış yazılar (kategori slug'ı olmayanlar)
   const publishedRoutes = publishedPosts
     .filter((post) => !categorySlugs.has(post.slug))
     .map((post) => ({
@@ -44,7 +134,6 @@ export async function getStaticPaths() {
       props: { post, isPublished: true },
     }));
 
-  // Gelecek tarihli yazılar (preview için, kategori slug'ı olmayanlar)
   const scheduledRoutes = scheduledPosts
     .filter((post) => !categorySlugs.has(post.slug))
     .map((post) => ({
@@ -58,161 +147,220 @@ export async function getStaticPaths() {
 const { slug } = Astro.params;
 const { post, isPublished } = Astro.props || {};
 
-// Kategori slug kontrolü - eğer kategori slug'ı ise [category].astro bunu handle edecek
 if (slug && getCategorySlugs().includes(slug.toLowerCase())) {
   return Astro.redirect(`/${slug.toLowerCase()}`, 301);
 }
 
-// Post kontrolü - eğer post yoksa blog'a yönlendir
 if (!post) {
   return Astro.redirect("/blog", 404);
 }
 
-const { Content } = await post.render();
 const data = post.data;
+const markdownProcessor = await markdownProcessorPromise;
 
-// Runtime'da gerçek yayın durumunu kontrol et
+const { code: renderedHtml, metadata } = await markdownProcessor.render(
+  post.body,
+  {
+    frontmatter: data,
+  },
+);
+
 const publishDate =
   data.publishDate instanceof Date
     ? data.publishDate
     : new Date(data.publishDate);
+const updatedDate =
+  data.updatedDate instanceof Date
+    ? data.updatedDate
+    : data.updatedDate
+      ? new Date(data.updatedDate)
+      : publishDate;
 const actuallyPublished = isPublishedPost(data);
 
-// Sadece yayınlanmış yazıları al (ilgili yazılar için - SEO için kritik!)
-const allPostsForRelated = await getCollection(
-  "blog",
-  ({ data }) => !data.draft,
-);
-const publishedPostsForRelated = allPostsForRelated.filter((post) =>
-  isPublishedPost(post.data),
+const allPostsForRelated = await getCollection("blog", ({ data }) => !data.draft);
+const publishedPostsForRelated = allPostsForRelated.filter((entry) =>
+  isPublishedPost(entry.data),
 );
 const relatedPosts = findRelatedPosts(post, publishedPostsForRelated, 3);
 
-// Okuma süresini hesapla
-const readingTime =
-  data.readingTime || calculateReadingTime(Content.toString());
-
-// Tarih formatı
+const html = wrapFaqSection(renderedHtml);
+const { part1, part2 } = splitContentHtml(html);
+const extractedFaqs = extractFaqsFromHtml(html);
+const readingTime = data.readingTime || calculateReadingTime(html);
+const heroImage = getBlogFeaturedImage(post);
+const heroDisplayImage = heroImage.endsWith(".jpg")
+  ? heroImage.replace(".jpg", "-1280.webp")
+  : heroImage;
+const sectionCount =
+  metadata.headings?.filter((heading) => heading.depth === 2).length ||
+  [...html.matchAll(/<h2[^>]*>/gi)].length;
 const formattedDate = publishDate.toLocaleDateString("tr-TR", {
   year: "numeric",
   month: "long",
   day: "numeric",
 });
-
-const html = Content.toString();
-const extractedService = extractPriceRangeFromHtml(html);
-const extractedFaqs = extractFaqsFromHtml(html);
-const heroImage = getBlogFeaturedImage(post);
+const formattedUpdatedDate = updatedDate.toLocaleDateString("tr-TR", {
+  year: "numeric",
+  month: "long",
+  day: "numeric",
+});
+const howtoData = HOWTO_PAGES[post.slug];
+const priceRange = PRICE_RANGES[post.slug];
+const descriptionText = data.description || "";
+const graphSchema = buildBlogGraph({
+  slug: post.slug,
+  title: data.title,
+  description: descriptionText,
+  image: heroImage,
+  datePublished: publishDate.toISOString(),
+  dateModified: updatedDate.toISOString(),
+  author: {
+    name: data.author || "DSG Teknik Ekip",
+    jobTitle: "DSG Şanzıman Uzmanı",
+    url: "https://dsgservisi.com/hakkimizda",
+  },
+  serviceAreas: [
+    "Beylikdüzü",
+    "Esenyurt",
+    "Avcılar",
+    "Küçükçekmece",
+    "Büyükçekmece",
+    "Bakırköy",
+    "İstanbul",
+  ],
+  faqItems: extractedFaqs,
+  howtoData,
+  priceRange,
+});
 ---
 
-<BlogLayout
-  post={post}
-  extractedService={extractedService}
-  extractedFaqs={extractedFaqs}
-  isPublished={actuallyPublished}
->
-  <article class="py-8 bg-transparent">
-    <div class="container mx-auto px-4 py-8">
-      <!-- Breadcrumb, Header ve Info Kutucuklarını Sütun Dışına Alıyoruz -->
-      <div class="w-full mb-12">
-        <!-- Breadcrumb -->
-        <nav class="text-sm text-slate-400 mb-6">
-            <a href="/" class="hover:text-amber-500 transition-colors"
-              >Ana Sayfa</a
-            >
-            <span class="mx-2">/</span>
-            <a href="/blog" class="hover:text-amber-500 transition-colors"
-              >Blog</a
-            >
-            <span class="mx-2">/</span>
-            <span class="text-slate-200 font-medium">{data.title}</span>
-          </nav>
+<BlogLayout post={post} isPublished={actuallyPublished}>
+  <script
+    slot="head"
+    type="application/ld+json"
+    set:html={JSON.stringify(graphSchema)}
+  />
 
-          <!-- Header -->
-          <header class="mb-8">
-            {
-              data.category && (
-                <div class="inline-flex items-center gap-2 bg-amber-500/10 border border-amber-500/20 text-amber-500 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider mb-6">
-                  <span class="w-1.5 h-1.5 rounded-full bg-amber-500 animate-pulse" />
-                  {data.category}
-                </div>
-              )
-            }
-
-            <!-- Title - TEXT-WHITE ZORUNLU -->
-            <h1
-              class="font-display font-bold text-white mb-6 text-3xl md:text-4xl lg:text-5xl leading-tight"
-              style="color: #ffffff !important;"
-            >
-              {data.title}
-            </h1>
-
-            {
-              data.featuredImage && (
-                <div class="mb-10 rounded-2xl overflow-hidden shadow-2xl border border-white/10">
-                  <picture>
-                    <source
-                      type="image/webp"
-                      srcset={`${heroImage.replace('.jpg', '-400.webp')} 400w, ${heroImage.replace('.jpg', '-650.webp')} 650w, ${heroImage.replace('.jpg', '-1280.webp')} 1280w`}
-                      sizes="(max-width: 640px) 600px, (max-width: 1024px) 800px, 1280px"
-                    />
-                    <img
-                      src={heroImage.replace('.jpg', '-1280.webp')}
-                      alt={data.imageAlt || data.title}
-                      class="w-full h-auto object-cover"
-                      loading="eager"
-                      width="1200"
-                      height="675"
-                      decoding="async"
-                    />
-                  </picture>
-                </div>
-              )
-            }
-          </header>
-
-          <!-- 4'lü Hero Bilgi Kutuları (Tam Genişlikte Kalacak) -->
-          <ServiceInfoBlocks slug={post.slug} />
+  <article class="bg-transparent">
+    <header class="relative isolate overflow-hidden bg-slate-900 text-white min-h-[420px] flex items-end">
+      <div class="absolute inset-0">
+        <img
+          src={heroDisplayImage}
+          alt={data.imageAlt || data.title}
+          class="w-full h-full object-cover opacity-40"
+          loading="eager"
+          width="1200"
+          height="630"
+          decoding="async"
+        />
+        <div class="absolute inset-0 bg-gradient-to-t from-slate-900 via-slate-900/70 to-slate-900/30" />
       </div>
 
-      {/* ALT ALAN: Sütunlar (İçerik ve Sidebar) Burada Başlıyor */}
-      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
-        <!-- Sol: İçerik -->
-        <div class="lg:col-span-2 min-w-0">
-          
-          <!-- Blog İçeriği -->
-          <div class="prose prose-lg w-full max-w-none" id="article-content">
-            <Content />
-          </div>
+      <div class="relative z-10 w-full px-4 pb-10 pt-24 max-w-5xl mx-auto sm:px-6 lg:px-8">
+        <div class="flex flex-wrap items-center gap-3 mb-5">
+          {
+            data.category && (
+              <div class="inline-flex items-center gap-2 bg-amber-500/15 border border-amber-500/25 text-amber-400 px-4 py-1.5 rounded-full text-xs font-bold uppercase tracking-wider">
+                {data.category}
+              </div>
+            )
+          }
 
-          <!-- Author Box -->
-          <div
-            class="mt-12 p-6 bg-slate-800/50 rounded-2xl border border-white/10"
-          >
-            <div class="flex items-start gap-4">
-              <div
-                class="w-14 h-14 bg-amber-500 rounded-full flex items-center justify-center text-white font-bold text-xl flex-shrink-0"
-              >
-                {(data.author || "DSG")[0]}
-              </div>
-              <div>
-                <h3 class="font-display font-bold text-white mb-1">
-                  {data.author || "DSG Servisi"}
-                </h3>
-                <p class="text-slate-400 text-sm leading-relaxed">
-                  DSG şanzıman ve mekatronik sistemleri konusunda uzman
-                  ekibimizden bilgilendirici içerikler.
-                </p>
-              </div>
-            </div>
+          <div class="flex flex-wrap gap-3 text-xs font-semibold uppercase tracking-wider text-white/60">
+            <span>{formattedDate}</span>
+            <span>{readingTime} dk okuma</span>
+            <span>{sectionCount} bölüm</span>
           </div>
         </div>
 
-        <!-- Sağ: İçindekiler -->
-        <!-- Grid Column (Static) -->
-        <div class="hidden lg:block lg:col-span-1 lg:pl-4">
-          <!-- Sticky REMOVED per user request -->
-          <div>
+        <h1 class="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight mb-4">
+          {data.title}
+        </h1>
+
+        {
+          descriptionText && (
+            <p class="max-w-3xl text-base sm:text-lg leading-relaxed text-white/75">
+              {descriptionText}
+            </p>
+          )
+        }
+      </div>
+    </header>
+
+    <section class="max-w-7xl mx-auto px-4 pb-2 sm:px-6 lg:px-8">
+      <ServiceInfoBlocks slug={post.slug} />
+    </section>
+
+    <div class="max-w-7xl mx-auto px-4 py-10 sm:px-6 lg:px-8">
+      <div class="grid grid-cols-1 lg:grid-cols-[minmax(0,1fr)_280px] gap-10">
+        <div class="min-w-0" id="blog-content-column">
+          <div class="lg:hidden mb-6">
+            <TableOfContents client:idle contentId="article-content" />
+          </div>
+
+          <div class="overflow-hidden rounded-2xl border border-white/10 mb-8 shadow-xl">
+            <img
+              src={heroDisplayImage}
+              alt={data.imageAlt || data.title}
+              class="w-full h-auto object-cover max-h-[420px]"
+              loading="eager"
+              width="1200"
+              height="630"
+              decoding="async"
+            />
+          </div>
+
+          <div id="article-content">
+            <div class="prose prose-lg w-full max-w-none" set:html={part1} />
+
+            <div class="my-8 p-6 rounded-2xl bg-amber-500/10 border border-amber-500/20 text-center">
+              <p class="text-white font-semibold mb-4">
+                Aracınızın durumu hakkında ücretsiz değerlendirme alın
+              </p>
+              <div class="flex flex-col sm:flex-row gap-3 justify-center">
+                <a
+                  href={`tel:${SITE_CONFIG.phoneTel}`}
+                  class="inline-flex items-center justify-center px-6 py-3 rounded-xl bg-amber-500 text-slate-950 font-bold hover:bg-amber-400 transition-colors"
+                >
+                  Hemen Ara
+                </a>
+                <a
+                  href="/iletisim"
+                  class="inline-flex items-center justify-center px-6 py-3 rounded-xl border border-white/20 text-white hover:bg-white/10 transition-colors"
+                >
+                  Randevu Al
+                </a>
+              </div>
+            </div>
+
+            {
+              part2 && (
+                <div class="prose prose-lg w-full max-w-none" set:html={part2} />
+              )
+            }
+          </div>
+
+          <div class="mt-8 pt-6 border-t border-white/10 text-center">
+            <div class="text-xs font-bold uppercase tracking-wider text-slate-500">
+              Son güncelleme: {formattedUpdatedDate}
+            </div>
+
+            {
+              data.tags && data.tags.length > 0 && (
+                <div class="mt-4 flex flex-wrap items-center justify-center gap-2">
+                  {data.tags.map((tag) => (
+                    <span class="inline-flex items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-[11px] font-semibold uppercase tracking-wider text-slate-300">
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+              )
+            }
+          </div>
+        </div>
+
+        <div class="hidden lg:block">
+          <div class="sticky top-6">
             <TableOfContents client:idle contentId="article-content" />
           </div>
         </div>
@@ -220,17 +368,17 @@ const heroImage = getBlogFeaturedImage(post);
     </div>
   </article>
 
-  <!-- Related Posts -->
   {
     relatedPosts.length > 0 && (
-      <section class="section bg-[#0f172a] border-t border-white/10 relative z-10">
-        <div class="container max-w-7xl">
+      <section class="bg-[#0f172a] border-t border-white/10 relative z-10">
+        <div class="max-w-7xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
           <div class="flex items-center gap-3 mb-10">
             <span class="w-1 h-8 bg-amber-500 rounded-full" />
             <h2 class="font-display font-bold text-white text-2xl md:text-3xl">
               İlgili Yazılar
             </h2>
           </div>
+
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {relatedPosts.map((relatedPost, index) => (
               <BlogCard post={relatedPost} index={index} size="rect-regular" />
@@ -241,37 +389,29 @@ const heroImage = getBlogFeaturedImage(post);
     )
   }
 
-  <!-- CTA Section -->
-  <section
-    class="section relative overflow-hidden py-24 border-t border-white/5"
-  >
-    <div
-      class="absolute inset-0 bg-gradient-to-b from-slate-900 to-black pointer-events-none"
-    >
-    </div>
+  <section class="section relative overflow-hidden py-24 border-t border-white/5">
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-900 to-black pointer-events-none" />
 
     <div class="container max-w-4xl relative z-10 text-center">
-      <div
-        class="inline-block p-3 rounded-full bg-amber-500/10 mb-6 border border-amber-500/20"
-      >
+      <div class="inline-block p-3 rounded-full bg-amber-500/10 mb-6 border border-amber-500/20">
         <svg
           class="w-8 h-8 text-amber-500"
           fill="none"
           stroke="currentColor"
           viewBox="0 0 24 24"
-          ><path
+        >
+          <path
             stroke-linecap="round"
             stroke-linejoin="round"
             stroke-width="1.5"
-            d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg
-        >
+            d="M13 10V3L4 14h7v7l9-11h-7z"
+          />
+        </svg>
       </div>
 
       <h2 class="font-display font-bold mb-6 text-3xl md:text-5xl text-white">
-        Profesyonel <span
-          class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600"
-          >DSG Servis</span
-        > Hizmeti
+        Profesyonel <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-amber-600">DSG Servis</span>
+        Hizmeti
       </h2>
 
       <p class="text-xl text-slate-400 mb-10 leading-relaxed max-w-2xl mx-auto">
@@ -279,9 +419,7 @@ const heroImage = getBlogFeaturedImage(post);
         deneyim ve 6500+ mutlu müşteri ile güvenilir çözümler.
       </p>
 
-      <div
-        class="flex flex-col sm:flex-row gap-6 justify-center w-full max-w-2xl mx-auto sm:max-w-none items-center"
-      >
+      <div class="flex flex-col sm:flex-row gap-6 justify-center w-full max-w-2xl mx-auto sm:max-w-none items-center">
         <a
           href="/iletisim"
           class="w-full sm:w-64 inline-flex items-center justify-center px-8 py-5 rounded-xl bg-amber-500 text-slate-950 text-xl font-bold shadow-[0_0_20px_rgba(245,158,11,0.3)] hover:shadow-[0_0_35px_rgba(245,158,11,0.6)] hover:bg-amber-400 hover:-translate-y-1 transition-all duration-300 border-none whitespace-nowrap"

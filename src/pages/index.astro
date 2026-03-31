@@ -8,7 +8,6 @@ import WhyUs from "@components/home/WhyUs.astro";
 import Reviews from "@components/home/Reviews";
 import RecentBlogPosts from "@components/home/RecentBlogPosts.astro";
 import InstagramFeed from "@components/home/InstagramFeed.astro";
-import Schema from "@components/seo/Schema.astro";
 import { SITE_CONFIG } from "@utils/constants";
 
 const title = `${SITE_CONFIG.name} | VW, Audi, Skoda, Seat DSG Servisi İstanbul`;
@@ -17,7 +16,6 @@ const description = `${SITE_CONFIG.stats.experience}+ yıldır VW, Audi, Seat, S
 
 <BaseLayout title={title} description={description}>
   <Fragment slot="head">
-    <Schema type="local-business" />
     {/* Hero görseli yalnızca anasayfada kullanılıyor — preload sadece burada */}
     <link rel="preload" href="/images/hero-bg-480.webp" as="image" type="image/webp" media="(max-width: 480px)" fetchpriority="high" />
     <link rel="preload" href="/images/hero-bg-768.webp" as="image" type="image/webp" media="(min-width: 481px) and (max-width: 1024px)" fetchpriority="high" />

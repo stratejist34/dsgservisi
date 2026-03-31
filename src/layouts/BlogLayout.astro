@@ -1,24 +1,15 @@
 ---
 import BaseLayout from './BaseLayout.astro';
-import Schema from '@components/seo/Schema.astro';
-import { SITE_CONFIG } from '@utils/constants';
 import type { CollectionEntry } from 'astro:content';
 import { getBlogFeaturedImage } from '@utils/content';
 
 interface Props {
   post: CollectionEntry<'blog'>;
-  extractedService?: any;
-  extractedFaqs?: Array<{ question: string; answer: string }>;
   isPublished?: boolean;
 }
 
-const { post, extractedService, extractedFaqs, isPublished = true } = Astro.props;
-const es = extractedService || {};
+const { post, isPublished = true } = Astro.props;
 const data = post.data;
-const d = data as any;
-
-// Site URL
-const SITE_URL = Astro.site?.href.replace(/\/$/, '') || 'https://dsgservisi.com';
 
 // BaseLayout props
 const title = data.seoTitle || data.title;
@@ -28,102 +19,15 @@ const image = rawImage && rawImage.endsWith('.jpg') ? rawImage.replace('.jpg', '
 
 // Dates
 const publishDate = data.publishDate instanceof Date ? data.publishDate : new Date(data.publishDate);
-const updatedDate = data.updatedDate 
-  ? (data.updatedDate instanceof Date ? data.updatedDate : new Date(data.updatedDate))
-  : publishDate;
-
 const shouldNoIndex = !isPublished || publishDate > new Date();
-
-// Schemas...
-const articleSchema = {
-  title: data.title,
-  description: description,
-  image: image,
-  datePublished: publishDate.toISOString(),
-  dateModified: updatedDate.toISOString(),
-  author: data.author || SITE_CONFIG.name,
-};
-
-const hasService = !!(d.service || d.serviceName || d.serviceType);
-const serviceSchemaData = hasService || es ? {
-  name: d.service?.name || d.serviceName || data.title,
-  serviceType: d.service?.type || d.serviceType || data.category || 'Service',
-  description: d.service?.description || d.serviceDescription || description,
-  provider: { '@id': SITE_URL },
-  areaServed: Array.isArray(d.service?.areaServed || d.areaServed)
-    ? (d.service?.areaServed || d.areaServed).map((city: string) => ({ '@type': 'City', name: city }))
-    : (d.service?.areaServed || d.areaServed)
-      ? { '@type': 'City', name: String(d.service?.areaServed || d.areaServed) }
-      : undefined,
-  offers: (() => {
-    const currency = d.service?.priceCurrency || d.priceCurrency || es.priceCurrency;
-    const offerUrl = d.service?.offerUrl || d.offerUrl || `${SITE_URL}/${post.slug}`;
-    const singlePrice = (d.service?.price ?? d.price ?? es.price);
-    if (singlePrice != null && currency) {
-      return { '@type': 'Offer', price: String(singlePrice), priceCurrency: currency, url: offerUrl };
-    }
-    return undefined;
-  })(),
-  aggregateRating: (d.service?.rating || d.serviceRating) && (d.service?.reviewCount || d.serviceReviewCount) ? {
-    '@type': 'AggregateRating',
-    ratingValue: String(d.service?.rating || d.serviceRating),
-    reviewCount: String(d.service?.reviewCount || d.serviceReviewCount),
-    bestRating: '5',
-    worstRating: '1',
-  } : undefined,
-} : null;
-
-const breadcrumbData = {
-  itemListElement: [
-    { '@type': 'ListItem', position: 1, name: 'Ana Sayfa', item: SITE_URL },
-    { '@type': 'ListItem', position: 2, name: 'Blog', item: `${SITE_URL}/blog` },
-    { '@type': 'ListItem', position: 3, name: data.title, item: `${SITE_URL}/${post.slug}` },
-  ],
-};
-
-const faqSchemaData = extractedFaqs && extractedFaqs.length > 0 ? {
-  mainEntity: extractedFaqs.map(faq => ({
-    '@type': 'Question',
-    name: faq.question,
-    acceptedAnswer: {
-      '@type': 'Answer',
-      text: faq.answer
-    }
-  }))
-} : null;
-
-const localServiceSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': SITE_URL,
-  name: SITE_CONFIG.name,
-  image: image,
-  description: description,
-  url: `${SITE_URL}/${post.slug}`,
-  telephone: SITE_CONFIG.phoneFormatted,
-  address: {
-    '@type': 'PostalAddress',
-    streetAddress: SITE_CONFIG.address.street,
-    addressLocality: SITE_CONFIG.address.city,
-    addressRegion: SITE_CONFIG.address.state,
-    postalCode: SITE_CONFIG.address.postalCode,
-    addressCountry: 'TR',
-  },
-  priceRange: '$$',
-};
 ---
 
 <BaseLayout title={title} description={description} image={image} noindex={shouldNoIndex}>
   <Fragment slot="head">
-    <Schema type="article" article={articleSchema} />
-    <script is:inline type="application/ld+json" set:html={JSON.stringify(localServiceSchema)} />
-    <Schema type="BreadcrumbList" data={breadcrumbData} />
-    {serviceSchemaData && <Schema type="Service" data={serviceSchemaData} />}
-    {faqSchemaData && <Schema type="FAQPage" data={faqSchemaData} />}
-    
     {/* Open Graph */}
     <meta property="og:type" content="article" />
     <meta property="og:image" content={image} />
+    <slot name="head" />
     
     <style is:inline>
       /* Sticky Fix - Critical */
